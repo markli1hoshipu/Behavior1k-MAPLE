@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "behavior1k_mp"
 version = "0.1.0"
-description = "Hybrid motion-planner + X-VLA policy data-collection pipeline for BEHAVIOR-1K."
+description = "MAPLE — hybrid motion-planner + X-VLA policy pipeline for BEHAVIOR-1K (data collection + leaderboard evaluation)."
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
@@ -17,16 +17,23 @@ dependencies = [
     "torch",
 ]
 
-# Optional — required only when actually invoking Mark's diff-IK (the third_party
-# code-path). Install separately in the conda env:  pip install casadi spatial-casadi
-# (Same machine deps as zexternal expected.)
+# Mark's diff-IK requires pytorch_kinematics; install separately in the
+# conda env:  pip install pytorch_kinematics
 
 [project.optional-dependencies]
 dev = ["pytest"]
+
+[project.scripts]
+maple = "behavior1k_mp.__main__:main"
 
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["behavior1k_mp*"]
 
 [tool.setuptools.package-data]
-behavior1k_mp = ["phase_detector/checkpoints/*"]
+# Ship per-task checkpoints + task configs + the R1Pro URDF used by IK.
+behavior1k_mp = [
+    "tasks/*/checkpoints/*",
+    "tasks/*/checkpoints/**/*",
+    "tasks/*/config.yaml",
+]

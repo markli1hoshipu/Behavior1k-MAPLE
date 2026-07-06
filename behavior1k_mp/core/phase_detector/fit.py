@@ -26,7 +26,12 @@ from sklearn.decomposition import PCA
 from ..utils.obs import extract_state_23d
 
 DEFAULT_DATA_DIR = Path("/shared_work/DATASETS/behavior-1k-embodiedAI-rollouts/data/task-0000")
-DEFAULT_CKPT_DIR = Path(__file__).resolve().parent / "checkpoints"
+# Fit script defaults to the turning_on_radio task's checkpoint dir. Override
+# with --ckpt-dir when training a detector for another task.
+DEFAULT_CKPT_DIR = (
+    Path(__file__).resolve().parents[3]
+    / "tasks" / "turning_on_radio" / "checkpoints"
+)
 DEFAULT_HF_INDEX_MAX = 5000  # HF episodes have idx < 5000; collected start at 5000
 
 

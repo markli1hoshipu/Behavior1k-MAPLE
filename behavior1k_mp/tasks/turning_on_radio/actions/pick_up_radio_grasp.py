@@ -40,12 +40,12 @@ import numpy as np
 import torch as th
 from scipy.spatial.transform import Rotation as R
 
-from .base import Action, Executor
-from ..grasp import vertical_descent_waypoints
-from ..ik import DEFAULT_URDF_PATH, solve_ik_r1pro
-from ..utils.action_bridge import linear_bridge_to
-from ..utils.obs import extract_state_23d
-from ..utils.pose import apply_roll_180_deg, pose_in_frame
+from behavior1k_mp.core.action import Action, Executor
+from behavior1k_mp.core.grasp import vertical_descent_waypoints
+from behavior1k_mp.core.ik import DEFAULT_URDF_PATH, solve_ik_r1pro
+from behavior1k_mp.core.utils.action_bridge import linear_bridge_to
+from behavior1k_mp.core.utils.obs import extract_state_23d
+from behavior1k_mp.core.utils.pose import apply_roll_180_deg, pose_in_frame
 
 logger = logging.getLogger(__name__)
 
@@ -106,7 +106,7 @@ class PickUpGraspAction(Action):
         return pose_in_frame(radio_world, robot_world)
 
     def _top_down_grasp_pose(self, radio_in_base: np.ndarray, variant: str = "A") -> np.ndarray:
-        from ..utils.pose import quat_xyzw_to_yaw
+        from behavior1k_mp.core.utils.pose import quat_xyzw_to_yaw
         radio_yaw = quat_xyzw_to_yaw(radio_in_base[3:7])
         grasp_yaw = radio_yaw + self.GRIPPER_YAW_OFFSET_RAD
         grasp_quat_xyzw = R.from_euler("xyz", [0.0, 0.0, grasp_yaw]).as_quat()

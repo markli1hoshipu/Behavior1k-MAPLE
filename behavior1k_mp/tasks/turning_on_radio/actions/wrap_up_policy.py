@@ -18,7 +18,7 @@ import logging
 
 import torch as th
 
-from .base import Action, Executor
+from behavior1k_mp.core.action import Action, Executor
 
 logger = logging.getLogger(__name__)
 

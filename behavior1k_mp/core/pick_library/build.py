@@ -24,7 +24,7 @@ For each HF demo:
      `press_label` we propagate downstream.
 
 Saved to:
-  /shared_work/behavior1k-mp/behavior1k_mp/phase_detector/checkpoints/pick_library/library_pick.pkl
+  /shared_work/behavior1k-mp/behavior1k_mp/tasks/turning_on_radio/checkpoints/pick_library/library_pick.pkl
 """
 from __future__ import annotations
 
@@ -49,11 +49,11 @@ DEFAULT_SCENE_INSTANCE_DIR = Path(
     "house_double_floor_lower/json/house_double_floor_lower_task_turning_on_radio_instances"
 )
 DEFAULT_PRESS_LABELS = Path(
-    "/shared_work/behavior1k-mp/behavior1k_mp/phase_detector/checkpoints/"
+    "/shared_work/behavior1k-mp/behavior1k_mp/tasks/turning_on_radio/checkpoints/"
     "press_modes/episode_labels.json"
 )
 DEFAULT_OUT_PATH = Path(
-    "/shared_work/behavior1k-mp/behavior1k_mp/phase_detector/checkpoints/"
+    "/shared_work/behavior1k-mp/behavior1k_mp/tasks/turning_on_radio/checkpoints/"
     "pick_library/library_pick.pkl"
 )
 

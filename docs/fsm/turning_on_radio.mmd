@@ -1,0 +1,63 @@
+---
+title: turning_on_radio — orchestrator FSM
+---
+stateDiagram-v2
+    direction LR
+    [*] --> navigate_to_radio
+
+    state navigate_to_radio {
+        [*] --> nav
+        nav: X-VLA policy drives base
+        nav --> [*]: pca=nav→pick (debounced)\n& base near target
+    }
+
+    navigate_to_radio --> pick_up_radio_approach
+
+    state pick_up_radio_approach {
+        [*] --> approach
+        approach: retrieval library (bridge + traj)\nemits grasp variant hint A/B
+        approach --> [*]: bridge_len + traj_len frames elapsed
+    }
+
+    pick_up_radio_approach --> pick_up_radio_grasp
+
+    state pick_up_radio_grasp {
+        [*] --> ik
+        ik: Mark's gradient-descent IK\nvertical descent waypoints\n(A or B routed by hint)
+        ik --> [*]: all waypoints converged (err<0.05 rad)
+    }
+
+    pick_up_radio_grasp --> close_right_gripper
+
+    state close_right_gripper {
+        [*] --> hold
+        hold: hold trunk+arms,\nramp R_grip to -1
+        hold --> [*]: HOLD_FRAMES=30
+    }
+
+    close_right_gripper --> press_radio
+
+    state press_radio {
+        [*] --> press
+        press: retrieval library\n(bridge + press-motion traj)
+        press --> [*]: traj complete OR\nradio.toggled_on
+    }
+
+    press_radio --> wrap_up_policy: goal not yet reached
+    press_radio --> [*]: goal reached (task success)
+
+    state wrap_up_policy {
+        [*] --> vla
+        vla: X-VLA policy for up to 300 frames
+        vla --> [*]: pca=press→place OR goal reached OR budget
+    }
+
+    wrap_up_policy --> put_down_radio
+
+    state put_down_radio {
+        [*] --> hold
+        hold: hold pose, base_vel=0
+        hold --> [*]: HOLD_FRAMES=30
+    }
+
+    put_down_radio --> [*]

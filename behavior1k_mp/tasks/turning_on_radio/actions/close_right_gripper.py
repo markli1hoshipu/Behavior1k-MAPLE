@@ -23,8 +23,8 @@ import logging
 import numpy as np
 import torch as th
 
-from .base import Action, Executor
-from ..utils.obs import extract_state_23d
+from behavior1k_mp.core.action import Action, Executor
+from behavior1k_mp.core.utils.obs import extract_state_23d
 
 logger = logging.getLogger(__name__)
 

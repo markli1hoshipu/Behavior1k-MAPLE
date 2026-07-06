@@ -29,17 +29,16 @@ import numpy as np
 import pytorch_kinematics as pk
 import torch as th
 
-from .base import Action, Executor
-from ..ik import DEFAULT_URDF_PATH
-from ..utils.action_bridge import linear_bridge_to
-from ..utils.obs import extract_state_23d
-from ..utils.pose import matrix_to_pose7, pose_in_frame
+from behavior1k_mp.core.action import Action, Executor
+from behavior1k_mp.core.ik import DEFAULT_URDF_PATH
+from behavior1k_mp.core.utils.action_bridge import linear_bridge_to
+from behavior1k_mp.core.utils.obs import extract_state_23d
+from behavior1k_mp.core.utils.pose import matrix_to_pose7, pose_in_frame
 
 logger = logging.getLogger(__name__)
 
 _DEFAULT_LIBRARY_PATH = (
     Path(__file__).resolve().parents[1]
-    / "phase_detector"
     / "checkpoints"
     / "press_modes"
     / "library_press.pkl"

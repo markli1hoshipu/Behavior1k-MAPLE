@@ -20,7 +20,7 @@ from pathlib import Path
 import joblib
 import numpy as np
 
-CKPT = Path("/shared_work/behavior1k-mp/behavior1k_mp/phase_detector/checkpoints")
+CKPT = Path("/shared_work/behavior1k-mp/behavior1k_mp/tasks/turning_on_radio/checkpoints")
 
 # 23-D layout (must match utils/obs.py)
 DIM_NAMES = (

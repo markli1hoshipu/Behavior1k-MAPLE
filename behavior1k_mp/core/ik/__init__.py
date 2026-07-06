@@ -16,7 +16,7 @@ from typing import Any, Optional
 
 import numpy as np
 
-_THIRD_PARTY = Path(__file__).resolve().parents[2] / "third_party"
+_THIRD_PARTY = Path(__file__).resolve().parents[3] / "third_party"
 DEFAULT_URDF_PATH = _THIRD_PARTY / "r1pro.urdf"
 _zexternal_utils_path = _THIRD_PARTY / "zexternal_utils.py"
 _cached_module = None

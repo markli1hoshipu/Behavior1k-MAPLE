@@ -26,17 +26,16 @@ from pathlib import Path
 import numpy as np
 import torch as th
 
-from .base import Action, Executor
-from ..pick_library.lookup import load_library, nearest_entry
-from ..utils.action_bridge import linear_bridge_to, required_bridge_frames
-from ..utils.obs import extract_state_23d
-from ..utils.pose import pose_in_frame
+from behavior1k_mp.core.action import Action, Executor
+from behavior1k_mp.core.pick_library.lookup import load_library, nearest_entry
+from behavior1k_mp.core.utils.action_bridge import linear_bridge_to, required_bridge_frames
+from behavior1k_mp.core.utils.obs import extract_state_23d
+from behavior1k_mp.core.utils.pose import pose_in_frame
 
 logger = logging.getLogger(__name__)
 
 _DEFAULT_LIBRARY_PATH = (
     Path(__file__).resolve().parents[1]
-    / "phase_detector"
     / "checkpoints"
     / "pick_library"
     / "library_pick.pkl"

@@ -11,7 +11,7 @@ Workflow:
   6. Save press_pca.pkl + press_kmeans.pkl + episode_labels.json for runtime use.
 
 All artifacts land in
-  /shared_work/behavior1k-mp/behavior1k_mp/phase_detector/checkpoints/press_modes/
+  /shared_work/behavior1k-mp/behavior1k_mp/tasks/turning_on_radio/checkpoints/press_modes/
 """
 from __future__ import annotations
 
@@ -26,11 +26,11 @@ import pyarrow.parquet as pq
 from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
 
-from behavior1k_mp.utils.obs import extract_state_23d
+from behavior1k_mp.core.utils.obs import extract_state_23d
 
 DEFAULT_DATA_DIR = Path("/shared_work/DATASETS/behavior-1k-embodiedAI-rollouts/data/task-0000")
 DEFAULT_ANN_DIR = Path("/shared_work/DATASETS/behavior-1k-embodiedAI-rollouts/annotations/task-0000")
-DEFAULT_OUT_DIR = Path("/shared_work/behavior1k-mp/behavior1k_mp/phase_detector/checkpoints/press_modes")
+DEFAULT_OUT_DIR = Path("/shared_work/behavior1k-mp/behavior1k_mp/tasks/turning_on_radio/checkpoints/press_modes")
 
 # 18-DOF "active" indices on a 23-D layout: trunk(4) + L-arm(7) + R-arm(7).
 ACT_18DOF_INDEX = list(range(3, 7)) + list(range(7, 14)) + list(range(15, 22))

@@ -1,5 +1,5 @@
 """Re-exports the per-phase action classes."""
-from .base import Action, Executor
+from behavior1k_mp.core.action import Action, Executor
 from .close_right_gripper import CloseRightGripperAction
 from .navigate_to_radio import NavigateToRadioAction
 from .pick_up_radio_approach import PickUpApproachAction

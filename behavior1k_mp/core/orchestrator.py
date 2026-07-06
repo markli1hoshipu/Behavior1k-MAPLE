@@ -29,7 +29,7 @@ from typing import Callable, List, Union
 
 import torch as th
 
-from .actions.base import Action
+from .action import Action
 from .phase_detector.detector import PCAPhaseDetector
 
 logger = logging.getLogger(__name__)

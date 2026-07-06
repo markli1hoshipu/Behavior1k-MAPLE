@@ -1,15 +1,20 @@
 # @package _global_
 #
-# Hydra-instantiable wrapper around behavior1k_mp.hybrid_policy.HybridPolicy.
+# Hydra-instantiable wrapper around behavior1k_mp.core.hybrid_policy.HybridPolicy.
 # Drop a copy into /shared_work/BEHAVIOR-1K/OmniGibson/omnigibson/learning/configs/policy/
 # so eval_data_gen.py can pick it up via `policy=hybrid_mp`.
 
 policy_name: hybrid_mp
 
 model:
-  _target_: behavior1k_mp.hybrid_policy.HybridPolicy
+  _target_: behavior1k_mp.core.hybrid_policy.HybridPolicy
+  # Task determines: the Action list, target object, checkpoint dir, HF skill mapping.
+  # See behavior1k_mp/tasks/<task_name>/__init__.py to add a new task.
+  task_name: turning_on_radio
   action_dim: 23
   vla_host: 127.0.0.1
   vla_port: 8765
-  phase_ckpt_dir: /shared_work/behavior1k-mp/behavior1k_mp/phase_detector/checkpoints
-  target_obj_scope_name: radio_receiver.n.01_1
+  # phase_ckpt_dir + target_obj_scope_name default to the task module's exports.
+  # Uncomment to override:
+  # phase_ckpt_dir: /path/to/checkpoints
+  # target_obj_scope_name: radio_receiver.n.01_1

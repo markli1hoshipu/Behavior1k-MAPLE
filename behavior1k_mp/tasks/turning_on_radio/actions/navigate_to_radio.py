@@ -8,7 +8,7 @@ from __future__ import annotations
 
 import torch as th
 
-from .base import Action, Executor
+from behavior1k_mp.core.action import Action, Executor
 
 
 class NavigateToRadioAction(Action):

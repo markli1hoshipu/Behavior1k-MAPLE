@@ -15,7 +15,7 @@ env (radio + robot world poses + current joints) and find the nearest entry
 by 7-D L2 distance.
 
 Output:
-  /shared_work/behavior1k-mp/behavior1k_mp/phase_detector/checkpoints/press_modes/library_press.pkl
+  /shared_work/behavior1k-mp/behavior1k_mp/tasks/turning_on_radio/checkpoints/press_modes/library_press.pkl
 """
 from __future__ import annotations
 
@@ -30,8 +30,8 @@ import pyarrow.parquet as pq
 import torch as th
 import pytorch_kinematics as pk
 
-from behavior1k_mp.utils.obs import extract_state_23d
-from behavior1k_mp.utils.pose import pose7_to_matrix, matrix_to_pose7, pose_in_frame, yaw_to_quat_xyzw
+from behavior1k_mp.core.utils.obs import extract_state_23d
+from behavior1k_mp.core.utils.pose import pose7_to_matrix, matrix_to_pose7, pose_in_frame, yaw_to_quat_xyzw
 
 DEFAULT_DATA_DIR = Path("/shared_work/DATASETS/behavior-1k-embodiedAI-rollouts/data/task-0000")
 DEFAULT_ANN_DIR = Path("/shared_work/DATASETS/behavior-1k-embodiedAI-rollouts/annotations/task-0000")
@@ -41,7 +41,7 @@ DEFAULT_SCENE_INSTANCE_DIR = Path(
     "house_double_floor_lower/json/house_double_floor_lower_task_turning_on_radio_instances"
 )
 DEFAULT_OUT_PATH = Path(
-    "/shared_work/behavior1k-mp/behavior1k_mp/phase_detector/checkpoints/"
+    "/shared_work/behavior1k-mp/behavior1k_mp/tasks/turning_on_radio/checkpoints/"
     "press_modes/library_press.pkl"
 )
 URDF_PATH = "/shared_work/behavior1k-mp/third_party/r1pro.urdf"

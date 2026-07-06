@@ -63,7 +63,7 @@ def extract_press_frames(parquet_path: Path, ann_path: Path):
 
     # Slice to 18-DOF active dims on action; for state we use the same indices
     # off the extracted-23D vector. Reuse the existing extractor for state.
-    from behavior1k_mp.utils.obs import extract_state_23d
+    from behavior1k_mp.core.utils.obs import extract_state_23d
     state_23 = extract_state_23d(state)
     state_18 = state_23[:, [i - 0 if i < 23 else i for i in ACT_18DOF_INDEX]]  # 23-D layout matches action layout
     action_18 = action[:, ACT_18DOF_INDEX]

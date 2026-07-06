@@ -1,25 +1,40 @@
-# behavior1k-mp
+# MAPLE — BEHAVIOR-1K hybrid MP + VLA pipeline
 
-Hybrid motion-planner + X-VLA-policy data-collection pipeline for
-BEHAVIOR-1K task 0 (`turning_on_radio`).
+Dual-use repo for BEHAVIOR-1K:
 
-Task 0 is decomposed into 4 phases — **navigate → pick up → press → put down** —
-and each phase chooses its executor (X-VLA policy via `WebsocketPolicy`, or
-OmniGibson `StarterSemanticActionPrimitives`) independently. Phase boundaries
-are detected by a PCA + KMeans classifier trained offline on the 200 HF demos.
+- **Data collection** — hybrid motion-planner + X-VLA policy, writes parquet + hdf5 + annotations + phase_segments per episode.
+- **Leaderboard evaluation** — metric-only rollouts and challenge-archive packaging.
+
+Both modes share the same policy stack (orchestrator, task-specific Action library, PCA phase detector, retrieval libraries, IK).
 
 ## Layout
 
 ```
 behavior1k_mp/
-├── actions/          # one Action class per task phase
-├── phase_detector/   # PCA + KMeans + timestamp-ranked phase mapping
-├── orchestrator.py   # state machine over Actions
-├── hybrid_policy.py  # LocalPolicy subclass — plugs into eval_data_gen.py
-└── utils/            # obs helpers, state extraction, debug logger
-configs/policy/       # Hydra config for the hybrid policy
-scripts/              # fit / smoke-test / collection entrypoints
-slurm/                # SLURM templates
+├── core/                      # task-agnostic infrastructure
+│   ├── action.py              #   Action, Executor
+│   ├── orchestrator.py        #   phase state machine
+│   ├── hybrid_policy.py       #   OmniGibson LocalPolicy wrapper
+│   ├── phase_detector/        #   PCA + KMeans + timestamp ranking
+│   ├── ik/  grasp/            #   Mark's IK, vertical-descent waypoints
+│   ├── pick_library/          #   retrieval library builder + lookup
+│   └── utils/                 #   obs slicer, action bridge, pose helpers
+├── tasks/
+│   ├── __init__.py            # registry: load_task(name)
+│   └── turning_on_radio/
+│       ├── __init__.py        #   build_actions, SLOT_TO_SKILL_IDX, CHECKPOINT_DIR
+│       ├── actions/           #   7 Action subclasses
+│       └── checkpoints/       #   kmeans.pkl, pca.pkl, pick_library/, press_modes/
+├── collect/                   # data-collection CLI driver
+├── evaluation/                # leaderboard rollout CLI driver
+│   └── logs/                  # per-run summary JSONs
+└── __main__.py                # maple CLI dispatcher
+configs/                       # Hydra defaults (policy=hybrid_mp)
+docs/                          # architecture, task_authoring, FSM, results
+scripts/                       # dev-time tools (fit_phase_detector, build_pick_library, ...)
+slurm/                         # sbatch + shared_env.sh
+third_party/                   # r1pro.urdf, zexternal_utils.py (Mark's IK)
+openpi -> /shared_work/openpi  # symlink, gitignored
 ```
 
 ## Quick start
@@ -28,25 +43,27 @@ slurm/                # SLURM templates
 # 1) Install (editable) so other code can `import behavior1k_mp`
 pip install -e /shared_work/behavior1k-mp
 
-# 2) Fit the phase detector on the 200 HF demos (one-time, ~1 min)
-python /shared_work/behavior1k-mp/scripts/fit_phase_detector.py
+# 2) (Optional) refit the phase detector for turning_on_radio
+python scripts/fit_phase_detector.py
 
-# 3) Start X-VLA inference server (in another shell or sbatch)
-python /shared_work/behavior1k-xvla/behavior1k_training/deploy_b1k.py \
-    --model_path /shared_work/behavior1k-xvla/checkpoints/v20/task0-60k \
-    --port 8765
+# 3) Data collection — SLURM launcher
+sbatch slurm/collect.sbatch turning_on_radio 301
 
-# 4) Smoke-test one instance
-python /shared_work/behavior1k-mp/scripts/smoke_test_one_instance.py \
-    task=turning_on_radio instance_id=301 policy=hybrid_mp model.vla_port=8765
+# 4) Evaluation
+sbatch slurm/eval_xvla.sbatch turning_on_radio 242
+
+# 5) The unified CLI (scaffold; wire-up in progress):
+maple collect --task turning_on_radio --instances 301-700
+maple eval    --task turning_on_radio --ckpt /path/to/ckpt
 ```
 
-## Status
+## Adding a new task
 
-- **Phase 0 (navigate)**: X-VLA policy, exit via PCA + (stubbed) geometric check
-- **Phase 1 (pick)**: `StarterSemanticActionPrimitives.GRASP(radio)`
-- **Phase 2 (press)**: `StarterSemanticActionPrimitives.TOGGLE_ON(radio)`
-- **Phase 3 (put-down)**: stub (immediate done — `turning_on_radio` goal is `(toggled_on radio)`)
+See [docs/task_authoring.md](docs/task_authoring.md). Short version: drop a new folder into `behavior1k_mp/tasks/<name>/` that exports `TASK_NAME`, `TARGET_OBJECT_SCOPE_NAME`, `CHECKPOINT_DIR`, `SLOT_TO_SKILL_IDX`, `SKILL_TEMPLATES`, and `build_actions(env, robot, target_obj, vla)`.
 
-The per-phase `_geometric_done()` is currently `return True`; user fills in
-distance / grasp / toggle checks as we observe real rollouts.
+## Docs
+
+- [docs/architecture.md](docs/architecture.md) — end-to-end dataflow
+- [docs/task_authoring.md](docs/task_authoring.md) — how to add a task
+- [docs/fsm/turning_on_radio.mmd](docs/fsm/turning_on_radio.mmd) — orchestrator FSM (Mermaid, renders inline on GitHub)
+- [docs/results/](docs/results/) — milestone result reports

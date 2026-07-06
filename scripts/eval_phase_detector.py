@@ -26,8 +26,8 @@ from pathlib import Path
 import numpy as np
 import pyarrow.parquet as pq
 
-from behavior1k_mp.phase_detector.detector import PCAPhaseDetector
-from behavior1k_mp.utils.obs import extract_state_23d
+from behavior1k_mp.core.phase_detector.detector import PCAPhaseDetector
+from behavior1k_mp.core.utils.obs import extract_state_23d
 
 DESC_TO_PHASE = {
     "move to": 0,
@@ -38,7 +38,7 @@ DESC_TO_PHASE = {
 
 DEFAULT_DATA_DIR = Path("/shared_work/DATASETS/behavior-1k-embodiedAI-rollouts/data/task-0000")
 DEFAULT_ANN_DIR = Path("/shared_work/DATASETS/behavior-1k-embodiedAI-rollouts/annotations/task-0000")
-DEFAULT_CKPT_DIR = Path("/shared_work/behavior1k-mp/behavior1k_mp/phase_detector/checkpoints")
+DEFAULT_CKPT_DIR = Path("/shared_work/behavior1k-mp/behavior1k_mp/tasks/turning_on_radio/checkpoints")
 
 
 def build_frame_labels(ann_json: dict, n_frames: int) -> np.ndarray:
