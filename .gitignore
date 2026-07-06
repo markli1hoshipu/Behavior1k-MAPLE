@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Environment / secrets
+.env
+.env.*
+*.token
+
+# SLURM stray outputs at repo root
+/slurm-*.out
+/slurm-*.err
+
+# Local logs from a dev run
+*.log
+
+# openpi is symlinked from /shared_work/openpi (see README setup)
+/openpi

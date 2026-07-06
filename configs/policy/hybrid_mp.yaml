@@ -1,0 +1,15 @@
+# @package _global_
+#
+# Hydra-instantiable wrapper around behavior1k_mp.hybrid_policy.HybridPolicy.
+# Drop a copy into /shared_work/BEHAVIOR-1K/OmniGibson/omnigibson/learning/configs/policy/
+# so eval_data_gen.py can pick it up via `policy=hybrid_mp`.
+
+policy_name: hybrid_mp
+
+model:
+  _target_: behavior1k_mp.hybrid_policy.HybridPolicy
+  action_dim: 23
+  vla_host: 127.0.0.1
+  vla_port: 8765
+  phase_ckpt_dir: /shared_work/behavior1k-mp/behavior1k_mp/phase_detector/checkpoints
+  target_obj_scope_name: radio_receiver.n.01_1

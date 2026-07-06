@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "behavior1k_mp"
+version = "0.1.0"
+description = "Hybrid motion-planner + X-VLA policy data-collection pipeline for BEHAVIOR-1K."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "scipy",
+    "scikit-learn>=1.3",
+    "joblib",
+    "pyarrow",
+    "torch",
+]
+
+# Optional — required only when actually invoking Mark's diff-IK (the third_party
+# code-path). Install separately in the conda env:  pip install casadi spatial-casadi
+# (Same machine deps as zexternal expected.)
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["behavior1k_mp*"]
+
+[tool.setuptools.package-data]
+behavior1k_mp = ["phase_detector/checkpoints/*"]
