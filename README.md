@@ -26,8 +26,10 @@ behavior1k_mp/
 │       ├── actions/           #   7 Action subclasses
 │       └── checkpoints/       #   kmeans.pkl, pca.pkl, pick_library/, press_modes/
 ├── collect/                   # data-collection CLI driver
-├── evaluation/                # leaderboard rollout CLI driver
-│   └── logs/                  # per-run summary JSONs
+├── evaluation/                # leaderboard rollout + recovery drivers
+│   ├── cli.py                 #   maple eval entry point
+│   ├── recovery.py            #   restore-from-failure-frame eval (Hydra script)
+│   └── logs/                  #   per-run summary JSONs
 └── __main__.py                # maple CLI dispatcher
 configs/                       # Hydra defaults (policy=hybrid_mp)
 docs/                          # architecture, task_authoring, FSM, results
