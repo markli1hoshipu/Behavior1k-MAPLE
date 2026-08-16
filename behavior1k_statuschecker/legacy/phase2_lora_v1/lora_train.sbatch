@@ -22,13 +22,13 @@ echo "Node:     $(hostname)"
 nvidia-smi -L
 echo "============================================================"
 
-cd /shared_work/markhsp/behavior1k-statuschecker
+cd /shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker
 unset PYTHONPATH PYTHONHOME VIRTUAL_ENV  # avoid inheriting stale venv state from the submitting shell
-export HF_HOME=/shared_work/markhsp/behavior1k-statuschecker/hf_cache
+export HF_HOME=/shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker/hf_cache
 export CUDA_VISIBLE_DEVICES=0
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 
-/shared_work/markhsp/behavior1k-statuschecker/.venv/bin/python3 -u lora_train.py
+/shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker/.venv/bin/python3 -u lora_train.py
 RC=$?
 echo "Training finished (rc=${RC})"
 exit $RC

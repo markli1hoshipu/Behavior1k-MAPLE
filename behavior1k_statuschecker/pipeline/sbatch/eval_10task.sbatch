@@ -19,14 +19,14 @@
 echo "Job ID: ${SLURM_JOB_ID}   Node: $(hostname)   ADAPTER_PATH=${ADAPTER_PATH}  NO_ADAPTER=${NO_ADAPTER}  RESULT_TAG=${RESULT_TAG}"
 nvidia-smi -L
 
-cd /shared_work/markhsp/behavior1k-statuschecker
+cd /shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker
 unset PYTHONPATH PYTHONHOME VIRTUAL_ENV
-export HF_HOME=/shared_work/markhsp/behavior1k-statuschecker/hf_cache
+export HF_HOME=/shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker/hf_cache
 export CUDA_VISIBLE_DEVICES=0
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 export TASK_SUBSET=task-0004,task-0010,task-0016,task-0029,task-0037,task-0046,task-0055,task-0064,task-0072,task-0089
 
-/shared_work/markhsp/behavior1k-statuschecker/.venv/bin/python3 -u eval_lora_v3_fulleval.py
+/shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker/.venv/bin/python3 -u eval_lora_v3_fulleval.py
 RC=$?
 echo "Eval finished (rc=${RC})"
 exit $RC

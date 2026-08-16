@@ -8,7 +8,7 @@ and for a few early pick-up-from frames where the dial has only just come into v
 import json
 import subprocess
 
-ROOT = "/shared_work/markhsp/behavior1k-statuschecker"
+ROOT = "/shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker"
 EPISODE = "00000010"
 
 V14_ACTION_LIST = """1. move to - no robot arm is visible anywhere in the frame; you see a wide view of the room (floor, walls, couch) with the red radio small, far away, or not visible at all.

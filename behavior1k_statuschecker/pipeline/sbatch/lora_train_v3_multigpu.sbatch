@@ -14,13 +14,13 @@
 echo "Job ID: ${SLURM_JOB_ID}   Node: $(hostname)"
 nvidia-smi -L
 
-cd /shared_work/markhsp/behavior1k-statuschecker
+cd /shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker
 unset PYTHONPATH PYTHONHOME VIRTUAL_ENV
-export HF_HOME=/shared_work/markhsp/behavior1k-statuschecker/hf_cache
+export HF_HOME=/shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker/hf_cache
 export CUDA_VISIBLE_DEVICES=0,1
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 
-/shared_work/markhsp/behavior1k-statuschecker/.venv/bin/accelerate launch \
+/shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker/.venv/bin/accelerate launch \
     --multi_gpu --num_processes=2 --mixed_precision=bf16 \
     lora_train_v3.py
 RC=$?

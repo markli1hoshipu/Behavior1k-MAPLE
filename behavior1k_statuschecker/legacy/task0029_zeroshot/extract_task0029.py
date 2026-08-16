@@ -9,7 +9,7 @@ import os
 import cv2
 from huggingface_hub import hf_hub_download
 
-ROOT = "/shared_work/markhsp/behavior1k-statuschecker"
+ROOT = "/shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker"
 REPO = "behavior-1k/2025-challenge-demos"
 TASK_CHUNK = "task-0029"
 N_EPISODES = 3

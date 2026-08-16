@@ -11,7 +11,7 @@ import glob
 import json
 import sys
 
-ROOT = "/shared_work/markhsp/behavior1k-statuschecker"
+ROOT = "/shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker"
 RESULTS_DIR = f"{ROOT}/results"
 TRAIN_DATA_ROOT = f"{ROOT}/data_2026"
 EVAL_DATA_ROOT = f"{ROOT}/data_2026_eval"

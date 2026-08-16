@@ -15,7 +15,7 @@ import cv2
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 
-ROOT = "/shared_work/markhsp/behavior1k-statuschecker"
+ROOT = "/shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker"
 DEMO_DIR = f"{ROOT}/demo"
 os.makedirs(DEMO_DIR, exist_ok=True)
 FPS = 30

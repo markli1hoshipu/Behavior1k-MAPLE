@@ -1,0 +1,508 @@
+{
+  "n_tasks": 100,
+  "avg_accuracy": 0.3146249743892335,
+  "avg_macro": 0.24979634646909366,
+  "n_pass_70": 1,
+  "per_task": {
+    "task-0000": {
+      "accuracy": 1.0,
+      "macro_recall": 1.0,
+      "n_object_classes": 1
+    },
+    "task-0001": {
+      "accuracy": 0.5416666666666666,
+      "macro_recall": 0.5416666666666666,
+      "n_object_classes": 2
+    },
+    "task-0002": {
+      "accuracy": 0.21923076923076923,
+      "macro_recall": 0.19,
+      "n_object_classes": 5
+    },
+    "task-0003": {
+      "accuracy": 0.22833333333333333,
+      "macro_recall": 0.19027777777777777,
+      "n_object_classes": 4
+    },
+    "task-0004": {
+      "accuracy": 0.453030303030303,
+      "macro_recall": 0.33222222222222225,
+      "n_object_classes": 3
+    },
+    "task-0005": {
+      "accuracy": 0.35,
+      "macro_recall": 0.19814814814814816,
+      "n_object_classes": 3
+    },
+    "task-0006": {
+      "accuracy": 0.4444444444444444,
+      "macro_recall": 0.29814814814814816,
+      "n_object_classes": 3
+    },
+    "task-0007": {
+      "accuracy": 0.3920704845814978,
+      "macro_recall": 0.31384970970591947,
+      "n_object_classes": 4
+    },
+    "task-0008": {
+      "accuracy": 0.264472190692395,
+      "macro_recall": 0.24270833333333333,
+      "n_object_classes": 4
+    },
+    "task-0009": {
+      "accuracy": 0.009074410163339383,
+      "macro_recall": 0.005864197530864198,
+      "n_object_classes": 9
+    },
+    "task-0010": {
+      "accuracy": 0.0,
+      "macro_recall": 0.0,
+      "n_object_classes": 6
+    },
+    "task-0011": {
+      "accuracy": 0.3547619047619048,
+      "macro_recall": 0.4041666666666667,
+      "n_object_classes": 2
+    },
+    "task-0012": {
+      "accuracy": 0.0725,
+      "macro_recall": 0.06041666666666667,
+      "n_object_classes": 8
+    },
+    "task-0013": {
+      "accuracy": 0.2619565217391304,
+      "macro_recall": 0.2011111111111111,
+      "n_object_classes": 5
+    },
+    "task-0014": {
+      "accuracy": 0.12450980392156863,
+      "macro_recall": 0.12658730158730158,
+      "n_object_classes": 7
+    },
+    "task-0015": {
+      "accuracy": 0.5388888888888889,
+      "macro_recall": 0.37222222222222223,
+      "n_object_classes": 3
+    },
+    "task-0016": {
+      "accuracy": 0.1527777777777778,
+      "macro_recall": 0.10185185185185186,
+      "n_object_classes": 3
+    },
+    "task-0017": {
+      "accuracy": 0.4714285714285714,
+      "macro_recall": 0.3814814814814815,
+      "n_object_classes": 3
+    },
+    "task-0018": {
+      "accuracy": 0.2877959927140255,
+      "macro_recall": 0.15972222222222224,
+      "n_object_classes": 5
+    },
+    "task-0019": {
+      "accuracy": 0.13734567901234568,
+      "macro_recall": 0.11345238095238096,
+      "n_object_classes": 7
+    },
+    "task-0020": {
+      "accuracy": 0.12111111111111111,
+      "macro_recall": 0.13854166666666667,
+      "n_object_classes": 8
+    },
+    "task-0021": {
+      "accuracy": 0.0769980506822612,
+      "macro_recall": 0.04233654876741694,
+      "n_object_classes": 6
+    },
+    "task-0022": {
+      "accuracy": 0.4166666666666667,
+      "macro_recall": 0.3333333333333333,
+      "n_object_classes": 3
+    },
+    "task-0023": {
+      "accuracy": 0.2833333333333333,
+      "macro_recall": 0.21296296296296294,
+      "n_object_classes": 3
+    },
+    "task-0024": {
+      "accuracy": 0.2911764705882353,
+      "macro_recall": 0.198,
+      "n_object_classes": 5
+    },
+    "task-0025": {
+      "accuracy": 0.17333333333333334,
+      "macro_recall": 0.17333333333333334,
+      "n_object_classes": 5
+    },
+    "task-0026": {
+      "accuracy": 0.1875,
+      "macro_recall": 0.16666666666666666,
+      "n_object_classes": 6
+    },
+    "task-0027": {
+      "accuracy": 0.13617021276595745,
+      "macro_recall": 0.10666666666666666,
+      "n_object_classes": 10
+    },
+    "task-0028": {
+      "accuracy": 0.0,
+      "macro_recall": 0.0,
+      "n_object_classes": 9
+    },
+    "task-0029": {
+      "accuracy": 0.1300383877159309,
+      "macro_recall": 0.09033333333333335,
+      "n_object_classes": 10
+    },
+    "task-0030": {
+      "accuracy": 0.1294871794871795,
+      "macro_recall": 0.08520833333333333,
+      "n_object_classes": 4
+    },
+    "task-0031": {
+      "accuracy": 0.5166666666666667,
+      "macro_recall": 0.5166666666666667,
+      "n_object_classes": 2
+    },
+    "task-0032": {
+      "accuracy": 0.6145833333333334,
+      "macro_recall": 0.6145833333333334,
+      "n_object_classes": 2
+    },
+    "task-0033": {
+      "accuracy": 0.2572533849129594,
+      "macro_recall": 0.22166666666666662,
+      "n_object_classes": 5
+    },
+    "task-0034": {
+      "accuracy": 0.789308176100629,
+      "macro_recall": 0.48643410852713176,
+      "n_object_classes": 2
+    },
+    "task-0035": {
+      "accuracy": 0.41019417475728154,
+      "macro_recall": 0.4257541155200305,
+      "n_object_classes": 2
+    },
+    "task-0036": {
+      "accuracy": 0.6933560477001703,
+      "macro_recall": 0.3333333333333333,
+      "n_object_classes": 3
+    },
+    "task-0037": {
+      "accuracy": 0.8277777777777777,
+      "macro_recall": 0.49666666666666665,
+      "n_object_classes": 2
+    },
+    "task-0038": {
+      "accuracy": 0.8305555555555556,
+      "macro_recall": 0.49833333333333335,
+      "n_object_classes": 2
+    },
+    "task-0039": {
+      "accuracy": 0.4722222222222222,
+      "macro_recall": 0.2833333333333333,
+      "n_object_classes": 2
+    },
+    "task-0040": {
+      "accuracy": 0.4238095238095238,
+      "macro_recall": 0.49444444444444446,
+      "n_object_classes": 2
+    },
+    "task-0041": {
+      "accuracy": 0.01599488163787588,
+      "macro_recall": 0.014179195697347512,
+      "n_object_classes": 9
+    },
+    "task-0042": {
+      "accuracy": 0.0009823182711198428,
+      "macro_recall": 0.0006153846153846154,
+      "n_object_classes": 5
+    },
+    "task-0043": {
+      "accuracy": 0.02168256721595837,
+      "macro_recall": 0.016528369423736835,
+      "n_object_classes": 6
+    },
+    "task-0044": {
+      "accuracy": 0.2,
+      "macro_recall": 0.25833333333333336,
+      "n_object_classes": 4
+    },
+    "task-0045": {
+      "accuracy": 0.3896499238964992,
+      "macro_recall": 0.2710925273865415,
+      "n_object_classes": 4
+    },
+    "task-0046": {
+      "accuracy": 0.29461756373937675,
+      "macro_recall": 0.2101725521669342,
+      "n_object_classes": 5
+    },
+    "task-0047": {
+      "accuracy": 0.21428571428571427,
+      "macro_recall": 0.2,
+      "n_object_classes": 5
+    },
+    "task-0048": {
+      "accuracy": 0.07438955139125497,
+      "macro_recall": 0.07237627832034461,
+      "n_object_classes": 10
+    },
+    "task-0049": {
+      "accuracy": 0.14661654135338345,
+      "macro_recall": 0.12777777777777777,
+      "n_object_classes": 13
+    },
+    "task-0050": {
+      "accuracy": 0.044386422976501305,
+      "macro_recall": 0.0283451536643026,
+      "n_object_classes": 9
+    },
+    "task-0051": {
+      "accuracy": 0.2822014051522248,
+      "macro_recall": 0.1685185185185185,
+      "n_object_classes": 6
+    },
+    "task-0052": {
+      "accuracy": 0.14560161779575329,
+      "macro_recall": 0.18406432748538012,
+      "n_object_classes": 6
+    },
+    "task-0053": {
+      "accuracy": 0.2232387923147301,
+      "macro_recall": 0.17071859627770172,
+      "n_object_classes": 7
+    },
+    "task-0054": {
+      "accuracy": 0.7766666666666666,
+      "macro_recall": 0.48541666666666666,
+      "n_object_classes": 2
+    },
+    "task-0055": {
+      "accuracy": 0.4287878787878788,
+      "macro_recall": 0.31444444444444447,
+      "n_object_classes": 3
+    },
+    "task-0056": {
+      "accuracy": 0.09047619047619047,
+      "macro_recall": 0.07037037037037037,
+      "n_object_classes": 3
+    },
+    "task-0057": {
+      "accuracy": 0.5375,
+      "macro_recall": 0.5375,
+      "n_object_classes": 2
+    },
+    "task-0058": {
+      "accuracy": 0.38333333333333336,
+      "macro_recall": 0.23958333333333334,
+      "n_object_classes": 2
+    },
+    "task-0059": {
+      "accuracy": 0.1875,
+      "macro_recall": 0.16666666666666666,
+      "n_object_classes": 6
+    },
+    "task-0060": {
+      "accuracy": 0.7966666666666666,
+      "macro_recall": 0.4979166666666667,
+      "n_object_classes": 2
+    },
+    "task-0061": {
+      "accuracy": 0.22234156820622986,
+      "macro_recall": 0.15314063140631407,
+      "n_object_classes": 5
+    },
+    "task-0062": {
+      "accuracy": 0.054857142857142854,
+      "macro_recall": 0.04908424908424908,
+      "n_object_classes": 7
+    },
+    "task-0063": {
+      "accuracy": 0.234375,
+      "macro_recall": 0.5,
+      "n_object_classes": 2
+    },
+    "task-0064": {
+      "accuracy": 0.12254901960784313,
+      "macro_recall": 0.10694444444444445,
+      "n_object_classes": 8
+    },
+    "task-0065": {
+      "accuracy": 0.23615160349854228,
+      "macro_recall": 0.18520421106037546,
+      "n_object_classes": 6
+    },
+    "task-0066": {
+      "accuracy": 0.4119047619047619,
+      "macro_recall": 0.47592592592592586,
+      "n_object_classes": 3
+    },
+    "task-0067": {
+      "accuracy": 0.1345093715545755,
+      "macro_recall": 0.09983333333333334,
+      "n_object_classes": 5
+    },
+    "task-0068": {
+      "accuracy": 0.6520547945205479,
+      "macro_recall": 0.6524024024024024,
+      "n_object_classes": 2
+    },
+    "task-0069": {
+      "accuracy": 0.6277777777777778,
+      "macro_recall": 0.5645833333333333,
+      "n_object_classes": 2
+    },
+    "task-0070": {
+      "accuracy": 0.33055555555555555,
+      "macro_recall": 0.2503472222222222,
+      "n_object_classes": 4
+    },
+    "task-0071": {
+      "accuracy": 0.1935897435897436,
+      "macro_recall": 0.16770833333333332,
+      "n_object_classes": 4
+    },
+    "task-0072": {
+      "accuracy": 0.3782051282051282,
+      "macro_recall": 0.38263888888888886,
+      "n_object_classes": 4
+    },
+    "task-0073": {
+      "accuracy": 0.14583333333333334,
+      "macro_recall": 0.16203703703703703,
+      "n_object_classes": 6
+    },
+    "task-0074": {
+      "accuracy": 0.33611111111111114,
+      "macro_recall": 0.20166666666666666,
+      "n_object_classes": 5
+    },
+    "task-0075": {
+      "accuracy": 0.29259259259259257,
+      "macro_recall": 0.29259259259259257,
+      "n_object_classes": 3
+    },
+    "task-0076": {
+      "accuracy": 0.35714285714285715,
+      "macro_recall": 0.27777777777777773,
+      "n_object_classes": 3
+    },
+    "task-0077": {
+      "accuracy": 0.7048710601719198,
+      "macro_recall": 0.4322087658592849,
+      "n_object_classes": 2
+    },
+    "task-0078": {
+      "accuracy": 0.594059405940594,
+      "macro_recall": 0.5,
+      "n_object_classes": 2
+    },
+    "task-0079": {
+      "accuracy": 0.4298245614035088,
+      "macro_recall": 0.2,
+      "n_object_classes": 5
+    },
+    "task-0080": {
+      "accuracy": 0.6833333333333333,
+      "macro_recall": 0.5222222222222223,
+      "n_object_classes": 2
+    },
+    "task-0081": {
+      "accuracy": 0.2619047619047619,
+      "macro_recall": 0.20370370370370372,
+      "n_object_classes": 3
+    },
+    "task-0082": {
+      "accuracy": 0.0803030303030303,
+      "macro_recall": 0.05888888888888889,
+      "n_object_classes": 5
+    },
+    "task-0083": {
+      "accuracy": 0.04871794871794872,
+      "macro_recall": 0.027083333333333334,
+      "n_object_classes": 6
+    },
+    "task-0084": {
+      "accuracy": 0.07105263157894737,
+      "macro_recall": 0.05625,
+      "n_object_classes": 8
+    },
+    "task-0085": {
+      "accuracy": 0.16666666666666666,
+      "macro_recall": 0.11904761904761905,
+      "n_object_classes": 7
+    },
+    "task-0086": {
+      "accuracy": 0.23018867924528302,
+      "macro_recall": 0.20289617486338796,
+      "n_object_classes": 5
+    },
+    "task-0087": {
+      "accuracy": 0.75,
+      "macro_recall": 0.5333333333333333,
+      "n_object_classes": 2
+    },
+    "task-0088": {
+      "accuracy": 0.24,
+      "macro_recall": 0.2327777777777778,
+      "n_object_classes": 5
+    },
+    "task-0089": {
+      "accuracy": 0.4605911330049261,
+      "macro_recall": 0.2652777777777778,
+      "n_object_classes": 3
+    },
+    "task-0090": {
+      "accuracy": 0.3448275862068966,
+      "macro_recall": 0.23555555555555557,
+      "n_object_classes": 5
+    },
+    "task-0091": {
+      "accuracy": 0.20357142857142857,
+      "macro_recall": 0.19,
+      "n_object_classes": 5
+    },
+    "task-0092": {
+      "accuracy": 0.825,
+      "macro_recall": 0.495,
+      "n_object_classes": 2
+    },
+    "task-0093": {
+      "accuracy": 0.3333333333333333,
+      "macro_recall": 0.3333333333333333,
+      "n_object_classes": 3
+    },
+    "task-0094": {
+      "accuracy": 0.02666666666666667,
+      "macro_recall": 0.017777777777777774,
+      "n_object_classes": 5
+    },
+    "task-0095": {
+      "accuracy": 0.12034208918753818,
+      "macro_recall": 0.09666410481627873,
+      "n_object_classes": 9
+    },
+    "task-0096": {
+      "accuracy": 0.24074074074074073,
+      "macro_recall": 0.20069444444444445,
+      "n_object_classes": 4
+    },
+    "task-0097": {
+      "accuracy": 0.0,
+      "macro_recall": 0.0,
+      "n_object_classes": 8
+    },
+    "task-0098": {
+      "accuracy": 0.5566502463054187,
+      "macro_recall": 0.3333333333333333,
+      "n_object_classes": 3
+    },
+    "task-0099": {
+      "accuracy": 0.018893387314439947,
+      "macro_recall": 0.014583333333333334,
+      "n_object_classes": 4
+    }
+  }
+}

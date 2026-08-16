@@ -20,9 +20,9 @@ script still matches the current data format or model.
 
 This repo ships code + `results/` only. The 70GB+ frame datasets, the 145GB HF
 cache, and the LoRA checkpoints are NOT in git - they're on shared cluster
-storage at `/shared_work/markhsp/behavior1k-statuschecker/` (same machine this
+storage at `/shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker/` (same machine this
 was developed on: `TRT-EAI-OLDLAB-1`, `192.168.50.103`). Every script in
-`pipeline/` hardcodes `ROOT = "/shared_work/markhsp/behavior1k-statuschecker"`
+`pipeline/` hardcodes `ROOT = "/shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker"`
 at the top - if you're running from a fresh checkout elsewhere, that constant
 is the first thing to change (or symlink your data dir to that path).
 
@@ -36,7 +36,7 @@ python3 download_extract.py 0 99
 
 # eval set: episodes 21-40/task (fully disjoint from training) -> data_2026_eval/
 EPISODE_START=20 N_EPISODES_PER_TASK=20 \
-  OUT_ROOT=/shared_work/markhsp/behavior1k-statuschecker/data_2026_eval \
+  OUT_ROOT=/shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker/data_2026_eval \
   python3 download_extract.py 0 99
 ```
 

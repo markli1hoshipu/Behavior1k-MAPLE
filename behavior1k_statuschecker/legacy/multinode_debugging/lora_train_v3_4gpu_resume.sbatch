@@ -17,9 +17,9 @@
 
 echo "Job ID: ${SLURM_JOB_ID}   Nodes: ${SLURM_JOB_NODELIST}   NNODES: ${SLURM_NNODES}"
 
-cd /shared_work/markhsp/behavior1k-statuschecker
+cd /shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker
 unset PYTHONPATH PYTHONHOME VIRTUAL_ENV
-export HF_HOME=/shared_work/markhsp/behavior1k-statuschecker/hf_cache
+export HF_HOME=/shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker/hf_cache
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 export NCCL_IB_DISABLE=1
 export NCCL_DEBUG=WARN
@@ -36,7 +36,7 @@ echo "MASTER_ADDR=${MASTER_ADDR}  MASTER_PORT=${MASTER_PORT}"
 
 srun --kill-on-bad-exit=1 bash -c "
     unset PYTHONPATH PYTHONHOME VIRTUAL_ENV
-    export HF_HOME=/shared_work/markhsp/behavior1k-statuschecker/hf_cache
+    export HF_HOME=/shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker/hf_cache
     export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
     export NCCL_IB_DISABLE=1
     export NCCL_DEBUG=WARN
@@ -45,18 +45,18 @@ srun --kill-on-bad-exit=1 bash -c "
     export GLOO_SOCKET_IFNAME=^lo,docker0,virbr0,veth
     export TORCH_NCCL_BLOCKING_WAIT=1
     export TORCH_NCCL_ASYNC_ERROR_HANDLING=1
-    export RESUME_ADAPTER=/shared_work/markhsp/behavior1k-statuschecker/lora_adapter_v3_epoch0
+    export RESUME_ADAPTER=/shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker/lora_adapter_v3_epoch0
     export EPOCH_OFFSET=1
     export EPOCHS_TO_RUN=1
     echo \"[node \$(hostname), SLURM_NODEID=\$SLURM_NODEID] starting torchrun (resume)\"
-    /shared_work/markhsp/behavior1k-statuschecker/.venv/bin/python3 -m torch.distributed.run \
+    /shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker/.venv/bin/python3 -m torch.distributed.run \
         --nnodes=\${SLURM_NNODES} \
         --nproc_per_node=2 \
         --node_rank=\${SLURM_NODEID} \
         --rdzv_id=\${SLURM_JOB_ID} \
         --rdzv_backend=c10d \
         --rdzv_endpoint=${MASTER_ADDR}:${MASTER_PORT} \
-        /shared_work/markhsp/behavior1k-statuschecker/lora_train_v3.py
+        /shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker/lora_train_v3.py
 "
 RC=$?
 echo "Training finished (rc=${RC})"

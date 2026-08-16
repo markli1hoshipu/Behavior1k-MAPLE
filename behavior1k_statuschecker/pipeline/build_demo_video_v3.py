@@ -17,7 +17,7 @@ import cv2
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 
-ROOT = "/shared_work/markhsp/behavior1k-statuschecker"
+ROOT = "/shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker"
 DEMO_DIR = f"{ROOT}/demo"
 TRAIN_DATA_ROOT = f"{ROOT}/data_2026"
 EVAL_DATA_ROOT = f"{ROOT}/data_2026_eval"

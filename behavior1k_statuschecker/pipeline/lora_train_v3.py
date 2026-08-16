@@ -34,7 +34,7 @@ from peft import LoraConfig, PeftModel, get_peft_model
 from PIL import Image
 from transformers import AutoProcessor, AutoModelForImageTextToText
 
-ROOT = "/shared_work/markhsp/behavior1k-statuschecker"
+ROOT = "/shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker"
 MODEL_ID = "Qwen/Qwen3.5-0.8B"
 ADAPTER_OUT = os.environ.get("ADAPTER_OUT", f"{ROOT}/lora_adapter_v3")
 DATA_ROOT = f"{ROOT}/data_2026"

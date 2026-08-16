@@ -8,7 +8,7 @@ import json
 import subprocess
 import sys
 
-ROOT = "/shared_work/markhsp/behavior1k-statuschecker"
+ROOT = "/shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker"
 
 TASKS = {
     "task-0000": "Turn on the radio receiver that's on the table in the living room.",

@@ -12,9 +12,9 @@ import os
 
 import cv2
 
-ROOT = "/shared_work/markhsp/behavior1k-statuschecker"
+ROOT = "/shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker"
 HF_SNAP = glob.glob(
-    "/shared_work/markhsp/behavior1k-statuschecker/hf_cache/hub/"
+    "/shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker/hf_cache/hub/"
     "datasets--behavior-1k--2025-challenge-demos/snapshots/*"
 )[0]
 FPS = 30

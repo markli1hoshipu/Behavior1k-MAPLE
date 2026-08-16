@@ -10,7 +10,7 @@ import subprocess
 import time
 
 EPISODE = "00000010"
-ROOT = "/shared_work/markhsp/behavior1k-statuschecker"
+ROOT = "/shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker"
 DATA_DIR = f"{ROOT}/data/episode_{EPISODE}"
 RESULTS_DIR = f"{ROOT}/results"
 ANNOT_GLOB = "/shared_work/DATASETS/behavior-1k-embodiedAI-rollouts/annotations/task-0000/*.json"

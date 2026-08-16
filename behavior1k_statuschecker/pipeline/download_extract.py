@@ -33,7 +33,7 @@ import cv2
 import pandas as pd
 from huggingface_hub import hf_hub_download
 
-ROOT = "/shared_work/markhsp/behavior1k-statuschecker"
+ROOT = "/shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker"
 OUT_ROOT = os.environ.get("OUT_ROOT", f"{ROOT}/data_2026")
 REPO = "behavior-1k/2026-challenge-demos"
 CAM = "observation.rgb.zed_link_camera_0"

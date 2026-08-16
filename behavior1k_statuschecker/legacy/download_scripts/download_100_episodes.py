@@ -37,7 +37,7 @@ def main():
         print(f"{tc}: done ({len(eps)} episodes)")
 
     import json
-    with open("/shared_work/markhsp/behavior1k-statuschecker/results/episode_plan_100.json", "w") as f:
+    with open("/shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker/results/episode_plan_100.json", "w") as f:
         json.dump(plan, f, indent=2)
     print(f"Total episode-downloads attempted: {total_downloaded}")
     print("Saved episode_plan_100.json")

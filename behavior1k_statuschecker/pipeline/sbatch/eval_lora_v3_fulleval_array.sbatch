@@ -21,13 +21,13 @@ END=$((START + SHARD_SIZE - 1))
 echo "Job ID: ${SLURM_JOB_ID}_${SLURM_ARRAY_TASK_ID}   Node: $(hostname)   tasks[${START}:${END}]"
 nvidia-smi -L
 
-cd /shared_work/markhsp/behavior1k-statuschecker
+cd /shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker
 unset PYTHONPATH PYTHONHOME VIRTUAL_ENV
-export HF_HOME=/shared_work/markhsp/behavior1k-statuschecker/hf_cache
+export HF_HOME=/shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker/hf_cache
 export CUDA_VISIBLE_DEVICES=0
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 
-/shared_work/markhsp/behavior1k-statuschecker/.venv/bin/python3 -u eval_lora_v3_fulleval.py "$START" "$END"
+/shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker/.venv/bin/python3 -u eval_lora_v3_fulleval.py "$START" "$END"
 RC=$?
 echo "Shard finished (rc=${RC})"
 exit $RC

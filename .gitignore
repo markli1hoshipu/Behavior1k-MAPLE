@@ -32,9 +32,10 @@ dist/
 # openpi is symlinked from /shared_work/openpi (see README setup)
 /openpi
 
-# behavior1k_statuschecker: raw downloads, HF cache, LoRA checkpoints, demo videos
-# - regenerate via pipeline_2026/download_extract.py + lora_train_v3.py, or pull
-#   from /shared_work/markhsp/behavior1k-statuschecker (see its README)
+# behavior1k_statuschecker: raw downloads, HF cache, LoRA checkpoints, demo videos,
+# venv - regenerate via pipeline/download_extract.py + pipeline/lora_train_v3.py
+# (see behavior1k_statuschecker/CLAUDE.md)
+/behavior1k_statuschecker/data/
 /behavior1k_statuschecker/data_2026/
 /behavior1k_statuschecker/data_2026_eval/
 /behavior1k_statuschecker/multitask_data/
@@ -42,3 +43,4 @@ dist/
 /behavior1k_statuschecker/hf_cache/
 /behavior1k_statuschecker/demo/
 /behavior1k_statuschecker/lora_adapter*/
+/behavior1k_statuschecker/.venv/

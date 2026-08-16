@@ -12,8 +12,8 @@ import torch
 from PIL import Image
 from transformers import AutoProcessor, AutoModelForImageTextToText
 
-DATA_DIR = "/shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010"
-RESULTS_DIR = "/shared_work/markhsp/behavior1k-statuschecker/results"
+DATA_DIR = "/shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker/data/episode_00000010"
+RESULTS_DIR = "/shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker/results"
 TASK_INSTRUCTION = "Turn on the radio receiver that's on the table in the living room."
 LABELS = ["move to", "pick up from", "press", "place on"]
 NUMBERED_LABELS = {"1": "move to", "2": "pick up from", "3": "press", "4": "place on"}

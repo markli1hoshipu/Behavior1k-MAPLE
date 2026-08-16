@@ -12,7 +12,7 @@ TASK_CHUNK = "task-0000"
 ROOT = "/shared_work/DATASETS/behavior-1k-embodiedAI-rollouts"
 ANNOT_PATH = f"{ROOT}/annotations/{TASK_CHUNK}/episode_{EPISODE}.json"
 VIDEO_PATH = f"{ROOT}/videos/{TASK_CHUNK}/observation.images.rgb.head/episode_{EPISODE}.mp4"
-OUT_DIR = f"/shared_work/markhsp/behavior1k-statuschecker/data/episode_{EPISODE}"
+OUT_DIR = f"/shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker/data/episode_{EPISODE}"
 FRAMES_DIR = f"{OUT_DIR}/frames_1fps"
 
 os.makedirs(FRAMES_DIR, exist_ok=True)

@@ -15,8 +15,8 @@ from PIL import Image
 from transformers import AutoProcessor, AutoModelForImageTextToText
 
 EPISODE = "00000010"
-DATA_DIR = f"/shared_work/markhsp/behavior1k-statuschecker/data/episode_{EPISODE}"
-RESULTS_DIR = "/shared_work/markhsp/behavior1k-statuschecker/results"
+DATA_DIR = f"/shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker/data/episode_{EPISODE}"
+RESULTS_DIR = "/shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker/results"
 os.makedirs(RESULTS_DIR, exist_ok=True)
 
 TASK_INSTRUCTION = "Turn on the radio receiver that's on the table in the living room."

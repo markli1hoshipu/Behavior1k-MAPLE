@@ -39,7 +39,7 @@ def main():
             print(f"  {tc}/{ep}: OK")
 
     import json
-    with open("/shared_work/markhsp/behavior1k-statuschecker/results/episode_plan.json", "w") as f:
+    with open("/shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker/results/episode_plan.json", "w") as f:
         json.dump({tc: [ALREADY_HAVE[tc]] + eps for tc, eps in plan.items()}, f, indent=2)
     print("Saved episode plan.")
 

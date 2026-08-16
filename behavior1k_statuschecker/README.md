@@ -59,7 +59,7 @@ cache (`hf_cache/`, ~145GB), and the LoRA checkpoints (`lora_adapter_v3*/`, ~25M
 each) live on shared storage, not in git:
 
 ```
-/shared_work/markhsp/behavior1k-statuschecker/
+/shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker/
 ```
 
 Re-running `pipeline/download_extract.py` regenerates `data_2026*/` from

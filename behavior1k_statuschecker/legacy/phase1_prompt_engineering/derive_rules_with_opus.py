@@ -6,7 +6,7 @@ approach used to hand-write ACTION_LIST in annotate.py.
 import json
 import subprocess
 
-ROOT = "/shared_work/markhsp/behavior1k-statuschecker"
+ROOT = "/shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker"
 EPISODES = ["00000010", "00000020", "00000030"]
 SAMPLES_PER_SEGMENT = 3  # early / mid / late within each labeled segment
 

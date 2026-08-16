@@ -1,0 +1,508 @@
+{
+  "n_tasks": 100,
+  "avg_accuracy": 0.7594345324782755,
+  "avg_macro": 0.6990675845921029,
+  "n_pass_70": 51,
+  "per_task": {
+    "task-0000": {
+      "accuracy": 1.0,
+      "macro_recall": 1.0,
+      "n_object_classes": 1
+    },
+    "task-0001": {
+      "accuracy": 0.8222222222222222,
+      "macro_recall": 0.8222222222222222,
+      "n_object_classes": 2
+    },
+    "task-0002": {
+      "accuracy": 0.7051282051282052,
+      "macro_recall": 0.6488888888888888,
+      "n_object_classes": 5
+    },
+    "task-0003": {
+      "accuracy": 0.8266666666666667,
+      "macro_recall": 0.8027777777777778,
+      "n_object_classes": 4
+    },
+    "task-0004": {
+      "accuracy": 0.7878787878787878,
+      "macro_recall": 0.788148148148148,
+      "n_object_classes": 3
+    },
+    "task-0005": {
+      "accuracy": 0.7466666666666667,
+      "macro_recall": 0.5851851851851851,
+      "n_object_classes": 3
+    },
+    "task-0006": {
+      "accuracy": 0.7527777777777778,
+      "macro_recall": 0.6277777777777778,
+      "n_object_classes": 3
+    },
+    "task-0007": {
+      "accuracy": 0.7555066079295154,
+      "macro_recall": 0.7067136675047898,
+      "n_object_classes": 4
+    },
+    "task-0008": {
+      "accuracy": 0.7797956867196367,
+      "macro_recall": 0.7750419129347579,
+      "n_object_classes": 4
+    },
+    "task-0009": {
+      "accuracy": 0.6860254083484574,
+      "macro_recall": 0.5469135802469135,
+      "n_object_classes": 9
+    },
+    "task-0010": {
+      "accuracy": 0.5258358662613982,
+      "macro_recall": 0.4697665056360709,
+      "n_object_classes": 6
+    },
+    "task-0011": {
+      "accuracy": 0.8095238095238095,
+      "macro_recall": 0.8055555555555556,
+      "n_object_classes": 2
+    },
+    "task-0012": {
+      "accuracy": 0.6975,
+      "macro_recall": 0.6234375,
+      "n_object_classes": 8
+    },
+    "task-0013": {
+      "accuracy": 0.741304347826087,
+      "macro_recall": 0.7574423963133641,
+      "n_object_classes": 5
+    },
+    "task-0014": {
+      "accuracy": 0.7705882352941177,
+      "macro_recall": 0.7343650793650794,
+      "n_object_classes": 7
+    },
+    "task-0015": {
+      "accuracy": 0.8805555555555555,
+      "macro_recall": 0.85,
+      "n_object_classes": 3
+    },
+    "task-0016": {
+      "accuracy": 0.8055555555555556,
+      "macro_recall": 0.6481481481481481,
+      "n_object_classes": 3
+    },
+    "task-0017": {
+      "accuracy": 0.9214285714285714,
+      "macro_recall": 0.8537037037037036,
+      "n_object_classes": 3
+    },
+    "task-0018": {
+      "accuracy": 0.825136612021858,
+      "macro_recall": 0.6363888888888889,
+      "n_object_classes": 5
+    },
+    "task-0019": {
+      "accuracy": 0.5200617283950617,
+      "macro_recall": 0.4604074302134647,
+      "n_object_classes": 7
+    },
+    "task-0020": {
+      "accuracy": 0.6066666666666667,
+      "macro_recall": 0.570138888888889,
+      "n_object_classes": 8
+    },
+    "task-0021": {
+      "accuracy": 0.7914230019493177,
+      "macro_recall": 0.6840098465902323,
+      "n_object_classes": 6
+    },
+    "task-0022": {
+      "accuracy": 0.7222222222222222,
+      "macro_recall": 0.7083333333333334,
+      "n_object_classes": 3
+    },
+    "task-0023": {
+      "accuracy": 0.9166666666666666,
+      "macro_recall": 0.8972222222222223,
+      "n_object_classes": 3
+    },
+    "task-0024": {
+      "accuracy": 0.7843137254901961,
+      "macro_recall": 0.7782222222222223,
+      "n_object_classes": 5
+    },
+    "task-0025": {
+      "accuracy": 0.7888888888888889,
+      "macro_recall": 0.7297222222222223,
+      "n_object_classes": 5
+    },
+    "task-0026": {
+      "accuracy": 0.6822916666666666,
+      "macro_recall": 0.6416666666666667,
+      "n_object_classes": 6
+    },
+    "task-0027": {
+      "accuracy": 0.5609929078014184,
+      "macro_recall": 0.5696780996780996,
+      "n_object_classes": 10
+    },
+    "task-0028": {
+      "accuracy": 0.6453862660944206,
+      "macro_recall": 0.594411823747867,
+      "n_object_classes": 9
+    },
+    "task-0029": {
+      "accuracy": 0.7039347408829175,
+      "macro_recall": 0.6382058707643814,
+      "n_object_classes": 10
+    },
+    "task-0030": {
+      "accuracy": 0.8730769230769231,
+      "macro_recall": 0.831875,
+      "n_object_classes": 4
+    },
+    "task-0031": {
+      "accuracy": 0.9375,
+      "macro_recall": 0.9375,
+      "n_object_classes": 2
+    },
+    "task-0032": {
+      "accuracy": 0.90625,
+      "macro_recall": 0.90625,
+      "n_object_classes": 2
+    },
+    "task-0033": {
+      "accuracy": 0.5551257253384912,
+      "macro_recall": 0.5434536082474227,
+      "n_object_classes": 5
+    },
+    "task-0034": {
+      "accuracy": 0.889937106918239,
+      "macro_recall": 0.8234496124031008,
+      "n_object_classes": 2
+    },
+    "task-0035": {
+      "accuracy": 0.7038834951456311,
+      "macro_recall": 0.7172423636882672,
+      "n_object_classes": 2
+    },
+    "task-0036": {
+      "accuracy": 0.5468483816013628,
+      "macro_recall": 0.4317089817089817,
+      "n_object_classes": 3
+    },
+    "task-0037": {
+      "accuracy": 0.8972222222222223,
+      "macro_recall": 0.7916666666666666,
+      "n_object_classes": 2
+    },
+    "task-0038": {
+      "accuracy": 0.9,
+      "macro_recall": 0.8266666666666667,
+      "n_object_classes": 2
+    },
+    "task-0039": {
+      "accuracy": 0.9305555555555556,
+      "macro_recall": 0.925,
+      "n_object_classes": 2
+    },
+    "task-0040": {
+      "accuracy": 0.9452380952380952,
+      "macro_recall": 0.9472222222222222,
+      "n_object_classes": 2
+    },
+    "task-0041": {
+      "accuracy": 0.6525911708253359,
+      "macro_recall": 0.523873787519399,
+      "n_object_classes": 9
+    },
+    "task-0042": {
+      "accuracy": 0.706286836935167,
+      "macro_recall": 0.6421025641025642,
+      "n_object_classes": 5
+    },
+    "task-0043": {
+      "accuracy": 0.7233304423243712,
+      "macro_recall": 0.6838635960241392,
+      "n_object_classes": 6
+    },
+    "task-0044": {
+      "accuracy": 0.6742424242424242,
+      "macro_recall": 0.5364583333333334,
+      "n_object_classes": 4
+    },
+    "task-0045": {
+      "accuracy": 0.7929984779299848,
+      "macro_recall": 0.622168427230047,
+      "n_object_classes": 4
+    },
+    "task-0046": {
+      "accuracy": 0.8314447592067988,
+      "macro_recall": 0.8068319734260744,
+      "n_object_classes": 5
+    },
+    "task-0047": {
+      "accuracy": 0.7702380952380953,
+      "macro_recall": 0.763888888888889,
+      "n_object_classes": 5
+    },
+    "task-0048": {
+      "accuracy": 0.7217490062464509,
+      "macro_recall": 0.6428493018294907,
+      "n_object_classes": 10
+    },
+    "task-0049": {
+      "accuracy": 0.6390977443609023,
+      "macro_recall": 0.5032041776346136,
+      "n_object_classes": 13
+    },
+    "task-0050": {
+      "accuracy": 0.6379460400348129,
+      "macro_recall": 0.47623468210733083,
+      "n_object_classes": 9
+    },
+    "task-0051": {
+      "accuracy": 0.765807962529274,
+      "macro_recall": 0.6460648148148148,
+      "n_object_classes": 6
+    },
+    "task-0052": {
+      "accuracy": 0.5915065722952477,
+      "macro_recall": 0.5477519616551928,
+      "n_object_classes": 6
+    },
+    "task-0053": {
+      "accuracy": 0.7355901189387009,
+      "macro_recall": 0.6269422891627364,
+      "n_object_classes": 7
+    },
+    "task-0054": {
+      "accuracy": 0.7933333333333333,
+      "macro_recall": 0.7395833333333334,
+      "n_object_classes": 2
+    },
+    "task-0055": {
+      "accuracy": 0.8151515151515152,
+      "macro_recall": 0.7133333333333334,
+      "n_object_classes": 3
+    },
+    "task-0056": {
+      "accuracy": 0.8071428571428572,
+      "macro_recall": 0.7425925925925926,
+      "n_object_classes": 3
+    },
+    "task-0057": {
+      "accuracy": 0.675,
+      "macro_recall": 0.675,
+      "n_object_classes": 2
+    },
+    "task-0058": {
+      "accuracy": 0.87,
+      "macro_recall": 0.75625,
+      "n_object_classes": 2
+    },
+    "task-0059": {
+      "accuracy": 0.46145833333333336,
+      "macro_recall": 0.46388888888888885,
+      "n_object_classes": 6
+    },
+    "task-0060": {
+      "accuracy": 0.8333333333333334,
+      "macro_recall": 0.7458333333333333,
+      "n_object_classes": 2
+    },
+    "task-0061": {
+      "accuracy": 0.7883995703544576,
+      "macro_recall": 0.7732687576875769,
+      "n_object_classes": 5
+    },
+    "task-0062": {
+      "accuracy": 0.6411428571428571,
+      "macro_recall": 0.5195377392560491,
+      "n_object_classes": 7
+    },
+    "task-0063": {
+      "accuracy": 0.8125,
+      "macro_recall": 0.8486394557823129,
+      "n_object_classes": 2
+    },
+    "task-0064": {
+      "accuracy": 0.6941176470588235,
+      "macro_recall": 0.6381944444444444,
+      "n_object_classes": 8
+    },
+    "task-0065": {
+      "accuracy": 0.7434402332361516,
+      "macro_recall": 0.7118467782851345,
+      "n_object_classes": 6
+    },
+    "task-0066": {
+      "accuracy": 0.9166666666666666,
+      "macro_recall": 0.9074074074074074,
+      "n_object_classes": 3
+    },
+    "task-0067": {
+      "accuracy": 0.856670341786108,
+      "macro_recall": 0.6884444444444445,
+      "n_object_classes": 5
+    },
+    "task-0068": {
+      "accuracy": 0.7945205479452054,
+      "macro_recall": 0.7966216216216215,
+      "n_object_classes": 2
+    },
+    "task-0069": {
+      "accuracy": 0.6694444444444444,
+      "macro_recall": 0.55,
+      "n_object_classes": 2
+    },
+    "task-0070": {
+      "accuracy": 0.8041666666666667,
+      "macro_recall": 0.7274305555555555,
+      "n_object_classes": 4
+    },
+    "task-0071": {
+      "accuracy": 0.7,
+      "macro_recall": 0.6868055555555556,
+      "n_object_classes": 4
+    },
+    "task-0072": {
+      "accuracy": 0.8346153846153846,
+      "macro_recall": 0.8427083333333334,
+      "n_object_classes": 4
+    },
+    "task-0073": {
+      "accuracy": 0.6991666666666667,
+      "macro_recall": 0.6902777777777778,
+      "n_object_classes": 6
+    },
+    "task-0074": {
+      "accuracy": 0.8305555555555556,
+      "macro_recall": 0.7858333333333334,
+      "n_object_classes": 5
+    },
+    "task-0075": {
+      "accuracy": 0.7777777777777778,
+      "macro_recall": 0.7777777777777778,
+      "n_object_classes": 3
+    },
+    "task-0076": {
+      "accuracy": 0.8285714285714286,
+      "macro_recall": 0.7777777777777778,
+      "n_object_classes": 3
+    },
+    "task-0077": {
+      "accuracy": 0.8796561604584527,
+      "macro_recall": 0.7226355247981545,
+      "n_object_classes": 2
+    },
+    "task-0078": {
+      "accuracy": 0.8341584158415841,
+      "macro_recall": 0.8082825203252033,
+      "n_object_classes": 2
+    },
+    "task-0079": {
+      "accuracy": 0.6710526315789473,
+      "macro_recall": 0.45561224489795915,
+      "n_object_classes": 5
+    },
+    "task-0080": {
+      "accuracy": 0.8125,
+      "macro_recall": 0.6361111111111111,
+      "n_object_classes": 2
+    },
+    "task-0081": {
+      "accuracy": 0.780952380952381,
+      "macro_recall": 0.7148148148148148,
+      "n_object_classes": 3
+    },
+    "task-0082": {
+      "accuracy": 0.6909090909090909,
+      "macro_recall": 0.6644444444444445,
+      "n_object_classes": 5
+    },
+    "task-0083": {
+      "accuracy": 0.7474358974358974,
+      "macro_recall": 0.7231481481481481,
+      "n_object_classes": 6
+    },
+    "task-0084": {
+      "accuracy": 0.6868421052631579,
+      "macro_recall": 0.6288194444444445,
+      "n_object_classes": 8
+    },
+    "task-0085": {
+      "accuracy": 0.7933333333333333,
+      "macro_recall": 0.8,
+      "n_object_classes": 7
+    },
+    "task-0086": {
+      "accuracy": 0.6540880503144654,
+      "macro_recall": 0.6474214480874317,
+      "n_object_classes": 5
+    },
+    "task-0087": {
+      "accuracy": 0.8125,
+      "macro_recall": 0.6916666666666667,
+      "n_object_classes": 2
+    },
+    "task-0088": {
+      "accuracy": 0.7716666666666666,
+      "macro_recall": 0.7449999999999999,
+      "n_object_classes": 5
+    },
+    "task-0089": {
+      "accuracy": 0.7733990147783252,
+      "macro_recall": 0.6664251207729469,
+      "n_object_classes": 3
+    },
+    "task-0090": {
+      "accuracy": 0.6288998357963875,
+      "macro_recall": 0.48111111111111116,
+      "n_object_classes": 5
+    },
+    "task-0091": {
+      "accuracy": 0.7178571428571429,
+      "macro_recall": 0.6472222222222223,
+      "n_object_classes": 5
+    },
+    "task-0092": {
+      "accuracy": 0.9305555555555556,
+      "macro_recall": 0.825,
+      "n_object_classes": 2
+    },
+    "task-0093": {
+      "accuracy": 0.775,
+      "macro_recall": 0.7749999999999999,
+      "n_object_classes": 3
+    },
+    "task-0094": {
+      "accuracy": 0.745,
+      "macro_recall": 0.653888888888889,
+      "n_object_classes": 5
+    },
+    "task-0095": {
+      "accuracy": 0.6976175931582163,
+      "macro_recall": 0.6738334881242936,
+      "n_object_classes": 9
+    },
+    "task-0096": {
+      "accuracy": 0.7981481481481482,
+      "macro_recall": 0.7798611111111111,
+      "n_object_classes": 4
+    },
+    "task-0097": {
+      "accuracy": 0.6848159509202454,
+      "macro_recall": 0.582125322262663,
+      "n_object_classes": 8
+    },
+    "task-0098": {
+      "accuracy": 0.8423645320197044,
+      "macro_recall": 0.8446411012782694,
+      "n_object_classes": 3
+    },
+    "task-0099": {
+      "accuracy": 0.6761133603238867,
+      "macro_recall": 0.521875,
+      "n_object_classes": 4
+    }
+  }
+}

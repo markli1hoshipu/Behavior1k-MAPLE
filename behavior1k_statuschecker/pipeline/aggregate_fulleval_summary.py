@@ -5,7 +5,7 @@ import json
 import os
 import sys
 
-RESULTS_DIR = "/shared_work/markhsp/behavior1k-statuschecker/results"
+RESULTS_DIR = "/shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker/results"
 RESULT_TAG = sys.argv[1] if len(sys.argv) > 1 else os.environ.get("RESULT_TAG", "fulleval")
 
 

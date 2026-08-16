@@ -9,7 +9,7 @@ import torch
 from PIL import Image
 from transformers import AutoProcessor, AutoModelForImageTextToText
 
-ROOT = "/shared_work/markhsp/behavior1k-statuschecker"
+ROOT = "/shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker"
 MODEL_ID = "Qwen/Qwen3.5-0.8B"
 RESULTS_DIR = f"{ROOT}/results"
 

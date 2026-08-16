@@ -19,17 +19,17 @@
 echo "Job ID: ${SLURM_JOB_ID}   Node: $(hostname)"
 nvidia-smi -L
 
-cd /shared_work/markhsp/behavior1k-statuschecker
+cd /shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker
 unset PYTHONPATH PYTHONHOME VIRTUAL_ENV
-export HF_HOME=/shared_work/markhsp/behavior1k-statuschecker/hf_cache
+export HF_HOME=/shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker/hf_cache
 export CUDA_VISIBLE_DEVICES=0,1
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 export TASK_SUBSET=task-0004,task-0010,task-0016,task-0029,task-0037,task-0046,task-0055,task-0064,task-0072,task-0089
-export ADAPTER_OUT=/shared_work/markhsp/behavior1k-statuschecker/lora_adapter_v3_10task
-export HELDOUT_OUT=/shared_work/markhsp/behavior1k-statuschecker/results/lora_v3_10task_heldout_episodes.json
+export ADAPTER_OUT=/shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker/lora_adapter_v3_10task
+export HELDOUT_OUT=/shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker/results/lora_v3_10task_heldout_episodes.json
 export EPOCHS_TO_RUN=4
 
-/shared_work/markhsp/behavior1k-statuschecker/.venv/bin/accelerate launch \
+/shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker/.venv/bin/accelerate launch \
     --multi_gpu --num_processes=2 --mixed_precision=bf16 \
     lora_train_v3.py
 RC=$?

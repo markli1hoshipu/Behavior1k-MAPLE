@@ -5,7 +5,7 @@ against real model failures instead of fresh hand-picked frames.
 import json
 import subprocess
 
-ROOT = "/shared_work/markhsp/behavior1k-statuschecker"
+ROOT = "/shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker"
 EPISODE = "00000010"
 
 with open(f"{ROOT}/results/opus5_rules_output.md") as f:

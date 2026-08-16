@@ -18,7 +18,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 EPISODE = "00000010"
 FPS = 30
-ROOT = "/shared_work/markhsp/behavior1k-statuschecker"
+ROOT = "/shared_work/markhsp/Behavior1k-MAPLE/behavior1k_statuschecker"
 SRC_VIDEO = f"/shared_work/DATASETS/behavior-1k-embodiedAI-rollouts/videos/task-0000/observation.images.rgb.head/episode_{EPISODE}.mp4"
 DEMO_DIR = f"{ROOT}/demo"
 os.makedirs(DEMO_DIR, exist_ok=True)
