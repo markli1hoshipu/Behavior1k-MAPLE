@@ -14,20 +14,40 @@ fine-tuned language model instead of an unsupervised clustering pipeline).
 
 ## Layout
 
+The project went through several iterations before landing on the current
+approach; `pipeline/` is the one that actually works and produced the headline
+results below, `legacy/` is kept for reference (real iteration history, not
+dead code someone forgot to delete).
+
 ```
-pipeline_2026/download_extract.py   # pulls BEHAVIOR-2026 (behavior-1k/2026-challenge-demos,
-                                     #   LeRobot v3 packed-video format) + extracts 1fps frames,
-                                     #   normalizes object ids against the real BEHAVIOR category
-                                     #   list, builds "<verb> <object>" targets
-lora_train_v3.py                    # LoRA fine-tune (accelerate, single- or multi-GPU DDP),
-                                     #   supports RESUME_ADAPTER/EPOCH_OFFSET/EPOCHS_TO_RUN/
-                                     #   TASK_SUBSET/ADAPTER_OUT env overrides
-eval_lora_v3_fulleval.py            # full-eval-set scoring (macro recall), supports sharding
-                                     #   for a SLURM job array, NO_ADAPTER=1 for base-model eval
-aggregate_fulleval_summary.py       # combine sharded eval results into one summary
-compute_verb_only_metrics.py        # rescore existing predictions on verb alone (ignore object)
-build_demo_video_v3.py              # green-text-on-black demo videos (frame + prompt + prediction)
-*.sbatch                            # SLURM launchers for the above
+pipeline/                           # CURRENT working pipeline (100 tasks, verb+object targets)
+├── download_extract.py             #   pulls BEHAVIOR-2026 (behavior-1k/2026-challenge-demos,
+│                                    #     LeRobot v3 packed-video format) + extracts 1fps frames,
+│                                    #     normalizes object ids against the real BEHAVIOR category
+│                                    #     list, builds "<verb> <object>" targets
+├── lora_train_v3.py                #   LoRA fine-tune (accelerate, single- or multi-GPU DDP),
+│                                    #     supports RESUME_ADAPTER/EPOCH_OFFSET/EPOCHS_TO_RUN/
+│                                    #     TASK_SUBSET/ADAPTER_OUT env overrides
+├── eval_lora_v3_fulleval.py        #   full-eval-set scoring (macro recall), supports sharding
+│                                    #     for a SLURM job array, NO_ADAPTER=1 for base-model eval
+├── aggregate_fulleval_summary.py   #   combine sharded eval results into one summary
+├── compute_verb_only_metrics.py    #   rescore existing predictions on verb alone (ignore object)
+├── build_demo_video_v3.py          #   green-text-on-black demo videos (frame + prompt + prediction)
+└── sbatch/                         #   SLURM launchers for all of the above
+
+legacy/                             # earlier iterations, kept for reference
+├── phase1_prompt_engineering/      #   prompt-only annotation (no fine-tuning) - single-task and
+│                                    #     10-task rule derivation via Opus, reasoning/structured/
+│                                    #     video-input prompt variants, ~20 scripts
+├── phase2_lora_v1/                 #   first LoRA attempt: 549 examples w/ Opus-written CoT targets
+├── phase3_lora_v2/                 #   second LoRA: 2710 examples, classification-only loss,
+│                                    #     10 tasks, verb-only labels (74.1% avg macro recall)
+├── task0029_zeroshot/              #   zero-shot generalization probe (task never in training)
+├── download_scripts/               #   superseded by pipeline/download_extract.py
+└── multinode_debugging/            #   the cross-node NCCL hang investigation (see git log for
+                                     #     the diagnosis - deterministic collective timeout traced
+                                     #     to one training example, not resource contention)
+
 results/                            # per-task JSON results + macro-recall summaries (this is the
                                      #   actual output of the project - safe/small enough for git)
 ```
@@ -42,7 +62,7 @@ each) live on shared storage, not in git:
 /shared_work/markhsp/behavior1k-statuschecker/
 ```
 
-Re-running `pipeline_2026/download_extract.py` regenerates `data_2026*/` from
+Re-running `pipeline/download_extract.py` regenerates `data_2026*/` from
 scratch (idempotent, skips already-downloaded episodes) if you're working from a
 fresh checkout without shared-storage access.
 
