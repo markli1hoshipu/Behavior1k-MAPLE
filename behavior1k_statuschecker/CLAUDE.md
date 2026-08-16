@@ -150,19 +150,26 @@ skill_acc, skill_macro, obj_acc, obj_macro
 - `skill_*` = verb-only, ignoring object correctness - from
   `compute_verb_only_metrics.py <tag>` /
   `results/lora_v3_<tag>_verbonly_summary.json`.
-- `obj_*` = object-only, ignoring verb correctness (**not implemented yet** -
-  needs a new `compute_object_only_metrics.py`, mirroring
-  `compute_verb_only_metrics.py`'s approach: rescore the same saved
-  predictions using an object-only match instead of a verb-only match, keyed
-  off `target_to_object` built from each task's ground-truth `object` field
-  the same way `target_to_verb` is built today).
+- `obj_*` = object-only, ignoring verb correctness - from
+  `compute_object_only_metrics.py <tag>` /
+  `results/lora_v3_<tag>_objectonly_summary.json` (mirrors
+  `compute_verb_only_metrics.py`, keyed off each task's ground-truth `object`
+  field instead of `verb`).
 
-Build the CSV by joining across every `*_summary.json` you want in the
-comparison (e.g. `baseeval`, `epoch0eval`, `fulleval` for the 100-task run;
-`10task_base`/`10task_2ep`/`10task_4ep` for the ablation) - one script that
-takes a list of result tags and models, writes one CSV row per (tag, task).
+Build the CSV with `build_results_csv.py` - it joins across every
+`*_summary.json`/`*_verbonly_summary.json`/`*_objectonly_summary.json` for a
+comparison group (e.g. `baseeval`/`epoch0eval`/`fulleval` for the 100-task
+run; `10task_base`/`10task_2ep`/`10task_4ep` for the ablation) and writes one
+row per (model, task) into `results/csv/`, named by train/eval detail
+(episode ranges, epoch checkpoints compared), not by the internal result tag.
 
-**2. A PPT.** Should cover:
+**2. A PPT**, built with `build_results_ppt.py`, named by date into
+`results/ppt/` (e.g. `results/ppt/2026-08-16_statuschecker_results.pptx`).
+**Academic presentation style**: title/author/date slide, methodology before
+results, results tables and charts over decorative content, one claim per
+slide with the evidence for it directly on that slide, restrained color
+palette (no default-template gradients/clip art), figures/tables large enough
+to read without zooming. Content to cover:
 
 - Results tables (the CSV above, rendered as slides/charts) - overall trend
   across models/checkpoints, plus a per-task breakdown highlighting the best
@@ -173,8 +180,12 @@ takes a list of result tags and models, writes one CSV row per (tag, task).
 - Example input/output pairs - a frame + the exact prompt sent to the model +
   its prediction vs. ground truth, for at least one correct and one wrong
   example (the `demo/*.mp4` videos and the still-frame renders in
-  `pipeline/build_demo_video_v3.py` are the source material for these - either
-  embed a still frame per example or link/embed the actual video)
-- Embed or link the demo videos themselves, not just a screenshot - they're
-  the clearest way to show a non-technical reviewer what the model is actually
-  doing frame-by-frame
+  `pipeline/build_demo_video_v3.py` are the source material for these)
+- **Demo videos must be embedded IN the deck** (`slide.shapes.add_movie()` -
+  see `build_results_ppt.py` for the pattern, including generating a poster
+  frame per video with `cv2`), not just linked or left as a separate file -
+  they're the clearest way to show what the model is actually doing
+  frame-by-frame, and a reviewer should never have to leave the PPT to see
+  one. This does make the file large (tens of MB per embedded video, expect
+  the whole deck to land in the 50-100MB range) - that's an accepted
+  tradeoff, not a reason to link instead.
