@@ -1,0 +1,423 @@
+{
+  "task_chunk": "task-0049",
+  "task_name": "make pizza",
+  "accuracy": 0.22033898305084745,
+  "macro_recall": 0.25086088154269975,
+  "correct": 13,
+  "total": 59,
+  "predictions": [
+    {
+      "sec": 8,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "3",
+      "correct": true
+    },
+    {
+      "sec": 17,
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "7",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "gt": "move to",
+      "pred": "chop",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "7",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "gt": "place on next to",
+      "pred": "place on",
+      "raw": "7",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "7",
+      "correct": false
+    },
+    {
+      "sec": 60,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "3",
+      "correct": true
+    },
+    {
+      "sec": 69,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "7",
+      "correct": false
+    },
+    {
+      "sec": 78,
+      "gt": "push to",
+      "pred": "chop",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 86,
+      "gt": "push to",
+      "pred": "place on",
+      "raw": "7",
+      "correct": false
+    },
+    {
+      "sec": 95,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "7",
+      "correct": false
+    },
+    {
+      "sec": 104,
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "7",
+      "correct": false
+    },
+    {
+      "sec": 112,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "7",
+      "correct": true
+    },
+    {
+      "sec": 121,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "7",
+      "correct": false
+    },
+    {
+      "sec": 130,
+      "gt": "chop",
+      "pred": "place on",
+      "raw": "7",
+      "correct": false
+    },
+    {
+      "sec": 138,
+      "gt": "place on next to",
+      "pred": "place on",
+      "raw": "7",
+      "correct": false
+    },
+    {
+      "sec": 147,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "7",
+      "correct": false
+    },
+    {
+      "sec": 156,
+      "gt": "pour",
+      "pred": "place on",
+      "raw": "7",
+      "correct": false
+    },
+    {
+      "sec": 164,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "3",
+      "correct": true
+    },
+    {
+      "sec": 173,
+      "gt": "open door",
+      "pred": "move to",
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 182,
+      "gt": "open door",
+      "pred": "chop",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 190,
+      "gt": "pick up from",
+      "pred": "chop",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 199,
+      "gt": "close door",
+      "pred": "chop",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 208,
+      "gt": "move to",
+      "pred": "chop",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 216,
+      "gt": "pour",
+      "pred": "place on",
+      "raw": "7",
+      "correct": false
+    },
+    {
+      "sec": 225,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "3",
+      "correct": true
+    },
+    {
+      "sec": 233,
+      "gt": "open door",
+      "pred": "move to",
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 242,
+      "gt": "open door",
+      "pred": "move to",
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 251,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "5",
+      "correct": true
+    },
+    {
+      "sec": 260,
+      "gt": "pick up from",
+      "pred": "chop",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 268,
+      "gt": "pick up from",
+      "pred": "chop",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 277,
+      "gt": "close door",
+      "pred": "move to",
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 286,
+      "gt": "close door",
+      "pred": "pick up from",
+      "raw": "5",
+      "correct": false
+    },
+    {
+      "sec": 294,
+      "gt": "close door",
+      "pred": "pick up from",
+      "raw": "5",
+      "correct": false
+    },
+    {
+      "sec": 303,
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "7",
+      "correct": false
+    },
+    {
+      "sec": 312,
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "7",
+      "correct": false
+    },
+    {
+      "sec": 320,
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "7",
+      "correct": false
+    },
+    {
+      "sec": 329,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "7",
+      "correct": false
+    },
+    {
+      "sec": 338,
+      "gt": "chop",
+      "pred": "place on",
+      "raw": "7",
+      "correct": false
+    },
+    {
+      "sec": 346,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "7",
+      "correct": true
+    },
+    {
+      "sec": 355,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "7",
+      "correct": false
+    },
+    {
+      "sec": 364,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "7",
+      "correct": true
+    },
+    {
+      "sec": 372,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "7",
+      "correct": false
+    },
+    {
+      "sec": 381,
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "9",
+      "correct": true
+    },
+    {
+      "sec": 390,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "7",
+      "correct": true
+    },
+    {
+      "sec": 398,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "7",
+      "correct": false
+    },
+    {
+      "sec": 407,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "7",
+      "correct": true
+    },
+    {
+      "sec": 416,
+      "gt": "open door",
+      "pred": "place on",
+      "raw": "7",
+      "correct": false
+    },
+    {
+      "sec": 424,
+      "gt": "open door",
+      "pred": "place on",
+      "raw": "7",
+      "correct": false
+    },
+    {
+      "sec": 433,
+      "gt": "pull tray",
+      "pred": "place on",
+      "raw": "7",
+      "correct": false
+    },
+    {
+      "sec": 441,
+      "gt": "pull tray",
+      "pred": "place in",
+      "raw": "6",
+      "correct": false
+    },
+    {
+      "sec": 450,
+      "gt": "pull tray",
+      "pred": "chop",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 459,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "7",
+      "correct": false
+    },
+    {
+      "sec": 467,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "7",
+      "correct": false
+    },
+    {
+      "sec": 476,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "6",
+      "correct": true
+    },
+    {
+      "sec": 485,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "6",
+      "correct": true
+    },
+    {
+      "sec": 493,
+      "gt": "close door",
+      "pred": "place in",
+      "raw": "6",
+      "correct": false
+    },
+    {
+      "sec": 502,
+      "gt": "close door",
+      "pred": "move to",
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 511,
+      "gt": "open door",
+      "pred": "place in",
+      "raw": "6",
+      "correct": false
+    }
+  ]
+}

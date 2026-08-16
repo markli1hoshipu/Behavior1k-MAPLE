@@ -1,0 +1,402 @@
+{
+  "task_chunk": "task-0040",
+  "task_name": "make microwave popcorn",
+  "accuracy": 0.39285714285714285,
+  "macro_recall": 0.4523809523809524,
+  "correct": 22,
+  "total": 56,
+  "predictions": [
+    {
+      "sec": 0,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The image shows a living room with a couch and coffee table, but no kitchen, microwave, or popcorn bag is visible.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 2,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The image shows a dining area with a table and chairs, but no kitchen appliances or microwave are visible in the frame.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 4,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The image shows a dining area with a table and chairs, but no kitchen appliances like a microwave are visible, so the robot cannot be performing any subskill related to the microwave.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 6,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The image shows a dining area with a table and chairs, but no kitchen counter, sink, or microwave is visible in this frame.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 8,
+      "gt": "move to",
+      "pred": "close door",
+      "raw": "Reasoning: The microwave is open and the popcorn bag is already sitting inside it, with the robot arm positioned to place the bag.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 10,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The image shows a wide view of a kitchen with no robot arm or gripper visible, and no popcorn bag is present in the frame.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 12,
+      "gt": "move to",
+      "pred": "close door",
+      "raw": "Reasoning: The microwave is open and the popcorn bag is already sitting inside the microwave.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 14,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave is open and the popcorn bag is already inside it, with the robot arm positioned to place the bag.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 16,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave is open and the popcorn bag is already inside it, with the robot arm positioned to place the bag.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 18,
+      "gt": "move to",
+      "pred": "open door",
+      "raw": "Reasoning: The microwave is empty and the robot arm is not holding a bag, so the action is not yet complete.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "gt": "move to",
+      "pred": "close door",
+      "raw": "Reasoning: The microwave is open and the popcorn bag is already sitting inside the microwave.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "gt": "move to",
+      "pred": "turn on switch",
+      "raw": "Reasoning: The microwave is closed and empty, and the robot's arm is positioned at the control knobs, consistent with the action of turning it on.\nAnswer: 6",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "gt": "move to",
+      "pred": "turn on switch",
+      "raw": "Reasoning: The microwave is closed and empty, with the robot arm positioned at the control knobs, consistent with the action of turning it on.\nAnswer: 6",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "gt": "open door",
+      "pred": "turn on switch",
+      "raw": "Reasoning: The microwave is closed and empty, and the robot's arm is positioned at the control knobs, consistent with the action of turning it on.\nAnswer: 6",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "gt": "open door",
+      "pred": "turn on switch",
+      "raw": "Reasoning: The microwave is closed and empty, and the robot arm is positioned at the control panel, suggesting the next step is to activate the appliance.\nAnswer: 6",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "gt": "open door",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave door is open and the gripper is holding a popcorn bag inside the microwave, consistent with placing the bag in.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 33,
+      "gt": "open door",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave door is open and the gripper is holding a popcorn bag at the microwave opening, with the arm still attached to the bag.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "gt": "open door",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave door is open and the gripper is holding a popcorn bag inside the microwave, consistent with placing the bag in.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "gt": "open door",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave door is open and the gripper is holding a popcorn bag at the microwave opening, with the arm still attached to the bag.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "gt": "open door",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave door is open and the gripper is holding a popcorn bag at the microwave opening, with the arm still attached to the bag.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "gt": "open door",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave door is open and the gripper is holding a popcorn bag at the microwave opening, with the arm still attached to the bag.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "gt": "open door",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave door is open and the gripper is holding a popcorn bag at the microwave opening, consistent with placing the bag inside.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "gt": "open door",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave door is open and the gripper is holding a white object (popcorn bag) at the opening, consistent with placing the bag inside.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave is open with a popcorn bag inside, and the robot arm is positioned at the opening, consistent with placing the bag in.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The image shows a kitchen counter with a popcorn bag on it, but no microwave is visible in the frame.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The image shows a kitchen counter with a popcorn bag on it, but no microwave is visible in the frame.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The image shows a popcorn bag on the counter next to a microwave, but the robot arm and gripper are not visible in the frame, indicating the robot is approaching or has just arrived at the task location.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 58,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The image shows a popcorn bag on the counter next to a stove, with no microwave visible, indicating the robot is preparing to retrieve the bag.\nAnswer: 4",
+      "correct": true
+    },
+    {
+      "sec": 60,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot arm is positioned over a counter with a popcorn bag, and the gripper appears to be interacting with or just grasping the bag, indicating the action of picking it up.\nAnswer: 4",
+      "correct": true
+    },
+    {
+      "sec": 63,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot arm is positioned over a popcorn bag on the counter, with the gripper appearing to grasp or be at the bag, indicating the action of picking it up.\nAnswer: 4",
+      "correct": true
+    },
+    {
+      "sec": 65,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The robot arm is holding a popcorn bag over a microwave, indicating the action of placing the bag inside.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 67,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The robot arm is holding a popcorn bag over the microwave opening, indicating the action of placing the bag inside.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 69,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The robot arm is holding a popcorn bag directly over the microwave opening, indicating the action of placing the bag inside.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 71,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The robot arm is holding a popcorn bag over the microwave opening, indicating the action of placing the bag inside.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 75,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave door is open and the gripper is holding the popcorn bag at the microwave opening, with the arm still attached to the bag.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 77,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave door is open and the gripper is holding the popcorn bag at the microwave opening, with the arm still attached to the bag.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 79,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: The robot arm is holding a popcorn bag directly over the open microwave door, indicating the action of placing the bag inside.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 81,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave door is open and the gripper is holding the popcorn bag at the microwave opening, with the arm still attached to the bag.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 86,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave door is open and the gripper is holding a popcorn bag inside the microwave, which matches the description for placing the bag in.\nAnswer: 5",
+      "correct": true
+    },
+    {
+      "sec": 88,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave door is open and the gripper is holding a popcorn bag inside the microwave cavity.\nAnswer: 5",
+      "correct": true
+    },
+    {
+      "sec": 90,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave door is open and the gripper is holding the popcorn bag at the microwave opening, with the arm still attached to the bag.\nAnswer: 5",
+      "correct": true
+    },
+    {
+      "sec": 92,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave door is open and the gripper is holding a popcorn bag inside the microwave cavity.\nAnswer: 5",
+      "correct": true
+    },
+    {
+      "sec": 94,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave door is open and the gripper is holding a popcorn bag inside the microwave cavity.\nAnswer: 5",
+      "correct": true
+    },
+    {
+      "sec": 96,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave door is open and the gripper is holding a popcorn bag inside the microwave cavity.\nAnswer: 5",
+      "correct": true
+    },
+    {
+      "sec": 98,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave door is open and the gripper is holding a yellow popcorn bag inside the microwave cavity.\nAnswer: 5",
+      "correct": true
+    },
+    {
+      "sec": 100,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave door is open and the gripper is holding a popcorn bag inside the microwave, consistent with placing the bag in.\nAnswer: 5",
+      "correct": true
+    },
+    {
+      "sec": 102,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave door is open and the gripper is holding a popcorn bag inside the microwave, consistent with placing the bag in.\nAnswer: 5",
+      "correct": true
+    },
+    {
+      "sec": 105,
+      "gt": "close door",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave door is open and the gripper is holding a popcorn bag at the microwave opening, consistent with placing the bag inside.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 107,
+      "gt": "close door",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave door is open and the gripper is holding a popcorn bag at the microwave opening.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 109,
+      "gt": "close door",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave door is open and the gripper is holding a white bag inside the microwave, consistent with placing the popcorn bag in.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 111,
+      "gt": "close door",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave door is open and the gripper is holding a popcorn bag at the microwave opening.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 113,
+      "gt": "close door",
+      "pred": "place in",
+      "raw": "Reasoning: The robot arm is holding a popcorn bag directly in front of the open microwave door, indicating the action of placing the bag inside.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 117,
+      "gt": "turn on switch",
+      "pred": "turn on switch",
+      "raw": "Reasoning: The microwave is closed and empty, and the robot arm is positioned at the control panel, suggesting the next action is to operate the appliance.\nAnswer: 6",
+      "correct": true
+    },
+    {
+      "sec": 119,
+      "gt": "turn on switch",
+      "pred": "turn on switch",
+      "raw": "Reasoning: The robot arm is positioned at the control panel of the microwave, with the gripper near the knobs, indicating the action of turning the microwave on.\nAnswer: 6",
+      "correct": true
+    },
+    {
+      "sec": 121,
+      "gt": "turn on switch",
+      "pred": "turn on switch",
+      "raw": "Reasoning: The robot arm is positioned at the control panel of the microwave, with the gripper near the knobs, indicating the action of turning the microwave on.\nAnswer: 6",
+      "correct": true
+    },
+    {
+      "sec": 123,
+      "gt": "turn on switch",
+      "pred": "turn on switch",
+      "raw": "Reasoning: The robot arm is positioned at the control panel of the microwave, with the gripper near the knobs, indicating the action of turning it on.\nAnswer: 6",
+      "correct": true
+    }
+  ]
+}

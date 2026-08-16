@@ -1,0 +1,4 @@
+1. move to - Wide view of the room floor with the robot's arms empty or just carrying the brown/white trash bin; any soda can is small and far away, not close to the grippers.
+2. pick up from - A soda can is close to the robot's grippers down near the floor, with one gripper reaching toward or already pinching that can while the bin is still held. Note: when no can is visible near the grippers, this frame looks the same as "move to" and cannot be told apart from one image.
+3. place in - The robot is holding a soda can right at the open mouth of the trash bin, so the can and the inside of the bin appear together in the same close-up view.
+4. place on - The trash bin is resting on the floor with soda cans already sitting inside it, and both grippers are open and empty, no longer holding the bin or any can.

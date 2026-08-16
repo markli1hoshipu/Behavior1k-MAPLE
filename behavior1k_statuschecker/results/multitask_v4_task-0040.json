@@ -1,0 +1,402 @@
+{
+  "task_chunk": "task-0040",
+  "task_name": "make microwave popcorn",
+  "accuracy": 0.35714285714285715,
+  "macro_recall": 0.5,
+  "correct": 20,
+  "total": 56,
+  "predictions": [
+    {
+      "sec": 0,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "5",
+      "correct": false
+    },
+    {
+      "sec": 2,
+      "gt": "move to",
+      "pred": "open door",
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 4,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "5",
+      "correct": false
+    },
+    {
+      "sec": 6,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "5",
+      "correct": false
+    },
+    {
+      "sec": 8,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "5",
+      "correct": false
+    },
+    {
+      "sec": 10,
+      "gt": "move to",
+      "pred": "open door",
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 12,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "5",
+      "correct": false
+    },
+    {
+      "sec": 14,
+      "gt": "move to",
+      "pred": "turn on switch",
+      "raw": "6",
+      "correct": false
+    },
+    {
+      "sec": 16,
+      "gt": "move to",
+      "pred": "turn on switch",
+      "raw": "6",
+      "correct": false
+    },
+    {
+      "sec": 18,
+      "gt": "move to",
+      "pred": "turn on switch",
+      "raw": "6",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "gt": "move to",
+      "pred": "turn on switch",
+      "raw": "6",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "gt": "move to",
+      "pred": "turn on switch",
+      "raw": "6",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "gt": "move to",
+      "pred": "turn on switch",
+      "raw": "6",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "gt": "open door",
+      "pred": "turn on switch",
+      "raw": "6",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "gt": "open door",
+      "pred": "place in",
+      "raw": "5",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "gt": "open door",
+      "pred": "place in",
+      "raw": "5",
+      "correct": false
+    },
+    {
+      "sec": 33,
+      "gt": "open door",
+      "pred": "place in",
+      "raw": "5",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "gt": "open door",
+      "pred": "place in",
+      "raw": "5",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "gt": "open door",
+      "pred": "place in",
+      "raw": "5",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "gt": "open door",
+      "pred": "place in",
+      "raw": "5",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "gt": "open door",
+      "pred": "place in",
+      "raw": "5",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "gt": "open door",
+      "pred": "place in",
+      "raw": "5",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "gt": "open door",
+      "pred": "place in",
+      "raw": "5",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "gt": "move to",
+      "pred": "open door",
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "5",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "4",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "4",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "4",
+      "correct": true
+    },
+    {
+      "sec": 60,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "4",
+      "correct": true
+    },
+    {
+      "sec": 63,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "4",
+      "correct": true
+    },
+    {
+      "sec": 65,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "4",
+      "correct": true
+    },
+    {
+      "sec": 67,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "4",
+      "correct": true
+    },
+    {
+      "sec": 69,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "4",
+      "correct": true
+    },
+    {
+      "sec": 71,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "4",
+      "correct": true
+    },
+    {
+      "sec": 75,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "5",
+      "correct": false
+    },
+    {
+      "sec": 77,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "5",
+      "correct": false
+    },
+    {
+      "sec": 79,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "4",
+      "correct": false
+    },
+    {
+      "sec": 81,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "5",
+      "correct": false
+    },
+    {
+      "sec": 86,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "5",
+      "correct": true
+    },
+    {
+      "sec": 88,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "5",
+      "correct": true
+    },
+    {
+      "sec": 90,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "5",
+      "correct": true
+    },
+    {
+      "sec": 92,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "5",
+      "correct": true
+    },
+    {
+      "sec": 94,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "5",
+      "correct": true
+    },
+    {
+      "sec": 96,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "5",
+      "correct": true
+    },
+    {
+      "sec": 98,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "5",
+      "correct": true
+    },
+    {
+      "sec": 100,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "5",
+      "correct": true
+    },
+    {
+      "sec": 102,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "5",
+      "correct": true
+    },
+    {
+      "sec": 105,
+      "gt": "close door",
+      "pred": "place in",
+      "raw": "5",
+      "correct": false
+    },
+    {
+      "sec": 107,
+      "gt": "close door",
+      "pred": "place in",
+      "raw": "5",
+      "correct": false
+    },
+    {
+      "sec": 109,
+      "gt": "close door",
+      "pred": "place in",
+      "raw": "5",
+      "correct": false
+    },
+    {
+      "sec": 111,
+      "gt": "close door",
+      "pred": "place in",
+      "raw": "5",
+      "correct": false
+    },
+    {
+      "sec": 113,
+      "gt": "close door",
+      "pred": "turn on switch",
+      "raw": "6",
+      "correct": false
+    },
+    {
+      "sec": 117,
+      "gt": "turn on switch",
+      "pred": "turn on switch",
+      "raw": "6",
+      "correct": true
+    },
+    {
+      "sec": 119,
+      "gt": "turn on switch",
+      "pred": "turn on switch",
+      "raw": "6",
+      "correct": true
+    },
+    {
+      "sec": 121,
+      "gt": "turn on switch",
+      "pred": "turn on switch",
+      "raw": "6",
+      "correct": true
+    },
+    {
+      "sec": 123,
+      "gt": "turn on switch",
+      "pred": "turn on switch",
+      "raw": "6",
+      "correct": true
+    }
+  ]
+}

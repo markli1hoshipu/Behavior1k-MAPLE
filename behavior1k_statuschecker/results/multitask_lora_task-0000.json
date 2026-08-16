@@ -1,0 +1,423 @@
+{
+  "task_chunk": "task-0000",
+  "task_name": "turning on radio",
+  "accuracy": 0.3559322033898305,
+  "macro_recall": 0.4702020202020202,
+  "correct": 21,
+  "total": 59,
+  "predictions": [
+    {
+      "sec": 0,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the corner with the sofa and the radio on the glass table now centered, but no robot parts are visible.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 1,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the corner with the sofa and the radio on the glass table now centered, but no robot parts are visible at all.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 2,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the living room corner with the sofa and glass coffee table now centered, no robot parts in view.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 3,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the corner with the sofa and the radio on the glass table, but no robot is visible at all.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 4,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the corner with the sofa and the radio on the glass table now centered, but no manipulation is visible.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 5,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the corner with the radio now centered on the glass table and the lamp above it, but no robot parts are visible at all.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 6,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the living room corner with the sofa and the radio on the table clearly resolved, but no robot parts are visible at all.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 7,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the corner with the sofa and the radio on the table now centered, but no robot parts are visible at all.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 8,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to face the blue sofa and the radio on the table, with no robot parts in view.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 9,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the living room with the radio on the table now centered and the lamp at the bottom edge, showing the base of the robot as it drives toward the object.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 10,
+      "gt": "pick up from",
+      "pred": "press",
+      "raw": "Reasoning: The camera has swung to face the living room with the radio on the table now centered and the lamp tilted down over it.\nAnswer: press",
+      "correct": false
+    },
+    {
+      "sec": 11,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to face the sofa and the radio on the table, with no arms or grippers in view.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 12,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the living room with the radio on the table and the sofa now centered, but no robot parts are visible at all.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has turned to face the sofa and the table with the radio, but no robot parts are visible at all.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 14,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The radio is now centered and closer on the glass table, but no gripper is visible in this frame.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 15,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the corner with the sofa and the radio on the glass table now centered and closer, but no robot parts are visible.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 16,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the living room corner with the radio on the table and the sofa now centered, but no robot parts are visible.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the living room corner with the radio on the table and the sofa now filling the frame, showing the base is still far off.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 18,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to face the sofa and the radio on the table, with no arms or grippers in view.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 19,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The radio sits centered on the glass table with the lamp beside it, and the viewpoint has shifted slightly down and left.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 20,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the living room corner with the radio on the table and the sofa now centered, but no robot parts are visible.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the sofa and the radio is now centered on the table with its round knob lit, but no robot parts are visible.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the living room corner with the radio on the table and the robot's base edge at the bottom of the frame.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The radio sits on the table with the lamp beside it, and the viewpoint has shifted slightly, showing the object is now resting.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 24,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The radio sits on the table with the lamp beside it, and the camera has begun to tilt down.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The radio sits on the table with the lamp beside it, and the camera has begun to tilt down.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The radio sits upright on the table with the lamp beside it, no manipulation contact visible.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The left arm is extended across the table surface right beside the radio, in the final settling of the grasp.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 28,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The left arm is extended toward the white remote on the far left of the table while the right still holds the radio.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "gt": "pick up from",
+      "pred": "press",
+      "raw": "Reasoning: The right gripper is down at the radio's side with fingers spread across the round knob area.\nAnswer: press",
+      "correct": false
+    },
+    {
+      "sec": 30,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The radio is now upright on the table with the left arm reaching toward its base.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "gt": "pick up from",
+      "pred": "press",
+      "raw": "Reasoning: The right gripper is down at the radio's side with fingers spread across the round knob area.\nAnswer: press",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The radio is held in the right gripper and has shifted slightly upward from the tabletop, showing it is being lifted off the surface.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 33,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The radio is held in the right gripper's fingers and has been set down on the table surface beside the remote.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The radio is now resting on the table with the gripper still around it.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The radio is now resting on the table surface beside the lamp, with the gripper still attached to it.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The radio is now sitting on the table with the gripper still around it.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The radio is now sitting on the table beside the lamp, gripper still attached to its sides.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The radio is held aloft in the right gripper and the table is now empty of its original object.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 39,
+      "gt": "press",
+      "pred": "pick up from",
+      "raw": "Reasoning: The radio is now held in the right gripper and tilted up off the table, clear of the surface.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "gt": "press",
+      "pred": "pick up from",
+      "raw": "Reasoning: The radio is now centered and closer with the right gripper at its base, though the grasp itself isn't yet cleary resolved.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 41,
+      "gt": "press",
+      "pred": "place on",
+      "raw": "Reasoning: The radio sits flat on the table with the right gripper still down beside it.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "gt": "press",
+      "pred": "place on",
+      "raw": "Reasoning: The radio sits flat on the table with the right gripper still down beside it, in the final settling of the grasp.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "gt": "press",
+      "pred": "place on",
+      "raw": "Reasoning: The left arm is extended with the gripper just clearing the radio's top face, releasing it.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "gt": "press",
+      "pred": "place on",
+      "raw": "Reasoning: The left arm is extended down toward the radio's base with the gripper just clearing the tabletop edge.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "gt": "press",
+      "pred": "press",
+      "raw": "Reasoning: The left arm is down at the black knob on the radio's front panel, closing in on the control.\nAnswer: press",
+      "correct": true
+    },
+    {
+      "sec": 46,
+      "gt": "press",
+      "pred": "place on",
+      "raw": "Reasoning: The radio is now upright on the table with the green indicator lit and the gripper still attached to its side.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "gt": "press",
+      "pred": "place on",
+      "raw": "Reasoning: The radio is now held in the right gripper and tilted slightly, showing it's being set down.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The radio is now tilted up in the right gripper's fingers, clear of the table.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 49,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The radio is now sitting on the table with the gripper still around it.\nAnswer: place on",
+      "correct": true
+    },
+    {
+      "sec": 50,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The radio is now sitting on the table surface with the gripper still attached to its side.\nAnswer: place on",
+      "correct": true
+    },
+    {
+      "sec": 51,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The radio is now sitting on the table with the gripper still attached to its side.\nAnswer: place on",
+      "correct": true
+    },
+    {
+      "sec": 52,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The radio is now sitting on the table surface with the gripper still around it.\nAnswer: place on",
+      "correct": true
+    },
+    {
+      "sec": 53,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The radio is now sitting on the table surface with the gripper still attached to its side.\nAnswer: place on",
+      "correct": true
+    },
+    {
+      "sec": 54,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The radio is now tilted up in the right gripper's fingers, clear of the tabletop.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The radio sits flat on the table with the gripper still around it, in contact with the surface.\nAnswer: place on",
+      "correct": true
+    },
+    {
+      "sec": 56,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The right gripper is down at the table surface right beside the radio, fingers open for contact.\nAnswer: place on",
+      "correct": true
+    },
+    {
+      "sec": 57,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the table surface beside the radio, fingers open for contact.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The radio sits centered on the glass table with the left arm retracting to the left, the last frame of the grasp.\nAnswer: pick up from",
+      "correct": false
+    }
+  ]
+}

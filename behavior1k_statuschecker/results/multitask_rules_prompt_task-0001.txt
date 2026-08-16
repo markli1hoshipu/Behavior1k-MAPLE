@@ -1,0 +1,41 @@
+You are helping design a prompt for a small (2B parameter) vision-language model
+that will classify a robot's current subskill from a single camera frame, once per
+second, for the household task: "Pick up the trash (soda cans) from the floor and put them in the trash can."
+
+The possible subskill labels for this task are: ['move to', 'pick up from', 'place in', 'place on']
+
+Below is a list of frames, each with its GROUND-TRUTH label and file path. Read every
+image (use your Read tool) and figure out what is visually TRUE and RELIABLY DETECTABLE
+in each label's frames, and what's easily confused between adjacent labels.
+
+- [move to] sec 0: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0001/frames/sec_0000.jpg
+- [move to] sec 41: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0001/frames/sec_0041.jpg
+- [move to] sec 62: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0001/frames/sec_0062.jpg
+- [move to] sec 129: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0001/frames/sec_0129.jpg
+- [pick up from] sec 25: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0001/frames/sec_0025.jpg
+- [pick up from] sec 83: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0001/frames/sec_0083.jpg
+- [pick up from] sec 158: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0001/frames/sec_0158.jpg
+- [pick up from] sec 208: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0001/frames/sec_0208.jpg
+- [place in] sec 100: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0001/frames/sec_0100.jpg
+- [place in] sec 166: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0001/frames/sec_0166.jpg
+- [place in] sec 170: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0001/frames/sec_0170.jpg
+- [place in] sec 225: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0001/frames/sec_0225.jpg
+- [place on] sec 229: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0001/frames/sec_0229.jpg
+- [place on] sec 233: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0001/frames/sec_0233.jpg
+- [place on] sec 237: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0001/frames/sec_0237.jpg
+- [place on] sec 241: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0001/frames/sec_0241.jpg
+
+For each label, write a SHORT (1-2 sentence) rule describing what is reliably visible
+in-frame for that label, using plain, common-sense language (avoid precise spatial
+jargon like "on top of / below / left / right" - it tends to confuse small models).
+Where a distinction is genuinely not recoverable from a single static frame (e.g. it
+depends on motion direction or on state before/after an off-screen event), say so
+explicitly rather than inventing a rule that won't hold up.
+
+Output ONLY the final rules in this exact format (one line per label, numbered to match
+the label list above), nothing else - no preamble, no analysis section, no confidence
+notes. Keep total output under 200 words:
+
+1. <label> - <rule>
+2. <label> - <rule>
+...

@@ -1,0 +1,430 @@
+{
+  "task_chunk": "task-0031",
+  "task_name": "clean boxing gloves",
+  "accuracy": 0.4,
+  "macro_recall": 0.4144688644688645,
+  "correct": 24,
+  "total": 60,
+  "predictions": [
+    {
+      "sec": 0,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The sink counter and window are now centered and the floor has shifted slightly, showing base motion.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 7,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the window and cabinets with the two arms hanging low and idle, consistent with the base repositioning.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 14,
+      "gt": "move to",
+      "pred": "turn on switch",
+      "raw": "Reasoning: The washer and dryer are now side by side with the arms reaching toward the right-hand machine's control panel.\nAnswer: turn on switch",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "gt": "open door",
+      "pred": "move to",
+      "raw": "Reasoning: The view has shifted to face the two appliances side by side with the arms still low and empty, consistent with repositioning.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 28,
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "Reasoning: The left gripper is at the glass door of the white washer, closing on it.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "Reasoning: The left gripper is at the glass door of the white washer, closing it shut.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "Reasoning: The left gripper is inside the open washer door, the second door being closed.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "Reasoning: The left gripper is on the door edge, the drum now empty and the right arm retracting.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "Reasoning: The left gripper is at the glass door edge, closing it on the washer front.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 64,
+      "gt": "open door",
+      "pred": "place in",
+      "raw": "Reasoning: The right arm is inside the open drum with the second glove now visible inside.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 72,
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "Reasoning: The left arm is extended into the open drum with the glass door now flush against the drum wall.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 79,
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "Reasoning: The right gripper is at the drum opening with the glass door now tilted back, the latch released.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 86,
+      "gt": "open door",
+      "pred": "open door",
+      "raw": "Reasoning: The washer door is now clearly visible as a round glass panel, and the arms have begun to swing across the frame.\nAnswer: open door",
+      "correct": true
+    },
+    {
+      "sec": 93,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the far corner of the room with the two red gloves on the counter and the arms hanging low and idle.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 100,
+      "gt": "move to",
+      "pred": "turn to",
+      "raw": "Reasoning: The view has swung to the far corner of the room with the two red gloves on the counter and the arms still low and idle.\nAnswer: turn to",
+      "correct": false
+    },
+    {
+      "sec": 108,
+      "gt": "move to",
+      "pred": "turn to",
+      "raw": "Reasoning: The view has swung to the far corner with the two red gloves on the counter and the arms still low and idle.\nAnswer: turn to",
+      "correct": false
+    },
+    {
+      "sec": 115,
+      "gt": "turn to",
+      "pred": "turn to",
+      "raw": "Reasoning: The two red gloves sit side by side on the counter and both arms are pulling back from them.\nAnswer: turn to",
+      "correct": true
+    },
+    {
+      "sec": 122,
+      "gt": "turn to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is at the right side of the second glove, closing in on its handle.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 129,
+      "gt": "turn to",
+      "pred": "turn to",
+      "raw": "Reasoning: The left gripper is at the left edge of the frame holding the left red glove, which is now upright on the counter.\nAnswer: turn to",
+      "correct": true
+    },
+    {
+      "sec": 136,
+      "gt": "turn to",
+      "pred": "turn to",
+      "raw": "Reasoning: The left gripper is at the left edge of the frame holding the left red glove, which is now upright on the counter.\nAnswer: turn to",
+      "correct": true
+    },
+    {
+      "sec": 144,
+      "gt": "turn to",
+      "pred": "turn to",
+      "raw": "Reasoning: The left gripper is at the left edge of the frame holding the left glove, and the right gripper is at the right edge holding the second one.\nAnswer: turn to",
+      "correct": true
+    },
+    {
+      "sec": 151,
+      "gt": "turn to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is at the second red glove's cuff, closing on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 158,
+      "gt": "turn to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is on the second red glove, fingers spread over its cuff.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 165,
+      "gt": "turn to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is at the cuff of the second glove, fingers open at the contact point.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 172,
+      "gt": "turn to",
+      "pred": "pick up from",
+      "raw": "Reasoning: Both gloves are now held in the grippers and the counter is being swept across, the second grasp.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 180,
+      "gt": "turn to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is at the second glove's cuff, closing on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 187,
+      "gt": "turn to",
+      "pred": "turn to",
+      "raw": "Reasoning: The right gripper is extended toward the second red glove on the counter, though it is still open.\nAnswer: turn to",
+      "correct": true
+    },
+    {
+      "sec": 194,
+      "gt": "turn to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The left gripper is at the left glove's cuff, closing on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 201,
+      "gt": "turn to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The left gripper is down at the left glove's cuff, closing on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 208,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The left gripper is down at the red glove's cuff, fingers spread on the fabric.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 216,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The left gripper is closed on the left glove and the right arm is pulling back, the second grasp complete.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 223,
+      "gt": "pick up from",
+      "pred": "turn to",
+      "raw": "Reasoning: The right gripper is at the counter edge with the second glove, but it is still in a neutral grasp rather than a release.\nAnswer: turn to",
+      "correct": false
+    },
+    {
+      "sec": 230,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The left gripper is now holding the red glove and the right gripper is retracting from the counter.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 237,
+      "gt": "pick up from",
+      "pred": "turn to",
+      "raw": "Reasoning: Both gloves are held aloft in the grippers, the second one now clearly visible on the right.\nAnswer: turn to",
+      "correct": false
+    },
+    {
+      "sec": 244,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: Both gloves are now held in the grippers and the view has turned to the cabinet shelves, showing the arms are in a repositioning stance.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 252,
+      "gt": "move to",
+      "pred": "turn to",
+      "raw": "Reasoning: The view has swung to the washer and dryer unit with the red gloves still resting on the counter, arms lowered.\nAnswer: turn to",
+      "correct": false
+    },
+    {
+      "sec": 259,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: Both gloves are now held aloft in the two grippers, arms raised and open.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 266,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: The washer and dryer are now centered and the gloves are held out in front of them, the final positioning before insertion.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 273,
+      "gt": "place in",
+      "pred": "close door",
+      "raw": "Reasoning: The left gripper is at the glass door of the white washer, closing on it.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 280,
+      "gt": "place in",
+      "pred": "close door",
+      "raw": "Reasoning: The left gripper is at the open washer door with the white drum now visible inside it.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 288,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The left gripper is inside the open drum, the second glove being deposited.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 295,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The left gripper is inside the drum opening, the second glove now sitting in the machine.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 302,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The left gripper is inside the drum opening, the second glove now visible in the lower left corner.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 309,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is at the red glove's fingertips, closing on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 316,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is now up in the air holding the red glove, the second object in the washer.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 324,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The red glove is now held in the right gripper and the left arm is pulling back, the second glove released.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 331,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The red glove is now inside the drum and the left arm is pulling back across the floor.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 338,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The right arm is inside the drum with the glove now visible inside the cavity.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 345,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The right arm is inside the drum with the glove now visible inside the cavity.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 352,
+      "gt": "place in",
+      "pred": "close door",
+      "raw": "Reasoning: The washer door is now shut flush with the drum and the red gloves are visible inside, with the left gripper still attached to the door.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 360,
+      "gt": "close door",
+      "pred": "close door",
+      "raw": "Reasoning: The washer door is now shut flush with the machine and the left gripper is at the door edge.\nAnswer: close door",
+      "correct": true
+    },
+    {
+      "sec": 367,
+      "gt": "close door",
+      "pred": "open door",
+      "raw": "Reasoning: The washer door is now clearly open and tilted outward, the second stage of the opening motion.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 374,
+      "gt": "close door",
+      "pred": "open door",
+      "raw": "Reasoning: The left gripper is on the door edge, the glass door now clearly visible and rotated.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 381,
+      "gt": "close door",
+      "pred": "place in",
+      "raw": "Reasoning: The left gripper is inside the drum opening, the second glove now sitting in the machine.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 388,
+      "gt": "close door",
+      "pred": "place in",
+      "raw": "Reasoning: The left gripper is inside the drum opening, the second glove being deposited.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 396,
+      "gt": "close door",
+      "pred": "close door",
+      "raw": "Reasoning: The washer door is now shut flush with the machine and the gripper is at the door's edge.\nAnswer: close door",
+      "correct": true
+    },
+    {
+      "sec": 403,
+      "gt": "turn on switch",
+      "pred": "close door",
+      "raw": "Reasoning: The right gripper is at the door edge, pulling it back from the open drum.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 410,
+      "gt": "turn on switch",
+      "pred": "turn on switch",
+      "raw": "Reasoning: The right gripper is at the control panel of the white washer, with the indicator now green.\nAnswer: turn on switch",
+      "correct": true
+    },
+    {
+      "sec": 417,
+      "gt": "turn on switch",
+      "pred": "turn on switch",
+      "raw": "Reasoning: The washer door is now shut flush with the machine and the green indicator has turned, showing the cycle is running.\nAnswer: turn on switch",
+      "correct": true
+    },
+    {
+      "sec": 424,
+      "gt": "turn on switch",
+      "pred": "close door",
+      "raw": "Reasoning: The washer door is now shut and the left gripper is at the closed door face.\nAnswer: close door",
+      "correct": false
+    }
+  ]
+}

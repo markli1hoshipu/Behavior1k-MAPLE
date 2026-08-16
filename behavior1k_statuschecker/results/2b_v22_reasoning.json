@@ -1,0 +1,483 @@
+{
+  "version": "2b_v22_reasoning",
+  "window": 1,
+  "system_prompt": "You are annotating individual frames from a fixed head-mounted camera on a mobile manipulator robot. Classify the robot's current subskill using ONLY the visual evidence in this single frame.",
+  "user_prompt": "Task: \"Turn on the radio receiver that's on the table in the living room.\"\nDecide by asking, in this order: is an arm visible? is the gripper closed on the radio's body? is the gripper actually TOUCHING the dial?\n1. move to - no robot arm or gripper is visible anywhere in the frame. It does not matter how the radio looks (near or far, large or small) - if there is no arm, answer 1.\n2. pick up from - the gripper is closed around the radio's BODY - the red-and-white striped part or its side edge - gripping or squeezing it. This counts whether the radio is lifted off the table or still sitting on it. The gripper is on the body, not on the round dial face.\n3. press - the gripper is in CONTACT with the round dial face itself: touching it, resting on it, or pushing into it, with no visible gap between gripper and dial. Contact is required. \"Hovering above the dial\", \"positioned over the dial\", \"lined up with the dial\", or \"about to press it\" is NOT press. If you can see any space between the gripper and the dial, do not answer 3. The radio does not need to be lifted - press can happen while it sits on the table.\n4. place on - an arm IS visible, but the gripper is touching nothing: it is above, beside, or backing away from the radio with a visible gap, or it is lowering the radio down and releasing it. This looks almost exactly like press - same close-up view, same dial facing the camera - and the ONLY difference is that the contact is broken. A visible gap between gripper and dial means 4, not 3.\nTie-breaks, in order:\n- No arm anywhere in frame -> 1.\n- Gripper closed on the striped body -> 2 (even if the dial face is also visible).\n- Gripper in contact with the dial -> 3.\n- Arm visible but gripper in contact with nothing -> 4. Never answer 3 for a hovering gripper.\nLook only at what is visible in this frame. Respond in EXACTLY this format:\nReasoning: <one short sentence on what you actually see that supports your answer>\nAnswer: <digit 1-4>",
+  "accuracy": 0.2711864406779661,
+  "correct": 16,
+  "total": 59,
+  "predictions": [
+    {
+      "sec": 0,
+      "gt": "move to",
+      "pred": "move to",
+      "reasoning": "There is no robot arm or gripper visible in the frame, so the action cannot be classified as 3 or 4.",
+      "raw": "Reasoning: There is no robot arm or gripper visible in the frame, so the action cannot be classified as 3 or 4.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 1,
+      "gt": "move to",
+      "pred": "move to",
+      "reasoning": "There is no robot arm or gripper visible in the frame, so the action cannot be classified.",
+      "raw": "Reasoning: There is no robot arm or gripper visible in the frame, so the action cannot be classified.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 2,
+      "gt": "move to",
+      "pred": "move to",
+      "reasoning": "There is no robot arm or gripper visible in the frame, so the action cannot be classified as 2, 3, or 4.",
+      "raw": "Reasoning: There is no robot arm or gripper visible in the frame, so the action cannot be classified as 2, 3, or 4.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 3,
+      "gt": "move to",
+      "pred": "move to",
+      "reasoning": "There is no robot arm or gripper visible in the frame, so the action cannot be classified as 2, 3, or 4.",
+      "raw": "Reasoning: There is no robot arm or gripper visible in the frame, so the action cannot be classified as 2, 3, or 4.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 4,
+      "gt": "move to",
+      "pred": "move to",
+      "reasoning": "There is no robot arm or gripper visible in the frame, so the action cannot be classified.",
+      "raw": "Reasoning: There is no robot arm or gripper visible in the frame, so the action cannot be classified.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 5,
+      "gt": "move to",
+      "pred": "move to",
+      "reasoning": "There is no robot arm or gripper visible in the frame, so the action cannot be classified as 3 or 4.",
+      "raw": "Reasoning: There is no robot arm or gripper visible in the frame, so the action cannot be classified as 3 or 4.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 6,
+      "gt": "move to",
+      "pred": "move to",
+      "reasoning": "There is no robot arm or gripper visible in the frame, so the action cannot be classified as 2, 3, or 4.",
+      "raw": "Reasoning: There is no robot arm or gripper visible in the frame, so the action cannot be classified as 2, 3, or 4.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 7,
+      "gt": "move to",
+      "pred": "move to",
+      "reasoning": "There is no robot arm or gripper visible in the frame, so the action cannot be classified as 2, 3, or 4.",
+      "raw": "Reasoning: There is no robot arm or gripper visible in the frame, so the action cannot be classified as 2, 3, or 4.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 8,
+      "gt": "move to",
+      "pred": "move to",
+      "reasoning": "There is no robot arm or gripper visible in the frame, so the action cannot be classified as 3 or 4.",
+      "raw": "Reasoning: There is no robot arm or gripper visible in the frame, so the action cannot be classified as 3 or 4.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 9,
+      "gt": "pick up from",
+      "pred": "move to",
+      "reasoning": "There is no robot arm or gripper visible in the frame, so the action cannot be classified as 2, 3, or 4.",
+      "raw": "Reasoning: There is no robot arm or gripper visible in the frame, so the action cannot be classified as 2, 3, or 4.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 10,
+      "gt": "pick up from",
+      "pred": "move to",
+      "reasoning": "There is no robot arm or gripper visible in the frame, so the action cannot be classified as 2, 3, or 4.",
+      "raw": "Reasoning: There is no robot arm or gripper visible in the frame, so the action cannot be classified as 2, 3, or 4.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 11,
+      "gt": "pick up from",
+      "pred": "move to",
+      "reasoning": "There is no robot arm or gripper visible in the frame, so the action cannot be classified as 2, 3, or 4.",
+      "raw": "Reasoning: There is no robot arm or gripper visible in the frame, so the action cannot be classified as 2, 3, or 4.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 12,
+      "gt": "pick up from",
+      "pred": "move to",
+      "reasoning": "There is no robot arm or gripper visible in the frame, so the action cannot be classified as 2, 3, or 4.",
+      "raw": "Reasoning: There is no robot arm or gripper visible in the frame, so the action cannot be classified as 2, 3, or 4.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "gt": "pick up from",
+      "pred": "move to",
+      "reasoning": "There is no robot arm or gripper visible in the frame, so the action cannot be classified.",
+      "raw": "Reasoning: There is no robot arm or gripper visible in the frame, so the action cannot be classified.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 14,
+      "gt": "pick up from",
+      "pred": "move to",
+      "reasoning": "There is no robot arm or gripper visible in the frame, so the action cannot be classified.",
+      "raw": "Reasoning: There is no robot arm or gripper visible in the frame, so the action cannot be classified.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "gt": "pick up from",
+      "pred": "move to",
+      "reasoning": "There is no robot arm or gripper visible in the frame, so the action cannot be classified.",
+      "raw": "Reasoning: There is no robot arm or gripper visible in the frame, so the action cannot be classified.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 16,
+      "gt": "pick up from",
+      "pred": "move to",
+      "reasoning": "There is no robot arm or gripper visible in the frame, so the action cannot be classified.",
+      "raw": "Reasoning: There is no robot arm or gripper visible in the frame, so the action cannot be classified.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "gt": "pick up from",
+      "pred": "move to",
+      "reasoning": "There is no robot arm or gripper visible in the frame, so the action cannot be classified as 2, 3, or 4.",
+      "raw": "Reasoning: There is no robot arm or gripper visible in the frame, so the action cannot be classified as 2, 3, or 4.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 18,
+      "gt": "pick up from",
+      "pred": "move to",
+      "reasoning": "There is no robot arm or gripper visible in the frame, so the action cannot be classified as 2, 3, or 4.",
+      "raw": "Reasoning: There is no robot arm or gripper visible in the frame, so the action cannot be classified as 2, 3, or 4.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 19,
+      "gt": "pick up from",
+      "pred": "move to",
+      "reasoning": "There is no robot arm or gripper visible in the frame, so the action cannot be completed.",
+      "raw": "Reasoning: There is no robot arm or gripper visible in the frame, so the action cannot be completed.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 20,
+      "gt": "pick up from",
+      "pred": "move to",
+      "reasoning": "There is no robot arm or gripper visible in the frame, so the action cannot be classified as 3 or 4.",
+      "raw": "Reasoning: There is no robot arm or gripper visible in the frame, so the action cannot be classified as 3 or 4.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "gt": "pick up from",
+      "pred": "move to",
+      "reasoning": "No robot arm or gripper is visible in the frame, so the action cannot be completed.",
+      "raw": "Reasoning: No robot arm or gripper is visible in the frame, so the action cannot be completed.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "gt": "pick up from",
+      "pred": "move to",
+      "reasoning": "No robot arm or gripper is visible in the frame, so the action cannot be completed.",
+      "raw": "Reasoning: No robot arm or gripper is visible in the frame, so the action cannot be completed.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "gt": "pick up from",
+      "pred": "move to",
+      "reasoning": "There is no robot arm or gripper visible in the frame, so the action cannot be classified as 2, 3, or 4.",
+      "raw": "Reasoning: There is no robot arm or gripper visible in the frame, so the action cannot be classified as 2, 3, or 4.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 24,
+      "gt": "pick up from",
+      "pred": "move to",
+      "reasoning": "No robot arm or gripper is visible in the frame, so the action cannot be completed.",
+      "raw": "Reasoning: No robot arm or gripper is visible in the frame, so the action cannot be completed.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "gt": "pick up from",
+      "pred": "move to",
+      "reasoning": "No robot arm or gripper is visible in the frame, so the action cannot be completed.",
+      "raw": "Reasoning: No robot arm or gripper is visible in the frame, so the action cannot be completed.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "gt": "pick up from",
+      "pred": "move to",
+      "reasoning": "No robot arm or gripper is visible in the frame, so the action cannot be completed.",
+      "raw": "Reasoning: No robot arm or gripper is visible in the frame, so the action cannot be completed.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "gt": "pick up from",
+      "pred": "move to",
+      "reasoning": "No robot arm or gripper is visible in the frame, so the action cannot be classified.",
+      "raw": "Reasoning: No robot arm or gripper is visible in the frame, so the action cannot be classified.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 28,
+      "gt": "pick up from",
+      "pred": "move to",
+      "reasoning": "The robot arm is not visible in the frame, so the action cannot be classified as pressing or placing.",
+      "raw": "Reasoning: The robot arm is not visible in the frame, so the action cannot be classified as pressing or placing.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "gt": "pick up from",
+      "pred": "move to",
+      "reasoning": "The frame shows no robot arm or gripper visible in the scene.",
+      "raw": "Reasoning: The frame shows no robot arm or gripper visible in the scene.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 30,
+      "gt": "pick up from",
+      "pred": "move to",
+      "reasoning": "The frame shows no robot arm or gripper visible in the scene.",
+      "raw": "Reasoning: The frame shows no robot arm or gripper visible in the scene.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "gt": "pick up from",
+      "pred": "move to",
+      "reasoning": "The frame shows no robot arm or gripper visible in the scene.",
+      "raw": "Reasoning: The frame shows no robot arm or gripper visible in the scene.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "reasoning": "The frame shows a robotic arm with a gripper holding a red-and-white radio, but the gripper is gripping the side of the radio's body, not the dial.",
+      "raw": "Reasoning: The frame shows a robotic arm with a gripper holding a red-and-white radio, but the gripper is gripping the side of the radio's body, not the dial.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 33,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "reasoning": "The robot arm is visible, and the gripper is closed around the red-and-white striped body of the radio, but it is not touching the dial face.",
+      "raw": "Reasoning: The robot arm is visible, and the gripper is closed around the red-and-white striped body of the radio, but it is not touching the dial face.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 34,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "reasoning": "The robot arm is visible, and the gripper is closed around the red-and-white striped body of the radio, but it is not touching the dial face.",
+      "raw": "Reasoning: The robot arm is visible, and the gripper is closed around the red-and-white striped body of the radio, but it is not touching the dial face.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 35,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "reasoning": "The arm is visible, and the gripper is closed around the red-and-white striped body of the radio, but there is a visible gap between the gripper and the dial face, so it is not touching the dial.",
+      "raw": "Reasoning: The arm is visible, and the gripper is closed around the red-and-white striped body of the radio, but there is a visible gap between the gripper and the dial face, so it is not touching the dial.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 36,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "reasoning": "The robot arm is visible, and the gripper is closed around the red-and-white striped body of the radio, but it is not touching the dial face.",
+      "raw": "Reasoning: The robot arm is visible, and the gripper is closed around the red-and-white striped body of the radio, but it is not touching the dial face.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 37,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "reasoning": "The robot arm is visible, and the gripper is closed around the red-and-white striped body of the radio, but it is not touching the dial face.",
+      "raw": "Reasoning: The robot arm is visible, and the gripper is closed around the red-and-white striped body of the radio, but it is not touching the dial face.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 38,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "reasoning": "The robot arm is visible holding the radio, and the gripper is closed around the red-and-white striped body of the radio, but it is not touching the dial face.",
+      "raw": "Reasoning: The robot arm is visible holding the radio, and the gripper is closed around the red-and-white striped body of the radio, but it is not touching the dial face.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 39,
+      "gt": "press",
+      "pred": "move to",
+      "reasoning": "The frame shows no robot arm or gripper is visible anywhere in the frame.",
+      "raw": "Reasoning: The frame shows no robot arm or gripper is visible anywhere in the frame.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "gt": "press",
+      "pred": "move to",
+      "reasoning": "The robot arm is not visible in the frame, so the action cannot be classified as pressing or placing.",
+      "raw": "Reasoning: The robot arm is not visible in the frame, so the action cannot be classified as pressing or placing.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 41,
+      "gt": "press",
+      "pred": "move to",
+      "reasoning": "The robot arm is not visible in the frame, so the action cannot be classified as pressing or placing.",
+      "raw": "Reasoning: The robot arm is not visible in the frame, so the action cannot be classified as pressing or placing.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "gt": "press",
+      "pred": "move to",
+      "reasoning": "The robot arm is not visible in the frame, so the action cannot be classified as pressing or placing.",
+      "raw": "Reasoning: The robot arm is not visible in the frame, so the action cannot be classified as pressing or placing.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "gt": "press",
+      "pred": "move to",
+      "reasoning": "No robot arm or gripper is visible anywhere in the frame.",
+      "raw": "Reasoning: No robot arm or gripper is visible anywhere in the frame.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "gt": "press",
+      "pred": "move to",
+      "reasoning": "The frame shows no robot arm or gripper visible in the scene.",
+      "raw": "Reasoning: The frame shows no robot arm or gripper visible in the scene.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "gt": "press",
+      "pred": "move to",
+      "reasoning": "The robot arm is not visible in the frame, so the action cannot be classified as pressing or placing.",
+      "raw": "Reasoning: The robot arm is not visible in the frame, so the action cannot be classified as pressing or placing.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "gt": "press",
+      "pred": "pick up from",
+      "reasoning": "The robot arm is visible, and the gripper is closed around the red-and-white body of the radio, but it is not touching the dial face.",
+      "raw": "Reasoning: The robot arm is visible, and the gripper is closed around the red-and-white body of the radio, but it is not touching the dial face.\nAnswer: 2",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "gt": "press",
+      "pred": "move to",
+      "reasoning": "The frame shows no robot arm or gripper visible in the scene.",
+      "raw": "Reasoning: The frame shows no robot arm or gripper visible in the scene.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "gt": "place on",
+      "pred": "move to",
+      "reasoning": "The frame shows no robot arm or gripper visible in the scene.",
+      "raw": "Reasoning: The frame shows no robot arm or gripper visible in the scene.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 49,
+      "gt": "place on",
+      "pred": "move to",
+      "reasoning": "The frame shows no robot arm or gripper visible in the scene.",
+      "raw": "Reasoning: The frame shows no robot arm or gripper visible in the scene.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "gt": "place on",
+      "pred": "move to",
+      "reasoning": "The frame shows no robot arm or gripper is visible anywhere in the frame.",
+      "raw": "Reasoning: The frame shows no robot arm or gripper is visible anywhere in the frame.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "gt": "place on",
+      "pred": "move to",
+      "reasoning": "The frame shows no robot arm or gripper visible in the scene.",
+      "raw": "Reasoning: The frame shows no robot arm or gripper visible in the scene.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "gt": "place on",
+      "pred": "pick up from",
+      "reasoning": "The first arm is visible in the frame, and the gripper is closed around the red-and-white striped body of the radio, not the dial.",
+      "raw": "Reasoning: The first arm is visible in the frame, and the gripper is closed around the red-and-white striped body of the radio, not the dial.\nAnswer: 2",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "gt": "place on",
+      "pred": "move to",
+      "reasoning": "The frame shows no robot arm or gripper is visible anywhere in the frame.",
+      "raw": "Reasoning: The frame shows no robot arm or gripper is visible anywhere in the frame.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "gt": "place on",
+      "pred": "move to",
+      "reasoning": "The frame shows no robot arm or gripper visible in the scene.",
+      "raw": "Reasoning: The frame shows no robot arm or gripper visible in the scene.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "gt": "place on",
+      "pred": "move to",
+      "reasoning": "The frame shows no robot arm or gripper visible in the scene.",
+      "raw": "Reasoning: The frame shows no robot arm or gripper visible in the scene.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "gt": "place on",
+      "pred": "move to",
+      "reasoning": "The frame shows no robot arm or gripper visible in the scene.",
+      "raw": "Reasoning: The frame shows no robot arm or gripper visible in the scene.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "gt": "place on",
+      "pred": "move to",
+      "reasoning": "No robot arm or gripper is visible anywhere in the frame.",
+      "raw": "Reasoning: No robot arm or gripper is visible anywhere in the frame.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "gt": "place on",
+      "pred": "move to",
+      "reasoning": "The frame shows no robot arm or gripper is visible anywhere in the frame.",
+      "raw": "Reasoning: The frame shows no robot arm or gripper is visible anywhere in the frame.\nAnswer: 1",
+      "correct": false
+    }
+  ]
+}

@@ -1,11 +1,11 @@
 # Adding a new task
 
-Every task lives in its own submodule under `behavior1k_mp/tasks/<task_name>/`. The task module is the only thing the orchestrator + `HybridPolicy` need to run your task — no changes to `core/` should be necessary.
+Every task lives in its own submodule under `behavior1k_motionplanner/tasks/<task_name>/`. The task module is the only thing the orchestrator + `HybridPolicy` need to run your task — no changes to `core/` should be necessary.
 
 ## Minimum shape
 
 ```
-behavior1k_mp/tasks/<task_name>/
+behavior1k_motionplanner/tasks/<task_name>/
 ├── __init__.py            required — exports task attributes
 ├── actions/
 │   ├── __init__.py        re-exports the Action classes
@@ -31,7 +31,7 @@ The task's `__init__.py` MUST export:
 | `SKILL_TEMPLATES` | `list[dict]` | One HF skill-annotation template per skill (4 entries) |
 | `build_actions(env, robot, target_obj, vla) -> list[Action]` | callable | Return the ordered Action list |
 
-See `behavior1k_mp/tasks/turning_on_radio/__init__.py` as a reference.
+See `behavior1k_motionplanner/tasks/turning_on_radio/__init__.py` as a reference.
 
 ## Action subclass contract
 
@@ -57,13 +57,13 @@ Retrieval libraries (used by the pick-approach and press-replay actions) are als
 
 ## Register your task
 
-There's no explicit registration step — the task registry (`behavior1k_mp/tasks/__init__.py`) uses `importlib` to load `behavior1k_mp.tasks.<name>` on demand. Just make sure your folder is inside `behavior1k_mp/tasks/` and installable via `pip install -e .`.
+There's no explicit registration step — the task registry (`behavior1k_motionplanner/tasks/__init__.py`) uses `importlib` to load `behavior1k_motionplanner.tasks.<name>` on demand. Just make sure your folder is inside `behavior1k_motionplanner/tasks/` and installable via `pip install -e .`.
 
 ## Verify
 
 ```bash
 # Instantiation smoke test
-python -c "from behavior1k_mp.tasks import load_task; t = load_task('<name>'); print(t.TASK_NAME, t.CHECKPOINT_DIR)"
+python -c "from behavior1k_motionplanner.tasks import load_task; t = load_task('<name>'); print(t.TASK_NAME, t.CHECKPOINT_DIR)"
 
 # End-to-end (dry run)
 maple collect --task <name> --instances 0 --dry-run

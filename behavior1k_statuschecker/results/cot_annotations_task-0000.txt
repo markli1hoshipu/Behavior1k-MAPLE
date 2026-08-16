@@ -1,0 +1,59 @@
+sec_0000: Reasoning: Wide view of the whole living room from a distance, no robot parts in frame, red radio still small and far across the coffee table — only the navigation-style framing distinguishes this. | Answer: move to
+sec_0001: Reasoning: Camera has shifted slightly right and forward with no arms or grippers visible, just the room and the distant radio on the table. | Answer: move to
+sec_0002: Reasoning: Viewpoint has swung toward the patio door and the sofa now fills the left side, showing base rotation rather than any manipulation. | Answer: move to
+sec_0003: Reasoning: The scene continues to pan and the radio grows slightly larger on the table edge; no arm, hand, or contact is visible at all. | Answer: move to
+sec_0004: Reasoning: Camera is rotating back toward the sofa corner with the radio roughly centered, consistent with aiming the base but showing nothing being touched. | Answer: move to
+sec_0005: Reasoning: The lamp and painting shift left as the viewpoint keeps turning, and the radio sits untouched on the glass table with no manipulator in frame. | Answer: move to
+sec_0006: Reasoning: Sofa is now squarely centered and the radio has grown noticeably, indicating forward approach; still no robot body parts visible. | Answer: move to
+sec_0007: Reasoning: The doorway on the left comes into view as the viewpoint advances, radio slightly larger and still resting alone on the table. | Answer: move to
+sec_0008: Reasoning: Sofa and hallway are fully framed and the radio is clearly bigger and lower in the image, showing continued approach without any contact. | Answer: move to
+sec_0009: Reasoning: Camera continues closing on the radio with no arm yet extended, so nothing here visually separates approach from the start of a grasp except that the radio is not being touched. | Answer: pick up from
+sec_0010: Reasoning: The radio is centered and enlarging as the viewpoint drops toward table height, but no gripper is visible yet in this pre-grasp approach frame. | Answer: pick up from
+sec_0011: Reasoning: View is tightening on the glass table with the radio the clear target, though no arm is in frame to confirm the grasp visually. | Answer: pick up from
+sec_0012: Reasoning: The camera has lowered and the radio occupies more of the frame, but this is still an approach frame with no manipulator visible. | Answer: pick up from
+sec_0013: Reasoning: Sofa fills the upper frame and the radio sits large on the tabletop directly ahead; nothing yet distinguishes this from a move-to frame besides the tight target framing. | Answer: pick up from
+sec_0014: Reasoning: Radio is close and centered on the glass table with the lamp beside it, but no arm or gripper is in view here. | Answer: pick up from
+sec_0015: Reasoning: The overhead lamp has passed out of frame as the head tilts down toward the table and radio, consistent with lining up a grasp though no hand is visible. | Answer: pick up from
+sec_0016: Reasoning: Downward-tilted view centers the radio on the table surface at close range, still with no robot parts in frame. | Answer: pick up from
+sec_0017: Reasoning: The camera is looking down at the table with the radio and lamp clearly resolved, but the grasp itself is not yet visible. | Answer: pick up from
+sec_0018: Reasoning: Close top-down framing of the radio on the mat-covered table; the target is fixed in view but no gripper has entered the frame. | Answer: pick up from
+sec_0019: Reasoning: The radio now dominates the lower center of a steeply downward view, indicating the robot is settling in over the object without visible contact yet. | Answer: pick up from
+sec_0020: Reasoning: Sofa recedes upward as the head tilts further down onto the radio and lamp, an approach-to-grasp frame with no arm shown. | Answer: pick up from
+sec_0021: Reasoning: The bottom edge of the frame shows the first dark hint of the robot's own body as it leans over the table toward the radio. | Answer: pick up from
+sec_0022: Reasoning: A dark portion of the robot base is visible at the bottom edge while the radio sits directly ahead on the table, just before the arms come up. | Answer: pick up from
+sec_0023: Reasoning: The radio is very close and centered with the robot's own torso edge at frame bottom, immediately preceding arm extension. | Answer: pick up from
+sec_0024: Reasoning: Steep close view of the radio on the table with nothing else in reach; still a pre-contact frame with no gripper visible. | Answer: pick up from
+sec_0025: Reasoning: The dark robot base appears along the bottom of the frame and the radio is at arm's-length distance on the table. | Answer: pick up from
+sec_0026: Reasoning: Radio sits centered and close with the robot's body edge at the bottom, poised over the object but not yet touching it. | Answer: pick up from
+sec_0027: Reasoning: Both black gripper hands have just risen into the bottom of the frame, empty and open, starting the reach toward the radio. | Answer: pick up from
+sec_0028: Reasoning: The right gripper is extended forward with open fingers just short of the red radio on the table, a clear pre-grasp reach. | Answer: pick up from
+sec_0029: Reasoning: The right hand's open fingers are alongside the radio's body while the left arm hangs back, closing in on the object. | Answer: pick up from
+sec_0030: Reasoning: The right gripper is right at the radio's side with fingers bracketing it, the moment of closing on the object rather than pressing anything. | Answer: pick up from
+sec_0031: Reasoning: The right gripper is wrapped around the red radio on the tabletop, holding it while it still rests on the glass surface. | Answer: pick up from
+sec_0032: Reasoning: The gripper is clamped on the radio and the arm is drawn in slightly, with the object still down at table level. | Answer: pick up from
+sec_0033: Reasoning: The radio is held in the right gripper's fingers and appears tilted off its resting orientation, indicating it is being lifted. | Answer: pick up from
+sec_0034: Reasoning: The grasped radio has shifted with the gripper and the lamp beside it is now unoccluded, showing the object separating from the table. | Answer: pick up from
+sec_0035: Reasoning: The radio remains firmly in the right gripper's jaws as the arm begins retracting from the table surface. | Answer: pick up from
+sec_0036: Reasoning: The gripper holds the radio slightly above and left of its original spot, a continuing lift rather than a press or release. | Answer: pick up from
+sec_0037: Reasoning: The radio is clearly airborne in the gripper, tilted upright and detached from the tabletop with the mat visible beneath. | Answer: pick up from
+sec_0038: Reasoning: The radio is raised well above the table in the right gripper and rotated toward the camera, completing the lift. | Answer: pick up from
+sec_0039: Reasoning: The radio has been turned face-up in the gripper so its round black knob is exposed, and the left arm is swinging in toward that face. | Answer: press
+sec_0040: Reasoning: The radio's top panel with the dark round button faces the camera while the left arm reaches across toward it. | Answer: press
+sec_0041: Reasoning: The left gripper's fingertip is extended toward the radio's circular button on the exposed top face. | Answer: press
+sec_0042: Reasoning: The left arm is held steady with its fingertip just above the black knob, positioned for a button push rather than a grasp. | Answer: press
+sec_0043: Reasoning: The left fingertip is at the edge of the radio's face, closing the last distance to the round control. | Answer: press
+sec_0044: Reasoning: The left gripper's white fingertip is right at the black knob on the radio's top panel, in contact position. | Answer: press
+sec_0045: Reasoning: The fingertip sits on the round knob with the arm braced against it, a single-finger contact typical of pushing a control. | Answer: press
+sec_0046: Reasoning: The knob has changed from black to green with the left fingertip on it, visually confirming the button was pushed. | Answer: press
+sec_0047: Reasoning: The left arm is pulling away and the radio, now rotated in the right gripper, shows a green-lit indicator from the completed press. | Answer: press
+sec_0048: Reasoning: The left arm has retreated and the right gripper is lowering the radio back down toward the glass tabletop. | Answer: place on
+sec_0049: Reasoning: The held radio is being brought down over the table surface next to the lamp, with the left hand withdrawn out of the way. | Answer: place on
+sec_0050: Reasoning: The radio is still in the right gripper but tilted down toward the tabletop, approaching its resting spot. | Answer: place on
+sec_0051: Reasoning: The gripper hovers the radio just above the glass table beside the lamp, in a lowering motion rather than a lift. | Answer: place on
+sec_0052: Reasoning: The radio is nearly flat against the tabletop with the gripper still around it, close to release. | Answer: place on
+sec_0053: Reasoning: The radio is set down on the table surface with the gripper fingers still lightly around it. | Answer: place on
+sec_0054: Reasoning: The radio rests on the glass table and the gripper is beginning to open around it. | Answer: place on
+sec_0055: Reasoning: The gripper is separating from the radio, which now sits on its own on the tabletop. | Answer: place on
+sec_0056: Reasoning: The right arm has pulled back and the radio stands upright on the table beside the lamp, released. | Answer: place on
+sec_0057: Reasoning: The camera has backed off and both arms are retracting to the sides, leaving the radio resting on the table. | Answer: place on
+sec_0058: Reasoning: Both arms are lowered out at the edges of the frame and the radio sits alone on the glass table, the placement finished. | Answer: place on

@@ -1,0 +1,5484 @@
+{
+  "task_chunk": "task-0079",
+  "task_name": "polishing_shoes",
+  "accuracy": 0.08187134502923976,
+  "macro_recall": 0.07777777777777778,
+  "correct": 56,
+  "total": 684,
+  "n_classes": 12,
+  "unseen_gt_label_frames": 54,
+  "predictions": [
+    {
+      "sec": 0,
+      "episode": "episode_00790330",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 115,
+      "episode": "episode_00790330",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 131,
+      "episode": "episode_00790330",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 147,
+      "episode": "episode_00790330",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 239,
+      "episode": "episode_00790330",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 59,
+      "episode": "episode_00790340",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 75,
+      "episode": "episode_00790340",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 174,
+      "episode": "episode_00790340",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 191,
+      "episode": "episode_00790340",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 10,
+      "episode": "episode_00790350",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 148,
+      "episode": "episode_00790350",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 164,
+      "episode": "episode_00790350",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 287,
+      "episode": "episode_00790350",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 303,
+      "episode": "episode_00790350",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 145,
+      "episode": "episode_00790370",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 162,
+      "episode": "episode_00790370",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "episode": "episode_00790390",
+      "gt": "move to shoe",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 68,
+      "episode": "episode_00790390",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 179,
+      "episode": "episode_00790390",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 196,
+      "episode": "episode_00790390",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00790410",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 135,
+      "episode": "episode_00790410",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 268,
+      "episode": "episode_00790410",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 171,
+      "episode": "episode_00790430",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 187,
+      "episode": "episode_00790430",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 203,
+      "episode": "episode_00790430",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 70,
+      "episode": "episode_00790440",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 87,
+      "episode": "episode_00790440",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 212,
+      "episode": "episode_00790440",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 10,
+      "episode": "episode_00790450",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 136,
+      "episode": "episode_00790450",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 263,
+      "episode": "episode_00790450",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 180,
+      "episode": "episode_00790460",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00790470",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 161,
+      "episode": "episode_00790470",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 177,
+      "episode": "episode_00790470",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "episode": "episode_00790480",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 221,
+      "episode": "episode_00790480",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 238,
+      "episode": "episode_00790480",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 84,
+      "episode": "episode_00790490",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 187,
+      "episode": "episode_00790490",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 203,
+      "episode": "episode_00790490",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 94,
+      "episode": "episode_00790510",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 212,
+      "episode": "episode_00790510",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00790520",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 93,
+      "episode": "episode_00790520",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 109,
+      "episode": "episode_00790520",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 70,
+      "episode": "episode_00790530",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 192,
+      "episode": "episode_00790530",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00790540",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 103,
+      "episode": "episode_00790540",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 132,
+      "episode": "episode_00790540",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00790550",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 145,
+      "episode": "episode_00790550",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 161,
+      "episode": "episode_00790550",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00790560",
+      "gt": "move to shoe",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 108,
+      "episode": "episode_00790560",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 64,
+      "episode": "episode_00790570",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00790570",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 223,
+      "episode": "episode_00790570",
+      "gt": "move to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00790330",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 150,
+      "episode": "episode_00790330",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 167,
+      "episode": "episode_00790330",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 255,
+      "episode": "episode_00790330",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 272,
+      "episode": "episode_00790330",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 91,
+      "episode": "episode_00790340",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 207,
+      "episode": "episode_00790340",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "episode": "episode_00790350",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00790350",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 187,
+      "episode": "episode_00790350",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 310,
+      "episode": "episode_00790350",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00790370",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 178,
+      "episode": "episode_00790370",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00790390",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 98,
+      "episode": "episode_00790390",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 209,
+      "episode": "episode_00790390",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00790410",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00790410",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 153,
+      "episode": "episode_00790410",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 277,
+      "episode": "episode_00790410",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "episode": "episode_00790430",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 74,
+      "episode": "episode_00790430",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 222,
+      "episode": "episode_00790430",
+      "gt": "pick up from shoe",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 239,
+      "episode": "episode_00790430",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 113,
+      "episode": "episode_00790440",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 130,
+      "episode": "episode_00790440",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 231,
+      "episode": "episode_00790440",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "episode": "episode_00790450",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00790450",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 158,
+      "episode": "episode_00790450",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 272,
+      "episode": "episode_00790450",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 289,
+      "episode": "episode_00790450",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 84,
+      "episode": "episode_00790460",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 206,
+      "episode": "episode_00790460",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00790470",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 185,
+      "episode": "episode_00790470",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 202,
+      "episode": "episode_00790470",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00790480",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 125,
+      "episode": "episode_00790480",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 246,
+      "episode": "episode_00790480",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 101,
+      "episode": "episode_00790490",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 214,
+      "episode": "episode_00790490",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 231,
+      "episode": "episode_00790490",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 113,
+      "episode": "episode_00790510",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 228,
+      "episode": "episode_00790510",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00790520",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 120,
+      "episode": "episode_00790520",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 136,
+      "episode": "episode_00790520",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 90,
+      "episode": "episode_00790530",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 199,
+      "episode": "episode_00790530",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "episode": "episode_00790540",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 140,
+      "episode": "episode_00790540",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 89,
+      "episode": "episode_00790550",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 175,
+      "episode": "episode_00790550",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 33,
+      "episode": "episode_00790560",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 121,
+      "episode": "episode_00790560",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 235,
+      "episode": "episode_00790560",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 91,
+      "episode": "episode_00790570",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 108,
+      "episode": "episode_00790570",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 251,
+      "episode": "episode_00790570",
+      "gt": "pick up from shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "episode": "episode_00790330",
+      "gt": "move to floors",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 28,
+      "episode": "episode_00790330",
+      "gt": "move to floors",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00790330",
+      "gt": "move to floors",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00790330",
+      "gt": "move to floors",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00790330",
+      "gt": "move to floors",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00790330",
+      "gt": "move to floors",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 33,
+      "episode": "episode_00790330",
+      "gt": "move to floors",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00790350",
+      "gt": "move to floors",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00790350",
+      "gt": "move to floors",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00790350",
+      "gt": "move to floors",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00790350",
+      "gt": "move to floors",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00790350",
+      "gt": "move to floors",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00790350",
+      "gt": "move to floors",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00790350",
+      "gt": "move to floors",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "episode": "episode_00790350",
+      "gt": "move to floors",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00790350",
+      "gt": "move to floors",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00790350",
+      "gt": "move to floors",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00790350",
+      "gt": "move to floors",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00790350",
+      "gt": "move to floors",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00790350",
+      "gt": "move to floors",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "episode": "episode_00790350",
+      "gt": "move to floors",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 59,
+      "episode": "episode_00790350",
+      "gt": "move to floors",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00790480",
+      "gt": "move to floors",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00790480",
+      "gt": "move to floors",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 33,
+      "episode": "episode_00790480",
+      "gt": "move to floors",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00790560",
+      "gt": "move to floors",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00790560",
+      "gt": "move to floors",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00790560",
+      "gt": "move to floors",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00790560",
+      "gt": "move to floors",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00790560",
+      "gt": "move to floors",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "episode": "episode_00790330",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 219,
+      "episode": "episode_00790330",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 328,
+      "episode": "episode_00790330",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00790340",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 157,
+      "episode": "episode_00790340",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 296,
+      "episode": "episode_00790340",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 68,
+      "episode": "episode_00790350",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 265,
+      "episode": "episode_00790350",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 373,
+      "episode": "episode_00790350",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 389,
+      "episode": "episode_00790350",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 131,
+      "episode": "episode_00790370",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 255,
+      "episode": "episode_00790370",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 272,
+      "episode": "episode_00790370",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 157,
+      "episode": "episode_00790390",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 173,
+      "episode": "episode_00790390",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 300,
+      "episode": "episode_00790390",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 224,
+      "episode": "episode_00790410",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 241,
+      "episode": "episode_00790410",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 338,
+      "episode": "episode_00790410",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 354,
+      "episode": "episode_00790410",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 371,
+      "episode": "episode_00790410",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 156,
+      "episode": "episode_00790430",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 311,
+      "episode": "episode_00790430",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 327,
+      "episode": "episode_00790430",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 190,
+      "episode": "episode_00790440",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 206,
+      "episode": "episode_00790440",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 327,
+      "episode": "episode_00790440",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 344,
+      "episode": "episode_00790440",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 221,
+      "episode": "episode_00790450",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 238,
+      "episode": "episode_00790450",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 358,
+      "episode": "episode_00790450",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 374,
+      "episode": "episode_00790450",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 147,
+      "episode": "episode_00790470",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 285,
+      "episode": "episode_00790470",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 302,
+      "episode": "episode_00790470",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00790480",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 216,
+      "episode": "episode_00790480",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 324,
+      "episode": "episode_00790480",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 171,
+      "episode": "episode_00790490",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 279,
+      "episode": "episode_00790490",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 295,
+      "episode": "episode_00790490",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 203,
+      "episode": "episode_00790510",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 306,
+      "episode": "episode_00790510",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 76,
+      "episode": "episode_00790520",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 200,
+      "episode": "episode_00790520",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 165,
+      "episode": "episode_00790530",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 182,
+      "episode": "episode_00790530",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 284,
+      "episode": "episode_00790530",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 109,
+      "episode": "episode_00790540",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 239,
+      "episode": "episode_00790540",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 255,
+      "episode": "episode_00790540",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 137,
+      "episode": "episode_00790550",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 247,
+      "episode": "episode_00790550",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 264,
+      "episode": "episode_00790550",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 59,
+      "episode": "episode_00790560",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 208,
+      "episode": "episode_00790560",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 295,
+      "episode": "episode_00790560",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 183,
+      "episode": "episode_00790570",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 200,
+      "episode": "episode_00790570",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 346,
+      "episode": "episode_00790570",
+      "gt": "place on shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00790330",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00790330",
+      "gt": "move to scrub brush",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00790330",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 63,
+      "episode": "episode_00790330",
+      "gt": "move to scrub brush",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00790330",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 5,
+      "episode": "episode_00790340",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 76,
+      "episode": "episode_00790350",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 84,
+      "episode": "episode_00790350",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 91,
+      "episode": "episode_00790350",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 0,
+      "episode": "episode_00790370",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00790370",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "episode": "episode_00790370",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 3,
+      "episode": "episode_00790390",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00790410",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00790410",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00790410",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 69,
+      "episode": "episode_00790410",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 77,
+      "episode": "episode_00790410",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 84,
+      "episode": "episode_00790410",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 6,
+      "episode": "episode_00790430",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 1,
+      "episode": "episode_00790440",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00790440",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "episode": "episode_00790440",
+      "gt": "move to scrub brush",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "episode": "episode_00790440",
+      "gt": "move to scrub brush",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00790440",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00790440",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00790450",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00790450",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 61,
+      "episode": "episode_00790450",
+      "gt": "move to scrub brush",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 68,
+      "episode": "episode_00790450",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 76,
+      "episode": "episode_00790450",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00790460",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 11,
+      "episode": "episode_00790460",
+      "gt": "move to scrub brush",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 18,
+      "episode": "episode_00790460",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "episode": "episode_00790460",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 1,
+      "episode": "episode_00790470",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00790480",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 59,
+      "episode": "episode_00790480",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00790480",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 5,
+      "episode": "episode_00790490",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00790490",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 20,
+      "episode": "episode_00790490",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "episode": "episode_00790490",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "episode": "episode_00790490",
+      "gt": "move to scrub brush",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 7,
+      "episode": "episode_00790510",
+      "gt": "move to scrub brush",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 14,
+      "episode": "episode_00790510",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00790510",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00790510",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00790510",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 0,
+      "episode": "episode_00790530",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00790530",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "episode": "episode_00790530",
+      "gt": "move to scrub brush",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "episode": "episode_00790530",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00790530",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00790540",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 6,
+      "episode": "episode_00790550",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00790550",
+      "gt": "move to scrub brush",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00790550",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 63,
+      "episode": "episode_00790560",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 3,
+      "episode": "episode_00790570",
+      "gt": "move to scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 73,
+      "episode": "episode_00790330",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00790330",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 86,
+      "episode": "episode_00790330",
+      "gt": "pick up from scrub brush",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 93,
+      "episode": "episode_00790330",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "episode": "episode_00790340",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "episode": "episode_00790340",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00790340",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 101,
+      "episode": "episode_00790350",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 108,
+      "episode": "episode_00790350",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 115,
+      "episode": "episode_00790350",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 122,
+      "episode": "episode_00790350",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 19,
+      "episode": "episode_00790370",
+      "gt": "pick up from scrub brush",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "episode": "episode_00790370",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00790370",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 14,
+      "episode": "episode_00790390",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00790390",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 28,
+      "episode": "episode_00790390",
+      "gt": "pick up from scrub brush",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 87,
+      "episode": "episode_00790410",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 94,
+      "episode": "episode_00790410",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 101,
+      "episode": "episode_00790410",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "episode": "episode_00790430",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "episode": "episode_00790430",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00790440",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00790440",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00790450",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00790450",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 92,
+      "episode": "episode_00790450",
+      "gt": "pick up from scrub brush",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00790460",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00790460",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00790460",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00790470",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "episode": "episode_00790470",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 70,
+      "episode": "episode_00790480",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 77,
+      "episode": "episode_00790480",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 84,
+      "episode": "episode_00790480",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00790490",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00790490",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00790490",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00790490",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00790510",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00790510",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00790510",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00790510",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 7,
+      "episode": "episode_00790520",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "episode": "episode_00790530",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00790530",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00790530",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 6,
+      "episode": "episode_00790540",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00790540",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 19,
+      "episode": "episode_00790540",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "episode": "episode_00790550",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 33,
+      "episode": "episode_00790550",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00790550",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 70,
+      "episode": "episode_00790560",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 77,
+      "episode": "episode_00790560",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 84,
+      "episode": "episode_00790560",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 91,
+      "episode": "episode_00790560",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00790570",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00790570",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00790570",
+      "gt": "pick up from scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 96,
+      "episode": "episode_00790330",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 100,
+      "episode": "episode_00790330",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 105,
+      "episode": "episode_00790330",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 110,
+      "episode": "episode_00790330",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00790340",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00790340",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00790340",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00790340",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 131,
+      "episode": "episode_00790350",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 136,
+      "episode": "episode_00790350",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00790350",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00790370",
+      "gt": "hand over scrub brush",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00790370",
+      "gt": "hand over scrub brush",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 33,
+      "episode": "episode_00790390",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00790390",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00790390",
+      "gt": "hand over scrub brush",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00790390",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 107,
+      "episode": "episode_00790410",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 112,
+      "episode": "episode_00790410",
+      "gt": "hand over scrub brush",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 116,
+      "episode": "episode_00790410",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 121,
+      "episode": "episode_00790410",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 126,
+      "episode": "episode_00790410",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00790430",
+      "gt": "hand over scrub brush",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00790430",
+      "gt": "hand over scrub brush",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "episode": "episode_00790440",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 63,
+      "episode": "episode_00790440",
+      "gt": "hand over scrub brush",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 99,
+      "episode": "episode_00790450",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 103,
+      "episode": "episode_00790450",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 108,
+      "episode": "episode_00790450",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 113,
+      "episode": "episode_00790450",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 118,
+      "episode": "episode_00790450",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 122,
+      "episode": "episode_00790450",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 127,
+      "episode": "episode_00790450",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00790460",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "episode": "episode_00790460",
+      "gt": "hand over scrub brush",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00790470",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "episode": "episode_00790470",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00790470",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 94,
+      "episode": "episode_00790480",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 61,
+      "episode": "episode_00790490",
+      "gt": "hand over scrub brush",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00790490",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00790490",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 75,
+      "episode": "episode_00790490",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 70,
+      "episode": "episode_00790510",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 75,
+      "episode": "episode_00790510",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00790510",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 84,
+      "episode": "episode_00790510",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 16,
+      "episode": "episode_00790520",
+      "gt": "hand over scrub brush",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00790530",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 59,
+      "episode": "episode_00790530",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "episode": "episode_00790540",
+      "gt": "hand over scrub brush",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00790540",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00790550",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00790550",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 95,
+      "episode": "episode_00790560",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 100,
+      "episode": "episode_00790560",
+      "gt": "hand over scrub brush",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00790570",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00790570",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00790570",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00790570",
+      "gt": "hand over scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 177,
+      "episode": "episode_00790330",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 276,
+      "episode": "episode_00790330",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 100,
+      "episode": "episode_00790340",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 124,
+      "episode": "episode_00790340",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 238,
+      "episode": "episode_00790340",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 262,
+      "episode": "episode_00790340",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 222,
+      "episode": "episode_00790350",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 335,
+      "episode": "episode_00790350",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00790370",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 104,
+      "episode": "episode_00790370",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 217,
+      "episode": "episode_00790370",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 119,
+      "episode": "episode_00790390",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 231,
+      "episode": "episode_00790390",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 255,
+      "episode": "episode_00790390",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 179,
+      "episode": "episode_00790410",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 306,
+      "episode": "episode_00790410",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 96,
+      "episode": "episode_00790430",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 120,
+      "episode": "episode_00790430",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 256,
+      "episode": "episode_00790430",
+      "gt": "wipe hard shoe",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 280,
+      "episode": "episode_00790430",
+      "gt": "wipe hard shoe",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 150,
+      "episode": "episode_00790440",
+      "gt": "wipe hard shoe",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 250,
+      "episode": "episode_00790440",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 274,
+      "episode": "episode_00790440",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 176,
+      "episode": "episode_00790450",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 297,
+      "episode": "episode_00790450",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 321,
+      "episode": "episode_00790450",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 91,
+      "episode": "episode_00790460",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 115,
+      "episode": "episode_00790460",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 223,
+      "episode": "episode_00790460",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 247,
+      "episode": "episode_00790460",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 81,
+      "episode": "episode_00790470",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 105,
+      "episode": "episode_00790470",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 210,
+      "episode": "episode_00790470",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 234,
+      "episode": "episode_00790470",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 143,
+      "episode": "episode_00790480",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 167,
+      "episode": "episode_00790480",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 277,
+      "episode": "episode_00790480",
+      "gt": "wipe hard shoe",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 129,
+      "episode": "episode_00790490",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 249,
+      "episode": "episode_00790490",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 136,
+      "episode": "episode_00790510",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 242,
+      "episode": "episode_00790510",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 266,
+      "episode": "episode_00790510",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 146,
+      "episode": "episode_00790520",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 108,
+      "episode": "episode_00790530",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 132,
+      "episode": "episode_00790530",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 224,
+      "episode": "episode_00790530",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 248,
+      "episode": "episode_00790530",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00790540",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 169,
+      "episode": "episode_00790540",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 193,
+      "episode": "episode_00790540",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 217,
+      "episode": "episode_00790540",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 105,
+      "episode": "episode_00790550",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 196,
+      "episode": "episode_00790550",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 138,
+      "episode": "episode_00790560",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 162,
+      "episode": "episode_00790560",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 261,
+      "episode": "episode_00790560",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 120,
+      "episode": "episode_00790570",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 144,
+      "episode": "episode_00790570",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 269,
+      "episode": "episode_00790570",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 293,
+      "episode": "episode_00790570",
+      "gt": "wipe hard shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": true
+    },
+    {
+      "sec": 199,
+      "episode": "episode_00790330",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 210,
+      "episode": "episode_00790330",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 309,
+      "episode": "episode_00790330",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 138,
+      "episode": "episode_00790340",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 272,
+      "episode": "episode_00790340",
+      "gt": "move to bed",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 239,
+      "episode": "episode_00790350",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 251,
+      "episode": "episode_00790350",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 364,
+      "episode": "episode_00790350",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 109,
+      "episode": "episode_00790370",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 121,
+      "episode": "episode_00790370",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 231,
+      "episode": "episode_00790370",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 242,
+      "episode": "episode_00790370",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 138,
+      "episode": "episode_00790390",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 265,
+      "episode": "episode_00790390",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 276,
+      "episode": "episode_00790390",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 194,
+      "episode": "episode_00790410",
+      "gt": "move to bed",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 206,
+      "episode": "episode_00790410",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 322,
+      "episode": "episode_00790410",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 334,
+      "episode": "episode_00790410",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 142,
+      "episode": "episode_00790430",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 297,
+      "episode": "episode_00790430",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 308,
+      "episode": "episode_00790430",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 291,
+      "episode": "episode_00790440",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 303,
+      "episode": "episode_00790440",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 197,
+      "episode": "episode_00790450",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 209,
+      "episode": "episode_00790450",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 343,
+      "episode": "episode_00790450",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 129,
+      "episode": "episode_00790460",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00790460",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 267,
+      "episode": "episode_00790460",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 279,
+      "episode": "episode_00790460",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 134,
+      "episode": "episode_00790470",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 260,
+      "episode": "episode_00790470",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 272,
+      "episode": "episode_00790470",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 174,
+      "episode": "episode_00790480",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 186,
+      "episode": "episode_00790480",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 198,
+      "episode": "episode_00790480",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 294,
+      "episode": "episode_00790480",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 306,
+      "episode": "episode_00790480",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 151,
+      "episode": "episode_00790490",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 263,
+      "episode": "episode_00790490",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 160,
+      "episode": "episode_00790510",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 172,
+      "episode": "episode_00790510",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 184,
+      "episode": "episode_00790510",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 289,
+      "episode": "episode_00790510",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 69,
+      "episode": "episode_00790520",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 173,
+      "episode": "episode_00790520",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 184,
+      "episode": "episode_00790520",
+      "gt": "move to bed",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 147,
+      "episode": "episode_00790530",
+      "gt": "move to bed",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 159,
+      "episode": "episode_00790530",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 256,
+      "episode": "episode_00790530",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 267,
+      "episode": "episode_00790530",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 116,
+      "episode": "episode_00790550",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 216,
+      "episode": "episode_00790550",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 227,
+      "episode": "episode_00790550",
+      "gt": "move to bed",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 169,
+      "episode": "episode_00790560",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 181,
+      "episode": "episode_00790560",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 192,
+      "episode": "episode_00790560",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 172,
+      "episode": "episode_00790570",
+      "gt": "move to bed",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 327,
+      "episode": "episode_00790570",
+      "gt": "move to bed",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 344,
+      "episode": "episode_00790330",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 350,
+      "episode": "episode_00790330",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 357,
+      "episode": "episode_00790330",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 304,
+      "episode": "episode_00790340",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 311,
+      "episode": "episode_00790340",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 318,
+      "episode": "episode_00790340",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 404,
+      "episode": "episode_00790350",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 411,
+      "episode": "episode_00790350",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 417,
+      "episode": "episode_00790350",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 281,
+      "episode": "episode_00790370",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 288,
+      "episode": "episode_00790370",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 301,
+      "episode": "episode_00790390",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 308,
+      "episode": "episode_00790390",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 379,
+      "episode": "episode_00790410",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 386,
+      "episode": "episode_00790410",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 334,
+      "episode": "episode_00790430",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 340,
+      "episode": "episode_00790430",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 347,
+      "episode": "episode_00790430",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 353,
+      "episode": "episode_00790430",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 351,
+      "episode": "episode_00790440",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 358,
+      "episode": "episode_00790440",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 364,
+      "episode": "episode_00790440",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 389,
+      "episode": "episode_00790450",
+      "gt": "move to nightstand",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 395,
+      "episode": "episode_00790450",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 313,
+      "episode": "episode_00790460",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 320,
+      "episode": "episode_00790460",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 326,
+      "episode": "episode_00790460",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 333,
+      "episode": "episode_00790460",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 307,
+      "episode": "episode_00790470",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 314,
+      "episode": "episode_00790470",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 321,
+      "episode": "episode_00790470",
+      "gt": "move to nightstand",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 334,
+      "episode": "episode_00790480",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 341,
+      "episode": "episode_00790480",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 347,
+      "episode": "episode_00790480",
+      "gt": "move to nightstand",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 354,
+      "episode": "episode_00790480",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 302,
+      "episode": "episode_00790490",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 308,
+      "episode": "episode_00790490",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 315,
+      "episode": "episode_00790490",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 322,
+      "episode": "episode_00790510",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 329,
+      "episode": "episode_00790510",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 218,
+      "episode": "episode_00790520",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 224,
+      "episode": "episode_00790520",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 231,
+      "episode": "episode_00790520",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 301,
+      "episode": "episode_00790530",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 308,
+      "episode": "episode_00790530",
+      "gt": "move to nightstand",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 315,
+      "episode": "episode_00790530",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 321,
+      "episode": "episode_00790530",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 257,
+      "episode": "episode_00790540",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 263,
+      "episode": "episode_00790540",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 270,
+      "episode": "episode_00790540",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 277,
+      "episode": "episode_00790540",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 266,
+      "episode": "episode_00790550",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 273,
+      "episode": "episode_00790550",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 279,
+      "episode": "episode_00790550",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 303,
+      "episode": "episode_00790560",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 310,
+      "episode": "episode_00790560",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 316,
+      "episode": "episode_00790560",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 323,
+      "episode": "episode_00790560",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 368,
+      "episode": "episode_00790570",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 375,
+      "episode": "episode_00790570",
+      "gt": "move to nightstand",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 363,
+      "episode": "episode_00790330",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 369,
+      "episode": "episode_00790330",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 375,
+      "episode": "episode_00790330",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 326,
+      "episode": "episode_00790340",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 332,
+      "episode": "episode_00790340",
+      "gt": "place on scrub brush",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 338,
+      "episode": "episode_00790340",
+      "gt": "place on scrub brush",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 344,
+      "episode": "episode_00790340",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 425,
+      "episode": "episode_00790350",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 431,
+      "episode": "episode_00790350",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 437,
+      "episode": "episode_00790350",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 294,
+      "episode": "episode_00790370",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 300,
+      "episode": "episode_00790370",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 306,
+      "episode": "episode_00790370",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 312,
+      "episode": "episode_00790370",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 315,
+      "episode": "episode_00790390",
+      "gt": "place on scrub brush",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 321,
+      "episode": "episode_00790390",
+      "gt": "place on scrub brush",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 327,
+      "episode": "episode_00790390",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 333,
+      "episode": "episode_00790390",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 396,
+      "episode": "episode_00790410",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 357,
+      "episode": "episode_00790430",
+      "gt": "place on scrub brush",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 363,
+      "episode": "episode_00790430",
+      "gt": "place on scrub brush",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 369,
+      "episode": "episode_00790430",
+      "gt": "place on scrub brush",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 375,
+      "episode": "episode_00790430",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 371,
+      "episode": "episode_00790440",
+      "gt": "place on scrub brush",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 377,
+      "episode": "episode_00790440",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 383,
+      "episode": "episode_00790440",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 405,
+      "episode": "episode_00790450",
+      "gt": "place on scrub brush",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 411,
+      "episode": "episode_00790450",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 344,
+      "episode": "episode_00790460",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 350,
+      "episode": "episode_00790460",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 356,
+      "episode": "episode_00790460",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 362,
+      "episode": "episode_00790460",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 325,
+      "episode": "episode_00790470",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 331,
+      "episode": "episode_00790470",
+      "gt": "place on scrub brush",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 356,
+      "episode": "episode_00790480",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 362,
+      "episode": "episode_00790480",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 368,
+      "episode": "episode_00790480",
+      "gt": "place on scrub brush",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 374,
+      "episode": "episode_00790480",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 321,
+      "episode": "episode_00790490",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 327,
+      "episode": "episode_00790490",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 333,
+      "episode": "episode_00790490",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 337,
+      "episode": "episode_00790510",
+      "gt": "place on scrub brush",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 343,
+      "episode": "episode_00790510",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 349,
+      "episode": "episode_00790510",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 240,
+      "episode": "episode_00790520",
+      "gt": "place on scrub brush",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 246,
+      "episode": "episode_00790520",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 252,
+      "episode": "episode_00790520",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 332,
+      "episode": "episode_00790530",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 338,
+      "episode": "episode_00790530",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 286,
+      "episode": "episode_00790540",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 292,
+      "episode": "episode_00790540",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 298,
+      "episode": "episode_00790540",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 288,
+      "episode": "episode_00790550",
+      "gt": "place on scrub brush",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 294,
+      "episode": "episode_00790550",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 300,
+      "episode": "episode_00790550",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 325,
+      "episode": "episode_00790560",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 331,
+      "episode": "episode_00790560",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 337,
+      "episode": "episode_00790560",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 385,
+      "episode": "episode_00790570",
+      "gt": "place on scrub brush",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 391,
+      "episode": "episode_00790570",
+      "gt": "place on scrub brush",
+      "pred": "place on shoe",
+      "raw": "11. place on shoe",
+      "correct": false
+    },
+    {
+      "sec": 149,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 150,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 151,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 152,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 153,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 154,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 155,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 156,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 157,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 158,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 159,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 160,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 161,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 162,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 163,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 164,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 165,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 166,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 167,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 168,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 169,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 170,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 171,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 172,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 173,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 174,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 283,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 284,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 285,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 286,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 287,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 288,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 289,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 290,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 291,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 292,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 293,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 294,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 295,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 296,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 297,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 298,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 299,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 300,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 301,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 302,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 303,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 304,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 305,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 306,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 307,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 308,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 309,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    },
+    {
+      "sec": 310,
+      "episode": "episode_00790460",
+      "gt": "place on next to shoe",
+      "pred": "wipe hard shoe",
+      "raw": "12. wipe hard shoe",
+      "correct": false
+    }
+  ]
+}

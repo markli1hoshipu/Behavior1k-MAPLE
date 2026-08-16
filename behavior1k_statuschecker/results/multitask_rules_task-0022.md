@@ -1,0 +1,5 @@
+1. move to - The camera is looking down a room, hallway, or open floor with the shoe rack far away or not visible at all, and no shoe is close enough to touch; the robot may be empty-handed or already carrying shoes.
+2. pick up from - Shoes are lying on the bare floor right in front of the robot and a gripper is down near the floor beside or holding one of them; the shoe rack is not the thing filling the view.
+3. place in - The white shoe rack with its open shelves fills much of the view and is close enough to reach, with a held shoe right at the shelf opening or shoes already sitting inside it.
+
+Note: with a shoe already gripped and the rack nearby, a single frame cannot reliably separate the end of "pick up from" from the start of "place in", nor tell a carrying "move to" from either — the difference is motion direction, not appearance. Use rack fills the view and is within reach as the tiebreaker toward "place in".

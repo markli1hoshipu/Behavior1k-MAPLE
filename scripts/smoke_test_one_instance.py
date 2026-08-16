@@ -25,7 +25,7 @@ Usage:
 import os
 import sys
 
-# Ensure behavior1k_mp is importable (it's pip-installable, but in case not).
+# Ensure behavior1k_motionplanner is importable (it's pip-installable, but in case not).
 sys.path.insert(0, "/shared_work/behavior1k-mp")
 
 # Delegate to the upstream entrypoint — it already handles Hydra config + env setup

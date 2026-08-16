@@ -1,0 +1,430 @@
+{
+  "task_chunk": "task-0031",
+  "tag": "trainset",
+  "accuracy": 0.1,
+  "macro_recall": 0.1380952380952381,
+  "correct": 6,
+  "total": 60,
+  "predictions": [
+    {
+      "sec": 0,
+      "gt": "move to",
+      "pred": "open door",
+      "raw": "Reasoning: The image shows a clean, empty washer with no gloves inside, and the robot's arms are not visible in the frame, so it cannot be determining if it is picking up or placing gloves.\nAnswer: 3. open door",
+      "correct": false
+    },
+    {
+      "sec": 7,
+      "gt": "move to",
+      "pred": null,
+      "raw": "Reasoning: The robot's arms are positioned low and not touching the washer, and the washer is empty, which rules out options 1, 3, 5, and 6. The arms are not holding gloves, so options 2, 4, and 7 are incorrect. The only remaining option that fits the visual evidence of",
+      "correct": false
+    },
+    {
+      "sec": 14,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's arms are positioned over the washing machine, with the gripper on the right glove clearly visible and the left glove resting flat on the counter, indicating the robot is in the process of picking up the gloves.\nAnswer: 4. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "Reasoning: The robot's arms are positioned to interact with the washing machine, specifically the glass door, with a gripper at the door opening, indicating the action of opening the door.\nAnswer: 1. close door",
+      "correct": false
+    },
+    {
+      "sec": 28,
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "Reasoning: The robot's arms are positioned to interact with the washing machine, specifically the glass door, with a gripper touching the door, indicating the action of opening the door.\nAnswer: 1. close door",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "Reasoning: The robot's arms are positioned to interact with the washing machine, specifically the glass door, with a gripper touching the door, indicating the action of opening the door.\nAnswer: 1. close door",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "Reasoning: The robot's gripper is positioned at the glass door of the washing machine, and the drum interior is empty, indicating the door is swung open and ready for the task.\nAnswer: 1. close door",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "gt": "open door",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's gripper is clamped tightly around a red glove that is tilted and lifted clear of the counter, while the other glove still rests flat on the counter.\nAnswer: 4. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "Reasoning: The robot's gripper is touching the glass door of the washing machine, and the drum interior is empty, indicating the door is being opened.\nAnswer: 1. close door",
+      "correct": false
+    },
+    {
+      "sec": 64,
+      "gt": "open door",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's gripper is holding a red glove that is tilted up, clearly lifting it from the counter, while the other glove remains flat on the floor. This action is consistent with picking up a glove from the counter.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 72,
+      "gt": "open door",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's gripper is holding a red glove that is tilted and lifted, clearly out of the washer's drum, while the other glove remains flat on the counter. This action is consistent with picking up a glove from the washer.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 79,
+      "gt": "open door",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is holding a red glove in its gripper, which is clearly lifted and tilted away from the washer drum, indicating it is in the process of placing the glove into the machine.\nAnswer: 5. place in",
+      "correct": false
+    },
+    {
+      "sec": 86,
+      "gt": "open door",
+      "pred": "move to",
+      "raw": "Reasoning: The robot's arms are positioned low on the floor, not near the counter or the washer, and the grippers are not touching any objects. The washer is empty, and there are no gloves visible in the frame.\nAnswer: 2. move to",
+      "correct": false
+    },
+    {
+      "sec": 93,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned over the washer, with both arms visible and grippers engaged, indicating it is actively interacting with the washer.\nAnswer: 4. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 100,
+      "gt": "move to",
+      "pred": "close door",
+      "raw": "Reasoning: The robot is positioned over the washer, with the drum interior empty and the gripper at the glass door, indicating it is about to pick up the gloves.\nAnswer: 1. close door",
+      "correct": false
+    },
+    {
+      "sec": 108,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned over the washing machine, with its gripper clearly gripping one of the red gloves, which is tilted up and lifted from the counter, while the other glove remains flat on the counter.\nAnswer: 4. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 115,
+      "gt": "turn to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The image shows two red gloves on the counter, one of which is clearly lifted and tilted, indicating the robot is in the process of picking them up.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 122,
+      "gt": "turn to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The image shows a red glove on the counter and a red glove on the washer drum, with the gripper on the washer gripper holding the glove on the drum.\nAnswer: 4. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 129,
+      "gt": "turn to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The image shows two red gloves on a white counter, one of which is being held by a gripper, while the other rests flat. This matches the visual evidence for \"pick up from\".\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 136,
+      "gt": "turn to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned over a white counter with two red gloves resting on it. The gripper on the right arm is open and grasping one of the gloves, which is clearly lifted off the counter surface. This action of grasping a glove is characteristic of the \"pick up from\" subskill.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 144,
+      "gt": "turn to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The image shows two red gloves on a white counter, one of which is tilted up, indicating the robot is in the process of picking them up.\nAnswer: 4. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 151,
+      "gt": "turn to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The image shows two red gloves on a white counter, one of which is being held by a gripper and tilted up, while the other rests flat. This matches the visual evidence for \"pick up from\".\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 158,
+      "gt": "turn to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding two red gloves, one of which is tilted up and lifted off the counter, while the other remains flat on the counter. This action of lifting a glove from the counter is characteristic of the \"pick up from\" subskill.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 165,
+      "gt": "turn to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The image shows two red gloves resting on the counter, one slightly tilted and the other flat, with the robot's arms positioned near them. The robot is not holding the gloves, nor is the washer visible, so it cannot be picking up or placing them.\nAnswer: 4. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 172,
+      "gt": "turn to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The image shows two red gloves resting on the white counter, with the grippers of the robot arms positioned near them, indicating the robot is about to pick them up.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 180,
+      "gt": "turn to",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding one glove in a gripper and the other is resting flat on the counter, which is consistent with the \"pick up from\" subskill.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 187,
+      "gt": "turn to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The image shows two red gloves resting on the counter, one slightly tilted and the other flat, with the gripper positioned near the right glove, indicating the robot is about to pick it up.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 194,
+      "gt": "turn to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's arms are positioned to interact with the red gloves on the counter, with the gripper on the left arm clearly grasping one glove and the other arm positioned to assist or hold the second glove, indicating an active interaction with the gloves rather than just placing them or turning them.\nAnswer: 4. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 201,
+      "gt": "turn to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's gripper is holding one red glove, which is tilted and lifted off the counter, while the other glove remains flat on the counter. This indicates the robot is in the process of picking up the gloves.\nAnswer: 4. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 208,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot is positioned over a white counter with two red boxing gloves resting on it. The gripper on the left arm is holding one glove, while the other gripper is empty and positioned near the second glove, indicating the robot is in the process of picking up the gloves from the counter.\nAnswer: 4. pick up",
+      "correct": false
+    },
+    {
+      "sec": 216,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding one glove and placing it on the counter, while the other glove is resting flat on the counter.\nAnswer: 4. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 223,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned over a white counter with two red gloves lying flat on it, and the gripper is holding one glove while the other rests on the counter, indicating the action of picking up from the counter.\nAnswer: 4. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 230,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The image shows a red glove on the left and a red glove on the right, both resting on the counter. The grippers are not touching the gloves, and the gloves are not in the washer. This matches the description of \"pick up from\".\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 237,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The image shows two red gloves resting on the white counter, not being picked up or placed in the washer. The robot's arms are positioned to reach the gloves, but no gloves are currently in the washer.\nAnswer: 4. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 244,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned with both red gloves held in its grippers, one slightly tilted and the other flat, clearly indicating the action of picking up from the washer.\nAnswer: 4. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 252,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is positioned over the washing machine, with both arms extended and grippers visible near the drum opening, indicating it is actively interacting with the gloves.\nAnswer: 5. place in",
+      "correct": false
+    },
+    {
+      "sec": 259,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The image shows two red gloves resting on the counter, not being picked up. The robot's arms are positioned to hold the gloves, but the grippers are not engaged with the gloves.\nAnswer: 4. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 266,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly in front of a washing machine with two red gloves resting on the counter, and the grippers are clearly engaged with the gloves, indicating the action of picking them up.\nAnswer: 4. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 273,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding two red gloves, one of which is clearly lifted and tilted away from the washer, while the other remains flat on the counter. This indicates the robot is in the process of picking up the gloves from the counter.\nAnswer: 4. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 280,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a red glove in its left hand, and the other glove is resting flat on the floor in the foreground, indicating the action of picking up from the washer.\nAnswer: 4. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 288,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's gripper is holding a red glove that is clearly lifted and tilted, not resting flat on the counter or drum, which matches the \"pick up from\" subskill.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 295,
+      "gt": "place in",
+      "pred": "close door",
+      "raw": "Reasoning: The robot is positioned directly in front of the open washer door, with a gripper touching the glass door, and the drum interior is empty, indicating the task of opening the door is the current action.\nAnswer: 1. close door",
+      "correct": false
+    },
+    {
+      "sec": 302,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's gripper is holding a red glove that is clearly lifted and tilted, not resting flat on the counter or drum, which matches the \"pick up from\" subskill.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 309,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's gripper is holding a red glove that is tilted up, clearly lifting it off the counter, while the other glove remains flat on the floor. This action is consistent with picking up from the washer.\nAnswer: 4. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 316,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's gripper is clamped tightly around a red glove, which is tilted and lifted clear of the counter, while the other glove remains flat on the floor. This action is consistent with picking up a glove from the counter.\nAnswer: 4. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 324,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly in front of the washing machine, with the drum interior empty and the gripper holding a red glove that is tilted up, clearly indicating the action of picking up a glove from the drum.\nAnswer: 4. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 331,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a red glove in its gripper, which is clearly lifted out of the washer drum, while the other glove remains flat on the counter. This action directly supports the subskill of picking up from.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 338,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is holding a red glove in its gripper, which is clearly lifted and tilted away from the washer, indicating it is in the process of placing the glove into the drum.\nAnswer: 5. place in",
+      "correct": true
+    },
+    {
+      "sec": 345,
+      "gt": "place in",
+      "pred": "close door",
+      "raw": "Reasoning: The robot is holding a glass cup over the open washer door, and the drum interior is empty, indicating the task of washing gloves is not yet in progress.\nAnswer: 1. close door",
+      "correct": false
+    },
+    {
+      "sec": 352,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The robot's grippers are positioned to interact with the washer, specifically the drum opening, and the drum is empty, indicating the task of washing gloves is not yet in progress.\nAnswer: 5. place in",
+      "correct": true
+    },
+    {
+      "sec": 360,
+      "gt": "close door",
+      "pred": "open door",
+      "raw": "Reasoning: The robot's arms are visible at the bottom of the frame, but no gloves are present in the image. The washer is empty, and the drum is not touching the glass door.\nAnswer: 3. open door",
+      "correct": false
+    },
+    {
+      "sec": 367,
+      "gt": "close door",
+      "pred": "move to",
+      "raw": "Reasoning: The robot's arms are positioned to interact with the washing machine, but no gloves are visible in the frame. The grippers are open and not grasping any object, and the washer is empty, which rules out the \"pick up from\" and \"close door\" options.\nAnswer: 2. move to",
+      "correct": false
+    },
+    {
+      "sec": 374,
+      "gt": "close door",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's gripper is holding a red glove that is clearly lifted and tilted out of the washer's opening, indicating the action of picking up the gloves from the drum.\nAnswer: 4. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 381,
+      "gt": "close door",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's gripper is holding a red glove that is clearly lifted and tilted out of the washer drum, indicating the action of picking up from the drum.\nAnswer: 4. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 388,
+      "gt": "close door",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's gripper is holding a red glove that is clearly lifted and tilted away from the washer drum, indicating the action of picking up a glove from the drum.\nAnswer: 4. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 396,
+      "gt": "close door",
+      "pred": "move to",
+      "raw": "Reasoning: The robot's arms are positioned low on the floor, not touching the washer or gloves. The washer is empty, and the red gloves are not visible in the frame.\nAnswer: 2. move to",
+      "correct": false
+    },
+    {
+      "sec": 403,
+      "gt": "turn on switch",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's gripper is holding a red glove that is clearly lifted and tilted, indicating it is in the process of picking up the gloves from the counter.\nAnswer: 4. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 410,
+      "gt": "turn on switch",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's gripper is holding a red glove that is tilted up, clearly lifting it from the counter, while the other glove remains flat on the floor. This action directly supports the subskill \"pick up from\".",
+      "correct": false
+    },
+    {
+      "sec": 417,
+      "gt": "turn on switch",
+      "pred": "close door",
+      "raw": "Reasoning: The robot's arms are positioned in front of the washing machine, with grippers touching the glass door, indicating the action of opening the door.\nAnswer: 1. close door",
+      "correct": false
+    },
+    {
+      "sec": 424,
+      "gt": "turn on switch",
+      "pred": "close door",
+      "raw": "Reasoning: The robot's arms are positioned near the washer, with one gripper touching the glass door and the other gripper near the drum, indicating the robot is actively engaged with the washing process.\nAnswer: 1. close door",
+      "correct": false
+    }
+  ]
+}

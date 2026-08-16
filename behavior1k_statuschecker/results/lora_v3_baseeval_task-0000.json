@@ -1,0 +1,1932 @@
+{
+  "task_chunk": "task-0000",
+  "task_name": "turning_on_radio",
+  "accuracy": 0.25833333333333336,
+  "macro_recall": 0.25833333333333336,
+  "correct": 62,
+  "total": 240,
+  "n_classes": 4,
+  "unseen_gt_label_frames": 0,
+  "predictions": [
+    {
+      "sec": 0,
+      "episode": "episode_00000230",
+      "gt": "move to radio",
+      "pred": "pick up from radio",
+      "raw": "2. pick up from radio",
+      "correct": false
+    },
+    {
+      "sec": 6,
+      "episode": "episode_00000230",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00000230",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 2,
+      "episode": "episode_00000240",
+      "gt": "move to radio",
+      "pred": "pick up from radio",
+      "raw": "2. pick up from radio",
+      "correct": false
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00000240",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 1,
+      "episode": "episode_00000250",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00000250",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "episode": "episode_00000250",
+      "gt": "move to radio",
+      "pred": "pick up from radio",
+      "raw": "2. pick up from radio",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "episode": "episode_00000250",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 28,
+      "episode": "episode_00000250",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 6,
+      "episode": "episode_00000260",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00000260",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 20,
+      "episode": "episode_00000260",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "episode": "episode_00000260",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 5,
+      "episode": "episode_00000270",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 12,
+      "episode": "episode_00000270",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 1,
+      "episode": "episode_00000280",
+      "gt": "move to radio",
+      "pred": "pick up from radio",
+      "raw": "2. pick up from radio",
+      "correct": false
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00000280",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 14,
+      "episode": "episode_00000280",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00000280",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00000290",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 11,
+      "episode": "episode_00000290",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00000290",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00000290",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00000300",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 0,
+      "episode": "episode_00000310",
+      "gt": "move to radio",
+      "pred": "pick up from radio",
+      "raw": "2. pick up from radio",
+      "correct": false
+    },
+    {
+      "sec": 6,
+      "episode": "episode_00000310",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00000310",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 20,
+      "episode": "episode_00000310",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 0,
+      "episode": "episode_00000320",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 7,
+      "episode": "episode_00000320",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00000320",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 20,
+      "episode": "episode_00000320",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 1,
+      "episode": "episode_00000330",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00000330",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 1,
+      "episode": "episode_00000340",
+      "gt": "move to radio",
+      "pred": "pick up from radio",
+      "raw": "2. pick up from radio",
+      "correct": false
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00000340",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 3,
+      "episode": "episode_00000350",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 10,
+      "episode": "episode_00000350",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00000360",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 11,
+      "episode": "episode_00000360",
+      "gt": "move to radio",
+      "pred": "pick up from radio",
+      "raw": "2. pick up from radio",
+      "correct": false
+    },
+    {
+      "sec": 18,
+      "episode": "episode_00000360",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 1,
+      "episode": "episode_00000370",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 7,
+      "episode": "episode_00000370",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 5,
+      "episode": "episode_00000380",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 12,
+      "episode": "episode_00000380",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00000390",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 11,
+      "episode": "episode_00000390",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00000390",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 2,
+      "episode": "episode_00000400",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00000400",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 16,
+      "episode": "episode_00000400",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "episode": "episode_00000400",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 2,
+      "episode": "episode_00000410",
+      "gt": "move to radio",
+      "pred": "pick up from radio",
+      "raw": "2. pick up from radio",
+      "correct": false
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00000410",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 16,
+      "episode": "episode_00000410",
+      "gt": "move to radio",
+      "pred": "pick up from radio",
+      "raw": "2. pick up from radio",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "episode": "episode_00000410",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 1,
+      "episode": "episode_00000420",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00000420",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "episode": "episode_00000420",
+      "gt": "move to radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 18,
+      "episode": "episode_00000230",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "episode": "episode_00000230",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00000230",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00000230",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00000240",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00000240",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00000250",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00000250",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00000250",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00000250",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00000260",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00000260",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00000260",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00000270",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 33,
+      "episode": "episode_00000270",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "episode": "episode_00000280",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "episode": "episode_00000280",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00000280",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00000290",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00000290",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00000300",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00000300",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "episode": "episode_00000300",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00000310",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00000310",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00000310",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00000310",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00000320",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00000320",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "episode": "episode_00000320",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 61,
+      "episode": "episode_00000320",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 14,
+      "episode": "episode_00000330",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "episode": "episode_00000330",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00000330",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00000330",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00000340",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00000340",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "episode": "episode_00000340",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 28,
+      "episode": "episode_00000350",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00000350",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00000360",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00000360",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00000360",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 11,
+      "episode": "episode_00000370",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 20,
+      "episode": "episode_00000370",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 28,
+      "episode": "episode_00000370",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00000380",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00000380",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 28,
+      "episode": "episode_00000390",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00000390",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00000390",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00000390",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "episode": "episode_00000400",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00000400",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00000400",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00000410",
+      "gt": "pick up from radio",
+      "pred": "pick up from radio",
+      "raw": "2. pick up from radio",
+      "correct": true
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00000410",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00000420",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 33,
+      "episode": "episode_00000420",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00000420",
+      "gt": "pick up from radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00000230",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00000230",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00000230",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00000240",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00000240",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00000240",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00000240",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00000240",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00000250",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00000250",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 69,
+      "episode": "episode_00000250",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00000260",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00000260",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00000260",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 60,
+      "episode": "episode_00000260",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00000270",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00000270",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00000270",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00000280",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00000280",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00000280",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00000290",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00000290",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00000290",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "episode": "episode_00000290",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00000300",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00000300",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00000300",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 61,
+      "episode": "episode_00000310",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 64,
+      "episode": "episode_00000310",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 68,
+      "episode": "episode_00000310",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 70,
+      "episode": "episode_00000320",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 73,
+      "episode": "episode_00000320",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00000330",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00000330",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00000330",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00000340",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00000340",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00000350",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00000350",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00000350",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00000360",
+      "gt": "press radio",
+      "pred": "press radio",
+      "raw": "4. press radio",
+      "correct": true
+    },
+    {
+      "sec": 59,
+      "episode": "episode_00000360",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00000360",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00000360",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00000370",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00000370",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00000370",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00000380",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00000380",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00000380",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00000390",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 61,
+      "episode": "episode_00000390",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "episode": "episode_00000400",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00000400",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00000410",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00000410",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00000420",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00000420",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "episode": "episode_00000420",
+      "gt": "press radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00000230",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 58,
+      "episode": "episode_00000230",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 61,
+      "episode": "episode_00000230",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00000240",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00000240",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 61,
+      "episode": "episode_00000240",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 75,
+      "episode": "episode_00000250",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 78,
+      "episode": "episode_00000250",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 64,
+      "episode": "episode_00000260",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 67,
+      "episode": "episode_00000260",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00000270",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00000270",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00000270",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 58,
+      "episode": "episode_00000270",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00000280",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00000280",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 69,
+      "episode": "episode_00000280",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00000290",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00000290",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 60,
+      "episode": "episode_00000290",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00000300",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00000300",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 72,
+      "episode": "episode_00000310",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 75,
+      "episode": "episode_00000310",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00000310",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00000310",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 77,
+      "episode": "episode_00000320",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 81,
+      "episode": "episode_00000320",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 84,
+      "episode": "episode_00000320",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00000330",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 59,
+      "episode": "episode_00000330",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00000330",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00000340",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00000340",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00000340",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00000350",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00000350",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 58,
+      "episode": "episode_00000350",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00000360",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 75,
+      "episode": "episode_00000360",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 78,
+      "episode": "episode_00000360",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00000360",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00000370",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00000370",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00000370",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00000370",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00000380",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00000380",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00000380",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 64,
+      "episode": "episode_00000390",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 67,
+      "episode": "episode_00000390",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00000390",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 61,
+      "episode": "episode_00000400",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00000400",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 68,
+      "episode": "episode_00000400",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00000400",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 59,
+      "episode": "episode_00000410",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00000410",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00000420",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    },
+    {
+      "sec": 68,
+      "episode": "episode_00000420",
+      "gt": "place on radio",
+      "pred": "place on radio",
+      "raw": "3. place on radio",
+      "correct": true
+    }
+  ]
+}

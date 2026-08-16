@@ -1,0 +1,1067 @@
+{
+  "task_chunk": "task-0049",
+  "task_name": "make pizza",
+  "held_out_episode": "episode_00492320",
+  "accuracy": 0.5227272727272727,
+  "macro_recall": 0.5634615384615385,
+  "correct": 69,
+  "total": 132,
+  "predictions": [
+    {
+      "sec": 4,
+      "episode": "episode_00492320",
+      "gt": "move to",
+      "pred": "close door",
+      "raw": "close door",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00492320",
+      "gt": "move to",
+      "pred": "pour",
+      "raw": "pour",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00492320",
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "place on next to",
+      "correct": false
+    },
+    {
+      "sec": 75,
+      "episode": "episode_00492320",
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "pick up from",
+      "correct": false
+    },
+    {
+      "sec": 93,
+      "episode": "episode_00492320",
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 142,
+      "episode": "episode_00492320",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "move to",
+      "correct": true
+    },
+    {
+      "sec": 175,
+      "episode": "episode_00492320",
+      "gt": "move to",
+      "pred": "pour",
+      "raw": "pour",
+      "correct": false
+    },
+    {
+      "sec": 210,
+      "episode": "episode_00492320",
+      "gt": "move to",
+      "pred": null,
+      "raw": "push to",
+      "correct": false
+    },
+    {
+      "sec": 273,
+      "episode": "episode_00492320",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "move to",
+      "correct": true
+    },
+    {
+      "sec": 340,
+      "episode": "episode_00492320",
+      "gt": "move to",
+      "pred": "close door",
+      "raw": "close door",
+      "correct": false
+    },
+    {
+      "sec": 361,
+      "episode": "episode_00492320",
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 370,
+      "episode": "episode_00492320",
+      "gt": "move to",
+      "pred": "close door",
+      "raw": "close door",
+      "correct": false
+    },
+    {
+      "sec": 508,
+      "episode": "episode_00492320",
+      "gt": "move to",
+      "pred": "pour",
+      "raw": "pour",
+      "correct": false
+    },
+    {
+      "sec": 635,
+      "episode": "episode_00492320",
+      "gt": "move to",
+      "pred": "pour",
+      "raw": "pour",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00492320",
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00492320",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "pick up from",
+      "correct": true
+    },
+    {
+      "sec": 123,
+      "episode": "episode_00492320",
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "push to",
+      "correct": false
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00492320",
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "move to",
+      "correct": false
+    },
+    {
+      "sec": 162,
+      "episode": "episode_00492320",
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "push to",
+      "correct": false
+    },
+    {
+      "sec": 235,
+      "episode": "episode_00492320",
+      "gt": "pick up from",
+      "pred": "pour",
+      "raw": "pour",
+      "correct": false
+    },
+    {
+      "sec": 329,
+      "episode": "episode_00492320",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "pick up from",
+      "correct": true
+    },
+    {
+      "sec": 440,
+      "episode": "episode_00492320",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "pick up from",
+      "correct": true
+    },
+    {
+      "sec": 459,
+      "episode": "episode_00492320",
+      "gt": "pick up from",
+      "pred": "close door",
+      "raw": "close door",
+      "correct": false
+    },
+    {
+      "sec": 477,
+      "episode": "episode_00492320",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "pick up from",
+      "correct": true
+    },
+    {
+      "sec": 571,
+      "episode": "episode_00492320",
+      "gt": "pick up from",
+      "pred": "chop",
+      "raw": "chop",
+      "correct": false
+    },
+    {
+      "sec": 620,
+      "episode": "episode_00492320",
+      "gt": "pick up from",
+      "pred": "pour",
+      "raw": "pour",
+      "correct": false
+    },
+    {
+      "sec": 728,
+      "episode": "episode_00492320",
+      "gt": "pick up from",
+      "pred": "pull tray",
+      "raw": "pull tray",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00492320",
+      "gt": "place on next to",
+      "pred": "pick up from",
+      "raw": "pick up from",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00492320",
+      "gt": "place on next to",
+      "pred": "move to",
+      "raw": "move to",
+      "correct": false
+    },
+    {
+      "sec": 87,
+      "episode": "episode_00492320",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "place on next to",
+      "correct": true
+    },
+    {
+      "sec": 92,
+      "episode": "episode_00492320",
+      "gt": "place on next to",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 181,
+      "episode": "episode_00492320",
+      "gt": "place on next to",
+      "pred": "close door",
+      "raw": "close door",
+      "correct": false
+    },
+    {
+      "sec": 187,
+      "episode": "episode_00492320",
+      "gt": "place on next to",
+      "pred": "move to",
+      "raw": "move to",
+      "correct": false
+    },
+    {
+      "sec": 232,
+      "episode": "episode_00492320",
+      "gt": "place on next to",
+      "pred": "pour",
+      "raw": "pour",
+      "correct": false
+    },
+    {
+      "sec": 257,
+      "episode": "episode_00492320",
+      "gt": "place on next to",
+      "pred": "pour",
+      "raw": "pour",
+      "correct": false
+    },
+    {
+      "sec": 263,
+      "episode": "episode_00492320",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "place on next to",
+      "correct": true
+    },
+    {
+      "sec": 348,
+      "episode": "episode_00492320",
+      "gt": "place on next to",
+      "pred": "place in",
+      "raw": "place in",
+      "correct": false
+    },
+    {
+      "sec": 353,
+      "episode": "episode_00492320",
+      "gt": "place on next to",
+      "pred": "place in",
+      "raw": "place in",
+      "correct": false
+    },
+    {
+      "sec": 102,
+      "episode": "episode_00492320",
+      "gt": "place on",
+      "pred": "place on next to",
+      "raw": "place on next to",
+      "correct": false
+    },
+    {
+      "sec": 106,
+      "episode": "episode_00492320",
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": true
+    },
+    {
+      "sec": 202,
+      "episode": "episode_00492320",
+      "gt": "place on",
+      "pred": "place on next to",
+      "raw": "place on next to",
+      "correct": false
+    },
+    {
+      "sec": 206,
+      "episode": "episode_00492320",
+      "gt": "place on",
+      "pred": null,
+      "raw": "push to",
+      "correct": false
+    },
+    {
+      "sec": 545,
+      "episode": "episode_00492320",
+      "gt": "place on",
+      "pred": "pour",
+      "raw": "pour",
+      "correct": false
+    },
+    {
+      "sec": 549,
+      "episode": "episode_00492320",
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": true
+    },
+    {
+      "sec": 554,
+      "episode": "episode_00492320",
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": true
+    },
+    {
+      "sec": 580,
+      "episode": "episode_00492320",
+      "gt": "place on",
+      "pred": "chop",
+      "raw": "chop",
+      "correct": false
+    },
+    {
+      "sec": 585,
+      "episode": "episode_00492320",
+      "gt": "place on",
+      "pred": "pour",
+      "raw": "pour",
+      "correct": false
+    },
+    {
+      "sec": 604,
+      "episode": "episode_00492320",
+      "gt": "place on",
+      "pred": "pour",
+      "raw": "pour",
+      "correct": false
+    },
+    {
+      "sec": 609,
+      "episode": "episode_00492320",
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": true
+    },
+    {
+      "sec": 639,
+      "episode": "episode_00492320",
+      "gt": "place on",
+      "pred": "pour",
+      "raw": "pour",
+      "correct": false
+    },
+    {
+      "sec": 644,
+      "episode": "episode_00492320",
+      "gt": "place on",
+      "pred": "pour",
+      "raw": "pour",
+      "correct": false
+    },
+    {
+      "sec": 665,
+      "episode": "episode_00492320",
+      "gt": "place on",
+      "pred": "pour",
+      "raw": "pour",
+      "correct": false
+    },
+    {
+      "sec": 222,
+      "episode": "episode_00492320",
+      "gt": "chop",
+      "pred": null,
+      "raw": "push to",
+      "correct": false
+    },
+    {
+      "sec": 224,
+      "episode": "episode_00492320",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "chop",
+      "correct": true
+    },
+    {
+      "sec": 225,
+      "episode": "episode_00492320",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "chop",
+      "correct": true
+    },
+    {
+      "sec": 227,
+      "episode": "episode_00492320",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "chop",
+      "correct": true
+    },
+    {
+      "sec": 229,
+      "episode": "episode_00492320",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "chop",
+      "correct": true
+    },
+    {
+      "sec": 230,
+      "episode": "episode_00492320",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "chop",
+      "correct": true
+    },
+    {
+      "sec": 573,
+      "episode": "episode_00492320",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "chop",
+      "correct": true
+    },
+    {
+      "sec": 575,
+      "episode": "episode_00492320",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "chop",
+      "correct": true
+    },
+    {
+      "sec": 576,
+      "episode": "episode_00492320",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "chop",
+      "correct": true
+    },
+    {
+      "sec": 578,
+      "episode": "episode_00492320",
+      "gt": "chop",
+      "pred": "pour",
+      "raw": "pour",
+      "correct": false
+    },
+    {
+      "sec": 245,
+      "episode": "episode_00492320",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "pour",
+      "correct": true
+    },
+    {
+      "sec": 249,
+      "episode": "episode_00492320",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "pour",
+      "correct": true
+    },
+    {
+      "sec": 254,
+      "episode": "episode_00492320",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "pour",
+      "correct": true
+    },
+    {
+      "sec": 514,
+      "episode": "episode_00492320",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "pour",
+      "correct": true
+    },
+    {
+      "sec": 518,
+      "episode": "episode_00492320",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "pour",
+      "correct": true
+    },
+    {
+      "sec": 534,
+      "episode": "episode_00492320",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "pour",
+      "correct": true
+    },
+    {
+      "sec": 539,
+      "episode": "episode_00492320",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "pour",
+      "correct": true
+    },
+    {
+      "sec": 543,
+      "episode": "episode_00492320",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "pour",
+      "correct": true
+    },
+    {
+      "sec": 599,
+      "episode": "episode_00492320",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "pour",
+      "correct": true
+    },
+    {
+      "sec": 631,
+      "episode": "episode_00492320",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "pour",
+      "correct": true
+    },
+    {
+      "sec": 652,
+      "episode": "episode_00492320",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "pour",
+      "correct": true
+    },
+    {
+      "sec": 657,
+      "episode": "episode_00492320",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "pour",
+      "correct": true
+    },
+    {
+      "sec": 283,
+      "episode": "episode_00492320",
+      "gt": "open door",
+      "pred": "open door",
+      "raw": "open door",
+      "correct": true
+    },
+    {
+      "sec": 292,
+      "episode": "episode_00492320",
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "close door",
+      "correct": false
+    },
+    {
+      "sec": 302,
+      "episode": "episode_00492320",
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "close door",
+      "correct": false
+    },
+    {
+      "sec": 311,
+      "episode": "episode_00492320",
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "close door",
+      "correct": false
+    },
+    {
+      "sec": 390,
+      "episode": "episode_00492320",
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "close door",
+      "correct": false
+    },
+    {
+      "sec": 400,
+      "episode": "episode_00492320",
+      "gt": "open door",
+      "pred": "open door",
+      "raw": "open door",
+      "correct": true
+    },
+    {
+      "sec": 409,
+      "episode": "episode_00492320",
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "close door",
+      "correct": false
+    },
+    {
+      "sec": 418,
+      "episode": "episode_00492320",
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "close door",
+      "correct": false
+    },
+    {
+      "sec": 428,
+      "episode": "episode_00492320",
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "close door",
+      "correct": false
+    },
+    {
+      "sec": 680,
+      "episode": "episode_00492320",
+      "gt": "open door",
+      "pred": "turn on switch",
+      "raw": "turn on switch",
+      "correct": false
+    },
+    {
+      "sec": 689,
+      "episode": "episode_00492320",
+      "gt": "open door",
+      "pred": "turn on switch",
+      "raw": "turn on switch",
+      "correct": false
+    },
+    {
+      "sec": 806,
+      "episode": "episode_00492320",
+      "gt": "open door",
+      "pred": "turn on switch",
+      "raw": "turn on switch",
+      "correct": false
+    },
+    {
+      "sec": 815,
+      "episode": "episode_00492320",
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "close door",
+      "correct": false
+    },
+    {
+      "sec": 375,
+      "episode": "episode_00492320",
+      "gt": "close door",
+      "pred": "close door",
+      "raw": "close door",
+      "correct": true
+    },
+    {
+      "sec": 380,
+      "episode": "episode_00492320",
+      "gt": "close door",
+      "pred": "close door",
+      "raw": "close door",
+      "correct": true
+    },
+    {
+      "sec": 385,
+      "episode": "episode_00492320",
+      "gt": "close door",
+      "pred": "close door",
+      "raw": "close door",
+      "correct": true
+    },
+    {
+      "sec": 484,
+      "episode": "episode_00492320",
+      "gt": "close door",
+      "pred": "close door",
+      "raw": "close door",
+      "correct": true
+    },
+    {
+      "sec": 489,
+      "episode": "episode_00492320",
+      "gt": "close door",
+      "pred": "pick up from",
+      "raw": "pick up from",
+      "correct": false
+    },
+    {
+      "sec": 494,
+      "episode": "episode_00492320",
+      "gt": "close door",
+      "pred": "close door",
+      "raw": "close door",
+      "correct": true
+    },
+    {
+      "sec": 499,
+      "episode": "episode_00492320",
+      "gt": "close door",
+      "pred": "pour",
+      "raw": "pour",
+      "correct": false
+    },
+    {
+      "sec": 774,
+      "episode": "episode_00492320",
+      "gt": "close door",
+      "pred": "close door",
+      "raw": "close door",
+      "correct": true
+    },
+    {
+      "sec": 779,
+      "episode": "episode_00492320",
+      "gt": "close door",
+      "pred": "close door",
+      "raw": "close door",
+      "correct": true
+    },
+    {
+      "sec": 784,
+      "episode": "episode_00492320",
+      "gt": "close door",
+      "pred": "close door",
+      "raw": "close door",
+      "correct": true
+    },
+    {
+      "sec": 789,
+      "episode": "episode_00492320",
+      "gt": "close door",
+      "pred": "close door",
+      "raw": "close door",
+      "correct": true
+    },
+    {
+      "sec": 525,
+      "episode": "episode_00492320",
+      "gt": "place in",
+      "pred": "pour",
+      "raw": "pour",
+      "correct": false
+    },
+    {
+      "sec": 528,
+      "episode": "episode_00492320",
+      "gt": "place in",
+      "pred": "pour",
+      "raw": "pour",
+      "correct": false
+    },
+    {
+      "sec": 531,
+      "episode": "episode_00492320",
+      "gt": "place in",
+      "pred": "pour",
+      "raw": "pour",
+      "correct": false
+    },
+    {
+      "sec": 747,
+      "episode": "episode_00492320",
+      "gt": "place in",
+      "pred": "pour",
+      "raw": "pour",
+      "correct": false
+    },
+    {
+      "sec": 750,
+      "episode": "episode_00492320",
+      "gt": "place in",
+      "pred": "pour",
+      "raw": "pour",
+      "correct": false
+    },
+    {
+      "sec": 752,
+      "episode": "episode_00492320",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "place in",
+      "correct": true
+    },
+    {
+      "sec": 755,
+      "episode": "episode_00492320",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "place in",
+      "correct": true
+    },
+    {
+      "sec": 758,
+      "episode": "episode_00492320",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "place in",
+      "correct": true
+    },
+    {
+      "sec": 761,
+      "episode": "episode_00492320",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "place in",
+      "correct": true
+    },
+    {
+      "sec": 764,
+      "episode": "episode_00492320",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "place in",
+      "correct": true
+    },
+    {
+      "sec": 700,
+      "episode": "episode_00492320",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "pull tray",
+      "correct": true
+    },
+    {
+      "sec": 703,
+      "episode": "episode_00492320",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "pull tray",
+      "correct": true
+    },
+    {
+      "sec": 705,
+      "episode": "episode_00492320",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "pull tray",
+      "correct": true
+    },
+    {
+      "sec": 708,
+      "episode": "episode_00492320",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "pull tray",
+      "correct": true
+    },
+    {
+      "sec": 711,
+      "episode": "episode_00492320",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "pull tray",
+      "correct": true
+    },
+    {
+      "sec": 713,
+      "episode": "episode_00492320",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "pull tray",
+      "correct": true
+    },
+    {
+      "sec": 716,
+      "episode": "episode_00492320",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "pull tray",
+      "correct": true
+    },
+    {
+      "sec": 767,
+      "episode": "episode_00492320",
+      "gt": "push tray",
+      "pred": "push tray",
+      "raw": "push tray",
+      "correct": true
+    },
+    {
+      "sec": 768,
+      "episode": "episode_00492320",
+      "gt": "push tray",
+      "pred": "push tray",
+      "raw": "push tray",
+      "correct": true
+    },
+    {
+      "sec": 769,
+      "episode": "episode_00492320",
+      "gt": "push tray",
+      "pred": "push tray",
+      "raw": "push tray",
+      "correct": true
+    },
+    {
+      "sec": 770,
+      "episode": "episode_00492320",
+      "gt": "push tray",
+      "pred": "close door",
+      "raw": "close door",
+      "correct": false
+    },
+    {
+      "sec": 771,
+      "episode": "episode_00492320",
+      "gt": "push tray",
+      "pred": "push tray",
+      "raw": "push tray",
+      "correct": true
+    },
+    {
+      "sec": 772,
+      "episode": "episode_00492320",
+      "gt": "push tray",
+      "pred": "close door",
+      "raw": "close door",
+      "correct": false
+    },
+    {
+      "sec": 773,
+      "episode": "episode_00492320",
+      "gt": "push tray",
+      "pred": "close door",
+      "raw": "close door",
+      "correct": false
+    },
+    {
+      "sec": 795,
+      "episode": "episode_00492320",
+      "gt": "turn on switch",
+      "pred": "turn on switch",
+      "raw": "turn on switch",
+      "correct": true
+    },
+    {
+      "sec": 796,
+      "episode": "episode_00492320",
+      "gt": "turn on switch",
+      "pred": "turn on switch",
+      "raw": "turn on switch",
+      "correct": true
+    },
+    {
+      "sec": 797,
+      "episode": "episode_00492320",
+      "gt": "turn on switch",
+      "pred": "turn on switch",
+      "raw": "turn on switch",
+      "correct": true
+    },
+    {
+      "sec": 798,
+      "episode": "episode_00492320",
+      "gt": "turn on switch",
+      "pred": "turn on switch",
+      "raw": "turn on switch",
+      "correct": true
+    },
+    {
+      "sec": 799,
+      "episode": "episode_00492320",
+      "gt": "turn on switch",
+      "pred": "turn on switch",
+      "raw": "turn on switch",
+      "correct": true
+    },
+    {
+      "sec": 800,
+      "episode": "episode_00492320",
+      "gt": "turn on switch",
+      "pred": "turn on switch",
+      "raw": "turn on switch",
+      "correct": true
+    },
+    {
+      "sec": 801,
+      "episode": "episode_00492320",
+      "gt": "turn on switch",
+      "pred": "turn on switch",
+      "raw": "turn on switch",
+      "correct": true
+    },
+    {
+      "sec": 802,
+      "episode": "episode_00492320",
+      "gt": "turn on switch",
+      "pred": "turn on switch",
+      "raw": "turn on switch",
+      "correct": true
+    },
+    {
+      "sec": 803,
+      "episode": "episode_00492320",
+      "gt": "turn on switch",
+      "pred": "turn on switch",
+      "raw": "turn on switch",
+      "correct": true
+    },
+    {
+      "sec": 804,
+      "episode": "episode_00492320",
+      "gt": "turn on switch",
+      "pred": "turn on switch",
+      "raw": "turn on switch",
+      "correct": true
+    }
+  ]
+}

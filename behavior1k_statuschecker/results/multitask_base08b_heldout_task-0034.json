@@ -1,0 +1,1494 @@
+{
+  "task_chunk": "task-0034",
+  "tag": "heldout",
+  "accuracy": 0.25471698113207547,
+  "macro_recall": 0.26014635519279483,
+  "correct": 54,
+  "total": 212,
+  "predictions": [
+    {
+      "sec": 3,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned at a distance, with the stairs and wall visible, but the poster is not in the frame. The robot's hands are empty, and the floor is clearly visible, indicating the robot is not at the counter or wall.\nAnswer: 3. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 5,
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned on a wooden floor, and a framed poster is clearly visible on the wall, indicating the task of hanging a poster is the current subskill.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 8,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned on the floor, with a small pale object (poster) visible on the floor in the lower-left area, indicating it has already picked it up from the floor.\nAnswer: 3. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 10,
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The robot's grippers are empty, and the only visible object is a framed poster on the wall, which is too close to be classified as \"pick up from\" (which requires an object on the floor) or \"move to\" (which requires the object to be held).\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's grippers are empty, and the small pale object is lying on the floor in the foreground, not held or being picked up.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is large and close to the grippers, filling much of the frame, and there is no visible floor or other objects in the immediate vicinity, indicating the robot is right at the counter/wall.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 18,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is in a kitchen setting with a large framed poster on the wall, but the grippers are empty and the camera is positioned to show the room's layout, not the specific action of hanging the poster.\nAnswer: 2. move to",
+      "correct": true
+    },
+    {
+      "sec": 20,
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is in a kitchen setting with a large framed poster on the wall, but the grippers are empty and the floor is clearly visible, indicating the robot is not at the counter or wall yet.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is in a kitchen setting with a large poster on the wall, but the camera is positioned far away, showing only the floor and cabinets, not the robot's hands or the poster.\nAnswer: 3. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned at the kitchen counter, with the poster clearly visible and large in the frame, indicating it is in the process of hanging the object onto the wall.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 28,
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is in a kitchen setting with a large framed poster on the wall, but the camera is positioned far away, showing only the floor and cabinets, not the hands or the poster itself.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 30,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The frame shows a kitchen counter with a sink and cabinets, but no poster is visible. The robot's hands are empty, and the floor is visible, which contradicts the \"hang\" condition.\nAnswer: 2. move to",
+      "correct": true
+    },
+    {
+      "sec": 64,
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned at the counter, with the poster and cabinets filling the frame, indicating it is close to the task area rather than far away or on the floor.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 66,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's grippers are positioned to grasp the poster, and the poster is clearly visible on the floor, indicating the action is \"pick up from\" rather than \"hang\" or \"move to\".\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 69,
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The robot's grippers are positioned over the poster, and the poster is large and close to the grippers, indicating the robot is about to pick it up rather than hanging it.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 71,
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is holding a framed poster, not placing it on a wall, and the poster is large and close to the grippers, not distant.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 74,
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned at a wall with a framed poster, and the gripper is holding the poster, indicating the action is already in progress or completed.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 1,
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned at the counter/wall, with the poster filling the frame and the grippers visible, indicating it is in the process of hanging the poster.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 4,
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned at the kitchen counter, with the framed poster clearly visible on the wall, indicating it is in the process of hanging the object.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 6,
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is in a kitchen setting with a countertop and cabinets, but the camera is positioned far away, showing only the room's layout and the poster on the wall, not the robot's hands or the object being hung.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 9,
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is in a kitchen setting with a framed poster on the counter, but the camera is positioned far away, showing only the countertop and cabinets, not the robot's hands or the poster being hung.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 68,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding a framed poster, and the camera is positioned very close to the counter/wall, filling most of the frame with the poster and cabinets, indicating the robot is at the grasp moment.\nAnswer: 2. move to",
+      "correct": true
+    },
+    {
+      "sec": 71,
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned at the counter with the poster, and the grippers are holding the poster, not on the floor.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 73,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned with its grippers open, and the poster is clearly visible on the floor, indicating the object is not yet picked up.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 76,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The poster is clearly visible on the floor, and the grippers are positioned to pick it up, indicating the robot is in the process of picking it up from the floor.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 78,
+      "gt": "move to",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a framed poster, and the gripper is positioned over the poster, indicating it is in the process of placing it on the wall.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 80,
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The robot's gripper is positioned over the poster, and the poster is clearly visible on the floor, indicating the object is already on the ground rather than being picked up from the floor.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 83,
+      "gt": "move to",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a framed poster, and the gripper is positioned over the poster, indicating it is in the process of placing it on the wall.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 0,
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned at the kitchen counter, with the framed poster filling the left side of the frame, indicating it is close to the grippers.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 3,
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned at the counter, with the framed poster filling the left side of the frame, indicating it is close to the grippers.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 5,
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is in a kitchen setting with a sink, stove, and cabinets. The poster is clearly visible on the wall, and the robot's grippers are positioned over the counter, not on the floor. This indicates the robot is in the process of hanging the poster, not picking it up or moving to a different task.",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned at a counter with a sink and cabinets, and the poster is held up in the foreground, not on the floor.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is holding a framed poster, not placing it on the wall, and the poster is large and close to the grippers, not lying on the floor.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is holding a framed poster in its gripper, and the floor is empty, indicating the object is not on the floor.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is holding a framed poster in its grippers, and the floor is clearly visible and empty, indicating the object is not on the floor.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The robot's gripper is positioned over the poster, and the poster is large and close to the grippers, indicating the robot is about to pick it up rather than hanging it.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned with its grippers open, and the poster is clearly visible on the wall, indicating the task of hanging the poster is the current subskill.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 0,
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The robot's hands are empty, and the only visible object is a framed poster on the counter, not on the floor.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 2,
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned on the floor, with the counter and cabinets visible in the background, indicating it is not at the counter or wall. The poster is clearly visible on the counter, not on the wall.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 5,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is positioned at a counter/wall with a framed poster visible, but the floor is not visible, and the poster is large and close to the grippers, indicating the robot is at the grasp moment rather than moving to or picking up from.\nAnswer: 2. move to",
+      "correct": true
+    },
+    {
+      "sec": 7,
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned at the counter, with the poster clearly visible and large, indicating it is in the process of hanging or has just placed it.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 28,
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is holding a framed poster close to its grippers, and the kitchen counter and cabinets are visible in the background, indicating the robot is in the process of placing the object onto the wall rather than moving to a distant location or picking it up from the floor.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 30,
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is holding a framed poster in its grippers, and the camera is positioned very close to the object, filling the frame with the poster and the grippers, indicating the object is being held rather than placed on the floor.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 33,
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is holding a framed poster in its gripper, and the floor is empty, indicating the object is not yet placed on the wall.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding a framed poster, and the poster is large and close to the grippers, filling much of the frame, with little or no floor visible. This indicates the robot is at the grasp moment, not hanging the poster.\nAnswer: 2. move to",
+      "correct": true
+    },
+    {
+      "sec": 38,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding a framed poster, and the poster is large and close to the grippers, filling much of the frame, with little or no floor visible. This indicates the robot is at the grasp moment, not hanging the poster.\nAnswer: 2. move to",
+      "correct": true
+    },
+    {
+      "sec": 40,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding a framed poster, and the poster is large and close to the grippers, filling much of the frame, with little or no floor visible. This indicates the robot is at the grasp moment, not hanging the poster.\nAnswer: 2. move to",
+      "correct": true
+    },
+    {
+      "sec": 2,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is in a kitchen setting with a fridge and microwave visible, but the camera is positioned to show the entire room, including the floor, making it impossible to determine if the robot is at the counter, moving, or picking up an object.\nAnswer: 3. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 4,
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned at the kitchen counter, with the poster clearly visible and filling a significant portion of the frame, indicating it is close to the grippers rather than far away or on the floor.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 7,
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is in a kitchen setting with a framed poster on the counter, but the camera is positioned far away, showing only the floor and cabinets, not the robot's hands or the poster.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 9,
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is in a kitchen setting with a framed poster on the counter, but the camera is positioned far away, showing only the countertop and cabinets, not the robot's hands or the poster being hung.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned on the floor with its grippers open, and a framed poster is clearly visible on the floor, indicating the object is not yet picked up.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned on a wooden floor, with a large framed poster filling the lower portion of the frame, indicating it is not at the counter or wall. The poster is large and close to the grippers, suggesting the robot is in the process of picking it up rather than hanging it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned on a wooden floor, with a framed Star Wars poster clearly visible on the wall, indicating the task of hanging the poster is the current goal.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is holding a framed poster, not placing it on the wall, and the poster is large and close to the grippers, not distant.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned over the counter, with the poster clearly visible and large in the frame, indicating it is in the process of hanging the object onto the wall.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned at the counter, with the poster clearly visible and large in the frame, indicating it is in the process of hanging the object onto the wall.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned over a countertop with a sink, and the framed poster is clearly visible on the wall, indicating the task of hanging the poster is the current subskill.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is holding a framed poster up to the wall, and the camera is positioned to view the poster and the wall, indicating the action of hanging the poster is in progress.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding a framed poster, and the poster is large and close to the grippers, filling much of the frame, with little or no floor visible. This indicates the robot is at the grasp moment, not hanging the poster.\nAnswer: 2. move to",
+      "correct": false
+    },
+    {
+      "sec": 12,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned at a counter with a sink and a framed poster, but the camera angle is from a fixed head-mounted view looking down at the floor, indicating the robot is not at the wall or counter.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 14,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned over a counter with a framed poster, but the poster is not yet on the wall. The grippers are open and empty, and the floor is visible, indicating the object is not yet placed.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 16,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned at a counter/wall with a framed poster, and the grippers are open, indicating the object is not yet picked up.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 18,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is holding a poster, and the poster is clearly visible on the wall, indicating the task of hanging the poster is in progress.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 20,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot is positioned over a counter with a framed poster on the wall, but the camera angle is from a fixed head-mounted camera, not a wide view of the room. The poster is large and close to the grippers, and the floor is not visible, which contradicts the \"hang\" condition.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a small object (poster) in its gripper, and the object is clearly visible on the wall, not on the floor. This indicates the robot has already picked it up from the wall.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned over a counter with a framed poster on the wall, but the grippers are empty and the object is not visible on the floor, indicating it is not in the process of hanging.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is at a close range, with the poster and cabinets filling the frame, and the grippers are positioned to touch the poster, indicating the action is imminent or just completed.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is at a distance, with the poster and cabinets filling the frame, and the grippers are empty, indicating the object is not yet in hand.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned over a sink, with a large framed poster on the wall directly in front of the grippers, indicating it is about to hang the poster.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned over a sink area, with a large framed poster clearly visible on the wall, indicating the task of hanging the poster is the current subskill.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 33,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned over a counter with a framed poster, but the grippers are empty and the object is not visible on the floor, indicating it is not in the process of picking up or hanging the poster.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned over a counter with a framed poster, and its right arm is extended towards the poster, indicating it is in the process of placing it on the wall.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is at a close range, with the poster filling the frame and the grippers positioned near it, indicating the action is imminent or just completed.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is at a close range, with the poster filling the frame and the grippers positioned to touch it, indicating the action is imminent or just completed.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 41,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is at a close range, with the poster filling the frame and the grippers positioned to touch it, indicating the action is imminent or just completed.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is positioned over a counter with a framed poster, but the floor is not visible, and the poster is large and close to the grippers, indicating the robot is at the grasp moment rather than moving to or picking up from.\nAnswer: 2. move to",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is holding the poster up to the wall, and the poster is large and close to the grippers, with little or no floor visible.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is at a close range, with the poster filling the frame and the grippers positioned to hold it, indicating the action is \"hang\" rather than \"move to\" or \"pick up from\".\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned on a wooden countertop, with the poster and cabinets filling the frame, indicating it is close to the task area rather than far away or on the floor.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is at a close distance to the poster, with the grippers clearly visible and the poster filling the frame, indicating it is in the process of placing it on the wall.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 9,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding a poster in its grippers, and the poster is large and close to the camera, filling a significant portion of the frame, which indicates the robot is at the grasp moment rather than moving to or picking up from the floor.\nAnswer: 2. move to",
+      "correct": false
+    },
+    {
+      "sec": 11,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned at a corner with a large framed poster and dark cabinets filling the frame, indicating it is close to the task area rather than far away or at the grasp moment.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned at a corner with a large framed poster on the wall, and the grippers are open, indicating the robot is not currently holding the object.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned at the corner of a room, with a large framed poster filling the frame and the grippers hovering over it, indicating the object is already on the floor and the robot is about to pick it up.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 17,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned at the counter/wall, with the poster and cabinets filling the frame, indicating it is close to the task area rather than far away or in a wide room.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 19,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned at the wall corner, with the poster and cabinets filling the frame, indicating it is close to the wall and not at the counter.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned at a close distance to the poster, with the grippers clearly visible and the object lying flat on the floor, indicating it is in the process of picking it up rather than hanging it.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 23,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned at the corner of a kitchen counter, with a large framed poster filling the frame, indicating it is close to the wall and ready to hang the object.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 24,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned at the counter/wall with the poster clearly visible, and the grippers are open, indicating the object is not yet in the hand.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned at the counter/wall, with the poster and cabinets filling the frame, indicating it is close to the task area rather than far away or in a wide room.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 28,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned at the counter/wall, with the poster and cabinets filling the frame, and the grippers are close to the object, indicating the action is imminent or just completed.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 30,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned at the counter/wall, with the poster and cabinets filling the frame, and the grippers are open, indicating the robot is at the grasp moment.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned at a counter/wall corner, with the poster and cabinets filling the frame, indicating it is close to the task area rather than far away or in a wide room.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is holding a framed poster, and the poster is large and close to the grippers, filling much of the frame, with little or no floor visible.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned on a wooden countertop with a framed Star Wars poster, and the grippers are open, indicating the object is not yet picked up.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding a framed poster in its grippers, and the poster is large and close to the camera, filling a significant portion of the frame. The floor is not visible, and the kitchen counter is not in the immediate view, indicating the robot is at the grasp moment.\nAnswer: 2. move to",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is held up high and close to the camera, filling a significant portion of the frame, while the kitchen counter and sink are visible in the background, indicating the robot is not at the wall or counter.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned on a wooden floor, with a large framed poster (Star Wars) filling the frame, indicating it is close to the camera and not at a distance. The poster is large and clearly visible, which contradicts the \"distant approach\" look of \"move to\" or \"pick up from\" moves.",
+      "correct": true
+    },
+    {
+      "sec": 11,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is holding a framed poster in its grippers, and the poster is large and close to the camera, filling a significant portion of the frame, which indicates the robot is actively engaged in the task rather than just approaching or moving to a distant location.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is holding a framed poster in its grippers, and the poster is large and close to the camera, filling a significant portion of the frame, which directly supports the \"hang\" subskill.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 14,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is holding a small poster, and the poster is large and close to the grippers, filling much of the frame, with little or no floor visible.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 16,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned at the counter/wall, with the poster and cabinets filling the frame, indicating it is close to the task area rather than far away or in a wide room.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 18,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned at the counter/wall, with the poster and cabinets filling the frame, indicating it is right at the grasp moment for hanging.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 20,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned at the counter/wall, with the poster filling the frame and the grippers visible, indicating it is in the grasp phase of hanging the poster.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned at the counter/wall, with the poster and cabinets filling the frame, indicating it is close to the task area rather than far away or in a wide room.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 24,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is holding a framed poster in its grippers, and the poster is large and close to the camera, filling much of the frame. The floor is not visible, and the cabinets are prominent, indicating the robot is at the counter/wall.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding a framed poster in its grippers, and the poster is large and close to the camera, filling a significant portion of the frame, which indicates the robot is at the grasp moment.\nAnswer: 2. move to",
+      "correct": false
+    },
+    {
+      "sec": 11,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned on the floor with its grippers open, and a framed poster is clearly visible on the counter, indicating the object is not yet on the floor.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 13,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned over a kitchen counter with a sink and cabinets, but the camera is not at the grasp moment. The poster is clearly visible on the counter, and the grippers are empty, indicating the robot is not at the grasp moment.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned at the counter, with the poster clearly visible and large in the frame, indicating it is in the process of hanging or has just placed it.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned at the counter, with the poster clearly visible and large in the frame, indicating it is already at the task location rather than approaching from a distance.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 76,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned with its grippers open, and the poster is clearly visible on the wall, indicating the task of hanging the poster is the current subskill.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 78,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned at a close distance to the poster, with the grippers clearly visible and the poster filling a significant portion of the frame, indicating it is in the process of placing it on the wall.\nAnswer: 1. hang",
+      "correct": true
+    },
+    {
+      "sec": 79,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is actively interacting with a framed poster on the wall, not just approaching it or picking it up from the floor. The poster is large and close to the grippers, and the camera is positioned right at the counter/wall, indicating the action is in progress.\nAnswer: 1. hang",
+      "correct": true
+    },
+    {
+      "sec": 81,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is actively interacting with a framed poster on the wall, not just approaching it or picking it up from the floor.\nAnswer: 1. hang",
+      "correct": true
+    },
+    {
+      "sec": 83,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is actively interacting with a framed poster on the wall, not just approaching it or picking it up from the floor. The poster is large and close to the grippers, indicating a \"hang\" action rather than a \"move to\" or \"pick up from\" sequence.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 85,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned at a distance, with the poster clearly visible on the wall, and the grippers are empty, indicating the task is not yet in progress.\nAnswer: 1. hang",
+      "correct": true
+    },
+    {
+      "sec": 87,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is actively interacting with a framed poster on the wall, not just approaching it or picking it up from the floor. The poster is large and close to the grippers, indicating the action is in progress.\nAnswer: 1. hang",
+      "correct": true
+    },
+    {
+      "sec": 89,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned at the wall, with the poster filling the frame and the grippers near the poster, indicating it is about to or has just placed the object on the wall.\nAnswer: 1. hang",
+      "correct": true
+    },
+    {
+      "sec": 91,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is at a close range, with the poster filling the frame and the grippers positioned near the wall, indicating it is in the process of hanging the poster rather than moving to a distant location or picking it up from the floor.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 93,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is large and close to the grippers, filling much of the frame, and there is no visible floor or kitchen area, indicating the robot is right at the wall.\nAnswer: 1. hang",
+      "correct": true
+    },
+    {
+      "sec": 86,
+      "gt": "hang",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a poster, and the poster is large and close to the grippers, filling much of the frame. The poster is clearly visible and the grippers are positioned to hold it, indicating the action is \"hang\".\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 88,
+      "gt": "hang",
+      "pred": null,
+      "raw": "Reasoning: The robot is actively engaged in hanging a framed poster on a wall, with the gripper positioned to apply pressure to the poster's frame, indicating the subskill is \"hang\".\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 89,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is actively interacting with a framed poster on the wall, not just approaching it or picking it up from the floor. The poster is large and close to the grippers, and the camera is positioned right at the counter/wall, indicating the action is in progress.\nAnswer: 1. hang",
+      "correct": true
+    },
+    {
+      "sec": 91,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is actively interacting with a framed poster on the wall, not just approaching it or picking it up from the floor. The poster is large and close to the grippers, indicating the action is in progress.\nAnswer: 1. hang",
+      "correct": true
+    },
+    {
+      "sec": 93,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is actively interacting with a framed poster on the wall, not just approaching it or picking it up from the floor.\nAnswer: 1. hang",
+      "correct": true
+    },
+    {
+      "sec": 95,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is actively interacting with a framed poster on the wall, not just approaching it or picking it up from the floor.\nAnswer: 1. hang",
+      "correct": true
+    },
+    {
+      "sec": 97,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is actively interacting with a framed poster on the wall, not just approaching it or picking it up from the floor.\nAnswer: 1. hang",
+      "correct": true
+    },
+    {
+      "sec": 99,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned at the counter/wall, with the poster filling the frame and the grippers visible, indicating it is in the grasp phase of the task.\nAnswer: 1. hang",
+      "correct": true
+    },
+    {
+      "sec": 59,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is in a close-up view of a poster on a wall, with the gripper positioned right at the poster's edge, indicating it is about to or has just placed the object on the wall.\nAnswer: 1. hang",
+      "correct": true
+    },
+    {
+      "sec": 61,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is actively interacting with a framed poster on the wall, not just approaching it or picking it up from the floor. The poster is large and close to the grippers, and the camera is positioned right at the counter/wall, indicating the action is in progress.\nAnswer: 1. hang",
+      "correct": true
+    },
+    {
+      "sec": 63,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is actively interacting with a framed poster on the wall, not just approaching it or picking it up from the floor. The poster is large and close to the grippers, and the camera is positioned right at the counter/wall, indicating the action is in progress.\nAnswer: 1. hang",
+      "correct": true
+    },
+    {
+      "sec": 65,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is actively interacting with a framed poster on the wall, not just approaching it or picking it up from the floor. The poster is large and close to the grippers, and the camera is positioned right at the counter/wall, indicating the action is in progress.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 66,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is actively interacting with a framed poster on the wall, not just approaching it or picking it up from the floor. The poster is large and close to the grippers, and the camera is positioned right at the counter/wall, indicating the action is in progress.\nAnswer: 1. hang",
+      "correct": true
+    },
+    {
+      "sec": 68,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is actively engaged in hanging a framed poster on the wall, with the gripper positioned to apply pressure to the poster's edge, indicating the action is in progress rather than just approaching or picking up an object.\nAnswer: 1. hang",
+      "correct": true
+    },
+    {
+      "sec": 70,
+      "gt": "hang",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is positioned at a distance, with the poster and cabinets filling the frame, indicating it is not at the counter or wall. The grippers are empty, and the object is not on the floor.\nAnswer: 2. move to",
+      "correct": false
+    },
+    {
+      "sec": 72,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The robot's grippers are positioned over the poster, indicating it is in the process of placing it on the wall, not picking it up or moving to a distant location.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 42,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The robot's gripper is positioned over the poster, and the poster is large and close to the grippers, indicating the robot is about to pick it up rather than hanging it.\nAnswer: 1. hang",
+      "correct": true
+    },
+    {
+      "sec": 44,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned at a close range, with the poster filling the frame and the grippers clearly visible, indicating it is in the grasp phase of the task.\nAnswer: 1. hang",
+      "correct": true
+    },
+    {
+      "sec": 46,
+      "gt": "hang",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned at a distance, with the poster and cabinets filling the frame, indicating it is not at the counter or wall. The object is clearly on the floor, not in the gripper, and the room is far away, not just empty.\nAnswer: 3. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The robot's gripper is positioned over the poster, and the poster is large and close to the grippers, indicating the robot is about to pick it up rather than hanging it.\nAnswer: 1. hang",
+      "correct": true
+    },
+    {
+      "sec": 50,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned with its grippers open, and the poster is clearly visible on the wall, indicating the task of hanging the poster is the current subskill.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 52,
+      "gt": "hang",
+      "pred": null,
+      "raw": "Reasoning: The robot is positioned with its gripper near the poster, but the poster is clearly hanging on the wall, not on the floor. The gripper is not touching the poster, and the object is not on the floor.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "gt": "hang",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned at a distance, with the poster clearly visible on the wall, and the gripper is not touching the poster or the wall, indicating the object is not yet in the hand.\nAnswer: 3. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The robot's gripper is positioned over the poster, and the poster is large and close to the grippers, indicating the robot is about to pick it up rather than hanging it.\nAnswer: 1. hang",
+      "correct": true
+    },
+    {
+      "sec": 57,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The robot's gripper is positioned over the poster, and the poster is large and close to the grippers, indicating the robot is about to pick it up rather than hanging it.\nAnswer: 1. hang",
+      "correct": true
+    },
+    {
+      "sec": 59,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned with its grippers open, and the poster is clearly visible on the wall, indicating the task of hanging the poster is the current subskill.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 61,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned directly in front of a framed poster on the wall, with its grippers extended towards it, indicating it is about to or has just picked it up from the wall surface.\nAnswer: 1. hang",
+      "correct": true
+    },
+    {
+      "sec": 63,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned directly in front of a framed poster on the wall, with its grippers extended towards it, indicating it is actively engaged in the task of hanging the poster.\nAnswer: 1. hang",
+      "correct": true
+    },
+    {
+      "sec": 65,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned directly above the poster, with its grippers hovering over the frame, indicating it is in the process of placing the object onto the wall.\nAnswer: 1. hang",
+      "correct": true
+    },
+    {
+      "sec": 67,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned at the bottom of the frame, with its grippers empty and the poster filling the upper portion of the view, indicating it is at the grasp moment rather than moving to or picking up from.\nAnswer: 1. hang",
+      "correct": true
+    },
+    {
+      "sec": 49,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is actively holding a small object (the poster) in its gripper, and the object is clearly visible on the wall, not on the floor. This indicates the robot is in the process of hanging the poster, not moving to it or picking it up from the floor.\nAnswer: 1. hang",
+      "correct": true
+    },
+    {
+      "sec": 51,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is holding a poster, and the gripper is positioned right at the poster, indicating it is about to hang it on the wall.\nAnswer: 1. hang",
+      "correct": true
+    },
+    {
+      "sec": 52,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is actively interacting with a framed poster on the wall, not just approaching it or picking it up from the floor. The poster is large and close to the grippers, and the camera is positioned right at the counter/wall, indicating the action is in progress.\nAnswer: 1. hang",
+      "correct": true
+    },
+    {
+      "sec": 54,
+      "gt": "hang",
+      "pred": null,
+      "raw": "Reasoning: The robot arm is positioned over the poster, but the gripper is not touching the poster; instead, the gripper is hovering slightly above the poster's frame, indicating the object is not yet picked up.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is actively interacting with a framed poster on the wall, not just approaching it or picking it up from the floor. The poster is large and close to the grippers, and the camera is positioned right at the counter/wall, indicating the action is in progress.\nAnswer: 1. hang",
+      "correct": true
+    },
+    {
+      "sec": 58,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is actively interacting with a framed poster on the wall, not just approaching it or picking it up from the floor. The poster is large and close to the grippers, and the camera is positioned right at the counter/wall, indicating the action is in progress.\nAnswer: 1. hang",
+      "correct": true
+    },
+    {
+      "sec": 60,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The robot arm is positioned over the poster, but the gripper is not touching the poster; instead, the gripper is hovering slightly above the wall, indicating the robot is in the process of placing the object onto the wall rather than picking it up or moving to a new location.\nAnswer: 1. hang",
+      "correct": true
+    },
+    {
+      "sec": 62,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is actively interacting with a framed poster on the wall, not just approaching it or picking it up from the floor. The poster is large and close to the grippers, and the camera is positioned right at the counter/wall, indicating the action is in progress.\nAnswer: 1. hang",
+      "correct": true
+    },
+    {
+      "sec": 64,
+      "gt": "hang",
+      "pred": null,
+      "raw": "Reasoning: The robot arm is positioned over the poster, but the gripper is not touching the poster; instead, the gripper is hovering slightly above it, indicating the object is not yet picked up.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 66,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The robot arm is positioned over the poster, but the gripper is not touching the poster; instead, the gripper is hovering slightly above it, indicating the robot is in the process of placing the object onto the wall rather than picking it up or moving to a different location.\nAnswer: 1. hang",
+      "correct": true
+    },
+    {
+      "sec": 68,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned directly in front of a framed poster on the wall, with its gripper extended towards it, indicating it is about to or has just placed the object on the wall.\nAnswer: 1. hang",
+      "correct": true
+    },
+    {
+      "sec": 44,
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned at the counter, with the poster and cabinets filling the frame, indicating it is at the grasp moment for hanging the poster.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned at the counter with the poster, and the grippers are open, indicating the object is not yet on the floor.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "gt": "hand over",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is positioned at a counter with a framed poster, but the floor is not visible, and the poster is large and close to the grippers, indicating the robot is at the grasp moment rather than moving to or picking up from.\nAnswer: 2. move to",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is holding a framed poster, not placing it on the wall, and the poster is large and close to the grippers, not distant.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is holding a framed poster, not placing it on the wall, and the poster is large and close to the grippers, not distant.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 49,
+      "gt": "hand over",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding a framed poster in its grippers, and the camera is positioned very close to the counter/wall, filling most of the frame with the poster and cabinets, indicating the robot is at the grasp moment.\nAnswer: 2. move to",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "gt": "hand over",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is positioned over a counter with a framed poster, but the floor is not visible, and the poster is large and close to the grippers, indicating the robot is at the grasp moment rather than moving to or picking up from.\nAnswer: 2. move to",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "gt": "hand over",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is positioned over a counter with a framed poster, but the floor is not visible, and the poster is large and close to the grippers, indicating the robot is at the grasp moment rather than moving to or picking up from.\nAnswer: 2. move to",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "gt": "hand over",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a framed poster, and the camera is positioned right at the counter/wall, with the poster filling much of the frame and the grippers close to the object, indicating the robot is in the grasp phase of hanging the poster.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "gt": "hand over",
+      "pred": null,
+      "raw": "Reasoning: The robot is positioned over a kitchen counter with a framed poster, but the camera angle is from a fixed head-mounted view looking down at the floor, making it impossible to determine if the robot is at the grasp moment or has already moved to the wall.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned over a kitchen counter with a framed poster, but the camera angle is from a fixed head-mounted view looking down at the counter, not at the wall where the poster would be hung.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "gt": "hand over",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding a framed poster, and the camera is positioned very close to the counter/wall, filling most of the frame with the poster and cabinets, indicating the robot is at the grasp moment.\nAnswer: 2. move to",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is holding a framed poster, and the camera is positioned at a close distance, filling the frame with the poster and cabinets, indicating the robot is at the grasp moment rather than moving to a distant location.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is holding a framed poster in its grippers, and the floor is not visible, indicating the camera is close to the object.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is holding a framed poster, not hanging it. The poster is large and close to the grippers, occupying a significant portion of the frame, which contradicts the \"hang\" subskill.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 59,
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is holding a framed poster, not hanging it. The poster is large and close to the grippers, occupying a significant portion of the frame, which contradicts the \"hang\" subskill.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 60,
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is holding a framed poster, not hanging it. The poster is large and close to the grippers, and the floor is not visible.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 61,
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is holding a framed poster, not placing it on the wall, and the floor is clearly visible in the lower portion of the frame, indicating the robot is not at the wall.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 62,
+      "gt": "hand over",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a framed poster, and the grippers are positioned to grasp it, indicating the action is \"pick up from\" rather than \"hang\" or \"move to\".\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 63,
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is holding a framed poster, not placing it on the wall, and the floor is clearly visible in the foreground, indicating the action is not \"hang\" or \"move to\".\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is holding a framed poster, and the grippers are positioned to grasp it, indicating the action is \"hang\" rather than \"move to\" or \"pick up from\".\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is at a close distance to the poster, with the grippers positioned to grasp it, indicating the action is \"hang\" rather than \"move to\" or \"pick up from\".\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 59,
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is at a close distance to the poster, with the poster filling the frame and the grippers positioned near it, indicating the robot is actively interacting with the object rather than moving away or picking it up from a distant location.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 60,
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is holding a framed poster, not hanging it. The poster is large and close to the grippers, and the floor is not visible.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 61,
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is holding a framed poster, and the grippers are positioned to grasp it, indicating the action is \"hang\" rather than \"move to\" or \"pick up from\".\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 62,
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is holding a framed poster, not hanging it. The poster is large and close to the grippers, and the floor is not visible.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 63,
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is in a kitchen setting with a poster on the counter, but the floor is not visible, and the poster is not on the wall, so it is not hanging.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 64,
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is holding a framed poster in its grippers, and the floor is not visible, indicating the camera is close to the object.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 65,
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is holding a framed poster in its grippers, and the floor is not visible, indicating the camera is close to the counter/wall.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 66,
+      "gt": "hand over",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding a framed poster in its grippers, and the camera is positioned very close to the counter/wall, filling most of the frame with the poster and cabinets, indicating the robot is at the grasp moment.\nAnswer: 2. move to",
+      "correct": false
+    },
+    {
+      "sec": 67,
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is holding a framed poster, not placing it on the wall, and the poster is large and close to the grippers, not just a distant object on the floor.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 19,
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is at a close distance to the poster, with the grippers clearly visible and the poster occupying a significant portion of the frame, indicating the robot is actively interacting with the object rather than moving away or picking it up from a distant location.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 20,
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned at a counter with a framed poster, but the floor is clearly visible and empty, indicating the object is not on the floor.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is holding a framed poster, not hanging it. The poster is large and close to the grippers, occupying a significant portion of the frame, which contradicts the \"hang\" subskill.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is holding a framed poster in its grippers, and the kitchen counter and cabinets are visible, indicating the robot is in the kitchen environment rather than on the floor.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is holding a framed poster, not placing it on the wall, and the poster is large and close to the grippers, not distant.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 24,
+      "gt": "hand over",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a framed poster, not placing it on the wall, and the floor is clearly visible in the lower portion of the frame, ruling out the \"hang\" subskill.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is holding a framed poster, and the poster is large and close to the grippers, filling much of the frame. The floor is not visible, and the cabinets are prominent, indicating the camera is right at the counter/wall.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is holding a framed poster, not hanging it. The poster is large and close to the grippers, occupying a significant portion of the frame, which contradicts the \"hang\" subskill.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is holding a framed poster, not hanging it. The poster is large and close to the grippers, filling much of the frame, which contradicts the \"hang\" subskill definition.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 28,
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned at the counter with the poster held in its grippers, and the floor is not visible, indicating the object is close to the camera rather than on the floor.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned at the counter, with the poster and cabinets filling the frame, indicating it is close to the task area rather than far away or in a wide room.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 30,
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is positioned at the counter with the poster, and the grippers are holding the poster, not on the floor.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "gt": "hand over",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a framed poster, and the camera is positioned right at the counter/wall, with the poster filling much of the frame and the grippers close to the object, indicating the robot is in the grasp phase of hanging the poster.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is holding a framed poster, and the camera is positioned right at the counter/wall, with the poster filling much of the frame and little or no floor visible.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 33,
+      "gt": "hand over",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding a framed poster, and the camera is positioned at a close distance, filling the frame with the poster and cabinets, indicating the robot is at the grasp moment rather than moving to a distant location or picking up from the floor.\nAnswer: 2. move to",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is holding a framed poster, not hanging it. The poster is large and close to the grippers, filling a significant portion of the frame, which contradicts the \"hang\" subskill description.\nAnswer: 1. hang",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "gt": "hand over",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding a framed poster, and the camera is positioned at a close distance, filling the frame with the poster and cabinets, indicating the robot is at the grasp moment rather than moving to a distant location or picking up from the floor.\nAnswer: 2. move to",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is holding a framed poster, not hanging it. The poster is large and close to the grippers, filling much of the frame, which contradicts the \"hang\" subskill description.\nAnswer: 1. hang",
+      "correct": false
+    }
+  ]
+}

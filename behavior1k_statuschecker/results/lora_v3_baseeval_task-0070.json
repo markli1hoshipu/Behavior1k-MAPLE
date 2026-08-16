@@ -1,0 +1,5772 @@
+{
+  "task_chunk": "task-0070",
+  "task_name": "thawing_frozen_food",
+  "accuracy": 0.0875,
+  "macro_recall": 0.08750000000000001,
+  "correct": 63,
+  "total": 720,
+  "n_classes": 12,
+  "unseen_gt_label_frames": 0,
+  "predictions": [
+    {
+      "sec": 0,
+      "episode": "episode_00700370",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00700370",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 146,
+      "episode": "episode_00700370",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 7,
+      "episode": "episode_00700380",
+      "gt": "move to fridge",
+      "pred": "close door fridge",
+      "raw": "1. close door fridge",
+      "correct": false
+    },
+    {
+      "sec": 122,
+      "episode": "episode_00700380",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 0,
+      "episode": "episode_00700390",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 10,
+      "episode": "episode_00700390",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 0,
+      "episode": "episode_00700420",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00700420",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 155,
+      "episode": "episode_00700420",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 164,
+      "episode": "episode_00700420",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 5,
+      "episode": "episode_00700430",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 87,
+      "episode": "episode_00700430",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 2,
+      "episode": "episode_00700460",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 12,
+      "episode": "episode_00700460",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 131,
+      "episode": "episode_00700460",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 140,
+      "episode": "episode_00700460",
+      "gt": "move to fridge",
+      "pred": "open door microwave",
+      "raw": "8. open door microwave",
+      "correct": false
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00700470",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 136,
+      "episode": "episode_00700470",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 145,
+      "episode": "episode_00700470",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00700480",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00700480",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 109,
+      "episode": "episode_00700480",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00700490",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 67,
+      "episode": "episode_00700490",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 77,
+      "episode": "episode_00700490",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 2,
+      "episode": "episode_00700500",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 11,
+      "episode": "episode_00700500",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00700500",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 101,
+      "episode": "episode_00700500",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00700520",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 108,
+      "episode": "episode_00700520",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 117,
+      "episode": "episode_00700520",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00700530",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 110,
+      "episode": "episode_00700530",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 119,
+      "episode": "episode_00700530",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 6,
+      "episode": "episode_00700540",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 78,
+      "episode": "episode_00700540",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 1,
+      "episode": "episode_00700550",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 11,
+      "episode": "episode_00700550",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 20,
+      "episode": "episode_00700550",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 104,
+      "episode": "episode_00700550",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 113,
+      "episode": "episode_00700550",
+      "gt": "move to fridge",
+      "pred": "open door microwave",
+      "raw": "8. open door microwave",
+      "correct": false
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00700560",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 155,
+      "episode": "episode_00700560",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 164,
+      "episode": "episode_00700560",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 1,
+      "episode": "episode_00700570",
+      "gt": "move to fridge",
+      "pred": "close door fridge",
+      "raw": "1. close door fridge",
+      "correct": false
+    },
+    {
+      "sec": 11,
+      "episode": "episode_00700570",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 90,
+      "episode": "episode_00700570",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 2,
+      "episode": "episode_00700580",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 12,
+      "episode": "episode_00700580",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 114,
+      "episode": "episode_00700580",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00700610",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00700610",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 105,
+      "episode": "episode_00700610",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 115,
+      "episode": "episode_00700610",
+      "gt": "move to fridge",
+      "pred": "open door microwave",
+      "raw": "8. open door microwave",
+      "correct": false
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00700630",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 106,
+      "episode": "episode_00700630",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 7,
+      "episode": "episode_00700670",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00700670",
+      "gt": "move to fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 10,
+      "episode": "episode_00700370",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "episode": "episode_00700370",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 149,
+      "episode": "episode_00700370",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 166,
+      "episode": "episode_00700370",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "episode": "episode_00700380",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00700380",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 139,
+      "episode": "episode_00700380",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 157,
+      "episode": "episode_00700380",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00700390",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "episode": "episode_00700390",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 114,
+      "episode": "episode_00700390",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 131,
+      "episode": "episode_00700390",
+      "gt": "open door fridge",
+      "pred": "open door microwave",
+      "raw": "8. open door microwave",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00700420",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00700420",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 60,
+      "episode": "episode_00700420",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 182,
+      "episode": "episode_00700420",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 200,
+      "episode": "episode_00700420",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 217,
+      "episode": "episode_00700420",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00700430",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 16,
+      "episode": "episode_00700460",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 33,
+      "episode": "episode_00700460",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00700460",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 18,
+      "episode": "episode_00700470",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00700470",
+      "gt": "open door fridge",
+      "pred": "open door microwave",
+      "raw": "8. open door microwave",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00700470",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 33,
+      "episode": "episode_00700480",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 119,
+      "episode": "episode_00700480",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 136,
+      "episode": "episode_00700480",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "episode": "episode_00700490",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00700490",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00700500",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00700500",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 28,
+      "episode": "episode_00700520",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 122,
+      "episode": "episode_00700520",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 139,
+      "episode": "episode_00700520",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "7. open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00700530",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00700530",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "episode": "episode_00700530",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00700540",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00700540",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00700550",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00700550",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00700560",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00700560",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 173,
+      "episode": "episode_00700560",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 191,
+      "episode": "episode_00700560",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 208,
+      "episode": "episode_00700560",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "episode": "episode_00700570",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 103,
+      "episode": "episode_00700570",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00700580",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00700580",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 126,
+      "episode": "episode_00700580",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 143,
+      "episode": "episode_00700580",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "episode": "episode_00700610",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00700610",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00700610",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 20,
+      "episode": "episode_00700630",
+      "gt": "open door fridge",
+      "pred": "open door microwave",
+      "raw": "8. open door microwave",
+      "correct": false
+    },
+    {
+      "sec": 114,
+      "episode": "episode_00700630",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 14,
+      "episode": "episode_00700670",
+      "gt": "open door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00700670",
+      "gt": "open door fridge",
+      "pred": "close door fridge",
+      "raw": "1. close door fridge",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00700370",
+      "gt": "pick up from plate",
+      "pred": "open door microwave",
+      "raw": "8. open door microwave",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "episode": "episode_00700370",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 73,
+      "episode": "episode_00700370",
+      "gt": "pick up from plate",
+      "pred": "open door microwave",
+      "raw": "8. open door microwave",
+      "correct": false
+    },
+    {
+      "sec": 185,
+      "episode": "episode_00700370",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00700380",
+      "gt": "pick up from plate",
+      "pred": "open door microwave",
+      "raw": "8. open door microwave",
+      "correct": false
+    },
+    {
+      "sec": 63,
+      "episode": "episode_00700380",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 177,
+      "episode": "episode_00700380",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 191,
+      "episode": "episode_00700380",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00700390",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 146,
+      "episode": "episode_00700390",
+      "gt": "pick up from plate",
+      "pred": "open door microwave",
+      "raw": "8. open door microwave",
+      "correct": false
+    },
+    {
+      "sec": 160,
+      "episode": "episode_00700390",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00700420",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 86,
+      "episode": "episode_00700420",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 100,
+      "episode": "episode_00700420",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 229,
+      "episode": "episode_00700420",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 244,
+      "episode": "episode_00700420",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00700430",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 94,
+      "episode": "episode_00700430",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 109,
+      "episode": "episode_00700430",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 77,
+      "episode": "episode_00700460",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 146,
+      "episode": "episode_00700460",
+      "gt": "pick up from plate",
+      "pred": "open door microwave",
+      "raw": "8. open door microwave",
+      "correct": false
+    },
+    {
+      "sec": 161,
+      "episode": "episode_00700460",
+      "gt": "pick up from plate",
+      "pred": "open door microwave",
+      "raw": "8. open door microwave",
+      "correct": false
+    },
+    {
+      "sec": 175,
+      "episode": "episode_00700460",
+      "gt": "pick up from plate",
+      "pred": "open door microwave",
+      "raw": "8. open door microwave",
+      "correct": false
+    },
+    {
+      "sec": 68,
+      "episode": "episode_00700470",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 83,
+      "episode": "episode_00700470",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 97,
+      "episode": "episode_00700470",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 159,
+      "episode": "episode_00700470",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00700480",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 148,
+      "episode": "episode_00700480",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00700490",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 89,
+      "episode": "episode_00700490",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00700500",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 114,
+      "episode": "episode_00700500",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00700520",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 153,
+      "episode": "episode_00700520",
+      "gt": "pick up from plate",
+      "pred": "open door microwave",
+      "raw": "8. open door microwave",
+      "correct": false
+    },
+    {
+      "sec": 168,
+      "episode": "episode_00700520",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 67,
+      "episode": "episode_00700530",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 81,
+      "episode": "episode_00700530",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 135,
+      "episode": "episode_00700530",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "episode": "episode_00700540",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 93,
+      "episode": "episode_00700540",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 61,
+      "episode": "episode_00700550",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 76,
+      "episode": "episode_00700550",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 127,
+      "episode": "episode_00700550",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 72,
+      "episode": "episode_00700560",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 87,
+      "episode": "episode_00700560",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 222,
+      "episode": "episode_00700560",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 237,
+      "episode": "episode_00700560",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 252,
+      "episode": "episode_00700560",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00700570",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 120,
+      "episode": "episode_00700570",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00700580",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00700580",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 171,
+      "episode": "episode_00700580",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 73,
+      "episode": "episode_00700610",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 126,
+      "episode": "episode_00700610",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00700630",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 130,
+      "episode": "episode_00700630",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00700670",
+      "gt": "pick up from plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 104,
+      "episode": "episode_00700670",
+      "gt": "pick up from plate",
+      "pred": "open door microwave",
+      "raw": "8. open door microwave",
+      "correct": false
+    },
+    {
+      "sec": 81,
+      "episode": "episode_00700370",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 89,
+      "episode": "episode_00700370",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 218,
+      "episode": "episode_00700370",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 226,
+      "episode": "episode_00700370",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 262,
+      "episode": "episode_00700370",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 73,
+      "episode": "episode_00700380",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00700380",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 219,
+      "episode": "episode_00700380",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 254,
+      "episode": "episode_00700380",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 175,
+      "episode": "episode_00700390",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 228,
+      "episode": "episode_00700390",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 258,
+      "episode": "episode_00700420",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 266,
+      "episode": "episode_00700420",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 356,
+      "episode": "episode_00700420",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 117,
+      "episode": "episode_00700430",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 171,
+      "episode": "episode_00700430",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 179,
+      "episode": "episode_00700460",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 187,
+      "episode": "episode_00700460",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 267,
+      "episode": "episode_00700460",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 275,
+      "episode": "episode_00700460",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 175,
+      "episode": "episode_00700470",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 183,
+      "episode": "episode_00700470",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 253,
+      "episode": "episode_00700470",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 262,
+      "episode": "episode_00700470",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 167,
+      "episode": "episode_00700480",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 223,
+      "episode": "episode_00700480",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 231,
+      "episode": "episode_00700480",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 103,
+      "episode": "episode_00700490",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 148,
+      "episode": "episode_00700490",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 157,
+      "episode": "episode_00700490",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 126,
+      "episode": "episode_00700500",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 134,
+      "episode": "episode_00700500",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 178,
+      "episode": "episode_00700500",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 180,
+      "episode": "episode_00700520",
+      "gt": "hand over plate",
+      "pred": "open door microwave",
+      "raw": "8. open door microwave",
+      "correct": false
+    },
+    {
+      "sec": 189,
+      "episode": "episode_00700520",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 236,
+      "episode": "episode_00700520",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 245,
+      "episode": "episode_00700520",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 149,
+      "episode": "episode_00700530",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 216,
+      "episode": "episode_00700530",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 107,
+      "episode": "episode_00700540",
+      "gt": "hand over plate",
+      "pred": "open door microwave",
+      "raw": "8. open door microwave",
+      "correct": false
+    },
+    {
+      "sec": 115,
+      "episode": "episode_00700540",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 124,
+      "episode": "episode_00700540",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 134,
+      "episode": "episode_00700550",
+      "gt": "hand over plate",
+      "pred": "open door microwave",
+      "raw": "8. open door microwave",
+      "correct": false
+    },
+    {
+      "sec": 143,
+      "episode": "episode_00700550",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 151,
+      "episode": "episode_00700550",
+      "gt": "hand over plate",
+      "pred": "open door microwave",
+      "raw": "8. open door microwave",
+      "correct": false
+    },
+    {
+      "sec": 261,
+      "episode": "episode_00700560",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 270,
+      "episode": "episode_00700560",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 336,
+      "episode": "episode_00700560",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00700570",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 162,
+      "episode": "episode_00700570",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 181,
+      "episode": "episode_00700580",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 253,
+      "episode": "episode_00700580",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 262,
+      "episode": "episode_00700580",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 142,
+      "episode": "episode_00700610",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 200,
+      "episode": "episode_00700610",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "episode": "episode_00700630",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 60,
+      "episode": "episode_00700630",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 167,
+      "episode": "episode_00700630",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 188,
+      "episode": "episode_00700630",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 126,
+      "episode": "episode_00700670",
+      "gt": "hand over plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 96,
+      "episode": "episode_00700370",
+      "gt": "close door fridge",
+      "pred": "open door microwave",
+      "raw": "8. open door microwave",
+      "correct": false
+    },
+    {
+      "sec": 104,
+      "episode": "episode_00700370",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 202,
+      "episode": "episode_00700370",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 210,
+      "episode": "episode_00700370",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 90,
+      "episode": "episode_00700380",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 99,
+      "episode": "episode_00700380",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 199,
+      "episode": "episode_00700380",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 208,
+      "episode": "episode_00700380",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 78,
+      "episode": "episode_00700390",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 186,
+      "episode": "episode_00700390",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 195,
+      "episode": "episode_00700390",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 116,
+      "episode": "episode_00700420",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 124,
+      "episode": "episode_00700420",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 133,
+      "episode": "episode_00700420",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 276,
+      "episode": "episode_00700420",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 284,
+      "episode": "episode_00700420",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 293,
+      "episode": "episode_00700420",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 302,
+      "episode": "episode_00700420",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 126,
+      "episode": "episode_00700430",
+      "gt": "close door fridge",
+      "pred": "open door microwave",
+      "raw": "8. open door microwave",
+      "correct": false
+    },
+    {
+      "sec": 135,
+      "episode": "episode_00700430",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 198,
+      "episode": "episode_00700460",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 206,
+      "episode": "episode_00700460",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 215,
+      "episode": "episode_00700460",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 223,
+      "episode": "episode_00700460",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 192,
+      "episode": "episode_00700470",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 201,
+      "episode": "episode_00700470",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 209,
+      "episode": "episode_00700470",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 176,
+      "episode": "episode_00700480",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 185,
+      "episode": "episode_00700480",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 193,
+      "episode": "episode_00700480",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 116,
+      "episode": "episode_00700490",
+      "gt": "close door fridge",
+      "pred": "open door microwave",
+      "raw": "8. open door microwave",
+      "correct": false
+    },
+    {
+      "sec": 140,
+      "episode": "episode_00700500",
+      "gt": "close door fridge",
+      "pred": "open door microwave",
+      "raw": "8. open door microwave",
+      "correct": false
+    },
+    {
+      "sec": 148,
+      "episode": "episode_00700500",
+      "gt": "close door fridge",
+      "pred": "open door microwave",
+      "raw": "8. open door microwave",
+      "correct": false
+    },
+    {
+      "sec": 201,
+      "episode": "episode_00700520",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 156,
+      "episode": "episode_00700530",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 164,
+      "episode": "episode_00700530",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 173,
+      "episode": "episode_00700530",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 129,
+      "episode": "episode_00700540",
+      "gt": "close door fridge",
+      "pred": "open door microwave",
+      "raw": "8. open door microwave",
+      "correct": false
+    },
+    {
+      "sec": 137,
+      "episode": "episode_00700540",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 156,
+      "episode": "episode_00700550",
+      "gt": "close door fridge",
+      "pred": "open door microwave",
+      "raw": "8. open door microwave",
+      "correct": false
+    },
+    {
+      "sec": 165,
+      "episode": "episode_00700550",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 276,
+      "episode": "episode_00700560",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 285,
+      "episode": "episode_00700560",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 293,
+      "episode": "episode_00700560",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "1. close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00700570",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 126,
+      "episode": "episode_00700570",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 134,
+      "episode": "episode_00700570",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00700580",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 89,
+      "episode": "episode_00700580",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 191,
+      "episode": "episode_00700580",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 200,
+      "episode": "episode_00700580",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 209,
+      "episode": "episode_00700580",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 217,
+      "episode": "episode_00700580",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 152,
+      "episode": "episode_00700610",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 161,
+      "episode": "episode_00700610",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00700630",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 74,
+      "episode": "episode_00700630",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 147,
+      "episode": "episode_00700630",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "1. close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 130,
+      "episode": "episode_00700670",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 139,
+      "episode": "episode_00700670",
+      "gt": "close door fridge",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 113,
+      "episode": "episode_00700370",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 117,
+      "episode": "episode_00700370",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 122,
+      "episode": "episode_00700370",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 100,
+      "episode": "episode_00700380",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 105,
+      "episode": "episode_00700380",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 84,
+      "episode": "episode_00700390",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 89,
+      "episode": "episode_00700390",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 138,
+      "episode": "episode_00700420",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 143,
+      "episode": "episode_00700420",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 63,
+      "episode": "episode_00700430",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 68,
+      "episode": "episode_00700430",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 88,
+      "episode": "episode_00700460",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 93,
+      "episode": "episode_00700460",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 98,
+      "episode": "episode_00700460",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 103,
+      "episode": "episode_00700460",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 101,
+      "episode": "episode_00700470",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 106,
+      "episode": "episode_00700470",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 111,
+      "episode": "episode_00700470",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 116,
+      "episode": "episode_00700470",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00700480",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 67,
+      "episode": "episode_00700480",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 72,
+      "episode": "episode_00700480",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 77,
+      "episode": "episode_00700480",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00700480",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 87,
+      "episode": "episode_00700480",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00700490",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "episode": "episode_00700490",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 70,
+      "episode": "episode_00700500",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 75,
+      "episode": "episode_00700500",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00700500",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 63,
+      "episode": "episode_00700520",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 67,
+      "episode": "episode_00700520",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 72,
+      "episode": "episode_00700520",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 77,
+      "episode": "episode_00700520",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00700520",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 87,
+      "episode": "episode_00700520",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 92,
+      "episode": "episode_00700520",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 97,
+      "episode": "episode_00700520",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 87,
+      "episode": "episode_00700530",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 92,
+      "episode": "episode_00700530",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 60,
+      "episode": "episode_00700540",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00700540",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 81,
+      "episode": "episode_00700550",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 86,
+      "episode": "episode_00700550",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 98,
+      "episode": "episode_00700560",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 103,
+      "episode": "episode_00700560",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 108,
+      "episode": "episode_00700560",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 113,
+      "episode": "episode_00700560",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 118,
+      "episode": "episode_00700560",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 123,
+      "episode": "episode_00700560",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 73,
+      "episode": "episode_00700570",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 93,
+      "episode": "episode_00700580",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 98,
+      "episode": "episode_00700580",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00700610",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00700610",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 90,
+      "episode": "episode_00700610",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00700630",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00700630",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 59,
+      "episode": "episode_00700670",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 64,
+      "episode": "episode_00700670",
+      "gt": "move to bar",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 127,
+      "episode": "episode_00700370",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 130,
+      "episode": "episode_00700370",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 134,
+      "episode": "episode_00700370",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 107,
+      "episode": "episode_00700380",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 110,
+      "episode": "episode_00700380",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 114,
+      "episode": "episode_00700380",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 118,
+      "episode": "episode_00700380",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 121,
+      "episode": "episode_00700380",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 94,
+      "episode": "episode_00700390",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 98,
+      "episode": "episode_00700390",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 101,
+      "episode": "episode_00700390",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 147,
+      "episode": "episode_00700420",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 151,
+      "episode": "episode_00700420",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 75,
+      "episode": "episode_00700430",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00700430",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 83,
+      "episode": "episode_00700430",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 109,
+      "episode": "episode_00700460",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 113,
+      "episode": "episode_00700460",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 117,
+      "episode": "episode_00700460",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 120,
+      "episode": "episode_00700460",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 124,
+      "episode": "episode_00700460",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 121,
+      "episode": "episode_00700470",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 125,
+      "episode": "episode_00700470",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 128,
+      "episode": "episode_00700470",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 132,
+      "episode": "episode_00700470",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 94,
+      "episode": "episode_00700480",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 97,
+      "episode": "episode_00700480",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 63,
+      "episode": "episode_00700490",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00700500",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00700500",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 89,
+      "episode": "episode_00700500",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 99,
+      "episode": "episode_00700520",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 102,
+      "episode": "episode_00700520",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 106,
+      "episode": "episode_00700520",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 99,
+      "episode": "episode_00700530",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 102,
+      "episode": "episode_00700530",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 106,
+      "episode": "episode_00700530",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 69,
+      "episode": "episode_00700540",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 72,
+      "episode": "episode_00700540",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 90,
+      "episode": "episode_00700550",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 94,
+      "episode": "episode_00700550",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 128,
+      "episode": "episode_00700560",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 131,
+      "episode": "episode_00700560",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 135,
+      "episode": "episode_00700560",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 139,
+      "episode": "episode_00700560",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 142,
+      "episode": "episode_00700560",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 146,
+      "episode": "episode_00700560",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 150,
+      "episode": "episode_00700560",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 153,
+      "episode": "episode_00700560",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 81,
+      "episode": "episode_00700570",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00700570",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 101,
+      "episode": "episode_00700580",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 105,
+      "episode": "episode_00700580",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 95,
+      "episode": "episode_00700610",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 98,
+      "episode": "episode_00700610",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 91,
+      "episode": "episode_00700630",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 95,
+      "episode": "episode_00700630",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 69,
+      "episode": "episode_00700670",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 73,
+      "episode": "episode_00700670",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 77,
+      "episode": "episode_00700670",
+      "gt": "place on plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 232,
+      "episode": "episode_00700370",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 234,
+      "episode": "episode_00700370",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 236,
+      "episode": "episode_00700370",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 211,
+      "episode": "episode_00700380",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 213,
+      "episode": "episode_00700380",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 198,
+      "episode": "episode_00700390",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 200,
+      "episode": "episode_00700390",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 308,
+      "episode": "episode_00700420",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 310,
+      "episode": "episode_00700420",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 313,
+      "episode": "episode_00700420",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 315,
+      "episode": "episode_00700420",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 142,
+      "episode": "episode_00700430",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 144,
+      "episode": "episode_00700430",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 147,
+      "episode": "episode_00700430",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 228,
+      "episode": "episode_00700460",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 231,
+      "episode": "episode_00700460",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 233,
+      "episode": "episode_00700460",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 219,
+      "episode": "episode_00700470",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 197,
+      "episode": "episode_00700480",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 199,
+      "episode": "episode_00700480",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 202,
+      "episode": "episode_00700480",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 204,
+      "episode": "episode_00700480",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 126,
+      "episode": "episode_00700490",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 154,
+      "episode": "episode_00700500",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 157,
+      "episode": "episode_00700500",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 210,
+      "episode": "episode_00700520",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 213,
+      "episode": "episode_00700520",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 215,
+      "episode": "episode_00700520",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 178,
+      "episode": "episode_00700530",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 180,
+      "episode": "episode_00700530",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 183,
+      "episode": "episode_00700530",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 185,
+      "episode": "episode_00700530",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 187,
+      "episode": "episode_00700530",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 190,
+      "episode": "episode_00700530",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 143,
+      "episode": "episode_00700540",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 146,
+      "episode": "episode_00700540",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 169,
+      "episode": "episode_00700550",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 172,
+      "episode": "episode_00700550",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 174,
+      "episode": "episode_00700550",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 297,
+      "episode": "episode_00700560",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 299,
+      "episode": "episode_00700560",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 302,
+      "episode": "episode_00700560",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 304,
+      "episode": "episode_00700560",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 307,
+      "episode": "episode_00700560",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 137,
+      "episode": "episode_00700570",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 140,
+      "episode": "episode_00700570",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 223,
+      "episode": "episode_00700580",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 225,
+      "episode": "episode_00700580",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 228,
+      "episode": "episode_00700580",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 230,
+      "episode": "episode_00700580",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 233,
+      "episode": "episode_00700580",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 235,
+      "episode": "episode_00700580",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 170,
+      "episode": "episode_00700610",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 172,
+      "episode": "episode_00700610",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 155,
+      "episode": "episode_00700630",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 157,
+      "episode": "episode_00700630",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 160,
+      "episode": "episode_00700630",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 148,
+      "episode": "episode_00700670",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 151,
+      "episode": "episode_00700670",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 153,
+      "episode": "episode_00700670",
+      "gt": "move to microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 237,
+      "episode": "episode_00700370",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 244,
+      "episode": "episode_00700370",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 251,
+      "episode": "episode_00700370",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 258,
+      "episode": "episode_00700370",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 233,
+      "episode": "episode_00700380",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 240,
+      "episode": "episode_00700380",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 247,
+      "episode": "episode_00700380",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 207,
+      "episode": "episode_00700390",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 214,
+      "episode": "episode_00700390",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 221,
+      "episode": "episode_00700390",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 319,
+      "episode": "episode_00700420",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 326,
+      "episode": "episode_00700420",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 334,
+      "episode": "episode_00700420",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 341,
+      "episode": "episode_00700420",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 348,
+      "episode": "episode_00700420",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 154,
+      "episode": "episode_00700430",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 161,
+      "episode": "episode_00700430",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 234,
+      "episode": "episode_00700460",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 241,
+      "episode": "episode_00700460",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 248,
+      "episode": "episode_00700460",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 255,
+      "episode": "episode_00700460",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 262,
+      "episode": "episode_00700460",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 225,
+      "episode": "episode_00700470",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 232,
+      "episode": "episode_00700470",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 240,
+      "episode": "episode_00700470",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 247,
+      "episode": "episode_00700470",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 210,
+      "episode": "episode_00700480",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 217,
+      "episode": "episode_00700480",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 128,
+      "episode": "episode_00700490",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 135,
+      "episode": "episode_00700490",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 142,
+      "episode": "episode_00700490",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 160,
+      "episode": "episode_00700500",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 167,
+      "episode": "episode_00700500",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 218,
+      "episode": "episode_00700520",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 225,
+      "episode": "episode_00700520",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 232,
+      "episode": "episode_00700520",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 195,
+      "episode": "episode_00700530",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 202,
+      "episode": "episode_00700530",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 209,
+      "episode": "episode_00700530",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 149,
+      "episode": "episode_00700540",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 156,
+      "episode": "episode_00700540",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 163,
+      "episode": "episode_00700540",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 170,
+      "episode": "episode_00700540",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 182,
+      "episode": "episode_00700550",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 189,
+      "episode": "episode_00700550",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 196,
+      "episode": "episode_00700550",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 308,
+      "episode": "episode_00700560",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 315,
+      "episode": "episode_00700560",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 323,
+      "episode": "episode_00700560",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 146,
+      "episode": "episode_00700570",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 153,
+      "episode": "episode_00700570",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 238,
+      "episode": "episode_00700580",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 245,
+      "episode": "episode_00700580",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 175,
+      "episode": "episode_00700610",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 182,
+      "episode": "episode_00700610",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 189,
+      "episode": "episode_00700610",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 196,
+      "episode": "episode_00700610",
+      "gt": "open door microwave",
+      "pred": "open door microwave",
+      "raw": "8. open door microwave",
+      "correct": true
+    },
+    {
+      "sec": 176,
+      "episode": "episode_00700630",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 183,
+      "episode": "episode_00700630",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 162,
+      "episode": "episode_00700670",
+      "gt": "open door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 267,
+      "episode": "episode_00700370",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 272,
+      "episode": "episode_00700370",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 277,
+      "episode": "episode_00700370",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 260,
+      "episode": "episode_00700380",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 265,
+      "episode": "episode_00700380",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 232,
+      "episode": "episode_00700390",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 237,
+      "episode": "episode_00700390",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 242,
+      "episode": "episode_00700390",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 360,
+      "episode": "episode_00700420",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 365,
+      "episode": "episode_00700420",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 370,
+      "episode": "episode_00700420",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 375,
+      "episode": "episode_00700420",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 182,
+      "episode": "episode_00700430",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 187,
+      "episode": "episode_00700430",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 281,
+      "episode": "episode_00700460",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 287,
+      "episode": "episode_00700460",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 292,
+      "episode": "episode_00700460",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 268,
+      "episode": "episode_00700470",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 273,
+      "episode": "episode_00700470",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 278,
+      "episode": "episode_00700470",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 234,
+      "episode": "episode_00700480",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 239,
+      "episode": "episode_00700480",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 161,
+      "episode": "episode_00700490",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 166,
+      "episode": "episode_00700490",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 171,
+      "episode": "episode_00700490",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 190,
+      "episode": "episode_00700500",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 195,
+      "episode": "episode_00700500",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 249,
+      "episode": "episode_00700520",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 254,
+      "episode": "episode_00700520",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 227,
+      "episode": "episode_00700530",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 233,
+      "episode": "episode_00700530",
+      "gt": "place in plate",
+      "pred": "open door microwave",
+      "raw": "8. open door microwave",
+      "correct": false
+    },
+    {
+      "sec": 238,
+      "episode": "episode_00700530",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 243,
+      "episode": "episode_00700530",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 248,
+      "episode": "episode_00700530",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 180,
+      "episode": "episode_00700540",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 185,
+      "episode": "episode_00700540",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 209,
+      "episode": "episode_00700550",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 214,
+      "episode": "episode_00700550",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 219,
+      "episode": "episode_00700550",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 224,
+      "episode": "episode_00700550",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 229,
+      "episode": "episode_00700550",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 344,
+      "episode": "episode_00700560",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 349,
+      "episode": "episode_00700560",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 354,
+      "episode": "episode_00700560",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 166,
+      "episode": "episode_00700570",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 266,
+      "episode": "episode_00700580",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 271,
+      "episode": "episode_00700580",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 276,
+      "episode": "episode_00700580",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 281,
+      "episode": "episode_00700580",
+      "gt": "place in plate",
+      "pred": "open door microwave",
+      "raw": "8. open door microwave",
+      "correct": false
+    },
+    {
+      "sec": 210,
+      "episode": "episode_00700610",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 215,
+      "episode": "episode_00700610",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 220,
+      "episode": "episode_00700610",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 225,
+      "episode": "episode_00700610",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 230,
+      "episode": "episode_00700610",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 235,
+      "episode": "episode_00700610",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 193,
+      "episode": "episode_00700630",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 198,
+      "episode": "episode_00700630",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 179,
+      "episode": "episode_00700670",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 184,
+      "episode": "episode_00700670",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 189,
+      "episode": "episode_00700670",
+      "gt": "place in plate",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": true
+    },
+    {
+      "sec": 278,
+      "episode": "episode_00700370",
+      "gt": "close door microwave",
+      "pred": "open door microwave",
+      "raw": "8. open door microwave",
+      "correct": false
+    },
+    {
+      "sec": 280,
+      "episode": "episode_00700370",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 283,
+      "episode": "episode_00700370",
+      "gt": "close door microwave",
+      "pred": "open door microwave",
+      "raw": "8. open door microwave",
+      "correct": false
+    },
+    {
+      "sec": 269,
+      "episode": "episode_00700380",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 272,
+      "episode": "episode_00700380",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 274,
+      "episode": "episode_00700380",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 244,
+      "episode": "episode_00700390",
+      "gt": "close door microwave",
+      "pred": "open door microwave",
+      "raw": "8. open door microwave",
+      "correct": false
+    },
+    {
+      "sec": 247,
+      "episode": "episode_00700390",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 250,
+      "episode": "episode_00700390",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 253,
+      "episode": "episode_00700390",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 378,
+      "episode": "episode_00700420",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 381,
+      "episode": "episode_00700420",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 384,
+      "episode": "episode_00700420",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 387,
+      "episode": "episode_00700420",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 389,
+      "episode": "episode_00700420",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 392,
+      "episode": "episode_00700420",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 192,
+      "episode": "episode_00700430",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 195,
+      "episode": "episode_00700430",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 295,
+      "episode": "episode_00700460",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 297,
+      "episode": "episode_00700460",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 300,
+      "episode": "episode_00700460",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 303,
+      "episode": "episode_00700460",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 306,
+      "episode": "episode_00700460",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 309,
+      "episode": "episode_00700460",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 284,
+      "episode": "episode_00700470",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 287,
+      "episode": "episode_00700470",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 290,
+      "episode": "episode_00700470",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 242,
+      "episode": "episode_00700480",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 244,
+      "episode": "episode_00700480",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 172,
+      "episode": "episode_00700490",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 175,
+      "episode": "episode_00700490",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 197,
+      "episode": "episode_00700500",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 257,
+      "episode": "episode_00700520",
+      "gt": "close door microwave",
+      "pred": "open door microwave",
+      "raw": "8. open door microwave",
+      "correct": false
+    },
+    {
+      "sec": 259,
+      "episode": "episode_00700520",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 262,
+      "episode": "episode_00700520",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 251,
+      "episode": "episode_00700530",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 254,
+      "episode": "episode_00700530",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 256,
+      "episode": "episode_00700530",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 259,
+      "episode": "episode_00700530",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 190,
+      "episode": "episode_00700540",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 193,
+      "episode": "episode_00700540",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 232,
+      "episode": "episode_00700550",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 234,
+      "episode": "episode_00700550",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 361,
+      "episode": "episode_00700560",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 364,
+      "episode": "episode_00700560",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 367,
+      "episode": "episode_00700560",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 172,
+      "episode": "episode_00700570",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 174,
+      "episode": "episode_00700570",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 285,
+      "episode": "episode_00700580",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 288,
+      "episode": "episode_00700580",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 291,
+      "episode": "episode_00700580",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 293,
+      "episode": "episode_00700580",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 239,
+      "episode": "episode_00700610",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 242,
+      "episode": "episode_00700610",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 200,
+      "episode": "episode_00700630",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 203,
+      "episode": "episode_00700630",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 205,
+      "episode": "episode_00700630",
+      "gt": "close door microwave",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 208,
+      "episode": "episode_00700630",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 197,
+      "episode": "episode_00700670",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 200,
+      "episode": "episode_00700670",
+      "gt": "close door microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 286,
+      "episode": "episode_00700370",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 289,
+      "episode": "episode_00700370",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 292,
+      "episode": "episode_00700370",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 295,
+      "episode": "episode_00700370",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 279,
+      "episode": "episode_00700380",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 254,
+      "episode": "episode_00700390",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 257,
+      "episode": "episode_00700390",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 260,
+      "episode": "episode_00700390",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 395,
+      "episode": "episode_00700420",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 398,
+      "episode": "episode_00700420",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 402,
+      "episode": "episode_00700420",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 199,
+      "episode": "episode_00700430",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 202,
+      "episode": "episode_00700430",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 310,
+      "episode": "episode_00700460",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 314,
+      "episode": "episode_00700460",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 317,
+      "episode": "episode_00700460",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 320,
+      "episode": "episode_00700460",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 295,
+      "episode": "episode_00700470",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 298,
+      "episode": "episode_00700470",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 302,
+      "episode": "episode_00700470",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 249,
+      "episode": "episode_00700480",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 252,
+      "episode": "episode_00700480",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 255,
+      "episode": "episode_00700480",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 258,
+      "episode": "episode_00700480",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 181,
+      "episode": "episode_00700490",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 184,
+      "episode": "episode_00700490",
+      "gt": "turn on switch microwave",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 187,
+      "episode": "episode_00700490",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 202,
+      "episode": "episode_00700500",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 206,
+      "episode": "episode_00700500",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 209,
+      "episode": "episode_00700500",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 265,
+      "episode": "episode_00700520",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 268,
+      "episode": "episode_00700520",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 271,
+      "episode": "episode_00700520",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 262,
+      "episode": "episode_00700530",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 265,
+      "episode": "episode_00700530",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 268,
+      "episode": "episode_00700530",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 271,
+      "episode": "episode_00700530",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 194,
+      "episode": "episode_00700540",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 197,
+      "episode": "episode_00700540",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 200,
+      "episode": "episode_00700540",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 235,
+      "episode": "episode_00700550",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 238,
+      "episode": "episode_00700550",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 242,
+      "episode": "episode_00700550",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 370,
+      "episode": "episode_00700560",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 373,
+      "episode": "episode_00700560",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 376,
+      "episode": "episode_00700560",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 379,
+      "episode": "episode_00700560",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 383,
+      "episode": "episode_00700560",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 177,
+      "episode": "episode_00700570",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 180,
+      "episode": "episode_00700570",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 294,
+      "episode": "episode_00700580",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 298,
+      "episode": "episode_00700580",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 301,
+      "episode": "episode_00700580",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 246,
+      "episode": "episode_00700610",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 249,
+      "episode": "episode_00700610",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 252,
+      "episode": "episode_00700610",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 256,
+      "episode": "episode_00700610",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 203,
+      "episode": "episode_00700670",
+      "gt": "turn on switch microwave",
+      "pred": "open door microwave",
+      "raw": "8. open door microwave",
+      "correct": false
+    },
+    {
+      "sec": 206,
+      "episode": "episode_00700670",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    },
+    {
+      "sec": 209,
+      "episode": "episode_00700670",
+      "gt": "turn on switch microwave",
+      "pred": "place in plate",
+      "raw": "10. place in plate",
+      "correct": false
+    }
+  ]
+}

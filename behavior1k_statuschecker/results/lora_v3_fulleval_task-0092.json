@@ -1,0 +1,2892 @@
+{
+  "task_chunk": "task-0092",
+  "task_name": "installing_a_scanner",
+  "accuracy": 0.7,
+  "macro_recall": 0.7000000000000001,
+  "correct": 252,
+  "total": 360,
+  "n_classes": 6,
+  "unseen_gt_label_frames": 0,
+  "predictions": [
+    {
+      "sec": 0,
+      "episode": "episode_00920290",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 12,
+      "episode": "episode_00920290",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00920290",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00920290",
+      "gt": "move to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": false
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00920300",
+      "gt": "move to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": false
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00920340",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 16,
+      "episode": "episode_00920340",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 28,
+      "episode": "episode_00920340",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 1,
+      "episode": "episode_00920350",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 14,
+      "episode": "episode_00920350",
+      "gt": "move to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": false
+    },
+    {
+      "sec": 1,
+      "episode": "episode_00920370",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00920370",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00920370",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00920370",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00920370",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00920370",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 74,
+      "episode": "episode_00920370",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 86,
+      "episode": "episode_00920370",
+      "gt": "move to scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": false
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00920390",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 20,
+      "episode": "episode_00920390",
+      "gt": "move to scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": false
+    },
+    {
+      "sec": 10,
+      "episode": "episode_00920400",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 0,
+      "episode": "episode_00920410",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00920410",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00920410",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00920410",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00920410",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00920410",
+      "gt": "move to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": false
+    },
+    {
+      "sec": 7,
+      "episode": "episode_00920420",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 19,
+      "episode": "episode_00920420",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 5,
+      "episode": "episode_00920430",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 18,
+      "episode": "episode_00920430",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00920430",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00920430",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00920440",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 16,
+      "episode": "episode_00920440",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00920440",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00920440",
+      "gt": "move to scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": false
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00920460",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00920460",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 34,
+      "episode": "episode_00920460",
+      "gt": "move to scanner",
+      "pred": "move to laptop",
+      "raw": "move to laptop\nassistant\n\n<think>\n\n</think>\n\nmove to laptop",
+      "correct": false
+    },
+    {
+      "sec": 7,
+      "episode": "episode_00920470",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 19,
+      "episode": "episode_00920470",
+      "gt": "move to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00920470",
+      "gt": "move to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": false
+    },
+    {
+      "sec": 12,
+      "episode": "episode_00920480",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00920480",
+      "gt": "move to scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00920480",
+      "gt": "move to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00920480",
+      "gt": "move to scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": false
+    },
+    {
+      "sec": 11,
+      "episode": "episode_00920490",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00920490",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00920500",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 16,
+      "episode": "episode_00920500",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 28,
+      "episode": "episode_00920500",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00920500",
+      "gt": "move to scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": false
+    },
+    {
+      "sec": 6,
+      "episode": "episode_00920510",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 2,
+      "episode": "episode_00920530",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 14,
+      "episode": "episode_00920530",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 27,
+      "episode": "episode_00920530",
+      "gt": "move to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": false
+    },
+    {
+      "sec": 5,
+      "episode": "episode_00920540",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00920550",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 16,
+      "episode": "episode_00920550",
+      "gt": "move to scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": true
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00920290",
+      "gt": "push to scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00920290",
+      "gt": "push to scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00920290",
+      "gt": "push to scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": false
+    },
+    {
+      "sec": 19,
+      "episode": "episode_00920300",
+      "gt": "push to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": true
+    },
+    {
+      "sec": 27,
+      "episode": "episode_00920300",
+      "gt": "push to scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00920300",
+      "gt": "push to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": true
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00920300",
+      "gt": "push to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": true
+    },
+    {
+      "sec": 52,
+      "episode": "episode_00920300",
+      "gt": "push to scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00920350",
+      "gt": "push to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": true
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00920350",
+      "gt": "push to scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": false
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00920350",
+      "gt": "push to scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00920350",
+      "gt": "push to scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": false
+    },
+    {
+      "sec": 93,
+      "episode": "episode_00920370",
+      "gt": "push to scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": false
+    },
+    {
+      "sec": 101,
+      "episode": "episode_00920370",
+      "gt": "push to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": true
+    },
+    {
+      "sec": 109,
+      "episode": "episode_00920370",
+      "gt": "push to scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": false
+    },
+    {
+      "sec": 28,
+      "episode": "episode_00920400",
+      "gt": "push to scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": false
+    },
+    {
+      "sec": 72,
+      "episode": "episode_00920410",
+      "gt": "push to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": true
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00920410",
+      "gt": "push to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": true
+    },
+    {
+      "sec": 88,
+      "episode": "episode_00920410",
+      "gt": "push to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": true
+    },
+    {
+      "sec": 96,
+      "episode": "episode_00920410",
+      "gt": "push to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": true
+    },
+    {
+      "sec": 105,
+      "episode": "episode_00920410",
+      "gt": "push to scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": false
+    },
+    {
+      "sec": 113,
+      "episode": "episode_00920410",
+      "gt": "push to scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00920420",
+      "gt": "push to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": true
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00920420",
+      "gt": "push to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": true
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00920420",
+      "gt": "push to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": true
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00920430",
+      "gt": "push to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": true
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00920430",
+      "gt": "push to scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": false
+    },
+    {
+      "sec": 74,
+      "episode": "episode_00920430",
+      "gt": "push to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": true
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00920440",
+      "gt": "push to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": true
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00920440",
+      "gt": "push to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": true
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00920460",
+      "gt": "push to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": true
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00920460",
+      "gt": "push to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": true
+    },
+    {
+      "sec": 58,
+      "episode": "episode_00920460",
+      "gt": "push to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": true
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00920460",
+      "gt": "push to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": true
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00920470",
+      "gt": "push to scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00920470",
+      "gt": "push to scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "episode": "episode_00920470",
+      "gt": "push to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": true
+    },
+    {
+      "sec": 60,
+      "episode": "episode_00920470",
+      "gt": "push to scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "episode": "episode_00920480",
+      "gt": "push to scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": false
+    },
+    {
+      "sec": 60,
+      "episode": "episode_00920480",
+      "gt": "push to scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": false
+    },
+    {
+      "sec": 69,
+      "episode": "episode_00920480",
+      "gt": "push to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": true
+    },
+    {
+      "sec": 77,
+      "episode": "episode_00920480",
+      "gt": "push to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": true
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00920480",
+      "gt": "push to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": true
+    },
+    {
+      "sec": 93,
+      "episode": "episode_00920480",
+      "gt": "push to scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "episode": "episode_00920510",
+      "gt": "push to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": true
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00920510",
+      "gt": "push to scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00920510",
+      "gt": "push to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": true
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00920510",
+      "gt": "push to scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00920510",
+      "gt": "push to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": true
+    },
+    {
+      "sec": 34,
+      "episode": "episode_00920530",
+      "gt": "push to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": true
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00920530",
+      "gt": "push to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": true
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00920530",
+      "gt": "push to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": true
+    },
+    {
+      "sec": 59,
+      "episode": "episode_00920530",
+      "gt": "push to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": true
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00920540",
+      "gt": "push to scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00920540",
+      "gt": "push to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": true
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00920540",
+      "gt": "push to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": true
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00920550",
+      "gt": "push to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": true
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00920550",
+      "gt": "push to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": true
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00920550",
+      "gt": "push to scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00920550",
+      "gt": "push to scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": true
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00920290",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 69,
+      "episode": "episode_00920290",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 76,
+      "episode": "episode_00920290",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 84,
+      "episode": "episode_00920290",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 91,
+      "episode": "episode_00920290",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 99,
+      "episode": "episode_00920290",
+      "gt": "pick up from scanner",
+      "pred": "move to laptop",
+      "raw": "move to laptop",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00920300",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00920300",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00920340",
+      "gt": "pick up from scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00920340",
+      "gt": "pick up from scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00920340",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00920340",
+      "gt": "pick up from scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": false
+    },
+    {
+      "sec": 69,
+      "episode": "episode_00920340",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 77,
+      "episode": "episode_00920340",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 84,
+      "episode": "episode_00920340",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 92,
+      "episode": "episode_00920340",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 99,
+      "episode": "episode_00920340",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00920350",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 73,
+      "episode": "episode_00920350",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 114,
+      "episode": "episode_00920370",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 121,
+      "episode": "episode_00920370",
+      "gt": "pick up from scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "episode": "episode_00920390",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 34,
+      "episode": "episode_00920390",
+      "gt": "pick up from scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "episode": "episode_00920400",
+      "gt": "pick up from scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": false
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00920400",
+      "gt": "pick up from scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": false
+    },
+    {
+      "sec": 121,
+      "episode": "episode_00920410",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 128,
+      "episode": "episode_00920410",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 136,
+      "episode": "episode_00920410",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 143,
+      "episode": "episode_00920410",
+      "gt": "pick up from scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": false
+    },
+    {
+      "sec": 151,
+      "episode": "episode_00920410",
+      "gt": "pick up from scanner",
+      "pred": "move to laptop",
+      "raw": "move to laptop",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "episode": "episode_00920420",
+      "gt": "pick up from scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": false
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00920430",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 88,
+      "episode": "episode_00920430",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 95,
+      "episode": "episode_00920430",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 103,
+      "episode": "episode_00920430",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 110,
+      "episode": "episode_00920430",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 118,
+      "episode": "episode_00920430",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00920440",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 73,
+      "episode": "episode_00920440",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 73,
+      "episode": "episode_00920460",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 81,
+      "episode": "episode_00920460",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 88,
+      "episode": "episode_00920460",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 70,
+      "episode": "episode_00920470",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 77,
+      "episode": "episode_00920470",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 98,
+      "episode": "episode_00920480",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 105,
+      "episode": "episode_00920480",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 113,
+      "episode": "episode_00920480",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 120,
+      "episode": "episode_00920480",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 128,
+      "episode": "episode_00920480",
+      "gt": "pick up from scanner",
+      "pred": "move to laptop",
+      "raw": "move to laptop",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00920490",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00920490",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 52,
+      "episode": "episode_00920500",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 60,
+      "episode": "episode_00920500",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 63,
+      "episode": "episode_00920510",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00920510",
+      "gt": "pick up from scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": false
+    },
+    {
+      "sec": 78,
+      "episode": "episode_00920510",
+      "gt": "pick up from scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": false
+    },
+    {
+      "sec": 86,
+      "episode": "episode_00920510",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 69,
+      "episode": "episode_00920530",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00920540",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 67,
+      "episode": "episode_00920550",
+      "gt": "pick up from scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": true
+    },
+    {
+      "sec": 105,
+      "episode": "episode_00920290",
+      "gt": "move to laptop",
+      "pred": "move to laptop",
+      "raw": "move to laptop",
+      "correct": true
+    },
+    {
+      "sec": 117,
+      "episode": "episode_00920290",
+      "gt": "move to laptop",
+      "pred": "move to laptop",
+      "raw": "move to laptop",
+      "correct": true
+    },
+    {
+      "sec": 129,
+      "episode": "episode_00920290",
+      "gt": "move to laptop",
+      "pred": "move to laptop",
+      "raw": "move to laptop",
+      "correct": true
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00920290",
+      "gt": "move to laptop",
+      "pred": "move to laptop",
+      "raw": "move to laptop",
+      "correct": true
+    },
+    {
+      "sec": 154,
+      "episode": "episode_00920290",
+      "gt": "move to laptop",
+      "pred": "move to laptop",
+      "raw": "move to laptop",
+      "correct": true
+    },
+    {
+      "sec": 166,
+      "episode": "episode_00920290",
+      "gt": "move to laptop",
+      "pred": "move to laptop",
+      "raw": "move to laptop\nassistant\n\n<think>\n\n</think>\n\nmove to laptop",
+      "correct": true
+    },
+    {
+      "sec": 178,
+      "episode": "episode_00920290",
+      "gt": "move to laptop",
+      "pred": "move to laptop",
+      "raw": "move to laptop",
+      "correct": true
+    },
+    {
+      "sec": 76,
+      "episode": "episode_00920300",
+      "gt": "move to laptop",
+      "pred": "move to laptop",
+      "raw": "move to laptop",
+      "correct": true
+    },
+    {
+      "sec": 89,
+      "episode": "episode_00920300",
+      "gt": "move to laptop",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": false
+    },
+    {
+      "sec": 111,
+      "episode": "episode_00920340",
+      "gt": "move to laptop",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": false
+    },
+    {
+      "sec": 123,
+      "episode": "episode_00920340",
+      "gt": "move to laptop",
+      "pred": "move to laptop",
+      "raw": "move to laptop\nassistant\n\nmove to laptop\nassistant",
+      "correct": true
+    },
+    {
+      "sec": 136,
+      "episode": "episode_00920340",
+      "gt": "move to laptop",
+      "pred": "move to laptop",
+      "raw": "move to laptop",
+      "correct": true
+    },
+    {
+      "sec": 148,
+      "episode": "episode_00920340",
+      "gt": "move to laptop",
+      "pred": "move to laptop",
+      "raw": "move to laptop\nassistant\n\n<think>\n\n</think>\n\nmove to laptop",
+      "correct": true
+    },
+    {
+      "sec": 160,
+      "episode": "episode_00920340",
+      "gt": "move to laptop",
+      "pred": "move to laptop",
+      "raw": "move to laptop",
+      "correct": true
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00920350",
+      "gt": "move to laptop",
+      "pred": "move to laptop",
+      "raw": "move to laptop",
+      "correct": true
+    },
+    {
+      "sec": 95,
+      "episode": "episode_00920350",
+      "gt": "move to laptop",
+      "pred": "move to laptop",
+      "raw": "move to laptop",
+      "correct": true
+    },
+    {
+      "sec": 107,
+      "episode": "episode_00920350",
+      "gt": "move to laptop",
+      "pred": "move to laptop",
+      "raw": "move to laptop\nassistant\n\n<think>\n\n</think>\n\nmove to laptop",
+      "correct": true
+    },
+    {
+      "sec": 119,
+      "episode": "episode_00920350",
+      "gt": "move to laptop",
+      "pred": "move to laptop",
+      "raw": "move to laptop\nassistant\n\nmove to laptop\nassistant",
+      "correct": true
+    },
+    {
+      "sec": 132,
+      "episode": "episode_00920350",
+      "gt": "move to laptop",
+      "pred": "move to laptop",
+      "raw": "move to laptop\nuser\nThe robot's subskill is always exactly",
+      "correct": true
+    },
+    {
+      "sec": 134,
+      "episode": "episode_00920370",
+      "gt": "move to laptop",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": false
+    },
+    {
+      "sec": 146,
+      "episode": "episode_00920370",
+      "gt": "move to laptop",
+      "pred": "move to laptop",
+      "raw": "move to laptop",
+      "correct": true
+    },
+    {
+      "sec": 158,
+      "episode": "episode_00920370",
+      "gt": "move to laptop",
+      "pred": "move to laptop",
+      "raw": "move to laptop",
+      "correct": true
+    },
+    {
+      "sec": 171,
+      "episode": "episode_00920370",
+      "gt": "move to laptop",
+      "pred": "move to laptop",
+      "raw": "move to laptop\nuser\nThe robot's subskill right now is",
+      "correct": true
+    },
+    {
+      "sec": 183,
+      "episode": "episode_00920370",
+      "gt": "move to laptop",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": false
+    },
+    {
+      "sec": 155,
+      "episode": "episode_00920410",
+      "gt": "move to laptop",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": false
+    },
+    {
+      "sec": 168,
+      "episode": "episode_00920410",
+      "gt": "move to laptop",
+      "pred": "move to laptop",
+      "raw": "move to laptop\nassistant\n\n<think>\n\n</think>\n\nmove to laptop",
+      "correct": true
+    },
+    {
+      "sec": 180,
+      "episode": "episode_00920410",
+      "gt": "move to laptop",
+      "pred": "move to laptop",
+      "raw": "move to laptop",
+      "correct": true
+    },
+    {
+      "sec": 192,
+      "episode": "episode_00920410",
+      "gt": "move to laptop",
+      "pred": "move to laptop",
+      "raw": "move to laptop",
+      "correct": true
+    },
+    {
+      "sec": 204,
+      "episode": "episode_00920410",
+      "gt": "move to laptop",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": false
+    },
+    {
+      "sec": 68,
+      "episode": "episode_00920420",
+      "gt": "move to laptop",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": false
+    },
+    {
+      "sec": 124,
+      "episode": "episode_00920430",
+      "gt": "move to laptop",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": false
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00920440",
+      "gt": "move to laptop",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": false
+    },
+    {
+      "sec": 93,
+      "episode": "episode_00920440",
+      "gt": "move to laptop",
+      "pred": "move to laptop",
+      "raw": "move to laptop\nassistant\n\n<think>\n\n</think>\n\nmove to laptop",
+      "correct": true
+    },
+    {
+      "sec": 105,
+      "episode": "episode_00920440",
+      "gt": "move to laptop",
+      "pred": "move to laptop",
+      "raw": "move to laptop",
+      "correct": true
+    },
+    {
+      "sec": 91,
+      "episode": "episode_00920460",
+      "gt": "move to laptop",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": false
+    },
+    {
+      "sec": 103,
+      "episode": "episode_00920460",
+      "gt": "move to laptop",
+      "pred": "move to laptop",
+      "raw": "move to laptop",
+      "correct": true
+    },
+    {
+      "sec": 116,
+      "episode": "episode_00920460",
+      "gt": "move to laptop",
+      "pred": "move to laptop",
+      "raw": "move to laptop",
+      "correct": true
+    },
+    {
+      "sec": 86,
+      "episode": "episode_00920470",
+      "gt": "move to laptop",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": false
+    },
+    {
+      "sec": 98,
+      "episode": "episode_00920470",
+      "gt": "move to laptop",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": false
+    },
+    {
+      "sec": 111,
+      "episode": "episode_00920470",
+      "gt": "move to laptop",
+      "pred": "move to laptop",
+      "raw": "move to laptop",
+      "correct": true
+    },
+    {
+      "sec": 123,
+      "episode": "episode_00920470",
+      "gt": "move to laptop",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": false
+    },
+    {
+      "sec": 133,
+      "episode": "episode_00920480",
+      "gt": "move to laptop",
+      "pred": "move to laptop",
+      "raw": "move to laptop",
+      "correct": true
+    },
+    {
+      "sec": 145,
+      "episode": "episode_00920480",
+      "gt": "move to laptop",
+      "pred": "move to laptop",
+      "raw": "move to laptop\nassistant\n\n<think>\n\n</think>\n\nmove to laptop",
+      "correct": true
+    },
+    {
+      "sec": 158,
+      "episode": "episode_00920480",
+      "gt": "move to laptop",
+      "pred": "move to laptop",
+      "raw": "move to laptop\nassistant\n\n<think>\n\n</think>\n\nmove to laptop",
+      "correct": true
+    },
+    {
+      "sec": 170,
+      "episode": "episode_00920480",
+      "gt": "move to laptop",
+      "pred": "move to laptop",
+      "raw": "move to laptop",
+      "correct": true
+    },
+    {
+      "sec": 182,
+      "episode": "episode_00920480",
+      "gt": "move to laptop",
+      "pred": "move to laptop",
+      "raw": "move to laptop\nuser\nThe robot's subskill right now is",
+      "correct": true
+    },
+    {
+      "sec": 195,
+      "episode": "episode_00920480",
+      "gt": "move to laptop",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00920490",
+      "gt": "move to laptop",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": false
+    },
+    {
+      "sec": 63,
+      "episode": "episode_00920490",
+      "gt": "move to laptop",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": false
+    },
+    {
+      "sec": 67,
+      "episode": "episode_00920500",
+      "gt": "move to laptop",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": false
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00920500",
+      "gt": "move to laptop",
+      "pred": "move to laptop",
+      "raw": "move to laptop",
+      "correct": true
+    },
+    {
+      "sec": 92,
+      "episode": "episode_00920510",
+      "gt": "move to laptop",
+      "pred": "move to laptop",
+      "raw": "move to laptop\nuser\nThe robot's subskill right now is",
+      "correct": true
+    },
+    {
+      "sec": 104,
+      "episode": "episode_00920510",
+      "gt": "move to laptop",
+      "pred": "move to laptop",
+      "raw": "move to laptop",
+      "correct": true
+    },
+    {
+      "sec": 117,
+      "episode": "episode_00920510",
+      "gt": "move to laptop",
+      "pred": "move to laptop",
+      "raw": "move to laptop",
+      "correct": true
+    },
+    {
+      "sec": 129,
+      "episode": "episode_00920510",
+      "gt": "move to laptop",
+      "pred": "move to laptop",
+      "raw": "move to laptop",
+      "correct": true
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00920510",
+      "gt": "move to laptop",
+      "pred": "move to laptop",
+      "raw": "move to laptop",
+      "correct": true
+    },
+    {
+      "sec": 153,
+      "episode": "episode_00920510",
+      "gt": "move to laptop",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": false
+    },
+    {
+      "sec": 77,
+      "episode": "episode_00920530",
+      "gt": "move to laptop",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": false
+    },
+    {
+      "sec": 89,
+      "episode": "episode_00920530",
+      "gt": "move to laptop",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00920540",
+      "gt": "move to laptop",
+      "pred": "move to laptop",
+      "raw": "move to laptop\nassistant\n\n<think>\n\n</think>\n\nmove to laptop",
+      "correct": true
+    },
+    {
+      "sec": 183,
+      "episode": "episode_00920290",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 186,
+      "episode": "episode_00920290",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 190,
+      "episode": "episode_00920290",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 193,
+      "episode": "episode_00920290",
+      "gt": "turn on switch scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": false
+    },
+    {
+      "sec": 197,
+      "episode": "episode_00920290",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 96,
+      "episode": "episode_00920300",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 100,
+      "episode": "episode_00920300",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 103,
+      "episode": "episode_00920300",
+      "gt": "turn on switch scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": false
+    },
+    {
+      "sec": 171,
+      "episode": "episode_00920340",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 175,
+      "episode": "episode_00920340",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 134,
+      "episode": "episode_00920350",
+      "gt": "turn on switch scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": false
+    },
+    {
+      "sec": 138,
+      "episode": "episode_00920350",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00920350",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 187,
+      "episode": "episode_00920370",
+      "gt": "turn on switch scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": false
+    },
+    {
+      "sec": 190,
+      "episode": "episode_00920370",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00920390",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00920390",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00920400",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00920400",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00920400",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 207,
+      "episode": "episode_00920410",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 210,
+      "episode": "episode_00920410",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 214,
+      "episode": "episode_00920410",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 218,
+      "episode": "episode_00920410",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 221,
+      "episode": "episode_00920410",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00920420",
+      "gt": "turn on switch scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": false
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00920420",
+      "gt": "turn on switch scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": false
+    },
+    {
+      "sec": 86,
+      "episode": "episode_00920420",
+      "gt": "turn on switch scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": false
+    },
+    {
+      "sec": 135,
+      "episode": "episode_00920430",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 139,
+      "episode": "episode_00920430",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 143,
+      "episode": "episode_00920430",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 146,
+      "episode": "episode_00920430",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 120,
+      "episode": "episode_00920440",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 123,
+      "episode": "episode_00920440",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 127,
+      "episode": "episode_00920440",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 126,
+      "episode": "episode_00920460",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 130,
+      "episode": "episode_00920460",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 133,
+      "episode": "episode_00920460",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 137,
+      "episode": "episode_00920470",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00920470",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 144,
+      "episode": "episode_00920470",
+      "gt": "turn on switch scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": false
+    },
+    {
+      "sec": 203,
+      "episode": "episode_00920480",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 206,
+      "episode": "episode_00920480",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 210,
+      "episode": "episode_00920480",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 213,
+      "episode": "episode_00920480",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 217,
+      "episode": "episode_00920480",
+      "gt": "turn on switch scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": false
+    },
+    {
+      "sec": 221,
+      "episode": "episode_00920480",
+      "gt": "turn on switch scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": false
+    },
+    {
+      "sec": 224,
+      "episode": "episode_00920480",
+      "gt": "turn on switch scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": false
+    },
+    {
+      "sec": 228,
+      "episode": "episode_00920480",
+      "gt": "turn on switch scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": false
+    },
+    {
+      "sec": 75,
+      "episode": "episode_00920490",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00920490",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 93,
+      "episode": "episode_00920500",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 97,
+      "episode": "episode_00920500",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 101,
+      "episode": "episode_00920500",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 160,
+      "episode": "episode_00920510",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 91,
+      "episode": "episode_00920530",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 94,
+      "episode": "episode_00920530",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 98,
+      "episode": "episode_00920530",
+      "gt": "turn on switch scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": true
+    },
+    {
+      "sec": 70,
+      "episode": "episode_00920540",
+      "gt": "turn on switch scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": false
+    },
+    {
+      "sec": 76,
+      "episode": "episode_00920550",
+      "gt": "turn on switch scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": false
+    },
+    {
+      "sec": 198,
+      "episode": "episode_00920290",
+      "gt": "place on scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": false
+    },
+    {
+      "sec": 205,
+      "episode": "episode_00920290",
+      "gt": "place on scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": true
+    },
+    {
+      "sec": 212,
+      "episode": "episode_00920290",
+      "gt": "place on scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": true
+    },
+    {
+      "sec": 219,
+      "episode": "episode_00920290",
+      "gt": "place on scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": true
+    },
+    {
+      "sec": 226,
+      "episode": "episode_00920290",
+      "gt": "place on scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": false
+    },
+    {
+      "sec": 107,
+      "episode": "episode_00920300",
+      "gt": "place on scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": true
+    },
+    {
+      "sec": 114,
+      "episode": "episode_00920300",
+      "gt": "place on scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": true
+    },
+    {
+      "sec": 181,
+      "episode": "episode_00920340",
+      "gt": "place on scanner",
+      "pred": "pick up from scanner",
+      "raw": "pick up from scanner",
+      "correct": false
+    },
+    {
+      "sec": 189,
+      "episode": "episode_00920340",
+      "gt": "place on scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": true
+    },
+    {
+      "sec": 143,
+      "episode": "episode_00920350",
+      "gt": "place on scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": true
+    },
+    {
+      "sec": 150,
+      "episode": "episode_00920350",
+      "gt": "place on scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": true
+    },
+    {
+      "sec": 157,
+      "episode": "episode_00920350",
+      "gt": "place on scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": true
+    },
+    {
+      "sec": 164,
+      "episode": "episode_00920350",
+      "gt": "place on scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": true
+    },
+    {
+      "sec": 194,
+      "episode": "episode_00920370",
+      "gt": "place on scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": false
+    },
+    {
+      "sec": 201,
+      "episode": "episode_00920370",
+      "gt": "place on scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": true
+    },
+    {
+      "sec": 209,
+      "episode": "episode_00920370",
+      "gt": "place on scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": true
+    },
+    {
+      "sec": 216,
+      "episode": "episode_00920370",
+      "gt": "place on scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": true
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00920390",
+      "gt": "place on scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": true
+    },
+    {
+      "sec": 69,
+      "episode": "episode_00920390",
+      "gt": "place on scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": true
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00920400",
+      "gt": "place on scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": false
+    },
+    {
+      "sec": 61,
+      "episode": "episode_00920400",
+      "gt": "place on scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": true
+    },
+    {
+      "sec": 68,
+      "episode": "episode_00920400",
+      "gt": "place on scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": true
+    },
+    {
+      "sec": 228,
+      "episode": "episode_00920410",
+      "gt": "place on scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": false
+    },
+    {
+      "sec": 236,
+      "episode": "episode_00920410",
+      "gt": "place on scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": true
+    },
+    {
+      "sec": 243,
+      "episode": "episode_00920410",
+      "gt": "place on scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": false
+    },
+    {
+      "sec": 90,
+      "episode": "episode_00920420",
+      "gt": "place on scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": true
+    },
+    {
+      "sec": 97,
+      "episode": "episode_00920420",
+      "gt": "place on scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": true
+    },
+    {
+      "sec": 147,
+      "episode": "episode_00920430",
+      "gt": "place on scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": false
+    },
+    {
+      "sec": 154,
+      "episode": "episode_00920430",
+      "gt": "place on scanner",
+      "pred": "move to laptop",
+      "raw": "move to laptop",
+      "correct": false
+    },
+    {
+      "sec": 161,
+      "episode": "episode_00920430",
+      "gt": "place on scanner",
+      "pred": "move to scanner",
+      "raw": "move to scanner",
+      "correct": false
+    },
+    {
+      "sec": 169,
+      "episode": "episode_00920430",
+      "gt": "place on scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": true
+    },
+    {
+      "sec": 176,
+      "episode": "episode_00920430",
+      "gt": "place on scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": false
+    },
+    {
+      "sec": 132,
+      "episode": "episode_00920440",
+      "gt": "place on scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": true
+    },
+    {
+      "sec": 139,
+      "episode": "episode_00920440",
+      "gt": "place on scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": false
+    },
+    {
+      "sec": 146,
+      "episode": "episode_00920440",
+      "gt": "place on scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": true
+    },
+    {
+      "sec": 139,
+      "episode": "episode_00920460",
+      "gt": "place on scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": true
+    },
+    {
+      "sec": 146,
+      "episode": "episode_00920460",
+      "gt": "place on scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": true
+    },
+    {
+      "sec": 147,
+      "episode": "episode_00920470",
+      "gt": "place on scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": true
+    },
+    {
+      "sec": 155,
+      "episode": "episode_00920470",
+      "gt": "place on scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": false
+    },
+    {
+      "sec": 233,
+      "episode": "episode_00920480",
+      "gt": "place on scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": true
+    },
+    {
+      "sec": 240,
+      "episode": "episode_00920480",
+      "gt": "place on scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": true
+    },
+    {
+      "sec": 247,
+      "episode": "episode_00920480",
+      "gt": "place on scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": false
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00920490",
+      "gt": "place on scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": false
+    },
+    {
+      "sec": 89,
+      "episode": "episode_00920490",
+      "gt": "place on scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": true
+    },
+    {
+      "sec": 105,
+      "episode": "episode_00920500",
+      "gt": "place on scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": false
+    },
+    {
+      "sec": 113,
+      "episode": "episode_00920500",
+      "gt": "place on scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": true
+    },
+    {
+      "sec": 120,
+      "episode": "episode_00920500",
+      "gt": "place on scanner",
+      "pred": "push to scanner",
+      "raw": "push to scanner",
+      "correct": false
+    },
+    {
+      "sec": 165,
+      "episode": "episode_00920510",
+      "gt": "place on scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": false
+    },
+    {
+      "sec": 172,
+      "episode": "episode_00920510",
+      "gt": "place on scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": false
+    },
+    {
+      "sec": 179,
+      "episode": "episode_00920510",
+      "gt": "place on scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": true
+    },
+    {
+      "sec": 186,
+      "episode": "episode_00920510",
+      "gt": "place on scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": true
+    },
+    {
+      "sec": 100,
+      "episode": "episode_00920530",
+      "gt": "place on scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": false
+    },
+    {
+      "sec": 107,
+      "episode": "episode_00920530",
+      "gt": "place on scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": true
+    },
+    {
+      "sec": 115,
+      "episode": "episode_00920530",
+      "gt": "place on scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": true
+    },
+    {
+      "sec": 122,
+      "episode": "episode_00920530",
+      "gt": "place on scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": true
+    },
+    {
+      "sec": 78,
+      "episode": "episode_00920540",
+      "gt": "place on scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": true
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00920540",
+      "gt": "place on scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": true
+    },
+    {
+      "sec": 92,
+      "episode": "episode_00920540",
+      "gt": "place on scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": true
+    },
+    {
+      "sec": 81,
+      "episode": "episode_00920550",
+      "gt": "place on scanner",
+      "pred": "turn on switch scanner",
+      "raw": "turn on switch scanner",
+      "correct": false
+    },
+    {
+      "sec": 88,
+      "episode": "episode_00920550",
+      "gt": "place on scanner",
+      "pred": "place on scanner",
+      "raw": "place on scanner",
+      "correct": true
+    }
+  ]
+}

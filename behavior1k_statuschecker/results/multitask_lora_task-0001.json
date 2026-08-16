@@ -1,0 +1,332 @@
+{
+  "task_chunk": "task-0001",
+  "task_name": "picking up trash",
+  "accuracy": 0.717391304347826,
+  "macro_recall": 0.7686011904761905,
+  "correct": 33,
+  "total": 46,
+  "predictions": [
+    {
+      "sec": 0,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The kitchen counter and chair are now visible ahead, but no manipulation is happening in this view.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 4,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The trash can is now clearly resolved on the floor ahead, but the robot is still far from it and no manipulation is visible.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 8,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The trash can sits alone on the floor with no arms or contact visible, so only the lack of manipulation cues distinguishes this.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 25,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the floor beside the trash can, fingers open and ready to grasp.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 29,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The trash can is now upright on the floor beside the wooden floorboards, both objects clearly resolved.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 33,
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "Reasoning: The trash can is now upright on the floor with both cans inside, and the right gripper is retracting from the opening.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "Reasoning: The trash can sits on the floor with both arms withdrawn and empty, the last stage of the carry.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 41,
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "Reasoning: The trash can sits on the floor with both arms withdrawn and empty, the last stage of the carry.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "Reasoning: The trash can is now upright on the floor with the can inside, and both arms are withdrawn from the source.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The trash can is now clearly visible in the left gripper's hand, the second object being grasped.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The orange can is now visible on the floor ahead, but neither gripper is extended toward it.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 58,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The orange can is now clearly visible on the floor ahead, but neither gripper is extended toward it.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 62,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The blue sofa and the 'Welcome HOME' wall are now centered and the robot's arms have dropped back to the sides, showing base motion.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 75,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The trash can is now sitting on the floor beside the bed, both grippers open and empty.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 79,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the floor with the orange can right at its fingers.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 83,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the floor with the orange can right at its fingers.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 87,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the floor holding an orange can, left gripper still in the trash can.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 91,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The right gripper holds an orange can and the left is at the trash can mouth, mid-transfer.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 100,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The orange can is now sitting in the trash can's mouth and the right gripper is withdrawing from it.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 112,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the living room with the blue sofa and the trash can now sitting on the floor at the bottom of the frame.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 116,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The sofa and coffee table fill the frame with the robot's arms barely visible at the bottom, indicating the base is still driving forward.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 120,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The living room with the fireplace and sofa is now centered and the arms are barely visible at the bottom, indicating the base is turning.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 125,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the living room with the fireplace and sofa visible, and the arms are not in frame at all.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 129,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The orange can is now visible on the floor near the fireplace, but the grippers are still down at the bottom edge holding the trash can.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 133,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The orange can is now clearly visible on the floor ahead, but the arms are still out of frame at the bottom, so only the distance change distinguishes this.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 137,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The blue can is now clearly visible on the floor ahead, and the carried can has shifted slightly \u2014 the base is translating.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 154,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The trash can is now upright on the floor with the orange can inside, and both arms are withdrawn from the opening.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 158,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The trash can is now upright on the floor with both cans inside, and the right gripper is retracting from the rim.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 162,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The trash can is now upright on the floor with the orange can inside, and both arms are withdrawn from the source.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 166,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The right gripper holds the orange can and the left is at the trash can mouth, the final alignment for deposit.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 170,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The orange can is now sitting inside the trash can and both grippers are pulling back from it.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 183,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The blue can is now clearly visible on the floor ahead, and the arms have begun to swing into the bottom of the frame.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 187,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The blue can is now clearly visible on the floor ahead, but the arms are still out of frame and the view is still approaching.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 191,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the patio door and the blue sofa, with the trash can now at the bottom edge and no manipulation target visible.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 200,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the floor beside the blue can, left gripper still in the trash can.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 204,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the floor beside the trash can, fingers open and ready to grasp.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 208,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the floor holding the blue can, arm angled down toward the trash can.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 212,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is lowered down at the floorboards with fingers spread, the last contact before releasing.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 216,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right arm is extended down toward the floor with the blue can at its fingertips, the last contact before release.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 220,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The right gripper is lowered into the trash can mouth with the orange can inside, the second transfer.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 225,
+      "gt": "place in",
+      "pred": "place on",
+      "raw": "Reasoning: The trash can is now upright on the floor with both cans inside and the grippers are withdrawn from it.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 229,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The trash can is now upright on the floor with the blue and orange cans inside, and both arms are withdrawn from the source.\nAnswer: place on",
+      "correct": true
+    },
+    {
+      "sec": 233,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The trash can sits on the floor with both cans inside, and the right gripper is withdrawn from the opening.\nAnswer: place on",
+      "correct": true
+    },
+    {
+      "sec": 237,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The trash can sits on the floor with both cans inside, and the two grippers are now open and empty, retracting from the source.\nAnswer: place on",
+      "correct": true
+    },
+    {
+      "sec": 241,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The trash can sits on the floor with both cans inside, and the arms are withdrawn and empty.\nAnswer: place on",
+      "correct": true
+    },
+    {
+      "sec": 245,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The trash can sits on the floor with both cans inside, and the grippers are withdrawn and open.\nAnswer: place on",
+      "correct": true
+    }
+  ]
+}

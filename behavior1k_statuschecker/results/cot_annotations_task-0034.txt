@@ -1,0 +1,31 @@
+sec_0000: Reasoning: Wide view of the kitchen from across the room with no robot arms or poster in frame, so only the large standoff distance to the far counter suggests navigation. | Answer: move to
+sec_0001: Reasoning: Nearly identical distant view of the kitchen with the viewpoint shifted slightly forward and no robot parts visible — the frame itself is ambiguous, but the closing distance fits an approach. | Answer: move to
+sec_0002: Reasoning: Both robot arms have just entered the bottom of the frame hanging loosely at the sides while the kitchen counter is still several meters away, holding nothing. | Answer: move to
+sec_0003: Reasoning: The arms dangle at rest in the lower frame and the table and chairs on the right have slid rearward, showing the base is translating across the floor rather than manipulating. | Answer: move to
+sec_0004: Reasoning: Grippers are open and empty, pointed down at the floor, and the kitchen counter continues to grow larger as the chairs pass off the right edge. | Answer: move to
+sec_0005: Reasoning: The chairs are now behind the right shoulder and the counter fills more of the frame, with both empty grippers still hanging low and touching nothing. | Answer: move to
+sec_0006: Reasoning: Viewpoint keeps advancing on the L-shaped counter with the arms swinging passively at the sides and no object between the fingers. | Answer: move to
+sec_0007: Reasoning: Arms remain slack and empty at the bottom corners while the sink counter and the framed poster on the countertop come closer — still pure locomotion. | Answer: move to
+sec_0008: Reasoning: A small white object is visible on the floor ahead near the left gripper and the arms are lowered toward it, but no grasp or contact is actually visible in this frame. | Answer: pick up from
+sec_0009: Reasoning: The left gripper is extended forward and down toward the small item on the floor, though the hand is still short of it — the reach-and-lower posture is the only cue here. | Answer: pick up from
+sec_0010: Reasoning: Left gripper fingers are open and angled at the floor object directly beneath them, consistent with closing on it, but the frame doesn't show the object actually held. | Answer: pick up from
+sec_0011: Reasoning: The small white object now sits right at the left gripper's fingertips with the arm lowered over it; honestly this looks nearly the same as the neighboring approach frames apart from the arm's downward reach. | Answer: pick up from
+sec_0012: Reasoning: Both arms have lifted back to a neutral carrying pose and the counter and window have expanded again, indicating the base is driving forward rather than acting on anything. | Answer: move to
+sec_0013: Reasoning: The sink and dishwasher fill much more of the view than the previous frame while the grippers stay idle and untouched by any surface. | Answer: move to
+sec_0014: Reasoning: The robot is closing the last stretch to the counter corner — the poster is visible propped on the countertop but still out of reach of both grippers. | Answer: move to
+sec_0015: Reasoning: The robot has arrived at the counter with the framed poster and the white wall bracket at the right, and the right arm is raised toward that side rather than driving forward. | Answer: hang
+sec_0016: Reasoning: Both arms are extended over the countertop at working height, the right gripper aimed at the white nail fixture on the right-hand wall. | Answer: hang
+sec_0017: Reasoning: Robot is stationary at the corner counter with arms raised to the worktop and the poster upright beside the wall nail on the right. | Answer: hang
+sec_0018: Reasoning: The view has tilted down onto the counter with both arms bent forward at the poster's level, a manipulation posture at the wall rather than an approach. | Answer: hang
+sec_0019: Reasoning: The poster stands upright against the wall directly ahead and the right gripper is close to the countertop next to it, arms in a raised placement pose. | Answer: hang
+sec_0020: Reasoning: The camera is right over the counter, poster propped upright and the right gripper reaching toward the small white wall bracket beside its frame. | Answer: hang
+sec_0021: Reasoning: The right gripper is at the wall right next to the poster's edge and the white nail fitting, with the poster held up against the vertical surface. | Answer: hang
+sec_0022: Reasoning: The right arm is extended to the poster's right edge at the wall bracket while the poster stands upright rather than lying on the counter. | Answer: hang
+sec_0023: Reasoning: The right gripper contacts the poster's right side at the wall nail and the frame is standing vertical against the backsplash, held in place. | Answer: hang
+sec_0024: Reasoning: The framed poster is upright against the wall with the right gripper braced at its edge next to the white nail fitting, supporting it while it's positioned. | Answer: hang
+sec_0025: Reasoning: The right gripper stays at the poster's lower right corner beside the wall bracket, holding the frame flat against the wall. | Answer: hang
+sec_0026: Reasoning: Same holding pose against the wall — the poster is vertical with the right gripper at its base near the nail, with no transport or floor pickup in view. | Answer: hang
+sec_0027: Reasoning: The poster now sits flatter and higher against the wall and the right gripper is releasing beneath it at the nail fixture. | Answer: hang
+sec_0028: Reasoning: The poster hangs squarely on the wall while the right gripper withdraws downward from just under its bottom edge. | Answer: hang
+sec_0029: Reasoning: The view has pulled back slightly with the poster now flush on the wall and the right gripper still just below the white nail bracket. | Answer: hang
+sec_0030: Reasoning: The poster is mounted upright on the wall behind the counter and the right arm is retracting away from it, showing the hanging just completed. | Answer: hang

@@ -1,0 +1,53 @@
+You are helping design a prompt for a small (2B parameter) vision-language model
+that will classify a robot's current subskill from a single camera frame, once per
+second, for the household task: "Make a pizza: chop vegetables, add toppings to the dough, and bake it in the oven."
+
+The possible subskill labels for this task are: ['chop', 'close door', 'move to', 'open door', 'pick up from', 'place in', 'place on', 'place on next to', 'pour', 'pull tray', 'push to']
+
+Below is a list of frames, each with its GROUND-TRUTH label and file path. Read every
+image (use your Read tool) and figure out what is visually TRUE and RELIABLY DETECTABLE
+in each label's frames, and what's easily confused between adjacent labels.
+
+- [move to] sec 8: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0049/frames/sec_0008.jpg
+- [move to] sec 26: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0049/frames/sec_0026.jpg
+- [move to] sec 164: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0049/frames/sec_0164.jpg
+- [move to] sec 303: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0049/frames/sec_0303.jpg
+- [pick up from] sec 34: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0049/frames/sec_0034.jpg
+- [pick up from] sec 121: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0049/frames/sec_0121.jpg
+- [pick up from] sec 260: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0049/frames/sec_0260.jpg
+- [pick up from] sec 372: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0049/frames/sec_0372.jpg
+- [place on next to] sec 43: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0049/frames/sec_0043.jpg
+- [push to] sec 78: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0049/frames/sec_0078.jpg
+- [place on] sec 112: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0049/frames/sec_0112.jpg
+- [place on] sec 346: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0049/frames/sec_0346.jpg
+- [place on] sec 364: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0049/frames/sec_0364.jpg
+- [place on] sec 390: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0049/frames/sec_0390.jpg
+- [chop] sec 130: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0049/frames/sec_0130.jpg
+- [pour] sec 156: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0049/frames/sec_0156.jpg
+- [pour] sec 216: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0049/frames/sec_0216.jpg
+- [open door] sec 173: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0049/frames/sec_0173.jpg
+- [open door] sec 182: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0049/frames/sec_0182.jpg
+- [open door] sec 242: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0049/frames/sec_0242.jpg
+- [open door] sec 424: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0049/frames/sec_0424.jpg
+- [close door] sec 199: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0049/frames/sec_0199.jpg
+- [close door] sec 277: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0049/frames/sec_0277.jpg
+- [close door] sec 294: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0049/frames/sec_0294.jpg
+- [close door] sec 493: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0049/frames/sec_0493.jpg
+- [pull tray] sec 433: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0049/frames/sec_0433.jpg
+- [pull tray] sec 441: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0049/frames/sec_0441.jpg
+- [place in] sec 476: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0049/frames/sec_0476.jpg
+
+For each label, write a SHORT (1-2 sentence) rule describing what is reliably visible
+in-frame for that label, using plain, common-sense language (avoid precise spatial
+jargon like "on top of / below / left / right" - it tends to confuse small models).
+Where a distinction is genuinely not recoverable from a single static frame (e.g. it
+depends on motion direction or on state before/after an off-screen event), say so
+explicitly rather than inventing a rule that won't hold up.
+
+Output ONLY the final rules in this exact format (one line per label, numbered to match
+the label list above), nothing else - no preamble, no analysis section, no confidence
+notes. Keep total output under 200 words:
+
+1. <label> - <rule>
+2. <label> - <rule>
+...

@@ -1,0 +1,361 @@
+{
+  "task_chunk": "task-0049",
+  "accuracy": 0.2711864406779661,
+  "macro_recall": 0.34789944903581266,
+  "predictions": [
+    {
+      "sec": 8,
+      "gt": "move to",
+      "pred": "place on",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "gt": "move to",
+      "pred": "place on",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "gt": "move to",
+      "pred": "place on",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "gt": "pick up from",
+      "pred": "move to",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "gt": "place on next to",
+      "pred": "place on",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "gt": "pick up from",
+      "pred": "place on",
+      "correct": false
+    },
+    {
+      "sec": 60,
+      "gt": "move to",
+      "pred": "place on",
+      "correct": false
+    },
+    {
+      "sec": 69,
+      "gt": "pick up from",
+      "pred": "chop",
+      "correct": false
+    },
+    {
+      "sec": 78,
+      "gt": "push to",
+      "pred": "chop",
+      "correct": false
+    },
+    {
+      "sec": 86,
+      "gt": "push to",
+      "pred": "chop",
+      "correct": false
+    },
+    {
+      "sec": 95,
+      "gt": "pick up from",
+      "pred": "chop",
+      "correct": false
+    },
+    {
+      "sec": 104,
+      "gt": "move to",
+      "pred": "chop",
+      "correct": false
+    },
+    {
+      "sec": 112,
+      "gt": "place on",
+      "pred": "pick up from",
+      "correct": false
+    },
+    {
+      "sec": 121,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "correct": true
+    },
+    {
+      "sec": 130,
+      "gt": "chop",
+      "pred": "chop",
+      "correct": true
+    },
+    {
+      "sec": 138,
+      "gt": "place on next to",
+      "pred": "chop",
+      "correct": false
+    },
+    {
+      "sec": 147,
+      "gt": "pick up from",
+      "pred": "chop",
+      "correct": false
+    },
+    {
+      "sec": 156,
+      "gt": "pour",
+      "pred": "chop",
+      "correct": false
+    },
+    {
+      "sec": 164,
+      "gt": "move to",
+      "pred": "move to",
+      "correct": true
+    },
+    {
+      "sec": 173,
+      "gt": "open door",
+      "pred": "close door",
+      "correct": false
+    },
+    {
+      "sec": 182,
+      "gt": "open door",
+      "pred": "chop",
+      "correct": false
+    },
+    {
+      "sec": 190,
+      "gt": "pick up from",
+      "pred": "chop",
+      "correct": false
+    },
+    {
+      "sec": 199,
+      "gt": "close door",
+      "pred": "close door",
+      "correct": true
+    },
+    {
+      "sec": 208,
+      "gt": "move to",
+      "pred": "move to",
+      "correct": true
+    },
+    {
+      "sec": 216,
+      "gt": "pour",
+      "pred": "place on",
+      "correct": false
+    },
+    {
+      "sec": 225,
+      "gt": "move to",
+      "pred": "move to",
+      "correct": true
+    },
+    {
+      "sec": 233,
+      "gt": "open door",
+      "pred": "close door",
+      "correct": false
+    },
+    {
+      "sec": 242,
+      "gt": "open door",
+      "pred": "move to",
+      "correct": false
+    },
+    {
+      "sec": 251,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "correct": true
+    },
+    {
+      "sec": 260,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "correct": true
+    },
+    {
+      "sec": 268,
+      "gt": "pick up from",
+      "pred": "close door",
+      "correct": false
+    },
+    {
+      "sec": 277,
+      "gt": "close door",
+      "pred": "pick up from",
+      "correct": false
+    },
+    {
+      "sec": 286,
+      "gt": "close door",
+      "pred": "pick up from",
+      "correct": false
+    },
+    {
+      "sec": 294,
+      "gt": "close door",
+      "pred": "pick up from",
+      "correct": false
+    },
+    {
+      "sec": 303,
+      "gt": "move to",
+      "pred": "place on",
+      "correct": false
+    },
+    {
+      "sec": 312,
+      "gt": "move to",
+      "pred": "place on",
+      "correct": false
+    },
+    {
+      "sec": 320,
+      "gt": "move to",
+      "pred": "place on",
+      "correct": false
+    },
+    {
+      "sec": 329,
+      "gt": "pick up from",
+      "pred": "chop",
+      "correct": false
+    },
+    {
+      "sec": 338,
+      "gt": "chop",
+      "pred": "chop",
+      "correct": true
+    },
+    {
+      "sec": 346,
+      "gt": "place on",
+      "pred": "chop",
+      "correct": false
+    },
+    {
+      "sec": 355,
+      "gt": "pick up from",
+      "pred": "chop",
+      "correct": false
+    },
+    {
+      "sec": 364,
+      "gt": "place on",
+      "pred": "chop",
+      "correct": false
+    },
+    {
+      "sec": 372,
+      "gt": "pick up from",
+      "pred": "place on",
+      "correct": false
+    },
+    {
+      "sec": 381,
+      "gt": "pour",
+      "pred": "pour",
+      "correct": true
+    },
+    {
+      "sec": 390,
+      "gt": "place on",
+      "pred": "pick up from",
+      "correct": false
+    },
+    {
+      "sec": 398,
+      "gt": "pick up from",
+      "pred": "place on",
+      "correct": false
+    },
+    {
+      "sec": 407,
+      "gt": "place on",
+      "pred": "place on",
+      "correct": true
+    },
+    {
+      "sec": 416,
+      "gt": "open door",
+      "pred": "close door",
+      "correct": false
+    },
+    {
+      "sec": 424,
+      "gt": "open door",
+      "pred": "place on",
+      "correct": false
+    },
+    {
+      "sec": 433,
+      "gt": "pull tray",
+      "pred": "place on",
+      "correct": false
+    },
+    {
+      "sec": 441,
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "correct": true
+    },
+    {
+      "sec": 450,
+      "gt": "pull tray",
+      "pred": "open door",
+      "correct": false
+    },
+    {
+      "sec": 459,
+      "gt": "pick up from",
+      "pred": "place on",
+      "correct": false
+    },
+    {
+      "sec": 467,
+      "gt": "pick up from",
+      "pred": "place on",
+      "correct": false
+    },
+    {
+      "sec": 476,
+      "gt": "place in",
+      "pred": "place in",
+      "correct": true
+    },
+    {
+      "sec": 485,
+      "gt": "place in",
+      "pred": "place in",
+      "correct": true
+    },
+    {
+      "sec": 493,
+      "gt": "close door",
+      "pred": "close door",
+      "correct": true
+    },
+    {
+      "sec": 502,
+      "gt": "close door",
+      "pred": "close door",
+      "correct": true
+    },
+    {
+      "sec": 511,
+      "gt": "open door",
+      "pred": "close door",
+      "correct": false
+    }
+  ]
+}

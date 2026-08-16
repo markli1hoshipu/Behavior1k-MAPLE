@@ -1,0 +1,402 @@
+{
+  "task_chunk": "task-0040",
+  "tag": "trainset",
+  "accuracy": 0.21428571428571427,
+  "macro_recall": 0.30238095238095236,
+  "correct": 12,
+  "total": 56,
+  "predictions": [
+    {
+      "sec": 0,
+      "gt": "move to",
+      "pred": "turn on switch",
+      "raw": "Reasoning: The microwave is closed, the arm is not touching the door, and the gripper is not holding the bag, so it's not pick up or place in. The arm is not on the microwave, so it's not turn on switch. The view is a wide room, not a close-up of the microwave, so it's",
+      "correct": false
+    },
+    {
+      "sec": 2,
+      "gt": "move to",
+      "pred": null,
+      "raw": "Reasoning: The microwave is closed, the arm is not touching the door, and the gripper is not holding the bag \u2014 the arm is positioned to open the door, not to interact with the bag or microwave contents.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 4,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave door is open, and the gripper is holding the popcorn bag at the opening, indicating the action of placing the bag inside the microwave.\nAnswer: 5. place in",
+      "correct": false
+    },
+    {
+      "sec": 6,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The microwave is closed, the popcorn bag is not visible inside, and the gripper is not holding the bag or the microwave door \u2014 the arm is positioned near the counter but not interacting with the microwave.\nAnswer: 2. move to",
+      "correct": true
+    },
+    {
+      "sec": 8,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The microwave is closed, the popcorn bag is on the counter, and the gripper is not interacting with the microwave or bag, ruling out pick up, place in, turn on switch, and close door actions.\nAnswer: 4. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 10,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The microwave is closed, the popcorn bag is on the counter, and the gripper is not interacting with the microwave or bag, ruling out pick up, place in, turn on switch, and close door actions.\nAnswer: 4. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 12,
+      "gt": "move to",
+      "pred": "open door",
+      "raw": "Reasoning: The microwave is closed, the popcorn bag is on the counter, and the gripper is not visible in the frame.\nAnswer: 3. open door",
+      "correct": false
+    },
+    {
+      "sec": 14,
+      "gt": "move to",
+      "pred": "open door",
+      "raw": "Reasoning: The microwave is closed, the popcorn bag is on the counter, and the gripper is not visible in the frame.\nAnswer: 3. open door",
+      "correct": false
+    },
+    {
+      "sec": 16,
+      "gt": "move to",
+      "pred": "open door",
+      "raw": "Reasoning: The microwave is closed, the popcorn bag is on the counter, and the gripper is not visible in the frame.\nAnswer: 3. open door",
+      "correct": false
+    },
+    {
+      "sec": 18,
+      "gt": "move to",
+      "pred": "open door",
+      "raw": "Reasoning: The microwave is closed, the popcorn bag is on the counter, and the gripper is not visible in the frame.\nAnswer: 3. open door",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "gt": "move to",
+      "pred": null,
+      "raw": "Reasoning: The microwave is closed, the popcorn bag is on the counter, and the gripper is not visible in the frame.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "gt": "move to",
+      "pred": null,
+      "raw": "Reasoning: The microwave is closed, the popcorn bag is on the counter, and the gripper is not visible in the frame.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "gt": "move to",
+      "pred": "turn on switch",
+      "raw": "Reasoning: The microwave is closed with a dark window, and the gripper is positioned on the control panel, not on the bag or door, indicating the action is not pick up, place in, or turn on switch.\nAnswer: 6. turn on switch",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "gt": "open door",
+      "pred": "turn on switch",
+      "raw": "Reasoning: The microwave is closed with a dark window, and the gripper is positioned on the control panel, not on the bag or door, indicating the action is not pick up, place in, or turn on switch.\nAnswer: 6. turn on switch",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "gt": "open door",
+      "pred": "turn on switch",
+      "raw": "Reasoning: The microwave is closed with a dark window, and the gripper is positioned on the control panel, not on the bag or door, indicating the action is not pick up, place in, or turn on switch.\nAnswer: 6. turn on switch",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "gt": "open door",
+      "pred": "open door",
+      "raw": "Reasoning: The microwave is closed, the arm is not touching the door, and the popcorn bag is not visible inside the microwave.\nAnswer: 3. open door",
+      "correct": true
+    },
+    {
+      "sec": 33,
+      "gt": "open door",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave door is open, and the gripper is holding the popcorn bag inside the microwave, indicating the action of placing the bag in.\nAnswer: 5. place in",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "gt": "open door",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave door is open, and the gripper is holding the popcorn bag inside the microwave, which is consistent with the action of placing the popcorn bag in the microwave.\nAnswer: 5. place in",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "gt": "open door",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave door is open, and the gripper is holding the popcorn bag inside the microwave, which is consistent with the action of placing the popcorn bag in the microwave.\nAnswer: 5. place in",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "gt": "open door",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave door is open, and the gripper is holding the popcorn bag inside the microwave, indicating the action of placing the bag in.\nAnswer: 5. place in",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "gt": "open door",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave door is open, and the gripper is holding the popcorn bag at the opening, indicating the action of placing the bag inside the microwave.\nAnswer: 5. place in",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "gt": "open door",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave door is open, the popcorn bag is inside, and the gripper is holding the bag, indicating the action of placing the popcorn bag in the microwave.\nAnswer: 5. place in",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "gt": "open door",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave door is open, the popcorn bag is inside, and the gripper is holding the bag, indicating the action of placing the popcorn bag in the microwave.\nAnswer: 5. place in",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "gt": "move to",
+      "pred": "open door",
+      "raw": "Reasoning: The microwave is closed, the popcorn bag is on the counter, and the gripper is not interacting with the microwave or bag.\nAnswer: 3. open door",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The microwave is closed, the popcorn bag is on the counter, and the gripper is not visible in the frame.\nAnswer: 4. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "gt": "move to",
+      "pred": null,
+      "raw": "Reasoning: The microwave is closed, the popcorn bag is on the counter, and the gripper is closed on the bag, indicating the robot is in the process of placing the popcorn bag into the microwave.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "gt": "move to",
+      "pred": null,
+      "raw": "Reasoning: The microwave is closed, the popcorn bag is on the counter, and the gripper is not visible in the frame.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The microwave is closed, the popcorn bag is on the counter, and the gripper is not visible in the frame, ruling out options 1, 3, 5, and 6.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 60,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave is closed, the popcorn bag is on the counter, and the gripper is positioned near the bag, indicating the robot is about to place it inside.\nAnswer: 5. place in",
+      "correct": false
+    },
+    {
+      "sec": 63,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The microwave door is closed, the popcorn bag is inside, and the gripper is holding the bag, which matches the \"place in\" subskill.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 65,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The microwave door is closed, the popcorn bag is inside, and the gripper is holding the bag, which matches the \"place in\" subskill.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 67,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The microwave door is closed, the popcorn bag is inside, and the gripper is holding the bag, which matches the \"place in\" subskill.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 69,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The microwave door is closed, the popcorn bag is inside, and the gripper is holding the bag, which matches the \"place in\" subskill.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 71,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The microwave door is closed, the popcorn bag is inside, and the gripper is holding the bag, which matches the \"place in\" subskill.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 75,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The microwave is closed, the popcorn bag is on the counter, and the gripper is positioned on the bag, not on the microwave or door.\nAnswer: 4. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 77,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave is closed, the popcorn bag is on the counter, and the gripper is positioned near the bag, not interacting with the microwave door or knob.\nAnswer: 5. place in",
+      "correct": false
+    },
+    {
+      "sec": 79,
+      "gt": "move to",
+      "pred": null,
+      "raw": "Reasoning: The microwave is closed, the popcorn bag is inside, and the gripper is holding the bag, which matches the \"place in\" subskill.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 81,
+      "gt": "move to",
+      "pred": null,
+      "raw": "Reasoning: The microwave is closed, the popcorn bag is inside, and the gripper is holding the bag, which matches the \"place in\" subskill.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 86,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave door is open, the popcorn bag is inside, and the gripper is holding the bag, indicating the action of placing the popcorn bag in the microwave.\nAnswer: 5. place in",
+      "correct": true
+    },
+    {
+      "sec": 88,
+      "gt": "place in",
+      "pred": null,
+      "raw": "Reasoning: The microwave door is closed, the popcorn bag is inside, and the gripper is holding the bag, which matches the \"place in\" subskill.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 90,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave door is open, and the popcorn bag is inside, with the gripper holding it.\nAnswer: 5. place in",
+      "correct": true
+    },
+    {
+      "sec": 92,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave door is open, the popcorn bag is inside, and the gripper is holding the bag, indicating the action of placing the popcorn bag in the microwave.\nAnswer: 5. place in",
+      "correct": true
+    },
+    {
+      "sec": 94,
+      "gt": "place in",
+      "pred": null,
+      "raw": "Reasoning: The microwave door is open, and the popcorn bag is inside, with the gripper holding it.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 96,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave door is open, the popcorn bag is inside, and the gripper is holding the bag, indicating the action of placing the popcorn bag in the microwave.\nAnswer: 5. place in",
+      "correct": true
+    },
+    {
+      "sec": 98,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave door is open, and the gripper is holding the popcorn bag inside the microwave, which aligns with the action of placing the popcorn bag in the microwave.\nAnswer: 5. place in",
+      "correct": true
+    },
+    {
+      "sec": 100,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave door is open, and the gripper is holding the popcorn bag inside the microwave, which aligns with the action of placing the popcorn bag in the microwave.\nAnswer: 5. place in",
+      "correct": true
+    },
+    {
+      "sec": 102,
+      "gt": "place in",
+      "pred": null,
+      "raw": "Reasoning: The microwave door is open, and the gripper is holding the popcorn bag inside the microwave, which aligns with the action of placing the popcorn bag in the microwave.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 105,
+      "gt": "close door",
+      "pred": null,
+      "raw": "Reasoning: The microwave is closed, the popcorn bag is inside, and the gripper is holding the bag, which matches the \"place in\" subskill.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 107,
+      "gt": "close door",
+      "pred": null,
+      "raw": "Reasoning: The microwave door is open, and the gripper is holding the popcorn bag inside the microwave, which is consistent with the action of placing the popcorn bag in the microwave.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 109,
+      "gt": "close door",
+      "pred": null,
+      "raw": "Reasoning: The microwave door is open, and the gripper is holding the popcorn bag inside the microwave, which is consistent with the action of placing the popcorn bag in the microwave.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 111,
+      "gt": "close door",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave door is open, and the gripper is holding the popcorn bag at the opening, indicating the action of placing the bag in the microwave.\nAnswer: 5. place in",
+      "correct": false
+    },
+    {
+      "sec": 113,
+      "gt": "close door",
+      "pred": "place in",
+      "raw": "Reasoning: The microwave door is closed, the arm is holding the popcorn bag, and the bag is positioned inside the microwave cavity.\nAnswer: 5. place in",
+      "correct": false
+    },
+    {
+      "sec": 117,
+      "gt": "turn on switch",
+      "pred": "turn on switch",
+      "raw": "Reasoning: The microwave is closed with a dark window, and the gripper is positioned on the control panel, not on the bag or door, indicating the action is not pick up, place in, or turn on switch.\nAnswer: 6. turn on switch",
+      "correct": true
+    },
+    {
+      "sec": 119,
+      "gt": "turn on switch",
+      "pred": "turn on switch",
+      "raw": "Reasoning: The microwave is closed with a dark window, and the gripper is positioned on the control panel, not on the bag or door, indicating the action is not pick up, place in, or turn on switch.\nAnswer: 6. turn on switch",
+      "correct": true
+    },
+    {
+      "sec": 121,
+      "gt": "turn on switch",
+      "pred": "turn on switch",
+      "raw": "Reasoning: The microwave door is closed, the arm is positioned near the control panel, and there is no popcorn bag visible inside the microwave.\nAnswer: 6. turn on switch",
+      "correct": true
+    },
+    {
+      "sec": 123,
+      "gt": "turn on switch",
+      "pred": "turn on switch",
+      "raw": "Reasoning: The microwave door is closed, the arm is positioned near the control panel, and there is no popcorn bag visible inside the microwave.\nAnswer: 6. turn on switch",
+      "correct": true
+    }
+  ]
+}

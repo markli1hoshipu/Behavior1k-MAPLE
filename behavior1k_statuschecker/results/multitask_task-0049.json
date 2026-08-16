@@ -1,0 +1,436 @@
+{
+  "task_chunk": "task-0049",
+  "task_name": "make pizza",
+  "labels": [
+    "chop",
+    "close door",
+    "move to",
+    "open door",
+    "pick up from",
+    "place in",
+    "place on",
+    "place on next to",
+    "pour",
+    "pull tray",
+    "push to"
+  ],
+  "accuracy": 0.1694915254237288,
+  "macro_recall": 0.17813852813852812,
+  "correct": 10,
+  "total": 59,
+  "predictions": [
+    {
+      "sec": 8,
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "gt": "place on next to",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 60,
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 69,
+      "gt": "pick up from",
+      "pred": "place on next to",
+      "raw": "place on next to",
+      "correct": false
+    },
+    {
+      "sec": 78,
+      "gt": "push to",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 86,
+      "gt": "push to",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 95,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 104,
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "place on next to",
+      "correct": false
+    },
+    {
+      "sec": 112,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": true
+    },
+    {
+      "sec": 121,
+      "gt": "pick up from",
+      "pred": "place on next to",
+      "raw": "place on next to",
+      "correct": false
+    },
+    {
+      "sec": 130,
+      "gt": "chop",
+      "pred": "pick up from",
+      "raw": "pick up from",
+      "correct": false
+    },
+    {
+      "sec": 138,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "place on next to",
+      "correct": true
+    },
+    {
+      "sec": 147,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "pick up from",
+      "correct": true
+    },
+    {
+      "sec": 156,
+      "gt": "pour",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 164,
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 173,
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "close door",
+      "correct": false
+    },
+    {
+      "sec": 182,
+      "gt": "open door",
+      "pred": "open door",
+      "raw": "open door",
+      "correct": true
+    },
+    {
+      "sec": 190,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 199,
+      "gt": "close door",
+      "pred": "open door",
+      "raw": "open door",
+      "correct": false
+    },
+    {
+      "sec": 208,
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 216,
+      "gt": "pour",
+      "pred": "place on next to",
+      "raw": "place on next to",
+      "correct": false
+    },
+    {
+      "sec": 225,
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 233,
+      "gt": "open door",
+      "pred": "place on next to",
+      "raw": "place on next to",
+      "correct": false
+    },
+    {
+      "sec": 242,
+      "gt": "open door",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 251,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "pick up from",
+      "correct": true
+    },
+    {
+      "sec": 260,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "pick up from",
+      "correct": true
+    },
+    {
+      "sec": 268,
+      "gt": "pick up from",
+      "pred": "close door",
+      "raw": "close door",
+      "correct": false
+    },
+    {
+      "sec": 277,
+      "gt": "close door",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 286,
+      "gt": "close door",
+      "pred": "place in",
+      "raw": "place in",
+      "correct": false
+    },
+    {
+      "sec": 294,
+      "gt": "close door",
+      "pred": "place in",
+      "raw": "place in",
+      "correct": false
+    },
+    {
+      "sec": 303,
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 312,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "pick up from",
+      "correct": false
+    },
+    {
+      "sec": 320,
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "place on next to",
+      "correct": false
+    },
+    {
+      "sec": 329,
+      "gt": "pick up from",
+      "pred": "place on next to",
+      "raw": "place on next to",
+      "correct": false
+    },
+    {
+      "sec": 338,
+      "gt": "chop",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 346,
+      "gt": "place on",
+      "pred": "place on next to",
+      "raw": "place on next to",
+      "correct": false
+    },
+    {
+      "sec": 355,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 364,
+      "gt": "place on",
+      "pred": "place on next to",
+      "raw": "place on next to",
+      "correct": false
+    },
+    {
+      "sec": 372,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "pick up from",
+      "correct": true
+    },
+    {
+      "sec": 381,
+      "gt": "pour",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 390,
+      "gt": "place on",
+      "pred": "place on next to",
+      "raw": "place on next to",
+      "correct": false
+    },
+    {
+      "sec": 398,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 407,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": true
+    },
+    {
+      "sec": 416,
+      "gt": "open door",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 424,
+      "gt": "open door",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 433,
+      "gt": "pull tray",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 441,
+      "gt": "pull tray",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 450,
+      "gt": "pull tray",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 459,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 467,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 476,
+      "gt": "place in",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 485,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "place in",
+      "correct": true
+    },
+    {
+      "sec": 493,
+      "gt": "close door",
+      "pred": "close door",
+      "raw": "close door",
+      "correct": true
+    },
+    {
+      "sec": 502,
+      "gt": "close door",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 511,
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "close door",
+      "correct": false
+    }
+  ]
+}

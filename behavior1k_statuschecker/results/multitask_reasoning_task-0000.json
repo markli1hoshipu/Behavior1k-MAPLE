@@ -1,0 +1,423 @@
+{
+  "task_chunk": "task-0000",
+  "task_name": "turning on radio",
+  "accuracy": 0.3389830508474576,
+  "macro_recall": 0.526010101010101,
+  "correct": 20,
+  "total": 59,
+  "predictions": [
+    {
+      "sec": 0,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The red radio is far away on the table, and no robot arms or grippers are visible in the frame.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 1,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The red radio is far away on the table, and no robot arms or grippers are visible in the frame.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 2,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The red radio is far away on the table, and no robot arms or grippers are visible in the frame.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 3,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The red radio is far away on the table, and no robot arms or grippers are visible in the frame.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 4,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The red radio is far away on the table, and no robot arms or grippers are visible in the frame.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 5,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The red radio is far away on the table, and no robot arms or grippers are visible in the frame.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 6,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The red radio is far away on the table, and no robot arms or grippers are visible in the frame.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 7,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The red radio is far away on the table, and no robot arms or grippers are visible in the frame.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 8,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The red radio is far away on the table, and no robot arms or grippers are visible in the frame.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 9,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The red radio is far away on the table, and no robot arms or grippers are visible in the frame.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 10,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The red radio is far away on the table, and no robot arms or grippers are visible in the frame.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 11,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The red radio is far away on the table, and no robot arms or grippers are visible in the frame.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 12,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The red radio is far away on the table, and no robot arms or grippers are visible in the frame.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The red radio is far away on the table, and no robot arms or grippers are visible in the frame.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 14,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The red radio is far away on the table, and no robot arms or grippers are visible in the frame.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The red radio is far away on the table, and no robot arms or grippers are visible in the frame.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 16,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The red radio is far away on the table, and no robot arms or grippers are visible in the frame.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The red radio is far away on the table, and no robot arms or grippers are visible in the frame.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 18,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The red radio is far from the table and appears as a thin upright object, indicating the robot has not yet approached it.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 19,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The red radio is far away on the table, and no robot arms or grippers are visible in the frame.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 20,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The red radio is far away on the table, and no robot arms or grippers are visible in the frame.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The red radio is far away on the table, and no robot arms or grippers are visible in the frame.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The red radio is far away on the table, and no robot arms or grippers are visible in the frame.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The red radio is far away on the table, and no robot arms or grippers are visible in the frame.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 24,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The red radio is far away on the table, and no robot arms or grippers are visible in the frame.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The red radio is far away from the table and appears as a thin red shape, indicating the robot has not yet approached it.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The red radio is far away on the table, and no robot arms or grippers are visible in the frame.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The red radio is far away on the table, and the robot arms are not visible or are not positioned to interact with it.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 28,
+      "gt": "pick up from",
+      "pred": "press",
+      "raw": "Reasoning: The red radio is upright and close to the table, with its top face visible, and a gripper is positioned directly on top of it, indicating the action of pressing.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "gt": "pick up from",
+      "pred": "press",
+      "raw": "Reasoning: The red radio is upright and close to the table, with a gripper positioned directly on its top face, indicating the robot is about to press the button.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 30,
+      "gt": "pick up from",
+      "pred": "press",
+      "raw": "Reasoning: The red radio is upright and close to the table, with a gripper positioned directly on its top face, indicating the robot is about to press it.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "gt": "pick up from",
+      "pred": "press",
+      "raw": "Reasoning: The red radio is close to the table surface, and a gripper is positioned directly on top of its wide red top face, indicating the robot is about to press the button.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "gt": "pick up from",
+      "pred": "press",
+      "raw": "Reasoning: The red radio is on the table, and the robot's gripper is positioned directly on top of it, indicating the action of pressing.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 33,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The red radio is close to the table surface and is being held by a gripper, with the radio tilted near the table, consistent with placing it down.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The red radio is upright on the table, and the robot's gripper is not touching it, indicating the robot is approaching to pick it up.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 35,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The red radio is close to the table surface and is being held by a gripper, with the radio appearing as a narrow red slab being manipulated near the table.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The red radio is close to the table surface, and the gripper is positioned directly on top of it, indicating the action of placing it down.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "gt": "pick up from",
+      "pred": "press",
+      "raw": "Reasoning: The red radio is upright and close to the table, with a gripper positioned directly on its top face, indicating the robot is about to press it.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The red radio is held in the gripper and is tilted near the table surface, consistent with the action of placing it down.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "gt": "press",
+      "pred": "pick up from",
+      "raw": "Reasoning: The red radio is far away from the table and appears as a thin red shape, indicating the robot has not yet approached it to pick it up.\nAnswer: 2",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "gt": "press",
+      "pred": "press",
+      "raw": "Reasoning: The red radio is close to the table, and a gripper is directly touching its top face, indicating the robot is pressing the button.\nAnswer: 3",
+      "correct": true
+    },
+    {
+      "sec": 41,
+      "gt": "press",
+      "pred": "press",
+      "raw": "Reasoning: The red radio is close to the table surface, and a gripper is positioned directly on its top face, indicating the robot is about to press the button.\nAnswer: 3",
+      "correct": true
+    },
+    {
+      "sec": 42,
+      "gt": "press",
+      "pred": "press",
+      "raw": "Reasoning: The red radio is close to the table surface, and a gripper is positioned directly on top of its wide red top face, indicating the robot is about to press the button.\nAnswer: 3",
+      "correct": true
+    },
+    {
+      "sec": 43,
+      "gt": "press",
+      "pred": "press",
+      "raw": "Reasoning: The red radio is close to the table with its wide top face visible, and a gripper is positioned directly against it, indicating the robot is about to press the button.\nAnswer: 3",
+      "correct": true
+    },
+    {
+      "sec": 44,
+      "gt": "press",
+      "pred": "press",
+      "raw": "Reasoning: The red radio is close and its wide top face with the dial is clearly visible, and a gripper is positioned directly against it, indicating the action of pressing.\nAnswer: 3",
+      "correct": true
+    },
+    {
+      "sec": 45,
+      "gt": "press",
+      "pred": "press",
+      "raw": "Reasoning: The red radio is close to the table surface, and a gripper is positioned directly on its top face, indicating the robot is about to press the power button.\nAnswer: 3",
+      "correct": true
+    },
+    {
+      "sec": 46,
+      "gt": "press",
+      "pred": "press",
+      "raw": "Reasoning: The red radio is close and turned so its wide red top face with the round dark dial is showing, and a gripper is right up against that top face.\nAnswer: 3",
+      "correct": true
+    },
+    {
+      "sec": 47,
+      "gt": "press",
+      "pred": "press",
+      "raw": "Reasoning: The red radio is close to the table surface, and a gripper is positioned directly on top of its wide red top face, indicating the action of pressing.\nAnswer: 3",
+      "correct": true
+    },
+    {
+      "sec": 48,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The red radio is close to the table surface and appears to be held by a gripper, consistent with the action of placing it down.\nAnswer: 4",
+      "correct": true
+    },
+    {
+      "sec": 49,
+      "gt": "place on",
+      "pred": "press",
+      "raw": "Reasoning: The red radio is close to the table surface, and a gripper is positioned directly on top of its wide red top face, indicating the action of pressing.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "gt": "place on",
+      "pred": "press",
+      "raw": "Reasoning: The red radio is on the table, and the robot's gripper is positioned directly on top of it, indicating the action of pressing.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "gt": "place on",
+      "pred": "press",
+      "raw": "Reasoning: The red radio is on the table, and a gripper is positioned directly on its top face, indicating the action of pressing.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "gt": "place on",
+      "pred": "press",
+      "raw": "Reasoning: The red radio is on the table, and a gripper is positioned directly on its top face, indicating the action of pressing it.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "gt": "place on",
+      "pred": "press",
+      "raw": "Reasoning: The red radio is on the table, and a gripper is positioned directly on top of it, indicating the action of pressing.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The red radio is close to the table surface and appears to be held by a gripper, with the wide red top face visible, consistent with the action of placing it down.\nAnswer: 4",
+      "correct": true
+    },
+    {
+      "sec": 55,
+      "gt": "place on",
+      "pred": "press",
+      "raw": "Reasoning: The red radio is close to the table surface, and a gripper is positioned directly on top of its wide red top face, indicating the action of pressing.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The red radio is on the table, and the robot arms are positioned nearby but not touching it, indicating the robot is approaching to pick it up.\nAnswer: 2",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The red radio is upright on the table with its wide top face visible, and the robot arms are positioned away from it, indicating no interaction has occurred yet.\nAnswer: 2",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "gt": "place on",
+      "pred": "move to",
+      "raw": "Reasoning: The red radio is on the table, but no gripper is touching it, and it appears to be in a resting position rather than being lifted or pressed.\nAnswer: 1",
+      "correct": false
+    }
+  ]
+}

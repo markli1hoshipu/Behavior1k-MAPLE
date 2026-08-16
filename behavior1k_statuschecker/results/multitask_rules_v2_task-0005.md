@@ -1,0 +1,5 @@
+1. move to - Whole room is in view with the target at a distance (dresser across the corner, toilet several floor tiles away, sink seen together with the bathtub/mirror/full room), and no gripper is over any object. Critically, a close view of the dresser and its mousetraps with NO robot arm visible at all, or with only the white/black upper arms flaring out along the left and right frame edges away from the traps, is still move to, not pick up.
+
+2. pick up from - The wooden dresser under the framed picture fills the lower frame AND at least one gripper hand is over the dresser top near the traps, roughly centered, not just arms at the frame edges. Whether the gripper is closing on a trap or already lifted one is not visible in one frame.
+
+3. place on next to - Close-up bathroom fixture: the white sink basin fills the frame edge to edge, or the toilet is centered a step away, while both arms hang straight down into the lower foreground onto the tiled floor beside it. A wide bathroom shot taken while carrying a trap in is genuinely indistinguishable from move to in a single frame; expect some loss there.

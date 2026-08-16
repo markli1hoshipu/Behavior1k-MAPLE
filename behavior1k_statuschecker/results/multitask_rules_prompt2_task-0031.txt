@@ -1,0 +1,53 @@
+You previously derived rules (below) for classifying a robot's subskill from a
+single camera frame, for the household task: "Wash the two dusty boxing gloves in the washer until they are no longer covered with dust."
+
+=== YOUR PREVIOUS RULES ===
+1. close door - The washer drum already has the red gloves (or laundry) inside and a gripper is touching the swung-open glass door; the drum interior is not empty.
+2. move to - A wide view of the room or hallway with the floor and distant furniture/appliances visible, both arms hanging low and not touching anything; the robot may or may not already be holding gloves.
+3. open door - The robot is close in front of the washers with an empty drum inside and a gripper at the glass door; no gloves are anywhere in the picture. From one still frame this cannot be told apart from closing a door except by the drum being empty.
+4. pick up from - A gripper is clamped tightly around a red glove and that glove is tilted or lifted clear of the counter, while the other glove still rests flat.
+5. place in - The robot holds one or two red gloves close to the open washer, or a glove is right at the drum opening; the washer fills much of the view.
+6. turn on switch - A gripper touches the round button on the washer front, or the button has turned green.
+7. turn to - The counter with two red gloves lying flat is in view and the arms are raised near them but nothing is grasped; this is easily confused with the start of picking up.
+
+Those rules were dropped into a real prompt and run against Qwen3.5-2B (an actual small
+vision-language model). Overall: 61.7% accuracy / 52.4%
+macro recall. Here is a sample of what it actually got WRONG (out of 23 total errors):
+
+- sec 7: ground truth = move to, model predicted = close door  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0031/frames/sec_0007.jpg)
+- sec 14: ground truth = move to, model predicted = open door  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0031/frames/sec_0014.jpg)
+- sec 50: ground truth = open door, model predicted = close door  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0031/frames/sec_0050.jpg)
+- sec 57: ground truth = open door, model predicted = place in  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0031/frames/sec_0057.jpg)
+- sec 64: ground truth = open door, model predicted = place in  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0031/frames/sec_0064.jpg)
+- sec 72: ground truth = open door, model predicted = place in  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0031/frames/sec_0072.jpg)
+- sec 79: ground truth = open door, model predicted = place in  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0031/frames/sec_0079.jpg)
+- sec 208: ground truth = pick up from, model predicted = turn to  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0031/frames/sec_0208.jpg)
+- sec 216: ground truth = pick up from, model predicted = turn to  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0031/frames/sec_0216.jpg)
+- sec 223: ground truth = pick up from, model predicted = turn to  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0031/frames/sec_0223.jpg)
+- sec 230: ground truth = pick up from, model predicted = turn to  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0031/frames/sec_0230.jpg)
+- sec 237: ground truth = pick up from, model predicted = turn to  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0031/frames/sec_0237.jpg)
+- sec 244: ground truth = move to, model predicted = turn to  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0031/frames/sec_0244.jpg)
+- sec 252: ground truth = move to, model predicted = close door  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0031/frames/sec_0252.jpg)
+- sec 266: ground truth = move to, model predicted = place in  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0031/frames/sec_0266.jpg)
+- sec 352: ground truth = place in, model predicted = open door  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0031/frames/sec_0352.jpg)
+- sec 360: ground truth = close door, model predicted = open door  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0031/frames/sec_0360.jpg)
+- sec 367: ground truth = close door, model predicted = place in  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0031/frames/sec_0367.jpg)
+- sec 374: ground truth = close door, model predicted = place in  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0031/frames/sec_0374.jpg)
+- sec 381: ground truth = close door, model predicted = place in  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0031/frames/sec_0381.jpg)
+- sec 388: ground truth = close door, model predicted = place in  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0031/frames/sec_0388.jpg)
+- sec 396: ground truth = close door, model predicted = open door  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0031/frames/sec_0396.jpg)
+- sec 403: ground truth = turn on switch, model predicted = open door  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0031/frames/sec_0403.jpg)
+
+Read the error frames (use your Read tool) and revise your rules to fix what's fixable.
+If a specific confusion is genuinely not recoverable from a single static frame (e.g. it
+depends on motion direction, or on a state that changed off-screen), say so explicitly in
+your rule rather than inventing wording that won't hold up - a rule that admits the limit
+is more useful than one that guesses.
+
+Output ONLY the final revised rules in this exact format (one line per label, numbered to
+match the label list from before), nothing else - no preamble, no analysis, no confidence
+notes. Keep total output under 200 words:
+
+1. <label> - <rule>
+2. <label> - <rule>
+...

@@ -1,0 +1,4 @@
+1. move to - No robot arms or grippers are visible anywhere in the frame; you just see the room, the couch, and the small red radio far away as a thin red shape.
+2. pick up from - The red radio still looks like a thin upright red slab and the robot arms are either not visible yet or only just entering the edge of the frame, with the grippers still empty and away from the radio.
+3. press - The red radio is close and turned so its wide red top face with the round dark dial is showing, and a gripper is right up against that top face.
+4. place on - A gripper is holding the red radio and the radio again looks like a narrow red slab lifted or tilted near the table surface; note this looks very similar to late "pick up from" frames, and a single frame often cannot tell whether the radio is being lifted or set down.

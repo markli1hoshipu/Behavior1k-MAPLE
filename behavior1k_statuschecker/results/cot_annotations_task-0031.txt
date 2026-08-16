@@ -1,0 +1,60 @@
+sec_0000: Reasoning: Camera faces a bathroom counter and window with no robot arms in frame at all, so nothing visually distinguishes this beyond it being the start of a base traverse. | Answer: move to
+sec_0007: Reasoning: Both empty grippers hang low and idle at the bottom of frame while the same counter scene slides past, indicating base motion rather than manipulation. | Answer: move to
+sec_0014: Reasoning: The washer and dryer have just come into view at an angle with both arms still lowered and empty, consistent with the base approaching the appliances. | Answer: move to
+sec_0021: Reasoning: The robot is now squared up in front of the two closed machines with arms starting to rise toward them — an approach-to-door frame, still ambiguous with 'move to' on its own. | Answer: open door
+sec_0028: Reasoning: The left gripper has lifted and extended toward the white washer's closed round door while the right arm stays back, the reach that begins the door pull. | Answer: open door
+sec_0036: Reasoning: Left gripper is right at the rim of the white machine's closed door, positioned to latch onto it. | Answer: open door
+sec_0043: Reasoning: The left gripper is in contact with the door edge of the white washer and the door face has begun to swing off flush. | Answer: open door
+sec_0050: Reasoning: The washer door is now visibly cracked open and tilted outward with the left gripper still attached to its rim. | Answer: open door
+sec_0057: Reasoning: The circular glass door has rotated further out from the drum, dragged by the gripper still holding its edge. | Answer: open door
+sec_0064: Reasoning: Viewpoint has shifted right and a gripper holds the wide-open transparent door swung well clear of the washer opening. | Answer: open door
+sec_0072: Reasoning: The detached-looking glass door is held out in mid-air by the right gripper, fully swung away from the washer drum. | Answer: open door
+sec_0079: Reasoning: The door is carried out far from the appliance face with the drum opening now unobstructed, the end of the opening motion. | Answer: open door
+sec_0086: Reasoning: The washer door now rests open and clear of the machine with both arms released and lowered — release frame that only reads as 'open door' from the door's displaced state. | Answer: open door
+sec_0093: Reasoning: Camera has swung around to the counter side of the room with two red gloves visible far off on a cabinet top and both grippers empty and low — a base traverse. | Answer: move to
+sec_0100: Reasoning: The room recedes as the base drives down the corridor toward the cabinet holding the gloves; arms hang idle with nothing grasped. | Answer: move to
+sec_0108: Reasoning: Same corridor view slightly closer to the far cabinet, arms still empty and lowered — pure locomotion with no manipulation cue. | Answer: move to
+sec_0115: Reasoning: The view has rotated to center the cabinet top with the two red gloves, arms raised but not yet near anything — a reorientation frame. | Answer: turn to
+sec_0122: Reasoning: The camera is now framing the gloves close-up with grippers hovering to either side of them, still not in contact. | Answer: turn to
+sec_0129: Reasoning: Both grippers flank the gloves at a small standoff distance while the heading continues to shift; nothing is grasped yet. | Answer: turn to
+sec_0136: Reasoning: The viewpoint keeps rotating around the countertop with the gloves centered and grippers open beside them, no contact made. | Answer: turn to
+sec_0144: Reasoning: The gloves stay centered as the counter edge swings across the frame, and the grippers hold their standoff pose. | Answer: turn to
+sec_0151: Reasoning: The right arm is close beside the second glove but not closed on it, and the scene keeps rotating — an alignment frame that could plausibly read as reaching. | Answer: turn to
+sec_0158: Reasoning: Camera angle has shifted again with the grippers still just adjacent to the gloves on the white counter, nothing lifted. | Answer: turn to
+sec_0165: Reasoning: Right gripper sits at the cuff of the right glove without closing while the view continues to swing; still a pre-grasp orientation. | Answer: turn to
+sec_0172: Reasoning: Both grippers are poised at the two gloves and the counter has rotated further into frame; the gloves remain flat on the surface. | Answer: turn to
+sec_0180: Reasoning: The heading shift continues — the door frame has moved right in view — with grippers near but not gripping the gloves. | Answer: turn to
+sec_0187: Reasoning: The right glove is now upright against the gripper and the left arm is still lining up; the scene continues to rotate rather than lift. | Answer: turn to
+sec_0194: Reasoning: Both gloves stand upright with grippers on either side and no vertical motion, the last alignment frame before the grasp. | Answer: turn to
+sec_0201: Reasoning: Grippers are settled at the base of both gloves on the counter and the view has stabilized; nothing has left the surface yet. | Answer: turn to
+sec_0208: Reasoning: The left gripper has closed on the left glove's cuff and the glove is tipped up off flat, the start of the lift. | Answer: pick up from
+sec_0216: Reasoning: The left glove is clamped in the gripper and tilted, and the right gripper is closing on its glove at the counter surface. | Answer: pick up from
+sec_0223: Reasoning: One glove is clearly held aloft above the countertop in the left gripper while the right gripper grasps the second one. | Answer: pick up from
+sec_0230: Reasoning: The left glove hangs suspended in the gripper well clear of the counter, and the right gripper has the second glove in hand. | Answer: pick up from
+sec_0237: Reasoning: Both gloves are now raised above the counter in the two grippers, clear of the surface. | Answer: pick up from
+sec_0244: Reasoning: Both gloves are held high in the grippers while the view swings toward the shelving, i.e. carrying them as the base moves. | Answer: move to
+sec_0252: Reasoning: The camera is now driving down the room with the washers visible ahead and a glove held in each raised gripper. | Answer: move to
+sec_0259: Reasoning: Both gloves are held up in front of the camera while the wooden door and shelves slide past — transport with no interaction. | Answer: move to
+sec_0266: Reasoning: The washer and dryer are centered ahead at closing range with both gloves still held aloft, the end of the carry. | Answer: move to
+sec_0273: Reasoning: The left glove is being pushed toward the open drum of the white washer while the right one is still held back low. | Answer: place in
+sec_0280: Reasoning: The left gripper with its red glove is right at the mouth of the washer's drum opening, extending inward. | Answer: place in
+sec_0288: Reasoning: The left gripper has driven the red glove into the open washer drum with the second glove still waiting in the right hand. | Answer: place in
+sec_0295: Reasoning: Close-up shows the left arm inserted into the drum with the glove no longer visible in the gripper — the first glove has been deposited. | Answer: place in
+sec_0302: Reasoning: The left arm is withdrawing empty from the drum interior while the right gripper still holds the second glove. | Answer: place in
+sec_0309: Reasoning: The left gripper is fully back out and open, and the remaining glove is held in the right gripper facing the machine. | Answer: place in
+sec_0316: Reasoning: The right gripper carries the second glove toward the washer's open drum, past the swung-out door. | Answer: place in
+sec_0324: Reasoning: The red glove in the right gripper is at the drum opening being pushed inward. | Answer: place in
+sec_0331: Reasoning: The right arm is inside the drum mouth with the glove essentially out of sight in the opening. | Answer: place in
+sec_0338: Reasoning: The right arm reaches deep into the drum and no glove is visible in the gripper, the second deposit. | Answer: place in
+sec_0345: Reasoning: A red patch is visible inside the drum while the right arm is still in the opening, and the left arm hangs empty. | Answer: place in
+sec_0352: Reasoning: Both arms are withdrawn and empty, with a red glove now visible inside the washer drum — release frame identifiable mainly by the gloves being inside. | Answer: place in
+sec_0360: Reasoning: Both grippers are lowered and the robot has backed off with the washer door still swung open beside the drum containing the gloves; a pre-close frame with no contact yet. | Answer: close door
+sec_0367: Reasoning: The open door has been pulled around toward the machine face and sits partly across the drum, though no gripper is clearly visible on it. | Answer: close door
+sec_0374: Reasoning: The left gripper is on the door edge, swinging it back in toward the washer opening. | Answer: close door
+sec_0381: Reasoning: The left arm holds the door as it rotates further inward, now nearly aligned with the drum rim. | Answer: close door
+sec_0388: Reasoning: The door is almost flush against the washer face with the gripper still pressing it in. | Answer: close door
+sec_0396: Reasoning: The washer door is now shut flat against the machine and both grippers have dropped back, empty. | Answer: close door
+sec_0403: Reasoning: The right arm rises toward the closed washer's control panel where the red knob still sits, an approach to the switch. | Answer: turn on switch
+sec_0410: Reasoning: The right gripper is at the washer's control panel and the indicator has changed from red to green under it. | Answer: turn on switch
+sec_0417: Reasoning: The robot has backed away with arms lowered and the washer's dial now shows green while the dryer's is still red. | Answer: turn on switch
+sec_0424: Reasoning: Final frame shows both arms idle and the washer knob lit green, the completed switch actuation. | Answer: turn on switch

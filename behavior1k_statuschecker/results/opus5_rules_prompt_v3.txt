@@ -1,0 +1,67 @@
+Same 4-class robot-subskill classification task as before, same model (Qwen3.5-2B),
+same episode. Two ACTION_LIST prompt versions, A/B tested on the real model:
+
+=== PROMPT V14 (WORKS: 45.8% accuracy, 53.6% macro recall) ===
+1. move to - no robot arm is visible anywhere in the frame; you see a wide view of the room (floor, walls, couch) with the red radio small, far away, or not visible at all.
+2. pick up from - a robot arm/gripper IS visible, reaching toward or holding the red radio, but the radio's round dial is NOT facing the camera (you only see the plain red-and-white striped body, not the dial face).
+3. press - the radio's flat face with its round dial IS facing the camera, and a gripper is directly on that dial. This is the only step where the gripper touches the round dial. The radio does not need to be lifted for this - it can happen while the radio still sits on the table.
+4. place on - the radio is resting back down on the table (or being lowered onto it) and the gripper is pulling away rather than touching the dial. If the dial is visible, it may show a small green light now on (this means the radio was already successfully pressed).
+Tie-break: if no arm is visible at all anywhere in the frame, answer 1 (move to).
+
+=== PROMPT V17 (WORSE: 23.7% accuracy, 38.9% macro recall) ===
+1. move to - no robot arm is visible anywhere in the frame; you see a wide view of the room with the red radio small, far away, or not visible at all.
+2. pick up from - an arm/gripper is visible and reaching toward or holding the plain body of the radio, standing upright, its round dial not facing the camera.
+3. press - either the radio is lifted up in a gripper, or its round dial IS facing the camera with a gripper on that dial.
+4. place on - an arm is at the radio near the table, and the radio itself is tilted or leaning to one side rather than standing straight up and vertical.
+Tie-break: if no arm is visible, answer 1. If an arm is at the radio on the table and you can't tell whether it's grabbing or releasing, answer 4.
+
+V17 was your own iteration-2 revision after you found v14's green-light claim was pixel-
+wrong (0 green pixels in any place-on frame) and its "gripper pulling away" framing
+mismatched 8/11 place-on frames. Those corrections were factually right. But V17 scores
+WORSE on the real model, not better - and it's not a length problem (I already tried a
+394-word version that also failed, then trimmed to about the same length as V14 and
+still got the SAME predictions, byte-for-byte, as the 394-word version). I also tried
+fixing two specific things I suspected (a self-contradiction in rule 2, and rule 4 asking
+the model to compare against "how it looked earlier" which a single-frame classifier
+can't do) - that produced ZERO change in output, identical predictions to before the fix.
+So the actual cause is neither prompt length nor those two wording issues.
+
+Here is every frame where V14 and V17 disagree on their prediction for the SAME frame:
+- sec 28 (gt=pick up from): v14 said 'pick up from' (correct) -> v17 said 'move to' (WRONG)  frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0028.jpg
+- sec 29 (gt=pick up from): v14 said 'pick up from' (correct) -> v17 said 'move to' (WRONG)  frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0029.jpg
+- sec 30 (gt=pick up from): v14 said 'pick up from' (correct) -> v17 said 'move to' (WRONG)  frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0030.jpg
+- sec 31 (gt=pick up from): v14 said 'pick up from' (correct) -> v17 said 'move to' (WRONG)  frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0031.jpg
+- sec 32 (gt=pick up from): v14 said 'pick up from' (correct) -> v17 said 'move to' (WRONG)  frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0032.jpg
+- sec 33 (gt=pick up from): v14 said 'pick up from' (correct) -> v17 said 'move to' (WRONG)  frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0033.jpg
+- sec 34 (gt=pick up from): v14 said 'pick up from' (correct) -> v17 said 'move to' (WRONG)  frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0034.jpg
+- sec 35 (gt=pick up from): v14 said 'pick up from' (correct) -> v17 said 'move to' (WRONG)  frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0035.jpg
+- sec 36 (gt=pick up from): v14 said 'pick up from' (correct) -> v17 said 'move to' (WRONG)  frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0036.jpg
+- sec 37 (gt=pick up from): v14 said 'pick up from' (correct) -> v17 said 'move to' (WRONG)  frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0037.jpg
+- sec 38 (gt=pick up from): v14 said 'pick up from' (correct) -> v17 said 'move to' (WRONG)  frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0038.jpg
+- sec 42 (gt=press): v14 said 'press' (correct) -> v17 said 'move to' (WRONG)  frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0042.jpg
+- sec 43 (gt=press): v14 said 'press' (correct) -> v17 said 'move to' (WRONG)  frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0043.jpg
+- sec 47 (gt=press): v14 said 'pick up from' (WRONG) -> v17 said 'move to' (WRONG)  frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0047.jpg
+- sec 48 (gt=place on): v14 said 'pick up from' (WRONG) -> v17 said 'move to' (WRONG)  frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0048.jpg
+- sec 49 (gt=place on): v14 said 'pick up from' (WRONG) -> v17 said 'move to' (WRONG)  frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0049.jpg
+- sec 50 (gt=place on): v14 said 'pick up from' (WRONG) -> v17 said 'move to' (WRONG)  frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0050.jpg
+- sec 51 (gt=place on): v14 said 'pick up from' (WRONG) -> v17 said 'move to' (WRONG)  frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0051.jpg
+- sec 53 (gt=place on): v14 said 'pick up from' (WRONG) -> v17 said 'move to' (WRONG)  frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0053.jpg
+- sec 54 (gt=place on): v14 said 'pick up from' (WRONG) -> v17 said 'move to' (WRONG)  frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0054.jpg
+- sec 55 (gt=place on): v14 said 'pick up from' (WRONG) -> v17 said 'move to' (WRONG)  frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0055.jpg
+
+Read these frames and both prompt texts closely. I need you to explain the actual
+mechanism, not just say "V17 is more complex." Specifically:
+1. Is there a specific rule or phrase in V17 that a small model can't ground (e.g. "the
+   radio is tilted/leaning" - can a 2B VLM actually perceive a ~20 degree tilt on a small
+   object in a 720x720 frame, or is that below its effective visual resolution even
+   though it's true in the pixels)?
+2. Does V17's rule 3 change ("radio lifted up in a gripper" as an alternative sufficient
+   condition for press) create new confusion with pick-up-from that V14 avoided by
+   requiring the dial specifically?
+3. Any other structural difference between V14 and V17 you can point to concretely.
+
+Then produce ONE more revision: keep V14's proven structure/phrasing as the base, and
+change ONLY what you can now show is both factually necessary AND perceivable by a small
+model (i.e. don't reintroduce the tilt cue if you conclude it's below the model's
+effective resolution - drop that class distinction as unrecoverable instead, explicitly,
+rather than gesturing at an invisible cue).

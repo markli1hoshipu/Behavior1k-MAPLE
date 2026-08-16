@@ -1,0 +1,997 @@
+{
+  "task_chunk": "task-0005",
+  "tag": "heldout",
+  "accuracy": 0.624113475177305,
+  "macro_recall": 0.6333333333333333,
+  "correct": 88,
+  "total": 141,
+  "predictions": [
+    {
+      "sec": 2,
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly next to the sink, with the sink fixture filling most of the view, and a mousetrap is visible on the floor beside it.\nAnswer: 3. place on next to",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture behind it, and several mousetraps are lying on the surface, with the gripper down among them.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture behind it, and several mousetraps are lying on the surface, with the gripper down among them.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 90,
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly next to the white bathroom sink, with the sink filling most of the frame, and a mousetrap is visible on the floor beside it.\nAnswer: 3. place on next to",
+      "correct": false
+    },
+    {
+      "sec": 100,
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of the white bathroom sink, with its arms lowered near the floor beside it, and a mousetrap is visible on the floor near the sink.\nAnswer: 3. place on next to",
+      "correct": false
+    },
+    {
+      "sec": 176,
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot's arms are positioned low on the floor near the sink, and a mousetrap is visible on the floor, indicating the robot is about to place the trap near the sink.\nAnswer: 3. place on next to",
+      "correct": false
+    },
+    {
+      "sec": 187,
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of the white sink, with the sink filling most of the frame, and a mousetrap is visible on the floor near the sink.\nAnswer: 3. place on next to",
+      "correct": false
+    },
+    {
+      "sec": 197,
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of a white bathroom sink, with the sink filling most of the view and the arms lowered toward the floor beside it, suggesting it is about to place a mousetrap.\nAnswer: 3. place on next to",
+      "correct": false
+    },
+    {
+      "sec": 208,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture, and mousetraps are clearly visible on the surface of the dresser.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 259,
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly next to the white bathroom sink, with its arms lowered near the floor beside it, and a mousetrap is visible on the floor in the same area.\nAnswer: 3. place on next to",
+      "correct": false
+    },
+    {
+      "sec": 4,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture behind it, and mousetraps are clearly visible on the surface of the dresser.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 64,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture, and mousetraps are clearly visible on the surface of the dresser, indicating the robot is in the process of picking them up.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 74,
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned right up against the white bathroom sink, with a mousetrap visible on the floor beside it, indicating it is about to set it.\nAnswer: 3. place on next to",
+      "correct": false
+    },
+    {
+      "sec": 132,
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of a white sink, with its arms extended toward the floor, suggesting it is about to place a mousetrap there.\nAnswer: 3. place on next to",
+      "correct": false
+    },
+    {
+      "sec": 142,
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot's arms are positioned low on the floor, and a mousetrap is visible on the floor near the sink, indicating the robot is about to place the trap.\nAnswer: 3. place on next to",
+      "correct": false
+    },
+    {
+      "sec": 152,
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of the white sink, with the sink filling most of the frame, and a mousetrap is visible on the floor beside it.\nAnswer: 3. place on next to",
+      "correct": false
+    },
+    {
+      "sec": 163,
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly next to the white bathroom sink, with the sink filling most of the view. The arms are lowered toward the floor beside the sink, and a mousetrap is visible on the floor there.\nAnswer: 3. place on next to",
+      "correct": false
+    },
+    {
+      "sec": 173,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture behind it, and several small mousetraps are lying on the dresser surface with a gripper down among them.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 225,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture behind it, and mousetraps are clearly visible on the surface of the dresser.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 235,
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of a white toilet, with its arms extended toward the floor beside it, suggesting it is about to place a mousetrap there.\nAnswer: 3. place on next to",
+      "correct": false
+    },
+    {
+      "sec": 10,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture, and several mousetraps are lying on the surface, with the gripper down among them.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly next to the white bathroom sink and toilet, with the sink filling most of the view. The arms are lowered toward the floor beside the fixture, and a mousetrap is visible on the floor near the sink.\nAnswer: 3. place on next to",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of the white bathroom sink, with the sink filling most of the view. The arms are lowered toward the floor beside the sink, and a mousetrap is visible on the floor near the sink.\nAnswer: 3. place on next to",
+      "correct": false
+    },
+    {
+      "sec": 67,
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of the white sink, with its arms extended toward the floor beside it, indicating it is about to place a mousetrap there.\nAnswer: 3. place on next to",
+      "correct": false
+    },
+    {
+      "sec": 103,
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of the white sink, with the sink filling most of the frame, and a mousetrap is visible on the floor beside it.\nAnswer: 3. place on next to",
+      "correct": false
+    },
+    {
+      "sec": 113,
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of a white bathroom sink, with the sink filling most of the frame. The arms are lowered toward the floor beside the sink, and a mousetrap is visible on the floor near the sink.\nAnswer: 3. place on next to",
+      "correct": false
+    },
+    {
+      "sec": 124,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture behind it, and mousetraps are clearly visible lying on the surface of the dresser.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 164,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture, and a mousetrap is clearly visible on the floor near the bottom of the frame, indicating it is about to place the trap near the sink and toilet.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 4,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture, and mousetraps are clearly visible on the surface of the dresser, indicating the robot is in the process of picking them up.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 14,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture behind it, and several small mousetraps are lying on the dresser surface with a gripper down among them.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 71,
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of a white bathroom sink, with its arms lowered near the floor beside it, and a mousetrap is visible on the floor in the immediate vicinity.\nAnswer: 3. place on next to",
+      "correct": false
+    },
+    {
+      "sec": 82,
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of the white bathroom sink, with the sink filling most of the frame. The arms are lowered toward the floor beside the sink, and a mousetrap is visible on the floor near the sink, indicating the robot is about to place it there.\nAnswer: 3. place on next to",
+      "correct": false
+    },
+    {
+      "sec": 132,
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of a white bathroom sink, with its arms extended toward the floor, suggesting it is about to place a mousetrap there.\nAnswer: 3. place on next to",
+      "correct": false
+    },
+    {
+      "sec": 143,
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of the white sink, with its arms low and empty, and a mousetrap is clearly visible on the floor beside the sink, indicating it is about to place the trap.\nAnswer: 3. place on next to",
+      "correct": false
+    },
+    {
+      "sec": 153,
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of the white sink, with its arms low and empty, and a mousetrap is clearly visible on the floor beside the sink, indicating it is about to place the trap.\nAnswer: 3. place on next to",
+      "correct": false
+    },
+    {
+      "sec": 163,
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly next to a white sink, with a mousetrap visible on the floor beside it, indicating it is about to place the trap near the sink.\nAnswer: 3. place on next to",
+      "correct": false
+    },
+    {
+      "sec": 174,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture behind it, and mousetraps are clearly visible on the surface of the dresser.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 288,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly in front of a wooden dresser with a framed picture on the wall, and mousetraps are clearly visible lying on the surface of the dresser.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 299,
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot's arms are visible at the bottom of the frame, positioned near the floor, and the mousetraps are clearly visible on the floor in the immediate vicinity of the sink/toilet area.\nAnswer: 3. place on next to",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned right up against the wooden dresser with the framed picture behind it, and several small mousetraps are lying on the dresser surface with a gripper down among them.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 181,
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of the white sink, with the sink filling most of the view, and a mousetrap is visible on the floor beside it.\nAnswer: 3. place on next to",
+      "correct": false
+    },
+    {
+      "sec": 192,
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of the white bathroom sink, with its arms extended toward the floor, suggesting it is about to place a mousetrap there.\nAnswer: 3. place on next to",
+      "correct": false
+    },
+    {
+      "sec": 202,
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of a white sink, with its arms extended toward the floor beside it, and a mousetrap is visible on the floor near the sink.\nAnswer: 3. place on next to",
+      "correct": false
+    },
+    {
+      "sec": 265,
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of the white sink, with its arms low and empty, and a mousetrap is visible on the floor beside it, indicating it is about to place the trap near the sink.\nAnswer: 3. place on next to",
+      "correct": false
+    },
+    {
+      "sec": 275,
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of a white bathroom sink, with the sink filling most of the frame, and a mousetrap is visible on the floor beside it.\nAnswer: 3. place on next to",
+      "correct": false
+    },
+    {
+      "sec": 285,
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of the sink, with the sink filling the view and the gripper visible at the bottom of the frame, indicating it is about to place a mousetrap on the floor.\nAnswer: 3. place on next to",
+      "correct": false
+    },
+    {
+      "sec": 296,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly in front of the wooden dresser with the framed picture, and mousetraps are clearly visible on the surface of the dresser, indicating the robot is in the process of picking them up.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 501,
+      "gt": "move to",
+      "pred": null,
+      "raw": "Reasoning: The robot is positioned directly in front of the white bathroom sink and toilet, with the sink filling most of the frame. The arms are lowered toward the floor beside the fixture, and a mousetrap is visible on the floor near the sink, indicating the robot is about to set it.\nAnswer: 3. place on next",
+      "correct": false
+    },
+    {
+      "sec": 30,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture behind it, and mousetraps are clearly visible on the surface of the dresser.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 41,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture behind it, and several mousetraps are lying on the surface, with the gripper in a closed position, indicating the action of picking up from the surface.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 52,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture behind it, and mousetraps are clearly visible on the surface of the dresser.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 63,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture behind it, and mousetraps are clearly visible on the surface of the dresser.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 74,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture behind it, and mousetraps are clearly visible on the surface of the dresser.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 213,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture, and mousetraps are clearly visible on the surface of the dresser.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 224,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture, and mousetraps are clearly visible on the surface of the dresser.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 235,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against a wooden dresser with a framed picture on the wall behind it, and mousetraps are clearly visible lying on the surface of the dresser.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 247,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture, and mousetraps are clearly visible lying on the surface, indicating the subskill is pick up from.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 18,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture, and mousetraps are clearly visible on the surface, indicating the robot is in the process of picking them up.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 29,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture, and mousetraps are clearly visible on the surface of the dresser, indicating the robot is in the process of picking them up.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 40,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture, and mousetraps are clearly visible on the surface of the dresser, indicating the subskill is pick up from.\nAnswer: 2",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture behind it, and several mousetraps are lying on the surface with a gripper down among them.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 185,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture behind it, and mousetraps are clearly visible on the surface of the dresser.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 196,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture behind it, and mousetraps are clearly visible on the surface of the dresser.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 207,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture, and mousetraps are clearly visible on the surface of the dresser, indicating the robot is in the process of picking them up.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 219,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture, and mousetraps are clearly visible lying on the surface, indicating the robot is in the process of picking them up.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 25,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture, and mousetraps are clearly visible on the surface of the dresser.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 36,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture behind it, and mousetraps are clearly visible on the surface of the dresser.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 137,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture, and mousetraps are clearly visible on the surface of the dresser, indicating the robot is in the process of picking them up.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 148,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser, and a mousetrap is clearly visible on the surface of the dresser, indicating the robot is in the process of picking it up.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 159,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture behind it, and mousetraps are clearly visible on the surface of the dresser.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 24,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser, with the mousetraps clearly visible on the surface, and the gripper is in a closed position, indicating it is about to pick one up.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 35,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture, and mousetraps are clearly visible on the surface of the dresser, indicating the robot is in the process of picking them up.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 46,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser, with a mousetrap clearly visible on the surface, indicating it is in the process of picking up one.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 58,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser, with a mousetrap visible on the surface, indicating it is in the process of picking up a trap.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 184,
+      "gt": "pick up from",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly next to a white bathroom sink, with its arm extended toward the floor beside it, and a mousetrap is visible on the floor near the sink.\nAnswer: 3. place on next to",
+      "correct": false
+    },
+    {
+      "sec": 195,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture behind it, and mousetraps are clearly visible on the surface of the dresser.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 206,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture behind it, and a mousetrap is clearly visible on the surface of the dresser.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 217,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture, and mousetraps are clearly visible on the surface of the dresser.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 228,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser, with a mousetrap clearly visible on the surface, indicating it is in the process of picking up one.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 239,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser, with a mousetrap clearly visible on the surface, indicating it is in the process of picking up one.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 250,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser, with a mousetrap clearly visible on the surface, indicating the subskill is pick up from.\nAnswer: 2",
+      "correct": false
+    },
+    {
+      "sec": 262,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser, with a mousetrap visible on the surface, indicating it is in the process of picking up one.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 273,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture, and mousetraps are clearly visible on the surface, indicating the gripper is in a state of picking up.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 38,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned right up against the wooden dresser with the framed picture behind it, and several small mousetraps are lying on the dresser surface with a gripper down among them.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 49,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture, and mousetraps are clearly visible on the surface of the dresser, indicating the robot is in the process of picking them up.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 60,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture, and mousetraps are clearly visible on the surface of the dresser.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 78,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser, with the mousetraps clearly visible on its surface, indicating the action is about to be performed on the furniture.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 89,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture behind it, and mousetraps are clearly visible on the surface of the dresser.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 100,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser, with the mousetraps clearly visible on its surface, indicating it is in the process of picking them up.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 383,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture behind it, and a mousetrap is clearly visible on the surface of the dresser.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 395,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture, and mousetraps are clearly visible lying on the surface, indicating the gripper is in a state of picking up.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 406,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser, with a mousetrap clearly visible on the surface, indicating the action of picking up from the target location.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 417,
+      "gt": "pick up from",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly next to a white sink, with its arms extended toward the floor beside it, and a mousetrap is visible on the floor in the foreground, indicating it is about to place the trap near the sink.\nAnswer: 3. place on next to",
+      "correct": false
+    },
+    {
+      "sec": 428,
+      "gt": "pick up from",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly next to a white sink, and a mousetrap is clearly visible on the floor beside it, indicating the subskill is to place the trap near the sink.\nAnswer: 3. place on next to",
+      "correct": false
+    },
+    {
+      "sec": 439,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture behind it, and mousetraps are clearly visible on the surface of the dresser.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 450,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly in front of a wooden dresser with a framed picture on it, and mousetraps are clearly visible on the surface of the dresser.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 461,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly against the wooden dresser with the framed picture, and mousetraps are clearly visible on the surface of the dresser.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 472,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned directly in front of a wooden dresser with a framed picture on the wall. Several mousetraps are clearly visible lying on the surface of the dresser, and the robot's arms are positioned low, suggesting it is about to pick them up.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 104,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of the white sink, with its arms extended downward toward the floor beside it, indicating it is about to place a mousetrap there.\nAnswer: 3. place on next to",
+      "correct": true
+    },
+    {
+      "sec": 113,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot's arms are positioned low on the floor, and a mousetrap is visible on the floor near the sink, indicating the robot is in the process of setting it up.\nAnswer: 3. place on next to",
+      "correct": true
+    },
+    {
+      "sec": 123,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of a white bathroom sink, with its arms extended toward the floor, suggesting it is about to place a mousetrap there.\nAnswer: 3. place on next to",
+      "correct": true
+    },
+    {
+      "sec": 133,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of a white bathroom sink, with its arms lowered near the floor beside it, and a mousetrap is visible on the floor in the foreground.\nAnswer: 3. place on next to",
+      "correct": true
+    },
+    {
+      "sec": 143,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly under a white bathroom sink, with its arms extended downward toward the floor beside it, suggesting it is about to place a mousetrap there.\nAnswer: 3. place on next to",
+      "correct": true
+    },
+    {
+      "sec": 153,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of a white sink, with its arms extended downward toward the floor beside it, suggesting it is about to place a mousetrap there.\nAnswer: 3. place on next to",
+      "correct": true
+    },
+    {
+      "sec": 163,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of a white bathroom sink, with its arms extended downward toward the floor beside it, suggesting it is about to place a mousetrap there.\nAnswer: 3. place on next to",
+      "correct": true
+    },
+    {
+      "sec": 272,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of a white toilet, with its arms extended downward toward the floor beside it, suggesting it is about to place a mousetrap there.\nAnswer: 3. place on next to",
+      "correct": true
+    },
+    {
+      "sec": 282,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of a white toilet, with its arms lowered near the floor beside it, suggesting it is about to place a mousetrap there.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 291,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of a white toilet, with its arms extended downward toward the floor beside it, suggesting it is about to place a mousetrap there.\nAnswer: 3. place on next to",
+      "correct": true
+    },
+    {
+      "sec": 301,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly over a white toilet, with its arms low and empty, indicating it is about to place a mousetrap on the floor beside the fixture.\nAnswer: 3. place on next to",
+      "correct": true
+    },
+    {
+      "sec": 312,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of a white toilet, with its arms extended downward toward the floor beside it, suggesting it is about to place a mousetrap there.\nAnswer: 3. place on next to",
+      "correct": true
+    },
+    {
+      "sec": 322,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly next to the white bathroom sink, with its arms lowered toward the floor beside it, and a mousetrap is visible on the floor near the sink.\nAnswer: 3. place on next to",
+      "correct": true
+    },
+    {
+      "sec": 84,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of the white sink, with its arms low and empty, and a mousetrap is visible on the floor beside it, indicating it is about to place the trap near the sink.\nAnswer: 3. place on next to",
+      "correct": true
+    },
+    {
+      "sec": 94,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of a white bathroom sink, with its arms extended downward toward the floor beside it, indicating it is about to place a mousetrap there.\nAnswer: 3. place on next to",
+      "correct": true
+    },
+    {
+      "sec": 104,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of a white bathroom sink, with its arms extended toward the floor beside it, suggesting it is about to place a mousetrap there.\nAnswer: 3. place on next to",
+      "correct": true
+    },
+    {
+      "sec": 114,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly under a white bathroom sink, with its arms extended downward toward the floor, suggesting it is about to place a mousetrap there.\nAnswer: 3. place on next to",
+      "correct": true
+    },
+    {
+      "sec": 124,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly under a white bathroom sink, with its arms extended downward toward the floor, suggesting it is about to place a mousetrap there.\nAnswer: 3. place on next to",
+      "correct": true
+    },
+    {
+      "sec": 242,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of a white toilet, with its arms extended toward the floor beside it, suggesting it is about to place a mousetrap there.\nAnswer: 3. place on next to",
+      "correct": true
+    },
+    {
+      "sec": 252,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of a white toilet, with its arms extended downward toward the floor beside it, suggesting it is about to place a mousetrap there.\nAnswer: 3. place on next to",
+      "correct": true
+    },
+    {
+      "sec": 262,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of a white toilet, with its arms extended toward the floor beside it, suggesting it is about to place a mousetrap on the floor near the fixture.\nAnswer: 3. place on next to",
+      "correct": true
+    },
+    {
+      "sec": 272,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly over a white toilet, with its arms extended downward toward the floor beside it, suggesting it is about to place a mousetrap there.\nAnswer: 3. place on next to",
+      "correct": true
+    },
+    {
+      "sec": 282,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of a white toilet, with its arms extended downward toward the floor beside it, suggesting it is about to place a mousetrap there.\nAnswer: 3. place on next to",
+      "correct": true
+    },
+    {
+      "sec": 292,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of a white bathroom sink, with its arms extended downward toward the floor beside it, suggesting it is about to place a mousetrap there.\nAnswer: 3. place on next to",
+      "correct": true
+    },
+    {
+      "sec": 71,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of a white sink, with its arms extended toward the floor, suggesting it is about to place a mousetrap on the floor near the sink.\nAnswer: 3. place on next to",
+      "correct": true
+    },
+    {
+      "sec": 81,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly under a white bathroom sink, with its arms extended downward toward the floor beside it, suggesting it is about to place a mousetrap there.\nAnswer: 3. place on next to",
+      "correct": true
+    },
+    {
+      "sec": 90,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of a white bathroom sink, with its arms extended downward toward the floor beside it, indicating it is about to place a mousetrap there.\nAnswer: 3. place on next to",
+      "correct": true
+    },
+    {
+      "sec": 182,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of a white toilet, with its arms extended downward toward the floor beside it, suggesting it is about to place a mousetrap there.\nAnswer: 3. place on next to",
+      "correct": true
+    },
+    {
+      "sec": 192,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of a white toilet, with its arms extended downward toward the floor beside it, suggesting it is about to place a mousetrap there.\nAnswer: 3. place on next to",
+      "correct": true
+    },
+    {
+      "sec": 92,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of the white sink, with its arms extended downward toward the floor beside it, indicating it is about to place a mousetrap there.\nAnswer: 3. place on next to",
+      "correct": true
+    },
+    {
+      "sec": 102,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot's arms are positioned low, near the floor, and the mousetraps are clearly visible on the floor in front of the robot, indicating the action is about to be completed.\nAnswer: 3. place on next to",
+      "correct": true
+    },
+    {
+      "sec": 112,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of a white sink, with its arms extended downward toward the floor beside it, suggesting it is about to place a mousetrap there.\nAnswer: 3. place on next to",
+      "correct": true
+    },
+    {
+      "sec": 122,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly above a white sink, with its arms extended downward toward the floor beside it, indicating a placement action.\nAnswer: 3. place on next to",
+      "correct": true
+    },
+    {
+      "sec": 304,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of a white bathroom sink, with its arms extended toward the floor beside it, suggesting it is about to place a mousetrap there.\nAnswer: 3. place on next to",
+      "correct": true
+    },
+    {
+      "sec": 314,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of a white toilet, with its arms extended toward the floor, suggesting it is about to place a mousetrap on the floor near the fixture.\nAnswer: 3. place on next to",
+      "correct": true
+    },
+    {
+      "sec": 323,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of a white toilet, with its arms extended downward toward the floor beside it, suggesting it is about to place a mousetrap there.\nAnswer: 3. place on next to",
+      "correct": true
+    },
+    {
+      "sec": 205,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of a white sink, with its arms extended downward toward the floor beside it, suggesting it is about to place a mousetrap there.\nAnswer: 3. place on next to",
+      "correct": true
+    },
+    {
+      "sec": 215,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of a white sink, with its arms extended downward toward the floor beside it, suggesting it is about to place a mousetrap there.\nAnswer: 3. place on next to",
+      "correct": true
+    },
+    {
+      "sec": 225,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of a white sink, with its arms extended toward the floor, suggesting it is about to place a mousetrap there.\nAnswer: 3. place on next to",
+      "correct": true
+    },
+    {
+      "sec": 235,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of a white sink, with its arms extended toward the floor, suggesting it is about to place a mousetrap there.\nAnswer: 3. place on next to",
+      "correct": true
+    },
+    {
+      "sec": 245,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of a white bathroom sink, with its arms extended toward the floor beside it, suggesting it is about to place a mousetrap there.\nAnswer: 3. place on next to",
+      "correct": true
+    },
+    {
+      "sec": 731,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of a white toilet, with its arms extended toward the floor beside it, suggesting it is about to place a mousetrap there.\nAnswer: 3. place on next to",
+      "correct": true
+    },
+    {
+      "sec": 741,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is positioned directly in front of a white toilet, with its arms extended toward the floor, suggesting it is about to place a mousetrap there.\nAnswer: 3. place on next to",
+      "correct": true
+    }
+  ]
+}

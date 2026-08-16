@@ -1,0 +1,5 @@
+1. move to - No object is held and the hands are either out of frame or empty, with the camera looking across the room at a counter, bowl, or basket that is still some distance away.
+2. pick up from - A hand is right at a basket that still holds vegetables, touching or closing around them, and that full basket fills a large part of the view.
+3. place in - A red bowl is close and clearly in view with a hand right at its rim, usually with a vegetable at the hand or already sitting in the bowl.
+4. place on - A hand is holding an empty basket with no vegetables in it, close to the camera and hovering just over a counter surface.
+5. Note - "place in" and "place on" cannot be told apart by the moment of release; use the held object instead (vegetable going toward a red bowl = place in, empty basket over a counter = place on). Likewise, a hand touching a full basket looks the same whether the robot is starting to pick up or has just finished, so early "pick up from" and late "move to" frames are not separable from one still image.

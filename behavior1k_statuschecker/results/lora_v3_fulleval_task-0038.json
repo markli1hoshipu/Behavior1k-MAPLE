@@ -1,0 +1,2892 @@
+{
+  "task_chunk": "task-0038",
+  "task_name": "spraying_for_bugs",
+  "accuracy": 0.7638888888888888,
+  "macro_recall": 0.7638888888888888,
+  "correct": 275,
+  "total": 360,
+  "n_classes": 6,
+  "unseen_gt_label_frames": 0,
+  "predictions": [
+    {
+      "sec": 0,
+      "episode": "episode_00380240",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 11,
+      "episode": "episode_00380240",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 2,
+      "episode": "episode_00380260",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00380260",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00380260",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00380260",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00380280",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00380280",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": false
+    },
+    {
+      "sec": 33,
+      "episode": "episode_00380280",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00380280",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00380280",
+      "gt": "move to insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00380290",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00380290",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 33,
+      "episode": "episode_00380290",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00380290",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00380300",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00380300",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00380310",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00380320",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 20,
+      "episode": "episode_00380320",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00380320",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00380330",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00380330",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00380330",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00380330",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 10,
+      "episode": "episode_00380390",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 22,
+      "episode": "episode_00380390",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 18,
+      "episode": "episode_00380400",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00380400",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 12,
+      "episode": "episode_00380420",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00380420",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00380420",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00380420",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 3,
+      "episode": "episode_00380440",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 15,
+      "episode": "episode_00380440",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 7,
+      "episode": "episode_00380460",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 18,
+      "episode": "episode_00380460",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00380460",
+      "gt": "move to insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00380460",
+      "gt": "move to insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00380480",
+      "gt": "move to insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00380480",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00380480",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00380480",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00380480",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 3,
+      "episode": "episode_00380500",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 15,
+      "episode": "episode_00380500",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 27,
+      "episode": "episode_00380500",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 6,
+      "episode": "episode_00380510",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 18,
+      "episode": "episode_00380510",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00380510",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00380510",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00380510",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00380540",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00380540",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00380540",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00380550",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 16,
+      "episode": "episode_00380550",
+      "gt": "move to insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00380560",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 20,
+      "episode": "episode_00380560",
+      "gt": "move to insectifuge atomizer",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00380560",
+      "gt": "move to insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00380240",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "episode": "episode_00380240",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 33,
+      "episode": "episode_00380240",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00380260",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00380260",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant\nuser\nThe robot's subskill is always",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00380260",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00380280",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 68,
+      "episode": "episode_00380280",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 75,
+      "episode": "episode_00380280",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00380290",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00380290",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 64,
+      "episode": "episode_00380290",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 28,
+      "episode": "episode_00380300",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 34,
+      "episode": "episode_00380300",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00380300",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00380310",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": false
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00380310",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00380320",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00380320",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00380320",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00380320",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 70,
+      "episode": "episode_00380330",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 76,
+      "episode": "episode_00380330",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00380330",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 26,
+      "episode": "episode_00380390",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00380390",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00380390",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant\nassistant\n\n<think>\n\n</think>\n\nmove to pot",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00380400",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00380400",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00380420",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00380420",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 68,
+      "episode": "episode_00380420",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 75,
+      "episode": "episode_00380420",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00380430",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 16,
+      "episode": "episode_00380430",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 22,
+      "episode": "episode_00380430",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 26,
+      "episode": "episode_00380440",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 33,
+      "episode": "episode_00380440",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00380460",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00380460",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 64,
+      "episode": "episode_00380460",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 67,
+      "episode": "episode_00380480",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 74,
+      "episode": "episode_00380480",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00380480",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 86,
+      "episode": "episode_00380480",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00380500",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00380500",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00380500",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 63,
+      "episode": "episode_00380510",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 69,
+      "episode": "episode_00380510",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00380540",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00380540",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 61,
+      "episode": "episode_00380540",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 22,
+      "episode": "episode_00380550",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 28,
+      "episode": "episode_00380550",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00380550",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00380550",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00380550",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00380560",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00380560",
+      "gt": "pick up from insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00380240",
+      "gt": "move to pot plant",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": true
+    },
+    {
+      "sec": 110,
+      "episode": "episode_00380240",
+      "gt": "move to pot plant",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": true
+    },
+    {
+      "sec": 58,
+      "episode": "episode_00380260",
+      "gt": "move to pot plant",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": true
+    },
+    {
+      "sec": 137,
+      "episode": "episode_00380260",
+      "gt": "move to pot plant",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": true
+    },
+    {
+      "sec": 84,
+      "episode": "episode_00380280",
+      "gt": "move to pot plant",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": true
+    },
+    {
+      "sec": 96,
+      "episode": "episode_00380280",
+      "gt": "move to pot plant",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 170,
+      "episode": "episode_00380280",
+      "gt": "move to pot plant",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 183,
+      "episode": "episode_00380280",
+      "gt": "move to pot plant",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 134,
+      "episode": "episode_00380290",
+      "gt": "move to pot plant",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": true
+    },
+    {
+      "sec": 147,
+      "episode": "episode_00380290",
+      "gt": "move to pot plant",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": true
+    },
+    {
+      "sec": 159,
+      "episode": "episode_00380290",
+      "gt": "move to pot plant",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": true
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00380300",
+      "gt": "move to pot plant",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": true
+    },
+    {
+      "sec": 127,
+      "episode": "episode_00380300",
+      "gt": "move to pot plant",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00380310",
+      "gt": "move to pot plant",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00380310",
+      "gt": "move to pot plant",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": true
+    },
+    {
+      "sec": 110,
+      "episode": "episode_00380310",
+      "gt": "move to pot plant",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": true
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00380320",
+      "gt": "move to pot plant",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": true
+    },
+    {
+      "sec": 133,
+      "episode": "episode_00380320",
+      "gt": "move to pot plant",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": true
+    },
+    {
+      "sec": 96,
+      "episode": "episode_00380330",
+      "gt": "move to pot plant",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": true
+    },
+    {
+      "sec": 254,
+      "episode": "episode_00380330",
+      "gt": "move to pot plant",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": true
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00380390",
+      "gt": "move to pot plant",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": true
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00380400",
+      "gt": "move to pot plant",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 128,
+      "episode": "episode_00380400",
+      "gt": "move to pot plant",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00380400",
+      "gt": "move to pot plant",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": true
+    },
+    {
+      "sec": 88,
+      "episode": "episode_00380420",
+      "gt": "move to pot plant",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 100,
+      "episode": "episode_00380420",
+      "gt": "move to pot plant",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": true
+    },
+    {
+      "sec": 250,
+      "episode": "episode_00380420",
+      "gt": "move to pot plant",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": true
+    },
+    {
+      "sec": 262,
+      "episode": "episode_00380420",
+      "gt": "move to pot plant",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": true
+    },
+    {
+      "sec": 33,
+      "episode": "episode_00380430",
+      "gt": "move to pot plant",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": true
+    },
+    {
+      "sec": 142,
+      "episode": "episode_00380430",
+      "gt": "move to pot plant",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": true
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00380440",
+      "gt": "move to pot plant",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": true
+    },
+    {
+      "sec": 52,
+      "episode": "episode_00380440",
+      "gt": "move to pot plant",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 148,
+      "episode": "episode_00380440",
+      "gt": "move to pot plant",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": true
+    },
+    {
+      "sec": 161,
+      "episode": "episode_00380440",
+      "gt": "move to pot plant",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": true
+    },
+    {
+      "sec": 173,
+      "episode": "episode_00380440",
+      "gt": "move to pot plant",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": true
+    },
+    {
+      "sec": 186,
+      "episode": "episode_00380440",
+      "gt": "move to pot plant",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": true
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00380460",
+      "gt": "move to pot plant",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": true
+    },
+    {
+      "sec": 174,
+      "episode": "episode_00380460",
+      "gt": "move to pot plant",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": true
+    },
+    {
+      "sec": 96,
+      "episode": "episode_00380480",
+      "gt": "move to pot plant",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 108,
+      "episode": "episode_00380480",
+      "gt": "move to pot plant",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": true
+    },
+    {
+      "sec": 191,
+      "episode": "episode_00380480",
+      "gt": "move to pot plant",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 203,
+      "episode": "episode_00380480",
+      "gt": "move to pot plant",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 216,
+      "episode": "episode_00380480",
+      "gt": "move to pot plant",
+      "pred": "turn on switch pot plant",
+      "raw": "turn on switch pot plant",
+      "correct": false
+    },
+    {
+      "sec": 134,
+      "episode": "episode_00380500",
+      "gt": "move to pot plant",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00380510",
+      "gt": "move to pot plant",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": true
+    },
+    {
+      "sec": 92,
+      "episode": "episode_00380510",
+      "gt": "move to pot plant",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": true
+    },
+    {
+      "sec": 104,
+      "episode": "episode_00380510",
+      "gt": "move to pot plant",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": true
+    },
+    {
+      "sec": 194,
+      "episode": "episode_00380510",
+      "gt": "move to pot plant",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": true
+    },
+    {
+      "sec": 72,
+      "episode": "episode_00380540",
+      "gt": "move to pot plant",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": true
+    },
+    {
+      "sec": 84,
+      "episode": "episode_00380540",
+      "gt": "move to pot plant",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": true
+    },
+    {
+      "sec": 151,
+      "episode": "episode_00380540",
+      "gt": "move to pot plant",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 163,
+      "episode": "episode_00380540",
+      "gt": "move to pot plant",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": true
+    },
+    {
+      "sec": 115,
+      "episode": "episode_00380550",
+      "gt": "move to pot plant",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 127,
+      "episode": "episode_00380550",
+      "gt": "move to pot plant",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 140,
+      "episode": "episode_00380550",
+      "gt": "move to pot plant",
+      "pred": "move to insectifuge atomizer",
+      "raw": "move to insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 153,
+      "episode": "episode_00380550",
+      "gt": "move to pot plant",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": true
+    },
+    {
+      "sec": 165,
+      "episode": "episode_00380550",
+      "gt": "move to pot plant",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": true
+    },
+    {
+      "sec": 178,
+      "episode": "episode_00380550",
+      "gt": "move to pot plant",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": true
+    },
+    {
+      "sec": 67,
+      "episode": "episode_00380560",
+      "gt": "move to pot plant",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": true
+    },
+    {
+      "sec": 161,
+      "episode": "episode_00380560",
+      "gt": "move to pot plant",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": true
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00380240",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00380240",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 124,
+      "episode": "episode_00380240",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 129,
+      "episode": "episode_00380240",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 67,
+      "episode": "episode_00380260",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 145,
+      "episode": "episode_00380260",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 105,
+      "episode": "episode_00380280",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 187,
+      "episode": "episode_00380280",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 70,
+      "episode": "episode_00380290",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 160,
+      "episode": "episode_00380290",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00380300",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": false
+    },
+    {
+      "sec": 72,
+      "episode": "episode_00380300",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn off switch insectifuge atomizer",
+      "raw": "turn off switch insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 138,
+      "episode": "episode_00380300",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn off switch insectifuge atomizer",
+      "raw": "turn off switch insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 143,
+      "episode": "episode_00380300",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00380310",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn off switch insectifuge atomizer",
+      "raw": "turn off switch insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 119,
+      "episode": "episode_00380310",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00380320",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00380320",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 140,
+      "episode": "episode_00380320",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 105,
+      "episode": "episode_00380330",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 110,
+      "episode": "episode_00380330",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn off switch insectifuge atomizer",
+      "raw": "turn off switch insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 267,
+      "episode": "episode_00380330",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 272,
+      "episode": "episode_00380330",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn off switch insectifuge atomizer",
+      "raw": "turn off switch insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00380390",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 116,
+      "episode": "episode_00380390",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 59,
+      "episode": "episode_00380400",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 146,
+      "episode": "episode_00380400",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 151,
+      "episode": "episode_00380400",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 121,
+      "episode": "episode_00380420",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch pot plant",
+      "raw": "turn on switch pot plant",
+      "correct": false
+    },
+    {
+      "sec": 126,
+      "episode": "episode_00380420",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch pot plant",
+      "raw": "turn on switch pot plant",
+      "correct": false
+    },
+    {
+      "sec": 277,
+      "episode": "episode_00380420",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 283,
+      "episode": "episode_00380420",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00380430",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 153,
+      "episode": "episode_00380430",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch pot plant",
+      "raw": "turn on switch pot plant",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00380440",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 59,
+      "episode": "episode_00380440",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 199,
+      "episode": "episode_00380440",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 74,
+      "episode": "episode_00380460",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00380460",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00380460",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": false
+    },
+    {
+      "sec": 186,
+      "episode": "episode_00380460",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 191,
+      "episode": "episode_00380460",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn off switch insectifuge atomizer",
+      "raw": "turn off switch insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 119,
+      "episode": "episode_00380480",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 218,
+      "episode": "episode_00380480",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch pot plant",
+      "raw": "turn on switch pot plant",
+      "correct": false
+    },
+    {
+      "sec": 223,
+      "episode": "episode_00380480",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 63,
+      "episode": "episode_00380500",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 68,
+      "episode": "episode_00380500",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 143,
+      "episode": "episode_00380500",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 108,
+      "episode": "episode_00380510",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 113,
+      "episode": "episode_00380510",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 203,
+      "episode": "episode_00380510",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 95,
+      "episode": "episode_00380540",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 168,
+      "episode": "episode_00380540",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00380550",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 59,
+      "episode": "episode_00380550",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn off switch insectifuge atomizer",
+      "raw": "turn off switch insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 191,
+      "episode": "episode_00380550",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 196,
+      "episode": "episode_00380550",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 73,
+      "episode": "episode_00380560",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 78,
+      "episode": "episode_00380560",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 177,
+      "episode": "episode_00380560",
+      "gt": "turn on switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 59,
+      "episode": "episode_00380240",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 94,
+      "episode": "episode_00380240",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00380260",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 106,
+      "episode": "episode_00380260",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 170,
+      "episode": "episode_00380260",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 122,
+      "episode": "episode_00380280",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 205,
+      "episode": "episode_00380280",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 88,
+      "episode": "episode_00380290",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 173,
+      "episode": "episode_00380290",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 208,
+      "episode": "episode_00380290",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 107,
+      "episode": "episode_00380300",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 169,
+      "episode": "episode_00380300",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00380310",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00380310",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 86,
+      "episode": "episode_00380320",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 150,
+      "episode": "episode_00380320",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 117,
+      "episode": "episode_00380330",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 152,
+      "episode": "episode_00380330",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 187,
+      "episode": "episode_00380330",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 222,
+      "episode": "episode_00380330",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 294,
+      "episode": "episode_00380330",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 329,
+      "episode": "episode_00380330",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 364,
+      "episode": "episode_00380330",
+      "gt": "spray insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 76,
+      "episode": "episode_00380390",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 128,
+      "episode": "episode_00380390",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 163,
+      "episode": "episode_00380390",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 95,
+      "episode": "episode_00380400",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 169,
+      "episode": "episode_00380400",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 130,
+      "episode": "episode_00380420",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 165,
+      "episode": "episode_00380420",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 201,
+      "episode": "episode_00380420",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 299,
+      "episode": "episode_00380420",
+      "gt": "spray insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 334,
+      "episode": "episode_00380420",
+      "gt": "spray insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00380430",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00380430",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 114,
+      "episode": "episode_00380430",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 185,
+      "episode": "episode_00380430",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 220,
+      "episode": "episode_00380430",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 91,
+      "episode": "episode_00380440",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 126,
+      "episode": "episode_00380440",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 232,
+      "episode": "episode_00380440",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 103,
+      "episode": "episode_00380460",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 138,
+      "episode": "episode_00380460",
+      "gt": "spray insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 215,
+      "episode": "episode_00380460",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 144,
+      "episode": "episode_00380480",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 240,
+      "episode": "episode_00380480",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 275,
+      "episode": "episode_00380480",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 91,
+      "episode": "episode_00380500",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 148,
+      "episode": "episode_00380500",
+      "gt": "spray insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 183,
+      "episode": "episode_00380500",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 133,
+      "episode": "episode_00380510",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 168,
+      "episode": "episode_00380510",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 229,
+      "episode": "episode_00380510",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 118,
+      "episode": "episode_00380540",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 186,
+      "episode": "episode_00380540",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00380550",
+      "gt": "spray insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 222,
+      "episode": "episode_00380550",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 257,
+      "episode": "episode_00380550",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 107,
+      "episode": "episode_00380560",
+      "gt": "spray insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 185,
+      "episode": "episode_00380560",
+      "gt": "spray insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 100,
+      "episode": "episode_00380240",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 105,
+      "episode": "episode_00380240",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn off switch insectifuge atomizer",
+      "raw": "turn off switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 166,
+      "episode": "episode_00380240",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 126,
+      "episode": "episode_00380260",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn off switch insectifuge atomizer",
+      "raw": "turn off switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 194,
+      "episode": "episode_00380260",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 149,
+      "episode": "episode_00380280",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn off switch insectifuge atomizer",
+      "raw": "turn off switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 155,
+      "episode": "episode_00380280",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn off switch insectifuge atomizer",
+      "raw": "turn off switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 232,
+      "episode": "episode_00380280",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn off switch insectifuge atomizer",
+      "raw": "turn off switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 116,
+      "episode": "episode_00380290",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn off switch insectifuge atomizer",
+      "raw": "turn off switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 122,
+      "episode": "episode_00380290",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn off switch insectifuge atomizer",
+      "raw": "turn off switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 215,
+      "episode": "episode_00380290",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn off switch insectifuge atomizer",
+      "raw": "turn off switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 119,
+      "episode": "episode_00380300",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn off switch insectifuge atomizer",
+      "raw": "turn off switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 124,
+      "episode": "episode_00380300",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 187,
+      "episode": "episode_00380300",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn off switch insectifuge atomizer",
+      "raw": "turn off switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 102,
+      "episode": "episode_00380310",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 168,
+      "episode": "episode_00380310",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn off switch insectifuge atomizer",
+      "raw": "turn off switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 116,
+      "episode": "episode_00380320",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 182,
+      "episode": "episode_00380320",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn off switch insectifuge atomizer",
+      "raw": "turn off switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 188,
+      "episode": "episode_00380320",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 240,
+      "episode": "episode_00380330",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 380,
+      "episode": "episode_00380330",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 386,
+      "episode": "episode_00380330",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 392,
+      "episode": "episode_00380330",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 105,
+      "episode": "episode_00380390",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 169,
+      "episode": "episode_00380390",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn off switch insectifuge atomizer",
+      "raw": "turn off switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 117,
+      "episode": "episode_00380400",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 202,
+      "episode": "episode_00380400",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn off switch insectifuge atomizer",
+      "raw": "turn off switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 207,
+      "episode": "episode_00380400",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 229,
+      "episode": "episode_00380420",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn off switch insectifuge atomizer",
+      "raw": "turn off switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 235,
+      "episode": "episode_00380420",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn off switch insectifuge atomizer",
+      "raw": "turn off switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 374,
+      "episode": "episode_00380420",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn off switch insectifuge atomizer",
+      "raw": "turn off switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 379,
+      "episode": "episode_00380420",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 123,
+      "episode": "episode_00380430",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn off switch insectifuge atomizer",
+      "raw": "turn off switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 129,
+      "episode": "episode_00380430",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 229,
+      "episode": "episode_00380430",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 136,
+      "episode": "episode_00380440",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 150,
+      "episode": "episode_00380460",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "pick up from insectifuge atomizer",
+      "raw": "pick up from insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 156,
+      "episode": "episode_00380460",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn off switch insectifuge atomizer",
+      "raw": "turn off switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 161,
+      "episode": "episode_00380460",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 234,
+      "episode": "episode_00380460",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn off switch insectifuge atomizer",
+      "raw": "turn off switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 240,
+      "episode": "episode_00380460",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn off switch insectifuge atomizer",
+      "raw": "turn off switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 167,
+      "episode": "episode_00380480",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 172,
+      "episode": "episode_00380480",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn off switch insectifuge atomizer",
+      "raw": "turn off switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 178,
+      "episode": "episode_00380480",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "spray insectifuge atomizer",
+      "raw": "spray insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 297,
+      "episode": "episode_00380480",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 127,
+      "episode": "episode_00380500",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn off switch insectifuge atomizer",
+      "raw": "turn off switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 202,
+      "episode": "episode_00380500",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn off switch insectifuge atomizer",
+      "raw": "turn off switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 208,
+      "episode": "episode_00380500",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "move to pot plant",
+      "raw": "move to pot plant",
+      "correct": false
+    },
+    {
+      "sec": 183,
+      "episode": "episode_00380510",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 249,
+      "episode": "episode_00380510",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn off switch insectifuge atomizer",
+      "raw": "turn off switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00380540",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn off switch insectifuge atomizer",
+      "raw": "turn off switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 202,
+      "episode": "episode_00380540",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn off switch insectifuge atomizer",
+      "raw": "turn off switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 97,
+      "episode": "episode_00380550",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn off switch insectifuge atomizer",
+      "raw": "turn off switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 102,
+      "episode": "episode_00380550",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn off switch insectifuge atomizer",
+      "raw": "turn off switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 266,
+      "episode": "episode_00380550",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn off switch insectifuge atomizer",
+      "raw": "turn off switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 272,
+      "episode": "episode_00380550",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 142,
+      "episode": "episode_00380560",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn off switch insectifuge atomizer",
+      "raw": "turn off switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 147,
+      "episode": "episode_00380560",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn off switch insectifuge atomizer",
+      "raw": "turn off switch insectifuge atomizer",
+      "correct": true
+    },
+    {
+      "sec": 222,
+      "episode": "episode_00380560",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": false
+    },
+    {
+      "sec": 228,
+      "episode": "episode_00380560",
+      "gt": "turn off switch insectifuge atomizer",
+      "pred": "turn on switch insectifuge atomizer",
+      "raw": "turn on switch insectifuge atomizer",
+      "correct": false
+    }
+  ]
+}

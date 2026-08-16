@@ -1,0 +1,5259 @@
+{
+  "task_chunk": "task-0049",
+  "task_name": "make pizza",
+  "n_held_out_episodes": 5,
+  "accuracy": 0.2576219512195122,
+  "macro_recall": 0.2534132899931585,
+  "correct": 169,
+  "total": 656,
+  "predictions": [
+    {
+      "sec": 5,
+      "episode": "episode_00490020",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The kitchen counter and dining chairs come into view while the arms hang low and idle, consistent with traversing the space.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 14,
+      "episode": "episode_00490020",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The kitchen counter and oven are now centered and the arms hang low and idle, no manipulation contact visible.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00490020",
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right arm is extended over the counter with the dough on the tray, gripper closed on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 175,
+      "episode": "episode_00490020",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the stove and microwave with no arms or objects in reach, just the kitchen counter and fridge.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 249,
+      "episode": "episode_00490020",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the stove and microwave with the arms low and empty, showing the kitchen from a distance.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 304,
+      "episode": "episode_00490020",
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The right gripper is down at the counter holding the white pizza tray, which now sits on the surface beside the other gripper.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 427,
+      "episode": "episode_00490020",
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right arm is extended over the stovetop with the bowl now sitting on the burners, gripper still closed on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 467,
+      "episode": "episode_00490020",
+      "gt": "move to",
+      "pred": "close door",
+      "raw": "Reasoning: The right arm is down at the oven door handle with the door now down and the interior empty, the door being closed.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00490620",
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "Reasoning: The pizza dough is now on the black cutting board with the gripper still at its edge, just released.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00490620",
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the wooden cutting board with the pink onion just lifted clear of it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 241,
+      "episode": "episode_00490620",
+      "gt": "move to",
+      "pred": "close door",
+      "raw": "Reasoning: The camera has swung to the corner with the pizza dough on the stovetop and the oven door closed shut, no arms visible.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 249,
+      "episode": "episode_00490620",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the fridge and microwave on the left with no arms extended, so this is the base navigation frame.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 317,
+      "episode": "episode_00490620",
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the white tub on the counter, closing on its contents.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 341,
+      "episode": "episode_00490620",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the stove and microwave on the counter with no arms extended, just the kitchen layout changing.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 369,
+      "episode": "episode_00490620",
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the white bowl on the counter with two white pieces inside, closing on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 453,
+      "episode": "episode_00490620",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the sink counter with the cutting board and bowl on the left and the white containers on the right, arms low and idle.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 462,
+      "episode": "episode_00490620",
+      "gt": "move to",
+      "pred": "open door",
+      "raw": "Reasoning: The fridge is now open and empty, with no arms visible in the frame.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 585,
+      "episode": "episode_00490620",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the stove and microwave on the counter with no arms extended, so this is the base navigation frame.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 607,
+      "episode": "episode_00490620",
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right arm is down at the counter beside the cutting board and bowl, closing on the board surface.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 629,
+      "episode": "episode_00490620",
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the black baking tray on the counter, holding the white plate with toppings.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 680,
+      "episode": "episode_00490620",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the stove and oven with the pizza on the counter and the robot's arms low and empty, no manipulation contact visible.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 6,
+      "episode": "episode_00491160",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the L-shaped stainless kitchen counter with the sink, stove and microwave fully framed and no arms visible.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00491160",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the sink counter with the board and pink vegetable on it, arms low and idle.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00491160",
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "Reasoning: The right arm is down at the counter beside the bowl and cutting board, closing on the board surface.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 160,
+      "episode": "episode_00491160",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the sink counter with the bowl and cutting board now visible, but no arms are extended toward anything.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 234,
+      "episode": "episode_00491160",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the stove and microwave on the counter with no arms extended, consistent with repositioning the base.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 293,
+      "episode": "episode_00491160",
+      "gt": "move to",
+      "pred": "open door",
+      "raw": "Reasoning: The open fridge fills the right of frame and the gripper is at the open door edge, though the door is already swung wide.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 302,
+      "episode": "episode_00491160",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The kitchen counter and sink are now visible ahead with the gripper still down at the white tub on the floor.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 331,
+      "episode": "episode_00491160",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the stove and microwave with no arms or objects in reach, just the kitchen counter.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 483,
+      "episode": "episode_00491160",
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the white tub of white cubes on the floor, closing on its own container.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 526,
+      "episode": "episode_00491160",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the sink counter with the cutting board and bowl on the counter and no arms visible, so only the change in viewpoint distinguishes this.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 708,
+      "episode": "episode_00491160",
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "Reasoning: The white pizza is now sitting on the black tray with toppings, and the right gripper is retracting from it.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00491670",
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right arm is extended over the counter with the dough on the black surface, gripper closed on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 152,
+      "episode": "episode_00491670",
+      "gt": "move to",
+      "pred": "pull tray",
+      "raw": "Reasoning: The right gripper is down at the far right edge of the counter, closing on the sink area rather than on any object.\nAnswer: pull tray",
+      "correct": false
+    },
+    {
+      "sec": 195,
+      "episode": "episode_00491670",
+      "gt": "move to",
+      "pred": "open door",
+      "raw": "Reasoning: The fridge door is now swung open wide enough that the interior shelves and the white bowl held by the right gripper are fully visible.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 224,
+      "episode": "episode_00491670",
+      "gt": "move to",
+      "pred": "open door",
+      "raw": "Reasoning: The fridge door is now swung wide open with the interior shelves fully exposed and the right gripper still at the handle.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 318,
+      "episode": "episode_00491670",
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The plate is now held in the left gripper and tilted away from the counter, with the wooden cutting board visible ahead.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00492320",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the wall corner with no manipulator visible \u2014 the base is turning toward the door.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00492320",
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "Reasoning: The pizza is now sitting on the white tub on the counter, gripper still holding it.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00492320",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the stove and oven with no arms or objects in reach, just the kitchen counter and appliances.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 75,
+      "episode": "episode_00492320",
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the board with the pink and white items clustered on it, the end of the transfer.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 93,
+      "episode": "episode_00492320",
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The right gripper is at the sink edge with the bowl sitting on the counter below, closing on the sink.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 142,
+      "episode": "episode_00492320",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the stove and oven with no arms or objects in reach, just the kitchen counter and appliances.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 175,
+      "episode": "episode_00492320",
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "Reasoning: The right arm is extended over the counter with the bowl and cutting board on the board beneath it.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 210,
+      "episode": "episode_00492320",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the sink counter with the cutting board and pink item on it, but no gripper is visible in the frame.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 273,
+      "episode": "episode_00492320",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the stove and microwave on the counter with no arms extended, so this is the base navigation frame.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 340,
+      "episode": "episode_00492320",
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The open fridge fills the right of frame and the gripper is down at the bottom holding the white tub, which is now sitting on the floor beside the open door.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 361,
+      "episode": "episode_00492320",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the stove and oven with the dough on the black tray and the red indicator on the control panel, but no arms are visible in the frame.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 370,
+      "episode": "episode_00492320",
+      "gt": "move to",
+      "pred": "open door",
+      "raw": "Reasoning: The fridge door is now swung open wide enough to reveal the interior shelves, with the arm still out of frame.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 508,
+      "episode": "episode_00492320",
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down in the trash can with the white tub and the two pale pieces inside, gripper closed on them.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 635,
+      "episode": "episode_00492320",
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "Reasoning: The pizza is now sitting on the black baking tray on the stovetop with the red pepper topping still on it.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 131,
+      "episode": "episode_00490020",
+      "gt": "pick up from",
+      "pred": "chop",
+      "raw": "Reasoning: The right gripper is down at the board edge with the blade lowered, a chopping motion.\nAnswer: chop",
+      "correct": false
+    },
+    {
+      "sec": 213,
+      "episode": "episode_00490020",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The left gripper holds the tub inside the open fridge, the arm angled into the cavity.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 286,
+      "episode": "episode_00490020",
+      "gt": "pick up from",
+      "pred": "close door",
+      "raw": "Reasoning: The fridge door is now shut flush and the view has turned inward toward the stove and oven, with no arms extended.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 350,
+      "episode": "episode_00490020",
+      "gt": "pick up from",
+      "pred": "chop",
+      "raw": "Reasoning: The board is now tilted with chopped white pieces on it and the knife still in the gripper.\nAnswer: chop",
+      "correct": false
+    },
+    {
+      "sec": 400,
+      "episode": "episode_00490020",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the far edge of the cutting board with fingers spread on the board surface.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 450,
+      "episode": "episode_00490020",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the plate of toppings, closing on it.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00490620",
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the kitchen counter with the pizza on the black tray and the apple on the cutting board, arms low and idle.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "episode": "episode_00490620",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The pizza dough sits on the black baking tray in the gripper's fingers, the last contact with the surface.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 64,
+      "episode": "episode_00490620",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the wooden cutting board on the counter, closing on it.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 83,
+      "episode": "episode_00490620",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The board is now tilted up off the counter with the gripper still on it, mid-reach.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 164,
+      "episode": "episode_00490620",
+      "gt": "pick up from",
+      "pred": "chop",
+      "raw": "Reasoning: The right gripper holds the knife raised above the board with the radish still on it, mid-cut.\nAnswer: chop",
+      "correct": false
+    },
+    {
+      "sec": 217,
+      "episode": "episode_00490620",
+      "gt": "pick up from",
+      "pred": "chop",
+      "raw": "Reasoning: The board now holds more chopped pieces than the previous frame, with the gripper still on its right side.\nAnswer: chop",
+      "correct": false
+    },
+    {
+      "sec": 310,
+      "episode": "episode_00490620",
+      "gt": "pick up from",
+      "pred": "open door",
+      "raw": "Reasoning: The fridge door is now swung wide open with the interior shelves and trash can fully exposed, and the right arm is raised toward the door face.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 364,
+      "episode": "episode_00490620",
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The right arm is inside the open fridge with the white tray now sitting on the shelf inside.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 423,
+      "episode": "episode_00490620",
+      "gt": "pick up from",
+      "pred": "chop",
+      "raw": "Reasoning: The right gripper is down at the cutting board with the blade lowered over it, small white pieces now on the board.\nAnswer: chop",
+      "correct": false
+    },
+    {
+      "sec": 551,
+      "episode": "episode_00490620",
+      "gt": "pick up from",
+      "pred": "open door",
+      "raw": "Reasoning: The right arm is extended into the open fridge with the gripper at the shelf edge, closing on a compartment.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 647,
+      "episode": "episode_00490620",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the white tub of white beans on the counter, closing on it.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 755,
+      "episode": "episode_00490620",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the black tray holding the topped pizza, closing on it.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 20,
+      "episode": "episode_00491160",
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is now at the sink counter with the pizza dough on the black tray and the arms low and idle, no manipulation contact visible.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00491160",
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The right arm is extended over the counter with the bowl lowered down onto the surface beside the knife.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 102,
+      "episode": "episode_00491160",
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The counter is now filled with the bowl and the cutting board with the pink pepper on it, and the robot is beginning to shift away from the surface.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 121,
+      "episode": "episode_00491160",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the white bowl on the counter, closing on its rim.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 178,
+      "episode": "episode_00491160",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the counter beside the cutting board, closing on the board itself.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 282,
+      "episode": "episode_00491160",
+      "gt": "pick up from",
+      "pred": "close door",
+      "raw": "Reasoning: The right arm is inside the open fridge with the gripper at the door front, closing it.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 405,
+      "episode": "episode_00491160",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The arm is extended into the open fridge with the gripper at the shelf edge, closing on the shelf rather than the door.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 423,
+      "episode": "episode_00491160",
+      "gt": "pick up from",
+      "pred": "close door",
+      "raw": "Reasoning: The fridge door is now shut flush and the gripper is at the door's lower edge, beginning the latch.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 441,
+      "episode": "episode_00491160",
+      "gt": "pick up from",
+      "pred": "open door",
+      "raw": "Reasoning: The right arm is inside the cavity, gripper at the shelf edge, closing on a compartment.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 534,
+      "episode": "episode_00491160",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the cutting board where three white cubes sit, with the left arm bracing at the board edge.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 583,
+      "episode": "episode_00491160",
+      "gt": "pick up from",
+      "pred": "place on next to",
+      "raw": "Reasoning: The right arm is down at the counter beside the cutting board and bowl, closing on the board surface.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 703,
+      "episode": "episode_00491160",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The left gripper is down at the edge of the bowl on the counter, closing on it.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 14,
+      "episode": "episode_00491670",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the black cutting board where the dough rests, closing on the board surface.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00491670",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the counter by the sink, holding the white bowl.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 75,
+      "episode": "episode_00491670",
+      "gt": "pick up from",
+      "pred": "chop",
+      "raw": "Reasoning: The right gripper is down at the board edge with the blade angled into it, small pieces of vegetable on the board.\nAnswer: chop",
+      "correct": false
+    },
+    {
+      "sec": 115,
+      "episode": "episode_00491670",
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The right gripper is at the far right edge of the counter next to the sink, with no object in hand.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 175,
+      "episode": "episode_00491670",
+      "gt": "pick up from",
+      "pred": "close door",
+      "raw": "Reasoning: The fridge door is now swung open and the arms are at the bottom left, retracting from the opening.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 193,
+      "episode": "episode_00491670",
+      "gt": "pick up from",
+      "pred": "open door",
+      "raw": "Reasoning: The fridge door is now swung open wide enough to see the interior shelves and the white tub already inside, with the right arm raised in the opening.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 303,
+      "episode": "episode_00491670",
+      "gt": "pick up from",
+      "pred": "chop",
+      "raw": "Reasoning: The right gripper is down at the cutting board with the knife blade lowered over it, small white pieces now scattered on the board.\nAnswer: chop",
+      "correct": false
+    },
+    {
+      "sec": 398,
+      "episode": "episode_00491670",
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the stove and pizza tray with the arms lowered and empty, no manipulation contact visible.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00492320",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the black tray on the counter, closing on the dough disc.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00492320",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the board's edge, closing on the cutting board surface.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 123,
+      "episode": "episode_00492320",
+      "gt": "pick up from",
+      "pred": "pull tray",
+      "raw": "Reasoning: The right arm is extended over the black baking tray holding the dough, gripper at the tray's edge.\nAnswer: pull tray",
+      "correct": false
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00492320",
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the stove and oven with no arms or objects in reach, just the counter and appliances.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 162,
+      "episode": "episode_00492320",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the wooden cutting board on the counter, closing on it.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 235,
+      "episode": "episode_00492320",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the cutting board where the chopped white cubes now sit, with the left arm bracing at the board edge.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 329,
+      "episode": "episode_00492320",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right arm is inside the open fridge, gripper at the shelf edge where the white container sits.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 440,
+      "episode": "episode_00492320",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The arm is inside the open fridge, reaching toward the shelf where the white tub sits.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 459,
+      "episode": "episode_00492320",
+      "gt": "pick up from",
+      "pred": "open door",
+      "raw": "Reasoning: The fridge door is now swung open wide with the interior shelves and drawers fully exposed, and the arms are not extended toward any object.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 477,
+      "episode": "episode_00492320",
+      "gt": "pick up from",
+      "pred": "close door",
+      "raw": "Reasoning: The fridge door is now flush and the view has swung to the open fridge with the white container on top \u2014 the door is closed.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 571,
+      "episode": "episode_00492320",
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The right gripper is down at the cutting board where the knife has just been set down, with chopped pieces on the board.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 620,
+      "episode": "episode_00492320",
+      "gt": "pick up from",
+      "pred": "place on next to",
+      "raw": "Reasoning: The bowl of toppings is now sitting on the counter with the board beside it, gripper still down at its side.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 728,
+      "episode": "episode_00492320",
+      "gt": "pick up from",
+      "pred": "open door",
+      "raw": "Reasoning: The oven door is now down and the wire rack is exposed on the open door, with the gripper still at the handle.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00490020",
+      "gt": "place on next to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the black tray holding the dough, closing on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 112,
+      "episode": "episode_00490020",
+      "gt": "place on next to",
+      "pred": "place on",
+      "raw": "Reasoning: The right gripper is down at the counter right beside the cutting board, closing on the board surface.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 117,
+      "episode": "episode_00490020",
+      "gt": "place on next to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The board now holds both the pink pepper and the knife, held in the right gripper.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 123,
+      "episode": "episode_00490020",
+      "gt": "place on next to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the counter beside the cutting board and bowl, closing on the board.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 234,
+      "episode": "episode_00490020",
+      "gt": "place on next to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the white tub on the counter, closing on its contents.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 239,
+      "episode": "episode_00490020",
+      "gt": "place on next to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has turned to the counter with the cutting board and pink apple on it, arms low and idle.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 245,
+      "episode": "episode_00490020",
+      "gt": "place on next to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right arm is down at the counter beside the wooden cutting board and white bowls, closing on the board edge.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 337,
+      "episode": "episode_00490020",
+      "gt": "place on next to",
+      "pred": "push to",
+      "raw": "Reasoning: The right gripper is at the far right of the board with the knife extended, board still intact and no pieces separated.\nAnswer: push to",
+      "correct": false
+    },
+    {
+      "sec": 361,
+      "episode": "episode_00490020",
+      "gt": "place on next to",
+      "pred": "push to",
+      "raw": "Reasoning: The right arm is extended over the cutting board with the gripper down at its surface, closing on the board rather than lifting.\nAnswer: push to",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00490620",
+      "gt": "place on next to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the black pizza pan on the counter, closing on the dough itself.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 90,
+      "episode": "episode_00490620",
+      "gt": "place on next to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the cutting board's edge, closing on it rather than pulling away.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 95,
+      "episode": "episode_00490620",
+      "gt": "place on next to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The board is now resting on the counter beside the bowl, with the gripper still down at its source.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 127,
+      "episode": "episode_00490620",
+      "gt": "place on next to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right arm is extended over the counter with the gripper down at the cutting board where the white bowl sits.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 171,
+      "episode": "episode_00490620",
+      "gt": "place on next to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the cutting board where the pink onion sits, closing on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 176,
+      "episode": "episode_00490620",
+      "gt": "place on next to",
+      "pred": "push to",
+      "raw": "Reasoning: The right gripper is at the far right of the board with the knife raised above the surface, mid-contact.\nAnswer: push to",
+      "correct": false
+    },
+    {
+      "sec": 182,
+      "episode": "episode_00490620",
+      "gt": "place on next to",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the counter with the onion on the cutting board and the knife standing upright, no arms visible.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 187,
+      "episode": "episode_00490620",
+      "gt": "place on next to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has turned to face the counter with the cutting board and knife on it, but no gripper is visible in the frame.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 208,
+      "episode": "episode_00490620",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board now sits on the counter beside the bowl, with the right arm retracting away.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 233,
+      "episode": "episode_00490620",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now upright on the counter with the bowl beside it, and the right arm is retracting from the board.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 320,
+      "episode": "episode_00490620",
+      "gt": "place on next to",
+      "pred": "place on",
+      "raw": "Reasoning: The right gripper is down at the counter beside the dough on the black mat, closing on it.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 325,
+      "episode": "episode_00490620",
+      "gt": "place on next to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the white tub on the counter, closing on its contents.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 331,
+      "episode": "episode_00490620",
+      "gt": "place on next to",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the sink counter with the dough on the cutting board and the arms low and empty, no manipulation contact visible.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00491160",
+      "gt": "place on next to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the black square dish on the counter, closing on the dough roll.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00491160",
+      "gt": "place on next to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The pizza dough sits on the black baking tray and the right gripper is at the edge of it, closing on the tray surface.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00491160",
+      "gt": "place on next to",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the stove counter with the dough on the black tray and the red knob visible on the oven front, but no arm is extended toward anything.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00491160",
+      "gt": "place on next to",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the stove and oven with no arms or objects in reach, just the kitchen counter and appliances.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 96,
+      "episode": "episode_00491160",
+      "gt": "place on next to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right arm is extended down onto the wooden cutting board where the pink topping sits, closing on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 139,
+      "episode": "episode_00491160",
+      "gt": "place on next to",
+      "pred": "chop",
+      "raw": "Reasoning: The right gripper is down at the wooden cutting board with the black and white tool against it, small pieces of vegetable on the board.\nAnswer: chop",
+      "correct": false
+    },
+    {
+      "sec": 144,
+      "episode": "episode_00491160",
+      "gt": "place on next to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right arm is down at the cutting board with the gripper closed on it, board tilted down.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 149,
+      "episode": "episode_00491160",
+      "gt": "place on next to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right arm is down at the counter with the gripper closed on the cutting board, board now tilted up off the surface.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 155,
+      "episode": "episode_00491160",
+      "gt": "place on next to",
+      "pred": "move to",
+      "raw": "Reasoning: The right gripper is at the sink area with the black brush on the counter, no object contact yet.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 193,
+      "episode": "episode_00491160",
+      "gt": "place on next to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the cutting board where the chopped white pieces sit, closing on the board.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 216,
+      "episode": "episode_00491160",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The right gripper is down at the board's right edge, closing on the cutting board rather than the knife.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 222,
+      "episode": "episode_00491160",
+      "gt": "place on next to",
+      "pred": "move to",
+      "raw": "Reasoning: The board and bowl sit side by side on the counter with the robot's arms not in frame \u2014 a base traverse frame.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 489,
+      "episode": "episode_00491160",
+      "gt": "place on next to",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the stove counter with the dough on the black tray and the gripper still holding the tub, no contact yet.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 494,
+      "episode": "episode_00491160",
+      "gt": "place on next to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the white tub on the counter, closing on its contents.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00491670",
+      "gt": "place on next to",
+      "pred": "place on",
+      "raw": "Reasoning: The right gripper is down at the black dish on the counter, closing on the dough rather than on anything else.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00491670",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The right gripper is down at the counter right beside the white bowl, closing on the surface rather than the object.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00491670",
+      "gt": "place on next to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the counter right of the sink, closing on the white container.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 99,
+      "episode": "episode_00491670",
+      "gt": "place on next to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the board's edge, closing on it to lift the wooden cutting board.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 104,
+      "episode": "episode_00491670",
+      "gt": "place on next to",
+      "pred": "chop",
+      "raw": "Reasoning: The right gripper is down at the board with the knife held just above it, a chopping motion.\nAnswer: chop",
+      "correct": false
+    },
+    {
+      "sec": 150,
+      "episode": "episode_00491670",
+      "gt": "place on next to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The board and bowl are now centered and the right arm is down at the board edge, closing on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 204,
+      "episode": "episode_00491670",
+      "gt": "place on next to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the white trash can on the counter, closing on its sides.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00492320",
+      "gt": "place on next to",
+      "pred": "pull tray",
+      "raw": "Reasoning: The pizza is now on the hot griddle with the gripper still attached to its edge.\nAnswer: pull tray",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00492320",
+      "gt": "place on next to",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the stove counter with the dough on the black tray and the microwave on the right, arms low and idle.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 87,
+      "episode": "episode_00492320",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The right arm is extended over the counter right beside the bowl, closing on the surface rather than a target.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 92,
+      "episode": "episode_00492320",
+      "gt": "place on next to",
+      "pred": "move to",
+      "raw": "Reasoning: The right arm is extended over the counter with the gripper open at the sink area, not on any object.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 181,
+      "episode": "episode_00492320",
+      "gt": "place on next to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the counter beside the cutting board, closing on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 187,
+      "episode": "episode_00492320",
+      "gt": "place on next to",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the kitchen counter with the bowl and board on it, arms low and idle, no manipulation contact visible.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 232,
+      "episode": "episode_00492320",
+      "gt": "place on next to",
+      "pred": "chop",
+      "raw": "Reasoning: The right gripper is at the sink with the board and chopped white cubes on the cutting board directly ahead, the end of the chopping motion.\nAnswer: chop",
+      "correct": false
+    },
+    {
+      "sec": 257,
+      "episode": "episode_00492320",
+      "gt": "place on next to",
+      "pred": "push to",
+      "raw": "Reasoning: The right gripper is down at the board's right edge, closing on the board rather than the knife.\nAnswer: push to",
+      "correct": false
+    },
+    {
+      "sec": 263,
+      "episode": "episode_00492320",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now upright on the counter with the bowl beside it, arms withdrawn.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 348,
+      "episode": "episode_00492320",
+      "gt": "place on next to",
+      "pred": "move to",
+      "raw": "Reasoning: The right arm is extended over the sink counter with the gripper at the trash can, no object contact visible.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 353,
+      "episode": "episode_00492320",
+      "gt": "place on next to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the white trash can on the sink counter, closing on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 162,
+      "episode": "episode_00490020",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the cutting board with the pink object inside, board tilted slightly.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 376,
+      "episode": "episode_00490020",
+      "gt": "place on",
+      "pred": "move to",
+      "raw": "Reasoning: The right gripper is down at the counter right of the cutting board, closing on the sink edge rather than on an object.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 413,
+      "episode": "episode_00490020",
+      "gt": "place on",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board and knife sit side by side on the counter with no gripper extended toward them.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 460,
+      "episode": "episode_00490020",
+      "gt": "place on",
+      "pred": "place on next to",
+      "raw": "Reasoning: The bowl of toppings is now sitting on the black counter next to the trash can, arms withdrawn.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 97,
+      "episode": "episode_00490620",
+      "gt": "place on",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the counter beside the bowl, with the camera still facing the sink area.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 102,
+      "episode": "episode_00490620",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the wooden cutting board on the counter, closing on its edge.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 106,
+      "episode": "episode_00490620",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the wooden cutting board on the counter, fingers around it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 415,
+      "episode": "episode_00490620",
+      "gt": "place on",
+      "pred": "chop",
+      "raw": "Reasoning: The board now shows two white pieces on it, the second bite.\nAnswer: chop",
+      "correct": false
+    },
+    {
+      "sec": 439,
+      "episode": "episode_00490620",
+      "gt": "place on",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now upright on the counter beside the bowl, gripper still down at its sides.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 443,
+      "episode": "episode_00490620",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the far edge of the cutting board, closing on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 448,
+      "episode": "episode_00490620",
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The right gripper is down at the far right of the board with fingers spread on the counter surface.\nAnswer: place on",
+      "correct": true
+    },
+    {
+      "sec": 608,
+      "episode": "episode_00490620",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right arm is extended over the counter with the white bowl right at the cutting board, gripper closed on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 613,
+      "episode": "episode_00490620",
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The right gripper is down at the counter beside the cutting board, closing on the board surface.\nAnswer: place on",
+      "correct": true
+    },
+    {
+      "sec": 637,
+      "episode": "episode_00490620",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right arm is down at the sink holding the white bowl, other gripper still on the stacked dishes.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 664,
+      "episode": "episode_00490620",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the white tub on the counter, closing on its contents.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 668,
+      "episode": "episode_00490620",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right arm is extended over the white tub of pasta, gripper closed on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 673,
+      "episode": "episode_00490620",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right arm is extended over the white tub on the sink, gripper open at the container's rim.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 677,
+      "episode": "episode_00490620",
+      "gt": "place on",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the sink counter with the dish rack and bowl now in view, but no arms are extended toward anything.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 161,
+      "episode": "episode_00491160",
+      "gt": "place on",
+      "pred": "move to",
+      "raw": "Reasoning: The counter is now centered and the view has swung to the sink area with no manipulation in view.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 165,
+      "episode": "episode_00491160",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the cutting board where the red pepper sits, closing on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 170,
+      "episode": "episode_00491160",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The view has swung to the sink counter with the board and pink topping on it, and the gripper is down at the bottom edge.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 516,
+      "episode": "episode_00491160",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right arm is down at the white tub on the counter, closing on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 521,
+      "episode": "episode_00491160",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right arm is extended over the sink counter with the white tub and the dough on the right, gripper down at the source.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 543,
+      "episode": "episode_00491160",
+      "gt": "place on",
+      "pred": "chop",
+      "raw": "Reasoning: The right gripper is down at the cutting board with the knife blade lowered over the white chopped pieces.\nAnswer: chop",
+      "correct": false
+    },
+    {
+      "sec": 562,
+      "episode": "episode_00491160",
+      "gt": "place on",
+      "pred": "push to",
+      "raw": "Reasoning: The right gripper is down at the cutting board's right edge, closing on the board rather than the knife.\nAnswer: push to",
+      "correct": false
+    },
+    {
+      "sec": 567,
+      "episode": "episode_00491160",
+      "gt": "place on",
+      "pred": "place on next to",
+      "raw": "Reasoning: The right arm is extended over the cutting board with the gripper down on its surface, board now resting beside the bowl.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 571,
+      "episode": "episode_00491160",
+      "gt": "place on",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the sink counter with the cutting board and bowl on the glass shelf, arms low and idle.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 598,
+      "episode": "episode_00491160",
+      "gt": "place on",
+      "pred": "place on next to",
+      "raw": "Reasoning: The left arm is extended over the counter with the white bowl and small white dish right at its sides, gripper closed on them.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 602,
+      "episode": "episode_00491160",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The left gripper is down at the stacked white dishes in the sink, closing on them.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 627,
+      "episode": "episode_00491160",
+      "gt": "place on",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the stove and the pizza tray with toppings, with no arms extended.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 631,
+      "episode": "episode_00491160",
+      "gt": "place on",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the stove and microwave with the arms low and empty, no manipulation contact visible.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00491670",
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The right gripper is at the sink counter with the white bowl right beside it, gripper closed on the bowl's edge.\nAnswer: place on",
+      "correct": true
+    },
+    {
+      "sec": 108,
+      "episode": "episode_00491670",
+      "gt": "place on",
+      "pred": "move to",
+      "raw": "Reasoning: The right gripper is down at the far right of the counter by the sink, empty and not in contact with anything.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 278,
+      "episode": "episode_00491670",
+      "gt": "place on",
+      "pred": "pour",
+      "raw": "Reasoning: The tilted white tub is now clearly visible above the cutting board with the black gripper on its rim.\nAnswer: pour",
+      "correct": false
+    },
+    {
+      "sec": 282,
+      "episode": "episode_00491670",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right arm is extended over the sink with the white container held aloft, the last grasp of the dish transfer.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 310,
+      "episode": "episode_00491670",
+      "gt": "place on",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the counter beside the bowl of toppings, gripper still down at its lower edge.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 332,
+      "episode": "episode_00491670",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The left gripper is down at the white bowl on the sink counter, closing on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 349,
+      "episode": "episode_00491670",
+      "gt": "place on",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the stove and the pizza on the black tray is now centered, with no arms extended.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 102,
+      "episode": "episode_00492320",
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The right gripper is down at the counter right beside the white bowl, closing on it.\nAnswer: place on",
+      "correct": true
+    },
+    {
+      "sec": 106,
+      "episode": "episode_00492320",
+      "gt": "place on",
+      "pred": "move to",
+      "raw": "Reasoning: The sink and counter are now centered and the view has turned toward the workspace, with no arms extended.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 202,
+      "episode": "episode_00492320",
+      "gt": "place on",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the sink counter with the board and bowl now visible, but no gripper is extended toward anything.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 206,
+      "episode": "episode_00492320",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the cutting board with the pink pepper visible, arms in contact with the counter surface.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 545,
+      "episode": "episode_00492320",
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The white container is held in the right gripper and has been set down on the sink counter beside the white dish.\nAnswer: place on",
+      "correct": true
+    },
+    {
+      "sec": 549,
+      "episode": "episode_00492320",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right arm is down at the sink counter with the gripper closed on the white dish tray, not in the oven.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 554,
+      "episode": "episode_00492320",
+      "gt": "place on",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the counter with the pizza dough on the black tray and the arms low and empty, no manipulation contact.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 580,
+      "episode": "episode_00492320",
+      "gt": "place on",
+      "pred": "place on next to",
+      "raw": "Reasoning: The right gripper is down at the cutting board where the chopped white pieces now sit beside the bowl.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 585,
+      "episode": "episode_00492320",
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The right gripper is down at the counter right beside the cutting board, closing on the board surface.\nAnswer: place on",
+      "correct": true
+    },
+    {
+      "sec": 604,
+      "episode": "episode_00492320",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is at the far edge of the cutting board, closing on it rather than pulling away.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 609,
+      "episode": "episode_00492320",
+      "gt": "place on",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has turned to face the counter with the bowl and cutting board laid out, arms not yet extended.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 639,
+      "episode": "episode_00492320",
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The right arm is extended over the counter with the white dish held just above the surface, no contact yet.\nAnswer: place on",
+      "correct": true
+    },
+    {
+      "sec": 644,
+      "episode": "episode_00492320",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The left gripper is down at the stacked white bowls on the glass shelf, closing on them.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 665,
+      "episode": "episode_00492320",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is at the black tray on the counter holding the topped dough, closing on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00490020",
+      "gt": "push to",
+      "pred": "open door",
+      "raw": "Reasoning: The left arm is extended over the sink with the gripper at the faucet, mid-hand motion on the handle.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00490020",
+      "gt": "push to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The right gripper is down at the far counter edge with fingers spread on the surface, holding nothing.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00490020",
+      "gt": "push to",
+      "pred": "place in",
+      "raw": "Reasoning: The sink is now filled with the black faucet and the right gripper is at the edge of the basin, closing on the sink structure.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00490020",
+      "gt": "push to",
+      "pred": "place on",
+      "raw": "Reasoning: The left gripper is at the white countertop surface with the arm lowered, no object held.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00490020",
+      "gt": "push to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The left arm is extended over the sink counter with the red pepper still in its gripper, the last contact on this sequence.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "episode": "episode_00490020",
+      "gt": "push to",
+      "pred": "place on",
+      "raw": "Reasoning: The right gripper is down at the counter edge beside the open pizza pan, closing on the pan's rim.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00490020",
+      "gt": "push to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the white shelf holding the metal tray, closing on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00490020",
+      "gt": "push to",
+      "pred": "close door",
+      "raw": "Reasoning: The right gripper is down at the counter edge beside the knife, closing on the handle.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 60,
+      "episode": "episode_00490020",
+      "gt": "push to",
+      "pred": "place on",
+      "raw": "Reasoning: The right gripper is down at the counter edge beside the tray, closing on the surface rather than grasping anything.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00490020",
+      "gt": "push to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The right gripper is down at the counter beside the white tray, closing on the tray's edge.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00490020",
+      "gt": "push to",
+      "pred": "place on",
+      "raw": "Reasoning: The left arm is extended over the counter with the gripper open at the surface level, holding nothing.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 67,
+      "episode": "episode_00490020",
+      "gt": "push to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The right gripper is down at the counter edge beside the clear tray, closing on the surface.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 70,
+      "episode": "episode_00490020",
+      "gt": "push to",
+      "pred": "pull tray",
+      "raw": "Reasoning: The left arm is extended over the glass tray with the gripper at the tray's edge, closing on it.\nAnswer: pull tray",
+      "correct": false
+    },
+    {
+      "sec": 72,
+      "episode": "episode_00490020",
+      "gt": "push to",
+      "pred": "open door",
+      "raw": "Reasoning: The left arm is extended over the open drawer front with the gripper at the opening, closing on the drawer face.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 75,
+      "episode": "episode_00490020",
+      "gt": "push to",
+      "pred": "open door",
+      "raw": "Reasoning: The right arm is extended into the white cabinet opening with the gripper inside the shelf, holding the knife.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 77,
+      "episode": "episode_00490020",
+      "gt": "push to",
+      "pred": "place on",
+      "raw": "Reasoning: The left arm is extended over the counter with the black object resting on the surface beside the tray.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00490020",
+      "gt": "push to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the counter edge, closing on the knife next to the open drawer.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00490020",
+      "gt": "push to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the counter surface, closing on a small white object beside the open drawer.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00490020",
+      "gt": "push to",
+      "pred": "place on",
+      "raw": "Reasoning: The right gripper is down at the counter beside the glass tray, closing on the tray's edge.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 87,
+      "episode": "episode_00490020",
+      "gt": "push to",
+      "pred": "open door",
+      "raw": "Reasoning: The drawer front is now clearly open and the right gripper is at the handle pulling it further.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 90,
+      "episode": "episode_00490020",
+      "gt": "push to",
+      "pred": "place on",
+      "raw": "Reasoning: The right gripper is down at the glass counter surface, closing on a small dark object beside the white plate.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 92,
+      "episode": "episode_00490020",
+      "gt": "push to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the glass counter surface, closing on the board edge.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 94,
+      "episode": "episode_00490020",
+      "gt": "push to",
+      "pred": "pull tray",
+      "raw": "Reasoning: The right gripper is on the right edge of the tray, pulling it back from the counter.\nAnswer: pull tray",
+      "correct": false
+    },
+    {
+      "sec": 97,
+      "episode": "episode_00490020",
+      "gt": "push to",
+      "pred": "move to",
+      "raw": "Reasoning: Both arms are extended across the counter with the right gripper open at the far edge of the surface, not grasping anything.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 99,
+      "episode": "episode_00490020",
+      "gt": "push to",
+      "pred": "move to",
+      "raw": "Reasoning: The right gripper is extended across the sink with fingers spread, holding nothing \u2014 a repositioning frame.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 134,
+      "episode": "episode_00490020",
+      "gt": "push to",
+      "pred": "place on",
+      "raw": "Reasoning: The left gripper is down at the cutting board with the pink pepper released onto it.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 136,
+      "episode": "episode_00490020",
+      "gt": "push to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The left gripper is down at the cutting board with the pink tomato right at its fingers, board tilted down.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 139,
+      "episode": "episode_00490020",
+      "gt": "push to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The left gripper is down at the cutting board with the pink tomato right at its fingers.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00490020",
+      "gt": "push to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The left gripper holds the pink pepper over the cutting board while the right gripper pulls back, with the board now tilted.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 144,
+      "episode": "episode_00490020",
+      "gt": "push to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The left gripper is down at the white bowl on the counter, closing on its contents.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 146,
+      "episode": "episode_00490020",
+      "gt": "push to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The right gripper is down at the cutting board with the white bowl now sitting beside it on the counter.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 149,
+      "episode": "episode_00490020",
+      "gt": "push to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The right gripper is down at the board edge with the wooden cutting board lowered onto the counter beside the bowl.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 151,
+      "episode": "episode_00490020",
+      "gt": "push to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The right gripper is down at the board with the wooden cutting board now resting on the counter beside the bowl.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 154,
+      "episode": "episode_00490020",
+      "gt": "push to",
+      "pred": "pour",
+      "raw": "Reasoning: The left gripper holds the pink scoop above the white bowl on the counter, mid-transfer.\nAnswer: pour",
+      "correct": false
+    },
+    {
+      "sec": 156,
+      "episode": "episode_00490020",
+      "gt": "push to",
+      "pred": "place in",
+      "raw": "Reasoning: The left gripper is down at the white bowl with the pink object inside, having deposited it.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 163,
+      "episode": "episode_00490020",
+      "gt": "push to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the cutting board with fingers around the pink pepper, board tilted down.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 165,
+      "episode": "episode_00490020",
+      "gt": "push to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the board where the onion sits, fingers around it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 168,
+      "episode": "episode_00490020",
+      "gt": "push to",
+      "pred": "move to",
+      "raw": "Reasoning: The sink and counter are now centered with the arms low and empty, no manipulation target in reach.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 170,
+      "episode": "episode_00490020",
+      "gt": "push to",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the sink counter with the dough on the black tray and the pink dough ball on the cutting board, arms low and not extended.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 130,
+      "episode": "episode_00490620",
+      "gt": "push to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the cutting board where the pink pepper sits, closing on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 132,
+      "episode": "episode_00490620",
+      "gt": "push to",
+      "pred": "place on",
+      "raw": "Reasoning: The board with the pink radish sits on the counter and the right arm is withdrawn from the board.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 135,
+      "episode": "episode_00490620",
+      "gt": "push to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the board where the pink onion sits, closing on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 137,
+      "episode": "episode_00490620",
+      "gt": "push to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is at the board edge with the pink pepper right at the board surface, closing on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 140,
+      "episode": "episode_00490620",
+      "gt": "push to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is at the edge of the cutting board holding the pink pepper, board tilted down.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 142,
+      "episode": "episode_00490620",
+      "gt": "push to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The right gripper is down at the board edge with the knife just released beside the radish.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 145,
+      "episode": "episode_00490620",
+      "gt": "push to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the cutting board with the pink pepper right at the surface, gripper closed on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 147,
+      "episode": "episode_00490620",
+      "gt": "push to",
+      "pred": "chop",
+      "raw": "Reasoning: The right gripper is down at the board with the knife raised above the radish, mid-cut motion.\nAnswer: chop",
+      "correct": false
+    },
+    {
+      "sec": 150,
+      "episode": "episode_00490620",
+      "gt": "push to",
+      "pred": "chop",
+      "raw": "Reasoning: The right gripper is down at the board with the knife blade lowered over the rad on the cutting board.\nAnswer: chop",
+      "correct": false
+    },
+    {
+      "sec": 152,
+      "episode": "episode_00490620",
+      "gt": "push to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the cutting board with the pink radish now sitting on it, board tilted slightly.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 155,
+      "episode": "episode_00490620",
+      "gt": "push to",
+      "pred": "open door",
+      "raw": "Reasoning: The right gripper is at the handle of the open oven door, the door now clearly visible on the right.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 157,
+      "episode": "episode_00490620",
+      "gt": "push to",
+      "pred": "chop",
+      "raw": "Reasoning: The right gripper is down at the board with the knife raised above the pink radish, mid-cut.\nAnswer: chop",
+      "correct": false
+    },
+    {
+      "sec": 331,
+      "episode": "episode_00490020",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The right gripper is down at the cutting board with the knife blade lowered over it, small white cubes on the board.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 333,
+      "episode": "episode_00490020",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The right gripper is down at the cutting board with the knife blade lowered over the chopped white pieces.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 334,
+      "episode": "episode_00490020",
+      "gt": "chop",
+      "pred": "pull tray",
+      "raw": "Reasoning: The right gripper is down at the far edge of the cutting board, closing on the board itself.\nAnswer: pull tray",
+      "correct": false
+    },
+    {
+      "sec": 384,
+      "episode": "episode_00490020",
+      "gt": "chop",
+      "pred": "place on next to",
+      "raw": "Reasoning: The right gripper is down at the counter beside the cutting board, closing on the white plate that was already resting there.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 386,
+      "episode": "episode_00490020",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The right gripper is down at the cutting board with the knife held vertically beside the white diced piece.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 387,
+      "episode": "episode_00490020",
+      "gt": "chop",
+      "pred": "place on",
+      "raw": "Reasoning: The right gripper is down at the cutting board with the blade lowered over the white garlic piece.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 389,
+      "episode": "episode_00490020",
+      "gt": "chop",
+      "pred": "push to",
+      "raw": "Reasoning: The right gripper is down at the board with the knife blade lowered over the garlic, fingers spread across the surface.\nAnswer: push to",
+      "correct": false
+    },
+    {
+      "sec": 391,
+      "episode": "episode_00490020",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The right gripper is down at the cutting board with the white pieces now separated from the dark ones.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 392,
+      "episode": "episode_00490020",
+      "gt": "chop",
+      "pred": "place on",
+      "raw": "Reasoning: The right gripper is down at the counter beside the cutting board, closing on the board surface.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 197,
+      "episode": "episode_00490620",
+      "gt": "chop",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the cutting board where the pink pepper sits, closing on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 199,
+      "episode": "episode_00490620",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The right gripper is down at the cutting board with the knife blade lowered over the radish, board now holding the chopped piece.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 200,
+      "episode": "episode_00490620",
+      "gt": "chop",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the cutting board with the pink pepper between the knife and the board.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 202,
+      "episode": "episode_00490620",
+      "gt": "chop",
+      "pred": "place on next to",
+      "raw": "Reasoning: The knife is down on the cutting board with the peeled onion beside it, and the bowl is already sitting on the counter.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 204,
+      "episode": "episode_00490620",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The right gripper is down at the cutting board with the knife held vertically beside it, small diced pieces now on the board.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 205,
+      "episode": "episode_00490620",
+      "gt": "chop",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board now shows white diced pieces and the knife is set down beside it.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 405,
+      "episode": "episode_00490620",
+      "gt": "chop",
+      "pred": "place on",
+      "raw": "Reasoning: The board now holds a single white piece and the knife is lowered to its side on the counter.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 407,
+      "episode": "episode_00490620",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The right gripper is down at the cutting board with the blade lowered, small white pieces now visible on the board.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 408,
+      "episode": "episode_00490620",
+      "gt": "chop",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board and knife are now on the counter with the bowl beside them, arms withdrawn.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 410,
+      "episode": "episode_00490620",
+      "gt": "chop",
+      "pred": "push to",
+      "raw": "Reasoning: The right arm is down at the wooden cutting board with the knife resting on it, no bowl or dish nearby.\nAnswer: push to",
+      "correct": false
+    },
+    {
+      "sec": 412,
+      "episode": "episode_00490620",
+      "gt": "chop",
+      "pred": "place on",
+      "raw": "Reasoning: The view has swung to the counter with the bowl, board and knife laid out and the right arm lowered out of the way.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 413,
+      "episode": "episode_00490620",
+      "gt": "chop",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right arm is down at the counter beside the cutting board and bowl, closing on the board surface.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 183,
+      "episode": "episode_00491160",
+      "gt": "chop",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the cutting board with the pink topping now sitting on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 185,
+      "episode": "episode_00491160",
+      "gt": "chop",
+      "pred": "pick up from",
+      "raw": "Reasoning: The board is now tilted up off the counter with the pink topping still in the gripper.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 186,
+      "episode": "episode_00491160",
+      "gt": "chop",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the cutting board with the onion and knife resting on it, the last contact on the board.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 188,
+      "episode": "episode_00491160",
+      "gt": "chop",
+      "pred": "push to",
+      "raw": "Reasoning: The right gripper is down at the cutting board with the knife blade lowered into the board surface.\nAnswer: push to",
+      "correct": false
+    },
+    {
+      "sec": 190,
+      "episode": "episode_00491160",
+      "gt": "chop",
+      "pred": "place on",
+      "raw": "Reasoning: The right gripper is down at the cutting board with the knife blade lowered over the white bowl, transferring the chopped pieces to it.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 191,
+      "episode": "episode_00491160",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The right gripper is down at the cutting board with the knife blade lowered over the chopped white pieces.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 535,
+      "episode": "episode_00491160",
+      "gt": "chop",
+      "pred": "place on",
+      "raw": "Reasoning: The right gripper is down at the cutting board where the knife and garlic are now lying flat, releasing onto the surface.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 537,
+      "episode": "episode_00491160",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The right gripper is down at the cutting board with the blade angled into it, small white pieces now visible on the board.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 538,
+      "episode": "episode_00491160",
+      "gt": "chop",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is at the board's edge, closing on the wooden cutting board rather than the knife.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 540,
+      "episode": "episode_00491160",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The right gripper is down at the cutting board with the blade lowered, small pieces of vegetable on the board.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 542,
+      "episode": "episode_00491160",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The right arm is extended over the cutting board with the gripper closed on it, the board now holding the chopped white pieces.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 120,
+      "episode": "episode_00491670",
+      "gt": "chop",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the counter holding the knife, board and pink vegetable on the cutting board.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 122,
+      "episode": "episode_00491670",
+      "gt": "chop",
+      "pred": "pick up from",
+      "raw": "Reasoning: The knife is held aloft above the cutting board with the onion still whole, gripper still open at the board.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 124,
+      "episode": "episode_00491670",
+      "gt": "chop",
+      "pred": "place on",
+      "raw": "Reasoning: The knife is now resting on the cutting board with the pink vegetable beside it, gripper still holding it.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 125,
+      "episode": "episode_00491670",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The right gripper is down at the cutting board with the knife blade extended over the pink vegetable, fingers in contact.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 127,
+      "episode": "episode_00491670",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The right gripper is down at the cutting board with the knife raised above the chopped white pieces.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 292,
+      "episode": "episode_00491670",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The board is now tilted up off the counter with the knife still in it, mid-cut motion.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 293,
+      "episode": "episode_00491670",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The right gripper is down at the cutting board with the blade angled into it, small pieces on the board.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 222,
+      "episode": "episode_00492320",
+      "gt": "chop",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is at the board edge with the pink onion on it, closing on the cutting board.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 224,
+      "episode": "episode_00492320",
+      "gt": "chop",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the cutting board with the knife blade lowered over the radish, fingers around it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 225,
+      "episode": "episode_00492320",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The right gripper is down at the cutting board with the pink pepper between the knife and the board.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 227,
+      "episode": "episode_00492320",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The right gripper is down at the cutting board with the knife blade lowered over the radish, board clear of the sink.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 229,
+      "episode": "episode_00492320",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The right gripper is down at the board edge with the knife blade lowered over the chopped white pieces.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 230,
+      "episode": "episode_00492320",
+      "gt": "chop",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the cutting board where the chopped white pieces now sit, with the left arm bracing at the board's edge.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 573,
+      "episode": "episode_00492320",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The right gripper is down at the cutting board with the blade angled into it, small pieces of white vegetable on the board.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 575,
+      "episode": "episode_00492320",
+      "gt": "chop",
+      "pred": "place on next to",
+      "raw": "Reasoning: The right gripper is down at the cutting board with the white bowl now sitting beside it on the counter.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 576,
+      "episode": "episode_00492320",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The right gripper is down at the cutting board with the blade lowered, small chopped pieces now visible on the board.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 578,
+      "episode": "episode_00492320",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The right gripper is down at the cutting board with the blade angled into it, small diced pieces on the board.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 314,
+      "episode": "episode_00490020",
+      "gt": "pour",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the sink counter with the tomato on the cutting board and the tilted white container on the sink, arms low and idle.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 355,
+      "episode": "episode_00490020",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is tilted over the white bowl with white cubes sliding out onto it.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 359,
+      "episode": "episode_00490020",
+      "gt": "pour",
+      "pred": "chop",
+      "raw": "Reasoning: The right gripper is down at the cutting board with the blade lowered, small diced pieces on the board.\nAnswer: chop",
+      "correct": false
+    },
+    {
+      "sec": 404,
+      "episode": "episode_00490020",
+      "gt": "pour",
+      "pred": "chop",
+      "raw": "Reasoning: The right gripper is down at the cutting board with the white pieces clustered near the knife blade.\nAnswer: chop",
+      "correct": false
+    },
+    {
+      "sec": 409,
+      "episode": "episode_00490020",
+      "gt": "pour",
+      "pred": "place on",
+      "raw": "Reasoning: The right gripper is down at the board with the white pieces now clustered on the plate below.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 429,
+      "episode": "episode_00490020",
+      "gt": "pour",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is on the black tray holding the topped dough, closing on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 434,
+      "episode": "episode_00490020",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The black and white tray is now tilted up off the counter surface, contents spilling onto it.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 452,
+      "episode": "episode_00490020",
+      "gt": "pour",
+      "pred": "place on",
+      "raw": "Reasoning: The right gripper is down at the counter right beside the topped dough ball, closing on it.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 456,
+      "episode": "episode_00490020",
+      "gt": "pour",
+      "pred": "pick up from",
+      "raw": "Reasoning: The black gripper is at the edge of the pizza dough bowl on the dark counter, closing on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 220,
+      "episode": "episode_00490620",
+      "gt": "pour",
+      "pred": "move to",
+      "raw": "Reasoning: The board now holds more white cubes than in the previous frame, with the bowl beside it.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 225,
+      "episode": "episode_00490620",
+      "gt": "pour",
+      "pred": "chop",
+      "raw": "Reasoning: The board now holds a cluster of white diced pieces and the right gripper is down at the board's edge.\nAnswer: chop",
+      "correct": false
+    },
+    {
+      "sec": 376,
+      "episode": "episode_00490620",
+      "gt": "pour",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right arm is down at the counter with the white tub held in the gripper, the same grasp as the previous frame.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 381,
+      "episode": "episode_00490620",
+      "gt": "pour",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the cutting board with the white container resting on it, the end of the transfer.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 429,
+      "episode": "episode_00490620",
+      "gt": "pour",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the board with fingers spread over the chopped white pieces, holding them.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 433,
+      "episode": "episode_00490620",
+      "gt": "pour",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the cutting board where the white toppings sit, closing on the board surface.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 438,
+      "episode": "episode_00490620",
+      "gt": "pour",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the counter surface beside the bowl, gripper still attached to its right edge.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 597,
+      "episode": "episode_00490620",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The right gripper holds the white bowl tipped over the counter with orange pieces falling onto the sink area.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 601,
+      "episode": "episode_00490620",
+      "gt": "pour",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the counter beside the bowl of garlic, closing on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 630,
+      "episode": "episode_00490620",
+      "gt": "pour",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the black pizza tray on the counter, closing on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 655,
+      "episode": "episode_00490620",
+      "gt": "pour",
+      "pred": "place on",
+      "raw": "Reasoning: The right gripper is down at the black tray on the counter, closing on the pizza dough itself.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 659,
+      "episode": "episode_00490620",
+      "gt": "pour",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the black board holding the white and red toppings, closing on them.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 207,
+      "episode": "episode_00491160",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is tilted with the chopped white pieces sliding off onto the white bowl below it.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 212,
+      "episode": "episode_00491160",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is tilted with white pieces spilling onto the white bowl below it.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 306,
+      "episode": "episode_00491160",
+      "gt": "pour",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right arm is extended over the counter with the gripper open at the white bag sitting on the counter, closing on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 311,
+      "episode": "episode_00491160",
+      "gt": "pour",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the white bowl on the counter, closing on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 505,
+      "episode": "episode_00491160",
+      "gt": "pour",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right arm is extended over the counter with the white dish directly beneath its fingers.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 509,
+      "episode": "episode_00491160",
+      "gt": "pour",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the wooden cutting board holding the white container, closing on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 514,
+      "episode": "episode_00491160",
+      "gt": "pour",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right arm is extended over the sink counter with the white container right at its gripper, no object contact yet.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 560,
+      "episode": "episode_00491160",
+      "gt": "pour",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the counter beside the bowl, gripper still holding it.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 593,
+      "episode": "episode_00491160",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The white plate is tilted over the dough on the black baking tray with red toppings spilling down onto it.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 613,
+      "episode": "episode_00491160",
+      "gt": "pour",
+      "pred": "place on",
+      "raw": "Reasoning: The right gripper is down at the black cutting board where the topped dough sits, closing on it.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 618,
+      "episode": "episode_00491160",
+      "gt": "pour",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the counter beside the pizza dough on the black tray, closing on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 622,
+      "episode": "episode_00491160",
+      "gt": "pour",
+      "pred": "pick up from",
+      "raw": "Reasoning: The left gripper is down at the black tray on the counter, holding the white bowl of toppings.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 146,
+      "episode": "episode_00491670",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is tilted over the white bowl with the chopped white pieces now visible inside it.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 207,
+      "episode": "episode_00491670",
+      "gt": "pour",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is at the edge of the wooden cutting board with the white dish beside it, arms in a closing motion.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 211,
+      "episode": "episode_00491670",
+      "gt": "pour",
+      "pred": "place on",
+      "raw": "Reasoning: The right gripper is down at the counter beside the cutting board, closing on the board surface.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 275,
+      "episode": "episode_00491670",
+      "gt": "pour",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is on the wooden cutting board with fingers spread across it, mid-grasp.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 309,
+      "episode": "episode_00491670",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted up off the counter with the bowl of toppings below it, contents spilling.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 326,
+      "episode": "episode_00491670",
+      "gt": "pour",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the black cutting board where the dough is now on, closing on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 344,
+      "episode": "episode_00491670",
+      "gt": "pour",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the black counter surface right beside the topped plate, closing on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 245,
+      "episode": "episode_00492320",
+      "gt": "pour",
+      "pred": "move to",
+      "raw": "Reasoning: The board now holds more pieces than the previous frame, with the gripper still on the right side of it.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 249,
+      "episode": "episode_00492320",
+      "gt": "pour",
+      "pred": "pick up from",
+      "raw": "Reasoning: The board is now tilted up off the counter with the chopped white pieces on it, gripper still down at the board.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 254,
+      "episode": "episode_00492320",
+      "gt": "pour",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the counter surface beside the bowl, gripper still holding it.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 514,
+      "episode": "episode_00492320",
+      "gt": "pour",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the white tub on the floor, closing on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 518,
+      "episode": "episode_00492320",
+      "gt": "pour",
+      "pred": "place on next to",
+      "raw": "Reasoning: The right gripper is down at the cutting board with the white tub of ingredients resting on the counter beside it.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 534,
+      "episode": "episode_00492320",
+      "gt": "pour",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the sink counter with the cutting board and bowl on the left and the sink basin on the right, arms low and idle.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 539,
+      "episode": "episode_00492320",
+      "gt": "pour",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board now sits on the counter with the knife beside it, arms withdrawn.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 543,
+      "episode": "episode_00492320",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The left gripper is down at the white bowl on the counter, holding the white tub above it.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 599,
+      "episode": "episode_00492320",
+      "gt": "pour",
+      "pred": "place on",
+      "raw": "Reasoning: The board now holds two small white cubes and the bowl is filled with toppings, though the last piece is barely visible.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 631,
+      "episode": "episode_00492320",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The pizza dough is now on the black baking tray with the tilted white container held above it.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 652,
+      "episode": "episode_00492320",
+      "gt": "pour",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right arm is extended over the counter with the white tub of ingredients directly in front of it, gripper closed on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 657,
+      "episode": "episode_00492320",
+      "gt": "pour",
+      "pred": "place on",
+      "raw": "Reasoning: The left gripper is down at the counter beside the pizza dough on the black tray, holding it.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 188,
+      "episode": "episode_00490020",
+      "gt": "open door",
+      "pred": "open door",
+      "raw": "Reasoning: The right arm is extended into the open fridge, fingers at the door face.\nAnswer: open door",
+      "correct": true
+    },
+    {
+      "sec": 272,
+      "episode": "episode_00490020",
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "Reasoning: The right gripper is on the fridge handle with the arm angled down toward it.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 281,
+      "episode": "episode_00490020",
+      "gt": "open door",
+      "pred": "open door",
+      "raw": "Reasoning: The right arm is extended into the open fridge, fingers at the shelf front.\nAnswer: open door",
+      "correct": true
+    },
+    {
+      "sec": 473,
+      "episode": "episode_00490020",
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "Reasoning: The right arm is at the oven door handle with the door now down and closed, the only door interaction in this frame.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 483,
+      "episode": "episode_00490020",
+      "gt": "open door",
+      "pred": "pull tray",
+      "raw": "Reasoning: The oven door is now shut flush and the right gripper is inside the cavity holding the wire rack.\nAnswer: pull tray",
+      "correct": false
+    },
+    {
+      "sec": 589,
+      "episode": "episode_00490020",
+      "gt": "open door",
+      "pred": "open door",
+      "raw": "Reasoning: The oven door is now swung open wide enough to see the pizza rack inside, with the right gripper still on the door face.\nAnswer: open door",
+      "correct": true
+    },
+    {
+      "sec": 261,
+      "episode": "episode_00490620",
+      "gt": "open door",
+      "pred": "open door",
+      "raw": "Reasoning: The right gripper is at the fridge handle with the arm angled down toward the door face.\nAnswer: open door",
+      "correct": true
+    },
+    {
+      "sec": 271,
+      "episode": "episode_00490620",
+      "gt": "open door",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has turned to face the staircase and dining chairs, with the fridge door now blocking the left of frame and the gripper at the bottom edge.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 280,
+      "episode": "episode_00490620",
+      "gt": "open door",
+      "pred": "open door",
+      "raw": "Reasoning: The fridge door is now swung open wide enough to see the shelves with containers inside, and the arms are at the door frame.\nAnswer: open door",
+      "correct": true
+    },
+    {
+      "sec": 289,
+      "episode": "episode_00490620",
+      "gt": "open door",
+      "pred": "open door",
+      "raw": "Reasoning: The fridge door is now fully swung open and the arm is pulling back from the open compartment.\nAnswer: open door",
+      "correct": true
+    },
+    {
+      "sec": 494,
+      "episode": "episode_00490620",
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "Reasoning: The right arm is extended into the open fridge with the gripper at the door face, closing it shut.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 503,
+      "episode": "episode_00490620",
+      "gt": "open door",
+      "pred": "move to",
+      "raw": "Reasoning: The fridge door is now shut flush and the view has turned to the countertop with the microwave and stove, no arms or contact.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 513,
+      "episode": "episode_00490620",
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "Reasoning: The fridge door is now flush with the cabinetry and the gripper is at its edge, closing on it.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 522,
+      "episode": "episode_00490620",
+      "gt": "open door",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the stove and microwave with no arms extended, just the kitchen counter and fridge.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 531,
+      "episode": "episode_00490620",
+      "gt": "open door",
+      "pred": "open door",
+      "raw": "Reasoning: The fridge door is now swung open wide with the arm still attached to the right side.\nAnswer: open door",
+      "correct": true
+    },
+    {
+      "sec": 687,
+      "episode": "episode_00490620",
+      "gt": "open door",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the stove and microwave with the arms still low and idle, no manipulation contact visible.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 696,
+      "episode": "episode_00490620",
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now shut flush and the right gripper is at the handle pulling it down.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 705,
+      "episode": "episode_00490620",
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now down and the right gripper is at the handle pulling it shut.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 843,
+      "episode": "episode_00490620",
+      "gt": "open door",
+      "pred": "open door",
+      "raw": "Reasoning: The right arm is extended across the oven front with the gripper at the handle, door now down and shut.\nAnswer: open door",
+      "correct": true
+    },
+    {
+      "sec": 852,
+      "episode": "episode_00490620",
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now down and the pizza is inside, with the right gripper still on the handle.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 247,
+      "episode": "episode_00491160",
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "Reasoning: The fridge door is now shut flush and the right gripper is at the handle pulling it down.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 257,
+      "episode": "episode_00491160",
+      "gt": "open door",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the dining table and chairs with no arms extended, so this is the base navigation frame.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 266,
+      "episode": "episode_00491160",
+      "gt": "open door",
+      "pred": "move to",
+      "raw": "Reasoning: The fridge door is now down and the view has swung to the dining table with chairs and a tablecloth, arms low and idle.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 275,
+      "episode": "episode_00491160",
+      "gt": "open door",
+      "pred": "open door",
+      "raw": "Reasoning: The fridge door is now swung open wide with the interior shelves and drawers fully exposed, no gripper visible.\nAnswer: open door",
+      "correct": true
+    },
+    {
+      "sec": 361,
+      "episode": "episode_00491160",
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "Reasoning: The right arm is extended across the open fridge front with the gripper at the door face, closing it shut.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 370,
+      "episode": "episode_00491160",
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "Reasoning: The right arm is extended across the open fridge front with the white cloth held at its end, closing the door.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 379,
+      "episode": "episode_00491160",
+      "gt": "open door",
+      "pred": "open door",
+      "raw": "Reasoning: The fridge door is now nearly flush with the cabinetry, the door face fully exposed.\nAnswer: open door",
+      "correct": true
+    },
+    {
+      "sec": 389,
+      "episode": "episode_00491160",
+      "gt": "open door",
+      "pred": "open door",
+      "raw": "Reasoning: The fridge door is now swung open wide with the arm at the lower shelf edge.\nAnswer: open door",
+      "correct": true
+    },
+    {
+      "sec": 635,
+      "episode": "episode_00491160",
+      "gt": "open door",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the stove and microwave with no arms or objects in reach, just the counter and appliances.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 644,
+      "episode": "episode_00491160",
+      "gt": "open door",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the stove counter with the pizza on the black tray and the arms low and empty, no manipulation target visible.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 654,
+      "episode": "episode_00491160",
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now shut flush and the right arm is retracting away from the oven front.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 774,
+      "episode": "episode_00491160",
+      "gt": "open door",
+      "pred": "open door",
+      "raw": "Reasoning: The right arm is extended down toward the oven front with the gripper at the handle area, closing on the door.\nAnswer: open door",
+      "correct": true
+    },
+    {
+      "sec": 784,
+      "episode": "episode_00491160",
+      "gt": "open door",
+      "pred": "pull tray",
+      "raw": "Reasoning: The oven door is now down and the pizza is inside on the rack, with both arms withdrawn and empty.\nAnswer: pull tray",
+      "correct": false
+    },
+    {
+      "sec": 162,
+      "episode": "episode_00491670",
+      "gt": "open door",
+      "pred": "open door",
+      "raw": "Reasoning: The right gripper is extended across the open fridge front, closing on the door face.\nAnswer: open door",
+      "correct": true
+    },
+    {
+      "sec": 171,
+      "episode": "episode_00491670",
+      "gt": "open door",
+      "pred": "open door",
+      "raw": "Reasoning: The fridge door is now swung open wide and the left gripper is inside the cavity, reaching into the fridge.\nAnswer: open door",
+      "correct": true
+    },
+    {
+      "sec": 244,
+      "episode": "episode_00491670",
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "Reasoning: The right gripper is at the fridge front with the white tissue sticking out of the handle, door now shut.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 351,
+      "episode": "episode_00491670",
+      "gt": "open door",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the black cutting board on the stove top, holding a small white piece of dough.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 360,
+      "episode": "episode_00491670",
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now down and the right arm is retracting away from its edge.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 440,
+      "episode": "episode_00491670",
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "Reasoning: The right arm is extended across the oven front with the open door now flush and the green indicator lit \u2014 the door is fully closed.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 283,
+      "episode": "episode_00492320",
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "Reasoning: The fridge door is now shut flush and the right gripper is at the handle pulling it down.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 292,
+      "episode": "episode_00492320",
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "Reasoning: The fridge door is now flush with the cabinetry and the door face is fully visible, with no gripper in frame.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 302,
+      "episode": "episode_00492320",
+      "gt": "open door",
+      "pred": "open door",
+      "raw": "Reasoning: The fridge door is now swung open wide and the gripper is at the door edge, beginning to swing it shut.\nAnswer: open door",
+      "correct": true
+    },
+    {
+      "sec": 311,
+      "episode": "episode_00492320",
+      "gt": "open door",
+      "pred": "open door",
+      "raw": "Reasoning: The arm is extended into the open fridge, fingers at the drawer front where the white container sits.\nAnswer: open door",
+      "correct": true
+    },
+    {
+      "sec": 390,
+      "episode": "episode_00492320",
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "Reasoning: The left door is now shut flush with the right, the door closing.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 400,
+      "episode": "episode_00492320",
+      "gt": "open door",
+      "pred": "open door",
+      "raw": "Reasoning: The right gripper is at the fridge's handle bar, arm angled down toward the door face.\nAnswer: open door",
+      "correct": true
+    },
+    {
+      "sec": 409,
+      "episode": "episode_00492320",
+      "gt": "open door",
+      "pred": "open door",
+      "raw": "Reasoning: The fridge door is now shut flush and the right gripper is at the door's edge, beginning the latch.\nAnswer: open door",
+      "correct": true
+    },
+    {
+      "sec": 418,
+      "episode": "episode_00492320",
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "Reasoning: The fridge is now fully in view with its door shut and the arms low and idle at the bottom of the frame.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 428,
+      "episode": "episode_00492320",
+      "gt": "open door",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is now right at the stove and fridge with both arms lowered and the view swinging toward the kitchen counters.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 680,
+      "episode": "episode_00492320",
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "Reasoning: The right arm is down at the oven door handle with the door now down and the interior empty, the door being closed.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 689,
+      "episode": "episode_00492320",
+      "gt": "open door",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the stove top with the pizza dough on the black tray and the right arm at the oven front, but no object is being grasped or set down.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 806,
+      "episode": "episode_00492320",
+      "gt": "open door",
+      "pred": "open door",
+      "raw": "Reasoning: The right gripper is at the oven door handle with the door now down and the green indicator lit, though the door itself is not yet flush.\nAnswer: open door",
+      "correct": true
+    },
+    {
+      "sec": 815,
+      "episode": "episode_00492320",
+      "gt": "open door",
+      "pred": "pull tray",
+      "raw": "Reasoning: The pizza is now on the rack inside the open oven and the right gripper is pulling back from the tray.\nAnswer: pull tray",
+      "correct": false
+    },
+    {
+      "sec": 259,
+      "episode": "episode_00490020",
+      "gt": "close door",
+      "pred": "open door",
+      "raw": "Reasoning: The fridge door is now fully swung open and the interior shelves are exposed, with the right arm still at the handle.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 264,
+      "episode": "episode_00490020",
+      "gt": "close door",
+      "pred": "close door",
+      "raw": "Reasoning: The right arm is extended into the open fridge with the gripper at the door face, closing it.\nAnswer: close door",
+      "correct": true
+    },
+    {
+      "sec": 269,
+      "episode": "episode_00490020",
+      "gt": "close door",
+      "pred": "close door",
+      "raw": "Reasoning: The right gripper is on the right-hand door edge, closing it shut.\nAnswer: close door",
+      "correct": true
+    },
+    {
+      "sec": 293,
+      "episode": "episode_00490020",
+      "gt": "close door",
+      "pred": "close door",
+      "raw": "Reasoning: The right arm is extended across the open fridge front with the gripper at the door face, closing it.\nAnswer: close door",
+      "correct": true
+    },
+    {
+      "sec": 298,
+      "episode": "episode_00490020",
+      "gt": "close door",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper holds the tub of white dough above the wooden chair, gripper closed on its rim.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 566,
+      "episode": "episode_00490020",
+      "gt": "close door",
+      "pred": "open door",
+      "raw": "Reasoning: The oven door is now swung open wide with the rack inside visible, and the right gripper is at the door frame.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 571,
+      "episode": "episode_00490020",
+      "gt": "close door",
+      "pred": "pull tray",
+      "raw": "Reasoning: The oven door is now fully swung open and the open cavity is visible with the rack inside, arms still low and idle.\nAnswer: pull tray",
+      "correct": false
+    },
+    {
+      "sec": 576,
+      "episode": "episode_00490020",
+      "gt": "close door",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now shut flush and the left gripper is at the handle pulling it down.\nAnswer: close door",
+      "correct": true
+    },
+    {
+      "sec": 470,
+      "episode": "episode_00490620",
+      "gt": "close door",
+      "pred": "open door",
+      "raw": "Reasoning: The right arm is visible at the right edge of the open fridge with the gripper still at the handle area.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 475,
+      "episode": "episode_00490620",
+      "gt": "close door",
+      "pred": "close door",
+      "raw": "Reasoning: The right door is now nearly flush with the fridge front and the arm is pulling back from the handle.\nAnswer: close door",
+      "correct": true
+    },
+    {
+      "sec": 481,
+      "episode": "episode_00490620",
+      "gt": "close door",
+      "pred": "close door",
+      "raw": "Reasoning: The right gripper is at the handle of the right door, closing on it.\nAnswer: close door",
+      "correct": true
+    },
+    {
+      "sec": 486,
+      "episode": "episode_00490620",
+      "gt": "close door",
+      "pred": "close door",
+      "raw": "Reasoning: The left door is now shut flush with the right, the door closing.\nAnswer: close door",
+      "correct": true
+    },
+    {
+      "sec": 563,
+      "episode": "episode_00490620",
+      "gt": "close door",
+      "pred": "open door",
+      "raw": "Reasoning: The fridge door is now swung open wide with the interior shelves exposed and the door edge visible on the left.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 568,
+      "episode": "episode_00490620",
+      "gt": "close door",
+      "pred": "open door",
+      "raw": "Reasoning: The fridge door is now swung open wide enough to reveal the interior shelves and the arm at the bottom left is retracting away from the door face.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 573,
+      "episode": "episode_00490620",
+      "gt": "close door",
+      "pred": "close door",
+      "raw": "Reasoning: The right arm is extended into the open fridge front with the gripper right at the door panel, the moment of closing the appliance.\nAnswer: close door",
+      "correct": true
+    },
+    {
+      "sec": 578,
+      "episode": "episode_00490620",
+      "gt": "close door",
+      "pred": "close door",
+      "raw": "Reasoning: The right arm is extended across the open fridge front with the gripper at the door face, closing it.\nAnswer: close door",
+      "correct": true
+    },
+    {
+      "sec": 799,
+      "episode": "episode_00490620",
+      "gt": "close door",
+      "pred": "pull tray",
+      "raw": "Reasoning: The oven door is now open and the rack inside is visible, with both grippers still at the sides.\nAnswer: pull tray",
+      "correct": false
+    },
+    {
+      "sec": 804,
+      "episode": "episode_00490620",
+      "gt": "close door",
+      "pred": "open door",
+      "raw": "Reasoning: The oven door is now fully open and the arms are pulling back from its sides.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 809,
+      "episode": "episode_00490620",
+      "gt": "close door",
+      "pred": "pull tray",
+      "raw": "Reasoning: The oven door is now open with the rack and tray inside, and the right gripper is at the right side of the opening.\nAnswer: pull tray",
+      "correct": false
+    },
+    {
+      "sec": 814,
+      "episode": "episode_00490620",
+      "gt": "close door",
+      "pred": "open door",
+      "raw": "Reasoning: The right gripper is at the oven door handle with the door now flush and the interior dark, though the door itself is not yet visible.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 339,
+      "episode": "episode_00491160",
+      "gt": "close door",
+      "pred": "open door",
+      "raw": "Reasoning: The right door is now nearly vertical with its shelves fully exposed, and the left door is also swung open.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 344,
+      "episode": "episode_00491160",
+      "gt": "close door",
+      "pred": "open door",
+      "raw": "Reasoning: The right door is now nearly flush with the fridge front and the interior shelves are fully exposed, with the gripper still at the handle.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 349,
+      "episode": "episode_00491160",
+      "gt": "close door",
+      "pred": "open door",
+      "raw": "Reasoning: The fridge door is now swung open wide with the arm at the right edge, though the door itself is still shut in the frame.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 354,
+      "episode": "episode_00491160",
+      "gt": "close door",
+      "pred": "open door",
+      "raw": "Reasoning: The left handle is now down at the fridge's front panel with the dispenser face exposed, the door face still shut.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 457,
+      "episode": "episode_00491160",
+      "gt": "close door",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the white tub on the floor, fingers in the gripper holding the tub.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 462,
+      "episode": "episode_00491160",
+      "gt": "close door",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down in the white tub of dough, holding it while the view swings toward the microwave and stove.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 467,
+      "episode": "episode_00491160",
+      "gt": "close door",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down in the white tub of white cubes, closing on them.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 472,
+      "episode": "episode_00491160",
+      "gt": "close door",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down in the white tub of flour, closing on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 477,
+      "episode": "episode_00491160",
+      "gt": "close door",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the white tub of white cubes, closing on its contents.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 740,
+      "episode": "episode_00491160",
+      "gt": "close door",
+      "pred": "open door",
+      "raw": "Reasoning: The oven door is now fully swung open with the rack and pizza tray visible inside, and the left gripper is down at the counter beside the door.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 746,
+      "episode": "episode_00491160",
+      "gt": "close door",
+      "pred": "open door",
+      "raw": "Reasoning: The oven door is now swung open wide with the pizza inside on the rack and the right gripper still attached to the door edge.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 751,
+      "episode": "episode_00491160",
+      "gt": "close door",
+      "pred": "open door",
+      "raw": "Reasoning: The oven door is now down and the open cavity with the dough on the rack is fully visible, with the right gripper still on the door.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 756,
+      "episode": "episode_00491160",
+      "gt": "close door",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now shut flush and the right gripper is at the handle, closing it.\nAnswer: close door",
+      "correct": true
+    },
+    {
+      "sec": 227,
+      "episode": "episode_00491670",
+      "gt": "close door",
+      "pred": "open door",
+      "raw": "Reasoning: The fridge door is now swung open wide enough to reveal the interior shelves and the arm at the bottom right is just entering the frame.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 232,
+      "episode": "episode_00491670",
+      "gt": "close door",
+      "pred": "close door",
+      "raw": "Reasoning: The right arm is extended across the open fridge front with the gripper open at the door face, the robot closing the door.\nAnswer: close door",
+      "correct": true
+    },
+    {
+      "sec": 257,
+      "episode": "episode_00491670",
+      "gt": "close door",
+      "pred": "open door",
+      "raw": "Reasoning: The fridge door is now swung open wide enough to see the interior shelves and the white container held in the right gripper.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 262,
+      "episode": "episode_00491670",
+      "gt": "close door",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the white tub on the floor, arm lowered to the ground.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 427,
+      "episode": "episode_00491670",
+      "gt": "close door",
+      "pred": "pull tray",
+      "raw": "Reasoning: The oven door is now down and the open cavity fills the lower frame with the rack inside visible.\nAnswer: pull tray",
+      "correct": false
+    },
+    {
+      "sec": 432,
+      "episode": "episode_00491670",
+      "gt": "close door",
+      "pred": "open door",
+      "raw": "Reasoning: The oven door is now swung open wide with the rack inside exposed and the right gripper at the door's outer edge.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 375,
+      "episode": "episode_00492320",
+      "gt": "close door",
+      "pred": "open door",
+      "raw": "Reasoning: The fridge door is now swung open wide with the interior shelves exposed and the right arm at the handle.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 380,
+      "episode": "episode_00492320",
+      "gt": "close door",
+      "pred": "close door",
+      "raw": "Reasoning: The right arm is extended into the open fridge with the gripper at the door edge, closing it.\nAnswer: close door",
+      "correct": true
+    },
+    {
+      "sec": 385,
+      "episode": "episode_00492320",
+      "gt": "close door",
+      "pred": "close door",
+      "raw": "Reasoning: The right gripper is at the handle of the right door, pulling it inward.\nAnswer: close door",
+      "correct": true
+    },
+    {
+      "sec": 484,
+      "episode": "episode_00492320",
+      "gt": "close door",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the white tub on the floor with the tilted container inside, holding it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 489,
+      "episode": "episode_00492320",
+      "gt": "close door",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the trash can's rim holding the knife, with the counter and oven now out of frame.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 494,
+      "episode": "episode_00492320",
+      "gt": "close door",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the white trash can's rim, closing on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 499,
+      "episode": "episode_00492320",
+      "gt": "close door",
+      "pred": "place in",
+      "raw": "Reasoning: The right gripper is down in the trash can with the fingers spread over the waste, consistent with setting it aside.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 774,
+      "episode": "episode_00492320",
+      "gt": "close door",
+      "pred": "pull tray",
+      "raw": "Reasoning: The oven door is now fully swung open with the pizza on the rack inside, arms still at the sides.\nAnswer: pull tray",
+      "correct": false
+    },
+    {
+      "sec": 779,
+      "episode": "episode_00492320",
+      "gt": "close door",
+      "pred": "open door",
+      "raw": "Reasoning: The oven door is now fully swung open with the rack and tray inside visible, and the right gripper is at the right edge of the opening.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 784,
+      "episode": "episode_00492320",
+      "gt": "close door",
+      "pred": "open door",
+      "raw": "Reasoning: The oven door is now fully swung open with the rack and dish visible inside, and the right gripper is at the door edge.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 789,
+      "episode": "episode_00492320",
+      "gt": "close door",
+      "pred": "close door",
+      "raw": "Reasoning: The right gripper is on the oven door handle with the door now down and the arm retracting.\nAnswer: close door",
+      "correct": true
+    },
+    {
+      "sec": 320,
+      "episode": "episode_00490020",
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the white tub on the sink counter, closing on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 323,
+      "episode": "episode_00490020",
+      "gt": "place in",
+      "pred": "move to",
+      "raw": "Reasoning: The right arm is extended across the sink counter with the gripper open and empty, no object contacted.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 527,
+      "episode": "episode_00490020",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The pizza is now sitting on the open oven tray with both arms retracting away from it.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 529,
+      "episode": "episode_00490020",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The pizza is now sitting on the open oven tray with both arms retracting away from it.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 532,
+      "episode": "episode_00490020",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The pizza is now sitting on the open oven tray with both arms retracting away from it.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 535,
+      "episode": "episode_00490020",
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The pizza is now sitting on the open oven tray with both arms still around it, the second grasp of the cycle.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 538,
+      "episode": "episode_00490020",
+      "gt": "place in",
+      "pred": "open door",
+      "raw": "Reasoning: The oven door is now fully swung open and the pizza is visible inside on the rack, with the right gripper still attached to the door frame.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 541,
+      "episode": "episode_00490020",
+      "gt": "place in",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now shut flush and the pizza is sitting on the baking tray inside.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 386,
+      "episode": "episode_00490620",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The right gripper is down at the sink holding the white tub, the last stage of the tub transfer.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 388,
+      "episode": "episode_00490620",
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the white tub on the counter, closing on its edge.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 391,
+      "episode": "episode_00490620",
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the white tub on the counter, closing on its edge.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 766,
+      "episode": "episode_00490620",
+      "gt": "place in",
+      "pred": "place on",
+      "raw": "Reasoning: The pizza is now sitting on the black tray with both arms retracting away from it.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 769,
+      "episode": "episode_00490620",
+      "gt": "place in",
+      "pred": "place on",
+      "raw": "Reasoning: The pizza is now sitting on the black tray with both arms retracting away from it.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 772,
+      "episode": "episode_00490620",
+      "gt": "place in",
+      "pred": "pull tray",
+      "raw": "Reasoning: The pizza is now on the open oven tray with both arms retracting away from it.\nAnswer: pull tray",
+      "correct": false
+    },
+    {
+      "sec": 775,
+      "episode": "episode_00490620",
+      "gt": "place in",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now shut and the cake sits inside on the tray, both arms still holding it.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 777,
+      "episode": "episode_00490620",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The pizza is now sitting inside the open oven on the baking tray, both arms withdrawn.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 780,
+      "episode": "episode_00490620",
+      "gt": "place in",
+      "pred": "pull tray",
+      "raw": "Reasoning: The pizza is now sitting on the oven tray with both arms still around it, the second grasp of the transfer.\nAnswer: pull tray",
+      "correct": false
+    },
+    {
+      "sec": 783,
+      "episode": "episode_00490620",
+      "gt": "place in",
+      "pred": "pull tray",
+      "raw": "Reasoning: Both arms are inside the oven opening, the pizza tray now sitting on the baking rack inside the cavity.\nAnswer: pull tray",
+      "correct": false
+    },
+    {
+      "sec": 786,
+      "episode": "episode_00490620",
+      "gt": "place in",
+      "pred": "pull tray",
+      "raw": "Reasoning: The pizza is now sitting on the oven rack inside the cavity, both arms withdrawn from it.\nAnswer: pull tray",
+      "correct": false
+    },
+    {
+      "sec": 789,
+      "episode": "episode_00490620",
+      "gt": "place in",
+      "pred": "pull tray",
+      "raw": "Reasoning: The oven door is now swung open wide enough to show the pizza tray inside, with both arms still at the sides.\nAnswer: pull tray",
+      "correct": false
+    },
+    {
+      "sec": 315,
+      "episode": "episode_00491160",
+      "gt": "place in",
+      "pred": "move to",
+      "raw": "Reasoning: The right arm is down at the sink with the white glove covering the faucet, no object contact visible.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 317,
+      "episode": "episode_00491160",
+      "gt": "place in",
+      "pred": "place on next to",
+      "raw": "Reasoning: The right arm is down at the sink holding the white bowl, which is now sitting on the counter beside the cutting board.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 320,
+      "episode": "episode_00491160",
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the sink holding the knife over the basin, mid-transfer.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 323,
+      "episode": "episode_00491160",
+      "gt": "place in",
+      "pred": "move to",
+      "raw": "Reasoning: The sink, countertop with the cutting board and bowl, and the open oven are now centered and the arms are not in frame at all.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 712,
+      "episode": "episode_00491160",
+      "gt": "place in",
+      "pred": "pull tray",
+      "raw": "Reasoning: The pizza is now sitting on the black oven tray with both arms retracting away from it.\nAnswer: pull tray",
+      "correct": false
+    },
+    {
+      "sec": 715,
+      "episode": "episode_00491160",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The pizza is now sitting on the open oven tray with both arms retracting away from it.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 718,
+      "episode": "episode_00491160",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The pizza is now sitting on the open oven tray with both arms still around it, mid-release.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 720,
+      "episode": "episode_00491160",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The pizza is now sitting on the open oven tray with both arms still around it, the second grasp of the cycle.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 723,
+      "episode": "episode_00491160",
+      "gt": "place in",
+      "pred": "close door",
+      "raw": "Reasoning: The pizza is now sitting on the open oven tray with both arms still around its sides, in the act of closing the door.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 726,
+      "episode": "episode_00491160",
+      "gt": "place in",
+      "pred": "pull tray",
+      "raw": "Reasoning: The pizza is now sitting on the oven rack with both arms still around the tray, the second grasp of the cycle.\nAnswer: pull tray",
+      "correct": false
+    },
+    {
+      "sec": 729,
+      "episode": "episode_00491160",
+      "gt": "place in",
+      "pred": "close door",
+      "raw": "Reasoning: The pizza is now sitting on the oven rack with both arms still at its sides, the closing motion complete.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 215,
+      "episode": "episode_00491670",
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The left gripper is down at the white bowl on the counter, closing on its rim.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 218,
+      "episode": "episode_00491670",
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The left arm is down at the white tub on the counter, closing on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 406,
+      "episode": "episode_00491670",
+      "gt": "place in",
+      "pred": "pull tray",
+      "raw": "Reasoning: The pizza is now sitting on the open oven tray with the door swung open wide, both arms still holding it.\nAnswer: pull tray",
+      "correct": false
+    },
+    {
+      "sec": 409,
+      "episode": "episode_00491670",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The pizza is now sitting on the open oven tray with both arms still around it, the second grasp of the cycle.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 412,
+      "episode": "episode_00491670",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The pizza is now sitting on the open oven tray with both arms still around it, the second grasp of the cycle.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 415,
+      "episode": "episode_00491670",
+      "gt": "place in",
+      "pred": "place on",
+      "raw": "Reasoning: The pizza is now sitting on the open oven tray with both arms still around its sides, in the act of setting it down.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 418,
+      "episode": "episode_00491670",
+      "gt": "place in",
+      "pred": "pull tray",
+      "raw": "Reasoning: Both arms are down in the oven holding the baking tray with the topped pizza on it, the last grasp before releasing.\nAnswer: pull tray",
+      "correct": false
+    },
+    {
+      "sec": 421,
+      "episode": "episode_00491670",
+      "gt": "place in",
+      "pred": "pull tray",
+      "raw": "Reasoning: The pizza is now sitting on the oven rack inside the cavity, both arms still holding it.\nAnswer: pull tray",
+      "correct": false
+    },
+    {
+      "sec": 423,
+      "episode": "episode_00491670",
+      "gt": "place in",
+      "pred": "pull tray",
+      "raw": "Reasoning: The pizza is now sitting on the oven rack inside the cavity, both arms withdrawn from it.\nAnswer: pull tray",
+      "correct": false
+    },
+    {
+      "sec": 525,
+      "episode": "episode_00492320",
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is extended over the cutting board where the last two white pieces remain, closing on the board surface.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 528,
+      "episode": "episode_00492320",
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the white dish on the counter next to the board, closing on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 531,
+      "episode": "episode_00492320",
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is extended over the cutting board with fingers at the board surface, closing on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 747,
+      "episode": "episode_00492320",
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The left gripper is down at the plate of toppings, closing on it from above.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 750,
+      "episode": "episode_00492320",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The pizza is now sitting on the open oven tray with both arms retracting away from it.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 752,
+      "episode": "episode_00492320",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The pizza is now sitting on the black oven tray with both arms still around it, mid-release.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 755,
+      "episode": "episode_00492320",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The pizza is now sitting on the open oven tray with both arms retracting from it.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 758,
+      "episode": "episode_00492320",
+      "gt": "place in",
+      "pred": "pull tray",
+      "raw": "Reasoning: The pizza is now sitting on the oven rack inside the cavity, both arms still holding it.\nAnswer: pull tray",
+      "correct": false
+    },
+    {
+      "sec": 761,
+      "episode": "episode_00492320",
+      "gt": "place in",
+      "pred": "pull tray",
+      "raw": "Reasoning: The pizza is now sitting on the oven rack inside the cavity, both arms withdrawn from it.\nAnswer: pull tray",
+      "correct": false
+    },
+    {
+      "sec": 764,
+      "episode": "episode_00492320",
+      "gt": "place in",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now shut and the two arms are retracting from the open cavity.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 485,
+      "episode": "episode_00490020",
+      "gt": "pull tray",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now shut flush and the right gripper is at the handle pulling it down.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 488,
+      "episode": "episode_00490020",
+      "gt": "pull tray",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now shut flush and the right arm is retracting away from the opening.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 491,
+      "episode": "episode_00490020",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The oven door is now down and the right gripper is inside the cavity holding the wire rack.\nAnswer: pull tray",
+      "correct": true
+    },
+    {
+      "sec": 493,
+      "episode": "episode_00490020",
+      "gt": "pull tray",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now shut flush and the right arm is back down at the counter beside the open oven.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 496,
+      "episode": "episode_00490020",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The right arm is inside the open oven cavity, holding the wire rack that was just pulled out.\nAnswer: pull tray",
+      "correct": true
+    },
+    {
+      "sec": 499,
+      "episode": "episode_00490020",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The oven door is now down and the right gripper is on the wire rack inside, not on the door itself.\nAnswer: pull tray",
+      "correct": true
+    },
+    {
+      "sec": 501,
+      "episode": "episode_00490020",
+      "gt": "pull tray",
+      "pred": "open door",
+      "raw": "Reasoning: The oven door is now fully swung open with the wire rack visible inside and the right gripper still attached to the handle.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 504,
+      "episode": "episode_00490020",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The oven door is now down and the right gripper is on the open oven front, not the handle.\nAnswer: pull tray",
+      "correct": true
+    },
+    {
+      "sec": 507,
+      "episode": "episode_00490020",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The oven door is now down and the right gripper is on the wire rack inside it.\nAnswer: pull tray",
+      "correct": true
+    },
+    {
+      "sec": 509,
+      "episode": "episode_00490020",
+      "gt": "pull tray",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is now right at the stove with both arms extended toward the burners, but no object is grasped or released in this frame.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 708,
+      "episode": "episode_00490620",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The right gripper is inside the open oven opening, holding the tray edge as it swings back in.\nAnswer: pull tray",
+      "correct": true
+    },
+    {
+      "sec": 711,
+      "episode": "episode_00490620",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The oven door is now fully open and the right gripper is inside the cavity, holding the rack.\nAnswer: pull tray",
+      "correct": true
+    },
+    {
+      "sec": 713,
+      "episode": "episode_00490620",
+      "gt": "pull tray",
+      "pred": "open door",
+      "raw": "Reasoning: The oven door is now swung open wide enough to reveal the rack and the white tray inside, gripper still attached to the door.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 716,
+      "episode": "episode_00490620",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The right arm is inside the open oven with the rack now resting on the door sill.\nAnswer: pull tray",
+      "correct": true
+    },
+    {
+      "sec": 719,
+      "episode": "episode_00490620",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The right arm is inside the open oven opening, holding the rack and pushing it outward from the cavity.\nAnswer: pull tray",
+      "correct": true
+    },
+    {
+      "sec": 721,
+      "episode": "episode_00490620",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The right arm is extended into the open oven opening, gripper at the wire rack sitting inside.\nAnswer: pull tray",
+      "correct": true
+    },
+    {
+      "sec": 724,
+      "episode": "episode_00490620",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The oven door is now swung open wide with the rack inside exposed and the right gripper still attached to the handle.\nAnswer: pull tray",
+      "correct": true
+    },
+    {
+      "sec": 727,
+      "episode": "episode_00490620",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The oven door is now fully swung open with the wire rack visible inside, and the right arm is at the open oven front.\nAnswer: pull tray",
+      "correct": true
+    },
+    {
+      "sec": 729,
+      "episode": "episode_00490620",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The oven door is now swung open and the wire rack is exposed, with the right arm still at the handle.\nAnswer: pull tray",
+      "correct": true
+    },
+    {
+      "sec": 732,
+      "episode": "episode_00490620",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The oven door is now down and the open cavity fills the lower frame with the wire rack visible inside.\nAnswer: pull tray",
+      "correct": true
+    },
+    {
+      "sec": 735,
+      "episode": "episode_00490620",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The oven door is now down and the open cavity fills the lower frame with the wire rack visible inside.\nAnswer: pull tray",
+      "correct": true
+    },
+    {
+      "sec": 737,
+      "episode": "episode_00490620",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The oven door is now down and open, the rack visible inside, with the robot still at the opening.\nAnswer: pull tray",
+      "correct": true
+    },
+    {
+      "sec": 740,
+      "episode": "episode_00490620",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The oven door is now down and the open cavity fills the lower frame with its wire rack visible.\nAnswer: pull tray",
+      "correct": true
+    },
+    {
+      "sec": 662,
+      "episode": "episode_00491160",
+      "gt": "pull tray",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now down and the right gripper is at the handle pulling it shut.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 664,
+      "episode": "episode_00491160",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The oven door is now fully swung open and the right gripper is inside the cavity holding the wire rack.\nAnswer: pull tray",
+      "correct": true
+    },
+    {
+      "sec": 667,
+      "episode": "episode_00491160",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The right gripper is inside the open oven opening, holding the tray edge as it swings back in.\nAnswer: pull tray",
+      "correct": true
+    },
+    {
+      "sec": 670,
+      "episode": "episode_00491160",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The right arm is inside the open oven opening, holding the wire rack and pushing it outward from the cavity.\nAnswer: pull tray",
+      "correct": true
+    },
+    {
+      "sec": 672,
+      "episode": "episode_00491160",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The right arm is inside the open oven opening, holding the rack and pushing it outward from the cavity.\nAnswer: pull tray",
+      "correct": true
+    },
+    {
+      "sec": 675,
+      "episode": "episode_00491160",
+      "gt": "pull tray",
+      "pred": "close door",
+      "raw": "Reasoning: The right gripper is at the handle of the open oven door, pulling it shut.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 678,
+      "episode": "episode_00491160",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The oven door is now fully swung open with the wire rack visible inside, and the right gripper is at the right side of the cavity.\nAnswer: pull tray",
+      "correct": true
+    },
+    {
+      "sec": 680,
+      "episode": "episode_00491160",
+      "gt": "pull tray",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now down and the right gripper is at the far right edge of the opening, beginning to swing it shut.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 683,
+      "episode": "episode_00491160",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The oven door is now down and the open cavity fills the frame with the wire rack visible inside.\nAnswer: pull tray",
+      "correct": true
+    },
+    {
+      "sec": 686,
+      "episode": "episode_00491160",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The oven door is now fully drawn out and the wire rack is exposed, with the arm still out of frame at the bottom.\nAnswer: pull tray",
+      "correct": true
+    },
+    {
+      "sec": 688,
+      "episode": "episode_00491160",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The oven door is now fully swung open and the wire rack is exposed on the floor, with the arm still out of frame at the bottom.\nAnswer: pull tray",
+      "correct": true
+    },
+    {
+      "sec": 691,
+      "episode": "episode_00491160",
+      "gt": "pull tray",
+      "pred": "open door",
+      "raw": "Reasoning: The oven door is now down and the wire rack is exposed, with the left gripper still on the door handle.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 370,
+      "episode": "episode_00491670",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The oven door is now shut flush and the view has turned inward toward the open oven with the rack visible inside.\nAnswer: pull tray",
+      "correct": true
+    },
+    {
+      "sec": 372,
+      "episode": "episode_00491670",
+      "gt": "pull tray",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now shut flush with the cavity and the right gripper is at the handle pulling it shut.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 375,
+      "episode": "episode_00491670",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The oven door is now down and the right arm is inside the cavity holding the tray.\nAnswer: pull tray",
+      "correct": true
+    },
+    {
+      "sec": 378,
+      "episode": "episode_00491670",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The oven door is now shut flush and the right gripper is inside the cavity, holding the tray.\nAnswer: pull tray",
+      "correct": true
+    },
+    {
+      "sec": 380,
+      "episode": "episode_00491670",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The oven door is now shut flush and the right gripper is inside the cavity, holding the rack.\nAnswer: pull tray",
+      "correct": true
+    },
+    {
+      "sec": 383,
+      "episode": "episode_00491670",
+      "gt": "pull tray",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now down and the right gripper is on the oven handle pulling it shut.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 386,
+      "episode": "episode_00491670",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The oven door is now fully open and the right gripper is on the wire rack inside, holding it.\nAnswer: pull tray",
+      "correct": true
+    },
+    {
+      "sec": 388,
+      "episode": "episode_00491670",
+      "gt": "pull tray",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now swung open wide with the rack inside, and the right gripper is at the door handle pulling it shut.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 391,
+      "episode": "episode_00491670",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The oven door is now fully swung open and the open cavity fills the lower frame with the wire rack visible inside.\nAnswer: pull tray",
+      "correct": true
+    },
+    {
+      "sec": 394,
+      "episode": "episode_00491670",
+      "gt": "pull tray",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now down and the right arm is at the handle pulling it shut.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 396,
+      "episode": "episode_00491670",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The oven door is now down and the open oven fills the frame with the wire rack visible, arms still low and idle.\nAnswer: pull tray",
+      "correct": true
+    },
+    {
+      "sec": 700,
+      "episode": "episode_00492320",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The oven door is now shut flush and the right gripper is inside the cavity, holding the tray.\nAnswer: pull tray",
+      "correct": true
+    },
+    {
+      "sec": 703,
+      "episode": "episode_00492320",
+      "gt": "pull tray",
+      "pred": "open door",
+      "raw": "Reasoning: The oven door is now swung open wide enough to reveal the rack inside, with the right gripper still attached to the door.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 705,
+      "episode": "episode_00492320",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The right gripper is inside the open oven opening, holding the white tray piece.\nAnswer: pull tray",
+      "correct": true
+    },
+    {
+      "sec": 708,
+      "episode": "episode_00492320",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The oven door is now fully swung open with the rack and tray inside exposed, and the right gripper is at the opening.\nAnswer: pull tray",
+      "correct": true
+    },
+    {
+      "sec": 711,
+      "episode": "episode_00492320",
+      "gt": "pull tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The right arm is inside the open oven opening, holding the rack and the door is now shut.\nAnswer: pull tray",
+      "correct": true
+    },
+    {
+      "sec": 713,
+      "episode": "episode_00492320",
+      "gt": "pull tray",
+      "pred": "close door",
+      "raw": "Reasoning: The right arm is down at the open oven door with the gripper at the handle, closing it shut.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 716,
+      "episode": "episode_00492320",
+      "gt": "pull tray",
+      "pred": "open door",
+      "raw": "Reasoning: The oven door is now fully swung open with the wire rack visible inside and the right gripper still at the handle.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 544,
+      "episode": "episode_00490020",
+      "gt": "push tray",
+      "pred": "place in",
+      "raw": "Reasoning: The pizza is now sitting on the open oven tray with the right gripper still at its edge.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 545,
+      "episode": "episode_00490020",
+      "gt": "push tray",
+      "pred": "place in",
+      "raw": "Reasoning: The oven door is now shut flush and the right gripper is inside the cavity, holding the tray.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 546,
+      "episode": "episode_00490020",
+      "gt": "push tray",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now down and the right gripper is on the handle pulling it shut.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 547,
+      "episode": "episode_00490020",
+      "gt": "push tray",
+      "pred": "place in",
+      "raw": "Reasoning: The oven door is now shut flush and the right gripper is inside the cavity holding the pizza on the baking tray.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 548,
+      "episode": "episode_00490020",
+      "gt": "push tray",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now shut flush and the right gripper is at the handle pulling it shut.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 549,
+      "episode": "episode_00490020",
+      "gt": "push tray",
+      "pred": "place in",
+      "raw": "Reasoning: The oven door is now shut flush and the right gripper is inside the cavity holding the pizza dough.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 550,
+      "episode": "episode_00490020",
+      "gt": "push tray",
+      "pred": "place in",
+      "raw": "Reasoning: The oven door is now shut and the right gripper is inside the cavity, holding the pizza tray.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 551,
+      "episode": "episode_00490020",
+      "gt": "push tray",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now shut flush and the right gripper is at the handle pulling it shut.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 552,
+      "episode": "episode_00490020",
+      "gt": "push tray",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now shut and the right gripper is at the handle pulling it shut.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 553,
+      "episode": "episode_00490020",
+      "gt": "push tray",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now shut flush and the right gripper is at the handle pulling it shut.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 554,
+      "episode": "episode_00490020",
+      "gt": "push tray",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now down and the right gripper is at the handle pulling it shut.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 555,
+      "episode": "episode_00490020",
+      "gt": "push tray",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now shut flush and the right gripper is at the handle pulling it shut.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 556,
+      "episode": "episode_00490020",
+      "gt": "push tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The oven door is now down and the right gripper is inside the cavity holding the white tray.\nAnswer: pull tray",
+      "correct": false
+    },
+    {
+      "sec": 557,
+      "episode": "episode_00490020",
+      "gt": "push tray",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now down and the right gripper is at the handle pulling it shut.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 558,
+      "episode": "episode_00490020",
+      "gt": "push tray",
+      "pred": "open door",
+      "raw": "Reasoning: The oven door is now swung open wide with the rack inside visible and the right gripper still attached to the handle.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 559,
+      "episode": "episode_00490020",
+      "gt": "push tray",
+      "pred": "open door",
+      "raw": "Reasoning: The oven door is now swung open wide with the interior tray visible and the right gripper still attached to the door edge.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 560,
+      "episode": "episode_00490020",
+      "gt": "push tray",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now fully swung open and the right gripper is at the door's lower edge, beginning to push it shut.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 561,
+      "episode": "episode_00490020",
+      "gt": "push tray",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now fully swung open and the right gripper is at the door's outer edge, beginning to push it shut.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 562,
+      "episode": "episode_00490020",
+      "gt": "push tray",
+      "pred": "open door",
+      "raw": "Reasoning: The oven door is now swung open wide with the rack and dough inside visible, and the right gripper is at the door's outer edge.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 563,
+      "episode": "episode_00490020",
+      "gt": "push tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The oven door is now swung open wide with the rack inside visible, and the right gripper is at the right edge of the opening.\nAnswer: pull tray",
+      "correct": false
+    },
+    {
+      "sec": 790,
+      "episode": "episode_00490620",
+      "gt": "push tray",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now shut flush and the rack sits inside on the tray \u2014 the door is closed, though the arms are still down at the opening.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 791,
+      "episode": "episode_00490620",
+      "gt": "push tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The right gripper is inside the oven on the rack, holding it as the door swings open.\nAnswer: pull tray",
+      "correct": false
+    },
+    {
+      "sec": 792,
+      "episode": "episode_00490620",
+      "gt": "push tray",
+      "pred": "close door",
+      "raw": "Reasoning: The right gripper is at the handle of the open oven door, pulling it shut.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 793,
+      "episode": "episode_00490620",
+      "gt": "push tray",
+      "pred": "open door",
+      "raw": "Reasoning: The right gripper is at the oven door handle with the door swung open wide, showing the pizza inside.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 794,
+      "episode": "episode_00490620",
+      "gt": "push tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The oven door is now swung open wide enough to see the pizza dough and toppings on the rack inside.\nAnswer: pull tray",
+      "correct": false
+    },
+    {
+      "sec": 795,
+      "episode": "episode_00490620",
+      "gt": "push tray",
+      "pred": "open door",
+      "raw": "Reasoning: The oven door is now swung open wide with the rack and toppings visible inside, and the right gripper is still attached to the door frame.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 796,
+      "episode": "episode_00490620",
+      "gt": "push tray",
+      "pred": "open door",
+      "raw": "Reasoning: The oven door is now swung open wide enough to see the pizza inside on the rack, with the right gripper still at the handle.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 797,
+      "episode": "episode_00490620",
+      "gt": "push tray",
+      "pred": "open door",
+      "raw": "Reasoning: The right gripper is at the oven door handle with the door swung open wide, showing the pizza inside.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 730,
+      "episode": "episode_00491160",
+      "gt": "push tray",
+      "pred": "open door",
+      "raw": "Reasoning: The oven door is now fully swung open and the pizza is visible on the rack inside, with the right gripper still attached to the door.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 731,
+      "episode": "episode_00491160",
+      "gt": "push tray",
+      "pred": "close door",
+      "raw": "Reasoning: The open door is now fully swung out and the right gripper is on the handle pulling it back.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 732,
+      "episode": "episode_00491160",
+      "gt": "push tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The pizza is now sitting on the oven rack with the right gripper still on the tray edge.\nAnswer: pull tray",
+      "correct": false
+    },
+    {
+      "sec": 733,
+      "episode": "episode_00491160",
+      "gt": "push tray",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now shut flat against the cavity with the pizza on the rack inside.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 734,
+      "episode": "episode_00491160",
+      "gt": "push tray",
+      "pred": "open door",
+      "raw": "Reasoning: The right gripper is at the oven door handle with the door swung open wide, showing the pizza inside.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 735,
+      "episode": "episode_00491160",
+      "gt": "push tray",
+      "pred": "open door",
+      "raw": "Reasoning: The oven door is now swung open wide enough to see the pizza inside, with the right gripper still at the handle.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 736,
+      "episode": "episode_00491160",
+      "gt": "push tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The right arm is inside the open oven, holding the tray edge as it swings back in.\nAnswer: pull tray",
+      "correct": false
+    },
+    {
+      "sec": 737,
+      "episode": "episode_00491160",
+      "gt": "push tray",
+      "pred": "open door",
+      "raw": "Reasoning: The right gripper is at the oven door handle with the door swung open and the pizza on the rack visible inside.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 738,
+      "episode": "episode_00491160",
+      "gt": "push tray",
+      "pred": "open door",
+      "raw": "Reasoning: The oven door is now swung open wide with the pizza on the rack inside, and the right gripper is at the door handle.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 739,
+      "episode": "episode_00491160",
+      "gt": "push tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The oven door is now fully swung open with the pizza on the rack inside, arms still low and idle.\nAnswer: pull tray",
+      "correct": false
+    },
+    {
+      "sec": 424,
+      "episode": "episode_00491670",
+      "gt": "push tray",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now shut and the pizza is on the rack inside, with both arms withdrawn from the cavity.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 425,
+      "episode": "episode_00491670",
+      "gt": "push tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The pizza is now sitting on the open oven tray with the second red dot on top, and the right gripper is at the tray's edge.\nAnswer: pull tray",
+      "correct": false
+    },
+    {
+      "sec": 767,
+      "episode": "episode_00492320",
+      "gt": "push tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The pizza is now sitting on the rack inside the open oven and the right gripper is pulling back from the tray.\nAnswer: pull tray",
+      "correct": false
+    },
+    {
+      "sec": 768,
+      "episode": "episode_00492320",
+      "gt": "push tray",
+      "pred": "open door",
+      "raw": "Reasoning: The right gripper is at the oven door handle with the door now swung open wide, both arms still engaged.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 769,
+      "episode": "episode_00492320",
+      "gt": "push tray",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now open with the pizza on the rack inside, and the right gripper is at the handle pulling it shut.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 770,
+      "episode": "episode_00492320",
+      "gt": "push tray",
+      "pred": "open door",
+      "raw": "Reasoning: The right gripper is on the oven door handle with the door now swung open and the pizza tray inside.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 771,
+      "episode": "episode_00492320",
+      "gt": "push tray",
+      "pred": "pull tray",
+      "raw": "Reasoning: The pizza is now sitting on the rack inside the oven and the right gripper is pulling back from the tray.\nAnswer: pull tray",
+      "correct": false
+    },
+    {
+      "sec": 772,
+      "episode": "episode_00492320",
+      "gt": "push tray",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now swung open wide with the rack and pizza tray inside, and the right gripper is at the door edge.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 773,
+      "episode": "episode_00492320",
+      "gt": "push tray",
+      "pred": "open door",
+      "raw": "Reasoning: The oven door is now swung open wide with the rack and pizza on the shelf visible, and the right gripper is at the handle.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 578,
+      "episode": "episode_00490020",
+      "gt": "turn on switch",
+      "pred": "open door",
+      "raw": "Reasoning: The left arm is extended toward the oven front panel with the gripper at the handle area.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 579,
+      "episode": "episode_00490020",
+      "gt": "turn on switch",
+      "pred": "move to",
+      "raw": "Reasoning: The right gripper is extended toward the counter surface right beside the microwave, with no object contact yet.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 580,
+      "episode": "episode_00490020",
+      "gt": "turn on switch",
+      "pred": "open door",
+      "raw": "Reasoning: The oven door is now shut and the right gripper is at the handle area, closing on it.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 581,
+      "episode": "episode_00490020",
+      "gt": "turn on switch",
+      "pred": "close door",
+      "raw": "Reasoning: The right arm is at the oven door handle with the door now down and closed, the last contact with the door.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 819,
+      "episode": "episode_00490620",
+      "gt": "turn on switch",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the stove and oven with both arms low and idle, no object contact.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 820,
+      "episode": "episode_00490620",
+      "gt": "turn on switch",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the stove and oven with both arms low and idle, no object contact.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 821,
+      "episode": "episode_00490620",
+      "gt": "turn on switch",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the stove and oven with both arms low and idle, no object contact.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 822,
+      "episode": "episode_00490620",
+      "gt": "turn on switch",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the stove and microwave with the arms still low and idle, no object contact.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 823,
+      "episode": "episode_00490620",
+      "gt": "turn on switch",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the stove and microwave with both arms still low and idle, consistent with the base repositioning.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 824,
+      "episode": "episode_00490620",
+      "gt": "turn on switch",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the stove and oven with both arms low and idle, no object contact.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 825,
+      "episode": "episode_00490620",
+      "gt": "turn on switch",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the stove and microwave with both arms hanging low and empty, no object contact visible.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 826,
+      "episode": "episode_00490620",
+      "gt": "turn on switch",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now shut flush and the left gripper is at the handle, closing on it.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 827,
+      "episode": "episode_00490620",
+      "gt": "turn on switch",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the stove and oven with both arms low and empty, no object contact visible.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 828,
+      "episode": "episode_00490620",
+      "gt": "turn on switch",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the stove and oven front with both arms still low and idle, no object contact.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 829,
+      "episode": "episode_00490620",
+      "gt": "turn on switch",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now shut flush and the left gripper is at the handle pulling it down.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 830,
+      "episode": "episode_00490620",
+      "gt": "turn on switch",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now shut flush and the left gripper is at its handle, closing on it.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 831,
+      "episode": "episode_00490620",
+      "gt": "turn on switch",
+      "pred": "open door",
+      "raw": "Reasoning: The left arm is extended forward over the open oven front with the white gripper at the handle area.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 832,
+      "episode": "episode_00490620",
+      "gt": "turn on switch",
+      "pred": "move to",
+      "raw": "Reasoning: The left arm is extended over the oven front with the red knob visible, but the view is still a wide room view with no object contact.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 833,
+      "episode": "episode_00490620",
+      "gt": "turn on switch",
+      "pred": "open door",
+      "raw": "Reasoning: The left arm is extended over the oven front with the gripper open at the handle area, the robot facing the appliance.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 834,
+      "episode": "episode_00490620",
+      "gt": "turn on switch",
+      "pred": "open door",
+      "raw": "Reasoning: The left arm is extended across the counter toward the oven front with the handle pulled back from the door.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 761,
+      "episode": "episode_00491160",
+      "gt": "turn on switch",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the stove and oven with both arms low and idle, no object contact.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 762,
+      "episode": "episode_00491160",
+      "gt": "turn on switch",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the stove and microwave with both arms low and idle, no object contact visible.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 763,
+      "episode": "episode_00491160",
+      "gt": "turn on switch",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now shut flush and the left arm has pulled back with the gripper empty.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 764,
+      "episode": "episode_00491160",
+      "gt": "turn on switch",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now shut flush and the left arm has pulled back with the gripper empty.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 765,
+      "episode": "episode_00491160",
+      "gt": "turn on switch",
+      "pred": "move to",
+      "raw": "Reasoning: The left arm is extended over the stove front with the red knob visible, but no object is grasped or released.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 766,
+      "episode": "episode_00491160",
+      "gt": "turn on switch",
+      "pred": "close door",
+      "raw": "Reasoning: The left arm is extended over the open oven front with the handle raised, the door now flush and shut.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 767,
+      "episode": "episode_00491160",
+      "gt": "turn on switch",
+      "pred": "open door",
+      "raw": "Reasoning: The left arm is extended over the open oven front with the red knob visible, the robot is interacting with the oven controls.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 768,
+      "episode": "episode_00491160",
+      "gt": "turn on switch",
+      "pred": "place on",
+      "raw": "Reasoning: The left arm is extended over the counter with the gripper open at the board edge, the last contact before the robot leaves the surface.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 769,
+      "episode": "episode_00491160",
+      "gt": "turn on switch",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now down and the left arm is retracting away from the control panel.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 770,
+      "episode": "episode_00491160",
+      "gt": "turn on switch",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the stove and microwave with both arms hanging idle at the sides \u2014 a base traverse frame with no manipulation target.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 771,
+      "episode": "episode_00491160",
+      "gt": "turn on switch",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is extended forward over the counter with the arm lowered, an approach-to-grasp frame.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 436,
+      "episode": "episode_00491670",
+      "gt": "turn on switch",
+      "pred": "close door",
+      "raw": "Reasoning: The right gripper is at the oven door handle with the door now down and the arm pulling back.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 437,
+      "episode": "episode_00491670",
+      "gt": "turn on switch",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now down and the left arm is at its handle, closing on it.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 438,
+      "episode": "episode_00491670",
+      "gt": "turn on switch",
+      "pred": "open door",
+      "raw": "Reasoning: The robot is right at the oven front with the arm extended toward the door panel, though the door itself is still shut.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 795,
+      "episode": "episode_00492320",
+      "gt": "turn on switch",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now shut flush with the cabinetry and both arms are withdrawn from the worktop.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 796,
+      "episode": "episode_00492320",
+      "gt": "turn on switch",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the stove and oven with both arms low and empty, no object contact visible.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 797,
+      "episode": "episode_00492320",
+      "gt": "turn on switch",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the stove and oven with both arms withdrawn and empty, showing the counter and appliances from a distance.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 798,
+      "episode": "episode_00492320",
+      "gt": "turn on switch",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the stove and microwave with both arms low and idle, no object contact visible.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 799,
+      "episode": "episode_00492320",
+      "gt": "turn on switch",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now shut flush and the right gripper is at the handle pulling it down.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 800,
+      "episode": "episode_00492320",
+      "gt": "turn on switch",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now shut flush and the left arm is retracting away from its control panel.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 801,
+      "episode": "episode_00492320",
+      "gt": "turn on switch",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the stove and microwave with both arms low and empty, no object contact visible.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 802,
+      "episode": "episode_00492320",
+      "gt": "turn on switch",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the stove and microwave with the arms still low and idle, no manipulation contact visible.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 803,
+      "episode": "episode_00492320",
+      "gt": "turn on switch",
+      "pred": "close door",
+      "raw": "Reasoning: The oven door is now shut flush and the left arm is retracting away from its handle.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 804,
+      "episode": "episode_00492320",
+      "gt": "turn on switch",
+      "pred": "open door",
+      "raw": "Reasoning: The oven door is now down and the left arm is at its control panel with the green knob visible.\nAnswer: open door",
+      "correct": false
+    }
+  ]
+}

@@ -1,0 +1,423 @@
+{
+  "task_chunk": "task-0042",
+  "task_name": "chop an onion",
+  "accuracy": 0.3898305084745763,
+  "macro_recall": 0.33237179487179486,
+  "correct": 23,
+  "total": 59,
+  "predictions": [
+    {
+      "sec": 3,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The arms are empty and positioned in the open room with no objects near the sink or counter, indicating the robot is moving to the next station.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 7,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot's arms are empty and positioned in the open room, with no objects near the sink or countertop, indicating it is moving to a new location.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 10,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The arms are empty and positioned over the floor, with no objects near the sink or countertop, indicating the robot is moving to a new location.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 14,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The arms are empty and positioned in the open room, with no cutting board, onion, or bowl visible in the immediate vicinity.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 18,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The arms are empty and positioned over the floor, indicating the robot is not engaged in any countertop task.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 21,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The arms are empty and positioned in the open room with no objects near the sink or counter, indicating the robot is moving to a new location.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 25,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot's arms are empty and positioned in the open room, with no objects on the counter or in the sink, indicating the robot is not engaged in any task.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 29,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot's arms are empty and positioned near the sink, with no cutting board or onion visible in the immediate vicinity, suggesting the robot is approaching the task area.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 32,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's arms are empty and positioned near the sink, with no cutting board or onion visible in the frame, indicating the robot is approaching the task area.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding a wooden cutting board with a knife, positioned over a sink area where an onion is visible, suggesting the next step in the task.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 39,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's left arm is positioned over the sink basin, suggesting it is reaching for or interacting with an item within the sink.\nAnswer: 3",
+      "correct": true
+    },
+    {
+      "sec": 43,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's left arm is positioned over the sink with a white bowl nearby, suggesting it is about to retrieve an item from the sink.\nAnswer: 3",
+      "correct": true
+    },
+    {
+      "sec": 47,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot arm is positioned over the sink basin with a gripper, appearing to grasp or interact with an object within the sink, consistent with retrieving an item.\nAnswer: 3",
+      "correct": true
+    },
+    {
+      "sec": 50,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's right arm is positioned over the sink basin, with a gripper appearing to grasp or interact with an object inside, consistent with retrieving an item.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The robot's left arm is positioned over the white bowl, appearing to have just placed an item inside, while the right arm is empty and hovering near the sink area, consistent with completing a placement action.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is holding a white bowl and appears to be positioning it over the counter, likely preparing to place the diced onion inside.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 61,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's left arm is holding a white bowl over the counter, while the right arm is positioned near the sink, suggesting it is about to pick up an item from the sink.\nAnswer: 3",
+      "correct": true
+    },
+    {
+      "sec": 65,
+      "gt": "place on next to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's right arm is positioned over the sink area, with the gripper appearing to grasp or interact with an object within the metal basin, consistent with picking up an item.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 69,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot arm is holding a wooden cutting board with a knife, positioned over a white bowl on the counter, suggesting the next step in the task.\nAnswer: 6",
+      "correct": true
+    },
+    {
+      "sec": 72,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot arm is holding a wooden cutting board with a knife, and the board is tilted over a white bowl, suggesting the action of placing the chopped onion into the bowl.\nAnswer: 6",
+      "correct": true
+    },
+    {
+      "sec": 76,
+      "gt": "place on next to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's gripper is positioned over the sink area, appearing to interact with an object within the metal basin, consistent with retrieving an item.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 79,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's right arm is positioned over the sink, with the left arm holding a knife and a small piece of onion, suggesting the action of removing the onion from the sink.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 83,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The left arm is positioned over the sink basin with its gripper open, appearing to reach for or have just retrieved an item from the sink area.\nAnswer: 3",
+      "correct": true
+    },
+    {
+      "sec": 87,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's left arm is reaching into the sink basin, suggesting it is retrieving an item, which aligns with the 'pick up from' subskill.\nAnswer: 3",
+      "correct": true
+    },
+    {
+      "sec": 90,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's left arm is reaching into the sink basin with a gripper, appearing to grasp an item, while the right arm is empty and positioned near the counter.\nAnswer: 3",
+      "correct": true
+    },
+    {
+      "sec": 94,
+      "gt": "move to",
+      "pred": "chop",
+      "raw": "Reasoning: The robot is holding a knife and an onion over the sink, with the knife positioned to cut the onion, indicating the start of the chopping process.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 98,
+      "gt": "pick up from",
+      "pred": "chop",
+      "raw": "Reasoning: The robot's right arm is holding a knife over the wooden cutting board, which contains a large onion piece and loose white bits, indicating the cutting action is in progress.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 101,
+      "gt": "pick up from",
+      "pred": "chop",
+      "raw": "Reasoning: The robot's left arm is holding a pink onion over a wooden cutting board, while the right arm holds a knife near the board, indicating the start of the chopping process.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 105,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's right arm is positioned over the sink, with its gripper appearing to grasp or interact with an object within the basin, consistent with retrieving an item.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 109,
+      "gt": "place on",
+      "pred": "chop",
+      "raw": "Reasoning: The robot's right arm is holding a knife over the cutting board, which has a large onion piece and loose bits, indicating the cutting process is in progress.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 112,
+      "gt": "push to",
+      "pred": "chop",
+      "raw": "Reasoning: The robot's right arm holds a knife with its blade touching a whole onion on the board, while the left arm is idle near the bowl, indicating the start of the chopping process.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 116,
+      "gt": "push to",
+      "pred": "chop",
+      "raw": "Reasoning: The robot is holding a knife over an onion on a cutting board, with the knife blade touching the onion, indicating the start of a cutting action.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 119,
+      "gt": "push to",
+      "pred": "place in",
+      "raw": "Reasoning: The robot's right arm is holding a knife over the sink, while the left arm is positioned near the cutting board with an onion and a bowl nearby, suggesting the next step in the task.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 123,
+      "gt": "push to",
+      "pred": "chop",
+      "raw": "Reasoning: The robot is holding a knife over an onion on a cutting board, with the knife blade positioned directly above the onion, indicating the start of a cutting action.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 127,
+      "gt": "push to",
+      "pred": "chop",
+      "raw": "Reasoning: The robot is holding a knife over an onion on a cutting board, with a bowl nearby, indicating the start of the chopping process.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 130,
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The robot's right arm is holding a knife vertically above the sink, while the left arm is positioned over the cutting board with a large onion piece and loose bits, indicating the robot is preparing to cut the onion.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 134,
+      "gt": "push to",
+      "pred": "chop",
+      "raw": "Reasoning: The robot's right arm is positioned over the sink, with the left arm holding a knife and a piece of onion on the board, indicating the start of the cutting process.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 138,
+      "gt": "push to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's right arm is positioned over the sink area, with the left arm holding an onion on the board, suggesting the action of taking the onion out of the sink.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 141,
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The robot is holding a knife over a whole onion on the cutting board, with no dice visible, indicating it is about to begin cutting.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 145,
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The robot is holding a knife over a whole onion on the board, with a smaller piece already cut, indicating the start of the chopping process.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 148,
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The robot is holding a knife with a red handle, which is inserted into a whole onion resting on the cutting board, indicating the start of the chopping process.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 152,
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The robot arm is holding a knife and a red-handled tool (likely a screwdriver or utility knife) over a wooden cutting board with white cubes, appearing to prepare to cut or manipulate the onions.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 156,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's right arm is positioned over the sink basin, with its gripper appearing to grasp or interact with an object inside the metal sink, consistent with picking up an item.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 159,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's right arm is reaching into the sink basin, while the left arm is positioned over the counter near the bowl and board, suggesting it is retrieving an item from the sink.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 163,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The robot's arms are positioned over the counter with the cutting board and bowl in view, but no knife is visible in the hands, and the board is not being actively manipulated or tipped.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 167,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The robot's arms are empty and positioned near the sink area, with no cutting board or onion visible in the immediate view, suggesting it is approaching the task.\nAnswer: 2",
+      "correct": false
+    },
+    {
+      "sec": 170,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The robot's arms are empty and positioned near the bowl and board, with no knife or onion visible, indicating the robot is approaching the task area.\nAnswer: 2",
+      "correct": false
+    },
+    {
+      "sec": 174,
+      "gt": "pick up from",
+      "pred": "pour",
+      "raw": "Reasoning: The robot's right arm is positioned over the wooden cutting board which contains diced white cubes, indicating the completion of the dice task.\nAnswer: 7",
+      "correct": false
+    },
+    {
+      "sec": 178,
+      "gt": "pour",
+      "pred": "move to",
+      "raw": "Reasoning: The robot's left arm is positioned near the floor, while the right arm is empty and hovering over the countertop, with no cutting board, onion, or bowl in the immediate vicinity.\nAnswer: 2",
+      "correct": false
+    },
+    {
+      "sec": 181,
+      "gt": "pour",
+      "pred": "place in",
+      "raw": "Reasoning: The robot's right arm is holding a wooden cutting board with loose white cubes on it, positioned over a white bowl, indicating the action of placing the diced cubes into the bowl.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 185,
+      "gt": "pour",
+      "pred": "move to",
+      "raw": "Reasoning: The robot's arms are empty and positioned near the bowl and board, with no knife or onion visible, indicating the robot is approaching the task area.\nAnswer: 2",
+      "correct": false
+    },
+    {
+      "sec": 188,
+      "gt": "pour",
+      "pred": "move to",
+      "raw": "Reasoning: The robot's arms are empty and positioned near the sink area, with no cutting board or onion visible in the immediate vicinity, suggesting it is approaching the task.\nAnswer: 2",
+      "correct": false
+    },
+    {
+      "sec": 192,
+      "gt": "pour",
+      "pred": "place in",
+      "raw": "Reasoning: The robot's right arm is holding a wooden cutting board with several small white cubes on it, positioned over a white bowl, suggesting the action of placing the diced cubes into the bowl.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 196,
+      "gt": "pour",
+      "pred": "place in",
+      "raw": "Reasoning: The robot's right arm is positioned over the white bowl, with the wooden board resting on the counter beside it, suggesting the next step in the task.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 199,
+      "gt": "place in",
+      "pred": "move to",
+      "raw": "Reasoning: The robot's arm is positioned near the sink, with a wooden cutting board resting on the counter, but no onion is visible on the board or in the sink, indicating the robot is approaching the task.\nAnswer: 2",
+      "correct": false
+    },
+    {
+      "sec": 203,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's right arm is holding a wooden cutting board with a knife and an onion, positioned over the sink area, suggesting it is about to pick up the onion from the sink.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 207,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's arm is positioned over the sink area, with a gripper appearing to interact with an object within the metal basin, consistent with picking up an item.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 210,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with a gripper appearing to grasp an item inside the metal basin, consistent with picking up an ingredient.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 214,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's arm is positioned over the sink area with a gripper, and a wooden cutting board is visible in the sink basin, suggesting the robot is about to retrieve an item from the sink.\nAnswer: 3",
+      "correct": false
+    }
+  ]
+}

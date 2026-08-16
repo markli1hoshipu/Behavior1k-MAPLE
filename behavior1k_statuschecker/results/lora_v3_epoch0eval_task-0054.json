@@ -1,0 +1,2412 @@
+{
+  "task_chunk": "task-0054",
+  "task_name": "putting_away_toys",
+  "accuracy": 0.5933333333333334,
+  "macro_recall": 0.5933333333333334,
+  "correct": 178,
+  "total": 300,
+  "n_classes": 5,
+  "unseen_gt_label_frames": 0,
+  "predictions": [
+    {
+      "sec": 0,
+      "episode": "episode_00540310",
+      "gt": "move to toy figure",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": true
+    },
+    {
+      "sec": 83,
+      "episode": "episode_00540310",
+      "gt": "move to toy figure",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": false
+    },
+    {
+      "sec": 168,
+      "episode": "episode_00540310",
+      "gt": "move to toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 269,
+      "episode": "episode_00540310",
+      "gt": "move to toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 83,
+      "episode": "episode_00540330",
+      "gt": "move to toy figure",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": true
+    },
+    {
+      "sec": 168,
+      "episode": "episode_00540330",
+      "gt": "move to toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 2,
+      "episode": "episode_00540340",
+      "gt": "move to toy figure",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": true
+    },
+    {
+      "sec": 102,
+      "episode": "episode_00540340",
+      "gt": "move to toy figure",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": true
+    },
+    {
+      "sec": 197,
+      "episode": "episode_00540340",
+      "gt": "move to toy figure",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": true
+    },
+    {
+      "sec": 316,
+      "episode": "episode_00540340",
+      "gt": "move to toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00540360",
+      "gt": "move to toy figure",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": false
+    },
+    {
+      "sec": 115,
+      "episode": "episode_00540360",
+      "gt": "move to toy figure",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": true
+    },
+    {
+      "sec": 201,
+      "episode": "episode_00540360",
+      "gt": "move to toy figure",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": false
+    },
+    {
+      "sec": 69,
+      "episode": "episode_00540370",
+      "gt": "move to toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 157,
+      "episode": "episode_00540370",
+      "gt": "move to toy figure",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": true
+    },
+    {
+      "sec": 3,
+      "episode": "episode_00540390",
+      "gt": "move to toy figure",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": true
+    },
+    {
+      "sec": 102,
+      "episode": "episode_00540390",
+      "gt": "move to toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 242,
+      "episode": "episode_00540390",
+      "gt": "move to toy figure",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": true
+    },
+    {
+      "sec": 92,
+      "episode": "episode_00540410",
+      "gt": "move to toy figure",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": false
+    },
+    {
+      "sec": 205,
+      "episode": "episode_00540410",
+      "gt": "move to toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": false
+    },
+    {
+      "sec": 359,
+      "episode": "episode_00540410",
+      "gt": "move to toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 96,
+      "episode": "episode_00540420",
+      "gt": "move to toy figure",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": true
+    },
+    {
+      "sec": 212,
+      "episode": "episode_00540420",
+      "gt": "move to toy figure",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": true
+    },
+    {
+      "sec": 350,
+      "episode": "episode_00540420",
+      "gt": "move to toy figure",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": true
+    },
+    {
+      "sec": 97,
+      "episode": "episode_00540440",
+      "gt": "move to toy figure",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": true
+    },
+    {
+      "sec": 211,
+      "episode": "episode_00540440",
+      "gt": "move to toy figure",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": true
+    },
+    {
+      "sec": 332,
+      "episode": "episode_00540440",
+      "gt": "move to toy figure",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": true
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00540450",
+      "gt": "move to toy figure",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": true
+    },
+    {
+      "sec": 128,
+      "episode": "episode_00540450",
+      "gt": "move to toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 233,
+      "episode": "episode_00540450",
+      "gt": "move to toy figure",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": true
+    },
+    {
+      "sec": 16,
+      "episode": "episode_00540460",
+      "gt": "move to toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 110,
+      "episode": "episode_00540460",
+      "gt": "move to toy figure",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": true
+    },
+    {
+      "sec": 267,
+      "episode": "episode_00540460",
+      "gt": "move to toy figure",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": true
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00540480",
+      "gt": "move to toy figure",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": true
+    },
+    {
+      "sec": 126,
+      "episode": "episode_00540480",
+      "gt": "move to toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 236,
+      "episode": "episode_00540480",
+      "gt": "move to toy figure",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": false
+    },
+    {
+      "sec": 7,
+      "episode": "episode_00540490",
+      "gt": "move to toy figure",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": true
+    },
+    {
+      "sec": 124,
+      "episode": "episode_00540490",
+      "gt": "move to toy figure",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": true
+    },
+    {
+      "sec": 270,
+      "episode": "episode_00540490",
+      "gt": "move to toy figure",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": true
+    },
+    {
+      "sec": 387,
+      "episode": "episode_00540490",
+      "gt": "move to toy figure",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": true
+    },
+    {
+      "sec": 91,
+      "episode": "episode_00540510",
+      "gt": "move to toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 199,
+      "episode": "episode_00540510",
+      "gt": "move to toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 306,
+      "episode": "episode_00540510",
+      "gt": "move to toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 153,
+      "episode": "episode_00540520",
+      "gt": "move to toy figure",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": true
+    },
+    {
+      "sec": 287,
+      "episode": "episode_00540520",
+      "gt": "move to toy figure",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": true
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00540530",
+      "gt": "move to toy figure",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": true
+    },
+    {
+      "sec": 168,
+      "episode": "episode_00540530",
+      "gt": "move to toy figure",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": false
+    },
+    {
+      "sec": 225,
+      "episode": "episode_00540530",
+      "gt": "move to toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 6,
+      "episode": "episode_00540540",
+      "gt": "move to toy figure",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": false
+    },
+    {
+      "sec": 95,
+      "episode": "episode_00540540",
+      "gt": "move to toy figure",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": true
+    },
+    {
+      "sec": 201,
+      "episode": "episode_00540540",
+      "gt": "move to toy figure",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": true
+    },
+    {
+      "sec": 5,
+      "episode": "episode_00540550",
+      "gt": "move to toy figure",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": true
+    },
+    {
+      "sec": 95,
+      "episode": "episode_00540550",
+      "gt": "move to toy figure",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": true
+    },
+    {
+      "sec": 201,
+      "episode": "episode_00540550",
+      "gt": "move to toy figure",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": false
+    },
+    {
+      "sec": 319,
+      "episode": "episode_00540550",
+      "gt": "move to toy figure",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": true
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00540560",
+      "gt": "move to toy figure",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": false
+    },
+    {
+      "sec": 161,
+      "episode": "episode_00540560",
+      "gt": "move to toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": false
+    },
+    {
+      "sec": 257,
+      "episode": "episode_00540560",
+      "gt": "move to toy figure",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": true
+    },
+    {
+      "sec": 26,
+      "episode": "episode_00540600",
+      "gt": "move to toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 147,
+      "episode": "episode_00540600",
+      "gt": "move to toy figure",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": true
+    },
+    {
+      "sec": 7,
+      "episode": "episode_00540310",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 166,
+      "episode": "episode_00540310",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 10,
+      "episode": "episode_00540330",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 188,
+      "episode": "episode_00540330",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00540340",
+      "gt": "pick up from toy figure",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": false
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00540340",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 224,
+      "episode": "episode_00540340",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 334,
+      "episode": "episode_00540340",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 389,
+      "episode": "episode_00540340",
+      "gt": "pick up from toy figure",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": false
+    },
+    {
+      "sec": 187,
+      "episode": "episode_00540360",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 10,
+      "episode": "episode_00540370",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 181,
+      "episode": "episode_00540370",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 22,
+      "episode": "episode_00540390",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 198,
+      "episode": "episode_00540390",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00540410",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 231,
+      "episode": "episode_00540410",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 342,
+      "episode": "episode_00540410",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 16,
+      "episode": "episode_00540420",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 125,
+      "episode": "episode_00540420",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 184,
+      "episode": "episode_00540420",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 259,
+      "episode": "episode_00540420",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 365,
+      "episode": "episode_00540420",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00540440",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 247,
+      "episode": "episode_00540440",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 347,
+      "episode": "episode_00540440",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 387,
+      "episode": "episode_00540440",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 95,
+      "episode": "episode_00540450",
+      "gt": "pick up from toy figure",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": false
+    },
+    {
+      "sec": 270,
+      "episode": "episode_00540450",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 2,
+      "episode": "episode_00540460",
+      "gt": "pick up from toy figure",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": false
+    },
+    {
+      "sec": 118,
+      "episode": "episode_00540460",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 294,
+      "episode": "episode_00540460",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00540480",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 138,
+      "episode": "episode_00540480",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 257,
+      "episode": "episode_00540480",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 345,
+      "episode": "episode_00540480",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00540490",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 170,
+      "episode": "episode_00540490",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 397,
+      "episode": "episode_00540490",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00540510",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 210,
+      "episode": "episode_00540510",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 27,
+      "episode": "episode_00540520",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 125,
+      "episode": "episode_00540520",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 226,
+      "episode": "episode_00540520",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 299,
+      "episode": "episode_00540520",
+      "gt": "pick up from toy figure",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": false
+    },
+    {
+      "sec": 341,
+      "episode": "episode_00540520",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00540530",
+      "gt": "pick up from toy figure",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": false
+    },
+    {
+      "sec": 198,
+      "episode": "episode_00540530",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 342,
+      "episode": "episode_00540530",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 10,
+      "episode": "episode_00540540",
+      "gt": "pick up from toy figure",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": false
+    },
+    {
+      "sec": 124,
+      "episode": "episode_00540540",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 348,
+      "episode": "episode_00540540",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 390,
+      "episode": "episode_00540540",
+      "gt": "pick up from toy figure",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": false
+    },
+    {
+      "sec": 117,
+      "episode": "episode_00540550",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 261,
+      "episode": "episode_00540550",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 342,
+      "episode": "episode_00540550",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00540560",
+      "gt": "pick up from toy figure",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": false
+    },
+    {
+      "sec": 105,
+      "episode": "episode_00540560",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 202,
+      "episode": "episode_00540560",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 311,
+      "episode": "episode_00540560",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 101,
+      "episode": "episode_00540600",
+      "gt": "pick up from toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": true
+    },
+    {
+      "sec": 20,
+      "episode": "episode_00540310",
+      "gt": "move to toy box",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 209,
+      "episode": "episode_00540310",
+      "gt": "move to toy box",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": false
+    },
+    {
+      "sec": 303,
+      "episode": "episode_00540310",
+      "gt": "move to toy box",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 136,
+      "episode": "episode_00540330",
+      "gt": "move to toy box",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": true
+    },
+    {
+      "sec": 297,
+      "episode": "episode_00540330",
+      "gt": "move to toy box",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": true
+    },
+    {
+      "sec": 153,
+      "episode": "episode_00540340",
+      "gt": "move to toy box",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 284,
+      "episode": "episode_00540340",
+      "gt": "move to toy box",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 405,
+      "episode": "episode_00540340",
+      "gt": "move to toy box",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": false
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00540360",
+      "gt": "move to toy box",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": true
+    },
+    {
+      "sec": 229,
+      "episode": "episode_00540360",
+      "gt": "move to toy box",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": true
+    },
+    {
+      "sec": 90,
+      "episode": "episode_00540370",
+      "gt": "move to toy box",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 187,
+      "episode": "episode_00540370",
+      "gt": "move to toy box",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 278,
+      "episode": "episode_00540370",
+      "gt": "move to toy box",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": true
+    },
+    {
+      "sec": 120,
+      "episode": "episode_00540390",
+      "gt": "move to toy box",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 205,
+      "episode": "episode_00540390",
+      "gt": "move to toy box",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 274,
+      "episode": "episode_00540390",
+      "gt": "move to toy box",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 61,
+      "episode": "episode_00540410",
+      "gt": "move to toy box",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 167,
+      "episode": "episode_00540410",
+      "gt": "move to toy box",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": true
+    },
+    {
+      "sec": 196,
+      "episode": "episode_00540410",
+      "gt": "move to toy box",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": false
+    },
+    {
+      "sec": 392,
+      "episode": "episode_00540410",
+      "gt": "move to toy box",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": false
+    },
+    {
+      "sec": 64,
+      "episode": "episode_00540420",
+      "gt": "move to toy box",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": false
+    },
+    {
+      "sec": 271,
+      "episode": "episode_00540420",
+      "gt": "move to toy box",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 61,
+      "episode": "episode_00540440",
+      "gt": "move to toy box",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": true
+    },
+    {
+      "sec": 160,
+      "episode": "episode_00540440",
+      "gt": "move to toy box",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": true
+    },
+    {
+      "sec": 287,
+      "episode": "episode_00540440",
+      "gt": "move to toy box",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": false
+    },
+    {
+      "sec": 398,
+      "episode": "episode_00540440",
+      "gt": "move to toy box",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": false
+    },
+    {
+      "sec": 430,
+      "episode": "episode_00540440",
+      "gt": "move to toy box",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": false
+    },
+    {
+      "sec": 149,
+      "episode": "episode_00540450",
+      "gt": "move to toy box",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": false
+    },
+    {
+      "sec": 277,
+      "episode": "episode_00540450",
+      "gt": "move to toy box",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 367,
+      "episode": "episode_00540450",
+      "gt": "move to toy box",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00540460",
+      "gt": "move to toy box",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 122,
+      "episode": "episode_00540460",
+      "gt": "move to toy box",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": true
+    },
+    {
+      "sec": 215,
+      "episode": "episode_00540460",
+      "gt": "move to toy box",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": true
+    },
+    {
+      "sec": 350,
+      "episode": "episode_00540460",
+      "gt": "move to toy box",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": true
+    },
+    {
+      "sec": 146,
+      "episode": "episode_00540480",
+      "gt": "move to toy box",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": false
+    },
+    {
+      "sec": 276,
+      "episode": "episode_00540480",
+      "gt": "move to toy box",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": false
+    },
+    {
+      "sec": 377,
+      "episode": "episode_00540480",
+      "gt": "move to toy box",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": true
+    },
+    {
+      "sec": 175,
+      "episode": "episode_00540490",
+      "gt": "move to toy box",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": true
+    },
+    {
+      "sec": 335,
+      "episode": "episode_00540490",
+      "gt": "move to toy box",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": true
+    },
+    {
+      "sec": 444,
+      "episode": "episode_00540490",
+      "gt": "move to toy box",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00540510",
+      "gt": "move to toy box",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 74,
+      "episode": "episode_00540510",
+      "gt": "move to toy box",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": true
+    },
+    {
+      "sec": 217,
+      "episode": "episode_00540510",
+      "gt": "move to toy box",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 328,
+      "episode": "episode_00540510",
+      "gt": "move to toy box",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 84,
+      "episode": "episode_00540520",
+      "gt": "move to toy box",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": false
+    },
+    {
+      "sec": 358,
+      "episode": "episode_00540520",
+      "gt": "move to toy box",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": true
+    },
+    {
+      "sec": 78,
+      "episode": "episode_00540530",
+      "gt": "move to toy box",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": true
+    },
+    {
+      "sec": 256,
+      "episode": "episode_00540530",
+      "gt": "move to toy box",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 388,
+      "episode": "episode_00540530",
+      "gt": "move to toy box",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": true
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00540540",
+      "gt": "move to toy box",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 149,
+      "episode": "episode_00540540",
+      "gt": "move to toy box",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": true
+    },
+    {
+      "sec": 257,
+      "episode": "episode_00540540",
+      "gt": "move to toy box",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": true
+    },
+    {
+      "sec": 285,
+      "episode": "episode_00540540",
+      "gt": "move to toy box",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": false
+    },
+    {
+      "sec": 408,
+      "episode": "episode_00540540",
+      "gt": "move to toy box",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": false
+    },
+    {
+      "sec": 166,
+      "episode": "episode_00540550",
+      "gt": "move to toy box",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": true
+    },
+    {
+      "sec": 396,
+      "episode": "episode_00540550",
+      "gt": "move to toy box",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": true
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00540560",
+      "gt": "move to toy box",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": false
+    },
+    {
+      "sec": 245,
+      "episode": "episode_00540560",
+      "gt": "move to toy box",
+      "pred": "hand over toy figure",
+      "raw": "hand over toy figure",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00540600",
+      "gt": "move to toy box",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": true
+    },
+    {
+      "sec": 190,
+      "episode": "episode_00540600",
+      "gt": "move to toy box",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": true
+    },
+    {
+      "sec": 27,
+      "episode": "episode_00540310",
+      "gt": "place in toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 120,
+      "episode": "episode_00540310",
+      "gt": "place in toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": true
+    },
+    {
+      "sec": 225,
+      "episode": "episode_00540310",
+      "gt": "place in toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": true
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00540330",
+      "gt": "place in toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": true
+    },
+    {
+      "sec": 148,
+      "episode": "episode_00540330",
+      "gt": "place in toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": true
+    },
+    {
+      "sec": 232,
+      "episode": "episode_00540330",
+      "gt": "place in toy figure",
+      "pred": "hand over toy figure",
+      "raw": "hand over toy figure",
+      "correct": false
+    },
+    {
+      "sec": 315,
+      "episode": "episode_00540330",
+      "gt": "place in toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": true
+    },
+    {
+      "sec": 172,
+      "episode": "episode_00540340",
+      "gt": "place in toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": true
+    },
+    {
+      "sec": 420,
+      "episode": "episode_00540340",
+      "gt": "place in toy figure",
+      "pred": "hand over toy figure",
+      "raw": "hand over toy figure",
+      "correct": false
+    },
+    {
+      "sec": 75,
+      "episode": "episode_00540360",
+      "gt": "place in toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": true
+    },
+    {
+      "sec": 241,
+      "episode": "episode_00540360",
+      "gt": "place in toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": true
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00540370",
+      "gt": "place in toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": true
+    },
+    {
+      "sec": 124,
+      "episode": "episode_00540370",
+      "gt": "place in toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": true
+    },
+    {
+      "sec": 294,
+      "episode": "episode_00540370",
+      "gt": "place in toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 64,
+      "episode": "episode_00540390",
+      "gt": "place in toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": true
+    },
+    {
+      "sec": 151,
+      "episode": "episode_00540390",
+      "gt": "place in toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": true
+    },
+    {
+      "sec": 303,
+      "episode": "episode_00540390",
+      "gt": "place in toy figure",
+      "pred": "hand over toy figure",
+      "raw": "hand over toy figure",
+      "correct": false
+    },
+    {
+      "sec": 201,
+      "episode": "episode_00540410",
+      "gt": "place in toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": true
+    },
+    {
+      "sec": 308,
+      "episode": "episode_00540410",
+      "gt": "place in toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": true
+    },
+    {
+      "sec": 426,
+      "episode": "episode_00540410",
+      "gt": "place in toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": true
+    },
+    {
+      "sec": 205,
+      "episode": "episode_00540420",
+      "gt": "place in toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": true
+    },
+    {
+      "sec": 306,
+      "episode": "episode_00540420",
+      "gt": "place in toy figure",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": false
+    },
+    {
+      "sec": 77,
+      "episode": "episode_00540440",
+      "gt": "place in toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": true
+    },
+    {
+      "sec": 418,
+      "episode": "episode_00540440",
+      "gt": "place in toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": true
+    },
+    {
+      "sec": 67,
+      "episode": "episode_00540450",
+      "gt": "place in toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": true
+    },
+    {
+      "sec": 188,
+      "episode": "episode_00540450",
+      "gt": "place in toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": true
+    },
+    {
+      "sec": 396,
+      "episode": "episode_00540450",
+      "gt": "place in toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": true
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00540460",
+      "gt": "place in toy figure",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": false
+    },
+    {
+      "sec": 229,
+      "episode": "episode_00540460",
+      "gt": "place in toy figure",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": false
+    },
+    {
+      "sec": 354,
+      "episode": "episode_00540460",
+      "gt": "place in toy figure",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": false
+    },
+    {
+      "sec": 378,
+      "episode": "episode_00540460",
+      "gt": "place in toy figure",
+      "pred": "hand over toy figure",
+      "raw": "hand over toy figure",
+      "correct": false
+    },
+    {
+      "sec": 170,
+      "episode": "episode_00540480",
+      "gt": "place in toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": true
+    },
+    {
+      "sec": 394,
+      "episode": "episode_00540480",
+      "gt": "place in toy figure",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": false
+    },
+    {
+      "sec": 88,
+      "episode": "episode_00540490",
+      "gt": "place in toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": true
+    },
+    {
+      "sec": 204,
+      "episode": "episode_00540490",
+      "gt": "place in toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": true
+    },
+    {
+      "sec": 222,
+      "episode": "episode_00540490",
+      "gt": "place in toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 239,
+      "episode": "episode_00540490",
+      "gt": "place in toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": true
+    },
+    {
+      "sec": 364,
+      "episode": "episode_00540490",
+      "gt": "place in toy figure",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": false
+    },
+    {
+      "sec": 473,
+      "episode": "episode_00540490",
+      "gt": "place in toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": true
+    },
+    {
+      "sec": 81,
+      "episode": "episode_00540510",
+      "gt": "place in toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": true
+    },
+    {
+      "sec": 240,
+      "episode": "episode_00540510",
+      "gt": "place in toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 336,
+      "episode": "episode_00540510",
+      "gt": "place in toy figure",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": false
+    },
+    {
+      "sec": 105,
+      "episode": "episode_00540520",
+      "gt": "place in toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": true
+    },
+    {
+      "sec": 270,
+      "episode": "episode_00540520",
+      "gt": "place in toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 386,
+      "episode": "episode_00540520",
+      "gt": "place in toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": true
+    },
+    {
+      "sec": 153,
+      "episode": "episode_00540530",
+      "gt": "place in toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": true
+    },
+    {
+      "sec": 292,
+      "episode": "episode_00540530",
+      "gt": "place in toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": true
+    },
+    {
+      "sec": 419,
+      "episode": "episode_00540530",
+      "gt": "place in toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": true
+    },
+    {
+      "sec": 170,
+      "episode": "episode_00540540",
+      "gt": "place in toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": true
+    },
+    {
+      "sec": 331,
+      "episode": "episode_00540540",
+      "gt": "place in toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": true
+    },
+    {
+      "sec": 441,
+      "episode": "episode_00540540",
+      "gt": "place in toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": true
+    },
+    {
+      "sec": 184,
+      "episode": "episode_00540550",
+      "gt": "place in toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": true
+    },
+    {
+      "sec": 306,
+      "episode": "episode_00540550",
+      "gt": "place in toy figure",
+      "pred": "move to toy figure",
+      "raw": "move to toy figure",
+      "correct": false
+    },
+    {
+      "sec": 430,
+      "episode": "episode_00540550",
+      "gt": "place in toy figure",
+      "pred": "hand over toy figure",
+      "raw": "hand over toy figure",
+      "correct": false
+    },
+    {
+      "sec": 447,
+      "episode": "episode_00540550",
+      "gt": "place in toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": true
+    },
+    {
+      "sec": 154,
+      "episode": "episode_00540560",
+      "gt": "place in toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": true
+    },
+    {
+      "sec": 341,
+      "episode": "episode_00540560",
+      "gt": "place in toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": true
+    },
+    {
+      "sec": 64,
+      "episode": "episode_00540600",
+      "gt": "place in toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": true
+    },
+    {
+      "sec": 203,
+      "episode": "episode_00540600",
+      "gt": "place in toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": true
+    },
+    {
+      "sec": 278,
+      "episode": "episode_00540600",
+      "gt": "place in toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": true
+    },
+    {
+      "sec": 290,
+      "episode": "episode_00540410",
+      "gt": "hand over toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": false
+    },
+    {
+      "sec": 291,
+      "episode": "episode_00540410",
+      "gt": "hand over toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": false
+    },
+    {
+      "sec": 293,
+      "episode": "episode_00540410",
+      "gt": "hand over toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": false
+    },
+    {
+      "sec": 294,
+      "episode": "episode_00540410",
+      "gt": "hand over toy figure",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": false
+    },
+    {
+      "sec": 296,
+      "episode": "episode_00540410",
+      "gt": "hand over toy figure",
+      "pred": "hand over toy figure",
+      "raw": "hand over toy figure",
+      "correct": true
+    },
+    {
+      "sec": 297,
+      "episode": "episode_00540410",
+      "gt": "hand over toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 299,
+      "episode": "episode_00540410",
+      "gt": "hand over toy figure",
+      "pred": "hand over toy figure",
+      "raw": "hand over toy figure",
+      "correct": true
+    },
+    {
+      "sec": 300,
+      "episode": "episode_00540410",
+      "gt": "hand over toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 302,
+      "episode": "episode_00540410",
+      "gt": "hand over toy figure",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": false
+    },
+    {
+      "sec": 303,
+      "episode": "episode_00540410",
+      "gt": "hand over toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": false
+    },
+    {
+      "sec": 433,
+      "episode": "episode_00540410",
+      "gt": "hand over toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": false
+    },
+    {
+      "sec": 434,
+      "episode": "episode_00540410",
+      "gt": "hand over toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": false
+    },
+    {
+      "sec": 436,
+      "episode": "episode_00540410",
+      "gt": "hand over toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": false
+    },
+    {
+      "sec": 437,
+      "episode": "episode_00540410",
+      "gt": "hand over toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": false
+    },
+    {
+      "sec": 289,
+      "episode": "episode_00540420",
+      "gt": "hand over toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": false
+    },
+    {
+      "sec": 290,
+      "episode": "episode_00540420",
+      "gt": "hand over toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": false
+    },
+    {
+      "sec": 292,
+      "episode": "episode_00540420",
+      "gt": "hand over toy figure",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": false
+    },
+    {
+      "sec": 293,
+      "episode": "episode_00540420",
+      "gt": "hand over toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 295,
+      "episode": "episode_00540420",
+      "gt": "hand over toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 296,
+      "episode": "episode_00540420",
+      "gt": "hand over toy figure",
+      "pred": "hand over toy figure",
+      "raw": "hand over toy figure",
+      "correct": true
+    },
+    {
+      "sec": 298,
+      "episode": "episode_00540420",
+      "gt": "hand over toy figure",
+      "pred": "hand over toy figure",
+      "raw": "hand over toy figure",
+      "correct": true
+    },
+    {
+      "sec": 299,
+      "episode": "episode_00540420",
+      "gt": "hand over toy figure",
+      "pred": "hand over toy figure",
+      "raw": "hand over toy figure",
+      "correct": true
+    },
+    {
+      "sec": 301,
+      "episode": "episode_00540420",
+      "gt": "hand over toy figure",
+      "pred": "move to toy box",
+      "raw": "move to toy box",
+      "correct": false
+    },
+    {
+      "sec": 397,
+      "episode": "episode_00540420",
+      "gt": "hand over toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": false
+    },
+    {
+      "sec": 399,
+      "episode": "episode_00540420",
+      "gt": "hand over toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": false
+    },
+    {
+      "sec": 400,
+      "episode": "episode_00540420",
+      "gt": "hand over toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": false
+    },
+    {
+      "sec": 402,
+      "episode": "episode_00540420",
+      "gt": "hand over toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": false
+    },
+    {
+      "sec": 403,
+      "episode": "episode_00540420",
+      "gt": "hand over toy figure",
+      "pred": "hand over toy figure",
+      "raw": "hand over toy figure",
+      "correct": true
+    },
+    {
+      "sec": 405,
+      "episode": "episode_00540420",
+      "gt": "hand over toy figure",
+      "pred": "hand over toy figure",
+      "raw": "hand over toy figure",
+      "correct": true
+    },
+    {
+      "sec": 406,
+      "episode": "episode_00540420",
+      "gt": "hand over toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": false
+    },
+    {
+      "sec": 242,
+      "episode": "episode_00540460",
+      "gt": "hand over toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": false
+    },
+    {
+      "sec": 244,
+      "episode": "episode_00540460",
+      "gt": "hand over toy figure",
+      "pred": "hand over toy figure",
+      "raw": "hand over toy figure",
+      "correct": true
+    },
+    {
+      "sec": 245,
+      "episode": "episode_00540460",
+      "gt": "hand over toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": false
+    },
+    {
+      "sec": 247,
+      "episode": "episode_00540460",
+      "gt": "hand over toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": false
+    },
+    {
+      "sec": 369,
+      "episode": "episode_00540460",
+      "gt": "hand over toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": false
+    },
+    {
+      "sec": 371,
+      "episode": "episode_00540460",
+      "gt": "hand over toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": false
+    },
+    {
+      "sec": 372,
+      "episode": "episode_00540460",
+      "gt": "hand over toy figure",
+      "pred": "hand over toy figure",
+      "raw": "hand over toy figure",
+      "correct": true
+    },
+    {
+      "sec": 374,
+      "episode": "episode_00540460",
+      "gt": "hand over toy figure",
+      "pred": "hand over toy figure",
+      "raw": "hand over toy figure",
+      "correct": true
+    },
+    {
+      "sec": 307,
+      "episode": "episode_00540540",
+      "gt": "hand over toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": false
+    },
+    {
+      "sec": 309,
+      "episode": "episode_00540540",
+      "gt": "hand over toy figure",
+      "pred": "hand over toy figure",
+      "raw": "hand over toy figure",
+      "correct": true
+    },
+    {
+      "sec": 310,
+      "episode": "episode_00540540",
+      "gt": "hand over toy figure",
+      "pred": "hand over toy figure",
+      "raw": "hand over toy figure",
+      "correct": true
+    },
+    {
+      "sec": 312,
+      "episode": "episode_00540540",
+      "gt": "hand over toy figure",
+      "pred": "pick up from toy figure",
+      "raw": "pick up from toy figure",
+      "correct": false
+    },
+    {
+      "sec": 313,
+      "episode": "episode_00540540",
+      "gt": "hand over toy figure",
+      "pred": "hand over toy figure",
+      "raw": "hand over toy figure",
+      "correct": true
+    },
+    {
+      "sec": 315,
+      "episode": "episode_00540540",
+      "gt": "hand over toy figure",
+      "pred": "hand over toy figure",
+      "raw": "hand over toy figure",
+      "correct": true
+    },
+    {
+      "sec": 316,
+      "episode": "episode_00540540",
+      "gt": "hand over toy figure",
+      "pred": "hand over toy figure",
+      "raw": "hand over toy figure",
+      "correct": true
+    },
+    {
+      "sec": 318,
+      "episode": "episode_00540540",
+      "gt": "hand over toy figure",
+      "pred": "hand over toy figure",
+      "raw": "hand over toy figure",
+      "correct": true
+    },
+    {
+      "sec": 319,
+      "episode": "episode_00540540",
+      "gt": "hand over toy figure",
+      "pred": "hand over toy figure",
+      "raw": "hand over toy figure",
+      "correct": true
+    },
+    {
+      "sec": 321,
+      "episode": "episode_00540540",
+      "gt": "hand over toy figure",
+      "pred": "hand over toy figure",
+      "raw": "hand over toy figure",
+      "correct": true
+    },
+    {
+      "sec": 322,
+      "episode": "episode_00540540",
+      "gt": "hand over toy figure",
+      "pred": "hand over toy figure",
+      "raw": "hand over toy figure",
+      "correct": true
+    },
+    {
+      "sec": 324,
+      "episode": "episode_00540540",
+      "gt": "hand over toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": false
+    },
+    {
+      "sec": 325,
+      "episode": "episode_00540540",
+      "gt": "hand over toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": false
+    },
+    {
+      "sec": 424,
+      "episode": "episode_00540540",
+      "gt": "hand over toy figure",
+      "pred": "hand over toy figure",
+      "raw": "hand over toy figure",
+      "correct": true
+    },
+    {
+      "sec": 425,
+      "episode": "episode_00540540",
+      "gt": "hand over toy figure",
+      "pred": "hand over toy figure",
+      "raw": "hand over toy figure",
+      "correct": true
+    },
+    {
+      "sec": 427,
+      "episode": "episode_00540540",
+      "gt": "hand over toy figure",
+      "pred": "hand over toy figure",
+      "raw": "hand over toy figure",
+      "correct": true
+    },
+    {
+      "sec": 428,
+      "episode": "episode_00540540",
+      "gt": "hand over toy figure",
+      "pred": "place in toy figure",
+      "raw": "place in toy figure",
+      "correct": false
+    },
+    {
+      "sec": 430,
+      "episode": "episode_00540540",
+      "gt": "hand over toy figure",
+      "pred": "hand over toy figure",
+      "raw": "hand over toy figure",
+      "correct": true
+    },
+    {
+      "sec": 431,
+      "episode": "episode_00540540",
+      "gt": "hand over toy figure",
+      "pred": "hand over toy figure",
+      "raw": "hand over toy figure",
+      "correct": true
+    },
+    {
+      "sec": 433,
+      "episode": "episode_00540540",
+      "gt": "hand over toy figure",
+      "pred": "hand over toy figure",
+      "raw": "hand over toy figure",
+      "correct": true
+    },
+    {
+      "sec": 434,
+      "episode": "episode_00540540",
+      "gt": "hand over toy figure",
+      "pred": "hand over toy figure",
+      "raw": "hand over toy figure",
+      "correct": true
+    },
+    {
+      "sec": 436,
+      "episode": "episode_00540540",
+      "gt": "hand over toy figure",
+      "pred": "hand over toy figure",
+      "raw": "hand over toy figure",
+      "correct": true
+    }
+  ]
+}

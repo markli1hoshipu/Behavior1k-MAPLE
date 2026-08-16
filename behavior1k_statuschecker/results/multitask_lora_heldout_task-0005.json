@@ -1,0 +1,1139 @@
+{
+  "task_chunk": "task-0005",
+  "task_name": "setting mousetraps",
+  "n_held_out_episodes": 5,
+  "accuracy": 0.7092198581560284,
+  "macro_recall": 0.7089470284237726,
+  "correct": 100,
+  "total": 141,
+  "predictions": [
+    {
+      "sec": 2,
+      "episode": "episode_00050030",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The dresser is now centered and closer with the arms still low and idle, no manipulation contact visible.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00050030",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The dresser is now centered and closer with four traps on top, but no arms are visible in the frame.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00050030",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The dresser is now centered and closer with four traps on top, but no arms are visible in the frame.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 90,
+      "episode": "episode_00050030",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the corner with the shower and dresser now centered and the arms low at the bottom edge, no manipulation target in reach.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 100,
+      "episode": "episode_00050030",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the bathtub corner with the robot's arms at the bottom edge, no manipulation target in reach.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 176,
+      "episode": "episode_00050030",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the bathroom vanity with the two grippers at the bottom of the frame, still empty and not touching any object.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 187,
+      "episode": "episode_00050030",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The sink and toilet are now centered and closer, with the mirror showing the robot's own reflection \u2014 the base is repositioning.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 197,
+      "episode": "episode_00050030",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the corner with the wooden dresser and towel rack in view, no arms or traps in frame.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 208,
+      "episode": "episode_00050030",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The dresser is now centered and closer with the two traps still on top, but no arms are visible in frame.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 259,
+      "episode": "episode_00050030",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the bathroom vanity with the wooden dresser and mirror on the right and the open toilet on the left, arms low and idle.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00050500",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The dresser is now centered and closer, with the two traps still on top \u2014 the base of the approach.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 64,
+      "episode": "episode_00050500",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The dresser is now centered and closer with the two arms extended toward its front face, mid-lower approach.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 74,
+      "episode": "episode_00050500",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The door and white cabinet are now centered and closer, with the gripper at the bottom edge \u2014 still locomotion, no manipulation target visible.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 132,
+      "episode": "episode_00050500",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has turned to the floor with the two grippers at the bottom edge, still in contact with the ground.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 142,
+      "episode": "episode_00050500",
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The sink and toilet are now centered and the robot's arms have dropped to the sides, consistent with finishing the placement.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 152,
+      "episode": "episode_00050500",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The sink and mirror are now centered and closer, with the reflection showing the robot's own body \u2014 the base is turning toward the vanity.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 163,
+      "episode": "episode_00050500",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the corner with the toilet, shower, and orange dresser now centered and the robot's arms are not in frame at all.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 173,
+      "episode": "episode_00050500",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The dresser is now centered and closer with the traps still on top, but the arms are not yet visible \u2014 the base is still moving.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 225,
+      "episode": "episode_00050500",
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the dresser surface with the trap beside the white switch, arms in contact with the target.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 235,
+      "episode": "episode_00050500",
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The toilet is now centered and the right arm is extended over its edge, closing on the toilet front.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 10,
+      "episode": "episode_00051010",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The dresser is now centered and closer with the traps scattered across its top, but no arms are visible in frame.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00051010",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The shower enclosure and toilet are now centered and closer, with no arms or objects in reach.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00051010",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the bathroom vanity and bathtub with no robot arms visible \u2014 the only cue is the changing viewpoint.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 67,
+      "episode": "episode_00051010",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The sink counter and mirror are now centered and closer, with the arms at the bottom corners holding nothing \u2014 the base is repositioning.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 103,
+      "episode": "episode_00051010",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The sink and toilet are now centered and closer, with the robot's reflection in the mirror, but no arms are visible in the frame.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 113,
+      "episode": "episode_00051010",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the toilet and bathtub with no arms in frame, so nothing here distinguishes this from a pre-move frame except that the target is now visible.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 124,
+      "episode": "episode_00051010",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the corner with the dresser and the towel rack on the right edge, no arms visible \u2014 the base is reorienting.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 164,
+      "episode": "episode_00051010",
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The dresser is now centered and closer with the gripper still at the bottom right, still in contact with the surface.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00051680",
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The dresser is now centered and closer with the arms barely visible at the bottom edge, still in contact with the cabinet.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 14,
+      "episode": "episode_00051680",
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The dresser is now centered and closer with the gripper at the right edge, still in contact with the surface.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00051680",
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The toilet is now centered and the grippers have dropped to the bottom of the frame, consistent with releasing the traps.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00051680",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the bathroom vanity with the bathtub on the right and the robot's arms at the bottom corners, still far from the sink.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 132,
+      "episode": "episode_00051680",
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is now right at the vanity with both arms lowered and the traps scattered on the floor \u2014 the release scene.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 143,
+      "episode": "episode_00051680",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The sink and toilet are now clearly resolved in the view with the robot's arms at the bottom corners, still in transit.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 153,
+      "episode": "episode_00051680",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The sink and toilet are now centered and the robot is beginning to enter the frame from the bottom, with the traps still on the floor.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 163,
+      "episode": "episode_00051680",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The door and white box are now centered and closer, with the robot's arms still low and not extended toward anything.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 174,
+      "episode": "episode_00051680",
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The dresser is now centered and closer with the gripper still down at its edge, though the arms are not yet visible.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 288,
+      "episode": "episode_00051680",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The dresser is now centered and the two grippers have shifted to the right edge of the frame, indicating the base is turning.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 299,
+      "episode": "episode_00051680",
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The toilet and bathtub are now centered and the robot's arms have dropped to the bottom of the frame, consistent with lowering the traps to the floor.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "episode": "episode_00052240",
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The dresser is now centered and closer with the gripper on the right side of the frame, still at the surface level.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 181,
+      "episode": "episode_00052240",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the bathtub and toilet with the robot's arms still out of frame and no manipulator contact visible.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 192,
+      "episode": "episode_00052240",
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The camera has swung to the vanity with the trap visible on the floor and the arms lowered low, consistent with setting down.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 202,
+      "episode": "episode_00052240",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: Both grippers are raised and open, the left one holding a small white trap, and the floor beneath shows another trap \u2014 the arms are in a repositioning stance.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 265,
+      "episode": "episode_00052240",
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The sink and bathtub are now centered and the robot's arms have dropped to the bottom of the frame, consistent with lowering the object to the sink.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 275,
+      "episode": "episode_00052240",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the corner with the white box and the sink edge now in view, and the arms are not extended toward anything.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 285,
+      "episode": "episode_00052240",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the corner with the wooden dresser and the towel rack on the right, and the gripper is barely visible at the bottom \u2014 the base is reorienting, not interacting.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 296,
+      "episode": "episode_00052240",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The dresser is now centered and closer with the gripper at the bottom right, still short of the dresser surface.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 501,
+      "episode": "episode_00052240",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The toilet is centered and the camera has turned toward it, with no arms extended.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00050030",
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The dresser is now centered and closer with both arms raised and open at its sides, the end of the reach.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00050030",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The dresser is now centered and the two traps are clearly resolved on the top, with the arms still at the surface.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 52,
+      "episode": "episode_00050030",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the dresser surface right beside the last trap, closing on it.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 63,
+      "episode": "episode_00050030",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is at the far right edge of the dresser top with the second trap beside it.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 74,
+      "episode": "episode_00050030",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the dresser surface with the trap beside it, the final settling on the dresser.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 213,
+      "episode": "episode_00050030",
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The dresser is now centered and closer with two traps on top, but no arms are visible \u2014 the only cue is the changing distance.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 224,
+      "episode": "episode_00050030",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is extended to the right edge of the dresser top where the second trap sits, closing on it.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 235,
+      "episode": "episode_00050030",
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The dresser is now centered and the right gripper is at the right edge of the surface, but no trap is visible on top.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 247,
+      "episode": "episode_00050030",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is extended across the dresser top with the trap still lying on the surface beneath it.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 18,
+      "episode": "episode_00050500",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right arm is extended over the dresser top with the gripper right at the mousetraps, the last contact frame.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00050500",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right arm is extended across the dresser top with the gripper open over the trap, the only visual cue of contact on the dresser.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00050500",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the dresser surface with the second trap beside it, arms still engaged in the collection.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00050500",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is extended across the dresser top with the trap still attached, the last contact on this pair.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 185,
+      "episode": "episode_00050500",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The dresser is now centered and closer with the two traps still on top and the arms lowered to the surface.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 196,
+      "episode": "episode_00050500",
+      "gt": "pick up from",
+      "pred": "place on next to",
+      "raw": "Reasoning: The right gripper is down at the dresser surface with the trap beside it, the final placement.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 207,
+      "episode": "episode_00050500",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the dresser surface holding a small brown object, consistent with grasping a trap.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 219,
+      "episode": "episode_00050500",
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The dresser is now centered and the right gripper is at the far right edge of the top, just beginning to reach across.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00051010",
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The dresser is now angled away from the camera with the two traps still on top and the right arm retracting.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00051010",
+      "gt": "pick up from",
+      "pred": "place on next to",
+      "raw": "Reasoning: The right gripper is down at the dresser surface right beside the last trap, arms in a settling placement.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 137,
+      "episode": "episode_00051010",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The dresser is now angled away from the camera with the traps still on top and the right arm reaching in.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 148,
+      "episode": "episode_00051010",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right arm is extended across the dresser top with the gripper right at the second trap, closing on it.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 159,
+      "episode": "episode_00051010",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the dresser's right edge, closing on a trap that has just appeared there.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00051680",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right arm is extended across the dresser top with the traps clustered near the white outlet, mid-collection.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00051680",
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The dresser is centered and closer with the traps still on top, and the arms are not yet extended.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00051680",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The gripper is extended over the dresser top with the traps still there, closing on them.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 58,
+      "episode": "episode_00051680",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the dresser top holding the last trap, with the left arm bracing at the edge.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 184,
+      "episode": "episode_00051680",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right arm is extended over the dresser top with the gripper just touching the surface beside the last trap.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 195,
+      "episode": "episode_00051680",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right arm is extended across the dresser top with the gripper open on the surface, the last contact with the traps.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 206,
+      "episode": "episode_00051680",
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The dresser is now centered and closer with the trap on the far left edge of the top, and the right gripper is visible at the top of the frame.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 217,
+      "episode": "episode_00051680",
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The dresser is now centered and closer with the traps still on top, but the arms are not yet extended toward them.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 228,
+      "episode": "episode_00051680",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The dresser is now centered and closer with the traps scattered across its top, and the left arm is extended toward the surface.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 239,
+      "episode": "episode_00051680",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right arm is extended across the dresser top with the gripper down at the surface where the last trap sits.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 250,
+      "episode": "episode_00051680",
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The dresser is now centered and closer with the gripper still on the right edge of the top surface.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 262,
+      "episode": "episode_00051680",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right arm is extended over the dresser top with the gripper at the surface edge, closing on the dresser rather than the floor.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 273,
+      "episode": "episode_00051680",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right arm is extended across the dresser top with the gripper right at the small trap lying near the white switch.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00052240",
+      "gt": "pick up from",
+      "pred": "place on next to",
+      "raw": "Reasoning: The right gripper is on the dresser top with the trap next to it, the final placement.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00052240",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The dresser is now centered and closer with the gripper at the bottom edge, still in contact with the dresser surface.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 60,
+      "episode": "episode_00052240",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The dresser is now centered and closer with the gripper at the bottom edge, still at the source surface.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 78,
+      "episode": "episode_00052240",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The dresser is now centered and closer with the gripper still on top of it, though the trap count has dropped to two.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 89,
+      "episode": "episode_00052240",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The dresser is centered and closer, with the gripper at the bottom right still holding a trap.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 100,
+      "episode": "episode_00052240",
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The dresser is now centered and closer with the two traps on the floor below, arms still out of frame.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 383,
+      "episode": "episode_00052240",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the dresser surface with the trap right beside the mouse, the final settling on the dresser.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 395,
+      "episode": "episode_00052240",
+      "gt": "pick up from",
+      "pred": "place on next to",
+      "raw": "Reasoning: The right gripper is down at the dresser surface with the trap beside it, the final placement.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 406,
+      "episode": "episode_00052240",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The gripper is down at the dresser's surface with the trap beside it, not on the floor.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 417,
+      "episode": "episode_00052240",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The dresser is now centered and closer, with the gripper still down at the surface but no trap visible \u2014 the arms are still working on the dresser.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 428,
+      "episode": "episode_00052240",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The dresser is now centered and closer with the gripper at the bottom right, still on the dresser surface.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 439,
+      "episode": "episode_00052240",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the dresser surface holding the last trap, with the white sink and toilet now visible at the bottom edge.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 450,
+      "episode": "episode_00052240",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the dresser surface with the trap beside the white handle, in contact with the dresser rather than the sink.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 461,
+      "episode": "episode_00052240",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the dresser surface right beside the mousetraps, closing on one.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 472,
+      "episode": "episode_00052240",
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The dresser is centered and closer with the grippers at the bottom corners, still in transit.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 104,
+      "episode": "episode_00050030",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The sink and bathtub are now centered and the robot's arms have dropped to the sides, consistent with finishing the placement.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 113,
+      "episode": "episode_00050030",
+      "gt": "place on next to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the bathroom vanity with the red trap on the sink and the two grippers at the bottom of frame, still in a positioning stance.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 123,
+      "episode": "episode_00050030",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is right at the vanity with both arms extended down toward the floor beside the sink, a release frame.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 133,
+      "episode": "episode_00050030",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is right at the vanity with both arms extended toward the floor beside the sink, mousetraps on the ground.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 143,
+      "episode": "episode_00050030",
+      "gt": "place on next to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has turned to the bathtub with the arms hanging low at the bottom edge, no manipulation contact visible.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 153,
+      "episode": "episode_00050030",
+      "gt": "place on next to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has turned to the bathtub with the arms at the bottom edge, no object interaction visible.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 163,
+      "episode": "episode_00050030",
+      "gt": "place on next to",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the bathtub with the arms at the bottom corners, no object contact visible.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 272,
+      "episode": "episode_00050030",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The toilet is now centered and the arms have pulled back to the sides, consistent with releasing the traps.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 282,
+      "episode": "episode_00050030",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The toilet is centered and the arms have dropped to the sides at the bottom of the frame, consistent with lowering the traps to the floor beside the toilet.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 291,
+      "episode": "episode_00050030",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The camera has turned to face the toilet bowl with the arms at the bottom of the frame, consistent with positioning the traps near the toilet.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 301,
+      "episode": "episode_00050030",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The toilet bowl is now centered and the arms have entered the bottom of the frame, consistent with settling in at the sink.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 312,
+      "episode": "episode_00050030",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The toilet is centered and the arms have entered the bottom of the frame, indicating the base is settling onto the toilet seat.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 322,
+      "episode": "episode_00050030",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The toilet is centered and the grippers have moved to the bottom of the frame, consistent with settling in at the sink.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 84,
+      "episode": "episode_00050500",
+      "gt": "place on next to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the bathroom vanity with the robot's arms at the bottom corners, still far from the sink.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 94,
+      "episode": "episode_00050500",
+      "gt": "place on next to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the vanity with the arms low and empty, no object contact visible.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 104,
+      "episode": "episode_00050500",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The sink counter is now centered and the grippers are lowered to the floor beside it, consistent with setting down.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 114,
+      "episode": "episode_00050500",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The camera has turned to the vanity top with the two grippers at the bottom edge, still in contact with the sink area.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 124,
+      "episode": "episode_00050500",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The sink counter and the two grippers are now centered at the bottom of the frame, with the trap still on the floor below.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 242,
+      "episode": "episode_00050500",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The toilet is centered and the right arm is extended toward the wall beside it, consistent with setting down near the toilet.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 252,
+      "episode": "episode_00050500",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The toilet is now centered and the arms have pulled back to the sides, consistent with finishing the placement.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 262,
+      "episode": "episode_00050500",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The toilet is now centered and the arms have pulled back to the sides, consistent with releasing the traps.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 272,
+      "episode": "episode_00050500",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The toilet bowl is now centered and the right gripper is at the floor beside it, consistent with setting down.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 282,
+      "episode": "episode_00050500",
+      "gt": "place on next to",
+      "pred": "move to",
+      "raw": "Reasoning: The toilet is centered and the right gripper is at the bottom edge, beginning the approach to the toilet.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 292,
+      "episode": "episode_00050500",
+      "gt": "place on next to",
+      "pred": "move to",
+      "raw": "Reasoning: The toilet is centered and closer with the arms at the bottom corners, still in transit.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00051010",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The sink and toilet are now centered and the arms have dropped to the sides, consistent with setting down.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 81,
+      "episode": "episode_00051010",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The sink counter fills the frame with the robot's legs at the bottom and the faucet on the white basin, arms low and not extended.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 90,
+      "episode": "episode_00051010",
+      "gt": "place on next to",
+      "pred": "move to",
+      "raw": "Reasoning: The sink counter and the two mousetraps on the floor are now centered and the arms are pulling back from them.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 182,
+      "episode": "episode_00051010",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The toilet is centered and the arms have pulled back to the sides, consistent with finishing the placement.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 192,
+      "episode": "episode_00051010",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The toilet is now upright and the arms have pulled back to the sides, consistent with releasing the trap.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 92,
+      "episode": "episode_00051680",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The sink and bathtub are now visible ahead with the arms still low and empty, consistent with setting down.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 102,
+      "episode": "episode_00051680",
+      "gt": "place on next to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is now standing on the tiled floor with both arms raised and open, mousetraps held in them, and the sink/toilet no longer in frame.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 112,
+      "episode": "episode_00051680",
+      "gt": "place on next to",
+      "pred": "pick up from",
+      "raw": "Reasoning: Both grippers are raised above the floor with the traps still on them, arms still in contact with the surface.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 122,
+      "episode": "episode_00051680",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is right up against the sink with both arms raised toward the counter, the final settling after releasing.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 304,
+      "episode": "episode_00051680",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is now right at the toilet with both arms lowered to the floor beside it, the final settling after releasing.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 314,
+      "episode": "episode_00051680",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot is now right in front of the toilet with both arms lowered and open, the final settling pose before releasing.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 323,
+      "episode": "episode_00051680",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The toilet bowl is now centered and the arms have dropped to the sides, consistent with releasing the traps.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 205,
+      "episode": "episode_00052240",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: Both grippers are raised and open, the traps still on the floor beside the sink, and the view has begun to tilt down.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 215,
+      "episode": "episode_00052240",
+      "gt": "place on next to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The camera has turned to the floor with both grippers raised and open, the arms still in a grasping pose.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 225,
+      "episode": "episode_00052240",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: Both grippers are raised and open, the traps still on the floor, and the view has turned to the floor tiles \u2014 the release is complete.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 235,
+      "episode": "episode_00052240",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The right gripper is down at the floor beside the trap, left arm still holding it.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 245,
+      "episode": "episode_00052240",
+      "gt": "place on next to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is now on the tiled floor with both arms extended and the left gripper open at the trap's location.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 731,
+      "episode": "episode_00052240",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The toilet is now centered and the two grippers are lowered to the floor beside it, consistent with setting down.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 741,
+      "episode": "episode_00052240",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The toilet bowl is now centered and the two grippers are lowered to the floor beside it, consistent with setting down.\nAnswer: place on next to",
+      "correct": true
+    }
+  ]
+}

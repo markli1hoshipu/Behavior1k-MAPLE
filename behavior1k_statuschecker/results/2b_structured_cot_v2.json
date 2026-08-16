@@ -1,0 +1,422 @@
+{
+  "version": "2b_structured_cot_v2",
+  "accuracy": 0.3728813559322034,
+  "macro_recall": 0.39217171717171717,
+  "correct": 22,
+  "total": 59,
+  "predictions": [
+    {
+      "sec": 0,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): no\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): no\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 1",
+      "correct": true
+    },
+    {
+      "sec": 1,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): no\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): no\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 1",
+      "correct": true
+    },
+    {
+      "sec": 2,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): no\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): no\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 1",
+      "correct": true
+    },
+    {
+      "sec": 3,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): no\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): no\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 1",
+      "correct": true
+    },
+    {
+      "sec": 4,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): no\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): no\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 1",
+      "correct": true
+    },
+    {
+      "sec": 5,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): no\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): no\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 1",
+      "correct": true
+    },
+    {
+      "sec": 6,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): no\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): no\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 1",
+      "correct": true
+    },
+    {
+      "sec": 7,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): no\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): no\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 1",
+      "correct": true
+    },
+    {
+      "sec": 8,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): no\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): no\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 1",
+      "correct": true
+    },
+    {
+      "sec": 9,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): no\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): no\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 1",
+      "correct": false
+    },
+    {
+      "sec": 10,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): no\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): no\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 1",
+      "correct": false
+    },
+    {
+      "sec": 11,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): no\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): no\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 1",
+      "correct": false
+    },
+    {
+      "sec": 12,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): no\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): no\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 1",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): no\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): no\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 1",
+      "correct": false
+    },
+    {
+      "sec": 14,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): no\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): no\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 1",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): no\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): no\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 1",
+      "correct": false
+    },
+    {
+      "sec": 16,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): no\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): no\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 1",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): no\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): no\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 1",
+      "correct": false
+    },
+    {
+      "sec": 18,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): no\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): no\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 1",
+      "correct": false
+    },
+    {
+      "sec": 19,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): no\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): no\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 1",
+      "correct": false
+    },
+    {
+      "sec": 20,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): no\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): no\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 1",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): no\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): no\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 1",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): no\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): no\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 1",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): no\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): no\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 1",
+      "correct": false
+    },
+    {
+      "sec": 24,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): no\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): no\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 1",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): no\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): no\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 1",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): no\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): no\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 1",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): no\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 4",
+      "correct": false
+    },
+    {
+      "sec": 28,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): yes\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 2",
+      "correct": true
+    },
+    {
+      "sec": 29,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): yes\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 2",
+      "correct": true
+    },
+    {
+      "sec": 30,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): yes\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 2",
+      "correct": true
+    },
+    {
+      "sec": 31,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): yes\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 2",
+      "correct": true
+    },
+    {
+      "sec": 32,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): yes\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 2",
+      "correct": true
+    },
+    {
+      "sec": 33,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): yes\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 2",
+      "correct": true
+    },
+    {
+      "sec": 34,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): yes\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 2",
+      "correct": true
+    },
+    {
+      "sec": 35,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): yes\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 2",
+      "correct": true
+    },
+    {
+      "sec": 36,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): yes\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 2",
+      "correct": true
+    },
+    {
+      "sec": 37,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): yes\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 2",
+      "correct": true
+    },
+    {
+      "sec": 38,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): yes\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 2",
+      "correct": true
+    },
+    {
+      "sec": 39,
+      "gt": "press",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): yes\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 2",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "gt": "press",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): yes\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 2",
+      "correct": false
+    },
+    {
+      "sec": 41,
+      "gt": "press",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): yes\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 2",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "gt": "press",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): yes\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 2",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "gt": "press",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): yes\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 2",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "gt": "press",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): yes\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 2",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "gt": "press",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): yes\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 2",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "gt": "press",
+      "pred": "press",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (is the gripper touching/pressing the round dial face specifically?): yes\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): no\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 3",
+      "correct": true
+    },
+    {
+      "sec": 47,
+      "gt": "press",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): yes\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 2",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): yes\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 2",
+      "correct": false
+    },
+    {
+      "sec": 49,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): yes\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 2",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): yes\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 2",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): yes\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 2",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): yes\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 2",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): yes\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 2",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): yes\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 2",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): yes\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 2",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): yes\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 2",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): yes\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 2",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (is the gripper touching/pressing the round dial face specifically?): no\nQ3 (is the gripper gripping/squeezing the radio's plain body, elsewhere from the dial?): no\nQ4 (final action number, using your Q1/Q2/Q3 answers above - if Q1 is no, answer 1; else if Q2 is yes, answer 3; else if Q3 is yes, answer 2; else answer 4): 4",
+      "correct": true
+    }
+  ]
+}

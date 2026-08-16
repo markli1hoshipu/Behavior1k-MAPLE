@@ -1,0 +1,44 @@
+You previously derived rules (below) for classifying a robot's subskill from a
+single camera frame, for the household task: "Set the mousetraps near the sink and the toilet."
+
+=== YOUR PREVIOUS RULES ===
+1. move to - The whole room is in view (floor, walls, doorway, and the target furniture seen at a distance), with the arms hanging low and not reaching toward anything. Frames taken while the robot is already standing right at the dresser or the sink, hands empty, look the same as picking or placing, so these are not always separable from one still frame.
+
+2. pick up from - The robot is right up against the wooden dresser with the framed picture behind it, and several small mousetraps are lying on the dresser surface with a gripper down among them. Whether the gripper is closing on a trap or has just lifted one is often not visible, but the dresser-with-traps close-up itself is the reliable cue.
+
+3. place on next to - The robot is right up against the white bathroom sink or the toilet, and that fixture fills most of the view; the arms are lowered toward the floor beside it, and a mousetrap may be seen on the floor there. A single frame cannot tell whether the trap was just released or is still about to be set down.
+
+Those rules were dropped into a real prompt and run against Qwen3.5-2B (an actual small
+vision-language model). Overall: 73.3% accuracy / 76.6%
+macro recall. Here is a sample of what it actually got WRONG (out of 16 total errors):
+
+- sec 13: ground truth = move to, model predicted = pick up from  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0005/frames/sec_0013.jpg)
+- sec 20: ground truth = move to, model predicted = pick up from  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0005/frames/sec_0020.jpg)
+- sec 86: ground truth = move to, model predicted = pick up from  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0005/frames/sec_0086.jpg)
+- sec 120: ground truth = place on next to, model predicted = move to  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0005/frames/sec_0120.jpg)
+- sec 126: ground truth = place on next to, model predicted = move to  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0005/frames/sec_0126.jpg)
+- sec 133: ground truth = place on next to, model predicted = move to  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0005/frames/sec_0133.jpg)
+- sec 140: ground truth = place on next to, model predicted = move to  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0005/frames/sec_0140.jpg)
+- sec 173: ground truth = place on next to, model predicted = move to  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0005/frames/sec_0173.jpg)
+- sec 180: ground truth = place on next to, model predicted = pick up from  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0005/frames/sec_0180.jpg)
+- sec 187: ground truth = place on next to, model predicted = pick up from  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0005/frames/sec_0187.jpg)
+- sec 200: ground truth = place on next to, model predicted = pick up from  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0005/frames/sec_0200.jpg)
+- sec 207: ground truth = place on next to, model predicted = move to  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0005/frames/sec_0207.jpg)
+- sec 233: ground truth = place on next to, model predicted = pick up from  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0005/frames/sec_0233.jpg)
+- sec 287: ground truth = move to, model predicted = pick up from  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0005/frames/sec_0287.jpg)
+- sec 347: ground truth = move to, model predicted = place on next to  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0005/frames/sec_0347.jpg)
+- sec 367: ground truth = place on next to, model predicted = move to  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0005/frames/sec_0367.jpg)
+
+Read the error frames (use your Read tool) and revise your rules to fix what's fixable.
+If a specific confusion is genuinely not recoverable from a single static frame (e.g. it
+depends on motion direction, or on a state that changed off-screen), say so explicitly in
+your rule rather than inventing wording that won't hold up - a rule that admits the limit
+is more useful than one that guesses.
+
+Output ONLY the final revised rules in this exact format (one line per label, numbered to
+match the label list from before), nothing else - no preamble, no analysis, no confidence
+notes. Keep total output under 200 words:
+
+1. <label> - <rule>
+2. <label> - <rule>
+...

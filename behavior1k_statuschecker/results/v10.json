@@ -1,0 +1,488 @@
+{
+  "version": "v10",
+  "action_order": [
+    "move to",
+    "pick up from",
+    "press",
+    "place on"
+  ],
+  "system_prompt": "You are annotating a robot's head-camera video, one frame per second, for an entire episode. You only ever see ONE frame at a time, but you keep short written notes across seconds so you remember what already happened.",
+  "accuracy": 0.22033898305084745,
+  "macro_recall": 0.3611111111111111,
+  "correct": 13,
+  "total": 59,
+  "predictions": [
+    {
+      "sec": 0,
+      "gt": "move to",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": true
+    },
+    {
+      "sec": 1,
+      "gt": "move to",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": true
+    },
+    {
+      "sec": 2,
+      "gt": "move to",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": true
+    },
+    {
+      "sec": 3,
+      "gt": "move to",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": true
+    },
+    {
+      "sec": 4,
+      "gt": "move to",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": true
+    },
+    {
+      "sec": 5,
+      "gt": "move to",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": true
+    },
+    {
+      "sec": 6,
+      "gt": "move to",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": true
+    },
+    {
+      "sec": 7,
+      "gt": "move to",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": true
+    },
+    {
+      "sec": 8,
+      "gt": "move to",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": true
+    },
+    {
+      "sec": 9,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 10,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 11,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 12,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 14,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 16,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 18,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 19,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 20,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 24,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 28,
+      "gt": "pick up from",
+      "pred": "press",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 3",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "gt": "pick up from",
+      "pred": "press",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 3",
+      "correct": false
+    },
+    {
+      "sec": 30,
+      "gt": "pick up from",
+      "pred": "press",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 3",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "gt": "pick up from",
+      "pred": "press",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 3",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 33,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "gt": "pick up from",
+      "pred": "press",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 3",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "gt": "pick up from",
+      "pred": "press",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 3",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "gt": "press",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "gt": "press",
+      "pred": "press",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 3",
+      "correct": true
+    },
+    {
+      "sec": 41,
+      "gt": "press",
+      "pred": "press",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 3",
+      "correct": true
+    },
+    {
+      "sec": 42,
+      "gt": "press",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "gt": "press",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "gt": "press",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "gt": "press",
+      "pred": "press",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 3",
+      "correct": true
+    },
+    {
+      "sec": 46,
+      "gt": "press",
+      "pred": "press",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 3",
+      "correct": true
+    },
+    {
+      "sec": 47,
+      "gt": "press",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "gt": "place on",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 49,
+      "gt": "place on",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "gt": "place on",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "gt": "place on",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "gt": "place on",
+      "pred": "press",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 3",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "gt": "place on",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "gt": "place on",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "gt": "place on",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "gt": "place on",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "gt": "place on",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "gt": "place on",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp hanging from the ceiling.\nAction: 1",
+      "correct": false
+    }
+  ]
+}

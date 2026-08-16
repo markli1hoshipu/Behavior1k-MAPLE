@@ -1,0 +1,430 @@
+{
+  "task_chunk": "task-0022",
+  "task_name": "putting shoes on rack",
+  "accuracy": 0.55,
+  "macro_recall": 0.44339025932953824,
+  "correct": 33,
+  "total": 60,
+  "predictions": [
+    {
+      "sec": 0,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): no\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): none\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 1",
+      "correct": true
+    },
+    {
+      "sec": 3,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): no\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): none\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 1",
+      "correct": true
+    },
+    {
+      "sec": 7,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): none\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 1",
+      "correct": false
+    },
+    {
+      "sec": 11,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): none\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 1",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): none\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 1",
+      "correct": false
+    },
+    {
+      "sec": 19,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): nothing\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 1",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): nothing\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 2",
+      "correct": true
+    },
+    {
+      "sec": 27,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): none\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 1",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): shoe\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 2",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): none\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 1",
+      "correct": true
+    },
+    {
+      "sec": 39,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): none\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 1",
+      "correct": true
+    },
+    {
+      "sec": 43,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): none\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 1",
+      "correct": true
+    },
+    {
+      "sec": 47,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): shoe\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 2",
+      "correct": true
+    },
+    {
+      "sec": 50,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): shoes\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 1",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): shoes\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 2",
+      "correct": true
+    },
+    {
+      "sec": 58,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): none\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 1",
+      "correct": true
+    },
+    {
+      "sec": 62,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): none\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 1",
+      "correct": true
+    },
+    {
+      "sec": 66,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): none\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 1",
+      "correct": true
+    },
+    {
+      "sec": 70,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): none\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 1",
+      "correct": true
+    },
+    {
+      "sec": 74,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): shoe\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 2",
+      "correct": false
+    },
+    {
+      "sec": 78,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): shoe\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 2",
+      "correct": false
+    },
+    {
+      "sec": 82,
+      "gt": "place in",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): nothing\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 1",
+      "correct": false
+    },
+    {
+      "sec": 86,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): shoe\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 2",
+      "correct": false
+    },
+    {
+      "sec": 90,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): shoe\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 2",
+      "correct": false
+    },
+    {
+      "sec": 94,
+      "gt": "place in",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): none\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 1",
+      "correct": false
+    },
+    {
+      "sec": 97,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): nothing\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 1",
+      "correct": true
+    },
+    {
+      "sec": 101,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): none\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 1",
+      "correct": true
+    },
+    {
+      "sec": 105,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): none\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 1",
+      "correct": true
+    },
+    {
+      "sec": 109,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): none\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 1",
+      "correct": true
+    },
+    {
+      "sec": 113,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): none\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 1",
+      "correct": true
+    },
+    {
+      "sec": 117,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): none\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 1",
+      "correct": true
+    },
+    {
+      "sec": 121,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): none\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 1",
+      "correct": true
+    },
+    {
+      "sec": 125,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): shoe\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 2",
+      "correct": true
+    },
+    {
+      "sec": 129,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): shoe\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 2",
+      "correct": true
+    },
+    {
+      "sec": 133,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): shoe\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 2",
+      "correct": true
+    },
+    {
+      "sec": 137,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): shoe\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 2",
+      "correct": true
+    },
+    {
+      "sec": 141,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): shoe\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 2",
+      "correct": false
+    },
+    {
+      "sec": 144,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): shoe\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 2",
+      "correct": false
+    },
+    {
+      "sec": 148,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): shoe\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 2",
+      "correct": false
+    },
+    {
+      "sec": 152,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): shoe\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 2",
+      "correct": false
+    },
+    {
+      "sec": 156,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): shoe\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 2",
+      "correct": false
+    },
+    {
+      "sec": 160,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): shoe\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 2",
+      "correct": false
+    },
+    {
+      "sec": 164,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): shoe\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 2",
+      "correct": true
+    },
+    {
+      "sec": 168,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): shoe\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 2",
+      "correct": true
+    },
+    {
+      "sec": 172,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): shoe\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 2",
+      "correct": true
+    },
+    {
+      "sec": 176,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): shoes\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 1",
+      "correct": false
+    },
+    {
+      "sec": 180,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): shoes\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 1",
+      "correct": true
+    },
+    {
+      "sec": 184,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): shoes\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 1",
+      "correct": true
+    },
+    {
+      "sec": 188,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): shoes\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 1",
+      "correct": true
+    },
+    {
+      "sec": 191,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): shoes\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 1",
+      "correct": true
+    },
+    {
+      "sec": 195,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): shoes\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 1",
+      "correct": true
+    },
+    {
+      "sec": 199,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): none\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 1",
+      "correct": true
+    },
+    {
+      "sec": 203,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): shoe\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 1",
+      "correct": true
+    },
+    {
+      "sec": 207,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): shoe\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 2",
+      "correct": false
+    },
+    {
+      "sec": 211,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): shoe\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 2",
+      "correct": false
+    },
+    {
+      "sec": 215,
+      "gt": "place in",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): shoe\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 1",
+      "correct": false
+    },
+    {
+      "sec": 219,
+      "gt": "place in",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): none\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 1",
+      "correct": false
+    },
+    {
+      "sec": 223,
+      "gt": "place in",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): shoe\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 1",
+      "correct": false
+    },
+    {
+      "sec": 227,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): shoe\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 2",
+      "correct": false
+    },
+    {
+      "sec": 231,
+      "gt": "place in",
+      "pred": "move to",
+      "raw": "Q1 (is any part of a robot arm/gripper visible anywhere in the frame?): yes\nQ2 (in a few words, what object is the gripper touching or interacting with, if any?): none\nQ3 (final action number, using your Q1/Q2 answers and the rules above): 1",
+      "correct": false
+    }
+  ]
+}

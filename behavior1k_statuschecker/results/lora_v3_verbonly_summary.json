@@ -1,0 +1,508 @@
+{
+  "n_tasks": 100,
+  "avg_accuracy": 0.7478208394631913,
+  "avg_macro": 0.7146819701930552,
+  "n_pass_70": 60,
+  "per_task": {
+    "task-0000": {
+      "accuracy": 0.7041666666666667,
+      "macro_recall": 0.7041666666666667,
+      "n_verb_classes": 4
+    },
+    "task-0001": {
+      "accuracy": 0.7083333333333334,
+      "macro_recall": 0.7312500000000001,
+      "n_verb_classes": 4
+    },
+    "task-0002": {
+      "accuracy": 0.7269230769230769,
+      "macro_recall": 0.7019444444444445,
+      "n_verb_classes": 6
+    },
+    "task-0003": {
+      "accuracy": 0.8383333333333334,
+      "macro_recall": 0.8658333333333333,
+      "n_verb_classes": 5
+    },
+    "task-0004": {
+      "accuracy": 0.6363636363636364,
+      "macro_recall": 0.6416666666666666,
+      "n_verb_classes": 8
+    },
+    "task-0005": {
+      "accuracy": 0.8033333333333333,
+      "macro_recall": 0.8574074074074073,
+      "n_verb_classes": 3
+    },
+    "task-0006": {
+      "accuracy": 0.6555555555555556,
+      "macro_recall": 0.6479166666666667,
+      "n_verb_classes": 4
+    },
+    "task-0007": {
+      "accuracy": 0.6321585903083701,
+      "macro_recall": 0.5946671724245254,
+      "n_verb_classes": 6
+    },
+    "task-0008": {
+      "accuracy": 0.7298524404086265,
+      "macro_recall": 0.6099858307297925,
+      "n_verb_classes": 8
+    },
+    "task-0009": {
+      "accuracy": 0.7831215970961888,
+      "macro_recall": 0.7214798045587397,
+      "n_verb_classes": 6
+    },
+    "task-0010": {
+      "accuracy": 0.6930091185410334,
+      "macro_recall": 0.5019444444444444,
+      "n_verb_classes": 6
+    },
+    "task-0011": {
+      "accuracy": 0.5904761904761905,
+      "macro_recall": 0.5597222222222222,
+      "n_verb_classes": 6
+    },
+    "task-0012": {
+      "accuracy": 0.6983333333333334,
+      "macro_recall": 0.6635204081632653,
+      "n_verb_classes": 7
+    },
+    "task-0013": {
+      "accuracy": 0.7956521739130434,
+      "macro_recall": 0.7286111111111111,
+      "n_verb_classes": 7
+    },
+    "task-0014": {
+      "accuracy": 0.7372549019607844,
+      "macro_recall": 0.6293055555555556,
+      "n_verb_classes": 10
+    },
+    "task-0015": {
+      "accuracy": 0.8916666666666667,
+      "macro_recall": 0.8791666666666667,
+      "n_verb_classes": 4
+    },
+    "task-0016": {
+      "accuracy": 0.9027777777777778,
+      "macro_recall": 0.8986111111111111,
+      "n_verb_classes": 4
+    },
+    "task-0017": {
+      "accuracy": 0.8738095238095238,
+      "macro_recall": 0.8847222222222223,
+      "n_verb_classes": 6
+    },
+    "task-0018": {
+      "accuracy": 0.7887067395264117,
+      "macro_recall": 0.8064341085271318,
+      "n_verb_classes": 5
+    },
+    "task-0019": {
+      "accuracy": 0.7152777777777778,
+      "macro_recall": 0.6075830140768593,
+      "n_verb_classes": 7
+    },
+    "task-0020": {
+      "accuracy": 0.81,
+      "macro_recall": 0.7095833333333333,
+      "n_verb_classes": 4
+    },
+    "task-0021": {
+      "accuracy": 0.7709551656920078,
+      "macro_recall": 0.5740234454019502,
+      "n_verb_classes": 7
+    },
+    "task-0022": {
+      "accuracy": 0.8449074074074074,
+      "macro_recall": 0.8585858585858586,
+      "n_verb_classes": 3
+    },
+    "task-0023": {
+      "accuracy": 0.8458333333333333,
+      "macro_recall": 0.8672222222222222,
+      "n_verb_classes": 5
+    },
+    "task-0024": {
+      "accuracy": 0.8333333333333334,
+      "macro_recall": 0.713452380952381,
+      "n_verb_classes": 7
+    },
+    "task-0025": {
+      "accuracy": 0.8044444444444444,
+      "macro_recall": 0.781904761904762,
+      "n_verb_classes": 7
+    },
+    "task-0026": {
+      "accuracy": 0.8322916666666667,
+      "macro_recall": 0.8060416666666667,
+      "n_verb_classes": 4
+    },
+    "task-0027": {
+      "accuracy": 0.7907801418439716,
+      "macro_recall": 0.7274623524623525,
+      "n_verb_classes": 7
+    },
+    "task-0028": {
+      "accuracy": 0.5783261802575107,
+      "macro_recall": 0.45594004869335264,
+      "n_verb_classes": 7
+    },
+    "task-0029": {
+      "accuracy": 0.5964491362763915,
+      "macro_recall": 0.6270031173965936,
+      "n_verb_classes": 8
+    },
+    "task-0030": {
+      "accuracy": 0.8717948717948718,
+      "macro_recall": 0.8636904761904762,
+      "n_verb_classes": 7
+    },
+    "task-0031": {
+      "accuracy": 0.8145833333333333,
+      "macro_recall": 0.7988095238095239,
+      "n_verb_classes": 7
+    },
+    "task-0032": {
+      "accuracy": 0.73125,
+      "macro_recall": 0.7178571428571429,
+      "n_verb_classes": 7
+    },
+    "task-0033": {
+      "accuracy": 0.7775628626692457,
+      "macro_recall": 0.7443082208007582,
+      "n_verb_classes": 7
+    },
+    "task-0034": {
+      "accuracy": 0.8490566037735849,
+      "macro_recall": 0.8527777777777779,
+      "n_verb_classes": 5
+    },
+    "task-0035": {
+      "accuracy": 0.6310679611650486,
+      "macro_recall": 0.5323380867498514,
+      "n_verb_classes": 6
+    },
+    "task-0036": {
+      "accuracy": 0.4497444633730835,
+      "macro_recall": 0.34444444444444444,
+      "n_verb_classes": 8
+    },
+    "task-0037": {
+      "accuracy": 0.8027777777777778,
+      "macro_recall": 0.8,
+      "n_verb_classes": 5
+    },
+    "task-0038": {
+      "accuracy": 0.8083333333333333,
+      "macro_recall": 0.8,
+      "n_verb_classes": 5
+    },
+    "task-0039": {
+      "accuracy": 0.8333333333333334,
+      "macro_recall": 0.8083333333333333,
+      "n_verb_classes": 5
+    },
+    "task-0040": {
+      "accuracy": 0.8523809523809524,
+      "macro_recall": 0.8583333333333333,
+      "n_verb_classes": 6
+    },
+    "task-0041": {
+      "accuracy": 0.6250799744081894,
+      "macro_recall": 0.622473005255614,
+      "n_verb_classes": 10
+    },
+    "task-0042": {
+      "accuracy": 0.618860510805501,
+      "macro_recall": 0.5037962962962962,
+      "n_verb_classes": 9
+    },
+    "task-0043": {
+      "accuracy": 0.6643538594969645,
+      "macro_recall": 0.6378872863247863,
+      "n_verb_classes": 8
+    },
+    "task-0044": {
+      "accuracy": 0.6636363636363637,
+      "macro_recall": 0.6259259259259259,
+      "n_verb_classes": 6
+    },
+    "task-0045": {
+      "accuracy": 0.8249619482496194,
+      "macro_recall": 0.8179580306698951,
+      "n_verb_classes": 7
+    },
+    "task-0046": {
+      "accuracy": 0.7337110481586402,
+      "macro_recall": 0.6722794959908361,
+      "n_verb_classes": 9
+    },
+    "task-0047": {
+      "accuracy": 0.7297619047619047,
+      "macro_recall": 0.7022222222222223,
+      "n_verb_classes": 6
+    },
+    "task-0048": {
+      "accuracy": 0.6553094832481544,
+      "macro_recall": 0.6250900342107737,
+      "n_verb_classes": 10
+    },
+    "task-0049": {
+      "accuracy": 0.5789473684210527,
+      "macro_recall": 0.6125392279115683,
+      "n_verb_classes": 14
+    },
+    "task-0050": {
+      "accuracy": 0.752828546562228,
+      "macro_recall": 0.6686764873815233,
+      "n_verb_classes": 7
+    },
+    "task-0051": {
+      "accuracy": 0.7494145199063232,
+      "macro_recall": 0.7148556430446195,
+      "n_verb_classes": 10
+    },
+    "task-0052": {
+      "accuracy": 0.7785642062689585,
+      "macro_recall": 0.602423797755123,
+      "n_verb_classes": 5
+    },
+    "task-0053": {
+      "accuracy": 0.7465690759377859,
+      "macro_recall": 0.6595150880865166,
+      "n_verb_classes": 7
+    },
+    "task-0054": {
+      "accuracy": 0.69,
+      "macro_recall": 0.66875,
+      "n_verb_classes": 4
+    },
+    "task-0055": {
+      "accuracy": 0.8833333333333333,
+      "macro_recall": 0.8883333333333333,
+      "n_verb_classes": 5
+    },
+    "task-0056": {
+      "accuracy": 0.7738095238095238,
+      "macro_recall": 0.8083333333333333,
+      "n_verb_classes": 4
+    },
+    "task-0057": {
+      "accuracy": 0.6416666666666667,
+      "macro_recall": 0.5888888888888889,
+      "n_verb_classes": 3
+    },
+    "task-0058": {
+      "accuracy": 0.6466666666666666,
+      "macro_recall": 0.6270833333333333,
+      "n_verb_classes": 4
+    },
+    "task-0059": {
+      "accuracy": 0.7614583333333333,
+      "macro_recall": 0.7929166666666667,
+      "n_verb_classes": 4
+    },
+    "task-0060": {
+      "accuracy": 0.6733333333333333,
+      "macro_recall": 0.625,
+      "n_verb_classes": 4
+    },
+    "task-0061": {
+      "accuracy": 0.719656283566058,
+      "macro_recall": 0.7086039886039885,
+      "n_verb_classes": 9
+    },
+    "task-0062": {
+      "accuracy": 0.7211428571428572,
+      "macro_recall": 0.6521990740740742,
+      "n_verb_classes": 8
+    },
+    "task-0063": {
+      "accuracy": 0.79296875,
+      "macro_recall": 0.6104166666666666,
+      "n_verb_classes": 4
+    },
+    "task-0064": {
+      "accuracy": 0.8147058823529412,
+      "macro_recall": 0.7944444444444444,
+      "n_verb_classes": 6
+    },
+    "task-0065": {
+      "accuracy": 0.8032069970845481,
+      "macro_recall": 0.792282790309106,
+      "n_verb_classes": 6
+    },
+    "task-0066": {
+      "accuracy": 0.861904761904762,
+      "macro_recall": 0.826388888888889,
+      "n_verb_classes": 4
+    },
+    "task-0067": {
+      "accuracy": 0.6990077177508269,
+      "macro_recall": 0.6916232889917101,
+      "n_verb_classes": 7
+    },
+    "task-0068": {
+      "accuracy": 0.7506849315068493,
+      "macro_recall": 0.7343589743589745,
+      "n_verb_classes": 5
+    },
+    "task-0069": {
+      "accuracy": 0.4527777777777778,
+      "macro_recall": 0.41500000000000004,
+      "n_verb_classes": 5
+    },
+    "task-0070": {
+      "accuracy": 0.725,
+      "macro_recall": 0.751736111111111,
+      "n_verb_classes": 8
+    },
+    "task-0071": {
+      "accuracy": 0.8448717948717949,
+      "macro_recall": 0.8125,
+      "n_verb_classes": 6
+    },
+    "task-0072": {
+      "accuracy": 0.7948717948717948,
+      "macro_recall": 0.8111111111111111,
+      "n_verb_classes": 8
+    },
+    "task-0073": {
+      "accuracy": 0.7966666666666666,
+      "macro_recall": 0.6778888888888889,
+      "n_verb_classes": 5
+    },
+    "task-0074": {
+      "accuracy": 0.8375,
+      "macro_recall": 0.8555555555555555,
+      "n_verb_classes": 6
+    },
+    "task-0075": {
+      "accuracy": 0.8240740740740741,
+      "macro_recall": 0.8177777777777779,
+      "n_verb_classes": 5
+    },
+    "task-0076": {
+      "accuracy": 0.7904761904761904,
+      "macro_recall": 0.8333333333333334,
+      "n_verb_classes": 4
+    },
+    "task-0077": {
+      "accuracy": 0.7621776504297995,
+      "macro_recall": 0.7361224489795919,
+      "n_verb_classes": 5
+    },
+    "task-0078": {
+      "accuracy": 0.6039603960396039,
+      "macro_recall": 0.5582070707070707,
+      "n_verb_classes": 6
+    },
+    "task-0079": {
+      "accuracy": 0.7149122807017544,
+      "macro_recall": 0.6169753086419754,
+      "n_verb_classes": 6
+    },
+    "task-0080": {
+      "accuracy": 0.8875,
+      "macro_recall": 0.8722222222222222,
+      "n_verb_classes": 3
+    },
+    "task-0081": {
+      "accuracy": 0.7261904761904762,
+      "macro_recall": 0.7314814814814815,
+      "n_verb_classes": 3
+    },
+    "task-0082": {
+      "accuracy": 0.7545454545454545,
+      "macro_recall": 0.6425,
+      "n_verb_classes": 6
+    },
+    "task-0083": {
+      "accuracy": 0.7666666666666667,
+      "macro_recall": 0.7074074074074074,
+      "n_verb_classes": 6
+    },
+    "task-0084": {
+      "accuracy": 0.7736842105263158,
+      "macro_recall": 0.7831666666666666,
+      "n_verb_classes": 5
+    },
+    "task-0085": {
+      "accuracy": 0.8622222222222222,
+      "macro_recall": 0.8114583333333334,
+      "n_verb_classes": 8
+    },
+    "task-0086": {
+      "accuracy": 0.7672955974842768,
+      "macro_recall": 0.7758333333333334,
+      "n_verb_classes": 6
+    },
+    "task-0087": {
+      "accuracy": 0.8333333333333334,
+      "macro_recall": 0.8388888888888889,
+      "n_verb_classes": 3
+    },
+    "task-0088": {
+      "accuracy": 0.8466666666666667,
+      "macro_recall": 0.8475000000000001,
+      "n_verb_classes": 4
+    },
+    "task-0089": {
+      "accuracy": 0.8004926108374384,
+      "macro_recall": 0.7959839357429719,
+      "n_verb_classes": 5
+    },
+    "task-0090": {
+      "accuracy": 0.6666666666666666,
+      "macro_recall": 0.6409638554216868,
+      "n_verb_classes": 4
+    },
+    "task-0091": {
+      "accuracy": 0.7511904761904762,
+      "macro_recall": 0.7652777777777778,
+      "n_verb_classes": 8
+    },
+    "task-0092": {
+      "accuracy": 0.7027777777777777,
+      "macro_recall": 0.7,
+      "n_verb_classes": 5
+    },
+    "task-0093": {
+      "accuracy": 0.7833333333333333,
+      "macro_recall": 0.7277777777777777,
+      "n_verb_classes": 4
+    },
+    "task-0094": {
+      "accuracy": 0.7266666666666667,
+      "macro_recall": 0.6958333333333333,
+      "n_verb_classes": 6
+    },
+    "task-0095": {
+      "accuracy": 0.6878436163714111,
+      "macro_recall": 0.6192135642135642,
+      "n_verb_classes": 11
+    },
+    "task-0096": {
+      "accuracy": 0.8055555555555556,
+      "macro_recall": 0.7955555555555556,
+      "n_verb_classes": 5
+    },
+    "task-0097": {
+      "accuracy": 0.7707055214723927,
+      "macro_recall": 0.7707150715071507,
+      "n_verb_classes": 5
+    },
+    "task-0098": {
+      "accuracy": 0.8349753694581281,
+      "macro_recall": 0.8075362318840579,
+      "n_verb_classes": 5
+    },
+    "task-0099": {
+      "accuracy": 0.4966261808367072,
+      "macro_recall": 0.49935737976782746,
+      "n_verb_classes": 4
+    }
+  }
+}

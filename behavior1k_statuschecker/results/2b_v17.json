@@ -1,0 +1,424 @@
+{
+  "version": "2b_v17",
+  "window": 1,
+  "system_prompt": "You are annotating individual frames from a fixed head-mounted camera on a mobile manipulator robot. Classify the robot's current subskill using ONLY the visual evidence in this single frame.",
+  "user_prompt": "Task: \"Turn on the radio receiver that's on the table in the living room.\"\nThe robot's subskill right now is always exactly one of:\n1. move to - no robot arm is visible anywhere in the frame; you see a wide view of the room with the red radio small, far away, or not visible at all.\n2. pick up from - an arm/gripper is visible and reaching toward or holding the plain body of the radio, standing upright, its round dial not facing the camera.\n3. press - either the radio is lifted up in a gripper, or its round dial IS facing the camera with a gripper on that dial.\n4. place on - an arm is at the radio near the table, and the radio itself is tilted or leaning to one side rather than standing straight up and vertical.\nTie-break: if no arm is visible, answer 1. If an arm is at the radio on the table and you can't tell whether it's grabbing or releasing, answer 4.\nLook only at what is visible in this frame. Which number (1-4) best matches? Respond with ONLY the digit.",
+  "accuracy": 0.23728813559322035,
+  "correct": 14,
+  "total": 59,
+  "predictions": [
+    {
+      "sec": 0,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "1",
+      "correct": true
+    },
+    {
+      "sec": 1,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "1",
+      "correct": true
+    },
+    {
+      "sec": 2,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "1",
+      "correct": true
+    },
+    {
+      "sec": 3,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "1",
+      "correct": true
+    },
+    {
+      "sec": 4,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "1",
+      "correct": true
+    },
+    {
+      "sec": 5,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "1",
+      "correct": true
+    },
+    {
+      "sec": 6,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "1",
+      "correct": true
+    },
+    {
+      "sec": 7,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "1",
+      "correct": true
+    },
+    {
+      "sec": 8,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "1",
+      "correct": true
+    },
+    {
+      "sec": 9,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 10,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 11,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 12,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 14,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 16,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 18,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 19,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 20,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 24,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 28,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 30,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 33,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "gt": "press",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "gt": "press",
+      "pred": "press",
+      "raw": "3",
+      "correct": true
+    },
+    {
+      "sec": 41,
+      "gt": "press",
+      "pred": "press",
+      "raw": "3",
+      "correct": true
+    },
+    {
+      "sec": 42,
+      "gt": "press",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "gt": "press",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "gt": "press",
+      "pred": "press",
+      "raw": "3",
+      "correct": true
+    },
+    {
+      "sec": 45,
+      "gt": "press",
+      "pred": "press",
+      "raw": "3",
+      "correct": true
+    },
+    {
+      "sec": 46,
+      "gt": "press",
+      "pred": "press",
+      "raw": "3",
+      "correct": true
+    },
+    {
+      "sec": 47,
+      "gt": "press",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "gt": "place on",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 49,
+      "gt": "place on",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "gt": "place on",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "gt": "place on",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "gt": "place on",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "gt": "place on",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "gt": "place on",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "gt": "place on",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "gt": "place on",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "gt": "place on",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "gt": "place on",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    }
+  ]
+}

@@ -1,0 +1,488 @@
+{
+  "version": "v11",
+  "action_order": [
+    "move to",
+    "pick up from",
+    "press",
+    "place on"
+  ],
+  "system_prompt": "You are annotating a robot's head-camera video, one frame per second, for an entire episode. You only ever see ONE frame at a time, but you keep short written notes across seconds so you remember what already happened.",
+  "accuracy": 0.3050847457627119,
+  "macro_recall": 0.325,
+  "correct": 18,
+  "total": 59,
+  "predictions": [
+    {
+      "sec": 0,
+      "gt": "move to",
+      "pred": "move to",
+      "description": "A blue L-shaped sofa is visible against a wall, with a glass coffee table in the foreground and a red object on the table.",
+      "raw": "Description: A blue L-shaped sofa is visible against a wall, with a glass coffee table in the foreground and a red object on the table.\nAction: 1",
+      "correct": true
+    },
+    {
+      "sec": 1,
+      "gt": "move to",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp.\nAction: 1",
+      "correct": true
+    },
+    {
+      "sec": 2,
+      "gt": "move to",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large \"N\" on the wall.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large \"N\" on the wall.\nAction: 1",
+      "correct": true
+    },
+    {
+      "sec": 3,
+      "gt": "move to",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large 'N' on the wall.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large 'N' on the wall.\nAction: 1",
+      "correct": true
+    },
+    {
+      "sec": 4,
+      "gt": "move to",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a glass coffee table, and a large lamp.\nAction: 1",
+      "correct": true
+    },
+    {
+      "sec": 5,
+      "gt": "move to",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a coffee table, and a lamp.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a coffee table, and a lamp.\nAction: 1",
+      "correct": true
+    },
+    {
+      "sec": 6,
+      "gt": "move to",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a coffee table, and a large lamp.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a coffee table, and a large lamp.\nAction: 1",
+      "correct": true
+    },
+    {
+      "sec": 7,
+      "gt": "move to",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a coffee table, and a large lamp.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a coffee table, and a large lamp.\nAction: 1",
+      "correct": true
+    },
+    {
+      "sec": 8,
+      "gt": "move to",
+      "pred": "move to",
+      "description": "The robot is in the living room, moving toward the table with a red object on it.",
+      "raw": "Description: The robot is in the living room, moving toward the table with a red object on it.\nAction: 1",
+      "correct": true
+    },
+    {
+      "sec": 9,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The robot is in the living room, moving toward the table with a red object on it.",
+      "raw": "Description: The robot is in the living room, moving toward the table with a red object on it.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 10,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The robot is in the living room, moving toward the table with the red object.",
+      "raw": "Description: The robot is in the living room, moving toward the table with the red object.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 11,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a coffee table, and a large lamp.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a coffee table, and a large lamp.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 12,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a coffee table, and a large lamp.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a coffee table, and a large lamp.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a coffee table, and a large lamp.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a coffee table, and a large lamp.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 14,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a coffee table, and a large lamp.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a coffee table, and a large lamp.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a coffee table, and a lamp.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a coffee table, and a lamp.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 16,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa, a coffee table, and a lamp.",
+      "raw": "Description: The robot is in a living room with a blue sofa, a coffee table, and a lamp.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The robot is in the living room, moving to the table.",
+      "raw": "Description: The robot is in the living room, moving to the table.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 18,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The robot is in the living room, moving toward the table with a red object on it.",
+      "raw": "Description: The robot is in the living room, moving toward the table with a red object on it.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 19,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The robot is in the living room, moving toward the table with a red object on it.",
+      "raw": "Description: The robot is in the living room, moving toward the table with a red object on it.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 20,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The robot is in a living room with a blue sofa and a coffee table, and the radio receiver is on the table.",
+      "raw": "Description: The robot is in a living room with a blue sofa and a coffee table, and the radio receiver is on the table.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The robot is in the living room, moving to the table with a red object on it.",
+      "raw": "Description: The robot is in the living room, moving to the table with a red object on it.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "A blue L-shaped sofa is visible in the background, and a red object with a white stripe is resting on a glass coffee table in the foreground.",
+      "raw": "Description: A blue L-shaped sofa is visible in the background, and a red object with a white stripe is resting on a glass coffee table in the foreground.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "A blue L-shaped sofa is visible in the background, and a red object with a white stripe is on a table in the foreground.",
+      "raw": "Description: A blue L-shaped sofa is visible in the background, and a red object with a white stripe is on a table in the foreground.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 24,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "A light-colored sofa is visible in the background, and a red object with a white stripe is on a table in the foreground.",
+      "raw": "Description: A light-colored sofa is visible in the background, and a red object with a white stripe is on a table in the foreground.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "A light blue L-shaped sofa is visible against a wall, with a beige coffee table in the foreground.",
+      "raw": "Description: A light blue L-shaped sofa is visible against a wall, with a beige coffee table in the foreground.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "A light blue sofa is visible in the background, and a red object with a white button is on a table in the foreground.",
+      "raw": "Description: A light blue sofa is visible in the background, and a red object with a white button is on a table in the foreground.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "A blue sofa is visible in the background, and a red object with a white button is on a table in the foreground.",
+      "raw": "Description: A blue sofa is visible in the background, and a red object with a white button is on a table in the foreground.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 28,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "A robot arm is visible on the right side of the frame, reaching toward a red object on the table.",
+      "raw": "Description: A robot arm is visible on the right side of the frame, reaching toward a red object on the table.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "A robot arm is visible on the left side of the frame, reaching toward a small white object on the table, while another arm is visible on the right sid",
+      "raw": "Description: A robot arm is visible on the left side of the frame, reaching toward a small white object on the table, while another arm is visible on the right side, holding a red object with a white stripe.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 30,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "description": "A robot arm is reaching toward a red radio receiver on a table, with the gripper positioned to pick it up.",
+      "raw": "Description: A robot arm is reaching toward a red radio receiver on a table, with the gripper positioned to pick it up.\nAction: 2",
+      "correct": true
+    },
+    {
+      "sec": 31,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "description": "A robot arm is reaching toward a red object on a table, and the object is held up off the surface.",
+      "raw": "Description: A robot arm is reaching toward a red object on a table, and the object is held up off the surface.\nAction: 2",
+      "correct": true
+    },
+    {
+      "sec": 32,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "description": "A robot arm is holding a red object with a white button on top of a gray table.",
+      "raw": "Description: A robot arm is holding a red object with a white button on top of a gray table.\nAction: 2",
+      "correct": true
+    },
+    {
+      "sec": 33,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "description": "A robot arm is reaching for a red object on a table, and the object is held up off the surface.",
+      "raw": "Description: A robot arm is reaching for a red object on a table, and the object is held up off the surface.\nAction: 2",
+      "correct": true
+    },
+    {
+      "sec": 34,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "description": "A robot arm is visible, holding a red object with a white stripe, and the object is held UP off the table surface.",
+      "raw": "Description: A robot arm is visible, holding a red object with a white stripe, and the object is held UP off the table surface.\nAction: 2",
+      "correct": true
+    },
+    {
+      "sec": 35,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "description": "A robot arm is reaching for a red object on a table, and the object is held up off the surface.",
+      "raw": "Description: A robot arm is reaching for a red object on a table, and the object is held up off the surface.\nAction: 2",
+      "correct": true
+    },
+    {
+      "sec": 36,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "description": "A robot arm is reaching toward a red object on a table, and the object is held up off the surface.",
+      "raw": "Description: A robot arm is reaching toward a red object on a table, and the object is held up off the surface.\nAction: 2",
+      "correct": true
+    },
+    {
+      "sec": 37,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "description": "A robot arm is reaching toward a red object on a table, and the object is held up off the surface.",
+      "raw": "Description: A robot arm is reaching toward a red object on a table, and the object is held up off the surface.\nAction: 2",
+      "correct": true
+    },
+    {
+      "sec": 38,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "description": "A robot arm is holding a red object, which appears to be a radio receiver, above a table.",
+      "raw": "Description: A robot arm is holding a red object, which appears to be a radio receiver, above a table.\nAction: 2",
+      "correct": true
+    },
+    {
+      "sec": 39,
+      "gt": "press",
+      "pred": "pick up from",
+      "description": "A robot arm is visible, holding a red object (radio receiver) that is held UP off the table surface.",
+      "raw": "Description: A robot arm is visible, holding a red object (radio receiver) that is held UP off the table surface.\nAction: 2",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "gt": "press",
+      "pred": "pick up from",
+      "description": "A red radio receiver is on the table, and a robotic arm is holding it.",
+      "raw": "Description: A red radio receiver is on the table, and a robotic arm is holding it.\nAction: 2",
+      "correct": false
+    },
+    {
+      "sec": 41,
+      "gt": "press",
+      "pred": "pick up from",
+      "description": "A red radio receiver is being held by a robot arm over a table.",
+      "raw": "Description: A red radio receiver is being held by a robot arm over a table.\nAction: 2",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "gt": "press",
+      "pred": "pick up from",
+      "description": "A red radio receiver is sitting on a gray table in a living room, with a blue sofa in the background.",
+      "raw": "Description: A red radio receiver is sitting on a gray table in a living room, with a blue sofa in the background.\nAction: 2",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "gt": "press",
+      "pred": "pick up from",
+      "description": "A red radio receiver is on the table, and a black arm with a white grip is visible, reaching toward it.",
+      "raw": "Description: A red radio receiver is on the table, and a black arm with a white grip is visible, reaching toward it.\nAction: 2",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "gt": "press",
+      "pred": "pick up from",
+      "description": "A red radio receiver is being held by a robot arm over a table.",
+      "raw": "Description: A red radio receiver is being held by a robot arm over a table.\nAction: 2",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "gt": "press",
+      "pred": "pick up from",
+      "description": "A red radio receiver is on a gray table, and a robot arm is holding it.",
+      "raw": "Description: A red radio receiver is on a gray table, and a robot arm is holding it.\nAction: 2",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "gt": "press",
+      "pred": "pick up from",
+      "description": "A robot arm is reaching toward a red radio receiver on a table, with its gripper open and the object held up.",
+      "raw": "Description: A robot arm is reaching toward a red radio receiver on a table, with its gripper open and the object held up.\nAction: 2",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "gt": "press",
+      "pred": "pick up from",
+      "description": "A robot arm with a red and white object is visible, reaching toward a round button on a table.",
+      "raw": "Description: A robot arm with a red and white object is visible, reaching toward a round button on a table.\nAction: 2",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "gt": "place on",
+      "pred": "pick up from",
+      "description": "A robot arm is visible on the left and right, reaching toward a red object on a table.",
+      "raw": "Description: A robot arm is visible on the left and right, reaching toward a red object on a table.\nAction: 2",
+      "correct": false
+    },
+    {
+      "sec": 49,
+      "gt": "place on",
+      "pred": "pick up from",
+      "description": "A robot arm is reaching toward a red object on a table, and the gripper is visible.",
+      "raw": "Description: A robot arm is reaching toward a red object on a table, and the gripper is visible.\nAction: 2",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "gt": "place on",
+      "pred": "pick up from",
+      "description": "A robotic arm with a black and white gripper is reaching toward a red object on a table.",
+      "raw": "Description: A robotic arm with a black and white gripper is reaching toward a red object on a table.\nAction: 2",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "gt": "place on",
+      "pred": "pick up from",
+      "description": "A robot arm is reaching toward a red object on a table, and the gripper is visible.",
+      "raw": "Description: A robot arm is reaching toward a red object on a table, and the gripper is visible.\nAction: 2",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "gt": "place on",
+      "pred": "pick up from",
+      "description": "A robot arm is visible on the right side of the frame, holding a red object that is resting on a table.",
+      "raw": "Description: A robot arm is visible on the right side of the frame, holding a red object that is resting on a table.\nAction: 2",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "gt": "place on",
+      "pred": "pick up from",
+      "description": "A robot arm is reaching toward a red object on a table, and the gripper is visible and positioned to pick it up.",
+      "raw": "Description: A robot arm is reaching toward a red object on a table, and the gripper is visible and positioned to pick it up.\nAction: 2",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "gt": "place on",
+      "pred": "pick up from",
+      "description": "A robot arm is visible on the left, and another arm is visible on the right, both holding a red object that is resting on a table.",
+      "raw": "Description: A robot arm is visible on the left, and another arm is visible on the right, both holding a red object that is resting on a table.\nAction: 2",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "gt": "place on",
+      "pred": "pick up from",
+      "description": "A red object is on the table, and a black arm with a white gripper is visible, reaching toward it.",
+      "raw": "Description: A red object is on the table, and a black arm with a white gripper is visible, reaching toward it.\nAction: 2",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "gt": "place on",
+      "pred": "pick up from",
+      "description": "The robot is in a living room with a blue sofa and a glass coffee table. The robot's arms are visible, with the right arm reaching toward the red obje",
+      "raw": "Description: The robot is in a living room with a blue sofa and a glass coffee table. The robot's arms are visible, with the right arm reaching toward the red object on the table.\nAction: 2",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "gt": "place on",
+      "pred": "pick up from",
+      "description": "A blue sofa is visible in the background, and a glass coffee table is in the foreground with a red object on it.",
+      "raw": "Description: A blue sofa is visible in the background, and a glass coffee table is in the foreground with a red object on it.\nAction: 2",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "gt": "place on",
+      "pred": "pick up from",
+      "description": "A red object is on the table, and the robot's arm is visible on the left side of the frame.",
+      "raw": "Description: A red object is on the table, and the robot's arm is visible on the left side of the frame.\nAction: 2",
+      "correct": false
+    }
+  ]
+}

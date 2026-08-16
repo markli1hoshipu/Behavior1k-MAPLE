@@ -1,0 +1,423 @@
+{
+  "task_chunk": "task-0020",
+  "task_name": "sorting vegetables",
+  "accuracy": 0.22033898305084745,
+  "macro_recall": 0.4777777777777778,
+  "correct": 13,
+  "total": 59,
+  "predictions": [
+    {
+      "sec": 6,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: The red mixing bowl is visible on the counter, and a hand is positioned at its rim, indicating the action of placing vegetables into it.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The robot's right hand is holding a basket of vegetables and is positioned directly over a red bowl on the counter, indicating the action of placing the vegetables into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 20,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The robot's right hand is holding a basket filled with vegetables and is positioned directly over a red bowl on the counter, indicating the action of placing the vegetables into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is holding a basket with vegetables and is positioned over a red bowl, indicating it is about to put the vegetables into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The robot's gripper is holding a basket filled with vegetables and is positioned directly over a red bowl on the counter, indicating the action of placing the vegetables into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 41,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is holding a basket with vegetables and is positioned directly over a red bowl, indicating the action of placing the vegetables into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: A hand is holding a red bowl with a vegetable inside, positioned over a countertop near a sink, indicating the action of placing the vegetable into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The robot's gripper is positioned at the rim of a red bowl on the counter, appearing to deposit a vegetable into it.\nAnswer: 3",
+      "correct": true
+    },
+    {
+      "sec": 61,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is holding a basket of vegetables over a red bowl, indicating it is about to place the vegetables into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 68,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's gripper is holding an empty basket over the counter, ready to move it, which matches the \"place on\" subskill.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 75,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is holding a basket of vegetables and is positioned directly over a red mixing bowl on the counter, indicating it is about to put the vegetables into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 82,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is holding a basket of vegetables and is positioned directly over a red mixing bowl on the counter, indicating it is about to put the vegetables into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 89,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is holding a basket with vegetables and is positioned over a red bowl, indicating it is about to put the vegetables into the bowl.\nAnswer: 3",
+      "correct": true
+    },
+    {
+      "sec": 96,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is holding a basket with red apples, and a red bowl is visible on the counter nearby, indicating the next step is to place the contents into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 103,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is holding a basket of vegetables and is positioned over a red mixing bowl on the counter, indicating it is about to put the vegetables into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 109,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is holding a basket with vegetables and is positioned over a red bowl, indicating it is about to place the vegetables into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 116,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The robot's gripper is holding a red bowl and a vegetable, positioned directly over the bowl on the counter, indicating the action of placing the item inside.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 123,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is holding a basket with vegetables and is in the process of moving it toward a red bowl on the counter.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 130,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is holding a basket with vegetables and is positioned over a red mixing bowl, indicating it is about to put the vegetables into the bowl.\nAnswer: 3",
+      "correct": true
+    },
+    {
+      "sec": 137,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is holding a basket with vegetables and is positioned over a red bowl, indicating the action of placing the vegetables into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 144,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The robot's gripper is holding a red bowl and is positioned directly over a wicker basket containing vegetables, indicating the action of placing the bowl into the basket.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 151,
+      "gt": "place in",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding an empty basket over a counter, consistent with the action of placing an empty basket down.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 157,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding an empty basket over the counter, consistent with the 'place on' subskill.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 164,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is holding a basket with a red apple inside, positioned over a red mixing bowl on the counter, indicating it is about to place the vegetable into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 171,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding an empty basket over a counter, consistent with the 'place on' subskill.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 178,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The robot's gripper is positioned over a basket containing vegetables, and a red bowl is visible in the background, suggesting the next step is to transfer the contents.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 185,
+      "gt": "place in",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding an empty basket over a counter, consistent with the action of placing an empty basket down.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 192,
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding an empty basket over the counter, consistent with the action of placing an empty basket down.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 199,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding an empty basket over a counter, consistent with the action of placing an empty basket down.\nAnswer: 4",
+      "correct": true
+    },
+    {
+      "sec": 206,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding an empty basket over a counter, consistent with the action of placing an empty basket down.\nAnswer: 4",
+      "correct": true
+    },
+    {
+      "sec": 212,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding an empty basket over a counter surface, consistent with the 'place on' subskill.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 219,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's gripper is holding an empty basket with no vegetables, hovering just over the white countertop surface.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 226,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding a basket of vegetables and is positioned over a white surface, consistent with placing the basket down.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 233,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is holding a basket with vegetables and is positioned over a red bowl, indicating it is about to put the vegetables into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 240,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is holding a basket with vegetables and is positioned directly over a red mixing bowl, indicating it is about to put the vegetables into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 247,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's hands are holding an empty basket over a counter, consistent with the \"place on\" subskill.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 254,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is holding a corn cob in its gripper, which is positioned over a red mixing bowl on the counter, indicating it is about to place the vegetable into the bowl.\nAnswer: 3",
+      "correct": true
+    },
+    {
+      "sec": 260,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The robot's gripper is holding a corn cob over a red mixing bowl, indicating the action of placing the vegetable into the bowl.\nAnswer: 3",
+      "correct": true
+    },
+    {
+      "sec": 267,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The robot's gripper is positioned at the rim of a red bowl containing corn, indicating it is about to place the vegetable into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 274,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The robot's gripper is holding a green vegetable and placing it into a red mixing bowl on the counter.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 281,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: The red bowl is close and clearly in view with a hand right at its rim, usually with a vegetable at the hand or already sitting in the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 288,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot's arm is positioned over a sink, with a hand holding a black and white object (likely a tool or part of a device) near the faucet, suggesting preparation for a task rather than directly interacting with a basket or bowl.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 295,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding an empty basket over a counter, consistent with the 'place on' subskill.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 302,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The robot's gripper is holding a basket filled with vegetables and is positioned directly over a red mixing bowl on the counter, indicating the action of placing the vegetables into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 309,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is holding a basket of vegetables and is positioned over a red bowl, indicating it is about to place the vegetables into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 315,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The robot arm is holding a corn cob and is positioned directly over a red mixing bowl on the counter, indicating it is about to put the vegetable into the bowl.\nAnswer: 3",
+      "correct": true
+    },
+    {
+      "sec": 322,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The red bowl is close to the camera and clearly visible, with a hand positioned at its rim, indicating the robot is about to place an item into it.\nAnswer: 3",
+      "correct": true
+    },
+    {
+      "sec": 329,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is holding a basket with vegetables and is positioned over a red bowl, indicating it is about to put the vegetables into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 336,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is holding a basket with vegetables and is positioned over a red bowl, indicating it is about to put the vegetables into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 343,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: A hand is holding a red bowl filled with corn, positioned over a countertop, indicating the action of placing the vegetables into the bowl.\nAnswer: 3",
+      "correct": true
+    },
+    {
+      "sec": 350,
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding an empty basket over the counter, indicating it is about to place the basket down.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 357,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is holding a basket with vegetables, positioned over a red bowl on the counter, indicating it is about to place the vegetables into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 363,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The robot's right hand is holding a green vegetable and is positioned directly over a red bowl on the counter, indicating it is about to put the vegetable into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 370,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The left arm is holding a green vegetable and is positioned directly over a red bowl on the counter, indicating the action of placing the vegetable into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 377,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding an empty wicker basket over a counter, consistent with the 'place on' subskill.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 384,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is holding a basket with vegetables, positioned over a red bowl on the counter, indicating it is about to place the vegetables into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 391,
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding an empty wicker basket over the counter, consistent with the 'place on' subskill.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 398,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The image shows a hand holding an empty basket over a counter, consistent with the action of placing an empty basket down.\nAnswer: 4",
+      "correct": true
+    },
+    {
+      "sec": 405,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding an empty basket over a counter surface, consistent with the action of placing an object down.\nAnswer: 4",
+      "correct": true
+    }
+  ]
+}

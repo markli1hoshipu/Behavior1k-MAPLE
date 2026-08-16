@@ -1,0 +1,299 @@
+{
+  "task_chunk": "task-0001",
+  "task_name": "picking up trash",
+  "held_out_episode": "episode_00012600",
+  "accuracy": 0.6388888888888888,
+  "macro_recall": 0.6333333333333333,
+  "correct": 23,
+  "total": 36,
+  "predictions": [
+    {
+      "sec": 28,
+      "episode": "episode_00012600",
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "pick up from",
+      "correct": false
+    },
+    {
+      "sec": 33,
+      "episode": "episode_00012600",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "move to",
+      "correct": true
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00012600",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "move to",
+      "correct": true
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00012600",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "move to",
+      "correct": true
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00012600",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "move to",
+      "correct": true
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00012600",
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "place in",
+      "correct": false
+    },
+    {
+      "sec": 84,
+      "episode": "episode_00012600",
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "pick up from",
+      "correct": false
+    },
+    {
+      "sec": 89,
+      "episode": "episode_00012600",
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "pick up from",
+      "correct": false
+    },
+    {
+      "sec": 10,
+      "episode": "episode_00012600",
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "move to",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00012600",
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "move to",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00012600",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "pick up from",
+      "correct": true
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00012600",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "pick up from",
+      "correct": true
+    },
+    {
+      "sec": 60,
+      "episode": "episode_00012600",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "pick up from",
+      "correct": true
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00012600",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "pick up from",
+      "correct": true
+    },
+    {
+      "sec": 97,
+      "episode": "episode_00012600",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "pick up from",
+      "correct": true
+    },
+    {
+      "sec": 103,
+      "episode": "episode_00012600",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "pick up from",
+      "correct": true
+    },
+    {
+      "sec": 122,
+      "episode": "episode_00012600",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "pick up from",
+      "correct": true
+    },
+    {
+      "sec": 128,
+      "episode": "episode_00012600",
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 70,
+      "episode": "episode_00012600",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "place in",
+      "correct": true
+    },
+    {
+      "sec": 73,
+      "episode": "episode_00012600",
+      "gt": "place in",
+      "pred": "move to",
+      "raw": "move to",
+      "correct": false
+    },
+    {
+      "sec": 109,
+      "episode": "episode_00012600",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "place in",
+      "correct": true
+    },
+    {
+      "sec": 111,
+      "episode": "episode_00012600",
+      "gt": "place in",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 113,
+      "episode": "episode_00012600",
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "pick up from",
+      "correct": false
+    },
+    {
+      "sec": 115,
+      "episode": "episode_00012600",
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "pick up from",
+      "correct": false
+    },
+    {
+      "sec": 136,
+      "episode": "episode_00012600",
+      "gt": "place in",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 138,
+      "episode": "episode_00012600",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "place in",
+      "correct": true
+    },
+    {
+      "sec": 140,
+      "episode": "episode_00012600",
+      "gt": "place in",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 143,
+      "episode": "episode_00012600",
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": true
+    },
+    {
+      "sec": 144,
+      "episode": "episode_00012600",
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": true
+    },
+    {
+      "sec": 145,
+      "episode": "episode_00012600",
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": true
+    },
+    {
+      "sec": 146,
+      "episode": "episode_00012600",
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": true
+    },
+    {
+      "sec": 147,
+      "episode": "episode_00012600",
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": true
+    },
+    {
+      "sec": 148,
+      "episode": "episode_00012600",
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": true
+    },
+    {
+      "sec": 149,
+      "episode": "episode_00012600",
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": true
+    },
+    {
+      "sec": 150,
+      "episode": "episode_00012600",
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": true
+    },
+    {
+      "sec": 151,
+      "episode": "episode_00012600",
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": true
+    }
+  ]
+}

@@ -1,0 +1,2979 @@
+{
+  "task_chunk": "task-0042",
+  "task_name": "chop an onion",
+  "n_held_out_episodes": 5,
+  "accuracy": 0.40700808625336926,
+  "macro_recall": 0.3811713700716258,
+  "correct": 151,
+  "total": 371,
+  "predictions": [
+    {
+      "sec": 1,
+      "episode": "episode_00420020",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has turned to face the kitchen counter with no arms in frame, nothing gripped and no object visible \u2014 a pure navigation frame.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00420020",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The sink and stove are now clearly framed at right, but no arms are visible \u2014 the view is still panning across the kitchen.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00420020",
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The sink basin is now filled with the pink onion and the knife is held in the left gripper, the first transfer of the ingredient.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 86,
+      "episode": "episode_00420020",
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "Reasoning: The board is now centered and the right gripper is retracting from it, board set down.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 116,
+      "episode": "episode_00420020",
+      "gt": "move to",
+      "pred": null,
+      "raw": "Reasoning: The right gripper is at the knife handle, retracting from the onion.\nAnswer: push to",
+      "correct": false
+    },
+    {
+      "sec": 3,
+      "episode": "episode_00420700",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the kitchen counter with the sink and stove now in frame and both arms empty and withdrawn.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00420700",
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the counter beside the bowl, the transfer complete.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00420700",
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the counter beside the bowl, gripper still holding it.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00420700",
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The onion is now sitting in the sink basin with the gripper still at its source.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00420700",
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The onion is now sitting on the sink counter beside the bottle, with the right gripper still at the source.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 111,
+      "episode": "episode_00420700",
+      "gt": "move to",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the bowl with the dice still on it, mid-transfer.\nAnswer: pour",
+      "correct": false
+    },
+    {
+      "sec": 2,
+      "episode": "episode_00421250",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the stove and oven with the microwave on the right, no arms or objects in reach.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 5,
+      "episode": "episode_00421250",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The sink and counter are now centered and closer with no manipulation in view.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00421250",
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: The knife is now in the sink basin, the last contact with the counter.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 70,
+      "episode": "episode_00421250",
+      "gt": "move to",
+      "pred": null,
+      "raw": "Reasoning: The onion sits on the board and the knife is set down beside it, both objects aligned for the next cut.\nAnswer: push to",
+      "correct": false
+    },
+    {
+      "sec": 95,
+      "episode": "episode_00421250",
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: The knife is now in the sink basin, the last contact with the counter.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 98,
+      "episode": "episode_00421250",
+      "gt": "move to",
+      "pred": "chop",
+      "raw": "Reasoning: The onion is now sitting on the wooden board with the knife still in the gripper.\nAnswer: chop",
+      "correct": false
+    },
+    {
+      "sec": 121,
+      "episode": "episode_00421250",
+      "gt": "move to",
+      "pred": "chop",
+      "raw": "Reasoning: The board now holds two distinct white cubes and the knife is lowered beside it.\nAnswer: chop",
+      "correct": false
+    },
+    {
+      "sec": 156,
+      "episode": "episode_00421250",
+      "gt": "move to",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the white bowl with the dice already inside it.\nAnswer: pour",
+      "correct": false
+    },
+    {
+      "sec": 159,
+      "episode": "episode_00421250",
+      "gt": "move to",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the white bowl with the onion cubes already inside it.\nAnswer: pour",
+      "correct": false
+    },
+    {
+      "sec": 163,
+      "episode": "episode_00421250",
+      "gt": "move to",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the white bowl with the onion piece visible inside it.\nAnswer: pour",
+      "correct": false
+    },
+    {
+      "sec": 5,
+      "episode": "episode_00421710",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The dining table and chairs are now clearly resolved in the left of frame while the right arm is still out of reach.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00421710",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The dining table and chairs are now clearly resolved in the right of frame while the kitchen counter and sink remain out of view.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 12,
+      "episode": "episode_00421710",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The kitchen counter and dining chairs come into view as the viewpoint keeps turning, with no object contact.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 16,
+      "episode": "episode_00421710",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The kitchen counter and appliances are now visible through the open view, but no arms are in frame.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 19,
+      "episode": "episode_00421710",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The kitchen counter and fridge are now clearly framed at a distance with no arms in reach.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00421710",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the kitchen counter with the sink, stove, and microwave now in view, but no arms are visible at all.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 26,
+      "episode": "episode_00421710",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the stove and oven with no arms extended, so this is the base navigation frame.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00421710",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The sink is now filled with a pink onion and the camera has turned to the stove and oven, showing no manipulation.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 60,
+      "episode": "episode_00421710",
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the counter beside the bowl, the final placement.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 83,
+      "episode": "episode_00421710",
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: The sink is now filled with the pink onion and the board is set aside on the counter, with the gripper still at the bottom right.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 97,
+      "episode": "episode_00421710",
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now sitting on the counter beside the sink, the transfer complete.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 179,
+      "episode": "episode_00421710",
+      "gt": "move to",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the bowl of cubes, the transfer in progress.\nAnswer: pour",
+      "correct": false
+    },
+    {
+      "sec": 3,
+      "episode": "episode_00422320",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The sink basin is now filled with a pink onion and the camera has turned to the counter, so the robot is repositioning to the work surface.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 6,
+      "episode": "episode_00422320",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The sink and counter are now centered and closer with the bowl and board still untouched \u2014 the base is translating across the floor.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00422320",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The sink basin is now filled with a pink onion and the camera has turned to the counter, so the robot is repositioning to the work surface.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00422320",
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: The sink is now filled with the onion and the board is set down beside it.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 73,
+      "episode": "episode_00422320",
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The board is now tilted up off the counter and the right gripper is at its edge, beginning to lift it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 89,
+      "episode": "episode_00422320",
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: The sink basin is now filled with the pink onion and the board is set aside on the left counter.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 108,
+      "episode": "episode_00422320",
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the counter beside the bowl, the transfer complete.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 124,
+      "episode": "episode_00422320",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the sink counter with the bowl and board now in view, but no gripper is visible in the frame.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 127,
+      "episode": "episode_00422320",
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board now sits on the counter beside the bowl, with the knife lying flat on the surface.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 172,
+      "episode": "episode_00422320",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the sink counter with the bowl and board now in view, but no arms are visible in the frame.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 175,
+      "episode": "episode_00422320",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The onion sits on the chopping board and the bowl is now further left, with no arms in frame.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 179,
+      "episode": "episode_00422320",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The board now holds two pieces of onion and the view has pulled back, showing the counter from a distance.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 182,
+      "episode": "episode_00422320",
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board now sits on the counter beside the bowl, the transfer complete.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00420020",
+      "gt": "pick up from",
+      "pred": "place on next to",
+      "raw": "Reasoning: The sink is now filled with the pink onion and the board is set down on the counter beside it.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00420020",
+      "gt": "pick up from",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now sitting on the counter with the gripper still attached to its right edge.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 28,
+      "episode": "episode_00420020",
+      "gt": "pick up from",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now sitting on the counter surface with the gripper retracting from it.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00420020",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is at the edge of the wooden chopping board with the onion still in the left hand, closing on it.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00420020",
+      "gt": "pick up from",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the counter surface beside the bowl, gripper still attached to its edge.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00420020",
+      "gt": "pick up from",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the counter surface beside the bowl, gripper still attached to its edge.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 78,
+      "episode": "episode_00420020",
+      "gt": "pick up from",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now sitting on the counter beside the bowl, the transfer complete.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00420020",
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The board is now centered on the counter with the knife beside it, and the gripper is retracting from the source.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 96,
+      "episode": "episode_00420020",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The onion is now sitting in the sink basin with the knife still in the right gripper.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 103,
+      "episode": "episode_00420020",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is closed on the knife handle, the blade still pointing up.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 111,
+      "episode": "episode_00420020",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The left gripper is down in the sink basin holding the white onion, right gripper still at the board.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 153,
+      "episode": "episode_00420020",
+      "gt": "pick up from",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the bowl with the dice still on it, mid-transfer.\nAnswer: pour",
+      "correct": false
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00420700",
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The sink and stove are now clearly framed ahead with the empty countertop below \u2014 the base has shifted toward the sink counter.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "episode": "episode_00420700",
+      "gt": "pick up from",
+      "pred": "place on next to",
+      "raw": "Reasoning: The bowl is now sitting on the counter beside the board, with the right gripper still at the board edge.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "episode": "episode_00420700",
+      "gt": "pick up from",
+      "pred": "pour",
+      "raw": "Reasoning: The bowl is now filled with white cubes and the right gripper is retracting from it.\nAnswer: pour",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00420700",
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The onion is now sitting on the chopping board with the right gripper still at its sides.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 61,
+      "episode": "episode_00420700",
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The right gripper is down at the counter beside the sink, holding the knife and no onion or board in reach.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 69,
+      "episode": "episode_00420700",
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The onion is now sitting in the sink basin with the knife still in the right hand.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 115,
+      "episode": "episode_00420700",
+      "gt": "pick up from",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the bowl with the dice still on it, mid-transfer.\nAnswer: pour",
+      "correct": false
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00421250",
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The sink and counter are now centered and closer with the empty gripper at the bottom right, no object in reach.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "episode": "episode_00421250",
+      "gt": "pick up from",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the counter beside the bowl with the gripper still at its original spot.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00421250",
+      "gt": "pick up from",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the white bowl with the gripper still attached to its edge.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00421250",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The onion is now sitting in the sink basin with the gripper still attached to it.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00421250",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down in the sink basin holding the onion, with the board and bowl already visible on the counter.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 75,
+      "episode": "episode_00421250",
+      "gt": "pick up from",
+      "pred": "place on next to",
+      "raw": "Reasoning: The onion is now sitting on the counter beside the sink, the last contact with the source.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00421250",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the sink edge, closing on the white bowl rather than the board.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 90,
+      "episode": "episode_00421250",
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The right gripper is at the sink edge closing on the counter, not in the basin.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 124,
+      "episode": "episode_00421250",
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The board now holds three distinct white cubes and the gripper is retracting from the board.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 132,
+      "episode": "episode_00421250",
+      "gt": "pick up from",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tipped down over the bowl with the dice released into it.\nAnswer: pour",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00421710",
+      "gt": "pick up from",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now on the counter beside the sink, gripper still holding it.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00421710",
+      "gt": "pick up from",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the counter with the gripper still attached to its edge.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00421710",
+      "gt": "pick up from",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the counter beside the bowl, gripper still holding it.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 88,
+      "episode": "episode_00421710",
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The onion is now sitting on the sink counter beside the bowl, the transfer complete.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 95,
+      "episode": "episode_00421710",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The board is now tilted up in the left gripper's fingers, the onion being taken off the counter.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 140,
+      "episode": "episode_00421710",
+      "gt": "pick up from",
+      "pred": "pour",
+      "raw": "Reasoning: The knife is held vertically above the board with the white bowl now visible at the bottom left, mid-transfer.\nAnswer: pour",
+      "correct": false
+    },
+    {
+      "sec": 148,
+      "episode": "episode_00421710",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The knife is held vertically above the board with the blade pointing up, mid-grasp.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 183,
+      "episode": "episode_00421710",
+      "gt": "pick up from",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the bowl with the dice still on it, mid-transfer.\nAnswer: pour",
+      "correct": false
+    },
+    {
+      "sec": 12,
+      "episode": "episode_00422320",
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The sink and countertop are now centered and closer with no manipulation in view.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 19,
+      "episode": "episode_00422320",
+      "gt": "pick up from",
+      "pred": "place on next to",
+      "raw": "Reasoning: The bowl is now sitting on the counter beside the board, the second object placed.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "episode": "episode_00422320",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The bowl is now tilted inside the gripper's fingers, clear of the counter.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00422320",
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The board is now held in the right gripper and the sink with the pink onion is visible ahead, so the board is being moved to the sink.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 61,
+      "episode": "episode_00422320",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The board is now tilted down over the sink basin with the pink onion visible in it, mid-transfer.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 68,
+      "episode": "episode_00422320",
+      "gt": "pick up from",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the counter beside the sink, the object being moved.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 95,
+      "episode": "episode_00422320",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The onion is now sitting in the sink basin with the knife still in the gripper.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 103,
+      "episode": "episode_00422320",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The onion sits in the sink basin with the gripper still attached to its rim.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 133,
+      "episode": "episode_00422320",
+      "gt": "pick up from",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board now sits on the counter beside the bowl, with the knife still resting on it.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00422320",
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The onion is now sitting on the wooden chopping board with the gripper still attached to its side.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 148,
+      "episode": "episode_00422320",
+      "gt": "pick up from",
+      "pred": "chop",
+      "raw": "Reasoning: The onion is now sitting on the chopping board with the knife still in the left hand.\nAnswer: chop",
+      "correct": false
+    },
+    {
+      "sec": 156,
+      "episode": "episode_00422320",
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The onion sits on the board and the gripper is withdrawing from it.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 163,
+      "episode": "episode_00422320",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The board is now sitting on the sink counter with the onion still in the gripper above it.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 206,
+      "episode": "episode_00422320",
+      "gt": "pick up from",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the bowl with the dice still on it.\nAnswer: pour",
+      "correct": false
+    },
+    {
+      "sec": 213,
+      "episode": "episode_00422320",
+      "gt": "pick up from",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the bowl with the dice still on it.\nAnswer: pour",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00420020",
+      "gt": "place on next to",
+      "pred": "place in",
+      "raw": "Reasoning: The board is now sitting on the sink with the onion beside it, and the right gripper is retracting from the board.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00420020",
+      "gt": "place on next to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The board is now tilted up in the right gripper's fingers, clear of the sink.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 59,
+      "episode": "episode_00420020",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the counter beside the bowl, the transfer complete.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 61,
+      "episode": "episode_00420020",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the counter beside the bowl, gripper still holding it.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 63,
+      "episode": "episode_00420020",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the counter with the gripper still attached to its right edge.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 64,
+      "episode": "episode_00420020",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the counter with the gripper still attached to its right edge.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00420020",
+      "gt": "place on next to",
+      "pred": "place on",
+      "raw": "Reasoning: The board is now resting on the counter with the gripper still at its right edge, in the act of setting it down.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 68,
+      "episode": "episode_00420020",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the counter with the gripper still attached to its right edge.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 69,
+      "episode": "episode_00420020",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the counter with the gripper still attached to its right edge.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00420020",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the counter with the bowl beside it, and the right gripper is withdrawn from the board.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 73,
+      "episode": "episode_00420020",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the counter beside the bowl, gripper still holding it.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00420700",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The bowl is now sitting on the counter beside the board, the transfer complete.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 26,
+      "episode": "episode_00420700",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the counter beside the bowl, the transfer complete.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 28,
+      "episode": "episode_00420700",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the counter with the bowl beside it and the right arm withdrawn.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00420700",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now lying flat on the counter with the bowl beside it, arms withdrawn.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00420700",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the counter beside the bowl with the gripper still at its left edge.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00420700",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the counter beside the bowl with the gripper still attached to its right edge.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00420700",
+      "gt": "place on next to",
+      "pred": "place on",
+      "raw": "Reasoning: The onion is now sitting on the wooden board with the knife still in the left gripper.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00421250",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the counter beside the bowl, gripper still at its lower edge.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00421250",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the counter beside the bowl, gripper still attached to its edge.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 34,
+      "episode": "episode_00421250",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now sitting on the counter beside the bowl, the transfer complete.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00421250",
+      "gt": "place on next to",
+      "pred": "move to",
+      "raw": "Reasoning: The sink and counter are now centered and closer with the board still on the sink \u2014 the base is translating, not grasping.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00421250",
+      "gt": "place on next to",
+      "pred": "move to",
+      "raw": "Reasoning: The sink and counter are now centered and closer, with the bowl and board still untouched \u2014 repositioning.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00421250",
+      "gt": "place on next to",
+      "pred": "move to",
+      "raw": "Reasoning: The sink and counter are now centered and the knife is visible on the far right, but no manipulation is happening.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 64,
+      "episode": "episode_00421710",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now sitting on the counter beside the bowl, gripper still holding it.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00421710",
+      "gt": "place on next to",
+      "pred": "place in",
+      "raw": "Reasoning: The board is now sitting in the sink basin with the gripper still attached to its edge.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 67,
+      "episode": "episode_00421710",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now sitting on the counter beside the bowl, the transfer complete.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 69,
+      "episode": "episode_00421710",
+      "gt": "place on next to",
+      "pred": "move to",
+      "raw": "Reasoning: The knife is now lying flat on the board with the onion still in the left gripper.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00421710",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now sitting on the counter beside the bowl, the transfer complete.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 72,
+      "episode": "episode_00421710",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now sitting on the counter beside the bowl, the transfer complete.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 74,
+      "episode": "episode_00421710",
+      "gt": "place on next to",
+      "pred": "chop",
+      "raw": "Reasoning: The onion is now sitting on the board with the knife beside it, mid-cut.\nAnswer: chop",
+      "correct": false
+    },
+    {
+      "sec": 76,
+      "episode": "episode_00421710",
+      "gt": "place on next to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The onion is now sitting in the sink basin with the gripper still attached to it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 78,
+      "episode": "episode_00421710",
+      "gt": "place on next to",
+      "pred": "place in",
+      "raw": "Reasoning: The sink is now filled with the pink onion and the board is propped open beside it, with the gripper still at the bottom right.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00421710",
+      "gt": "place on next to",
+      "pred": "place in",
+      "raw": "Reasoning: The onion is now sitting in the sink basin, board and bowl untouched.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 81,
+      "episode": "episode_00421710",
+      "gt": "place on next to",
+      "pred": "place in",
+      "raw": "Reasoning: The sink is now filled with the pink onion and the board is set aside on the counter, with the bowl to the left.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00422320",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The bowl is now sitting on the counter beside the board, the second object placed.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00422320",
+      "gt": "place on next to",
+      "pred": "place on",
+      "raw": "Reasoning: The bowl is now on the counter and the right gripper is withdrawing from it.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00422320",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The bowl is now sitting on the counter with the gripper still at its edge.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 34,
+      "episode": "episode_00422320",
+      "gt": "place on next to",
+      "pred": "pour",
+      "raw": "Reasoning: The bowl is now filled with white cubes and the gripper is withdrawing from it.\nAnswer: pour",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00422320",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The bowl is now upright on the counter with the gripper still holding it.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00422320",
+      "gt": "place on next to",
+      "pred": "place in",
+      "raw": "Reasoning: The bowl is now on the counter and the right gripper is retracting from the sink.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00422320",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The bowl is now sitting on the counter beside the sink with the knife still in the hand.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00422320",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The bowl is now sitting on the counter beside the sink with the knife still in the left hand.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00422320",
+      "gt": "place on next to",
+      "pred": "move to",
+      "raw": "Reasoning: The sink and counter are now centered and closer with the board still on the far right, but the view is still translating.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 75,
+      "episode": "episode_00422320",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the counter beside the bowl and the right arm is withdrawn from it.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 77,
+      "episode": "episode_00422320",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the counter beside the bowl, gripper still attached to its edge.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00422320",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the counter beside the bowl, gripper still at the source.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00422320",
+      "gt": "place on next to",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the white bowl with the knife still in its grip.\nAnswer: pour",
+      "correct": false
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00422320",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now sitting on the counter beside the bowl, with the gripper still at the source.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 84,
+      "episode": "episode_00422320",
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now sitting on the counter beside the bowl, with the gripper still at the source.\nAnswer: place on next to",
+      "correct": true
+    },
+    {
+      "sec": 119,
+      "episode": "episode_00420020",
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The onion is now sitting on the board with the knife still in the right gripper.\nAnswer: push to",
+      "correct": false
+    },
+    {
+      "sec": 120,
+      "episode": "episode_00420020",
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The onion is now sitting on the wooden board with the knife still in the right gripper.\nAnswer: push to",
+      "correct": false
+    },
+    {
+      "sec": 121,
+      "episode": "episode_00420020",
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The knife is now in the right gripper's fingers, the second contact on the onion.\nAnswer: push to",
+      "correct": false
+    },
+    {
+      "sec": 122,
+      "episode": "episode_00420020",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The knife is now in the right gripper's fingers, blade angled down toward the board.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 123,
+      "episode": "episode_00420020",
+      "gt": "place on",
+      "pred": "chop",
+      "raw": "Reasoning: The knife is held in the right gripper and the onion sits on the board, blade angled down.\nAnswer: chop",
+      "correct": false
+    },
+    {
+      "sec": 124,
+      "episode": "episode_00420020",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The knife is now in the right gripper's fingers, blade angled down toward the board.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 126,
+      "episode": "episode_00420020",
+      "gt": "place on",
+      "pred": "move to",
+      "raw": "Reasoning: The right gripper is at the knife handle, retracting from the onion.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 127,
+      "episode": "episode_00420020",
+      "gt": "place on",
+      "pred": "chop",
+      "raw": "Reasoning: The knife is now in the white bowl and the onion sits on the board \u2014 the second stage of the onion processing.\nAnswer: chop",
+      "correct": false
+    },
+    {
+      "sec": 128,
+      "episode": "episode_00420020",
+      "gt": "place on",
+      "pred": "chop",
+      "raw": "Reasoning: The knife is now in the white bowl and the onion sits on the board \u2014 the second stage of the dice.\nAnswer: chop",
+      "correct": false
+    },
+    {
+      "sec": 129,
+      "episode": "episode_00420020",
+      "gt": "place on",
+      "pred": "place on next to",
+      "raw": "Reasoning: The knife is now resting on the white cutting board at the sink edge, board tilted up.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 130,
+      "episode": "episode_00420020",
+      "gt": "place on",
+      "pred": "move to",
+      "raw": "Reasoning: The onion is now separated from the board and the right gripper is retracting away from the board.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 77,
+      "episode": "episode_00420700",
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The onion is now sitting on the wooden board with the knife still in its gripper.\nAnswer: place on",
+      "correct": true
+    },
+    {
+      "sec": 78,
+      "episode": "episode_00420700",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The left gripper is on the board with the pink onion piece still attached, mid-grasp.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00420700",
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The onion is now sitting on the wooden board with the right gripper still at its lower edge.\nAnswer: place on",
+      "correct": true
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00420700",
+      "gt": "place on",
+      "pred": "place in",
+      "raw": "Reasoning: The right gripper is at the sink edge with the knife lowered into the basin, board still on the left.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 81,
+      "episode": "episode_00420700",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is at the sink basin edge with the orange handle visible, closing on the sink rather than the bowl.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00420700",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down in the sink basin holding the knife, board and onion still on the board.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 83,
+      "episode": "episode_00420700",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The board is now resting on the counter with the onion still in the left gripper, mid-transfer.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00420700",
+      "gt": "place on",
+      "pred": "chop",
+      "raw": "Reasoning: The onion is now separated on the board with the knife still in the right gripper.\nAnswer: chop",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "episode": "episode_00421250",
+      "gt": "place on",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the bowl with the onion piece inside, mid-transfer.\nAnswer: pour",
+      "correct": false
+    },
+    {
+      "sec": 59,
+      "episode": "episode_00421250",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The board is now tilted up in the left gripper's fingers, the second grasp of the onion.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 60,
+      "episode": "episode_00421250",
+      "gt": "place on",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the counter beside the bowl, gripper still holding it.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 61,
+      "episode": "episode_00421250",
+      "gt": "place on",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the counter beside the sink, gripper still holding it.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00421250",
+      "gt": "place on",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the counter beside the bowl, the transfer complete.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 63,
+      "episode": "episode_00421250",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The board is now tilted up in the left gripper's fingers, clear of the sink.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 64,
+      "episode": "episode_00421250",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The onion is now separated from the whole and sits alone on the board, the first clear separation of the target.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00421250",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The onion sits on the board and the left arm is extended toward it, the last pre-grasp frame.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00421250",
+      "gt": "place on",
+      "pred": "move to",
+      "raw": "Reasoning: The onion sits on the board and the right gripper is at the far right edge of the counter, about to take the board.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 67,
+      "episode": "episode_00421250",
+      "gt": "place on",
+      "pred": "move to",
+      "raw": "Reasoning: The onion sits on the board and the camera has turned to face the sink area with the arms empty and withdrawn.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 68,
+      "episode": "episode_00421250",
+      "gt": "place on",
+      "pred": "move to",
+      "raw": "Reasoning: The onion sits on the board and the right gripper is at the far right edge of the counter, holding the knife.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 98,
+      "episode": "episode_00421710",
+      "gt": "place on",
+      "pred": "move to",
+      "raw": "Reasoning: The sink and counter are now centered and the left arm is retracting from the board, showing the base has moved.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 99,
+      "episode": "episode_00421710",
+      "gt": "place on",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now sitting on the counter beside the sink, the last placement of this set.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 100,
+      "episode": "episode_00421710",
+      "gt": "place on",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now set down on the counter beside the sink with the knife beside it.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 101,
+      "episode": "episode_00421710",
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The board is now tilted up off the counter with the knife beside it, mid-transfer.\nAnswer: push to",
+      "correct": false
+    },
+    {
+      "sec": 102,
+      "episode": "episode_00421710",
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The board is now tilted up off the counter with the onion piece visible on it, the transfer in progress.\nAnswer: push to",
+      "correct": false
+    },
+    {
+      "sec": 103,
+      "episode": "episode_00421710",
+      "gt": "place on",
+      "pred": "chop",
+      "raw": "Reasoning: The board is now tilted with the onion piece on it, the blade still down at it.\nAnswer: chop",
+      "correct": false
+    },
+    {
+      "sec": 104,
+      "episode": "episode_00421710",
+      "gt": "place on",
+      "pred": "chop",
+      "raw": "Reasoning: The board is now tilted with the onion piece on it, the blade still down at it.\nAnswer: chop",
+      "correct": false
+    },
+    {
+      "sec": 105,
+      "episode": "episode_00421710",
+      "gt": "place on",
+      "pred": "chop",
+      "raw": "Reasoning: The board is now tilted with the onion on it, the blade still down at the top.\nAnswer: chop",
+      "correct": false
+    },
+    {
+      "sec": 106,
+      "episode": "episode_00421710",
+      "gt": "place on",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now sitting on the counter beside the bowl, the transfer complete.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 107,
+      "episode": "episode_00421710",
+      "gt": "place on",
+      "pred": "chop",
+      "raw": "Reasoning: The onion is now sitting on the board with the knife beside it, mid-cut.\nAnswer: chop",
+      "correct": false
+    },
+    {
+      "sec": 108,
+      "episode": "episode_00421710",
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The onion sits on the board with the knife beside it, mid-preparation.\nAnswer: push to",
+      "correct": false
+    },
+    {
+      "sec": 109,
+      "episode": "episode_00421710",
+      "gt": "place on",
+      "pred": "place on next to",
+      "raw": "Reasoning: The onion is now separated from the board and sits alone on the counter beside the bowl.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 111,
+      "episode": "episode_00421710",
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The onion sits on the board with the knife beside it, mid-preparation.\nAnswer: push to",
+      "correct": false
+    },
+    {
+      "sec": 109,
+      "episode": "episode_00422320",
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The board is now tilted up off the counter with the onion piece visible on it, the transfer in progress.\nAnswer: push to",
+      "correct": false
+    },
+    {
+      "sec": 110,
+      "episode": "episode_00422320",
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The board is now tilted up off the counter with the onion on it, and the left gripper is retracting from the board.\nAnswer: push to",
+      "correct": false
+    },
+    {
+      "sec": 111,
+      "episode": "episode_00422320",
+      "gt": "place on",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now sitting on the counter beside the sink, the last placement of this set.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 112,
+      "episode": "episode_00422320",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The board is now tilted with the onion piece on it, the first contact between the gripper and the source.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 113,
+      "episode": "episode_00422320",
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The board is now tilted up off the counter with the onion piece visible on it, the transfer in progress.\nAnswer: push to",
+      "correct": false
+    },
+    {
+      "sec": 114,
+      "episode": "episode_00422320",
+      "gt": "place on",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the counter beside the bowl, gripper still holding it.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 115,
+      "episode": "episode_00422320",
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The board is now tilted up off the counter with the onion piece visible on it, the transfer in progress.\nAnswer: push to",
+      "correct": false
+    },
+    {
+      "sec": 116,
+      "episode": "episode_00422320",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The onion sits on the board and the gripper is at the board's edge, beginning to lift it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 117,
+      "episode": "episode_00422320",
+      "gt": "place on",
+      "pred": "chop",
+      "raw": "Reasoning: The onion is now sitting on the chopping board with the knife beside it, mid-cut.\nAnswer: chop",
+      "correct": false
+    },
+    {
+      "sec": 118,
+      "episode": "episode_00422320",
+      "gt": "place on",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board now holds the onion and the knife is set down beside it on the counter.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 119,
+      "episode": "episode_00422320",
+      "gt": "place on",
+      "pred": "chop",
+      "raw": "Reasoning: The board now holds two onion pieces and the knife is set aside on the far left, mid-process.\nAnswer: chop",
+      "correct": false
+    },
+    {
+      "sec": 131,
+      "episode": "episode_00420020",
+      "gt": "chop",
+      "pred": "move to",
+      "raw": "Reasoning: The onion is now separated from the board and the right gripper is retracting away from it.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 132,
+      "episode": "episode_00420020",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The onion is now separated into two distinct pieces on the board, with the right gripper still holding the knife.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 134,
+      "episode": "episode_00420020",
+      "gt": "chop",
+      "pred": "move to",
+      "raw": "Reasoning: The onion is now separated on the board and the left gripper is retracting from the bowl.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 136,
+      "episode": "episode_00420020",
+      "gt": "chop",
+      "pred": "pick up from",
+      "raw": "Reasoning: The onion is now separated from the board and held in the left gripper, board still on the counter.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 137,
+      "episode": "episode_00420020",
+      "gt": "chop",
+      "pred": "pick up from",
+      "raw": "Reasoning: The onion is now separated from the board and held in the right gripper, the first clear separation from the original state.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 139,
+      "episode": "episode_00420020",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The onion is now separated from the knife and sits alone on the board, the second piece of diced onion.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00420020",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The onion is now separated from the board and held in the right gripper, the second piece of diced onion.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 142,
+      "episode": "episode_00420020",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The board is now tilted with the onion and white pieces on it, the dice stage.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 144,
+      "episode": "episode_00420020",
+      "gt": "chop",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted with the dice sliding down its surface, and the right gripper is at the board's edge.\nAnswer: pour",
+      "correct": false
+    },
+    {
+      "sec": 146,
+      "episode": "episode_00420020",
+      "gt": "chop",
+      "pred": "move to",
+      "raw": "Reasoning: The board now holds two distinct white cubes and the right gripper is retracting from the knife.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 86,
+      "episode": "episode_00420700",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The knife is now angled down over the onion on the board, blade down on the target.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 88,
+      "episode": "episode_00420700",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The onion is now separated from the board and held in the right gripper, the second piece of diced onion.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 90,
+      "episode": "episode_00420700",
+      "gt": "chop",
+      "pred": null,
+      "raw": "Reasoning: The knife is now angled down over the onion on the board, blade down.\nAnswer: push to",
+      "correct": false
+    },
+    {
+      "sec": 92,
+      "episode": "episode_00420700",
+      "gt": "chop",
+      "pred": null,
+      "raw": "Reasoning: The board is now tilted with the knife resting on it, the first contact between the tool and the work surface.\nAnswer: push to",
+      "correct": false
+    },
+    {
+      "sec": 93,
+      "episode": "episode_00420700",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The knife is now positioned over the onion on the board with the blade angled down.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 95,
+      "episode": "episode_00420700",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The knife is now positioned over the onion on the board, blade angled down on it.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 97,
+      "episode": "episode_00420700",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The knife is now down over the board with the onion piece separated from it.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 98,
+      "episode": "episode_00420700",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The onion is now separated into two distinct white cubes on the board, the dice stage.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 100,
+      "episode": "episode_00420700",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The board is now tilted with the diced white cubes on it, and the knife is withdrawn.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 102,
+      "episode": "episode_00420700",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The board now holds more cubes than in the previous frame, the dice count increasing.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 103,
+      "episode": "episode_00420700",
+      "gt": "chop",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the bowl with the dice already sitting inside it.\nAnswer: pour",
+      "correct": false
+    },
+    {
+      "sec": 100,
+      "episode": "episode_00421250",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The onion is now sitting on the wooden board with the knife still in the gripper.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 102,
+      "episode": "episode_00421250",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The onion is now sitting on the board with the knife still in its grip.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 103,
+      "episode": "episode_00421250",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The onion is now sitting on the board with the knife beside it, mid-cut.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 105,
+      "episode": "episode_00421250",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The knife is now resting on the board with the onion piece visible beneath it.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 107,
+      "episode": "episode_00421250",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The onion is now sitting on the board with the knife beside it, mid-cut.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 108,
+      "episode": "episode_00421250",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The onion is now sitting on the board with the knife still in it.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 110,
+      "episode": "episode_00421250",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The onion is now sitting on the board with the knife still in its grip.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 112,
+      "episode": "episode_00421250",
+      "gt": "chop",
+      "pred": "pour",
+      "raw": "Reasoning: The knife is now in the onion and the board is tipped down toward the bowl of cubes.\nAnswer: pour",
+      "correct": false
+    },
+    {
+      "sec": 113,
+      "episode": "episode_00421250",
+      "gt": "chop",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the bowl of cubes, the transfer in progress.\nAnswer: pour",
+      "correct": false
+    },
+    {
+      "sec": 152,
+      "episode": "episode_00421710",
+      "gt": "chop",
+      "pred": "pick up from",
+      "raw": "Reasoning: The onion is now separated from the board and held in the right gripper, the first release of the task.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 154,
+      "episode": "episode_00421710",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The onion is now separated from the board and the knife is held aloft, the second stage of the cut.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 156,
+      "episode": "episode_00421710",
+      "gt": "chop",
+      "pred": "pick up from",
+      "raw": "Reasoning: The onion is now separated from the board and the knife is held aloft, the first clear separation of the two objects.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 157,
+      "episode": "episode_00421710",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The onion is now separated from the whole and the knife is raised above it.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 159,
+      "episode": "episode_00421710",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The onion is now separated from the knife and sits on the board, board tilted up off the counter.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 161,
+      "episode": "episode_00421710",
+      "gt": "chop",
+      "pred": "pick up from",
+      "raw": "Reasoning: The onion is now separated from the knife and sits on the board with the gripper still attached.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 162,
+      "episode": "episode_00421710",
+      "gt": "chop",
+      "pred": "pick up from",
+      "raw": "Reasoning: The onion is now separated from the knife and held in the right gripper, positioned over the board.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 164,
+      "episode": "episode_00421710",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The onion is now separated from the knife and sits on the board, the second piece of diced onion.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 166,
+      "episode": "episode_00421710",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The knife is now down at the board among the diced cubes, the blade in contact with the onion.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 167,
+      "episode": "episode_00421710",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The board now holds more diced cubes than the previous frame, with the knife still resting on it.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 169,
+      "episode": "episode_00421710",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The knife is now down at the board among the diced cubes, with the gripper still holding it.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 171,
+      "episode": "episode_00421710",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The board is now tilted with the diced white cubes on it, the first separation of the onion.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 183,
+      "episode": "episode_00422320",
+      "gt": "chop",
+      "pred": null,
+      "raw": "Reasoning: The onion is now sitting on the wooden board with the knife still in the gripper.\nAnswer: push to",
+      "correct": false
+    },
+    {
+      "sec": 185,
+      "episode": "episode_00422320",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The blade is now down at the board's edge, cutting through the onion.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 187,
+      "episode": "episode_00422320",
+      "gt": "chop",
+      "pred": "pick up from",
+      "raw": "Reasoning: The onion is now separated from the board and held in the right gripper, the first clear sign of grasping.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 188,
+      "episode": "episode_00422320",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The onion is now clearly visible on the board with the knife beside it, mid-cut.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 190,
+      "episode": "episode_00422320",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The onion is now sitting on the board with the knife beside it, mid-cut.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 192,
+      "episode": "episode_00422320",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The onion is now separated from the whole and the knife is set down beside it on the board.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 193,
+      "episode": "episode_00422320",
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The onion is now sitting on the board with the knife beside it, mid-cut.\nAnswer: chop",
+      "correct": true
+    },
+    {
+      "sec": 195,
+      "episode": "episode_00422320",
+      "gt": "chop",
+      "pred": "pick up from",
+      "raw": "Reasoning: The board is now tilted with the onion on it, the first contact between the gripper and the board.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 197,
+      "episode": "episode_00422320",
+      "gt": "chop",
+      "pred": "pour",
+      "raw": "Reasoning: The board now holds three distinct white cubes and the right gripper is retracting from the sink.\nAnswer: pour",
+      "correct": false
+    },
+    {
+      "sec": 147,
+      "episode": "episode_00420020",
+      "gt": "place in",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted with the dice sliding off toward the bowl, the transfer complete.\nAnswer: pour",
+      "correct": false
+    },
+    {
+      "sec": 149,
+      "episode": "episode_00420020",
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down in the sink basin holding the knife, board and onion already on the board.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 179,
+      "episode": "episode_00420020",
+      "gt": "place in",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the counter beside the bowl, both items aligned.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 181,
+      "episode": "episode_00420020",
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The board is now tilted up in the right gripper's fingers, clear of the sink.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 183,
+      "episode": "episode_00420020",
+      "gt": "place in",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now lying flat on the counter beside the bowl, the transfer complete.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 185,
+      "episode": "episode_00420020",
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The board is now tilted up in the right gripper's fingers, clear of the counter.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 188,
+      "episode": "episode_00420020",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The board is now sitting in the sink basin, the right gripper still holding it.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 190,
+      "episode": "episode_00420020",
+      "gt": "place in",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now sitting on the sink counter with the right gripper still attached to it.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 192,
+      "episode": "episode_00420020",
+      "gt": "place in",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now sitting on the counter beside the bowl, gripper still holding it.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 194,
+      "episode": "episode_00420020",
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the edge of the wooden chopping board, closing on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 196,
+      "episode": "episode_00420020",
+      "gt": "place in",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now on the right side of the counter with the knife beside it, mid-transfer.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 198,
+      "episode": "episode_00420020",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The board is now sitting in the sink basin with the gripper still attached to its edge.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 104,
+      "episode": "episode_00420700",
+      "gt": "place in",
+      "pred": "move to",
+      "raw": "Reasoning: The board now holds more cubes than in the previous frame and the right gripper is retracting from the sink.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 106,
+      "episode": "episode_00420700",
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down in the sink basin holding the knife, board and onion already separated on the board.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 108,
+      "episode": "episode_00420700",
+      "gt": "place in",
+      "pred": "chop",
+      "raw": "Reasoning: The board now holds three distinct cubes and the knife is lowered to the right edge of the board.\nAnswer: chop",
+      "correct": false
+    },
+    {
+      "sec": 110,
+      "episode": "episode_00420700",
+      "gt": "place in",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the bowl of dice, the transfer in progress.\nAnswer: pour",
+      "correct": false
+    },
+    {
+      "sec": 150,
+      "episode": "episode_00420700",
+      "gt": "place in",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the sink counter beside the knife, the board-side of the transfer.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 152,
+      "episode": "episode_00420700",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The board is now resting in the sink basin with the gripper still attached to it.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 154,
+      "episode": "episode_00420700",
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down in the sink basin holding the wooden cutting board, board now sitting inside the sink.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 156,
+      "episode": "episode_00420700",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The board is now sitting in the sink basin with the gripper still attached to its edge.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 158,
+      "episode": "episode_00420700",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The board is now sitting in the sink basin with the gripper still at its sides.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 160,
+      "episode": "episode_00420700",
+      "gt": "place in",
+      "pred": "move to",
+      "raw": "Reasoning: The right gripper is down at the counter edge, holding the board and pulling it back across the surface.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 162,
+      "episode": "episode_00420700",
+      "gt": "place in",
+      "pred": "move to",
+      "raw": "Reasoning: The sink basin is now filled with a wooden cutting board, and the camera has turned to face the counter from a distance.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 116,
+      "episode": "episode_00421250",
+      "gt": "place in",
+      "pred": null,
+      "raw": "Reasoning: The board now holds more cubes than in the previous frame, with the gripper still at the board's edge.\nAnswer: push to",
+      "correct": false
+    },
+    {
+      "sec": 118,
+      "episode": "episode_00421250",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The knife is now lying in the sink basin with the board beside it, the object transferred to the sink.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 165,
+      "episode": "episode_00421250",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The board is now sitting in the sink basin with the knife beside it.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 168,
+      "episode": "episode_00421250",
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The board is now tilted down over the sink with the gripper still attached to it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 170,
+      "episode": "episode_00421250",
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The board is now tilted up in the right gripper's fingers, clear of the sink.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 172,
+      "episode": "episode_00421250",
+      "gt": "place in",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the bowl with the white cubes already sitting inside it.\nAnswer: pour",
+      "correct": false
+    },
+    {
+      "sec": 174,
+      "episode": "episode_00421250",
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The board is now tilted up in the right gripper's fingers, the second grasp of the pair.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 176,
+      "episode": "episode_00421250",
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is at the sink edge with the onion in its jaws, the last contact on the counter.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 178,
+      "episode": "episode_00421250",
+      "gt": "place in",
+      "pred": "move to",
+      "raw": "Reasoning: The sink basin is now filled with a wooden cutting board, and the view has turned back to the counter with the arms empty.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 180,
+      "episode": "episode_00421250",
+      "gt": "place in",
+      "pred": "move to",
+      "raw": "Reasoning: The sink and counter are now centered and closer with no manipulation in view.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 172,
+      "episode": "episode_00421710",
+      "gt": "place in",
+      "pred": "pour",
+      "raw": "Reasoning: The knife is down in the sink with the board now tipped over the board, white cubes scattered on it.\nAnswer: pour",
+      "correct": false
+    },
+    {
+      "sec": 174,
+      "episode": "episode_00421710",
+      "gt": "place in",
+      "pred": "chop",
+      "raw": "Reasoning: The board now holds clearly separated white cubes, the dice stage.\nAnswer: chop",
+      "correct": false
+    },
+    {
+      "sec": 176,
+      "episode": "episode_00421710",
+      "gt": "place in",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the bowl with the dice sitting inside its rim.\nAnswer: pour",
+      "correct": false
+    },
+    {
+      "sec": 200,
+      "episode": "episode_00421710",
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The board is now sitting in the sink with the gripper still on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 202,
+      "episode": "episode_00421710",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The knife is now in the sink basin, the last contact with the onion.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 204,
+      "episode": "episode_00421710",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The board is now sitting in the sink basin with the knife still in the left hand.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 199,
+      "episode": "episode_00422320",
+      "gt": "place in",
+      "pred": "move to",
+      "raw": "Reasoning: The board now holds three distinct white cubes and the right gripper is retracting away from the knife.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 201,
+      "episode": "episode_00422320",
+      "gt": "place in",
+      "pred": "pour",
+      "raw": "Reasoning: The board now holds three distinct white cubes and the right gripper is retracting from the sink.\nAnswer: pour",
+      "correct": false
+    },
+    {
+      "sec": 203,
+      "episode": "episode_00422320",
+      "gt": "place in",
+      "pred": "chop",
+      "raw": "Reasoning: The board now holds clearly separated white cubes, the dice stage.\nAnswer: chop",
+      "correct": false
+    },
+    {
+      "sec": 251,
+      "episode": "episode_00422320",
+      "gt": "place in",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now lying flat on the sink with the knife beside it, the board settled.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 253,
+      "episode": "episode_00422320",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The board is now lying flat in the sink with the gripper still attached to its edge.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 255,
+      "episode": "episode_00422320",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The board is now sitting in the sink basin with the knife beside it.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 257,
+      "episode": "episode_00422320",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The board is now sitting in the sink basin with the gripper still attached to its edge.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 159,
+      "episode": "episode_00420020",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the bowl of cubes, with the right gripper at the board's edge.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 161,
+      "episode": "episode_00420020",
+      "gt": "pour",
+      "pred": "pick up from",
+      "raw": "Reasoning: The board is now tilted up in the right gripper's fingers, the dice being transferred.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 163,
+      "episode": "episode_00420020",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the bowl with the dice sitting on its surface.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 165,
+      "episode": "episode_00420020",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the bowl with the dice still on it, mid-transfer.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 167,
+      "episode": "episode_00420020",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the white bowl with the dice already released on it.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 169,
+      "episode": "episode_00420020",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the bowl with the dice still on it, the transfer in progress.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 171,
+      "episode": "episode_00420020",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the white bowl with the dice already released on it.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 173,
+      "episode": "episode_00420020",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the white bowl with cubes already in it.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 175,
+      "episode": "episode_00420020",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the bowl with the dice already inside it.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 177,
+      "episode": "episode_00420020",
+      "gt": "pour",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the counter beside the bowl, the transfer complete.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 124,
+      "episode": "episode_00420700",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the white bowl with the dice sitting inside it.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 126,
+      "episode": "episode_00420700",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is tilted down over the white bowl with cubes spilling into it.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 128,
+      "episode": "episode_00420700",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the bowl with cubes sliding down its sides.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 130,
+      "episode": "episode_00420700",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the white bowl with cubes already released inside it.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 132,
+      "episode": "episode_00420700",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the bowl with cubes released into it.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 134,
+      "episode": "episode_00420700",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the bowl with the dice already inside it.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 136,
+      "episode": "episode_00420700",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the white bowl with the diced white cubes sitting on its surface.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 138,
+      "episode": "episode_00420700",
+      "gt": "pour",
+      "pred": "place on",
+      "raw": "Reasoning: The board is now tilted up off the counter and the gripper is retracting from it.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 140,
+      "episode": "episode_00420700",
+      "gt": "pour",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the counter beside the bowl, the transfer complete.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 142,
+      "episode": "episode_00420700",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the white bowl with cubes inside, and the right arm is retracting.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 144,
+      "episode": "episode_00420700",
+      "gt": "pour",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now tilted up in the right gripper and the bowl of dice is visible below \u2014 the board is being set down on the counter.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 145,
+      "episode": "episode_00420700",
+      "gt": "pour",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now tilted up in the right gripper and the bowl of dice is visible below \u2014 the board is being set down.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 133,
+      "episode": "episode_00421250",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tipped over with the dice sliding into the white bowl below.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 135,
+      "episode": "episode_00421250",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the white bowl with the diced cubes visible inside it.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 137,
+      "episode": "episode_00421250",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tipped over in the bowl with the dice released into it.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 139,
+      "episode": "episode_00421250",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tipped over in the bowl with the dice released onto it.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00421250",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tipped over with the diced cubes sliding into the white bowl below.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 143,
+      "episode": "episode_00421250",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the bowl with the diced cubes sitting inside it.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 145,
+      "episode": "episode_00421250",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the bowl with the diced cubes visible inside it.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 147,
+      "episode": "episode_00421250",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the bowl with white cubes inside, consistent with the transfer.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 149,
+      "episode": "episode_00421250",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the white bowl with the diced white cubes sitting inside it.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 151,
+      "episode": "episode_00421250",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the bowl with the diced white cubes inside it.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 188,
+      "episode": "episode_00421710",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the white bowl with the dice still on it.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 190,
+      "episode": "episode_00421710",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the bowl with the dice still on it, mid-transfer.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 192,
+      "episode": "episode_00421710",
+      "gt": "pour",
+      "pred": "place on next to",
+      "raw": "Reasoning: The bowl now holds a single white cube and the board is being set down beside it.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 194,
+      "episode": "episode_00421710",
+      "gt": "pour",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the counter with the bowl beside it and the gripper withdrawn.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 221,
+      "episode": "episode_00422320",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the white bowl with cubes released into it.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 223,
+      "episode": "episode_00422320",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tipped down over the white bowl with cubes released into it.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 225,
+      "episode": "episode_00422320",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tipped over in the right gripper, white cubes sliding down its surface.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 227,
+      "episode": "episode_00422320",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the white bowl with cubes released into it.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 229,
+      "episode": "episode_00422320",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tipped over the bowl with diced white cubes on it, the transfer complete.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 231,
+      "episode": "episode_00422320",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the white bowl with cubes sliding down its sides.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 233,
+      "episode": "episode_00422320",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the white bowl with cubes sitting on its surface.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 235,
+      "episode": "episode_00422320",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the white bowl with cubes released into it.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 237,
+      "episode": "episode_00422320",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tilted down over the white bowl with cubes already in it, the transfer completed.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 239,
+      "episode": "episode_00422320",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tipped down over the white bowl with cubes released into it.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 241,
+      "episode": "episode_00422320",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tipped over the bowl with cubes sliding down its sides.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 243,
+      "episode": "episode_00422320",
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The board is now tipped over the bowl with white cubes inside, the transfer complete.\nAnswer: pour",
+      "correct": true
+    },
+    {
+      "sec": 245,
+      "episode": "episode_00422320",
+      "gt": "pour",
+      "pred": "pick up from",
+      "raw": "Reasoning: The board is now tilted up in the gripper's fingers, clear of the bowl.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 247,
+      "episode": "episode_00422320",
+      "gt": "pour",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the counter beside the bowl, the transfer complete.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 112,
+      "episode": "episode_00421710",
+      "gt": "turn to",
+      "pred": "chop",
+      "raw": "Reasoning: The onion is now separated from the board and sits on the wooden cutting board, knife still in the left gripper.\nAnswer: chop",
+      "correct": false
+    },
+    {
+      "sec": 113,
+      "episode": "episode_00421710",
+      "gt": "turn to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The board is now tilted up off the counter with the gripper still attached to it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 114,
+      "episode": "episode_00421710",
+      "gt": "turn to",
+      "pred": "place on",
+      "raw": "Reasoning: The onion sits on the board and the gripper is retracting away from it.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 115,
+      "episode": "episode_00421710",
+      "gt": "turn to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The board is now tilted up in the gripper's fingers, the last contact with the counter.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 116,
+      "episode": "episode_00421710",
+      "gt": "turn to",
+      "pred": null,
+      "raw": "Reasoning: The board is now tilted up off the counter with the onion piece visible on it, the transfer in progress.\nAnswer: push to",
+      "correct": false
+    },
+    {
+      "sec": 117,
+      "episode": "episode_00421710",
+      "gt": "turn to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now resting on the counter beside the bowl, gripper still holding it.\nAnswer: place on next to",
+      "correct": false
+    },
+    {
+      "sec": 118,
+      "episode": "episode_00421710",
+      "gt": "turn to",
+      "pred": "place on",
+      "raw": "Reasoning: The onion is now sitting on the cutting board with the gripper still attached to its upper edge.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 119,
+      "episode": "episode_00421710",
+      "gt": "turn to",
+      "pred": "chop",
+      "raw": "Reasoning: The onion is now sitting on the wooden board with the knife beside it, mid-cut.\nAnswer: chop",
+      "correct": false
+    },
+    {
+      "sec": 120,
+      "episode": "episode_00421710",
+      "gt": "turn to",
+      "pred": null,
+      "raw": "Reasoning: The onion is now on the board with the knife beside it, but the blade is still out of reach.\nAnswer: push to",
+      "correct": false
+    },
+    {
+      "sec": 121,
+      "episode": "episode_00421710",
+      "gt": "turn to",
+      "pred": null,
+      "raw": "Reasoning: The onion is now separated on the board and the gripper is retracting from it.\nAnswer: release",
+      "correct": false
+    },
+    {
+      "sec": 122,
+      "episode": "episode_00421710",
+      "gt": "turn to",
+      "pred": "place on",
+      "raw": "Reasoning: The onion is now clearly separated on the board and the gripper is retracting from it.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 123,
+      "episode": "episode_00421710",
+      "gt": "turn to",
+      "pred": "chop",
+      "raw": "Reasoning: The onion is now on the board with the knife beside it, and the bowl is set aside.\nAnswer: chop",
+      "correct": false
+    },
+    {
+      "sec": 124,
+      "episode": "episode_00421710",
+      "gt": "turn to",
+      "pred": null,
+      "raw": "Reasoning: The onion is now separated on the board and the gripper is retracting from it.\nAnswer: release",
+      "correct": false
+    },
+    {
+      "sec": 125,
+      "episode": "episode_00421710",
+      "gt": "turn to",
+      "pred": null,
+      "raw": "Reasoning: The onion is now clearly separated on the board with the knife beside it, though the blade is still out of view.\nAnswer: push to",
+      "correct": false
+    },
+    {
+      "sec": 126,
+      "episode": "episode_00421710",
+      "gt": "turn to",
+      "pred": "place on",
+      "raw": "Reasoning: The onion is now clearly separated on the board and the gripper is retracting from it.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 127,
+      "episode": "episode_00421710",
+      "gt": "turn to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The onion is now clearly visible on the board with the gripper still attached to its side.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 128,
+      "episode": "episode_00421710",
+      "gt": "turn to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The onion is now clearly visible on the board with the bowl held in the left gripper, mid-transfer.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 129,
+      "episode": "episode_00421710",
+      "gt": "turn to",
+      "pred": "chop",
+      "raw": "Reasoning: The onion is now sitting on the board with the knife beside it, mid-cut.\nAnswer: chop",
+      "correct": false
+    },
+    {
+      "sec": 130,
+      "episode": "episode_00421710",
+      "gt": "turn to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The onion is now separated from the board and held in the right gripper, the first release of the task.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 131,
+      "episode": "episode_00421710",
+      "gt": "turn to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The onion is now clearly visible on the board with the bowl and board held in the gripper.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 132,
+      "episode": "episode_00421710",
+      "gt": "turn to",
+      "pred": "chop",
+      "raw": "Reasoning: The knife is now resting on the board with the onion piece visible beneath it.\nAnswer: chop",
+      "correct": false
+    },
+    {
+      "sec": 133,
+      "episode": "episode_00421710",
+      "gt": "turn to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The board is now tilted up in the right gripper and the onion sits on the counter beside it.\nAnswer: place on next to",
+      "correct": false
+    }
+  ]
+}

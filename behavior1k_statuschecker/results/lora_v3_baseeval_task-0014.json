@@ -1,0 +1,8172 @@
+{
+  "task_chunk": "task-0014",
+  "task_name": "carrying_in_groceries",
+  "accuracy": 0.06470588235294118,
+  "macro_recall": 0.06470588235294118,
+  "correct": 66,
+  "total": 1020,
+  "n_classes": 17,
+  "unseen_gt_label_frames": 0,
+  "predictions": [
+    {
+      "sec": 8,
+      "episode": "episode_00140210",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00140210",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00140210",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "13",
+      "correct": false
+    },
+    {
+      "sec": 414,
+      "episode": "episode_00140210",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "episode": "episode_00140220",
+      "gt": "move to paper bag",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00140220",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "13",
+      "correct": false
+    },
+    {
+      "sec": 382,
+      "episode": "episode_00140220",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 342,
+      "episode": "episode_00140230",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 357,
+      "episode": "episode_00140230",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00140240",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 366,
+      "episode": "episode_00140240",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 7,
+      "episode": "episode_00140260",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00140260",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00140260",
+      "gt": "move to paper bag",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 268,
+      "episode": "episode_00140260",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 215,
+      "episode": "episode_00140300",
+      "gt": "move to paper bag",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 231,
+      "episode": "episode_00140300",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 5,
+      "episode": "episode_00140330",
+      "gt": "move to paper bag",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00140330",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 260,
+      "episode": "episode_00140330",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 275,
+      "episode": "episode_00140330",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "episode": "episode_00140370",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 242,
+      "episode": "episode_00140370",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 6,
+      "episode": "episode_00140380",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 243,
+      "episode": "episode_00140380",
+      "gt": "move to paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 258,
+      "episode": "episode_00140380",
+      "gt": "move to paper bag",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 7,
+      "episode": "episode_00140460",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "13",
+      "correct": false
+    },
+    {
+      "sec": 249,
+      "episode": "episode_00140460",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "13",
+      "correct": false
+    },
+    {
+      "sec": 265,
+      "episode": "episode_00140460",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 12,
+      "episode": "episode_00140480",
+      "gt": "move to paper bag",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 223,
+      "episode": "episode_00140480",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 2,
+      "episode": "episode_00140490",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00140490",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 227,
+      "episode": "episode_00140490",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 1,
+      "episode": "episode_00140510",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00140510",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 268,
+      "episode": "episode_00140510",
+      "gt": "move to paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 283,
+      "episode": "episode_00140510",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 10,
+      "episode": "episode_00140530",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 238,
+      "episode": "episode_00140530",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 254,
+      "episode": "episode_00140530",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00140550",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 235,
+      "episode": "episode_00140550",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 251,
+      "episode": "episode_00140550",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 10,
+      "episode": "episode_00140580",
+      "gt": "move to paper bag",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 248,
+      "episode": "episode_00140580",
+      "gt": "move to paper bag",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 263,
+      "episode": "episode_00140580",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 10,
+      "episode": "episode_00140620",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 236,
+      "episode": "episode_00140620",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 251,
+      "episode": "episode_00140620",
+      "gt": "move to paper bag",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 0,
+      "episode": "episode_00140640",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "episode": "episode_00140640",
+      "gt": "move to paper bag",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00140640",
+      "gt": "move to paper bag",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 245,
+      "episode": "episode_00140640",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 2,
+      "episode": "episode_00140700",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 18,
+      "episode": "episode_00140700",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 243,
+      "episode": "episode_00140700",
+      "gt": "move to paper bag",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 259,
+      "episode": "episode_00140700",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 7,
+      "episode": "episode_00140740",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 233,
+      "episode": "episode_00140740",
+      "gt": "move to paper bag",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00140210",
+      "gt": "pick up from paper bag",
+      "pred": null,
+      "raw": "13",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00140210",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 64,
+      "episode": "episode_00140210",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 430,
+      "episode": "episode_00140210",
+      "gt": "pick up from paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00140220",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00140220",
+      "gt": "pick up from paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 393,
+      "episode": "episode_00140220",
+      "gt": "pick up from paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00140230",
+      "gt": "pick up from paper bag",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 20,
+      "episode": "episode_00140230",
+      "gt": "pick up from paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 366,
+      "episode": "episode_00140230",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00140240",
+      "gt": "pick up from paper bag",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 379,
+      "episode": "episode_00140240",
+      "gt": "pick up from paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00140260",
+      "gt": "pick up from paper bag",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00140260",
+      "gt": "pick up from paper bag",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 283,
+      "episode": "episode_00140260",
+      "gt": "pick up from paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 3,
+      "episode": "episode_00140300",
+      "gt": "pick up from paper bag",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00140300",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00140300",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 250,
+      "episode": "episode_00140300",
+      "gt": "pick up from paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00140330",
+      "gt": "pick up from paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00140330",
+      "gt": "pick up from paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 285,
+      "episode": "episode_00140330",
+      "gt": "pick up from paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "episode": "episode_00140370",
+      "gt": "pick up from paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00140370",
+      "gt": "pick up from paper bag",
+      "pred": "place in beefsteak tomato",
+      "raw": "14. place in beefsteak tomato",
+      "correct": false
+    },
+    {
+      "sec": 256,
+      "episode": "episode_00140370",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 19,
+      "episode": "episode_00140380",
+      "gt": "pick up from paper bag",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00140380",
+      "gt": "pick up from paper bag",
+      "pred": "place in beefsteak tomato",
+      "raw": "14. place in beefsteak tomato",
+      "correct": false
+    },
+    {
+      "sec": 268,
+      "episode": "episode_00140380",
+      "gt": "pick up from paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 14,
+      "episode": "episode_00140460",
+      "gt": "pick up from paper bag",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00140460",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 269,
+      "episode": "episode_00140460",
+      "gt": "pick up from paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 16,
+      "episode": "episode_00140480",
+      "gt": "pick up from paper bag",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "episode": "episode_00140480",
+      "gt": "pick up from paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 238,
+      "episode": "episode_00140480",
+      "gt": "pick up from paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00140490",
+      "gt": "pick up from paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00140490",
+      "gt": "pick up from paper bag",
+      "pred": null,
+      "raw": "14",
+      "correct": false
+    },
+    {
+      "sec": 242,
+      "episode": "episode_00140490",
+      "gt": "pick up from paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00140510",
+      "gt": "pick up from paper bag",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00140510",
+      "gt": "pick up from paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 293,
+      "episode": "episode_00140510",
+      "gt": "pick up from paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00140530",
+      "gt": "pick up from paper bag",
+      "pred": "place in beefsteak tomato",
+      "raw": "14. place in beefsteak tomato",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00140530",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 266,
+      "episode": "episode_00140530",
+      "gt": "pick up from paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00140550",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00140550",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 261,
+      "episode": "episode_00140550",
+      "gt": "pick up from paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00140580",
+      "gt": "pick up from paper bag",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00140580",
+      "gt": "pick up from paper bag",
+      "pred": null,
+      "raw": "14",
+      "correct": false
+    },
+    {
+      "sec": 274,
+      "episode": "episode_00140580",
+      "gt": "pick up from paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00140620",
+      "gt": "pick up from paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00140620",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 274,
+      "episode": "episode_00140620",
+      "gt": "pick up from paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00140640",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 261,
+      "episode": "episode_00140640",
+      "gt": "pick up from paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00140700",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00140700",
+      "gt": "pick up from paper bag",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 268,
+      "episode": "episode_00140700",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 14,
+      "episode": "episode_00140740",
+      "gt": "pick up from paper bag",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00140740",
+      "gt": "pick up from paper bag",
+      "pred": null,
+      "raw": "14",
+      "correct": false
+    },
+    {
+      "sec": 249,
+      "episode": "episode_00140740",
+      "gt": "pick up from paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 68,
+      "episode": "episode_00140210",
+      "gt": "close lid car",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 78,
+      "episode": "episode_00140210",
+      "gt": "close lid car",
+      "pred": "close door door",
+      "raw": "1. close door door",
+      "correct": false
+    },
+    {
+      "sec": 88,
+      "episode": "episode_00140210",
+      "gt": "close lid car",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 98,
+      "episode": "episode_00140210",
+      "gt": "close lid car",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 63,
+      "episode": "episode_00140220",
+      "gt": "close lid car",
+      "pred": "close door door",
+      "raw": "1. close door door",
+      "correct": false
+    },
+    {
+      "sec": 73,
+      "episode": "episode_00140220",
+      "gt": "close lid car",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 83,
+      "episode": "episode_00140220",
+      "gt": "close lid car",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00140230",
+      "gt": "close lid car",
+      "pred": "close lid car",
+      "raw": "3. close lid car",
+      "correct": true
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00140230",
+      "gt": "close lid car",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00140230",
+      "gt": "close lid car",
+      "pred": "close door door",
+      "raw": "1. close door door",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00140240",
+      "gt": "close lid car",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "episode": "episode_00140240",
+      "gt": "close lid car",
+      "pred": "pick up from paper bag",
+      "raw": "13. pick up from paper bag",
+      "correct": false
+    },
+    {
+      "sec": 68,
+      "episode": "episode_00140240",
+      "gt": "close lid car",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 70,
+      "episode": "episode_00140260",
+      "gt": "close lid car",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00140260",
+      "gt": "close lid car",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 90,
+      "episode": "episode_00140260",
+      "gt": "close lid car",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "episode": "episode_00140300",
+      "gt": "close lid car",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00140300",
+      "gt": "close lid car",
+      "pred": null,
+      "raw": "13",
+      "correct": false
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00140330",
+      "gt": "close lid car",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 59,
+      "episode": "episode_00140330",
+      "gt": "close lid car",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 69,
+      "episode": "episode_00140330",
+      "gt": "close lid car",
+      "pred": "close door door",
+      "raw": "1. close door door",
+      "correct": false
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00140330",
+      "gt": "close lid car",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00140370",
+      "gt": "close lid car",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 63,
+      "episode": "episode_00140370",
+      "gt": "close lid car",
+      "pred": "close door door",
+      "raw": "1. close door door",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00140380",
+      "gt": "close lid car",
+      "pred": "close door door",
+      "raw": "1. close door door",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00140380",
+      "gt": "close lid car",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 61,
+      "episode": "episode_00140380",
+      "gt": "close lid car",
+      "pred": "close door door",
+      "raw": "1. close door door",
+      "correct": false
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00140380",
+      "gt": "close lid car",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00140460",
+      "gt": "close lid car",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00140460",
+      "gt": "close lid car",
+      "pred": "close door door",
+      "raw": "1. close door door",
+      "correct": false
+    },
+    {
+      "sec": 64,
+      "episode": "episode_00140460",
+      "gt": "close lid car",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00140480",
+      "gt": "close lid car",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00140480",
+      "gt": "close lid car",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00140480",
+      "gt": "close lid car",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00140490",
+      "gt": "close lid car",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00140490",
+      "gt": "close lid car",
+      "pred": "pick up from paper bag",
+      "raw": "13. pick up from paper bag",
+      "correct": false
+    },
+    {
+      "sec": 72,
+      "episode": "episode_00140490",
+      "gt": "close lid car",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00140510",
+      "gt": "close lid car",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00140510",
+      "gt": "close lid car",
+      "pred": "close door door",
+      "raw": "1. close door door",
+      "correct": false
+    },
+    {
+      "sec": 76,
+      "episode": "episode_00140510",
+      "gt": "close lid car",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00140530",
+      "gt": "close lid car",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00140530",
+      "gt": "close lid car",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 64,
+      "episode": "episode_00140530",
+      "gt": "close lid car",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00140550",
+      "gt": "close lid car",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 61,
+      "episode": "episode_00140550",
+      "gt": "close lid car",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00140550",
+      "gt": "close lid car",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00140580",
+      "gt": "close lid car",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00140580",
+      "gt": "close lid car",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 67,
+      "episode": "episode_00140580",
+      "gt": "close lid car",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00140620",
+      "gt": "close lid car",
+      "pred": "close door door",
+      "raw": "1. close door door",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00140620",
+      "gt": "close lid car",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00140620",
+      "gt": "close lid car",
+      "pred": "close door door",
+      "raw": "1. close door door",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00140640",
+      "gt": "close lid car",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 64,
+      "episode": "episode_00140640",
+      "gt": "close lid car",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 74,
+      "episode": "episode_00140640",
+      "gt": "close lid car",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 60,
+      "episode": "episode_00140700",
+      "gt": "close lid car",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 70,
+      "episode": "episode_00140700",
+      "gt": "close lid car",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00140700",
+      "gt": "close lid car",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00140740",
+      "gt": "close lid car",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "episode": "episode_00140740",
+      "gt": "close lid car",
+      "pred": "close door door",
+      "raw": "1. close door door",
+      "correct": false
+    },
+    {
+      "sec": 99,
+      "episode": "episode_00140210",
+      "gt": "move to door",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 103,
+      "episode": "episode_00140210",
+      "gt": "move to door",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 108,
+      "episode": "episode_00140210",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 112,
+      "episode": "episode_00140210",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 91,
+      "episode": "episode_00140220",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 96,
+      "episode": "episode_00140220",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00140230",
+      "gt": "move to door",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 61,
+      "episode": "episode_00140230",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00140230",
+      "gt": "move to door",
+      "pred": "close door door",
+      "raw": "1. close door door",
+      "correct": false
+    },
+    {
+      "sec": 70,
+      "episode": "episode_00140240",
+      "gt": "move to door",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 75,
+      "episode": "episode_00140240",
+      "gt": "move to door",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00140240",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 84,
+      "episode": "episode_00140240",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 95,
+      "episode": "episode_00140260",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 99,
+      "episode": "episode_00140260",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 104,
+      "episode": "episode_00140260",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00140300",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00140300",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 67,
+      "episode": "episode_00140300",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00140330",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 87,
+      "episode": "episode_00140330",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 91,
+      "episode": "episode_00140330",
+      "gt": "move to door",
+      "pred": "close door door",
+      "raw": "1. close door door",
+      "correct": false
+    },
+    {
+      "sec": 75,
+      "episode": "episode_00140370",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00140370",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 84,
+      "episode": "episode_00140370",
+      "gt": "move to door",
+      "pred": "close door door",
+      "raw": "1. close door door",
+      "correct": false
+    },
+    {
+      "sec": 74,
+      "episode": "episode_00140380",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00140380",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 83,
+      "episode": "episode_00140380",
+      "gt": "move to door",
+      "pred": "close door door",
+      "raw": "1. close door door",
+      "correct": false
+    },
+    {
+      "sec": 69,
+      "episode": "episode_00140460",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 73,
+      "episode": "episode_00140460",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 78,
+      "episode": "episode_00140460",
+      "gt": "move to door",
+      "pred": "close door door",
+      "raw": "1. close door door",
+      "correct": false
+    },
+    {
+      "sec": 73,
+      "episode": "episode_00140480",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 77,
+      "episode": "episode_00140480",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00140480",
+      "gt": "move to door",
+      "pred": "close door door",
+      "raw": "1. close door door",
+      "correct": false
+    },
+    {
+      "sec": 76,
+      "episode": "episode_00140490",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 81,
+      "episode": "episode_00140490",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00140510",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 83,
+      "episode": "episode_00140510",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 88,
+      "episode": "episode_00140510",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00140530",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 75,
+      "episode": "episode_00140530",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00140530",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 75,
+      "episode": "episode_00140550",
+      "gt": "move to door",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00140550",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00140550",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 77,
+      "episode": "episode_00140580",
+      "gt": "move to door",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00140580",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 86,
+      "episode": "episode_00140580",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 75,
+      "episode": "episode_00140620",
+      "gt": "move to door",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00140620",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 84,
+      "episode": "episode_00140620",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00140640",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00140640",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 89,
+      "episode": "episode_00140640",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 84,
+      "episode": "episode_00140700",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 88,
+      "episode": "episode_00140700",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 93,
+      "episode": "episode_00140700",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 63,
+      "episode": "episode_00140740",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 67,
+      "episode": "episode_00140740",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 72,
+      "episode": "episode_00140740",
+      "gt": "move to door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 113,
+      "episode": "episode_00140210",
+      "gt": "open door door",
+      "pred": "close door door",
+      "raw": "1. close door door",
+      "correct": false
+    },
+    {
+      "sec": 119,
+      "episode": "episode_00140210",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 125,
+      "episode": "episode_00140210",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 131,
+      "episode": "episode_00140210",
+      "gt": "open door door",
+      "pred": "close door door",
+      "raw": "1. close door door",
+      "correct": false
+    },
+    {
+      "sec": 138,
+      "episode": "episode_00140210",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 144,
+      "episode": "episode_00140210",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 150,
+      "episode": "episode_00140210",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 101,
+      "episode": "episode_00140220",
+      "gt": "open door door",
+      "pred": "close door door",
+      "raw": "1. close door door",
+      "correct": false
+    },
+    {
+      "sec": 108,
+      "episode": "episode_00140220",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 114,
+      "episode": "episode_00140220",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 120,
+      "episode": "episode_00140220",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 127,
+      "episode": "episode_00140220",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 133,
+      "episode": "episode_00140220",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 70,
+      "episode": "episode_00140230",
+      "gt": "open door door",
+      "pred": "close door door",
+      "raw": "1. close door door",
+      "correct": false
+    },
+    {
+      "sec": 76,
+      "episode": "episode_00140230",
+      "gt": "open door door",
+      "pred": "close door door",
+      "raw": "1. close door door",
+      "correct": false
+    },
+    {
+      "sec": 83,
+      "episode": "episode_00140230",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 89,
+      "episode": "episode_00140230",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 95,
+      "episode": "episode_00140230",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 102,
+      "episode": "episode_00140230",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 108,
+      "episode": "episode_00140230",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 114,
+      "episode": "episode_00140230",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 89,
+      "episode": "episode_00140240",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 96,
+      "episode": "episode_00140240",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 102,
+      "episode": "episode_00140240",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 108,
+      "episode": "episode_00140240",
+      "gt": "open door door",
+      "pred": "close door door",
+      "raw": "1. close door door",
+      "correct": false
+    },
+    {
+      "sec": 115,
+      "episode": "episode_00140240",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 121,
+      "episode": "episode_00140240",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 127,
+      "episode": "episode_00140240",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 133,
+      "episode": "episode_00140240",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 107,
+      "episode": "episode_00140260",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 113,
+      "episode": "episode_00140260",
+      "gt": "open door door",
+      "pred": "close door door",
+      "raw": "1. close door door",
+      "correct": false
+    },
+    {
+      "sec": 70,
+      "episode": "episode_00140300",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 77,
+      "episode": "episode_00140300",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 97,
+      "episode": "episode_00140330",
+      "gt": "open door door",
+      "pred": "close door door",
+      "raw": "1. close door door",
+      "correct": false
+    },
+    {
+      "sec": 103,
+      "episode": "episode_00140330",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 90,
+      "episode": "episode_00140370",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 97,
+      "episode": "episode_00140370",
+      "gt": "open door door",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 90,
+      "episode": "episode_00140380",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 96,
+      "episode": "episode_00140380",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 86,
+      "episode": "episode_00140460",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 92,
+      "episode": "episode_00140460",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 87,
+      "episode": "episode_00140480",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 93,
+      "episode": "episode_00140480",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 92,
+      "episode": "episode_00140490",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 95,
+      "episode": "episode_00140510",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 101,
+      "episode": "episode_00140510",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 84,
+      "episode": "episode_00140530",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 90,
+      "episode": "episode_00140530",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 90,
+      "episode": "episode_00140550",
+      "gt": "open door door",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 96,
+      "episode": "episode_00140550",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 92,
+      "episode": "episode_00140580",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 98,
+      "episode": "episode_00140580",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 104,
+      "episode": "episode_00140580",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 93,
+      "episode": "episode_00140620",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 99,
+      "episode": "episode_00140620",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 96,
+      "episode": "episode_00140640",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 102,
+      "episode": "episode_00140640",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 100,
+      "episode": "episode_00140700",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 106,
+      "episode": "episode_00140700",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00140740",
+      "gt": "open door door",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 155,
+      "episode": "episode_00140210",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 170,
+      "episode": "episode_00140210",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 185,
+      "episode": "episode_00140210",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 200,
+      "episode": "episode_00140210",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 215,
+      "episode": "episode_00140210",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 139,
+      "episode": "episode_00140220",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 154,
+      "episode": "episode_00140220",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 169,
+      "episode": "episode_00140220",
+      "gt": "move to breakfast table",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 185,
+      "episode": "episode_00140220",
+      "gt": "move to breakfast table",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 200,
+      "episode": "episode_00140220",
+      "gt": "move to breakfast table",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 123,
+      "episode": "episode_00140230",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 138,
+      "episode": "episode_00140230",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 153,
+      "episode": "episode_00140230",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 168,
+      "episode": "episode_00140230",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 140,
+      "episode": "episode_00140240",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 156,
+      "episode": "episode_00140240",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 171,
+      "episode": "episode_00140240",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 186,
+      "episode": "episode_00140240",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 201,
+      "episode": "episode_00140240",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 124,
+      "episode": "episode_00140260",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 139,
+      "episode": "episode_00140260",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 154,
+      "episode": "episode_00140260",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 91,
+      "episode": "episode_00140300",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 107,
+      "episode": "episode_00140300",
+      "gt": "move to breakfast table",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 110,
+      "episode": "episode_00140330",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 125,
+      "episode": "episode_00140330",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 140,
+      "episode": "episode_00140330",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 108,
+      "episode": "episode_00140370",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 123,
+      "episode": "episode_00140370",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 98,
+      "episode": "episode_00140380",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 114,
+      "episode": "episode_00140380",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 129,
+      "episode": "episode_00140380",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 97,
+      "episode": "episode_00140460",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 112,
+      "episode": "episode_00140460",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 127,
+      "episode": "episode_00140460",
+      "gt": "move to breakfast table",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 97,
+      "episode": "episode_00140480",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 112,
+      "episode": "episode_00140480",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 127,
+      "episode": "episode_00140480",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 109,
+      "episode": "episode_00140490",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 124,
+      "episode": "episode_00140490",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 114,
+      "episode": "episode_00140510",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 129,
+      "episode": "episode_00140510",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 144,
+      "episode": "episode_00140510",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 105,
+      "episode": "episode_00140530",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 120,
+      "episode": "episode_00140530",
+      "gt": "move to breakfast table",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 102,
+      "episode": "episode_00140550",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 117,
+      "episode": "episode_00140550",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 132,
+      "episode": "episode_00140550",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 114,
+      "episode": "episode_00140580",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 129,
+      "episode": "episode_00140580",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 104,
+      "episode": "episode_00140620",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 119,
+      "episode": "episode_00140620",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 134,
+      "episode": "episode_00140620",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 115,
+      "episode": "episode_00140640",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 130,
+      "episode": "episode_00140640",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 112,
+      "episode": "episode_00140700",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 127,
+      "episode": "episode_00140700",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 142,
+      "episode": "episode_00140700",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 96,
+      "episode": "episode_00140740",
+      "gt": "move to breakfast table",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 111,
+      "episode": "episode_00140740",
+      "gt": "move to breakfast table",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 230,
+      "episode": "episode_00140210",
+      "gt": "place on paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 239,
+      "episode": "episode_00140210",
+      "gt": "place on paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 248,
+      "episode": "episode_00140210",
+      "gt": "place on paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 476,
+      "episode": "episode_00140210",
+      "gt": "place on paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 215,
+      "episode": "episode_00140220",
+      "gt": "place on paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 224,
+      "episode": "episode_00140220",
+      "gt": "place on paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 448,
+      "episode": "episode_00140220",
+      "gt": "place on paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 188,
+      "episode": "episode_00140230",
+      "gt": "place on paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 406,
+      "episode": "episode_00140230",
+      "gt": "place on paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 214,
+      "episode": "episode_00140240",
+      "gt": "place on paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 223,
+      "episode": "episode_00140240",
+      "gt": "place on paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 428,
+      "episode": "episode_00140240",
+      "gt": "place on paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 165,
+      "episode": "episode_00140260",
+      "gt": "place on paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 174,
+      "episode": "episode_00140260",
+      "gt": "place on paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 329,
+      "episode": "episode_00140260",
+      "gt": "place on paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 122,
+      "episode": "episode_00140300",
+      "gt": "place on paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 131,
+      "episode": "episode_00140300",
+      "gt": "place on paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 284,
+      "episode": "episode_00140300",
+      "gt": "place on paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 150,
+      "episode": "episode_00140330",
+      "gt": "place on paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 159,
+      "episode": "episode_00140330",
+      "gt": "place on paper bag",
+      "pred": null,
+      "raw": "14",
+      "correct": false
+    },
+    {
+      "sec": 325,
+      "episode": "episode_00140330",
+      "gt": "place on paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 142,
+      "episode": "episode_00140370",
+      "gt": "place on paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 151,
+      "episode": "episode_00140370",
+      "gt": "place on paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 295,
+      "episode": "episode_00140370",
+      "gt": "place on paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 146,
+      "episode": "episode_00140380",
+      "gt": "place on paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 155,
+      "episode": "episode_00140380",
+      "gt": "place on paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 314,
+      "episode": "episode_00140380",
+      "gt": "place on paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 143,
+      "episode": "episode_00140460",
+      "gt": "place on paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 152,
+      "episode": "episode_00140460",
+      "gt": "place on paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 317,
+      "episode": "episode_00140460",
+      "gt": "place on paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 136,
+      "episode": "episode_00140480",
+      "gt": "place on paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 145,
+      "episode": "episode_00140480",
+      "gt": "place on paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 134,
+      "episode": "episode_00140490",
+      "gt": "place on paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 143,
+      "episode": "episode_00140490",
+      "gt": "place on paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 276,
+      "episode": "episode_00140490",
+      "gt": "place on paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 155,
+      "episode": "episode_00140510",
+      "gt": "place on paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 164,
+      "episode": "episode_00140510",
+      "gt": "place on paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 328,
+      "episode": "episode_00140510",
+      "gt": "place on paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 139,
+      "episode": "episode_00140530",
+      "gt": "place on paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 148,
+      "episode": "episode_00140530",
+      "gt": "place on paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 157,
+      "episode": "episode_00140530",
+      "gt": "place on paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00140550",
+      "gt": "place on paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 150,
+      "episode": "episode_00140550",
+      "gt": "place on paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 160,
+      "episode": "episode_00140550",
+      "gt": "place on paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 295,
+      "episode": "episode_00140550",
+      "gt": "place on paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 148,
+      "episode": "episode_00140580",
+      "gt": "place on paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 157,
+      "episode": "episode_00140580",
+      "gt": "place on paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 166,
+      "episode": "episode_00140580",
+      "gt": "place on paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 313,
+      "episode": "episode_00140580",
+      "gt": "place on paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 150,
+      "episode": "episode_00140620",
+      "gt": "place on paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 159,
+      "episode": "episode_00140620",
+      "gt": "place on paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 143,
+      "episode": "episode_00140640",
+      "gt": "place on paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 153,
+      "episode": "episode_00140640",
+      "gt": "place on paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 162,
+      "episode": "episode_00140640",
+      "gt": "place on paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 299,
+      "episode": "episode_00140640",
+      "gt": "place on paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 155,
+      "episode": "episode_00140700",
+      "gt": "place on paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 164,
+      "episode": "episode_00140700",
+      "gt": "place on paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 310,
+      "episode": "episode_00140700",
+      "gt": "place on paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 134,
+      "episode": "episode_00140740",
+      "gt": "place on paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 143,
+      "episode": "episode_00140740",
+      "gt": "place on paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 255,
+      "episode": "episode_00140210",
+      "gt": "pick up from beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 261,
+      "episode": "episode_00140210",
+      "gt": "pick up from beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 268,
+      "episode": "episode_00140210",
+      "gt": "pick up from beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 275,
+      "episode": "episode_00140210",
+      "gt": "pick up from beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 234,
+      "episode": "episode_00140220",
+      "gt": "pick up from beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 241,
+      "episode": "episode_00140220",
+      "gt": "pick up from beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 199,
+      "episode": "episode_00140230",
+      "gt": "pick up from beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 206,
+      "episode": "episode_00140230",
+      "gt": "pick up from beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 213,
+      "episode": "episode_00140230",
+      "gt": "pick up from beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 232,
+      "episode": "episode_00140240",
+      "gt": "pick up from beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 239,
+      "episode": "episode_00140240",
+      "gt": "pick up from beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 246,
+      "episode": "episode_00140240",
+      "gt": "pick up from beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 185,
+      "episode": "episode_00140260",
+      "gt": "pick up from beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 192,
+      "episode": "episode_00140260",
+      "gt": "pick up from beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 199,
+      "episode": "episode_00140260",
+      "gt": "pick up from beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00140300",
+      "gt": "pick up from beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 148,
+      "episode": "episode_00140300",
+      "gt": "pick up from beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 155,
+      "episode": "episode_00140300",
+      "gt": "pick up from beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 168,
+      "episode": "episode_00140330",
+      "gt": "pick up from beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 175,
+      "episode": "episode_00140330",
+      "gt": "pick up from beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 182,
+      "episode": "episode_00140330",
+      "gt": "pick up from beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 189,
+      "episode": "episode_00140330",
+      "gt": "pick up from beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 160,
+      "episode": "episode_00140370",
+      "gt": "pick up from beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 167,
+      "episode": "episode_00140370",
+      "gt": "pick up from beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 174,
+      "episode": "episode_00140370",
+      "gt": "pick up from beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 168,
+      "episode": "episode_00140380",
+      "gt": "pick up from beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 174,
+      "episode": "episode_00140380",
+      "gt": "pick up from beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 181,
+      "episode": "episode_00140380",
+      "gt": "pick up from beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 157,
+      "episode": "episode_00140460",
+      "gt": "pick up from beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 164,
+      "episode": "episode_00140460",
+      "gt": "pick up from beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 171,
+      "episode": "episode_00140460",
+      "gt": "pick up from beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 149,
+      "episode": "episode_00140480",
+      "gt": "pick up from beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 156,
+      "episode": "episode_00140480",
+      "gt": "pick up from beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 150,
+      "episode": "episode_00140490",
+      "gt": "pick up from beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 157,
+      "episode": "episode_00140490",
+      "gt": "pick up from beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 163,
+      "episode": "episode_00140490",
+      "gt": "pick up from beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 178,
+      "episode": "episode_00140510",
+      "gt": "pick up from beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 185,
+      "episode": "episode_00140510",
+      "gt": "pick up from beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 192,
+      "episode": "episode_00140510",
+      "gt": "pick up from beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 199,
+      "episode": "episode_00140510",
+      "gt": "pick up from beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 159,
+      "episode": "episode_00140530",
+      "gt": "pick up from beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 166,
+      "episode": "episode_00140530",
+      "gt": "pick up from beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 173,
+      "episode": "episode_00140530",
+      "gt": "pick up from beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 167,
+      "episode": "episode_00140550",
+      "gt": "pick up from beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 174,
+      "episode": "episode_00140550",
+      "gt": "pick up from beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 181,
+      "episode": "episode_00140550",
+      "gt": "pick up from beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 171,
+      "episode": "episode_00140580",
+      "gt": "pick up from beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 178,
+      "episode": "episode_00140580",
+      "gt": "pick up from beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 185,
+      "episode": "episode_00140580",
+      "gt": "pick up from beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 163,
+      "episode": "episode_00140620",
+      "gt": "pick up from beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 170,
+      "episode": "episode_00140620",
+      "gt": "pick up from beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 177,
+      "episode": "episode_00140620",
+      "gt": "pick up from beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 168,
+      "episode": "episode_00140640",
+      "gt": "pick up from beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 175,
+      "episode": "episode_00140640",
+      "gt": "pick up from beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 182,
+      "episode": "episode_00140640",
+      "gt": "pick up from beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 171,
+      "episode": "episode_00140700",
+      "gt": "pick up from beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 178,
+      "episode": "episode_00140700",
+      "gt": "pick up from beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 146,
+      "episode": "episode_00140740",
+      "gt": "pick up from beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 153,
+      "episode": "episode_00140740",
+      "gt": "pick up from beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 160,
+      "episode": "episode_00140740",
+      "gt": "pick up from beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 278,
+      "episode": "episode_00140210",
+      "gt": "hand over beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 280,
+      "episode": "episode_00140210",
+      "gt": "hand over beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 282,
+      "episode": "episode_00140210",
+      "gt": "hand over beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 284,
+      "episode": "episode_00140210",
+      "gt": "hand over beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 286,
+      "episode": "episode_00140210",
+      "gt": "hand over beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 288,
+      "episode": "episode_00140210",
+      "gt": "hand over beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 290,
+      "episode": "episode_00140210",
+      "gt": "hand over beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 339,
+      "episode": "episode_00140210",
+      "gt": "hand over beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 341,
+      "episode": "episode_00140210",
+      "gt": "hand over beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 343,
+      "episode": "episode_00140210",
+      "gt": "hand over beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 345,
+      "episode": "episode_00140210",
+      "gt": "hand over beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 347,
+      "episode": "episode_00140210",
+      "gt": "hand over beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 349,
+      "episode": "episode_00140210",
+      "gt": "hand over beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 351,
+      "episode": "episode_00140210",
+      "gt": "hand over beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 353,
+      "episode": "episode_00140210",
+      "gt": "hand over beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 355,
+      "episode": "episode_00140210",
+      "gt": "hand over beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 357,
+      "episode": "episode_00140210",
+      "gt": "hand over beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 359,
+      "episode": "episode_00140210",
+      "gt": "hand over beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 248,
+      "episode": "episode_00140220",
+      "gt": "hand over beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 250,
+      "episode": "episode_00140220",
+      "gt": "hand over beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 252,
+      "episode": "episode_00140220",
+      "gt": "hand over beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 254,
+      "episode": "episode_00140220",
+      "gt": "hand over beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 256,
+      "episode": "episode_00140220",
+      "gt": "hand over beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 258,
+      "episode": "episode_00140220",
+      "gt": "hand over beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 260,
+      "episode": "episode_00140220",
+      "gt": "hand over beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 307,
+      "episode": "episode_00140220",
+      "gt": "hand over beefsteak tomato",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 309,
+      "episode": "episode_00140220",
+      "gt": "hand over beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 311,
+      "episode": "episode_00140220",
+      "gt": "hand over beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 313,
+      "episode": "episode_00140220",
+      "gt": "hand over beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 315,
+      "episode": "episode_00140220",
+      "gt": "hand over beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 317,
+      "episode": "episode_00140220",
+      "gt": "hand over beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 319,
+      "episode": "episode_00140220",
+      "gt": "hand over beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 215,
+      "episode": "episode_00140230",
+      "gt": "hand over beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 217,
+      "episode": "episode_00140230",
+      "gt": "hand over beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 219,
+      "episode": "episode_00140230",
+      "gt": "hand over beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 221,
+      "episode": "episode_00140230",
+      "gt": "hand over beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 223,
+      "episode": "episode_00140230",
+      "gt": "hand over beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 268,
+      "episode": "episode_00140230",
+      "gt": "hand over beefsteak tomato",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 270,
+      "episode": "episode_00140230",
+      "gt": "hand over beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 272,
+      "episode": "episode_00140230",
+      "gt": "hand over beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 274,
+      "episode": "episode_00140230",
+      "gt": "hand over beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 276,
+      "episode": "episode_00140230",
+      "gt": "hand over beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 278,
+      "episode": "episode_00140230",
+      "gt": "hand over beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 280,
+      "episode": "episode_00140230",
+      "gt": "hand over beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 282,
+      "episode": "episode_00140230",
+      "gt": "hand over beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 284,
+      "episode": "episode_00140230",
+      "gt": "hand over beefsteak tomato",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 249,
+      "episode": "episode_00140240",
+      "gt": "hand over beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 251,
+      "episode": "episode_00140240",
+      "gt": "hand over beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 253,
+      "episode": "episode_00140240",
+      "gt": "hand over beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 255,
+      "episode": "episode_00140240",
+      "gt": "hand over beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 257,
+      "episode": "episode_00140240",
+      "gt": "hand over beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 259,
+      "episode": "episode_00140240",
+      "gt": "hand over beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 300,
+      "episode": "episode_00140240",
+      "gt": "hand over beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 302,
+      "episode": "episode_00140240",
+      "gt": "hand over beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 304,
+      "episode": "episode_00140240",
+      "gt": "hand over beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 306,
+      "episode": "episode_00140240",
+      "gt": "hand over beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 308,
+      "episode": "episode_00140240",
+      "gt": "hand over beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 310,
+      "episode": "episode_00140240",
+      "gt": "hand over beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 312,
+      "episode": "episode_00140240",
+      "gt": "hand over beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 314,
+      "episode": "episode_00140240",
+      "gt": "hand over beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 291,
+      "episode": "episode_00140210",
+      "gt": "move to fridge",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 504,
+      "episode": "episode_00140210",
+      "gt": "move to fridge",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 555,
+      "episode": "episode_00140210",
+      "gt": "move to fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 269,
+      "episode": "episode_00140220",
+      "gt": "move to fridge",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 474,
+      "episode": "episode_00140220",
+      "gt": "move to fridge",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 511,
+      "episode": "episode_00140220",
+      "gt": "move to fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 240,
+      "episode": "episode_00140230",
+      "gt": "move to fridge",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 460,
+      "episode": "episode_00140230",
+      "gt": "move to fridge",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 260,
+      "episode": "episode_00140240",
+      "gt": "move to fridge",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 455,
+      "episode": "episode_00140240",
+      "gt": "move to fridge",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 504,
+      "episode": "episode_00140240",
+      "gt": "move to fridge",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 205,
+      "episode": "episode_00140260",
+      "gt": "move to fridge",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 352,
+      "episode": "episode_00140260",
+      "gt": "move to fridge",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 390,
+      "episode": "episode_00140260",
+      "gt": "move to fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 162,
+      "episode": "episode_00140300",
+      "gt": "move to fridge",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 307,
+      "episode": "episode_00140300",
+      "gt": "move to fridge",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 344,
+      "episode": "episode_00140300",
+      "gt": "move to fridge",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 195,
+      "episode": "episode_00140330",
+      "gt": "move to fridge",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 349,
+      "episode": "episode_00140330",
+      "gt": "move to fridge",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 391,
+      "episode": "episode_00140330",
+      "gt": "move to fridge",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 178,
+      "episode": "episode_00140370",
+      "gt": "move to fridge",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 319,
+      "episode": "episode_00140370",
+      "gt": "move to fridge",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 360,
+      "episode": "episode_00140370",
+      "gt": "move to fridge",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 383,
+      "episode": "episode_00140370",
+      "gt": "move to fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 341,
+      "episode": "episode_00140380",
+      "gt": "move to fridge",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 377,
+      "episode": "episode_00140380",
+      "gt": "move to fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 400,
+      "episode": "episode_00140380",
+      "gt": "move to fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 334,
+      "episode": "episode_00140460",
+      "gt": "move to fridge",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 371,
+      "episode": "episode_00140460",
+      "gt": "move to fridge",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 394,
+      "episode": "episode_00140460",
+      "gt": "move to fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 178,
+      "episode": "episode_00140480",
+      "gt": "move to fridge",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 307,
+      "episode": "episode_00140480",
+      "gt": "move to fridge",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 344,
+      "episode": "episode_00140480",
+      "gt": "move to fridge",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 175,
+      "episode": "episode_00140490",
+      "gt": "move to fridge",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 308,
+      "episode": "episode_00140490",
+      "gt": "move to fridge",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 351,
+      "episode": "episode_00140490",
+      "gt": "move to fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 214,
+      "episode": "episode_00140510",
+      "gt": "move to fridge",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 382,
+      "episode": "episode_00140510",
+      "gt": "move to fridge",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 405,
+      "episode": "episode_00140510",
+      "gt": "move to fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 191,
+      "episode": "episode_00140530",
+      "gt": "move to fridge",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 333,
+      "episode": "episode_00140530",
+      "gt": "move to fridge",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 371,
+      "episode": "episode_00140530",
+      "gt": "move to fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 195,
+      "episode": "episode_00140550",
+      "gt": "move to fridge",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 325,
+      "episode": "episode_00140550",
+      "gt": "move to fridge",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 361,
+      "episode": "episode_00140550",
+      "gt": "move to fridge",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 201,
+      "episode": "episode_00140580",
+      "gt": "move to fridge",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 344,
+      "episode": "episode_00140580",
+      "gt": "move to fridge",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 383,
+      "episode": "episode_00140580",
+      "gt": "move to fridge",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 192,
+      "episode": "episode_00140620",
+      "gt": "move to fridge",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 336,
+      "episode": "episode_00140620",
+      "gt": "move to fridge",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 371,
+      "episode": "episode_00140620",
+      "gt": "move to fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 195,
+      "episode": "episode_00140640",
+      "gt": "move to fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 343,
+      "episode": "episode_00140640",
+      "gt": "move to fridge",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 366,
+      "episode": "episode_00140640",
+      "gt": "move to fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 198,
+      "episode": "episode_00140700",
+      "gt": "move to fridge",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 335,
+      "episode": "episode_00140700",
+      "gt": "move to fridge",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 369,
+      "episode": "episode_00140700",
+      "gt": "move to fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 173,
+      "episode": "episode_00140740",
+      "gt": "move to fridge",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 323,
+      "episode": "episode_00140740",
+      "gt": "move to fridge",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 362,
+      "episode": "episode_00140740",
+      "gt": "move to fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 308,
+      "episode": "episode_00140210",
+      "gt": "open door fridge",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 316,
+      "episode": "episode_00140210",
+      "gt": "open door fridge",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 325,
+      "episode": "episode_00140210",
+      "gt": "open door fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 333,
+      "episode": "episode_00140210",
+      "gt": "open door fridge",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 364,
+      "episode": "episode_00140210",
+      "gt": "open door fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 372,
+      "episode": "episode_00140210",
+      "gt": "open door fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 282,
+      "episode": "episode_00140220",
+      "gt": "open door fridge",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 290,
+      "episode": "episode_00140220",
+      "gt": "open door fridge",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 299,
+      "episode": "episode_00140220",
+      "gt": "open door fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 321,
+      "episode": "episode_00140220",
+      "gt": "open door fridge",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 329,
+      "episode": "episode_00140220",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 338,
+      "episode": "episode_00140220",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 248,
+      "episode": "episode_00140230",
+      "gt": "open door fridge",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 257,
+      "episode": "episode_00140230",
+      "gt": "open door fridge",
+      "pred": "close door door",
+      "raw": "1. close door door",
+      "correct": false
+    },
+    {
+      "sec": 265,
+      "episode": "episode_00140230",
+      "gt": "open door fridge",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 292,
+      "episode": "episode_00140230",
+      "gt": "open door fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 301,
+      "episode": "episode_00140230",
+      "gt": "open door fridge",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 309,
+      "episode": "episode_00140230",
+      "gt": "open door fridge",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 286,
+      "episode": "episode_00140240",
+      "gt": "open door fridge",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 294,
+      "episode": "episode_00140240",
+      "gt": "open door fridge",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 320,
+      "episode": "episode_00140240",
+      "gt": "open door fridge",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 328,
+      "episode": "episode_00140240",
+      "gt": "open door fridge",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 221,
+      "episode": "episode_00140260",
+      "gt": "open door fridge",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 230,
+      "episode": "episode_00140260",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 238,
+      "episode": "episode_00140260",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 184,
+      "episode": "episode_00140300",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 192,
+      "episode": "episode_00140300",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 214,
+      "episode": "episode_00140330",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 222,
+      "episode": "episode_00140330",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 194,
+      "episode": "episode_00140370",
+      "gt": "open door fridge",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 203,
+      "episode": "episode_00140370",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 211,
+      "episode": "episode_00140370",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 206,
+      "episode": "episode_00140380",
+      "gt": "open door fridge",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 214,
+      "episode": "episode_00140380",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 197,
+      "episode": "episode_00140460",
+      "gt": "open door fridge",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 205,
+      "episode": "episode_00140460",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 214,
+      "episode": "episode_00140460",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 183,
+      "episode": "episode_00140480",
+      "gt": "open door fridge",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 192,
+      "episode": "episode_00140480",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 188,
+      "episode": "episode_00140490",
+      "gt": "open door fridge",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 196,
+      "episode": "episode_00140490",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 219,
+      "episode": "episode_00140510",
+      "gt": "open door fridge",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 227,
+      "episode": "episode_00140510",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 236,
+      "episode": "episode_00140510",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 199,
+      "episode": "episode_00140530",
+      "gt": "open door fridge",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 208,
+      "episode": "episode_00140530",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 203,
+      "episode": "episode_00140550",
+      "gt": "open door fridge",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 211,
+      "episode": "episode_00140550",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 220,
+      "episode": "episode_00140550",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 212,
+      "episode": "episode_00140580",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 221,
+      "episode": "episode_00140580",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 203,
+      "episode": "episode_00140620",
+      "gt": "open door fridge",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 212,
+      "episode": "episode_00140620",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 201,
+      "episode": "episode_00140640",
+      "gt": "open door fridge",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 209,
+      "episode": "episode_00140640",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 218,
+      "episode": "episode_00140640",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 213,
+      "episode": "episode_00140700",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 222,
+      "episode": "episode_00140700",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 189,
+      "episode": "episode_00140740",
+      "gt": "open door fridge",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 198,
+      "episode": "episode_00140740",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 381,
+      "episode": "episode_00140210",
+      "gt": "place in beefsteak tomato",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 386,
+      "episode": "episode_00140210",
+      "gt": "place in beefsteak tomato",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 392,
+      "episode": "episode_00140210",
+      "gt": "place in beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 398,
+      "episode": "episode_00140210",
+      "gt": "place in beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 343,
+      "episode": "episode_00140220",
+      "gt": "place in beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 349,
+      "episode": "episode_00140220",
+      "gt": "place in beefsteak tomato",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 355,
+      "episode": "episode_00140220",
+      "gt": "place in beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 361,
+      "episode": "episode_00140220",
+      "gt": "place in beefsteak tomato",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 366,
+      "episode": "episode_00140220",
+      "gt": "place in beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 315,
+      "episode": "episode_00140230",
+      "gt": "place in beefsteak tomato",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 321,
+      "episode": "episode_00140230",
+      "gt": "place in beefsteak tomato",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 326,
+      "episode": "episode_00140230",
+      "gt": "place in beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 332,
+      "episode": "episode_00140230",
+      "gt": "place in beefsteak tomato",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 337,
+      "episode": "episode_00140240",
+      "gt": "place in beefsteak tomato",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 343,
+      "episode": "episode_00140240",
+      "gt": "place in beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 348,
+      "episode": "episode_00140240",
+      "gt": "place in beefsteak tomato",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 354,
+      "episode": "episode_00140240",
+      "gt": "place in beefsteak tomato",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 243,
+      "episode": "episode_00140260",
+      "gt": "place in beefsteak tomato",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 248,
+      "episode": "episode_00140260",
+      "gt": "place in beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 197,
+      "episode": "episode_00140300",
+      "gt": "place in beefsteak tomato",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 203,
+      "episode": "episode_00140300",
+      "gt": "place in beefsteak tomato",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 209,
+      "episode": "episode_00140300",
+      "gt": "place in beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 233,
+      "episode": "episode_00140330",
+      "gt": "place in beefsteak tomato",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 239,
+      "episode": "episode_00140330",
+      "gt": "place in beefsteak tomato",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 245,
+      "episode": "episode_00140330",
+      "gt": "place in beefsteak tomato",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 215,
+      "episode": "episode_00140370",
+      "gt": "place in beefsteak tomato",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 221,
+      "episode": "episode_00140370",
+      "gt": "place in beefsteak tomato",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 227,
+      "episode": "episode_00140370",
+      "gt": "place in beefsteak tomato",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 224,
+      "episode": "episode_00140380",
+      "gt": "place in beefsteak tomato",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 229,
+      "episode": "episode_00140380",
+      "gt": "place in beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 235,
+      "episode": "episode_00140380",
+      "gt": "place in beefsteak tomato",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 223,
+      "episode": "episode_00140460",
+      "gt": "place in beefsteak tomato",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 228,
+      "episode": "episode_00140460",
+      "gt": "place in beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 234,
+      "episode": "episode_00140460",
+      "gt": "place in beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 198,
+      "episode": "episode_00140480",
+      "gt": "place in beefsteak tomato",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 204,
+      "episode": "episode_00140480",
+      "gt": "place in beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 209,
+      "episode": "episode_00140480",
+      "gt": "place in beefsteak tomato",
+      "pred": "pick up from beefsteak tomato",
+      "raw": "11. pick up from beefsteak tomato",
+      "correct": false
+    },
+    {
+      "sec": 207,
+      "episode": "episode_00140490",
+      "gt": "place in beefsteak tomato",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 213,
+      "episode": "episode_00140490",
+      "gt": "place in beefsteak tomato",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 245,
+      "episode": "episode_00140510",
+      "gt": "place in beefsteak tomato",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 251,
+      "episode": "episode_00140510",
+      "gt": "place in beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 257,
+      "episode": "episode_00140510",
+      "gt": "place in beefsteak tomato",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 219,
+      "episode": "episode_00140530",
+      "gt": "place in beefsteak tomato",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 224,
+      "episode": "episode_00140530",
+      "gt": "place in beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 230,
+      "episode": "episode_00140530",
+      "gt": "place in beefsteak tomato",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 226,
+      "episode": "episode_00140550",
+      "gt": "place in beefsteak tomato",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 231,
+      "episode": "episode_00140550",
+      "gt": "place in beefsteak tomato",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 231,
+      "episode": "episode_00140580",
+      "gt": "place in beefsteak tomato",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 237,
+      "episode": "episode_00140580",
+      "gt": "place in beefsteak tomato",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 219,
+      "episode": "episode_00140620",
+      "gt": "place in beefsteak tomato",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 224,
+      "episode": "episode_00140620",
+      "gt": "place in beefsteak tomato",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 230,
+      "episode": "episode_00140620",
+      "gt": "place in beefsteak tomato",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 219,
+      "episode": "episode_00140640",
+      "gt": "place in beefsteak tomato",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 224,
+      "episode": "episode_00140640",
+      "gt": "place in beefsteak tomato",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 230,
+      "episode": "episode_00140640",
+      "gt": "place in beefsteak tomato",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 229,
+      "episode": "episode_00140700",
+      "gt": "place in beefsteak tomato",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 235,
+      "episode": "episode_00140700",
+      "gt": "place in beefsteak tomato",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 240,
+      "episode": "episode_00140700",
+      "gt": "place in beefsteak tomato",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 212,
+      "episode": "episode_00140740",
+      "gt": "place in beefsteak tomato",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 218,
+      "episode": "episode_00140740",
+      "gt": "place in beefsteak tomato",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 439,
+      "episode": "episode_00140210",
+      "gt": "tip over paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 442,
+      "episode": "episode_00140210",
+      "gt": "tip over paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 445,
+      "episode": "episode_00140210",
+      "gt": "tip over paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 448,
+      "episode": "episode_00140210",
+      "gt": "tip over paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 405,
+      "episode": "episode_00140220",
+      "gt": "tip over paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 408,
+      "episode": "episode_00140220",
+      "gt": "tip over paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 411,
+      "episode": "episode_00140220",
+      "gt": "tip over paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 414,
+      "episode": "episode_00140220",
+      "gt": "tip over paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 367,
+      "episode": "episode_00140230",
+      "gt": "tip over paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 370,
+      "episode": "episode_00140230",
+      "gt": "tip over paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 373,
+      "episode": "episode_00140230",
+      "gt": "tip over paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 377,
+      "episode": "episode_00140230",
+      "gt": "tip over paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 389,
+      "episode": "episode_00140240",
+      "gt": "tip over paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 392,
+      "episode": "episode_00140240",
+      "gt": "tip over paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 395,
+      "episode": "episode_00140240",
+      "gt": "tip over paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 291,
+      "episode": "episode_00140260",
+      "gt": "tip over paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 294,
+      "episode": "episode_00140260",
+      "gt": "tip over paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 297,
+      "episode": "episode_00140260",
+      "gt": "tip over paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 251,
+      "episode": "episode_00140300",
+      "gt": "tip over paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 254,
+      "episode": "episode_00140300",
+      "gt": "tip over paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 257,
+      "episode": "episode_00140300",
+      "gt": "tip over paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 260,
+      "episode": "episode_00140300",
+      "gt": "tip over paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 292,
+      "episode": "episode_00140330",
+      "gt": "tip over paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 295,
+      "episode": "episode_00140330",
+      "gt": "tip over paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 298,
+      "episode": "episode_00140330",
+      "gt": "tip over paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 268,
+      "episode": "episode_00140370",
+      "gt": "tip over paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 271,
+      "episode": "episode_00140370",
+      "gt": "tip over paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 274,
+      "episode": "episode_00140370",
+      "gt": "tip over paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 277,
+      "episode": "episode_00140380",
+      "gt": "tip over paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 281,
+      "episode": "episode_00140380",
+      "gt": "tip over paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 284,
+      "episode": "episode_00140380",
+      "gt": "tip over paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 279,
+      "episode": "episode_00140460",
+      "gt": "tip over paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 283,
+      "episode": "episode_00140460",
+      "gt": "tip over paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 286,
+      "episode": "episode_00140460",
+      "gt": "tip over paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 246,
+      "episode": "episode_00140480",
+      "gt": "tip over paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 249,
+      "episode": "episode_00140480",
+      "gt": "tip over paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 253,
+      "episode": "episode_00140480",
+      "gt": "tip over paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 251,
+      "episode": "episode_00140490",
+      "gt": "tip over paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 254,
+      "episode": "episode_00140490",
+      "gt": "tip over paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 258,
+      "episode": "episode_00140490",
+      "gt": "tip over paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 303,
+      "episode": "episode_00140510",
+      "gt": "tip over paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 306,
+      "episode": "episode_00140510",
+      "gt": "tip over paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 271,
+      "episode": "episode_00140530",
+      "gt": "tip over paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 275,
+      "episode": "episode_00140530",
+      "gt": "tip over paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 278,
+      "episode": "episode_00140530",
+      "gt": "tip over paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 267,
+      "episode": "episode_00140550",
+      "gt": "tip over paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 271,
+      "episode": "episode_00140550",
+      "gt": "tip over paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 281,
+      "episode": "episode_00140580",
+      "gt": "tip over paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 284,
+      "episode": "episode_00140580",
+      "gt": "tip over paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 287,
+      "episode": "episode_00140580",
+      "gt": "tip over paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 277,
+      "episode": "episode_00140620",
+      "gt": "tip over paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 280,
+      "episode": "episode_00140620",
+      "gt": "tip over paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 283,
+      "episode": "episode_00140620",
+      "gt": "tip over paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 271,
+      "episode": "episode_00140640",
+      "gt": "tip over paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 274,
+      "episode": "episode_00140640",
+      "gt": "tip over paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 277,
+      "episode": "episode_00140640",
+      "gt": "tip over paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 281,
+      "episode": "episode_00140700",
+      "gt": "tip over paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 285,
+      "episode": "episode_00140700",
+      "gt": "tip over paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 262,
+      "episode": "episode_00140740",
+      "gt": "tip over paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 265,
+      "episode": "episode_00140740",
+      "gt": "tip over paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 451,
+      "episode": "episode_00140210",
+      "gt": "pour paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 457,
+      "episode": "episode_00140210",
+      "gt": "pour paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 464,
+      "episode": "episode_00140210",
+      "gt": "pour paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 471,
+      "episode": "episode_00140210",
+      "gt": "pour paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 424,
+      "episode": "episode_00140220",
+      "gt": "pour paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 431,
+      "episode": "episode_00140220",
+      "gt": "pour paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 438,
+      "episode": "episode_00140220",
+      "gt": "pour paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 380,
+      "episode": "episode_00140230",
+      "gt": "pour paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 387,
+      "episode": "episode_00140230",
+      "gt": "pour paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 394,
+      "episode": "episode_00140230",
+      "gt": "pour paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 401,
+      "episode": "episode_00140230",
+      "gt": "pour paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 401,
+      "episode": "episode_00140240",
+      "gt": "pour paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 408,
+      "episode": "episode_00140240",
+      "gt": "pour paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 414,
+      "episode": "episode_00140240",
+      "gt": "pour paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 421,
+      "episode": "episode_00140240",
+      "gt": "pour paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 306,
+      "episode": "episode_00140260",
+      "gt": "pour paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 313,
+      "episode": "episode_00140260",
+      "gt": "pour paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 320,
+      "episode": "episode_00140260",
+      "gt": "pour paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 262,
+      "episode": "episode_00140300",
+      "gt": "pour paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 269,
+      "episode": "episode_00140300",
+      "gt": "pour paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 276,
+      "episode": "episode_00140300",
+      "gt": "pour paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 300,
+      "episode": "episode_00140330",
+      "gt": "pour paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 307,
+      "episode": "episode_00140330",
+      "gt": "pour paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 314,
+      "episode": "episode_00140330",
+      "gt": "pour paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 321,
+      "episode": "episode_00140330",
+      "gt": "pour paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 281,
+      "episode": "episode_00140370",
+      "gt": "pour paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 288,
+      "episode": "episode_00140370",
+      "gt": "pour paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 288,
+      "episode": "episode_00140380",
+      "gt": "pour paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 295,
+      "episode": "episode_00140380",
+      "gt": "pour paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 302,
+      "episode": "episode_00140380",
+      "gt": "pour paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 309,
+      "episode": "episode_00140380",
+      "gt": "pour paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 294,
+      "episode": "episode_00140460",
+      "gt": "pour paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 301,
+      "episode": "episode_00140460",
+      "gt": "pour paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 308,
+      "episode": "episode_00140460",
+      "gt": "pour paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 258,
+      "episode": "episode_00140480",
+      "gt": "pour paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 265,
+      "episode": "episode_00140480",
+      "gt": "pour paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 272,
+      "episode": "episode_00140480",
+      "gt": "pour paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 264,
+      "episode": "episode_00140490",
+      "gt": "pour paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 271,
+      "episode": "episode_00140490",
+      "gt": "pour paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 313,
+      "episode": "episode_00140510",
+      "gt": "pour paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 320,
+      "episode": "episode_00140510",
+      "gt": "pour paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 281,
+      "episode": "episode_00140530",
+      "gt": "pour paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 288,
+      "episode": "episode_00140530",
+      "gt": "pour paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 295,
+      "episode": "episode_00140530",
+      "gt": "pour paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 279,
+      "episode": "episode_00140550",
+      "gt": "pour paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 286,
+      "episode": "episode_00140550",
+      "gt": "pour paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 290,
+      "episode": "episode_00140580",
+      "gt": "pour paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 297,
+      "episode": "episode_00140580",
+      "gt": "pour paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 304,
+      "episode": "episode_00140580",
+      "gt": "pour paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 289,
+      "episode": "episode_00140620",
+      "gt": "pour paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 296,
+      "episode": "episode_00140620",
+      "gt": "pour paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 303,
+      "episode": "episode_00140620",
+      "gt": "pour paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 280,
+      "episode": "episode_00140640",
+      "gt": "pour paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 287,
+      "episode": "episode_00140640",
+      "gt": "pour paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 287,
+      "episode": "episode_00140700",
+      "gt": "pour paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 294,
+      "episode": "episode_00140700",
+      "gt": "pour paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 301,
+      "episode": "episode_00140700",
+      "gt": "pour paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 273,
+      "episode": "episode_00140740",
+      "gt": "pour paper bag",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 280,
+      "episode": "episode_00140740",
+      "gt": "pour paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 287,
+      "episode": "episode_00140740",
+      "gt": "pour paper bag",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 479,
+      "episode": "episode_00140210",
+      "gt": "pick up from carton of milk",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 483,
+      "episode": "episode_00140210",
+      "gt": "pick up from carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": true
+    },
+    {
+      "sec": 487,
+      "episode": "episode_00140210",
+      "gt": "pick up from carton of milk",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 491,
+      "episode": "episode_00140210",
+      "gt": "pick up from carton of milk",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 495,
+      "episode": "episode_00140210",
+      "gt": "pick up from carton of milk",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 453,
+      "episode": "episode_00140220",
+      "gt": "pick up from carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": true
+    },
+    {
+      "sec": 457,
+      "episode": "episode_00140220",
+      "gt": "pick up from carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": true
+    },
+    {
+      "sec": 461,
+      "episode": "episode_00140220",
+      "gt": "pick up from carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": true
+    },
+    {
+      "sec": 414,
+      "episode": "episode_00140230",
+      "gt": "pick up from carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": true
+    },
+    {
+      "sec": 418,
+      "episode": "episode_00140230",
+      "gt": "pick up from carton of milk",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 422,
+      "episode": "episode_00140230",
+      "gt": "pick up from carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": true
+    },
+    {
+      "sec": 431,
+      "episode": "episode_00140240",
+      "gt": "pick up from carton of milk",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 435,
+      "episode": "episode_00140240",
+      "gt": "pick up from carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": true
+    },
+    {
+      "sec": 439,
+      "episode": "episode_00140240",
+      "gt": "pick up from carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": true
+    },
+    {
+      "sec": 443,
+      "episode": "episode_00140240",
+      "gt": "pick up from carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": true
+    },
+    {
+      "sec": 447,
+      "episode": "episode_00140240",
+      "gt": "pick up from carton of milk",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 451,
+      "episode": "episode_00140240",
+      "gt": "pick up from carton of milk",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 337,
+      "episode": "episode_00140260",
+      "gt": "pick up from carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": true
+    },
+    {
+      "sec": 341,
+      "episode": "episode_00140260",
+      "gt": "pick up from carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": true
+    },
+    {
+      "sec": 292,
+      "episode": "episode_00140300",
+      "gt": "pick up from carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": true
+    },
+    {
+      "sec": 296,
+      "episode": "episode_00140300",
+      "gt": "pick up from carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": true
+    },
+    {
+      "sec": 331,
+      "episode": "episode_00140330",
+      "gt": "pick up from carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": true
+    },
+    {
+      "sec": 335,
+      "episode": "episode_00140330",
+      "gt": "pick up from carton of milk",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 339,
+      "episode": "episode_00140330",
+      "gt": "pick up from carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": true
+    },
+    {
+      "sec": 301,
+      "episode": "episode_00140370",
+      "gt": "pick up from carton of milk",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 305,
+      "episode": "episode_00140370",
+      "gt": "pick up from carton of milk",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 309,
+      "episode": "episode_00140370",
+      "gt": "pick up from carton of milk",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 320,
+      "episode": "episode_00140380",
+      "gt": "pick up from carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": true
+    },
+    {
+      "sec": 324,
+      "episode": "episode_00140380",
+      "gt": "pick up from carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": true
+    },
+    {
+      "sec": 328,
+      "episode": "episode_00140380",
+      "gt": "pick up from carton of milk",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 332,
+      "episode": "episode_00140380",
+      "gt": "pick up from carton of milk",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 321,
+      "episode": "episode_00140460",
+      "gt": "pick up from carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": true
+    },
+    {
+      "sec": 325,
+      "episode": "episode_00140460",
+      "gt": "pick up from carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": true
+    },
+    {
+      "sec": 329,
+      "episode": "episode_00140460",
+      "gt": "pick up from carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": true
+    },
+    {
+      "sec": 281,
+      "episode": "episode_00140480",
+      "gt": "pick up from carton of milk",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 285,
+      "episode": "episode_00140480",
+      "gt": "pick up from carton of milk",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 282,
+      "episode": "episode_00140490",
+      "gt": "pick up from carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": true
+    },
+    {
+      "sec": 286,
+      "episode": "episode_00140490",
+      "gt": "pick up from carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": true
+    },
+    {
+      "sec": 290,
+      "episode": "episode_00140490",
+      "gt": "pick up from carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": true
+    },
+    {
+      "sec": 335,
+      "episode": "episode_00140510",
+      "gt": "pick up from carton of milk",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 339,
+      "episode": "episode_00140510",
+      "gt": "pick up from carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": true
+    },
+    {
+      "sec": 343,
+      "episode": "episode_00140510",
+      "gt": "pick up from carton of milk",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 347,
+      "episode": "episode_00140510",
+      "gt": "pick up from carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": true
+    },
+    {
+      "sec": 305,
+      "episode": "episode_00140530",
+      "gt": "pick up from carton of milk",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 309,
+      "episode": "episode_00140530",
+      "gt": "pick up from carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": true
+    },
+    {
+      "sec": 313,
+      "episode": "episode_00140530",
+      "gt": "pick up from carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": true
+    },
+    {
+      "sec": 300,
+      "episode": "episode_00140550",
+      "gt": "pick up from carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": true
+    },
+    {
+      "sec": 304,
+      "episode": "episode_00140550",
+      "gt": "pick up from carton of milk",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 308,
+      "episode": "episode_00140550",
+      "gt": "pick up from carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": true
+    },
+    {
+      "sec": 317,
+      "episode": "episode_00140580",
+      "gt": "pick up from carton of milk",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 321,
+      "episode": "episode_00140580",
+      "gt": "pick up from carton of milk",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 314,
+      "episode": "episode_00140620",
+      "gt": "pick up from carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": true
+    },
+    {
+      "sec": 318,
+      "episode": "episode_00140620",
+      "gt": "pick up from carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": true
+    },
+    {
+      "sec": 300,
+      "episode": "episode_00140640",
+      "gt": "pick up from carton of milk",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 304,
+      "episode": "episode_00140640",
+      "gt": "pick up from carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": true
+    },
+    {
+      "sec": 308,
+      "episode": "episode_00140640",
+      "gt": "pick up from carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": true
+    },
+    {
+      "sec": 313,
+      "episode": "episode_00140700",
+      "gt": "pick up from carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": true
+    },
+    {
+      "sec": 317,
+      "episode": "episode_00140700",
+      "gt": "pick up from carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": true
+    },
+    {
+      "sec": 303,
+      "episode": "episode_00140740",
+      "gt": "pick up from carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": true
+    },
+    {
+      "sec": 307,
+      "episode": "episode_00140740",
+      "gt": "pick up from carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": true
+    },
+    {
+      "sec": 512,
+      "episode": "episode_00140210",
+      "gt": "place in carton of milk",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 517,
+      "episode": "episode_00140210",
+      "gt": "place in carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 522,
+      "episode": "episode_00140210",
+      "gt": "place in carton of milk",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 527,
+      "episode": "episode_00140210",
+      "gt": "place in carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 532,
+      "episode": "episode_00140210",
+      "gt": "place in carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 538,
+      "episode": "episode_00140210",
+      "gt": "place in carton of milk",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 481,
+      "episode": "episode_00140220",
+      "gt": "place in carton of milk",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 486,
+      "episode": "episode_00140220",
+      "gt": "place in carton of milk",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 441,
+      "episode": "episode_00140230",
+      "gt": "place in carton of milk",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 446,
+      "episode": "episode_00140230",
+      "gt": "place in carton of milk",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 452,
+      "episode": "episode_00140230",
+      "gt": "place in carton of milk",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 473,
+      "episode": "episode_00140240",
+      "gt": "place in carton of milk",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 478,
+      "episode": "episode_00140240",
+      "gt": "place in carton of milk",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 483,
+      "episode": "episode_00140240",
+      "gt": "place in carton of milk",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 488,
+      "episode": "episode_00140240",
+      "gt": "place in carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 494,
+      "episode": "episode_00140240",
+      "gt": "place in carton of milk",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 360,
+      "episode": "episode_00140260",
+      "gt": "place in carton of milk",
+      "pred": "pick up from beefsteak tomato",
+      "raw": "11. pick up from beefsteak tomato",
+      "correct": false
+    },
+    {
+      "sec": 365,
+      "episode": "episode_00140260",
+      "gt": "place in carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 370,
+      "episode": "episode_00140260",
+      "gt": "place in carton of milk",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 320,
+      "episode": "episode_00140300",
+      "gt": "place in carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 326,
+      "episode": "episode_00140300",
+      "gt": "place in carton of milk",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 331,
+      "episode": "episode_00140300",
+      "gt": "place in carton of milk",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 361,
+      "episode": "episode_00140330",
+      "gt": "place in carton of milk",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 366,
+      "episode": "episode_00140330",
+      "gt": "place in carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 371,
+      "episode": "episode_00140330",
+      "gt": "place in carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 334,
+      "episode": "episode_00140370",
+      "gt": "place in carton of milk",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 339,
+      "episode": "episode_00140370",
+      "gt": "place in carton of milk",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 344,
+      "episode": "episode_00140370",
+      "gt": "place in carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 349,
+      "episode": "episode_00140370",
+      "gt": "place in carton of milk",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 354,
+      "episode": "episode_00140380",
+      "gt": "place in carton of milk",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 360,
+      "episode": "episode_00140380",
+      "gt": "place in carton of milk",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 351,
+      "episode": "episode_00140460",
+      "gt": "place in carton of milk",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 356,
+      "episode": "episode_00140460",
+      "gt": "place in carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 361,
+      "episode": "episode_00140460",
+      "gt": "place in carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 309,
+      "episode": "episode_00140480",
+      "gt": "place in carton of milk",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 315,
+      "episode": "episode_00140480",
+      "gt": "place in carton of milk",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 320,
+      "episode": "episode_00140480",
+      "gt": "place in carton of milk",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 314,
+      "episode": "episode_00140490",
+      "gt": "place in carton of milk",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 319,
+      "episode": "episode_00140490",
+      "gt": "place in carton of milk",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 324,
+      "episode": "episode_00140490",
+      "gt": "place in carton of milk",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 330,
+      "episode": "episode_00140490",
+      "gt": "place in carton of milk",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 372,
+      "episode": "episode_00140510",
+      "gt": "place in carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 377,
+      "episode": "episode_00140510",
+      "gt": "place in carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 338,
+      "episode": "episode_00140530",
+      "gt": "place in carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 343,
+      "episode": "episode_00140530",
+      "gt": "place in carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 349,
+      "episode": "episode_00140530",
+      "gt": "place in carton of milk",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 332,
+      "episode": "episode_00140550",
+      "gt": "place in carton of milk",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 337,
+      "episode": "episode_00140550",
+      "gt": "place in carton of milk",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 349,
+      "episode": "episode_00140580",
+      "gt": "place in carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 354,
+      "episode": "episode_00140580",
+      "gt": "place in carton of milk",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 360,
+      "episode": "episode_00140580",
+      "gt": "place in carton of milk",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 343,
+      "episode": "episode_00140620",
+      "gt": "place in carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 348,
+      "episode": "episode_00140620",
+      "gt": "place in carton of milk",
+      "pred": "open door fridge",
+      "raw": "10. open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 332,
+      "episode": "episode_00140640",
+      "gt": "place in carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 337,
+      "episode": "episode_00140640",
+      "gt": "place in carton of milk",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 342,
+      "episode": "episode_00140700",
+      "gt": "place in carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 347,
+      "episode": "episode_00140700",
+      "gt": "place in carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 335,
+      "episode": "episode_00140740",
+      "gt": "place in carton of milk",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 340,
+      "episode": "episode_00140740",
+      "gt": "place in carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 345,
+      "episode": "episode_00140740",
+      "gt": "place in carton of milk",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 572,
+      "episode": "episode_00140210",
+      "gt": "close door fridge",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 583,
+      "episode": "episode_00140210",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 594,
+      "episode": "episode_00140210",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 606,
+      "episode": "episode_00140210",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 617,
+      "episode": "episode_00140210",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 525,
+      "episode": "episode_00140220",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 536,
+      "episode": "episode_00140220",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 547,
+      "episode": "episode_00140220",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 559,
+      "episode": "episode_00140220",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 492,
+      "episode": "episode_00140230",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 504,
+      "episode": "episode_00140230",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 515,
+      "episode": "episode_00140230",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 527,
+      "episode": "episode_00140230",
+      "gt": "close door fridge",
+      "pred": "close door door",
+      "raw": "1. close door door",
+      "correct": false
+    },
+    {
+      "sec": 532,
+      "episode": "episode_00140240",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 543,
+      "episode": "episode_00140240",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 555,
+      "episode": "episode_00140240",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 566,
+      "episode": "episode_00140240",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 416,
+      "episode": "episode_00140260",
+      "gt": "close door fridge",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 427,
+      "episode": "episode_00140260",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 438,
+      "episode": "episode_00140260",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 378,
+      "episode": "episode_00140300",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 389,
+      "episode": "episode_00140300",
+      "gt": "close door fridge",
+      "pred": "close door door",
+      "raw": "1. close door door",
+      "correct": false
+    },
+    {
+      "sec": 401,
+      "episode": "episode_00140300",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 420,
+      "episode": "episode_00140330",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 432,
+      "episode": "episode_00140330",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 389,
+      "episode": "episode_00140370",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 400,
+      "episode": "episode_00140370",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 412,
+      "episode": "episode_00140370",
+      "gt": "close door fridge",
+      "pred": "close door door",
+      "raw": "1. close door door",
+      "correct": false
+    },
+    {
+      "sec": 404,
+      "episode": "episode_00140380",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 416,
+      "episode": "episode_00140380",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 427,
+      "episode": "episode_00140380",
+      "gt": "close door fridge",
+      "pred": "close door door",
+      "raw": "1. close door door",
+      "correct": false
+    },
+    {
+      "sec": 409,
+      "episode": "episode_00140460",
+      "gt": "close door fridge",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 421,
+      "episode": "episode_00140460",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 432,
+      "episode": "episode_00140460",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 363,
+      "episode": "episode_00140480",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 374,
+      "episode": "episode_00140480",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 366,
+      "episode": "episode_00140490",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 377,
+      "episode": "episode_00140490",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 388,
+      "episode": "episode_00140490",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 423,
+      "episode": "episode_00140510",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 434,
+      "episode": "episode_00140510",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 446,
+      "episode": "episode_00140510",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 386,
+      "episode": "episode_00140530",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 397,
+      "episode": "episode_00140530",
+      "gt": "close door fridge",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 409,
+      "episode": "episode_00140530",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 379,
+      "episode": "episode_00140550",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 391,
+      "episode": "episode_00140550",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 402,
+      "episode": "episode_00140550",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 404,
+      "episode": "episode_00140580",
+      "gt": "close door fridge",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 415,
+      "episode": "episode_00140580",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 385,
+      "episode": "episode_00140620",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 397,
+      "episode": "episode_00140620",
+      "gt": "close door fridge",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 408,
+      "episode": "episode_00140620",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 381,
+      "episode": "episode_00140640",
+      "gt": "close door fridge",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 392,
+      "episode": "episode_00140640",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    },
+    {
+      "sec": 403,
+      "episode": "episode_00140640",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 397,
+      "episode": "episode_00140700",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 408,
+      "episode": "episode_00140700",
+      "gt": "close door fridge",
+      "pred": "place on paper bag",
+      "raw": "16. place on paper bag",
+      "correct": false
+    },
+    {
+      "sec": 395,
+      "episode": "episode_00140740",
+      "gt": "close door fridge",
+      "pred": "pick up from carton of milk",
+      "raw": "12. pick up from carton of milk",
+      "correct": false
+    },
+    {
+      "sec": 406,
+      "episode": "episode_00140740",
+      "gt": "close door fridge",
+      "pred": null,
+      "raw": "16",
+      "correct": false
+    }
+  ]
+}

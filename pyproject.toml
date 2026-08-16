@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "behavior1k_mp"
+name = "behavior1k_motionplanner"
 version = "0.1.0"
 description = "MAPLE — hybrid motion-planner + X-VLA policy pipeline for BEHAVIOR-1K (data collection + leaderboard evaluation)."
 readme = "README.md"
@@ -24,15 +24,15 @@ dependencies = [
 dev = ["pytest"]
 
 [project.scripts]
-maple = "behavior1k_mp.__main__:main"
+maple = "behavior1k_motionplanner.__main__:main"
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["behavior1k_mp*"]
+include = ["behavior1k_motionplanner*"]
 
 [tool.setuptools.package-data]
 # Ship per-task checkpoints + task configs + the R1Pro URDF used by IK.
-behavior1k_mp = [
+behavior1k_motionplanner = [
     "tasks/*/checkpoints/*",
     "tasks/*/checkpoints/**/*",
     "tasks/*/config.yaml",

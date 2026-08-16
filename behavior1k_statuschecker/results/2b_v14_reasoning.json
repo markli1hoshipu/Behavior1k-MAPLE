@@ -1,0 +1,483 @@
+{
+  "version": "2b_v14_reasoning",
+  "window": 1,
+  "system_prompt": "You are annotating individual frames from a fixed head-mounted camera on a mobile manipulator robot. Classify the robot's current subskill using ONLY the visual evidence in this single frame.",
+  "user_prompt": "Task: \"Turn on the radio receiver that's on the table in the living room.\"\nThe robot's subskill right now is always exactly one of:\n1. move to - no robot arm is visible anywhere in the frame; you see a wide view of the room (floor, walls, couch) with the red radio small, far away, or not visible at all.\n2. pick up from - a robot arm/gripper IS visible, reaching toward or holding the red radio, but the radio's round dial is NOT facing the camera (you only see the plain red-and-white striped body, not the dial face).\n3. press - the radio's flat face with its round dial IS facing the camera, and a gripper is directly on that dial. This is the only step where the gripper touches the round dial. The radio does not need to be lifted for this - it can happen while the radio still sits on the table.\n4. place on - the radio is resting back down on the table (or being lowered onto it) and the gripper is pulling away rather than touching the dial. If the dial is visible, it may show a small green light now on (this means the radio was already successfully pressed).\nTie-break: if no arm is visible at all anywhere in the frame, answer 1 (move to).\nLook only at what is visible in this frame. Respond in EXACTLY this format:\nReasoning: <one short sentence on what you actually see that supports your answer>\nAnswer: <digit 1-4>",
+  "accuracy": 0.423728813559322,
+  "correct": 25,
+  "total": 59,
+  "predictions": [
+    {
+      "sec": 0,
+      "gt": "move to",
+      "pred": "move to",
+      "reasoning": "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame to interact with it.",
+      "raw": "Reasoning: The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame to interact with it.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 1,
+      "gt": "move to",
+      "pred": "move to",
+      "reasoning": "The red radio is visible on the table, but no robot arm or gripper is present in the frame.",
+      "raw": "Reasoning: The red radio is visible on the table, but no robot arm or gripper is present in the frame.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 2,
+      "gt": "move to",
+      "pred": "move to",
+      "reasoning": "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame.",
+      "raw": "Reasoning: The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 3,
+      "gt": "move to",
+      "pred": "move to",
+      "reasoning": "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame to interact with it.",
+      "raw": "Reasoning: The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame to interact with it.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 4,
+      "gt": "move to",
+      "pred": "move to",
+      "reasoning": "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame.",
+      "raw": "Reasoning: The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 5,
+      "gt": "move to",
+      "pred": "move to",
+      "reasoning": "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame.",
+      "raw": "Reasoning: The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 6,
+      "gt": "move to",
+      "pred": "move to",
+      "reasoning": "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame.",
+      "raw": "Reasoning: The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 7,
+      "gt": "move to",
+      "pred": "move to",
+      "reasoning": "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame.",
+      "raw": "Reasoning: The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 8,
+      "gt": "move to",
+      "pred": "move to",
+      "reasoning": "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame.",
+      "raw": "Reasoning: The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 9,
+      "gt": "pick up from",
+      "pred": "move to",
+      "reasoning": "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame.",
+      "raw": "Reasoning: The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 10,
+      "gt": "pick up from",
+      "pred": "move to",
+      "reasoning": "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame.",
+      "raw": "Reasoning: The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 11,
+      "gt": "pick up from",
+      "pred": "move to",
+      "reasoning": "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame.",
+      "raw": "Reasoning: The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 12,
+      "gt": "pick up from",
+      "pred": "move to",
+      "reasoning": "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame.",
+      "raw": "Reasoning: The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "gt": "pick up from",
+      "pred": "move to",
+      "reasoning": "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame, so the robot is not interacting with it.",
+      "raw": "Reasoning: The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame, so the robot is not interacting with it.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 14,
+      "gt": "pick up from",
+      "pred": "move to",
+      "reasoning": "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame.",
+      "raw": "Reasoning: The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "gt": "pick up from",
+      "pred": "move to",
+      "reasoning": "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame.",
+      "raw": "Reasoning: The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 16,
+      "gt": "pick up from",
+      "pred": "move to",
+      "reasoning": "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame, so the robot is not interacting with it.",
+      "raw": "Reasoning: The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame, so the robot is not interacting with it.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "gt": "pick up from",
+      "pred": "move to",
+      "reasoning": "The red radio is on the table, but no robot arm or gripper is visible in the frame.",
+      "raw": "Reasoning: The red radio is on the table, but no robot arm or gripper is visible in the frame.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 18,
+      "gt": "pick up from",
+      "pred": "move to",
+      "reasoning": "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame.",
+      "raw": "Reasoning: The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 19,
+      "gt": "pick up from",
+      "pred": "move to",
+      "reasoning": "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame.",
+      "raw": "Reasoning: The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 20,
+      "gt": "pick up from",
+      "pred": "move to",
+      "reasoning": "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame.",
+      "raw": "Reasoning: The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "gt": "pick up from",
+      "pred": "move to",
+      "reasoning": "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame, so the robot is not interacting with it.",
+      "raw": "Reasoning: The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame, so the robot is not interacting with it.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "gt": "pick up from",
+      "pred": "move to",
+      "reasoning": "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame.",
+      "raw": "Reasoning: The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "gt": "pick up from",
+      "pred": "move to",
+      "reasoning": "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame, so the robot is not interacting with it.",
+      "raw": "Reasoning: The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame, so the robot is not interacting with it.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 24,
+      "gt": "pick up from",
+      "pred": "move to",
+      "reasoning": "The red radio is on the table, but no robot arm or gripper is visible in the frame, so the robot is not interacting with it.",
+      "raw": "Reasoning: The red radio is on the table, but no robot arm or gripper is visible in the frame, so the robot is not interacting with it.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "gt": "pick up from",
+      "pred": "move to",
+      "reasoning": "The red radio is on the table, but no robot arm or gripper is visible in the frame, so the robot is not interacting with it.",
+      "raw": "Reasoning: The red radio is on the table, but no robot arm or gripper is visible in the frame, so the robot is not interacting with it.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "gt": "pick up from",
+      "pred": "move to",
+      "reasoning": "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame, so the robot is not performing any subskill.",
+      "raw": "Reasoning: The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame, so the robot is not performing any subskill.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "gt": "pick up from",
+      "pred": "move to",
+      "reasoning": "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame, so the robot is not interacting with it.",
+      "raw": "Reasoning: The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame, so the robot is not interacting with it.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 28,
+      "gt": "pick up from",
+      "pred": "press",
+      "reasoning": "The red radio is on the table, and the gripper is positioned directly over its round dial, indicating the robot is about to press it.",
+      "raw": "Reasoning: The red radio is on the table, and the gripper is positioned directly over its round dial, indicating the robot is about to press it.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "reasoning": "The robot arm is visible holding the red radio, but the round dial is not facing the camera; only the striped body is visible, indicating the robot is reaching for or has picked up the radio.",
+      "raw": "Reasoning: The robot arm is visible holding the red radio, but the round dial is not facing the camera; only the striped body is visible, indicating the robot is reaching for or has picked up the radio.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 30,
+      "gt": "pick up from",
+      "pred": "press",
+      "reasoning": "The red radio is on the table, and the gripper is positioned directly over its round dial, indicating the robot is about to press it.",
+      "raw": "Reasoning: The red radio is on the table, and the gripper is positioned directly over its round dial, indicating the robot is about to press it.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "gt": "pick up from",
+      "pred": "press",
+      "reasoning": "The red radio is on the table, and the gripper is positioned directly over its round dial, indicating the robot is about to press it.",
+      "raw": "Reasoning: The red radio is on the table, and the gripper is positioned directly over its round dial, indicating the robot is about to press it.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "gt": "pick up from",
+      "pred": "press",
+      "reasoning": "The red radio is on the table, and the gripper is positioned directly over its flat face with the dial visible, indicating the robot is about to press it.",
+      "raw": "Reasoning: The red radio is on the table, and the gripper is positioned directly over its flat face with the dial visible, indicating the robot is about to press it.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 33,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "reasoning": "The robot arm is holding the red radio, but the round dial is not visible; only the striped body is seen, indicating the radio is not yet pressed.",
+      "raw": "Reasoning: The robot arm is holding the red radio, but the round dial is not visible; only the striped body is seen, indicating the radio is not yet pressed.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 34,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "reasoning": "The robot arm is holding the red radio, but the round dial is not visible; only the striped body is seen, indicating the radio is not yet pressed.",
+      "raw": "Reasoning: The robot arm is holding the red radio, but the round dial is not visible; only the striped body is seen, indicating the radio is not yet pressed.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 35,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "reasoning": "The robot arm is holding the red radio, but the round dial is not visible; only the striped body is seen, indicating the radio is not yet pressed.",
+      "raw": "Reasoning: The robot arm is holding the red radio, but the round dial is not visible; only the striped body is seen, indicating the radio is not yet pressed.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 36,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "reasoning": "The robot arm is holding the red radio, but the round dial is not visible; only the striped body is seen, indicating the radio is not yet pressed.",
+      "raw": "Reasoning: The robot arm is holding the red radio, but the round dial is not visible; only the striped body is seen, indicating the radio is not yet pressed.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 37,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "reasoning": "The red radio is being held by the robot arm, but its round dial is not visible; only the striped body is seen, indicating the robot is reaching for or holding the radio.",
+      "raw": "Reasoning: The red radio is being held by the robot arm, but its round dial is not visible; only the striped body is seen, indicating the robot is reaching for or holding the radio.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 38,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "reasoning": "The robot arm is holding the red radio, but the round dial is not facing the camera; only the striped body is visible, indicating the robot is reaching for or has picked up the radio.",
+      "raw": "Reasoning: The robot arm is holding the red radio, but the round dial is not facing the camera; only the striped body is visible, indicating the robot is reaching for or has picked up the radio.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 39,
+      "gt": "press",
+      "pred": "press",
+      "reasoning": "The red radio is on the table, and the gripper is positioned directly over its round dial, indicating the press action is in progress.",
+      "raw": "Reasoning: The red radio is on the table, and the gripper is positioned directly over its round dial, indicating the press action is in progress.\nAnswer: 3",
+      "correct": true
+    },
+    {
+      "sec": 40,
+      "gt": "press",
+      "pred": "press",
+      "reasoning": "The red radio is sitting on the table with its round dial clearly facing the camera, and the robot's gripper is directly touching the dial, indicating the press action is in progress.",
+      "raw": "Reasoning: The red radio is sitting on the table with its round dial clearly facing the camera, and the robot's gripper is directly touching the dial, indicating the press action is in progress.\nAnswer: 3",
+      "correct": true
+    },
+    {
+      "sec": 41,
+      "gt": "press",
+      "pred": "press",
+      "reasoning": "The red radio is sitting on the table with its round dial clearly facing the camera, and a gripper is directly touching the center of the dial, indicating the robot is in the 'press' phase of the subskill.",
+      "raw": "Reasoning: The red radio is sitting on the table with its round dial clearly facing the camera, and a gripper is directly touching the center of the dial, indicating the robot is in the 'press' phase of the subskill.\nAnswer: 3",
+      "correct": true
+    },
+    {
+      "sec": 42,
+      "gt": "press",
+      "pred": "press",
+      "reasoning": "The red radio is sitting on the table with its round dial clearly facing the camera, and a gripper is directly touching the dial, indicating the robot is in the 'press' phase of the subskill.",
+      "raw": "Reasoning: The red radio is sitting on the table with its round dial clearly facing the camera, and a gripper is directly touching the dial, indicating the robot is in the 'press' phase of the subskill.\nAnswer: 3",
+      "correct": true
+    },
+    {
+      "sec": 43,
+      "gt": "press",
+      "pred": "press",
+      "reasoning": "The red radio is sitting on the table with its round dial clearly facing the camera, and the robot's gripper is positioned directly on top of the dial, indicating the press action is in progress.",
+      "raw": "Reasoning: The red radio is sitting on the table with its round dial clearly facing the camera, and the robot's gripper is positioned directly on top of the dial, indicating the press action is in progress.\nAnswer: 3",
+      "correct": true
+    },
+    {
+      "sec": 44,
+      "gt": "press",
+      "pred": "press",
+      "reasoning": "The red radio is on the table, and the gripper is positioned directly over its round dial, indicating the robot is about to press it.",
+      "raw": "Reasoning: The red radio is on the table, and the gripper is positioned directly over its round dial, indicating the robot is about to press it.\nAnswer: 3",
+      "correct": true
+    },
+    {
+      "sec": 45,
+      "gt": "press",
+      "pred": "press",
+      "reasoning": "The red radio is sitting on the table with its round dial clearly facing the camera, and a gripper is directly touching the center of the dial, indicating the robot is in the act of pressing the button.",
+      "raw": "Reasoning: The red radio is sitting on the table with its round dial clearly facing the camera, and a gripper is directly touching the center of the dial, indicating the robot is in the act of pressing the button.\nAnswer: 3",
+      "correct": true
+    },
+    {
+      "sec": 46,
+      "gt": "press",
+      "pred": "press",
+      "reasoning": "The red radio is on the table with its round dial facing the camera, and a gripper is directly touching the dial, which matches the 'press' subskill.",
+      "raw": "Reasoning: The red radio is on the table with its round dial facing the camera, and a gripper is directly touching the dial, which matches the 'press' subskill.\nAnswer: 3",
+      "correct": true
+    },
+    {
+      "sec": 47,
+      "gt": "press",
+      "pred": "press",
+      "reasoning": "The red radio receiver is on the table, and its flat face with the round dial is facing the camera, while the gripper is positioned directly on the dial.",
+      "raw": "Reasoning: The red radio receiver is on the table, and its flat face with the round dial is facing the camera, while the gripper is positioned directly on the dial.\nAnswer: 3",
+      "correct": true
+    },
+    {
+      "sec": 48,
+      "gt": "place on",
+      "pred": "press",
+      "reasoning": "The red radio is on the table, and the gripper is positioned directly over its flat face with the dial visible, indicating the robot is about to press it.",
+      "raw": "Reasoning: The red radio is on the table, and the gripper is positioned directly over its flat face with the dial visible, indicating the robot is about to press it.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 49,
+      "gt": "place on",
+      "pred": "press",
+      "reasoning": "The red radio is on the table, and the gripper is holding it with its round dial facing the camera, indicating the robot is in the 'press' phase of the subskill.",
+      "raw": "Reasoning: The red radio is on the table, and the gripper is holding it with its round dial facing the camera, indicating the robot is in the 'press' phase of the subskill.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "gt": "place on",
+      "pred": "press",
+      "reasoning": "The red radio receiver is on the table, and the gripper is positioned directly over its round dial, indicating the robot is about to press it.",
+      "raw": "Reasoning: The red radio receiver is on the table, and the gripper is positioned directly over its round dial, indicating the robot is about to press it.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "gt": "place on",
+      "pred": "press",
+      "reasoning": "The red radio is on the table, and the gripper is positioned directly over its round dial, indicating the press action is in progress.",
+      "raw": "Reasoning: The red radio is on the table, and the gripper is positioned directly over its round dial, indicating the press action is in progress.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "gt": "place on",
+      "pred": "press",
+      "reasoning": "The red radio is on the table, and the gripper is positioned directly over its round dial, indicating the press step.",
+      "raw": "Reasoning: The red radio is on the table, and the gripper is positioned directly over its round dial, indicating the press step.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "gt": "place on",
+      "pred": "press",
+      "reasoning": "The red radio receiver is on the table, and its flat face with the round dial is facing the camera, but the gripper is not touching the dial.",
+      "raw": "Reasoning: The red radio receiver is on the table, and its flat face with the round dial is facing the camera, but the gripper is not touching the dial.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "gt": "place on",
+      "pred": "press",
+      "reasoning": "The red radio receiver is on the table, and the gripper is positioned directly over its round dial, indicating the press step.",
+      "raw": "Reasoning: The red radio receiver is on the table, and the gripper is positioned directly over its round dial, indicating the press step.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "gt": "place on",
+      "pred": "press",
+      "reasoning": "The red radio is on the table, and the gripper is positioned directly over its round dial, indicating the press action is in progress.",
+      "raw": "Reasoning: The red radio is on the table, and the gripper is positioned directly over its round dial, indicating the press action is in progress.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "gt": "place on",
+      "pred": "press",
+      "reasoning": "The red radio is on the table, and the gripper is positioned directly over its round dial, indicating the robot is about to press it.",
+      "raw": "Reasoning: The red radio is on the table, and the gripper is positioned directly over its round dial, indicating the robot is about to press it.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "gt": "place on",
+      "pred": "pick up from",
+      "reasoning": "The red radio is on the table, and the gripper is positioned near it but not touching the dial; the dial face is not visible, indicating the robot is reaching toward or picking up the radio.",
+      "raw": "Reasoning: The red radio is on the table, and the gripper is positioned near it but not touching the dial; the dial face is not visible, indicating the robot is reaching toward or picking up the radio.\nAnswer: 2",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "gt": "place on",
+      "pred": "move to",
+      "reasoning": "The red radio is on the table, but no robot arm is visible in the frame, so the robot is not interacting with it.",
+      "raw": "Reasoning: The red radio is on the table, but no robot arm is visible in the frame, so the robot is not interacting with it.\nAnswer: 1",
+      "correct": false
+    }
+  ]
+}

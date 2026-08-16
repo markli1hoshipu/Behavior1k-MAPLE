@@ -1,0 +1,489 @@
+{
+  "version": "haiku45_v10",
+  "model": "claude-haiku-4-5-20251001",
+  "action_order": [
+    "move to",
+    "pick up from",
+    "press",
+    "place on"
+  ],
+  "accuracy": 0.3389830508474576,
+  "macro_recall": 0.44747474747474747,
+  "correct": 20,
+  "total": 59,
+  "elapsed_s": 786.3937196731567,
+  "predictions": [
+    {
+      "sec": 0,
+      "gt": "move to",
+      "pred": "move to",
+      "description": "Robot's view of a living room with a red radio receiver on the floor in front of the couch; no robot arms visible, still navigating toward the target ",
+      "raw": "Description: Robot's view of a living room with a red radio receiver on the floor in front of the couch; no robot arms visible, still navigating toward the target object.\nAction: 1",
+      "correct": true
+    },
+    {
+      "sec": 1,
+      "gt": "move to",
+      "pred": "move to",
+      "description": "Red radio receiver still visible on the floor in front of the couch with no robot arms visible in frame.",
+      "raw": "Description: Red radio receiver still visible on the floor in front of the couch with no robot arms visible in frame.\nAction: 1",
+      "correct": true
+    },
+    {
+      "sec": 2,
+      "gt": "move to",
+      "pred": "move to",
+      "description": "Red radio receiver remains on the floor in front of the couch with no robot arms visible in frame.",
+      "raw": "Description: Red radio receiver remains on the floor in front of the couch with no robot arms visible in frame.\nAction: 1",
+      "correct": true
+    },
+    {
+      "sec": 3,
+      "gt": "move to",
+      "pred": "move to",
+      "description": "Red radio receiver remains on the floor with no robot arms visible in frame, robot still navigating toward the object.",
+      "raw": "Description: Red radio receiver remains on the floor with no robot arms visible in frame, robot still navigating toward the object.\nAction: 1",
+      "correct": true
+    },
+    {
+      "sec": 4,
+      "gt": "move to",
+      "pred": "move to",
+      "description": "Red radio receiver sits on the floor with no robot arms visible in frame, robot continuing to navigate toward the object.",
+      "raw": "Description: Red radio receiver sits on the floor with no robot arms visible in frame, robot continuing to navigate toward the object.\nAction: 1",
+      "correct": true
+    },
+    {
+      "sec": 5,
+      "gt": "move to",
+      "pred": "move to",
+      "description": "Red radio receiver on the floor with no robot arms visible in frame; robot continues navigating toward the object.",
+      "raw": "Description: Red radio receiver on the floor with no robot arms visible in frame; robot continues navigating toward the object.\nAction: 1",
+      "correct": true
+    },
+    {
+      "sec": 6,
+      "gt": "move to",
+      "pred": "move to",
+      "description": "Red radio receiver on the floor in the living room; no robot arms visible, still navigating toward the object.",
+      "raw": "Description: Red radio receiver on the floor in the living room; no robot arms visible, still navigating toward the object.\nAction: 1",
+      "correct": true
+    },
+    {
+      "sec": 7,
+      "gt": "move to",
+      "pred": "move to",
+      "description": "Red radio receiver still on the floor with no robot arms visible; robot continuing to navigate toward the object.",
+      "raw": "Description: Red radio receiver still on the floor with no robot arms visible; robot continuing to navigate toward the object.\nAction: 1",
+      "correct": true
+    },
+    {
+      "sec": 8,
+      "gt": "move to",
+      "pred": "move to",
+      "description": "Red radio receiver still on the floor with no robot arms visible; robot continuing to navigate toward it.",
+      "raw": "Description: Red radio receiver still on the floor with no robot arms visible; robot continuing to navigate toward it.\nAction: 1",
+      "correct": true
+    },
+    {
+      "sec": 9,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "Red radio receiver visible on the floor in front of the robot; no gripper arms visible, robot still approaching.",
+      "raw": "Description: Red radio receiver visible on the floor in front of the robot; no gripper arms visible, robot still approaching.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 10,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "Red radio receiver is on the table surface in front of the robot with no gripper arms visible; robot is continuing to approach the target.",
+      "raw": "Description: Red radio receiver is on the table surface in front of the robot with no gripper arms visible; robot is continuing to approach the target.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 11,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "Red radio receiver is on the table with no robot arms or grippers visible; the robot continues navigating closer to the target.",
+      "raw": "Description: Red radio receiver is on the table with no robot arms or grippers visible; the robot continues navigating closer to the target.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 12,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "Red radio receiver is stationary on the tan table with no robot arms or grippers visible; the robot continues approaching the target.",
+      "raw": "Description: Red radio receiver is stationary on the tan table with no robot arms or grippers visible; the robot continues approaching the target.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "description": "A robot gripper is now visible reaching toward the red radio receiver, which remains resting on the tan table.",
+      "raw": "Description: A robot gripper is now visible reaching toward the red radio receiver, which remains resting on the tan table.\nAction: 2",
+      "correct": true
+    },
+    {
+      "sec": 14,
+      "gt": "pick up from",
+      "pred": "press",
+      "description": "The red radio receiver remains on the tan table, with the robot gripper now positioned directly on top of it pressing the center button.",
+      "raw": "Description: The red radio receiver remains on the tan table, with the robot gripper now positioned directly on top of it pressing the center button.\nAction: 3",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "gt": "pick up from",
+      "pred": "place on",
+      "description": "The red radio receiver is now resting flat on the tan table with no gripper visible in the frame.",
+      "raw": "Description: The red radio receiver is now resting flat on the tan table with no gripper visible in the frame.\nAction: 4",
+      "correct": false
+    },
+    {
+      "sec": 16,
+      "gt": "pick up from",
+      "pred": "place on",
+      "description": "The red radio receiver is resting flat on the tan table with no gripper visible in the frame.",
+      "raw": "Description: The red radio receiver is resting flat on the tan table with no gripper visible in the frame.\nAction: 4",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The red radio receiver is still resting flat on the tan table with no robot gripper visible in the frame.",
+      "raw": "Description: The red radio receiver is still resting flat on the tan table with no robot gripper visible in the frame.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 18,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The red radio receiver remains resting flat on the tan table with no robot gripper visible in the frame.",
+      "raw": "Description: The red radio receiver remains resting flat on the tan table with no robot gripper visible in the frame.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 19,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The red radio receiver is resting flat on the tan table surface with no robot gripper visible in the frame.",
+      "raw": "Description: The red radio receiver is resting flat on the tan table surface with no robot gripper visible in the frame.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 20,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The red radio receiver remains resting flat on the tan table surface with no robot gripper visible in the frame.",
+      "raw": "Description: The red radio receiver remains resting flat on the tan table surface with no robot gripper visible in the frame.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The red radio receiver remains resting flat on the floor surface with no robot gripper visible in the frame.",
+      "raw": "Description: The red radio receiver remains resting flat on the floor surface with no robot gripper visible in the frame.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The red radio receiver remains resting flat on the floor with no robot gripper visible in the frame.",
+      "raw": "Description: The red radio receiver remains resting flat on the floor with no robot gripper visible in the frame.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "description": "The robot's gripper is visible and holding the red radio receiver lifted off the floor.",
+      "raw": "Description: The robot's gripper is visible and holding the red radio receiver lifted off the floor.\nAction: 2",
+      "correct": true
+    },
+    {
+      "sec": 24,
+      "gt": "pick up from",
+      "pred": "press",
+      "description": "The red radio receiver is resting on the table surface with no visible gripper in frame, indicating the button pressing action is occurring.",
+      "raw": "Description: The red radio receiver is resting on the table surface with no visible gripper in frame, indicating the button pressing action is occurring.\nAction: 3",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "gt": "pick up from",
+      "pred": "place on",
+      "description": "The red radio receiver is resting on the table with no visible gripper in frame.",
+      "raw": "Description: The red radio receiver is resting on the table with no visible gripper in frame.\nAction: 4",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "gt": "pick up from",
+      "pred": "move to",
+      "description": "The red radio receiver remains resting on the table surface with no robot gripper visible in frame.",
+      "raw": "Description: The red radio receiver remains resting on the table surface with no robot gripper visible in frame.\nAction: 1",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "description": "A robot gripper is now visible at the table level, reaching toward the red radio receiver which remains resting on the surface.",
+      "raw": "Description: A robot gripper is now visible at the table level, reaching toward the red radio receiver which remains resting on the surface.\nAction: 2",
+      "correct": true
+    },
+    {
+      "sec": 28,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "description": "The robot gripper is visibly grasping and lifting the red radio receiver up off the table surface.",
+      "raw": "Description: The robot gripper is visibly grasping and lifting the red radio receiver up off the table surface.\nAction: 2",
+      "correct": true
+    },
+    {
+      "sec": 29,
+      "gt": "pick up from",
+      "pred": "press",
+      "description": "The robot's gripper fingertip is positioned directly on the round white button in the center of the red radio receiver, pressing down on it.",
+      "raw": "Description: The robot's gripper fingertip is positioned directly on the round white button in the center of the red radio receiver, pressing down on it.\nAction: 3",
+      "correct": false
+    },
+    {
+      "sec": 30,
+      "gt": "pick up from",
+      "pred": "place on",
+      "description": "The robot's gripper is releasing the red radio receiver back down onto the table surface after pressing the button.",
+      "raw": "Description: The robot's gripper is releasing the red radio receiver back down onto the table surface after pressing the button.\nAction: 4",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "gt": "pick up from",
+      "pred": "place on",
+      "description": "The robot's gripper is releasing the red radio receiver onto the table surface.",
+      "raw": "Description: The robot's gripper is releasing the red radio receiver onto the table surface.\nAction: 4",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "gt": "pick up from",
+      "pred": "place on",
+      "description": "The robot's gripper is releasing the red radio receiver onto the table surface.",
+      "raw": "Description: The robot's gripper is releasing the red radio receiver onto the table surface.\nAction: 4",
+      "correct": false
+    },
+    {
+      "sec": 33,
+      "gt": "pick up from",
+      "pred": "place on",
+      "description": "The robot's gripper is releasing the red radio receiver as it rests down on the table surface.",
+      "raw": "Description: The robot's gripper is releasing the red radio receiver as it rests down on the table surface.\nAction: 4",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "gt": "pick up from",
+      "pred": "place on",
+      "description": "The robot's gripper is releasing or has just released the red radio receiver, which is now resting flat on the table surface.",
+      "raw": "Description: The robot's gripper is releasing or has just released the red radio receiver, which is now resting flat on the table surface.\nAction: 4",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "gt": "pick up from",
+      "pred": "place on",
+      "description": "The robot's gripper is visible and the red radio receiver is resting flat on the table surface.",
+      "raw": "Description: The robot's gripper is visible and the red radio receiver is resting flat on the table surface.\nAction: 4",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "gt": "pick up from",
+      "pred": "press",
+      "description": "The robot's gripper is pressing down on the round white button in the center of the red radio receiver on the table.",
+      "raw": "Description: The robot's gripper is pressing down on the round white button in the center of the red radio receiver on the table.\nAction: 3",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "gt": "pick up from",
+      "pred": "place on",
+      "description": "The gripper is holding the red radio receiver and lowering it back onto the table.",
+      "raw": "Description: The gripper is holding the red radio receiver and lowering it back onto the table.\nAction: 4",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "gt": "pick up from",
+      "pred": "place on",
+      "description": "The gripper is releasing the red radio receiver as it rests on the table surface.",
+      "raw": "Description: The gripper is releasing the red radio receiver as it rests on the table surface.\nAction: 4",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "gt": "press",
+      "pred": "pick up from",
+      "description": "The gripper is holding the red radio receiver raised up off the table surface.",
+      "raw": "Description: The gripper is holding the red radio receiver raised up off the table surface.\nAction: 2",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "gt": "press",
+      "pred": "pick up from",
+      "description": "The gripper is holding the red radio receiver raised up above the table surface.",
+      "raw": "Description: The gripper is holding the red radio receiver raised up above the table surface.\nAction: 2",
+      "correct": false
+    },
+    {
+      "sec": 41,
+      "gt": "press",
+      "pred": "place on",
+      "description": "The gripper is releasing the red radio receiver, which is now resting flat on the table surface.",
+      "raw": "Description: The gripper is releasing the red radio receiver, which is now resting flat on the table surface.\nAction: 4",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "gt": "press",
+      "pred": "place on",
+      "description": "The gripper is open and positioned above the red radio receiver, which is resting flat on the table surface after being placed down.",
+      "raw": "Description: The gripper is open and positioned above the red radio receiver, which is resting flat on the table surface after being placed down.\nAction: 4",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "gt": "press",
+      "pred": "pick up from",
+      "description": "The gripper is reaching down toward the red radio receiver, preparing to grasp and lift it from the table.",
+      "raw": "Description: The gripper is reaching down toward the red radio receiver, preparing to grasp and lift it from the table.\nAction: 2",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "gt": "press",
+      "pred": "pick up from",
+      "description": "The gripper is actively grasping and lifting the red radio receiver off the table surface.",
+      "raw": "Description: The gripper is actively grasping and lifting the red radio receiver off the table surface.\nAction: 2",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "gt": "press",
+      "pred": "press",
+      "description": "The gripper's fingertip is directly on the round button in the center of the red radio receiver, actively pressing down.",
+      "raw": "Description: The gripper's fingertip is directly on the round button in the center of the red radio receiver, actively pressing down.\nAction: 3",
+      "correct": true
+    },
+    {
+      "sec": 46,
+      "gt": "press",
+      "pred": "place on",
+      "description": "The gripper is releasing the red radio receiver, which is now resting flat on the table surface after being pressed.",
+      "raw": "Description: The gripper is releasing the red radio receiver, which is now resting flat on the table surface after being pressed.\nAction: 4",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "gt": "press",
+      "pred": "place on",
+      "description": "The gripper is releasing the red radio receiver, which rests flat on the table surface.",
+      "raw": "Description: The gripper is releasing the red radio receiver, which rests flat on the table surface.\nAction: 4",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "gt": "place on",
+      "pred": "place on",
+      "description": "The red radio receiver is resting flat on the table surface with robot grippers positioned on either side as they release it.",
+      "raw": "Description: The red radio receiver is resting flat on the table surface with robot grippers positioned on either side as they release it.\nAction: 4",
+      "correct": true
+    },
+    {
+      "sec": 49,
+      "gt": "place on",
+      "pred": "place on",
+      "description": "The red radio receiver is resting flat on the table surface with robot grippers positioned on either side of it.",
+      "raw": "Description: The red radio receiver is resting flat on the table surface with robot grippers positioned on either side of it.\nAction: 4",
+      "correct": true
+    },
+    {
+      "sec": 50,
+      "gt": "place on",
+      "pred": "pick up from",
+      "description": "Robot grippers are actively grasping the red radio receiver on either side while it remains resting on the table surface.",
+      "raw": "Description: Robot grippers are actively grasping the red radio receiver on either side while it remains resting on the table surface.\nAction: 2",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "gt": "place on",
+      "pred": "pick up from",
+      "description": "Robot grippers are lifting the red radio receiver up off the table surface, holding it aloft.",
+      "raw": "Description: Robot grippers are lifting the red radio receiver up off the table surface, holding it aloft.\nAction: 2",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "gt": "place on",
+      "pred": "press",
+      "description": "Robot gripper is pressing down on the center of the red radio receiver, holding it up while applying downward pressure.",
+      "raw": "Description: Robot gripper is pressing down on the center of the red radio receiver, holding it up while applying downward pressure.\nAction: 3",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "gt": "place on",
+      "pred": "place on",
+      "description": "The robot's gripper is releasing the red radio receiver, which is now resting flat on the table surface.",
+      "raw": "Description: The robot's gripper is releasing the red radio receiver, which is now resting flat on the table surface.\nAction: 4",
+      "correct": true
+    },
+    {
+      "sec": 54,
+      "gt": "place on",
+      "pred": "place on",
+      "description": "The red radio receiver is resting flat on the table surface with the robot's gripper still hovering above or just releasing contact with it.",
+      "raw": "Description: The red radio receiver is resting flat on the table surface with the robot's gripper still hovering above or just releasing contact with it.\nAction: 4",
+      "correct": true
+    },
+    {
+      "sec": 55,
+      "gt": "place on",
+      "pred": "pick up from",
+      "description": "The robot gripper is holding the red radio receiver up off the table surface.",
+      "raw": "Description: The robot gripper is holding the red radio receiver up off the table surface.\nAction: 2",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "gt": "place on",
+      "pred": "press",
+      "description": "The robot's gripper is holding the red radio receiver up in the air with its fingertip positioned on the round button at the center of the device.",
+      "raw": "Description: The robot's gripper is holding the red radio receiver up in the air with its fingertip positioned on the round button at the center of the device.\nAction: 3",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "gt": "place on",
+      "pred": "place on",
+      "description": "The robot's gripper is releasing the red radio receiver, which is now resting flat on the table surface.",
+      "raw": "Description: The robot's gripper is releasing the red radio receiver, which is now resting flat on the table surface.\nAction: 4",
+      "correct": true
+    },
+    {
+      "sec": 58,
+      "gt": "place on",
+      "pred": "place on",
+      "description": "The robot's grippers are releasing the red radio receiver as it rests flat on the table surface.",
+      "raw": "Description: The robot's grippers are releasing the red radio receiver as it rests flat on the table surface.\nAction: 4",
+      "correct": true
+    }
+  ]
+}

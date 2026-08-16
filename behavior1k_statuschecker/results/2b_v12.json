@@ -1,0 +1,424 @@
+{
+  "version": "2b_v12",
+  "window": 3,
+  "system_prompt": "You are annotating a robot's head-mounted camera video. You will see the last few frames, one second apart, ending at the current moment.",
+  "user_prompt": "Task: \"Turn on the radio receiver that's on the table in the living room.\"\nThe robot's subskill right now is always exactly one of:\n1. move to\n2. pick up from\n3. press\n4. place on\nWhat is the robot doing right now, in the most recent frame? Respond with ONLY the digit (1-4).",
+  "accuracy": 0.1864406779661017,
+  "correct": 11,
+  "total": 59,
+  "predictions": [
+    {
+      "sec": 0,
+      "gt": "move to",
+      "pred": "press",
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 1,
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "4",
+      "correct": false
+    },
+    {
+      "sec": 2,
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "4",
+      "correct": false
+    },
+    {
+      "sec": 3,
+      "gt": "move to",
+      "pred": "press",
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 4,
+      "gt": "move to",
+      "pred": "press",
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 5,
+      "gt": "move to",
+      "pred": "press",
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 6,
+      "gt": "move to",
+      "pred": "press",
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 7,
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "4",
+      "correct": false
+    },
+    {
+      "sec": 8,
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "4",
+      "correct": false
+    },
+    {
+      "sec": 9,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "4",
+      "correct": false
+    },
+    {
+      "sec": 10,
+      "gt": "pick up from",
+      "pred": "press",
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 11,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "4",
+      "correct": false
+    },
+    {
+      "sec": 12,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "4",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "4",
+      "correct": false
+    },
+    {
+      "sec": 14,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "4",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "4",
+      "correct": false
+    },
+    {
+      "sec": 16,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "4",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "4",
+      "correct": false
+    },
+    {
+      "sec": 18,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "4",
+      "correct": false
+    },
+    {
+      "sec": 19,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "4",
+      "correct": false
+    },
+    {
+      "sec": 20,
+      "gt": "pick up from",
+      "pred": "press",
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "4",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": true
+    },
+    {
+      "sec": 23,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "4",
+      "correct": false
+    },
+    {
+      "sec": 24,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "4",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "4",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "4",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "4",
+      "correct": false
+    },
+    {
+      "sec": 28,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "4",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": true
+    },
+    {
+      "sec": 30,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "4",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "gt": "pick up from",
+      "pred": "press",
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "gt": "pick up from",
+      "pred": "press",
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 33,
+      "gt": "pick up from",
+      "pred": "press",
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "gt": "pick up from",
+      "pred": "press",
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "gt": "pick up from",
+      "pred": "press",
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "gt": "pick up from",
+      "pred": "press",
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "gt": "pick up from",
+      "pred": "press",
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "gt": "pick up from",
+      "pred": "press",
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "gt": "press",
+      "pred": "press",
+      "raw": "3",
+      "correct": true
+    },
+    {
+      "sec": 40,
+      "gt": "press",
+      "pred": "place on",
+      "raw": "4",
+      "correct": false
+    },
+    {
+      "sec": 41,
+      "gt": "press",
+      "pred": "place on",
+      "raw": "4",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "gt": "press",
+      "pred": "place on",
+      "raw": "4",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "gt": "press",
+      "pred": "press",
+      "raw": "3",
+      "correct": true
+    },
+    {
+      "sec": 44,
+      "gt": "press",
+      "pred": "place on",
+      "raw": "4",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "gt": "press",
+      "pred": "place on",
+      "raw": "4",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "gt": "press",
+      "pred": "place on",
+      "raw": "4",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "gt": "press",
+      "pred": "place on",
+      "raw": "4",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "4",
+      "correct": true
+    },
+    {
+      "sec": 49,
+      "gt": "place on",
+      "pred": "press",
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "gt": "place on",
+      "pred": "press",
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "gt": "place on",
+      "pred": "press",
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "4",
+      "correct": true
+    },
+    {
+      "sec": 53,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "4",
+      "correct": true
+    },
+    {
+      "sec": 54,
+      "gt": "place on",
+      "pred": "press",
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "4",
+      "correct": true
+    },
+    {
+      "sec": 56,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "4",
+      "correct": true
+    },
+    {
+      "sec": 57,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "4",
+      "correct": true
+    },
+    {
+      "sec": 58,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "4",
+      "correct": true
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+1. close door - Red gloves are visible inside the washer drum and the drum door is swinging shut or already flat against the machine; grippers are empty (they may touch the door edge or hang low). Empty grippers + red in the drum ⇒ close door.
+2. move to - Bare floor stretches between the robot and any appliance, or the view is a wide room/hallway; the arms hold nothing, or hold red gloves raised in open air far from the washer. Floor visible under the target ⇒ move to, never place in.
+3. open door - The white washer's glass door is swung open, the drum is completely EMPTY (no red anywhere), and a gripper is at the door rim. Once the door is shut and the drum hidden, opening vs. closing is not decidable from one frame; prefer close door if any red is in the drum.
+4. pick up from - A red glove is gripped by or hanging from the gripper jaws right at the counter, even if the second glove still lies flat.
+5. place in - A gripper is actually holding a red glove at or inside the drum opening. If no glove is held, this label is wrong.
+6. turn on switch - Door is shut and a gripper reaches the round red button on the upper control panel.
+7. turn to - Both gloves rest on the counter, untouched by either gripper.

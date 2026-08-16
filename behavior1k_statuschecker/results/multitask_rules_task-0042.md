@@ -1,0 +1,8 @@
+1. chop - The knife is held with its blade touching or standing in a whole onion resting on the wooden board, and the board still holds a large onion piece plus a few loose white bits.
+2. move to - No countertop work surface fills the view; instead the camera shows a wide room, floor, or distant kitchen with both arms hanging empty and nothing held near any object.
+3. pick up from - A gripper is reaching down into the metal sink basin or closing around an item there, with the counter and board visible but no cutting or carrying action.
+4. place in - The white bowl and board are seen from a distance with the arms empty or swinging away, or a gripper hovers over the sink area; a single frame often cannot tell this apart from pick up from, since both look like a hand near the sink and only the direction of transfer differs.
+5. place on - A gripper holds the onion right over the wooden board, about to release it there, with the board otherwise bare.
+6. place on next to - A gripper carries the wooden cutting board itself, tilted in the air near the white bowl and empty counter, before the board is set down.
+7. pour - The board is grasped and tipped toward the white bowl while many small white cubes sit on it; the view is pulled back and no knife is in hand.
+8. push to - A knife is held near the board but not into the onion, or a gripper nudges the board or onion along the counter; this is hard to separate from chop in one frame, since both show knife, board, and onion together.

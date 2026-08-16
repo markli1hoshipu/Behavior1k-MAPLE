@@ -1,0 +1,2412 @@
+{
+  "task_chunk": "task-0005",
+  "task_name": "setting_mousetraps",
+  "accuracy": 0.12666666666666668,
+  "macro_recall": 0.12666666666666668,
+  "correct": 38,
+  "total": 300,
+  "n_classes": 5,
+  "unseen_gt_label_frames": 0,
+  "predictions": [
+    {
+      "sec": 3,
+      "episode": "episode_00050260",
+      "gt": "move to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 183,
+      "episode": "episode_00050260",
+      "gt": "move to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 202,
+      "episode": "episode_00050260",
+      "gt": "move to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": true
+    },
+    {
+      "sec": 2,
+      "episode": "episode_00050270",
+      "gt": "move to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": true
+    },
+    {
+      "sec": 178,
+      "episode": "episode_00050270",
+      "gt": "move to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 198,
+      "episode": "episode_00050270",
+      "gt": "move to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 3,
+      "episode": "episode_00050280",
+      "gt": "move to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "episode": "episode_00050280",
+      "gt": "move to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 168,
+      "episode": "episode_00050280",
+      "gt": "move to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 187,
+      "episode": "episode_00050280",
+      "gt": "move to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": true
+    },
+    {
+      "sec": 207,
+      "episode": "episode_00050280",
+      "gt": "move to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": true
+    },
+    {
+      "sec": 14,
+      "episode": "episode_00050290",
+      "gt": "move to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": true
+    },
+    {
+      "sec": 192,
+      "episode": "episode_00050290",
+      "gt": "move to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": true
+    },
+    {
+      "sec": 211,
+      "episode": "episode_00050290",
+      "gt": "move to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": true
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00050300",
+      "gt": "move to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": true
+    },
+    {
+      "sec": 159,
+      "episode": "episode_00050300",
+      "gt": "move to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 178,
+      "episode": "episode_00050300",
+      "gt": "move to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 197,
+      "episode": "episode_00050300",
+      "gt": "move to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": true
+    },
+    {
+      "sec": 173,
+      "episode": "episode_00050310",
+      "gt": "move to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": true
+    },
+    {
+      "sec": 193,
+      "episode": "episode_00050310",
+      "gt": "move to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": true
+    },
+    {
+      "sec": 212,
+      "episode": "episode_00050310",
+      "gt": "move to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": true
+    },
+    {
+      "sec": 159,
+      "episode": "episode_00050320",
+      "gt": "move to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": true
+    },
+    {
+      "sec": 178,
+      "episode": "episode_00050320",
+      "gt": "move to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": true
+    },
+    {
+      "sec": 125,
+      "episode": "episode_00050330",
+      "gt": "move to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": true
+    },
+    {
+      "sec": 145,
+      "episode": "episode_00050330",
+      "gt": "move to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": true
+    },
+    {
+      "sec": 164,
+      "episode": "episode_00050330",
+      "gt": "move to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 176,
+      "episode": "episode_00050350",
+      "gt": "move to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 195,
+      "episode": "episode_00050350",
+      "gt": "move to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 215,
+      "episode": "episode_00050350",
+      "gt": "move to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": true
+    },
+    {
+      "sec": 10,
+      "episode": "episode_00050360",
+      "gt": "move to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 168,
+      "episode": "episode_00050360",
+      "gt": "move to mousetrap",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 187,
+      "episode": "episode_00050360",
+      "gt": "move to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": true
+    },
+    {
+      "sec": 206,
+      "episode": "episode_00050360",
+      "gt": "move to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": true
+    },
+    {
+      "sec": 106,
+      "episode": "episode_00050370",
+      "gt": "move to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": true
+    },
+    {
+      "sec": 125,
+      "episode": "episode_00050370",
+      "gt": "move to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 125,
+      "episode": "episode_00050380",
+      "gt": "move to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": true
+    },
+    {
+      "sec": 144,
+      "episode": "episode_00050380",
+      "gt": "move to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": true
+    },
+    {
+      "sec": 11,
+      "episode": "episode_00050390",
+      "gt": "move to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": true
+    },
+    {
+      "sec": 164,
+      "episode": "episode_00050390",
+      "gt": "move to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": true
+    },
+    {
+      "sec": 183,
+      "episode": "episode_00050390",
+      "gt": "move to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": true
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00050400",
+      "gt": "move to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00050400",
+      "gt": "move to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": true
+    },
+    {
+      "sec": 200,
+      "episode": "episode_00050400",
+      "gt": "move to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": true
+    },
+    {
+      "sec": 10,
+      "episode": "episode_00050420",
+      "gt": "move to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": true
+    },
+    {
+      "sec": 169,
+      "episode": "episode_00050420",
+      "gt": "move to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 188,
+      "episode": "episode_00050420",
+      "gt": "move to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 207,
+      "episode": "episode_00050420",
+      "gt": "move to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "episode": "episode_00050430",
+      "gt": "move to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": true
+    },
+    {
+      "sec": 168,
+      "episode": "episode_00050430",
+      "gt": "move to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 187,
+      "episode": "episode_00050430",
+      "gt": "move to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": true
+    },
+    {
+      "sec": 136,
+      "episode": "episode_00050440",
+      "gt": "move to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": true
+    },
+    {
+      "sec": 156,
+      "episode": "episode_00050440",
+      "gt": "move to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 175,
+      "episode": "episode_00050440",
+      "gt": "move to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": true
+    },
+    {
+      "sec": 20,
+      "episode": "episode_00050450",
+      "gt": "move to mousetrap",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 152,
+      "episode": "episode_00050450",
+      "gt": "move to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": true
+    },
+    {
+      "sec": 171,
+      "episode": "episode_00050450",
+      "gt": "move to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": true
+    },
+    {
+      "sec": 147,
+      "episode": "episode_00050460",
+      "gt": "move to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": true
+    },
+    {
+      "sec": 166,
+      "episode": "episode_00050460",
+      "gt": "move to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": true
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00050480",
+      "gt": "move to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": true
+    },
+    {
+      "sec": 150,
+      "episode": "episode_00050480",
+      "gt": "move to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "episode": "episode_00050260",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00050260",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 98,
+      "episode": "episode_00050260",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 243,
+      "episode": "episode_00050260",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "episode": "episode_00050270",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 63,
+      "episode": "episode_00050270",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 223,
+      "episode": "episode_00050270",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 259,
+      "episode": "episode_00050270",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00050280",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 224,
+      "episode": "episode_00050280",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00050290",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 60,
+      "episode": "episode_00050290",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 97,
+      "episode": "episode_00050290",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00050300",
+      "gt": "pick up from mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00050300",
+      "gt": "pick up from mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00050310",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 61,
+      "episode": "episode_00050310",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 224,
+      "episode": "episode_00050310",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 261,
+      "episode": "episode_00050310",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00050320",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 204,
+      "episode": "episode_00050320",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 20,
+      "episode": "episode_00050330",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00050330",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 195,
+      "episode": "episode_00050330",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00050350",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 59,
+      "episode": "episode_00050350",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 96,
+      "episode": "episode_00050350",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 251,
+      "episode": "episode_00050350",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "episode": "episode_00050360",
+      "gt": "pick up from mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 64,
+      "episode": "episode_00050360",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 235,
+      "episode": "episode_00050360",
+      "gt": "pick up from mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 18,
+      "episode": "episode_00050370",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00050370",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "episode": "episode_00050380",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 163,
+      "episode": "episode_00050380",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00050390",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 68,
+      "episode": "episode_00050390",
+      "gt": "pick up from mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 227,
+      "episode": "episode_00050390",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 264,
+      "episode": "episode_00050390",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00050400",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 218,
+      "episode": "episode_00050400",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 254,
+      "episode": "episode_00050400",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 290,
+      "episode": "episode_00050400",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00050420",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 228,
+      "episode": "episode_00050420",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 264,
+      "episode": "episode_00050420",
+      "gt": "pick up from mousetrap",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "episode": "episode_00050430",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 193,
+      "episode": "episode_00050430",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 229,
+      "episode": "episode_00050430",
+      "gt": "pick up from mousetrap",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00050440",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 197,
+      "episode": "episode_00050440",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 233,
+      "episode": "episode_00050440",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00050450",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 195,
+      "episode": "episode_00050450",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 231,
+      "episode": "episode_00050450",
+      "gt": "pick up from mousetrap",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00050460",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 179,
+      "episode": "episode_00050460",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 215,
+      "episode": "episode_00050460",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00050480",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 199,
+      "episode": "episode_00050480",
+      "gt": "pick up from mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 116,
+      "episode": "episode_00050260",
+      "gt": "move to furniture sink",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 124,
+      "episode": "episode_00050260",
+      "gt": "move to furniture sink",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 132,
+      "episode": "episode_00050260",
+      "gt": "move to furniture sink",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 140,
+      "episode": "episode_00050260",
+      "gt": "move to furniture sink",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 103,
+      "episode": "episode_00050270",
+      "gt": "move to furniture sink",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 111,
+      "episode": "episode_00050270",
+      "gt": "move to furniture sink",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 91,
+      "episode": "episode_00050280",
+      "gt": "move to furniture sink",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 99,
+      "episode": "episode_00050280",
+      "gt": "move to furniture sink",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 107,
+      "episode": "episode_00050280",
+      "gt": "move to furniture sink",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 111,
+      "episode": "episode_00050290",
+      "gt": "move to furniture sink",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 119,
+      "episode": "episode_00050290",
+      "gt": "move to furniture sink",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 72,
+      "episode": "episode_00050300",
+      "gt": "move to furniture sink",
+      "pred": "move to mousetrap",
+      "raw": "3. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00050300",
+      "gt": "move to furniture sink",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 88,
+      "episode": "episode_00050300",
+      "gt": "move to furniture sink",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 91,
+      "episode": "episode_00050310",
+      "gt": "move to furniture sink",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 99,
+      "episode": "episode_00050310",
+      "gt": "move to furniture sink",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 107,
+      "episode": "episode_00050310",
+      "gt": "move to furniture sink",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 68,
+      "episode": "episode_00050320",
+      "gt": "move to furniture sink",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 77,
+      "episode": "episode_00050320",
+      "gt": "move to furniture sink",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00050320",
+      "gt": "move to furniture sink",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00050330",
+      "gt": "move to furniture sink",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00050330",
+      "gt": "move to furniture sink",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 108,
+      "episode": "episode_00050350",
+      "gt": "move to furniture sink",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 116,
+      "episode": "episode_00050350",
+      "gt": "move to furniture sink",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 124,
+      "episode": "episode_00050350",
+      "gt": "move to furniture sink",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00050360",
+      "gt": "move to furniture sink",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 88,
+      "episode": "episode_00050360",
+      "gt": "move to furniture sink",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 96,
+      "episode": "episode_00050360",
+      "gt": "move to furniture sink",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 104,
+      "episode": "episode_00050360",
+      "gt": "move to furniture sink",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 64,
+      "episode": "episode_00050370",
+      "gt": "move to furniture sink",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 72,
+      "episode": "episode_00050370",
+      "gt": "move to furniture sink",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00050380",
+      "gt": "move to furniture sink",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00050380",
+      "gt": "move to furniture sink",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 63,
+      "episode": "episode_00050380",
+      "gt": "move to furniture sink",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 76,
+      "episode": "episode_00050390",
+      "gt": "move to furniture sink",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00050390",
+      "gt": "move to furniture sink",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 93,
+      "episode": "episode_00050390",
+      "gt": "move to furniture sink",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 78,
+      "episode": "episode_00050400",
+      "gt": "move to furniture sink",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 86,
+      "episode": "episode_00050400",
+      "gt": "move to furniture sink",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 94,
+      "episode": "episode_00050400",
+      "gt": "move to furniture sink",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 102,
+      "episode": "episode_00050400",
+      "gt": "move to furniture sink",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00050420",
+      "gt": "move to furniture sink",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 88,
+      "episode": "episode_00050420",
+      "gt": "move to furniture sink",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 97,
+      "episode": "episode_00050420",
+      "gt": "move to furniture sink",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 69,
+      "episode": "episode_00050430",
+      "gt": "move to furniture sink",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 77,
+      "episode": "episode_00050430",
+      "gt": "move to furniture sink",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00050430",
+      "gt": "move to furniture sink",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 93,
+      "episode": "episode_00050430",
+      "gt": "move to furniture sink",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00050440",
+      "gt": "move to furniture sink",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 74,
+      "episode": "episode_00050440",
+      "gt": "move to furniture sink",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 72,
+      "episode": "episode_00050450",
+      "gt": "move to furniture sink",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00050450",
+      "gt": "move to furniture sink",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 89,
+      "episode": "episode_00050450",
+      "gt": "move to furniture sink",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 97,
+      "episode": "episode_00050450",
+      "gt": "move to furniture sink",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 78,
+      "episode": "episode_00050460",
+      "gt": "move to furniture sink",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 86,
+      "episode": "episode_00050460",
+      "gt": "move to furniture sink",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 94,
+      "episode": "episode_00050460",
+      "gt": "move to furniture sink",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00050480",
+      "gt": "move to furniture sink",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00050480",
+      "gt": "move to furniture sink",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 73,
+      "episode": "episode_00050480",
+      "gt": "move to furniture sink",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00050260",
+      "gt": "place on next to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 174,
+      "episode": "episode_00050260",
+      "gt": "place on next to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 313,
+      "episode": "episode_00050260",
+      "gt": "place on next to mousetrap",
+      "pred": "move to toilet",
+      "raw": "3. move to toilet",
+      "correct": false
+    },
+    {
+      "sec": 129,
+      "episode": "episode_00050270",
+      "gt": "place on next to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 162,
+      "episode": "episode_00050270",
+      "gt": "place on next to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 319,
+      "episode": "episode_00050270",
+      "gt": "place on next to mousetrap",
+      "pred": "move to toilet",
+      "raw": "3. move to toilet",
+      "correct": false
+    },
+    {
+      "sec": 352,
+      "episode": "episode_00050270",
+      "gt": "place on next to mousetrap",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 126,
+      "episode": "episode_00050280",
+      "gt": "place on next to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 159,
+      "episode": "episode_00050280",
+      "gt": "place on next to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 293,
+      "episode": "episode_00050280",
+      "gt": "place on next to mousetrap",
+      "pred": "move to toilet",
+      "raw": "3. move to toilet",
+      "correct": false
+    },
+    {
+      "sec": 133,
+      "episode": "episode_00050290",
+      "gt": "place on next to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 166,
+      "episode": "episode_00050290",
+      "gt": "place on next to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 282,
+      "episode": "episode_00050290",
+      "gt": "place on next to mousetrap",
+      "pred": "move to toilet",
+      "raw": "3. move to toilet",
+      "correct": false
+    },
+    {
+      "sec": 315,
+      "episode": "episode_00050290",
+      "gt": "place on next to mousetrap",
+      "pred": "move to toilet",
+      "raw": "3. move to toilet",
+      "correct": false
+    },
+    {
+      "sec": 123,
+      "episode": "episode_00050300",
+      "gt": "place on next to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 243,
+      "episode": "episode_00050300",
+      "gt": "place on next to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 276,
+      "episode": "episode_00050300",
+      "gt": "place on next to mousetrap",
+      "pred": "move to toilet",
+      "raw": "3. move to toilet",
+      "correct": false
+    },
+    {
+      "sec": 128,
+      "episode": "episode_00050310",
+      "gt": "place on next to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 161,
+      "episode": "episode_00050310",
+      "gt": "place on next to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 314,
+      "episode": "episode_00050310",
+      "gt": "place on next to mousetrap",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 99,
+      "episode": "episode_00050320",
+      "gt": "place on next to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 132,
+      "episode": "episode_00050320",
+      "gt": "place on next to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 257,
+      "episode": "episode_00050320",
+      "gt": "place on next to mousetrap",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 87,
+      "episode": "episode_00050330",
+      "gt": "place on next to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 120,
+      "episode": "episode_00050330",
+      "gt": "place on next to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 269,
+      "episode": "episode_00050330",
+      "gt": "place on next to mousetrap",
+      "pred": "move to toilet",
+      "raw": "3. move to toilet",
+      "correct": false
+    },
+    {
+      "sec": 151,
+      "episode": "episode_00050350",
+      "gt": "place on next to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 312,
+      "episode": "episode_00050350",
+      "gt": "place on next to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 345,
+      "episode": "episode_00050350",
+      "gt": "place on next to mousetrap",
+      "pred": "move to toilet",
+      "raw": "3. move to toilet",
+      "correct": false
+    },
+    {
+      "sec": 134,
+      "episode": "episode_00050360",
+      "gt": "place on next to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 292,
+      "episode": "episode_00050360",
+      "gt": "place on next to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 325,
+      "episode": "episode_00050360",
+      "gt": "place on next to mousetrap",
+      "pred": "move to toilet",
+      "raw": "3. move to toilet",
+      "correct": false
+    },
+    {
+      "sec": 96,
+      "episode": "episode_00050370",
+      "gt": "place on next to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 186,
+      "episode": "episode_00050370",
+      "gt": "place on next to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 100,
+      "episode": "episode_00050380",
+      "gt": "place on next to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 230,
+      "episode": "episode_00050380",
+      "gt": "place on next to mousetrap",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 100,
+      "episode": "episode_00050390",
+      "gt": "place on next to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 133,
+      "episode": "episode_00050390",
+      "gt": "place on next to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 305,
+      "episode": "episode_00050390",
+      "gt": "place on next to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 338,
+      "episode": "episode_00050390",
+      "gt": "place on next to mousetrap",
+      "pred": "move to toilet",
+      "raw": "3. move to toilet",
+      "correct": false
+    },
+    {
+      "sec": 138,
+      "episode": "episode_00050400",
+      "gt": "place on next to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 171,
+      "episode": "episode_00050400",
+      "gt": "place on next to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 339,
+      "episode": "episode_00050400",
+      "gt": "place on next to mousetrap",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 116,
+      "episode": "episode_00050420",
+      "gt": "place on next to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 149,
+      "episode": "episode_00050420",
+      "gt": "place on next to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 327,
+      "episode": "episode_00050420",
+      "gt": "place on next to mousetrap",
+      "pred": "move to toilet",
+      "raw": "3. move to toilet",
+      "correct": false
+    },
+    {
+      "sec": 360,
+      "episode": "episode_00050420",
+      "gt": "place on next to mousetrap",
+      "pred": "move to toilet",
+      "raw": "3. move to toilet",
+      "correct": false
+    },
+    {
+      "sec": 114,
+      "episode": "episode_00050430",
+      "gt": "place on next to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 147,
+      "episode": "episode_00050430",
+      "gt": "place on next to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 289,
+      "episode": "episode_00050430",
+      "gt": "place on next to mousetrap",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 91,
+      "episode": "episode_00050440",
+      "gt": "place on next to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 124,
+      "episode": "episode_00050440",
+      "gt": "place on next to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 283,
+      "episode": "episode_00050440",
+      "gt": "place on next to mousetrap",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 111,
+      "episode": "episode_00050450",
+      "gt": "place on next to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 258,
+      "episode": "episode_00050450",
+      "gt": "place on next to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 292,
+      "episode": "episode_00050450",
+      "gt": "place on next to mousetrap",
+      "pred": "move to toilet",
+      "raw": "3. move to toilet",
+      "correct": false
+    },
+    {
+      "sec": 131,
+      "episode": "episode_00050460",
+      "gt": "place on next to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 269,
+      "episode": "episode_00050460",
+      "gt": "place on next to mousetrap",
+      "pred": "move to toilet",
+      "raw": "3. move to toilet",
+      "correct": false
+    },
+    {
+      "sec": 102,
+      "episode": "episode_00050480",
+      "gt": "place on next to mousetrap",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 260,
+      "episode": "episode_00050480",
+      "gt": "place on next to mousetrap",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 272,
+      "episode": "episode_00050260",
+      "gt": "move to toilet",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 278,
+      "episode": "episode_00050260",
+      "gt": "move to toilet",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 284,
+      "episode": "episode_00050260",
+      "gt": "move to toilet",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 278,
+      "episode": "episode_00050270",
+      "gt": "move to toilet",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 284,
+      "episode": "episode_00050270",
+      "gt": "move to toilet",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 290,
+      "episode": "episode_00050270",
+      "gt": "move to toilet",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 296,
+      "episode": "episode_00050270",
+      "gt": "move to toilet",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 254,
+      "episode": "episode_00050280",
+      "gt": "move to toilet",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 260,
+      "episode": "episode_00050280",
+      "gt": "move to toilet",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 246,
+      "episode": "episode_00050290",
+      "gt": "move to toilet",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 252,
+      "episode": "episode_00050290",
+      "gt": "move to toilet",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 227,
+      "episode": "episode_00050300",
+      "gt": "move to toilet",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 233,
+      "episode": "episode_00050300",
+      "gt": "move to toilet",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 239,
+      "episode": "episode_00050300",
+      "gt": "move to toilet",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 278,
+      "episode": "episode_00050310",
+      "gt": "move to toilet",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 284,
+      "episode": "episode_00050310",
+      "gt": "move to toilet",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 290,
+      "episode": "episode_00050310",
+      "gt": "move to toilet",
+      "pred": "move to toilet",
+      "raw": "3. move to toilet",
+      "correct": true
+    },
+    {
+      "sec": 232,
+      "episode": "episode_00050320",
+      "gt": "move to toilet",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 238,
+      "episode": "episode_00050320",
+      "gt": "move to toilet",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 244,
+      "episode": "episode_00050320",
+      "gt": "move to toilet",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 228,
+      "episode": "episode_00050330",
+      "gt": "move to toilet",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 234,
+      "episode": "episode_00050330",
+      "gt": "move to toilet",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 284,
+      "episode": "episode_00050350",
+      "gt": "move to toilet",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 290,
+      "episode": "episode_00050350",
+      "gt": "move to toilet",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 296,
+      "episode": "episode_00050350",
+      "gt": "move to toilet",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 302,
+      "episode": "episode_00050350",
+      "gt": "move to toilet",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 273,
+      "episode": "episode_00050360",
+      "gt": "move to toilet",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 280,
+      "episode": "episode_00050360",
+      "gt": "move to toilet",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 286,
+      "episode": "episode_00050360",
+      "gt": "move to toilet",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 154,
+      "episode": "episode_00050370",
+      "gt": "move to toilet",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 160,
+      "episode": "episode_00050370",
+      "gt": "move to toilet",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 194,
+      "episode": "episode_00050380",
+      "gt": "move to toilet",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 200,
+      "episode": "episode_00050380",
+      "gt": "move to toilet",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 206,
+      "episode": "episode_00050380",
+      "gt": "move to toilet",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 283,
+      "episode": "episode_00050390",
+      "gt": "move to toilet",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 289,
+      "episode": "episode_00050390",
+      "gt": "move to toilet",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 294,
+      "episode": "episode_00050400",
+      "gt": "move to toilet",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 300,
+      "episode": "episode_00050400",
+      "gt": "move to toilet",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 306,
+      "episode": "episode_00050400",
+      "gt": "move to toilet",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 312,
+      "episode": "episode_00050400",
+      "gt": "move to toilet",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 286,
+      "episode": "episode_00050420",
+      "gt": "move to toilet",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 292,
+      "episode": "episode_00050420",
+      "gt": "move to toilet",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 298,
+      "episode": "episode_00050420",
+      "gt": "move to toilet",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 304,
+      "episode": "episode_00050420",
+      "gt": "move to toilet",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 240,
+      "episode": "episode_00050430",
+      "gt": "move to toilet",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 246,
+      "episode": "episode_00050430",
+      "gt": "move to toilet",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 252,
+      "episode": "episode_00050430",
+      "gt": "move to toilet",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 241,
+      "episode": "episode_00050440",
+      "gt": "move to toilet",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 247,
+      "episode": "episode_00050440",
+      "gt": "move to toilet",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 253,
+      "episode": "episode_00050440",
+      "gt": "move to toilet",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 259,
+      "episode": "episode_00050440",
+      "gt": "move to toilet",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 239,
+      "episode": "episode_00050450",
+      "gt": "move to toilet",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 245,
+      "episode": "episode_00050450",
+      "gt": "move to toilet",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 251,
+      "episode": "episode_00050450",
+      "gt": "move to toilet",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 226,
+      "episode": "episode_00050460",
+      "gt": "move to toilet",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 232,
+      "episode": "episode_00050460",
+      "gt": "move to toilet",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    },
+    {
+      "sec": 238,
+      "episode": "episode_00050460",
+      "gt": "move to toilet",
+      "pred": null,
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 238,
+      "episode": "episode_00050480",
+      "gt": "move to toilet",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 244,
+      "episode": "episode_00050480",
+      "gt": "move to toilet",
+      "pred": "move to mousetrap",
+      "raw": "2. move to mousetrap",
+      "correct": false
+    },
+    {
+      "sec": 250,
+      "episode": "episode_00050480",
+      "gt": "move to toilet",
+      "pred": null,
+      "raw": "3",
+      "correct": false
+    }
+  ]
+}

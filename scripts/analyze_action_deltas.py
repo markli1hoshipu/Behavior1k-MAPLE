@@ -1,7 +1,7 @@
 """Analyze per-frame action deltas in the human-demo libraries.
 
 We use the resulting distribution to set MAX_STEP_PER_DIM in
-`behavior1k_mp/utils/action_bridge.py`. Specifically: the bridge threshold
+`behavior1k_motionplanner/utils/action_bridge.py`. Specifically: the bridge threshold
 for each dim should be roughly the 99th-percentile (or the max) of
 |action[t+1] - action[t]| observed in real demos. If humans never moved a
 joint by more than 0.012 rad/frame, our bridge's 0.02 rad/frame cap is
@@ -20,7 +20,7 @@ from pathlib import Path
 import joblib
 import numpy as np
 
-CKPT = Path("/shared_work/behavior1k-mp/behavior1k_mp/tasks/turning_on_radio/checkpoints")
+CKPT = Path("/shared_work/behavior1k-mp/behavior1k_motionplanner/tasks/turning_on_radio/checkpoints")
 
 # 23-D layout (must match utils/obs.py)
 DIM_NAMES = (

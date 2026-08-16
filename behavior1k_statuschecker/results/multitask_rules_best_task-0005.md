@@ -1,0 +1,5 @@
+1. move to - The whole room is in view (floor, walls, doorway, and the target furniture seen at a distance), with the arms hanging low and not reaching toward anything. Frames taken while the robot is already standing right at the dresser or the sink, hands empty, look the same as picking or placing, so these are not always separable from one still frame.
+
+2. pick up from - The robot is right up against the wooden dresser with the framed picture behind it, and several small mousetraps are lying on the dresser surface with a gripper down among them. Whether the gripper is closing on a trap or has just lifted one is often not visible, but the dresser-with-traps close-up itself is the reliable cue.
+
+3. place on next to - The robot is right up against the white bathroom sink or the toilet, and that fixture fills most of the view; the arms are lowered toward the floor beside it, and a mousetrap may be seen on the floor there. A single frame cannot tell whether the trap was just released or is still about to be set down.

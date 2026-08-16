@@ -1,0 +1,69 @@
+You are helping design a prompt for a small (0.8B-2B parameter) vision-language
+model that will classify a robot's current subskill from a single camera frame, once per
+second, for the task "Turn on the radio receiver that's on the table in the living room."
+
+There are exactly 4 possible subskill labels, always occurring in this fixed order within
+an episode: move to -> pick up from -> press -> place on.
+
+Below is a list of frames, each with its GROUND-TRUTH label and file path. Read every
+image (use your Read tool) and study what is visually true across all examples of each
+label, and what's confusable between adjacent labels.
+
+- [move to] episode 00000010 sec 1: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0001.jpg
+- [move to] episode 00000010 sec 4: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0004.jpg
+- [move to] episode 00000010 sec 7: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0007.jpg
+- [pick up from] episode 00000010 sec 13: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0013.jpg
+- [pick up from] episode 00000010 sec 23: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0023.jpg
+- [pick up from] episode 00000010 sec 34: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0034.jpg
+- [press] episode 00000010 sec 40: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0040.jpg
+- [press] episode 00000010 sec 43: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0043.jpg
+- [press] episode 00000010 sec 46: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0046.jpg
+- [place on] episode 00000010 sec 49: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0049.jpg
+- [place on] episode 00000010 sec 53: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0053.jpg
+- [place on] episode 00000010 sec 57: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0057.jpg
+- [move to] episode 00000020 sec 1: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000020/frames_1fps/sec_0001.jpg
+- [move to] episode 00000020 sec 6: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000020/frames_1fps/sec_0006.jpg
+- [move to] episode 00000020 sec 10: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000020/frames_1fps/sec_0010.jpg
+- [pick up from] episode 00000020 sec 16: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000020/frames_1fps/sec_0016.jpg
+- [pick up from] episode 00000020 sec 26: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000020/frames_1fps/sec_0026.jpg
+- [pick up from] episode 00000020 sec 36: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000020/frames_1fps/sec_0036.jpg
+- [press] episode 00000020 sec 42: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000020/frames_1fps/sec_0042.jpg
+- [press] episode 00000020 sec 45: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000020/frames_1fps/sec_0045.jpg
+- [press] episode 00000020 sec 49: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000020/frames_1fps/sec_0049.jpg
+- [place on] episode 00000020 sec 53: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000020/frames_1fps/sec_0053.jpg
+- [place on] episode 00000020 sec 59: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000020/frames_1fps/sec_0059.jpg
+- [place on] episode 00000020 sec 64: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000020/frames_1fps/sec_0064.jpg
+- [move to] episode 00000030 sec 1: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000030/frames_1fps/sec_0001.jpg
+- [move to] episode 00000030 sec 3: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000030/frames_1fps/sec_0003.jpg
+- [move to] episode 00000030 sec 5: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000030/frames_1fps/sec_0005.jpg
+- [pick up from] episode 00000030 sec 23: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000030/frames_1fps/sec_0023.jpg
+- [pick up from] episode 00000030 sec 27: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000030/frames_1fps/sec_0027.jpg
+- [pick up from] episode 00000030 sec 31: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000030/frames_1fps/sec_0031.jpg
+- [press] episode 00000030 sec 35: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000030/frames_1fps/sec_0035.jpg
+- [press] episode 00000030 sec 40: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000030/frames_1fps/sec_0040.jpg
+- [press] episode 00000030 sec 44: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000030/frames_1fps/sec_0044.jpg
+- [place on] episode 00000030 sec 50: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000030/frames_1fps/sec_0050.jpg
+- [place on] episode 00000030 sec 57: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000030/frames_1fps/sec_0057.jpg
+- [place on] episode 00000030 sec 64: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000030/frames_1fps/sec_0064.jpg
+
+Known problems from our own manual analysis so far, which you should specifically address:
+1. Early "pick up from" frames often show no visible robot arm yet (still navigating) -
+   visually identical to "move to". Look for any subtler distinguishing signal (e.g. robot
+   orientation, distance to object, anything else) that might separate these, or conclude
+   honestly if no such signal exists in a single static frame.
+2. "place on" frames span two very different visual regimes: (a) close-up, arm visible,
+   lowering the object, and (b) after release, camera pulled back to a wide shot with no
+   arm visible - which looks just like "move to". Figure out if there's a reliable way to
+   tell late "place on" apart from "move to" in a single frame, or if it's genuinely
+   ambiguous.
+3. "press" and "pick up from" both often show an arm holding the red object up in the air.
+
+For each of the 4 labels, write a SHORT (1-3 sentence) rule describing what is reliably
+visible in-frame for that label, using **plain, common-sense language** (avoid overly
+precise spatial jargon like "on top of / below / left / right" - that specific wording
+tends to confuse small models). Where a distinction is genuinely not recoverable from a
+single static frame (no motion/temporal info), say so explicitly rather than inventing a
+rule that doesn't hold up.
+
+End with a short "CONFIDENCE" note on which of the 4 boundaries you think are learnable
+from single frames at all, and which ones fundamentally need temporal/motion context.

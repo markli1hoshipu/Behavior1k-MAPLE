@@ -1,0 +1,1 @@
+I also saved the contact-verb finding and the two unfixable boundaries to memory so the next round doesn't re-derive them.

@@ -1,0 +1,52 @@
+You previously derived rules (below) for classifying a robot's subskill from a
+single camera frame, for the household task: "Turn on the radio receiver that's on the table in the living room."
+
+=== YOUR PREVIOUS RULES ===
+1. move to - No robot arms or grippers are visible anywhere in the frame; you just see the room, the couch, and the small red radio far away as a thin red shape.
+2. pick up from - The red radio still looks like a thin upright red slab and the robot arms are either not visible yet or only just entering the edge of the frame, with the grippers still empty and away from the radio.
+3. press - The red radio is close and turned so its wide red top face with the round dark dial is showing, and a gripper is right up against that top face.
+4. place on - A gripper is holding the red radio and the radio again looks like a narrow red slab lifted or tilted near the table surface; note this looks very similar to late "pick up from" frames, and a single frame often cannot tell whether the radio is being lifted or set down.
+
+Those rules were dropped into a real prompt and run against Qwen3.5-2B (an actual small
+vision-language model). Overall: 30.5% accuracy / 49.5%
+macro recall. Here is a sample of what it actually got WRONG (out of 41 total errors):
+
+- sec 9: ground truth = pick up from, model predicted = move to  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0000/frames/sec_0009.jpg)
+- sec 10: ground truth = pick up from, model predicted = move to  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0000/frames/sec_0010.jpg)
+- sec 11: ground truth = pick up from, model predicted = move to  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0000/frames/sec_0011.jpg)
+- sec 12: ground truth = pick up from, model predicted = move to  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0000/frames/sec_0012.jpg)
+- sec 13: ground truth = pick up from, model predicted = move to  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0000/frames/sec_0013.jpg)
+- sec 14: ground truth = pick up from, model predicted = move to  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0000/frames/sec_0014.jpg)
+- sec 15: ground truth = pick up from, model predicted = move to  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0000/frames/sec_0015.jpg)
+- sec 16: ground truth = pick up from, model predicted = move to  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0000/frames/sec_0016.jpg)
+- sec 17: ground truth = pick up from, model predicted = move to  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0000/frames/sec_0017.jpg)
+- sec 18: ground truth = pick up from, model predicted = move to  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0000/frames/sec_0018.jpg)
+- sec 19: ground truth = pick up from, model predicted = move to  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0000/frames/sec_0019.jpg)
+- sec 20: ground truth = pick up from, model predicted = move to  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0000/frames/sec_0020.jpg)
+- sec 21: ground truth = pick up from, model predicted = move to  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0000/frames/sec_0021.jpg)
+- sec 22: ground truth = pick up from, model predicted = move to  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0000/frames/sec_0022.jpg)
+- sec 23: ground truth = pick up from, model predicted = move to  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0000/frames/sec_0023.jpg)
+- sec 24: ground truth = pick up from, model predicted = move to  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0000/frames/sec_0024.jpg)
+- sec 25: ground truth = pick up from, model predicted = move to  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0000/frames/sec_0025.jpg)
+- sec 26: ground truth = pick up from, model predicted = move to  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0000/frames/sec_0026.jpg)
+- sec 27: ground truth = pick up from, model predicted = move to  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0000/frames/sec_0027.jpg)
+- sec 28: ground truth = pick up from, model predicted = press  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0000/frames/sec_0028.jpg)
+- sec 29: ground truth = pick up from, model predicted = press  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0000/frames/sec_0029.jpg)
+- sec 30: ground truth = pick up from, model predicted = press  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0000/frames/sec_0030.jpg)
+- sec 31: ground truth = pick up from, model predicted = press  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0000/frames/sec_0031.jpg)
+- sec 32: ground truth = pick up from, model predicted = press  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0000/frames/sec_0032.jpg)
+- sec 33: ground truth = pick up from, model predicted = press  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0000/frames/sec_0033.jpg)
+
+Read the error frames (use your Read tool) and revise your rules to fix what's fixable.
+If a specific confusion is genuinely not recoverable from a single static frame (e.g. it
+depends on motion direction, or on a state that changed off-screen), say so explicitly in
+your rule rather than inventing wording that won't hold up - a rule that admits the limit
+is more useful than one that guesses.
+
+Output ONLY the final revised rules in this exact format (one line per label, numbered to
+match the label list from before), nothing else - no preamble, no analysis, no confidence
+notes. Keep total output under 200 words:
+
+1. <label> - <rule>
+2. <label> - <rule>
+...

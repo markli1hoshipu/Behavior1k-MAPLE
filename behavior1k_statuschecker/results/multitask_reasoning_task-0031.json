@@ -1,0 +1,430 @@
+{
+  "task_chunk": "task-0031",
+  "task_name": "clean boxing gloves",
+  "accuracy": 0.55,
+  "macro_recall": 0.5313186813186813,
+  "correct": 33,
+  "total": 60,
+  "predictions": [
+    {
+      "sec": 0,
+      "gt": "move to",
+      "pred": "open door",
+      "raw": "Reasoning: The counter is empty with no gloves visible, and the washer door is closed, so the robot must be approaching the machine to open it.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 7,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot's arms are positioned near the counter with the sink, but no gloves are visible in the frame, and the washer is not in view.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 14,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The washer drum is empty and the robot's grippers are positioned near the counter but not grasping any gloves, indicating the robot is approaching the washer to begin the task.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 21,
+      "gt": "open door",
+      "pred": "open door",
+      "raw": "Reasoning: The robot's gripper is touching the glass door of the white washer, and the drum interior is empty, indicating the door is being opened.\nAnswer: 3",
+      "correct": true
+    },
+    {
+      "sec": 28,
+      "gt": "open door",
+      "pred": "open door",
+      "raw": "Reasoning: The robot's gripper is positioned at the open door of the left washer, with the drum interior empty, indicating the action of opening the door.\nAnswer: 3",
+      "correct": true
+    },
+    {
+      "sec": 36,
+      "gt": "open door",
+      "pred": "open door",
+      "raw": "Reasoning: The left arm is touching the open glass door of the white washer, and the drum interior is empty, indicating the robot is in the process of opening the door.\nAnswer: 3",
+      "correct": true
+    },
+    {
+      "sec": 43,
+      "gt": "open door",
+      "pred": "open door",
+      "raw": "Reasoning: The robot's left arm is touching the open glass door of the white washer, and the drum interior is empty, indicating the door is being opened.\nAnswer: 3",
+      "correct": true
+    },
+    {
+      "sec": 50,
+      "gt": "open door",
+      "pred": "open door",
+      "raw": "Reasoning: The robot's left arm is touching the open glass door of the white washer, and the drum interior is empty, indicating the door is being opened.\nAnswer: 3",
+      "correct": true
+    },
+    {
+      "sec": 57,
+      "gt": "open door",
+      "pred": "place in",
+      "raw": "Reasoning: The left arm is holding a red glove near the open door of the white washer, while the right arm is idle, indicating the robot is about to place the glove inside.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 64,
+      "gt": "open door",
+      "pred": "place in",
+      "raw": "Reasoning: The right arm is holding a glove near the open washer door, and the left arm is positioned nearby, suggesting the robot is about to place the glove inside.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 72,
+      "gt": "open door",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is holding a white laundry bag over the open washer drum, which is consistent with placing laundry into the machine.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 79,
+      "gt": "open door",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is holding a white pot over the open washer drum, which is not empty, indicating it is in the process of loading laundry.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 86,
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "Reasoning: The washer drum is empty and the robot's grippers are open and away from the washer, indicating the robot is approaching to pick up the gloves.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 93,
+      "gt": "move to",
+      "pred": "turn to",
+      "raw": "Reasoning: The two red boxing gloves are lying flat on the counter next to the sink, and the robot's arms are positioned near them but are not grasping or lifting them.\nAnswer: 7",
+      "correct": false
+    },
+    {
+      "sec": 100,
+      "gt": "move to",
+      "pred": "turn to",
+      "raw": "Reasoning: The two red boxing gloves are lying flat on the counter next to the sink, and the robot's arms are positioned near them but are not grasping or lifting them.\nAnswer: 7",
+      "correct": false
+    },
+    {
+      "sec": 108,
+      "gt": "move to",
+      "pred": "turn to",
+      "raw": "Reasoning: The two red boxing gloves are lying flat on the counter next to the sink, and the robot's arms are positioned near them but are not grasping or lifting them.\nAnswer: 7",
+      "correct": false
+    },
+    {
+      "sec": 115,
+      "gt": "turn to",
+      "pred": "turn to",
+      "raw": "Reasoning: The two red boxing gloves are lying flat on the counter, and the robot's arms are positioned near them but are not grasping or lifting any gloves.\nAnswer: 7",
+      "correct": true
+    },
+    {
+      "sec": 122,
+      "gt": "turn to",
+      "pred": "turn to",
+      "raw": "Reasoning: The two red boxing gloves are lying flat on the counter, and neither gripper is grasping or lifting them, indicating the robot is preparing to pick them up.\nAnswer: 7",
+      "correct": true
+    },
+    {
+      "sec": 129,
+      "gt": "turn to",
+      "pred": "turn to",
+      "raw": "Reasoning: The two red boxing gloves are resting flat on the counter next to the washer, and neither gripper is grasping or lifting them.\nAnswer: 7",
+      "correct": true
+    },
+    {
+      "sec": 136,
+      "gt": "turn to",
+      "pred": "turn to",
+      "raw": "Reasoning: The two red boxing gloves are lying flat on the counter, and neither gripper is grasping or holding them, indicating the robot is preparing to pick them up.\nAnswer: 7",
+      "correct": true
+    },
+    {
+      "sec": 144,
+      "gt": "turn to",
+      "pred": "turn to",
+      "raw": "Reasoning: The two red boxing gloves are lying flat on the counter, and the robot's arms are positioned near them but are not grasping or lifting any gloves.\nAnswer: 7",
+      "correct": true
+    },
+    {
+      "sec": 151,
+      "gt": "turn to",
+      "pred": "turn to",
+      "raw": "Reasoning: The counter with two red gloves lying flat is in view and the arms are raised near them but nothing is grasped; this is easily confused with the start of picking up.\nAnswer: 7",
+      "correct": true
+    },
+    {
+      "sec": 158,
+      "gt": "turn to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right arm is grasping one red glove, lifting it slightly off the counter, while the left arm is idle near the other glove, indicating the robot is in the process of picking up a glove.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 165,
+      "gt": "turn to",
+      "pred": "turn to",
+      "raw": "Reasoning: The two red boxing gloves are lying flat on the counter, and neither gripper is grasping or holding them, indicating the robot is preparing to pick them up.\nAnswer: 7",
+      "correct": true
+    },
+    {
+      "sec": 172,
+      "gt": "turn to",
+      "pred": "turn to",
+      "raw": "Reasoning: The two red boxing gloves are lying flat on the counter, and the robot's arms are positioned near them but are not grasping or lifting either glove.\nAnswer: 7",
+      "correct": true
+    },
+    {
+      "sec": 180,
+      "gt": "turn to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The left gripper is grasping one of the red boxing gloves, lifting it slightly off the counter, while the right gripper is positioned near the other glove, indicating the start of the pick-up action.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 187,
+      "gt": "turn to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The left arm is grasping one red glove, lifting it slightly off the counter, while the right arm is positioned near the other glove, suggesting the robot is in the process of picking up the gloves.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 194,
+      "gt": "turn to",
+      "pred": "turn to",
+      "raw": "Reasoning: The two red boxing gloves are lying flat on the counter, and the robot's grippers are open and not grasping either glove.\nAnswer: 7",
+      "correct": true
+    },
+    {
+      "sec": 201,
+      "gt": "turn to",
+      "pred": "turn to",
+      "raw": "Reasoning: The counter with two red boxing gloves lying flat is in view and the arms are raised near them but nothing is grasped.\nAnswer: 7",
+      "correct": true
+    },
+    {
+      "sec": 208,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The left arm is grasping one red glove, lifting it slightly off the counter, while the other glove remains flat on the surface, consistent with picking up one item.\nAnswer: 4",
+      "correct": true
+    },
+    {
+      "sec": 216,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The left arm is holding one red glove while the other remains on the counter, indicating the robot is in the process of picking up a glove.\nAnswer: 4",
+      "correct": true
+    },
+    {
+      "sec": 223,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The left arm is holding a red glove above the counter, while the right arm is positioned near the other glove, indicating the robot is about to pick up one of the gloves.\nAnswer: 4",
+      "correct": true
+    },
+    {
+      "sec": 230,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right arm is grasping one red glove, lifting it slightly off the counter, while the left arm is idle near the other glove resting flat on the surface.\nAnswer: 4",
+      "correct": true
+    },
+    {
+      "sec": 237,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's grippers are holding the two red boxing gloves, which are lifted off the counter and tilted, indicating the action of picking them up.\nAnswer: 4",
+      "correct": true
+    },
+    {
+      "sec": 244,
+      "gt": "move to",
+      "pred": "turn to",
+      "raw": "Reasoning: The robot's arms are positioned in front of the washer with both gloves resting flat on the counter, indicating the robot is preparing to pick them up.\nAnswer: 7",
+      "correct": false
+    },
+    {
+      "sec": 252,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: The washer drum is empty and the robot's arms are positioned to interact with the washer, consistent with the action of placing items inside.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 259,
+      "gt": "move to",
+      "pred": "turn to",
+      "raw": "Reasoning: The two red boxing gloves are resting flat on the counter, and the robot's arms are positioned near them but are not grasping or lifting them.\nAnswer: 7",
+      "correct": false
+    },
+    {
+      "sec": 266,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding both red gloves in front of the washer, with the left glove slightly lifted, indicating the start of the pick up process.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 273,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is holding one glove over the open washer while the other rests on the counter, indicating it is about to place the glove inside.\nAnswer: 5",
+      "correct": true
+    },
+    {
+      "sec": 280,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is holding one glove while the other rests on the counter, and the washer door is swung open, suggesting the robot is about to place the held glove into the drum.\nAnswer: 5",
+      "correct": true
+    },
+    {
+      "sec": 288,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The robot's left arm is holding a red glove inside the open washer drum, while the right arm holds a second red glove near the counter, indicating the robot is placing one glove into the machine.\nAnswer: 5",
+      "correct": true
+    },
+    {
+      "sec": 295,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The left arm is holding a red glove inside the open washer drum, while the right arm holds a red glove near the counter, indicating the robot is placing one glove into the machine.\nAnswer: 5",
+      "correct": true
+    },
+    {
+      "sec": 302,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The left arm is actively reaching into the open washer drum, indicating the robot is placing laundry inside.\nAnswer: 5",
+      "correct": true
+    },
+    {
+      "sec": 309,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The left arm is holding a white plastic lid over the open washer, while the right arm holds a red glove, indicating the robot is in the process of placing the glove into the machine.\nAnswer: 5",
+      "correct": true
+    },
+    {
+      "sec": 316,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's gripper is holding a red glove near the open washer door, while the other glove is resting on the counter, indicating the action of picking up a glove.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 324,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is holding a red glove near the open washer door, with the other glove resting on the counter, indicating it is about to place the glove inside.\nAnswer: 5",
+      "correct": true
+    },
+    {
+      "sec": 331,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's gripper is inside the washer drum, holding a red glove, while the other glove is resting on the counter, indicating the robot is in the process of picking up a glove.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 338,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The robot's gripper is inside the open washer drum, and the drum interior is not empty, indicating the robot is placing laundry inside.\nAnswer: 5",
+      "correct": true
+    },
+    {
+      "sec": 345,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is holding a clear plastic bowl over the open washer drum, which is consistent with the action of placing laundry inside.\nAnswer: 5",
+      "correct": true
+    },
+    {
+      "sec": 352,
+      "gt": "place in",
+      "pred": "open door",
+      "raw": "Reasoning: The washer drum is empty and the robot's gripper is positioned at the open door, indicating the next step is to open it.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 360,
+      "gt": "close door",
+      "pred": "open door",
+      "raw": "Reasoning: The white washer drum is empty and the door is swung open, indicating the robot is preparing to load laundry.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 367,
+      "gt": "close door",
+      "pred": "place in",
+      "raw": "Reasoning: The white laundry basket is suspended in mid-air directly in front of the open washer door, indicating the robot is in the process of placing the basket inside.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 374,
+      "gt": "close door",
+      "pred": "open door",
+      "raw": "Reasoning: The robot's gripper is touching the swung-open glass door of the white washer, and the drum interior is empty, indicating the robot is about to load laundry.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 381,
+      "gt": "close door",
+      "pred": "open door",
+      "raw": "Reasoning: The robot's gripper is touching the open glass door of the white washer, and the drum interior is empty, indicating the door is being opened.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 388,
+      "gt": "close door",
+      "pred": "open door",
+      "raw": "Reasoning: The robot's gripper is touching the open glass door of the white washer, and the drum interior is empty, indicating the door is being opened.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 396,
+      "gt": "close door",
+      "pred": "open door",
+      "raw": "Reasoning: The robot's arms are positioned near the washing machines, and the drum appears empty, suggesting the robot is preparing to interact with the laundry.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 403,
+      "gt": "turn on switch",
+      "pred": "open door",
+      "raw": "Reasoning: The robot's gripper is positioned at the open washer door with an empty drum visible, indicating the robot is about to load laundry.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 410,
+      "gt": "turn on switch",
+      "pred": "turn on switch",
+      "raw": "Reasoning: The robot's gripper is touching the green indicator light on the washer's control panel, which suggests the machine is being activated.\nAnswer: 6",
+      "correct": true
+    },
+    {
+      "sec": 417,
+      "gt": "turn on switch",
+      "pred": "open door",
+      "raw": "Reasoning: The washer door is closed, and the drum interior is empty, indicating the robot is preparing to open the door to load laundry.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 424,
+      "gt": "turn on switch",
+      "pred": "turn on switch",
+      "raw": "Reasoning: The white washer's control panel has a green light illuminated, indicating the machine is currently active.\nAnswer: 6",
+      "correct": true
+    }
+  ]
+}

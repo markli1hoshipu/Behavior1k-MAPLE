@@ -1,0 +1,119 @@
+sec_0000: Reasoning: Wide view of the living room with no robot arms, no shoes, and no rack in frame — nothing here but an open navigation view, so only the absence of any manipulation cue supports this. | Answer: move to
+
+sec_0003: Reasoning: Camera has swung toward the hallway with a single shoe just visible on the floor at far right; no arms or grippers in frame at all. | Answer: move to
+
+sec_0007: Reasoning: Both grippers are now in view, extended low and empty, with a brown clog on the floor ahead and a second shoe at the bottom edge — reaching stage, though nothing is grasped yet so it's hard to separate from an approach. | Answer: pick up from
+
+sec_0011: Reasoning: The right gripper is lowered right beside the brown shoe at the bottom of frame, fingers open at floor level — closing in on a grasp rather than traveling. | Answer: pick up from
+
+sec_0015: Reasoning: The tan shoe is now sitting directly on the right gripper's fingers at floor height, the moment of grasp. | Answer: pick up from
+
+sec_0019: Reasoning: Steep downward view of the floor with the tan shoe clamped in the right gripper and lifting, the second brown shoe still lying ahead. | Answer: pick up from
+
+sec_0023: Reasoning: Right gripper holds the tan shoe just above the floorboards while the left gripper stays empty and the other shoe remains on the ground — the grasp/lift is still in progress. | Answer: pick up from
+
+sec_0027: Reasoning: Head has tilted back up but the right gripper still carries the tan shoe at close range to the floor, left gripper empty. | Answer: pick up from
+
+sec_0031: Reasoning: Right gripper carries the tan shoe while the view is aimed down the hallway toward the entry bench — body-forward travel, not a grasp. | Answer: move to
+
+sec_0035: Reasoning: Shoe still held in the right gripper, the entryway shelf and door now filling the frame as the robot advances; the second shoe lies below on the floor. | Answer: move to
+
+sec_0039: Reasoning: Held shoe in the right gripper and the mirror/door wall sliding past — the scene geometry changes, which reads as locomotion rather than manipulation. | Answer: move to
+
+sec_0043: Reasoning: Same carried shoe, camera has swung further so the mirror is centered; the left gripper hovers empty near the brown shoe on the floor at bottom. | Answer: move to
+
+sec_0047: Reasoning: The brown shoe at bottom-left is now resting on the left gripper's fingers at floor level — a second grasp being made while the right hand still holds the first. | Answer: pick up from
+
+sec_0050: Reasoning: Both grippers now hold a shoe each, the left one just lifted clear of the floorboards. | Answer: pick up from
+
+sec_0054: Reasoning: Two shoes held, both raised off the ground with arms still low and near the pickup spot. | Answer: pick up from
+
+sec_0058: Reasoning: A shoe in each gripper and the camera aimed straight down the corridor toward the mirror and entrance — carrying phase. | Answer: move to
+
+sec_0062: Reasoning: Both shoes held steady while the glass patio door and the white shelf on the right swing into view, indicating base motion. | Answer: move to
+
+sec_0066: Reasoning: Shoes still held in both grippers, now right up against the glass door with the shelf edge entering frame — approach, no shelf interaction yet. | Answer: move to
+
+sec_0070: Reasoning: Both shoes held; the rack's shelves now occupy the right half of frame but neither gripper is reaching into a compartment. | Answer: move to
+
+sec_0074: Reasoning: The rack is squarely in front and the left gripper is extending the brown shoe toward the lower shelf opening. | Answer: place in
+
+sec_0078: Reasoning: The held shoe is right at the mouth of the lower compartment, gripper angled to insert it. | Answer: place in
+
+sec_0082: Reasoning: The shoe is now inside the lower shelf and the gripper beneath it is empty — release just happened. | Answer: place in
+
+sec_0086: Reasoning: One shoe already sits in the shelf while the right gripper brings the second tan shoe toward the same compartment. | Answer: place in
+
+sec_0090: Reasoning: The second shoe is being pushed into the shelf right beside the first, gripper still attached to it. | Answer: place in
+
+sec_0094: Reasoning: Both brown shoes now sit side by side inside the shelf and both grippers are empty and dropping away. | Answer: place in
+
+sec_0097: Reasoning: Grippers are empty and open, the finished pair sits in the rack at left, and the camera has turned toward the corridor. | Answer: move to
+
+sec_0101: Reasoning: Empty grippers with a long hallway ahead and small pale objects on the floor near the far door — pure navigation view. | Answer: move to
+
+sec_0105: Reasoning: Hallway view with empty grippers; the two white sneakers on the distant floor are visibly closer than the previous frame. | Answer: move to
+
+sec_0109: Reasoning: Both grippers empty and low, sneakers ahead still several meters off down the corridor. | Answer: move to
+
+sec_0113: Reasoning: The pair of sneakers is now clearly resolved on the floor ahead, but the grippers remain empty and far from them. | Answer: move to
+
+sec_0117: Reasoning: Sneakers roughly a meter ahead with the grippers still empty and not extended toward them. | Answer: move to
+
+sec_0121: Reasoning: The nearest sneaker is now just past the left gripper at close range, but the fingers are still empty and not in contact — borderline between approach and reach. | Answer: move to
+
+sec_0125: Reasoning: The left gripper is directly under the near sneaker's heel at floor level, fingers open for a grasp. | Answer: pick up from
+
+sec_0129: Reasoning: Left gripper is in contact with the sneaker on the floorboards, closing around it. | Answer: pick up from
+
+sec_0133: Reasoning: The sneaker sits on the left gripper's fingers, just being taken off the floor. | Answer: pick up from
+
+sec_0137: Reasoning: Left gripper now clearly holds the sneaker lifted clear of the ground while the right gripper stays empty. | Answer: pick up from
+
+sec_0141: Reasoning: One sneaker held in the left gripper with the second still on the floor below, camera swinging toward the door — transport has started. | Answer: move to
+
+sec_0144: Reasoning: Sneaker held aloft in the left gripper while the patio door and wall rotate through frame, indicating the base is turning/moving. | Answer: move to
+
+sec_0148: Reasoning: Held sneaker steady in the left gripper, view now angled at the door frame and sockets — no shelf or floor interaction. | Answer: move to
+
+sec_0152: Reasoning: The mirror shows the whole robot from the front while it carries the sneaker in the left gripper — clearly traveling, not manipulating. | Answer: move to
+
+sec_0156: Reasoning: Sneaker carried in the left gripper with the second one on the floor below and the corridor toward the entry opening ahead. | Answer: move to
+
+sec_0160: Reasoning: Left gripper still holds its sneaker and the picture-frame corridor stretches ahead; the right gripper is empty and idle. | Answer: move to
+
+sec_0164: Reasoning: The second sneaker is now seated on the right gripper at floor level — the second grasp of the pair. | Answer: pick up from
+
+sec_0168: Reasoning: Both grippers now hold a sneaker, the right one just lifted off the boards. | Answer: pick up from
+
+sec_0172: Reasoning: Two sneakers held, arms still low and close to the spot they were lying in. | Answer: pick up from
+
+sec_0176: Reasoning: Both sneakers in hand and rising, still at the pickup location with the corridor ahead unentered. | Answer: pick up from
+
+sec_0180: Reasoning: A sneaker in each gripper held steady while the corridor and entry alcove come into view — carrying phase. | Answer: move to
+
+sec_0184: Reasoning: Both sneakers held level as the staircase and shelf on the right shift through frame, showing base motion. | Answer: move to
+
+sec_0188: Reasoning: Sneakers still held; the mirror and rack are now on the right but neither arm reaches toward a shelf. | Answer: move to
+
+sec_0191: Reasoning: Both sneakers carried, entryway with the wooden door directly ahead — approach, no placement action visible. | Answer: move to
+
+sec_0195: Reasoning: Both sneakers held while the white shelf unit enters the right of frame; grippers are not yet oriented into any compartment. | Answer: move to
+
+sec_0199: Reasoning: The previously stowed brown shoes are visible on the shelf at right and both sneakers are still held up — arrival, not yet placing. | Answer: move to
+
+sec_0203: Reasoning: The rack is now beside/in front of the robot with a brown shoe inside it, and both sneakers remain gripped and clear of the shelf. | Answer: move to
+
+sec_0207: Reasoning: Rack squarely front-on with the brown pair inside, both sneakers still held above floor level and no insertion yet. | Answer: move to
+
+sec_0211: Reasoning: A single arm is extending a sneaker toward the lower shelf right next to the brown shoes. | Answer: place in
+
+sec_0215: Reasoning: The sneaker is at the shelf opening beside the brown pair with the gripper reaching in. | Answer: place in
+
+sec_0219: Reasoning: The first sneaker now rests on the shelf next to the brown shoes and the gripper has pulled back empty. | Answer: place in
+
+sec_0223: Reasoning: The right gripper brings the second sneaker up to the shelf mouth while the first one is already stowed. | Answer: place in
+
+sec_0227: Reasoning: The second sneaker is being pushed into the shelf right alongside the first, gripper still holding it. | Answer: place in
+
+sec_0231: Reasoning: All four shoes are lined up inside the shelf and both grippers are empty and withdrawn from the rack. | Answer: place in

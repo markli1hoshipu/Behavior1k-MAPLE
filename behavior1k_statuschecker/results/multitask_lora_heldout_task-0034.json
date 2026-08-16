@@ -1,0 +1,1707 @@
+{
+  "task_chunk": "task-0034",
+  "task_name": "hanging pictures",
+  "n_held_out_episodes": 5,
+  "accuracy": 0.33490566037735847,
+  "macro_recall": 0.3398395721925134,
+  "correct": 71,
+  "total": 212,
+  "predictions": [
+    {
+      "sec": 3,
+      "episode": "episode_00340030",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The staircase and hallway are now centered and closer, but no robot parts or poster are visible \u2014 still pure locomotion.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 5,
+      "episode": "episode_00340030",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The staircase is now centered and closer with the robot's body edge cut off at the bottom, but no gripper is visible in this frame.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00340030",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the staircase and dining area with no arms extended, so only the changing viewpoint distinguishes this frame.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 10,
+      "episode": "episode_00340030",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The dining table and chairs are now centered and closer, but no manipulation is visible \u2014 the base is still pulling back.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00340030",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The dining table and chairs are now centered and closer, but no arms or object are visible in the frame at all.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 15,
+      "episode": "episode_00340030",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The dining table and chairs have entered the right of frame while the kitchen counter is still far off, with no object visible in the grippers.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 18,
+      "episode": "episode_00340030",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the kitchen counter with the dining chair now in the bottom right corner, but no robot parts are visible at all.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 20,
+      "episode": "episode_00340030",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the kitchen counter with the microwave and dishwasher now in view, but no arms or object are visible in the frame.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00340030",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the corner with the sink and stove now centered and the floor receding, but no arms are visible in frame.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00340030",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the corner with the poster on the counter and the oven on the right, but no arms are visible in the frame.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 28,
+      "episode": "episode_00340030",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has turned to face the L-shaped counter with the sink and stove now centered, but no arms are visible in the frame.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00340030",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The sink and stove are now centered and closer, but no arms or object are visible in the frame at all.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 64,
+      "episode": "episode_00340030",
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the stand with the right gripper at its base, the second frame of the two hanging attempts.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00340030",
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the wall with the right gripper at its base, the last contact on the wall.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 69,
+      "episode": "episode_00340030",
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the wall with the right gripper at its lower edge, the second frame of the wall attachment.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00340030",
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright in the right gripper and the right arm is pulling back, with the left gripper still at the edge of the frame.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 74,
+      "episode": "episode_00340030",
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now flush on the wall with the right gripper at its lower edge, the final contact for mounting.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 1,
+      "episode": "episode_00340630",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the patio door with the poster hanging on the wall behind it, and the arms are withdrawn.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00340630",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has turned to face the counter with the poster and cabinet on the right, but no arms are visible in the frame.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 6,
+      "episode": "episode_00340630",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the kitchen counter with the sink and poster on the countertop, but no robot arms or grippers are visible in the frame.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00340630",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has turned to the corner counter with the poster now upright on the countertop and the right arm retracting from the wall.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 68,
+      "episode": "episode_00340630",
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The poster is now upright in the right gripper and the right arm is pulling back, with the counter and doorway visible ahead.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00340630",
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the counter with the right gripper at its lower edge, the act of mounting it to the wall.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 73,
+      "episode": "episode_00340630",
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the counter with the right gripper at its base, the only frame showing the poster being attached to the surface.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 76,
+      "episode": "episode_00340630",
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the floor with the right gripper still down at its base, the second frame of the hanging sequence.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 78,
+      "episode": "episode_00340630",
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright in the right gripper and the right arm is pulling back, with the wall and door frame receding.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00340630",
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the wall with the right gripper at its bottom edge, just releasing onto the surface.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 83,
+      "episode": "episode_00340630",
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright on the table with the right gripper at its lower edge, the final contact for mounting.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 0,
+      "episode": "episode_00341290",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has turned to face the kitchen counter with the fridge and microwave in view, but no arms are visible in the frame.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 3,
+      "episode": "episode_00341290",
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The view has swung to the stove and fridge with the poster now on the counter and the robot's arms out of frame \u2014 the poster is already mounted.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 5,
+      "episode": "episode_00341290",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has turned to face the stove and oven with the poster now standing upright on the counter, arms still out of frame.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00341290",
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright on the counter with the right gripper at its base, the second frame of the two hanging attempts.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00341290",
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright in the right gripper and the wall is no longer in frame, showing the object held rather than the wall.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00341290",
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright in the right gripper and the view has turned toward the kitchen counter, showing the wall and sink.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00341290",
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright in the right gripper's fingers, the arm angled down into it.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00341290",
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright on the wall and the right gripper is retracting away from it.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00341290",
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The right gripper is extended toward the poster's right edge, fingers open at the wall surface.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 0,
+      "episode": "episode_00341810",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has turned to the kitchen counter with the poster on the sink and the right arm still empty and idle.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 2,
+      "episode": "episode_00341810",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has turned to the kitchen counter with the poster on the countertop and the right arm still down at the source, though the arms are not yet extended toward it.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 5,
+      "episode": "episode_00341810",
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The camera has turned to face the counter with the poster upright on the glass surface and the right arm still down at the source.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 7,
+      "episode": "episode_00341810",
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the counter with the sink and dishwasher behind it, and the right arm is extended toward the sink area.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 28,
+      "episode": "episode_00341810",
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright against the wall with the gripper still attached to its lower edge.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00341810",
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright in the right gripper and the camera has turned to face the wall, with the sink and cabinets visible ahead.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 33,
+      "episode": "episode_00341810",
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright in the right gripper and the view has swung to the wall corner with the nail visible ahead.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00341810",
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright against the wall with the arm pulling back, the final settling after the wall is flush.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00341810",
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright against the wall with the right gripper still attached to its bottom edge.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00341810",
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now mounted flush on the wall with the arm retracting away from it.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 2,
+      "episode": "episode_00342250",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the kitchen counter with the microwave and fridge now centered, but no arms or object are visible in the frame.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00342250",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the stove and microwave on the counter with no arms extended, so only the changing viewpoint distinguishes this.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 7,
+      "episode": "episode_00342250",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has turned to the corner with the sink and stove now centered and the poster standing upright on the counter, but no robot arms are visible.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00342250",
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The camera has turned to the counter with the poster now upright on the countertop and the right arm retracting from the wall.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00342250",
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright on the counter with the right gripper at its lower edge, the final contact for mounting.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00342250",
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the floor with the right gripper at its lower edge, the final placement contact.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00342250",
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright on the floor with the right gripper at its lower edge, the final contact for mounting.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00342250",
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright in the right gripper and the camera has turned to face the wall, with the nail fixture visible on the wall behind it.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "episode": "episode_00340030",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright on the wall with the right gripper still attached to its edge, though the view has swung toward the sink.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00340030",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright on the wall and the right arm is retracting away from it.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00340030",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the wall with the right gripper still attached to its edge, holding it in place.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00340030",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright in the right gripper and the view has swung to the sink counter, showing the wall is now visible behind it.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00340030",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright on the counter surface, held by the right gripper and angled away from the wall.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 12,
+      "episode": "episode_00340630",
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the sink counter with the poster standing upright on the countertop, arms not yet extended.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 14,
+      "episode": "episode_00340630",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the glass counter with the right gripper just below its lower edge, in contact with the wall.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 16,
+      "episode": "episode_00340630",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the wall with the right gripper just below its bottom edge, in contact with the wall.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 18,
+      "episode": "episode_00340630",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright against the wall with the right gripper still at the nail, though the frame is still close.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 20,
+      "episode": "episode_00340630",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright on the wall and the right gripper is retracting from its attachment point.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00340630",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright on the wall with the right gripper still at its base, holding the bracket.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00340630",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright on the wall with the right gripper still at its base, the second successful attachment.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00340630",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the wall with the right gripper just under its bottom edge, in contact with the wall.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "episode": "episode_00340630",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the wall with the right gripper just below its bottom edge, in contact with the wall.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00340630",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the wall with the right gripper just under its bottom edge, in contact with the wall surface.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00340630",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the wall with the right gripper just under its bottom edge, in contact with the wall surface.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 33,
+      "episode": "episode_00340630",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the wall with the right gripper still at its base, the hanging phase complete.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00340630",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the wall with the right gripper still attached to its right edge, in contact with the wall.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00340630",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the wall with the right gripper at its lower edge, the final contact on the wall.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00340630",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the wall with the right gripper still pressed against its right edge.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00340630",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the wall with the right gripper at its lower edge, the act of securing it to the wall.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00340630",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the wall with the right gripper just under its bottom edge, aligned for attachment.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00340630",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright on the wall with the right gripper still on its lower edge, the hanging phase complete.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00340630",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright on the wall with the right gripper still attached to its edge.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00340630",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the counter with the right gripper at its lower edge, the frame now resting on the surface.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00340630",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the counter with the right gripper at its bottom edge, the act of mounting complete.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00341290",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The right gripper is extended toward the wall corner where the poster stands, with the white nail bracket visible just below the poster's edge.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 11,
+      "episode": "episode_00341290",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright on the wall with the right arm reaching down toward its base.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00341290",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the wall with the right arm reaching down toward its lower edge.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "episode": "episode_00341290",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the wall with the right arm reaching down toward its base, the last contact before it settles.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00341290",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The right gripper is extended toward the wall nail at the poster's right edge, the poster standing upright on the shelf.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 19,
+      "episode": "episode_00341290",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright against the wall with the right gripper still at its lower edge, holding it in place.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00341290",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The right arm is extended down toward the poster's lower edge, fingers open at the surface.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00341290",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright against the wall with the right gripper still attached to its lower edge.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00341290",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the wall with the right arm lowered to its base, the second contact in the sequence.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "episode": "episode_00341290",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright on the wall with the right gripper still attached to its edge, though the grasp isn't yet visibly closed.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 28,
+      "episode": "episode_00341290",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright on the wall with the right gripper still attached to its lower edge.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00341290",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright on the wall with the right gripper still attached to its lower edge.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00341290",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright on the wall with the right gripper still attached to its lower edge.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "episode": "episode_00341290",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright against the wall with the right gripper still attached to its edge.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00341290",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright on the counter with the right gripper at its base, the first contact with the wall surface.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00341290",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright on the counter with the right gripper at its lower edge, the final positioning for mounting.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00341290",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright on the wooden counter with the right gripper at its lower edge, the final settling after positioning.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00341290",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright on the counter with the right gripper at its lower edge, the final contact for mounting.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 11,
+      "episode": "episode_00341810",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the counter surface with the gripper still below it, holding it in place.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00341810",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The right gripper is extended forward over the countertop with the poster still on the wall, the arm in contact with the surface.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 14,
+      "episode": "episode_00341810",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The fridge door is now open and the right gripper is at its handle, releasing the poster.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 16,
+      "episode": "episode_00341810",
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has turned to face the counter and wall with the poster still resting on the shelf, arms still empty and withdrawn.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 18,
+      "episode": "episode_00341810",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now mounted flush on the wall with the nail visible at the top edge, and the right arm is withdrawn.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 20,
+      "episode": "episode_00341810",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is right up against the wall with the poster still attached to the nail, arms lowered to the surface.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "episode": "episode_00341810",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The robot is right up against the wall with the poster now mounted and the gripper still down at the nail.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00341810",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The right gripper is down at the wall bracket holding the poster, with the counter and sink now visible ahead.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "episode": "episode_00341810",
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has turned to face the kitchen counter with the poster still held aloft, and the view is now centered on the work surface rather than on the floor.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 11,
+      "episode": "episode_00342250",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the counter with the right gripper just under its bottom edge, the final contact.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00342250",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright on the counter and the right gripper is retracting away from it.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "episode": "episode_00342250",
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now mounted flush on the wall behind the counter, and the right arm is withdrawn from the wall bracket.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00342250",
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The sink and countertop fill the frame with the right arm raised toward the counter edge, but no object is visible in the gripper.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 76,
+      "episode": "episode_00340030",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The right gripper is extended to the wall beside the poster's edge, in contact with the mounting bracket.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 78,
+      "episode": "episode_00340030",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now flush on the wall with the right gripper still attached to the nail bracket.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00340030",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The right gripper is extended to the wall beside the poster's right edge, in contact with the nail.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 81,
+      "episode": "episode_00340030",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The right gripper is extended to the wall beside the poster's edge, in contact with the nail.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 83,
+      "episode": "episode_00340030",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The right gripper is pressed against the wall bracket holding the poster, with the frame now flush on the surface.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00340030",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now flush on the wall with the right gripper at the nail bracket, the final attachment.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 87,
+      "episode": "episode_00340030",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The right gripper is extended to the poster's right edge, fingers open at the frame border.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 89,
+      "episode": "episode_00340030",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The right gripper is extended to the right side of the poster's right edge, closing on the frame's border.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 91,
+      "episode": "episode_00340030",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The right gripper is pressed against the wall bracket holding the poster, poster upright.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 93,
+      "episode": "episode_00340030",
+      "gt": "hang",
+      "pred": "move to",
+      "raw": "Reasoning: The poster hangs flush on the wall with the robot's body cut off at the bottom edge, no arms or grippers in view.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 86,
+      "episode": "episode_00340630",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now flush on the wall with the right gripper still attached to the nail bracket.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 88,
+      "episode": "episode_00340630",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The right gripper is clamped on the poster's right edge and the wall is now visible behind it, showing the attachment is in progress.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 89,
+      "episode": "episode_00340630",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The right gripper is extended to the wall nail beside the framed poster, the poster still hanging.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 91,
+      "episode": "episode_00340630",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The right gripper is pressed against the wall bracket beside the poster, the poster now flush on the surface.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 93,
+      "episode": "episode_00340630",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The right gripper is extended to the wall beside the poster's edge, in contact with the mounting bracket.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 95,
+      "episode": "episode_00340630",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The right gripper is extended to the wall beside the poster's edge, in contact with the mounting bracket.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 97,
+      "episode": "episode_00340630",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The right gripper is extended to the poster's right edge, fingers open at the frame border.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 99,
+      "episode": "episode_00340630",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The poster hangs flush on the wall with the right gripper still down at the wall bracket, the second frame of the hanging sequence.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 59,
+      "episode": "episode_00341290",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The right gripper is at the poster's right edge, pulling it flush against the wall.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 61,
+      "episode": "episode_00341290",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The right gripper is extended to the poster's right edge, fingers open at the frame border.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 63,
+      "episode": "episode_00341290",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The right gripper is extended to the wall beside the poster's black frame, in contact with the surface.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00341290",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The right gripper is extended to the poster's right edge, closing on the frame's right border.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00341290",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now flush on the wall with the right gripper still attached to the bracket, the hanging phase complete.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 68,
+      "episode": "episode_00341290",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The right gripper is extended to the poster's right edge, closing on the frame's right border.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 70,
+      "episode": "episode_00341290",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now flush on the wall with the nail visible at the top of the frame, and the right arm is withdrawn from the poster.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 72,
+      "episode": "episode_00341290",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The poster hangs flush on the wall and the right gripper is withdrawn from the wall surface.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00341810",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now flush on the wall with the right arm at its lower edge, the final positioning for attachment.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00341810",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now flush on the wall with the right gripper still attached to its bottom edge, in the final alignment for attachment.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00341810",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now flush on the wall with the right gripper just under its bottom edge, the final contact for the hanging.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00341810",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now flush on the wall and the right arm is retracting away from it.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00341810",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now flush on the wall with the right arm still at its attachment point.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 52,
+      "episode": "episode_00341810",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now flush on the wall with the right gripper still attached to the top edge, just finishing the attachment.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00341810",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The right gripper is clamped on the poster's right edge and the frame is now flush with the wall, though the poster still leans off vertical.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00341810",
+      "gt": "hang",
+      "pred": "move to",
+      "raw": "Reasoning: The right gripper is at the poster's right edge, closing on the frame's right border rather than on anything.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00341810",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now flush on the wall with the right gripper still attached to its right edge, the final alignment for mounting.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 59,
+      "episode": "episode_00341810",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now flush on the wall with the right arm still at its attachment point.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 61,
+      "episode": "episode_00341810",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now flush on the wall with the right arm still at its attachment point.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 63,
+      "episode": "episode_00341810",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now flush on the wall with the right arm still at its attachment point.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00341810",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now flush on the wall with the right arm still at its attachment point.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 67,
+      "episode": "episode_00341810",
+      "gt": "hang",
+      "pred": "move to",
+      "raw": "Reasoning: The poster hangs flush on the wall with the robot's arms at the bottom edge, no contact yet.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00342250",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The right gripper is at the poster's right edge, ink visible on the white board, and the wall is now clearly resolved.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00342250",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The right gripper is extended to the wall beside the poster's frame, in contact with the mounting bracket.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 52,
+      "episode": "episode_00342250",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The right gripper is pressed against the poster's right edge, the nail already visible at the poster's corner.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00342250",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The right gripper is at the wall nail beside the poster's frame, the second contact on this pair of frames.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00342250",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The right gripper is pressed against the poster's right edge, the poster now flush on the wall.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 58,
+      "episode": "episode_00342250",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The right gripper is pressed against the wall bracket holding the poster, the poster now flush on the wall.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 60,
+      "episode": "episode_00342250",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The right gripper is pressed against the wall bracket holding the poster, the poster now flush on the wall.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00342250",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now flush on the wall with the right gripper still attached to its bottom edge.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 64,
+      "episode": "episode_00342250",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The right gripper is pressed against the poster's right edge, the frame now flush with the wall.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00342250",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The right gripper is pressed against the poster's right edge, the frame now flush with the wall.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 68,
+      "episode": "episode_00342250",
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now flush on the wall with the right gripper just under its bottom edge, the final alignment for attachment.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00340030",
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright on the wall with the right gripper still attached to its edge, the hanging phase complete.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00340030",
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the counter with both arms raised to its sides, the final grasp for mounting.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00340030",
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the counter with both arms withdrawn and empty, the only visual cue being the arms' placement at the poster's sides.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00340030",
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the counter with both arms withdrawn and empty, the final settling after placement.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00340030",
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright in the right gripper and the left arm is retracting, with the wall and ceiling now visible behind it.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00340030",
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright in the right gripper and the left arm is retracting, with the wall behind it empty of any attachment.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00340030",
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright in the right gripper and the left arm is retracting, with the wall behind it empty of any attachment.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00340030",
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright in the right gripper and the left arm is retracting, with the wall behind it empty of any attachment.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "episode": "episode_00340030",
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright in the grippers and the arms have pulled back, with the wall and ceiling edge entering the frame.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00340030",
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the counter with both arms withdrawn and empty, the only visual cue being the arms' placement at the poster's sides.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00340030",
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright in the right gripper and the left arm is retracting, with the wall behind it empty of any attachment.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00340030",
+      "gt": "hand over",
+      "pred": "move to",
+      "raw": "Reasoning: The poster is now upright in the right gripper and the left arm is retracting, with the counter and wall receding.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00340030",
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the counter with the right gripper at its lower edge, the final contact for mounting.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00340030",
+      "gt": "hand over",
+      "pred": "move to",
+      "raw": "Reasoning: The poster is now upright in the right gripper and the right arm is retracting, with the counter and floor receding.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "episode": "episode_00340030",
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright in the right gripper and the right arm is pulling back, with the wall and ceiling edge entering the frame at the top.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 59,
+      "episode": "episode_00340030",
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright in the right gripper and the right arm is pulling back, with the left gripper still down at the floor.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 60,
+      "episode": "episode_00340030",
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright in the right gripper and the left arm is retracting away from it.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 61,
+      "episode": "episode_00340030",
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright in the right gripper and the right arm is retracting away from it.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00340030",
+      "gt": "hand over",
+      "pred": "pick up from",
+      "raw": "Reasoning: The poster is now upright in the right gripper and the right arm is pulling back, with the left hand still at the floor.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 63,
+      "episode": "episode_00340030",
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright in the right gripper and the right arm is pulling back, with the counter and window visible ahead.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00340630",
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright on the counter with the left gripper still attached to its edge, the hanging phase complete.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "episode": "episode_00340630",
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the counter with both grippers at its lower edge, the final alignment for mounting.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 59,
+      "episode": "episode_00340630",
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the counter with both arms withdrawn and empty, the only visual cue being the close framing.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 60,
+      "episode": "episode_00340630",
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the counter with both arms around its edges, the final grasp of the hanging.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 61,
+      "episode": "episode_00340630",
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright on the counter with both arms withdrawn and empty, the only visual cue being the finished placement.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00340630",
+      "gt": "hand over",
+      "pred": "pick up from",
+      "raw": "Reasoning: The poster is now upright on the counter with both arms withdrawn and empty, the object settled at the work surface.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 63,
+      "episode": "episode_00340630",
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the counter with both arms withdrawn and empty, the only visual cue being the arms' placement at the poster's sides.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 64,
+      "episode": "episode_00340630",
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright on the right gripper's fingers, held rather than placed.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00340630",
+      "gt": "hand over",
+      "pred": "pick up from",
+      "raw": "Reasoning: The poster is now upright on the right gripper's fingers, the second frame of the carry.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00340630",
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright in the right gripper and the right arm is pulling back, with the counter and sink visible ahead.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 67,
+      "episode": "episode_00340630",
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright on the right gripper's fingers, held rather than released.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 19,
+      "episode": "episode_00342250",
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the wall with the right gripper at its bottom edge, just releasing onto the surface.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 20,
+      "episode": "episode_00342250",
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the counter with both arms withdrawn and empty, the only visual cue being the arms' placement at the poster's sides.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00342250",
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright in the right gripper and the left arm is pulling back, with the wall behind it empty of any nail.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "episode": "episode_00342250",
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright in the gripper and the right arm is retracting away from it.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00342250",
+      "gt": "hand over",
+      "pred": "move to",
+      "raw": "Reasoning: The poster is now upright on the counter and both arms are withdrawn, with the right gripper still holding the white cloth.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00342250",
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright in the right gripper and the left arm is retracting, with the wall and ceiling now visible above it.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00342250",
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the counter with both arms withdrawn and empty, the only visual cue being the close framing of the hanging object.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "episode": "episode_00342250",
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright on the counter with the right gripper at its bottom edge, the final positioning for mounting.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "episode": "episode_00342250",
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright on the counter with the right gripper at its lower edge, the frame resting on the surface.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 28,
+      "episode": "episode_00342250",
+      "gt": "hand over",
+      "pred": "move to",
+      "raw": "Reasoning: The poster stands upright on the counter with both arms withdrawn and empty, the only visual cue being the arms' position at the bottom of the frame.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00342250",
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright against the wall with the right gripper still attached to its bottom edge.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00342250",
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the counter with the right gripper at its bottom edge, the final placement contact.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00342250",
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright on the counter with the right gripper at its lower edge, the final contact for mounting.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00342250",
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright in the right gripper and the left arm is retracting, with the counter and wall receding \u2014 the object is held aloft.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 33,
+      "episode": "episode_00342250",
+      "gt": "hand over",
+      "pred": "move to",
+      "raw": "Reasoning: The poster is now upright in the right gripper and the camera has turned to face the counter with the sink and faucet visible ahead.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "episode": "episode_00342250",
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright in the right gripper and the left arm is retracting, with the sink and countertop receding in the background.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00342250",
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright in the right gripper and the left arm is retracting, with the wall and ceiling edge entering the frame at the top.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00342250",
+      "gt": "hand over",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright in the right gripper and the left arm is retracting, with the wall and countertop receding.\nAnswer: hang",
+      "correct": false
+    }
+  ]
+}

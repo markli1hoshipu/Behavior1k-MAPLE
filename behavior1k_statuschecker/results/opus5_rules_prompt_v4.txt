@@ -1,0 +1,220 @@
+Same 4-class robot-subskill task (move to -> pick up from -> press -> place on,
+turning on a radio), same episode, same model (Qwen3.5-2B), using your best rules so far
+(v14, unchanged - this is NOT a new rule set, just a new response format):
+
+=== ACTION_LIST (v14, unchanged) ===
+1. move to - no robot arm is visible anywhere in the frame; you see a wide view of the room (floor, walls, couch) with the red radio small, far away, or not visible at all.
+2. pick up from - a robot arm/gripper IS visible, reaching toward or holding the red radio, but the radio's round dial is NOT facing the camera (you only see the plain red-and-white striped body, not the dial face).
+3. press - the radio's flat face with its round dial IS facing the camera, and a gripper is directly on that dial. This is the only step where the gripper touches the round dial. The radio does not need to be lifted for this - it can happen while the radio still sits on the table.
+4. place on - the radio is resting back down on the table (or being lowered onto it) and the gripper is pulling away rather than touching the dial. If the dial is visible, it may show a small green light now on (this means the radio was already successfully pressed).
+Tie-break: if no arm is visible at all anywhere in the frame, answer 1 (move to).
+
+This time the model was asked to explain its reasoning BEFORE answering, so you can read
+its actual stated logic instead of inferring intent from pixels alone. Result: 42.4%
+accuracy, 55.8% macro recall (move to 9/9, pick up from 7/30, press 9/9, place on 0/11).
+Press went to a perfect 9/9 this way - explaining itself first seems to help there. But
+place on is now systematically absorbed into "press", and 4 pick-up-from frames near the
+grasp point also flipped to "press".
+
+Full per-second trace (reasoning + answer) below. Read it - you don't need to re-read the
+raw images this time, the model's own words ARE the data:
+
+- sec 0: gt=move to, model answered=move to (CORRECT)
+    model's stated reasoning: "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame to interact with it."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0000.jpg
+- sec 1: gt=move to, model answered=move to (CORRECT)
+    model's stated reasoning: "The red radio is visible on the table, but no robot arm or gripper is present in the frame."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0001.jpg
+- sec 2: gt=move to, model answered=move to (CORRECT)
+    model's stated reasoning: "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0002.jpg
+- sec 3: gt=move to, model answered=move to (CORRECT)
+    model's stated reasoning: "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame to interact with it."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0003.jpg
+- sec 4: gt=move to, model answered=move to (CORRECT)
+    model's stated reasoning: "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0004.jpg
+- sec 5: gt=move to, model answered=move to (CORRECT)
+    model's stated reasoning: "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0005.jpg
+- sec 6: gt=move to, model answered=move to (CORRECT)
+    model's stated reasoning: "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0006.jpg
+- sec 7: gt=move to, model answered=move to (CORRECT)
+    model's stated reasoning: "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0007.jpg
+- sec 8: gt=move to, model answered=move to (CORRECT)
+    model's stated reasoning: "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0008.jpg
+- sec 9: gt=pick up from, model answered=move to (WRONG)
+    model's stated reasoning: "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0009.jpg
+- sec 10: gt=pick up from, model answered=move to (WRONG)
+    model's stated reasoning: "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0010.jpg
+- sec 11: gt=pick up from, model answered=move to (WRONG)
+    model's stated reasoning: "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0011.jpg
+- sec 12: gt=pick up from, model answered=move to (WRONG)
+    model's stated reasoning: "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0012.jpg
+- sec 13: gt=pick up from, model answered=move to (WRONG)
+    model's stated reasoning: "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame, so the robot is not interacting with it."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0013.jpg
+- sec 14: gt=pick up from, model answered=move to (WRONG)
+    model's stated reasoning: "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0014.jpg
+- sec 15: gt=pick up from, model answered=move to (WRONG)
+    model's stated reasoning: "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0015.jpg
+- sec 16: gt=pick up from, model answered=move to (WRONG)
+    model's stated reasoning: "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame, so the robot is not interacting with it."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0016.jpg
+- sec 17: gt=pick up from, model answered=move to (WRONG)
+    model's stated reasoning: "The red radio is on the table, but no robot arm or gripper is visible in the frame."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0017.jpg
+- sec 18: gt=pick up from, model answered=move to (WRONG)
+    model's stated reasoning: "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0018.jpg
+- sec 19: gt=pick up from, model answered=move to (WRONG)
+    model's stated reasoning: "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0019.jpg
+- sec 20: gt=pick up from, model answered=move to (WRONG)
+    model's stated reasoning: "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0020.jpg
+- sec 21: gt=pick up from, model answered=move to (WRONG)
+    model's stated reasoning: "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame, so the robot is not interacting with it."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0021.jpg
+- sec 22: gt=pick up from, model answered=move to (WRONG)
+    model's stated reasoning: "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0022.jpg
+- sec 23: gt=pick up from, model answered=move to (WRONG)
+    model's stated reasoning: "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame, so the robot is not interacting with it."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0023.jpg
+- sec 24: gt=pick up from, model answered=move to (WRONG)
+    model's stated reasoning: "The red radio is on the table, but no robot arm or gripper is visible in the frame, so the robot is not interacting with it."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0024.jpg
+- sec 25: gt=pick up from, model answered=move to (WRONG)
+    model's stated reasoning: "The red radio is on the table, but no robot arm or gripper is visible in the frame, so the robot is not interacting with it."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0025.jpg
+- sec 26: gt=pick up from, model answered=move to (WRONG)
+    model's stated reasoning: "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame, so the robot is not performing any subskill."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0026.jpg
+- sec 27: gt=pick up from, model answered=move to (WRONG)
+    model's stated reasoning: "The red radio receiver is visible on the table, but no robot arm or gripper is present in the frame, so the robot is not interacting with it."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0027.jpg
+- sec 28: gt=pick up from, model answered=press (WRONG)
+    model's stated reasoning: "The red radio is on the table, and the gripper is positioned directly over its round dial, indicating the robot is about to press it."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0028.jpg
+- sec 29: gt=pick up from, model answered=pick up from (CORRECT)
+    model's stated reasoning: "The robot arm is visible holding the red radio, but the round dial is not facing the camera; only the striped body is visible, indicating the robot is reaching for or has picked up the radio."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0029.jpg
+- sec 30: gt=pick up from, model answered=press (WRONG)
+    model's stated reasoning: "The red radio is on the table, and the gripper is positioned directly over its round dial, indicating the robot is about to press it."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0030.jpg
+- sec 31: gt=pick up from, model answered=press (WRONG)
+    model's stated reasoning: "The red radio is on the table, and the gripper is positioned directly over its round dial, indicating the robot is about to press it."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0031.jpg
+- sec 32: gt=pick up from, model answered=press (WRONG)
+    model's stated reasoning: "The red radio is on the table, and the gripper is positioned directly over its flat face with the dial visible, indicating the robot is about to press it."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0032.jpg
+- sec 33: gt=pick up from, model answered=pick up from (CORRECT)
+    model's stated reasoning: "The robot arm is holding the red radio, but the round dial is not visible; only the striped body is seen, indicating the radio is not yet pressed."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0033.jpg
+- sec 34: gt=pick up from, model answered=pick up from (CORRECT)
+    model's stated reasoning: "The robot arm is holding the red radio, but the round dial is not visible; only the striped body is seen, indicating the radio is not yet pressed."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0034.jpg
+- sec 35: gt=pick up from, model answered=pick up from (CORRECT)
+    model's stated reasoning: "The robot arm is holding the red radio, but the round dial is not visible; only the striped body is seen, indicating the radio is not yet pressed."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0035.jpg
+- sec 36: gt=pick up from, model answered=pick up from (CORRECT)
+    model's stated reasoning: "The robot arm is holding the red radio, but the round dial is not visible; only the striped body is seen, indicating the radio is not yet pressed."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0036.jpg
+- sec 37: gt=pick up from, model answered=pick up from (CORRECT)
+    model's stated reasoning: "The red radio is being held by the robot arm, but its round dial is not visible; only the striped body is seen, indicating the robot is reaching for or holding the radio."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0037.jpg
+- sec 38: gt=pick up from, model answered=pick up from (CORRECT)
+    model's stated reasoning: "The robot arm is holding the red radio, but the round dial is not facing the camera; only the striped body is visible, indicating the robot is reaching for or has picked up the radio."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0038.jpg
+- sec 39: gt=press, model answered=press (CORRECT)
+    model's stated reasoning: "The red radio is on the table, and the gripper is positioned directly over its round dial, indicating the press action is in progress."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0039.jpg
+- sec 40: gt=press, model answered=press (CORRECT)
+    model's stated reasoning: "The red radio is sitting on the table with its round dial clearly facing the camera, and the robot's gripper is directly touching the dial, indicating the press action is in progress."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0040.jpg
+- sec 41: gt=press, model answered=press (CORRECT)
+    model's stated reasoning: "The red radio is sitting on the table with its round dial clearly facing the camera, and a gripper is directly touching the center of the dial, indicating the robot is in the 'press' phase of the subskill."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0041.jpg
+- sec 42: gt=press, model answered=press (CORRECT)
+    model's stated reasoning: "The red radio is sitting on the table with its round dial clearly facing the camera, and a gripper is directly touching the dial, indicating the robot is in the 'press' phase of the subskill."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0042.jpg
+- sec 43: gt=press, model answered=press (CORRECT)
+    model's stated reasoning: "The red radio is sitting on the table with its round dial clearly facing the camera, and the robot's gripper is positioned directly on top of the dial, indicating the press action is in progress."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0043.jpg
+- sec 44: gt=press, model answered=press (CORRECT)
+    model's stated reasoning: "The red radio is on the table, and the gripper is positioned directly over its round dial, indicating the robot is about to press it."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0044.jpg
+- sec 45: gt=press, model answered=press (CORRECT)
+    model's stated reasoning: "The red radio is sitting on the table with its round dial clearly facing the camera, and a gripper is directly touching the center of the dial, indicating the robot is in the act of pressing the button."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0045.jpg
+- sec 46: gt=press, model answered=press (CORRECT)
+    model's stated reasoning: "The red radio is on the table with its round dial facing the camera, and a gripper is directly touching the dial, which matches the 'press' subskill."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0046.jpg
+- sec 47: gt=press, model answered=press (CORRECT)
+    model's stated reasoning: "The red radio receiver is on the table, and its flat face with the round dial is facing the camera, while the gripper is positioned directly on the dial."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0047.jpg
+- sec 48: gt=place on, model answered=press (WRONG)
+    model's stated reasoning: "The red radio is on the table, and the gripper is positioned directly over its flat face with the dial visible, indicating the robot is about to press it."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0048.jpg
+- sec 49: gt=place on, model answered=press (WRONG)
+    model's stated reasoning: "The red radio is on the table, and the gripper is holding it with its round dial facing the camera, indicating the robot is in the 'press' phase of the subskill."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0049.jpg
+- sec 50: gt=place on, model answered=press (WRONG)
+    model's stated reasoning: "The red radio receiver is on the table, and the gripper is positioned directly over its round dial, indicating the robot is about to press it."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0050.jpg
+- sec 51: gt=place on, model answered=press (WRONG)
+    model's stated reasoning: "The red radio is on the table, and the gripper is positioned directly over its round dial, indicating the press action is in progress."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0051.jpg
+- sec 52: gt=place on, model answered=press (WRONG)
+    model's stated reasoning: "The red radio is on the table, and the gripper is positioned directly over its round dial, indicating the press step."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0052.jpg
+- sec 53: gt=place on, model answered=press (WRONG)
+    model's stated reasoning: "The red radio receiver is on the table, and its flat face with the round dial is facing the camera, but the gripper is not touching the dial."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0053.jpg
+- sec 54: gt=place on, model answered=press (WRONG)
+    model's stated reasoning: "The red radio receiver is on the table, and the gripper is positioned directly over its round dial, indicating the press step."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0054.jpg
+- sec 55: gt=place on, model answered=press (WRONG)
+    model's stated reasoning: "The red radio is on the table, and the gripper is positioned directly over its round dial, indicating the press action is in progress."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0055.jpg
+- sec 56: gt=place on, model answered=press (WRONG)
+    model's stated reasoning: "The red radio is on the table, and the gripper is positioned directly over its round dial, indicating the robot is about to press it."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0056.jpg
+- sec 57: gt=place on, model answered=pick up from (WRONG)
+    model's stated reasoning: "The red radio is on the table, and the gripper is positioned near it but not touching the dial; the dial face is not visible, indicating the robot is reaching toward or picking up the radio."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0057.jpg
+- sec 58: gt=place on, model answered=move to (WRONG)
+    model's stated reasoning: "The red radio is on the table, but no robot arm is visible in the frame, so the robot is not interacting with it."
+    frame: /shared_work/markhsp/behavior1k-statuschecker/data/episode_00000010/frames_1fps/sec_0058.jpg
+
+Two things to diagnose from the traces themselves:
+
+1. For every place-on frame (sec 48-58), what does the model's reasoning actually say
+   about dial visibility and gripper position? Is it applying rule 3 correctly given what
+   it claims to see, or is it misreading the frame? If it's applying the rule correctly to
+   what it (correctly or incorrectly) perceives, that's a RULE gap, not a perception gap -
+   rule 3 currently has no negative case, nothing that says "gripper near/on the dial is
+   NOT enough on its own, it also needs X" to keep place-on from being swallowed.
+
+2. For sec 28/30/31/32 (pick-up-from, misclassified as press), what does the model see
+   that differs from sec 33-38 (pick-up-from, correctly classified)? Is there a stated
+   distinguishing detail in its own reasoning between these two groups, or does it use
+   near-identical language for both (which would mean the frames themselves are genuinely
+   on the rule 2/3 boundary)?
+
+Rewrite the ACTION_LIST (same 4 classes, same plain-language style as v14) to close
+whatever gap the traces reveal, particularly a way to keep rule 3 (press) from also
+matching place-on frames. If the traces show this is a genuine boundary with no reliable
+textual fix, say that explicitly instead of proposing a rule that reads well but won't
+change behavior - you have three previous rounds of evidence that "plausible-sounding"
+rules with no measurable cue behind them didn't move the model at all.

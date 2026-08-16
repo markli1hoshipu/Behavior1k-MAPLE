@@ -1,0 +1,37 @@
+You are helping design a prompt for a small (2B parameter) vision-language model
+that will classify a robot's current subskill from a single camera frame, once per
+second, for the household task: "Put the shoes on the shoe rack."
+
+The possible subskill labels for this task are: ['move to', 'pick up from', 'place in']
+
+Below is a list of frames, each with its GROUND-TRUTH label and file path. Read every
+image (use your Read tool) and figure out what is visually TRUE and RELIABLY DETECTABLE
+in each label's frames, and what's easily confused between adjacent labels.
+
+- [move to] sec 0: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0022/frames/sec_0000.jpg
+- [move to] sec 62: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0022/frames/sec_0062.jpg
+- [move to] sec 117: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0022/frames/sec_0117.jpg
+- [move to] sec 180: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0022/frames/sec_0180.jpg
+- [pick up from] sec 7: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0022/frames/sec_0007.jpg
+- [pick up from] sec 23: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0022/frames/sec_0023.jpg
+- [pick up from] sec 54: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0022/frames/sec_0054.jpg
+- [pick up from] sec 137: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0022/frames/sec_0137.jpg
+- [place in] sec 74: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0022/frames/sec_0074.jpg
+- [place in] sec 86: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0022/frames/sec_0086.jpg
+- [place in] sec 211: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0022/frames/sec_0211.jpg
+- [place in] sec 223: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0022/frames/sec_0223.jpg
+
+For each label, write a SHORT (1-2 sentence) rule describing what is reliably visible
+in-frame for that label, using plain, common-sense language (avoid precise spatial
+jargon like "on top of / below / left / right" - it tends to confuse small models).
+Where a distinction is genuinely not recoverable from a single static frame (e.g. it
+depends on motion direction or on state before/after an off-screen event), say so
+explicitly rather than inventing a rule that won't hold up.
+
+Output ONLY the final rules in this exact format (one line per label, numbered to match
+the label list above), nothing else - no preamble, no analysis section, no confidence
+notes. Keep total output under 200 words:
+
+1. <label> - <rule>
+2. <label> - <rule>
+...

@@ -1,0 +1,7 @@
+1. close door - The washer drum already has the red gloves (or laundry) inside and a gripper is touching the swung-open glass door; the drum interior is not empty.
+2. move to - A wide view of the room or hallway with the floor and distant furniture/appliances visible, both arms hanging low and not touching anything; the robot may or may not already be holding gloves.
+3. open door - The robot is close in front of the washers with an empty drum inside and a gripper at the glass door; no gloves are anywhere in the picture. From one still frame this cannot be told apart from closing a door except by the drum being empty.
+4. pick up from - A gripper is clamped tightly around a red glove and that glove is tilted or lifted clear of the counter, while the other glove still rests flat.
+5. place in - The robot holds one or two red gloves close to the open washer, or a glove is right at the drum opening; the washer fills much of the view.
+6. turn on switch - A gripper touches the round button on the washer front, or the button has turned green.
+7. turn to - The counter with two red gloves lying flat is in view and the arms are raised near them but nothing is grasped; this is easily confused with the start of picking up.

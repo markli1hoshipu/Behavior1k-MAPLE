@@ -1,0 +1,2892 @@
+{
+  "task_chunk": "task-0069",
+  "task_name": "vacuuming_floors",
+  "accuracy": 0.06111111111111111,
+  "macro_recall": 0.06111111111111111,
+  "correct": 22,
+  "total": 360,
+  "n_classes": 6,
+  "unseen_gt_label_frames": 0,
+  "predictions": [
+    {
+      "sec": 0,
+      "episode": "episode_00690320",
+      "gt": "move to vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00690320",
+      "gt": "move to vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00690320",
+      "gt": "move to vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 12,
+      "episode": "episode_00690320",
+      "gt": "move to vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00690320",
+      "gt": "move to vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 2,
+      "episode": "episode_00690350",
+      "gt": "move to vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 0,
+      "episode": "episode_00690360",
+      "gt": "move to vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 5,
+      "episode": "episode_00690360",
+      "gt": "move to vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 2,
+      "episode": "episode_00690390",
+      "gt": "move to vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 6,
+      "episode": "episode_00690390",
+      "gt": "move to vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 1,
+      "episode": "episode_00690400",
+      "gt": "move to vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 5,
+      "episode": "episode_00690400",
+      "gt": "move to vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00690400",
+      "gt": "move to vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 2,
+      "episode": "episode_00690420",
+      "gt": "move to vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 7,
+      "episode": "episode_00690420",
+      "gt": "move to vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 3,
+      "episode": "episode_00690430",
+      "gt": "move to vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 7,
+      "episode": "episode_00690430",
+      "gt": "move to vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 12,
+      "episode": "episode_00690430",
+      "gt": "move to vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 16,
+      "episode": "episode_00690430",
+      "gt": "move to vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 3,
+      "episode": "episode_00690450",
+      "gt": "move to vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00690450",
+      "gt": "move to vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 1,
+      "episode": "episode_00690460",
+      "gt": "move to vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 5,
+      "episode": "episode_00690460",
+      "gt": "move to vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 0,
+      "episode": "episode_00690470",
+      "gt": "move to vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 5,
+      "episode": "episode_00690470",
+      "gt": "move to vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00690470",
+      "gt": "move to vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00690470",
+      "gt": "move to vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 0,
+      "episode": "episode_00690480",
+      "gt": "move to vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00690480",
+      "gt": "move to vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00690480",
+      "gt": "move to vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00690480",
+      "gt": "move to vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 1,
+      "episode": "episode_00690490",
+      "gt": "move to vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 0,
+      "episode": "episode_00690500",
+      "gt": "move to vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00690500",
+      "gt": "move to vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00690500",
+      "gt": "move to vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00690500",
+      "gt": "move to vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00690500",
+      "gt": "move to vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00690510",
+      "gt": "move to vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00690510",
+      "gt": "move to vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 12,
+      "episode": "episode_00690510",
+      "gt": "move to vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 3,
+      "episode": "episode_00690520",
+      "gt": "move to vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 7,
+      "episode": "episode_00690520",
+      "gt": "move to vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 11,
+      "episode": "episode_00690520",
+      "gt": "move to vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "episode": "episode_00690520",
+      "gt": "move to vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 20,
+      "episode": "episode_00690520",
+      "gt": "move to vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 3,
+      "episode": "episode_00690530",
+      "gt": "move to vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 7,
+      "episode": "episode_00690530",
+      "gt": "move to vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 0,
+      "episode": "episode_00690540",
+      "gt": "move to vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00690540",
+      "gt": "move to vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 2,
+      "episode": "episode_00690550",
+      "gt": "move to vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 7,
+      "episode": "episode_00690550",
+      "gt": "move to vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 0,
+      "episode": "episode_00690560",
+      "gt": "move to vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00690560",
+      "gt": "move to vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00690560",
+      "gt": "move to vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00690560",
+      "gt": "move to vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00690560",
+      "gt": "move to vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 2,
+      "episode": "episode_00690570",
+      "gt": "move to vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 7,
+      "episode": "episode_00690570",
+      "gt": "move to vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 11,
+      "episode": "episode_00690570",
+      "gt": "move to vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "episode": "episode_00690570",
+      "gt": "move to vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 19,
+      "episode": "episode_00690320",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "episode": "episode_00690320",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "episode": "episode_00690320",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00690320",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00690350",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 12,
+      "episode": "episode_00690350",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 7,
+      "episode": "episode_00690360",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 11,
+      "episode": "episode_00690360",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "episode": "episode_00690360",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 12,
+      "episode": "episode_00690390",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 16,
+      "episode": "episode_00690390",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 11,
+      "episode": "episode_00690400",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "episode": "episode_00690400",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 19,
+      "episode": "episode_00690400",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00690400",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "episode": "episode_00690400",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00690400",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "episode": "episode_00690400",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00690400",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00690420",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00690420",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00690420",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00690420",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00690420",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00690420",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 33,
+      "episode": "episode_00690420",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 18,
+      "episode": "episode_00690430",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 12,
+      "episode": "episode_00690450",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 16,
+      "episode": "episode_00690450",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 11,
+      "episode": "episode_00690460",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "episode": "episode_00690460",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 18,
+      "episode": "episode_00690460",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 20,
+      "episode": "episode_00690470",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 19,
+      "episode": "episode_00690480",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00690480",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00690490",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 12,
+      "episode": "episode_00690490",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 16,
+      "episode": "episode_00690490",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00690500",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00690500",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00690500",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00690510",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00690510",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00690520",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00690520",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00690520",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00690520",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "episode": "episode_00690530",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 19,
+      "episode": "episode_00690530",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00690530",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00690540",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00690540",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00690540",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00690550",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00690550",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00690550",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 20,
+      "episode": "episode_00690560",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00690560",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 20,
+      "episode": "episode_00690570",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00690570",
+      "gt": "pick up from vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00690320",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "episode": "episode_00690320",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00690320",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 16,
+      "episode": "episode_00690350",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 18,
+      "episode": "episode_00690350",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00690360",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 20,
+      "episode": "episode_00690360",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00690360",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00690360",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "episode": "episode_00690390",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00690390",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 28,
+      "episode": "episode_00690390",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00690390",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00690400",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00690400",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00690400",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00690400",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00690420",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00690420",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00690420",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00690420",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00690420",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00690420",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "episode": "episode_00690420",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "episode": "episode_00690430",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00690430",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 18,
+      "episode": "episode_00690450",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 20,
+      "episode": "episode_00690450",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00690450",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00690460",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00690460",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "episode": "episode_00690460",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "episode": "episode_00690470",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00690470",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "episode": "episode_00690470",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "episode": "episode_00690480",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00690480",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00690480",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "episode": "episode_00690480",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 19,
+      "episode": "episode_00690490",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "episode": "episode_00690490",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00690500",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 33,
+      "episode": "episode_00690500",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00690500",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "episode": "episode_00690510",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00690510",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00690510",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00690520",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "episode": "episode_00690530",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 19,
+      "episode": "episode_00690540",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "episode": "episode_00690540",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00690540",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "episode": "episode_00690550",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 28,
+      "episode": "episode_00690550",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00690550",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00690560",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 33,
+      "episode": "episode_00690560",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00690560",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 28,
+      "episode": "episode_00690570",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00690570",
+      "gt": "turn on switch vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00690320",
+      "gt": "move to dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00690320",
+      "gt": "move to dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00690320",
+      "gt": "move to dirt",
+      "pred": "sweep surface dirt",
+      "raw": "sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 81,
+      "episode": "episode_00690320",
+      "gt": "move to dirt",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 87,
+      "episode": "episode_00690320",
+      "gt": "move to dirt",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 93,
+      "episode": "episode_00690320",
+      "gt": "move to dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "episode": "episode_00690360",
+      "gt": "move to dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00690360",
+      "gt": "move to dirt",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00690390",
+      "gt": "move to dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 63,
+      "episode": "episode_00690400",
+      "gt": "move to dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 70,
+      "episode": "episode_00690400",
+      "gt": "move to dirt",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00690400",
+      "gt": "move to dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 88,
+      "episode": "episode_00690400",
+      "gt": "move to dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00690420",
+      "gt": "move to dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 61,
+      "episode": "episode_00690420",
+      "gt": "move to dirt",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00690420",
+      "gt": "move to dirt",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00690420",
+      "gt": "move to dirt",
+      "pred": "sweep surface dirt",
+      "raw": "sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 103,
+      "episode": "episode_00690420",
+      "gt": "move to dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 109,
+      "episode": "episode_00690420",
+      "gt": "move to dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00690430",
+      "gt": "move to dirt",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00690430",
+      "gt": "move to dirt",
+      "pred": "sweep surface dirt",
+      "raw": "sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "episode": "episode_00690430",
+      "gt": "move to dirt",
+      "pred": "sweep surface dirt",
+      "raw": "sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00690450",
+      "gt": "move to dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00690450",
+      "gt": "move to dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00690460",
+      "gt": "move to dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00690470",
+      "gt": "move to dirt",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00690470",
+      "gt": "move to dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 59,
+      "episode": "episode_00690470",
+      "gt": "move to dirt",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00690480",
+      "gt": "move to dirt",
+      "pred": "sweep surface dirt",
+      "raw": "sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00690480",
+      "gt": "move to dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "episode": "episode_00690490",
+      "gt": "move to dirt",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00690490",
+      "gt": "move to dirt",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00690490",
+      "gt": "move to dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00690500",
+      "gt": "move to dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00690500",
+      "gt": "move to dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00690500",
+      "gt": "move to dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 72,
+      "episode": "episode_00690500",
+      "gt": "move to dirt",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00690510",
+      "gt": "move to dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00690510",
+      "gt": "move to dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "episode": "episode_00690510",
+      "gt": "move to dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 59,
+      "episode": "episode_00690510",
+      "gt": "move to dirt",
+      "pred": "sweep surface dirt",
+      "raw": "sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00690520",
+      "gt": "move to dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "episode": "episode_00690520",
+      "gt": "move to dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 28,
+      "episode": "episode_00690530",
+      "gt": "move to dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00690530",
+      "gt": "move to dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00690540",
+      "gt": "move to dirt",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00690540",
+      "gt": "move to dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00690540",
+      "gt": "move to dirt",
+      "pred": "sweep surface dirt",
+      "raw": "sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00690540",
+      "gt": "move to dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00690540",
+      "gt": "move to dirt",
+      "pred": "sweep surface dirt",
+      "raw": "sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 72,
+      "episode": "episode_00690540",
+      "gt": "move to dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00690550",
+      "gt": "move to dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00690550",
+      "gt": "move to dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00690550",
+      "gt": "move to dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 60,
+      "episode": "episode_00690550",
+      "gt": "move to dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00690560",
+      "gt": "move to dirt",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00690560",
+      "gt": "move to dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 59,
+      "episode": "episode_00690560",
+      "gt": "move to dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00690560",
+      "gt": "move to dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00690570",
+      "gt": "move to dirt",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00690320",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00690320",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": true
+    },
+    {
+      "sec": 68,
+      "episode": "episode_00690320",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 74,
+      "episode": "episode_00690320",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": true
+    },
+    {
+      "sec": 94,
+      "episode": "episode_00690320",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": true
+    },
+    {
+      "sec": 99,
+      "episode": "episode_00690320",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": true
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00690350",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface dirt",
+      "raw": "sweep surface dirt",
+      "correct": true
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00690360",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": true
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00690360",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 33,
+      "episode": "episode_00690390",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00690390",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 61,
+      "episode": "episode_00690400",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface dirt",
+      "raw": "sweep surface dirt",
+      "correct": true
+    },
+    {
+      "sec": 78,
+      "episode": "episode_00690400",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": true
+    },
+    {
+      "sec": 97,
+      "episode": "episode_00690400",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": true
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00690420",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": true
+    },
+    {
+      "sec": 72,
+      "episode": "episode_00690420",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": true
+    },
+    {
+      "sec": 92,
+      "episode": "episode_00690420",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 98,
+      "episode": "episode_00690420",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 116,
+      "episode": "episode_00690420",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00690430",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00690430",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface dirt",
+      "raw": "sweep surface dirt",
+      "correct": true
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00690430",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "episode": "episode_00690460",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": true
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00690460",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00690460",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00690460",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00690460",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface dirt",
+      "raw": "sweep surface dirt",
+      "correct": true
+    },
+    {
+      "sec": 68,
+      "episode": "episode_00690460",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": true
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00690470",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00690470",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00690470",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": true
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00690480",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00690480",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00690480",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00690490",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00690490",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00690490",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface dirt",
+      "raw": "sweep surface dirt",
+      "correct": true
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00690500",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00690500",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": true
+    },
+    {
+      "sec": 74,
+      "episode": "episode_00690500",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00690500",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 86,
+      "episode": "episode_00690500",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": true
+    },
+    {
+      "sec": 63,
+      "episode": "episode_00690510",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface dirt",
+      "raw": "sweep surface dirt",
+      "correct": true
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00690520",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 60,
+      "episode": "episode_00690520",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00690520",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface dirt",
+      "raw": "sweep surface dirt",
+      "correct": true
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00690530",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00690530",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00690530",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00690540",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "episode": "episode_00690540",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00690550",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00690550",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 68,
+      "episode": "episode_00690550",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": true
+    },
+    {
+      "sec": 74,
+      "episode": "episode_00690550",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00690560",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00690560",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 72,
+      "episode": "episode_00690560",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 78,
+      "episode": "episode_00690560",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00690570",
+      "gt": "sweep surface dirt",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 104,
+      "episode": "episode_00690320",
+      "gt": "place on vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 106,
+      "episode": "episode_00690320",
+      "gt": "place on vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 108,
+      "episode": "episode_00690320",
+      "gt": "place on vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00690350",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 33,
+      "episode": "episode_00690350",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00690350",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00690350",
+      "gt": "place on vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00690360",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00690390",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00690390",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00690390",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "episode": "episode_00690390",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00690390",
+      "gt": "place on vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 98,
+      "episode": "episode_00690400",
+      "gt": "place on vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 101,
+      "episode": "episode_00690400",
+      "gt": "place on vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 103,
+      "episode": "episode_00690400",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 117,
+      "episode": "episode_00690420",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 119,
+      "episode": "episode_00690420",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 121,
+      "episode": "episode_00690420",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 124,
+      "episode": "episode_00690420",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 126,
+      "episode": "episode_00690420",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00690430",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 67,
+      "episode": "episode_00690430",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00690450",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00690450",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00690450",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00690450",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00690450",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 72,
+      "episode": "episode_00690460",
+      "gt": "place on vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 74,
+      "episode": "episode_00690460",
+      "gt": "place on vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 63,
+      "episode": "episode_00690470",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00690470",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 69,
+      "episode": "episode_00690480",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 72,
+      "episode": "episode_00690480",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00690490",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "episode": "episode_00690490",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 60,
+      "episode": "episode_00690490",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 63,
+      "episode": "episode_00690490",
+      "gt": "place on vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 88,
+      "episode": "episode_00690500",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 90,
+      "episode": "episode_00690500",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 92,
+      "episode": "episode_00690500",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 94,
+      "episode": "episode_00690500",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 67,
+      "episode": "episode_00690510",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 69,
+      "episode": "episode_00690510",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00690510",
+      "gt": "place on vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 70,
+      "episode": "episode_00690520",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 72,
+      "episode": "episode_00690520",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 75,
+      "episode": "episode_00690520",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 77,
+      "episode": "episode_00690520",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00690520",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00690530",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 77,
+      "episode": "episode_00690540",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00690540",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00690550",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 81,
+      "episode": "episode_00690550",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 83,
+      "episode": "episode_00690550",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00690560",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00690560",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    },
+    {
+      "sec": 84,
+      "episode": "episode_00690560",
+      "gt": "place on vacuum",
+      "pred": "sweep surface dirt",
+      "raw": "7. sweep surface dirt",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "episode": "episode_00690570",
+      "gt": "place on vacuum",
+      "pred": "sweep surface vacuum",
+      "raw": "7. sweep surface vacuum",
+      "correct": false
+    }
+  ]
+}

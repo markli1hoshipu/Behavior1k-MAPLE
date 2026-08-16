@@ -1,0 +1,54 @@
+You are helping design a prompt for a small (2B parameter) vision-language model
+that will classify a robot's current subskill from a single camera frame, once per
+second, for the household task: "Take the onion out of the sink, dice it on the chopping board, and put it in the bowl."
+
+The possible subskill labels for this task are: ['chop', 'move to', 'pick up from', 'place in', 'place on', 'place on next to', 'pour', 'push to']
+
+Below is a list of frames, each with its GROUND-TRUTH label and file path. Read every
+image (use your Read tool) and figure out what is visually TRUE and RELIABLY DETECTABLE
+in each label's frames, and what's easily confused between adjacent labels.
+
+- [move to] sec 3: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0003.jpg
+- [move to] sec 14: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0014.jpg
+- [move to] sec 25: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0025.jpg
+- [move to] sec 36: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0036.jpg
+- [pick up from] sec 39: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0039.jpg
+- [pick up from] sec 54: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0054.jpg
+- [pick up from] sec 87: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0087.jpg
+- [pick up from] sec 163: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0163.jpg
+- [place on next to] sec 65: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0065.jpg
+- [place on next to] sec 69: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0069.jpg
+- [place on next to] sec 72: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0072.jpg
+- [place on next to] sec 76: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0076.jpg
+- [place on] sec 105: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0105.jpg
+- [push to] sec 112: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0112.jpg
+- [push to] sec 116: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0116.jpg
+- [push to] sec 123: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0123.jpg
+- [push to] sec 134: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0134.jpg
+- [chop] sec 130: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0130.jpg
+- [chop] sec 141: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0141.jpg
+- [chop] sec 145: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0145.jpg
+- [chop] sec 148: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0148.jpg
+- [place in] sec 156: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0156.jpg
+- [place in] sec 159: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0159.jpg
+- [place in] sec 203: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0203.jpg
+- [place in] sec 210: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0210.jpg
+- [pour] sec 178: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0178.jpg
+- [pour] sec 181: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0181.jpg
+- [pour] sec 188: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0188.jpg
+- [pour] sec 192: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0192.jpg
+
+For each label, write a SHORT (1-2 sentence) rule describing what is reliably visible
+in-frame for that label, using plain, common-sense language (avoid precise spatial
+jargon like "on top of / below / left / right" - it tends to confuse small models).
+Where a distinction is genuinely not recoverable from a single static frame (e.g. it
+depends on motion direction or on state before/after an off-screen event), say so
+explicitly rather than inventing a rule that won't hold up.
+
+Output ONLY the final rules in this exact format (one line per label, numbered to match
+the label list above), nothing else - no preamble, no analysis section, no confidence
+notes. Keep total output under 200 words:
+
+1. <label> - <rule>
+2. <label> - <rule>
+...

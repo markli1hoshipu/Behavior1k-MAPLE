@@ -1,0 +1,227 @@
+{
+  "task_chunk": "task-0034",
+  "task_name": "hanging pictures",
+  "accuracy": 0.6129032258064516,
+  "macro_recall": 0.43371212121212127,
+  "correct": 19,
+  "total": 31,
+  "predictions": [
+    {
+      "sec": 0,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the dining table and chairs with the kitchen receding in the background, and no arms are visible in the frame.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 1,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the dining area with chairs and a table in view, but no arms or poster are visible \u2014 nothing here distinguishes this from a pure approach frame.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 2,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The kitchen counter and dining chairs are now visible ahead, but the arms remain empty and the poster is still unattached.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 3,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The kitchen counter and dining chairs have entered view while the arms remain idle and empty, with no object in reach.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 4,
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The kitchen counter and fridge are now centered and the arms are lowered toward the countertop edge, consistent with reaching for the poster on the counter.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 5,
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The kitchen counter and microwave are now centered and the right gripper is extended toward the countertop surface.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 6,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The left gripper is extended forward toward the small white object on the floor, arms in a grasp pose.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 7,
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The camera has turned to face the kitchen counter with the right gripper raised and open at the poster's base, the only visual cue of the grasp besides the object's location.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 8,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster sits upright on the counter and the right gripper is extended toward its right edge, the final placement contact.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 9,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster sits upright on the counter and both arms are withdrawn to the sides, empty and idle.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 10,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The right gripper is extended forward over the white poster on the counter, fingers open at its edge.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 11,
+      "gt": "pick up from",
+      "pred": "hang",
+      "raw": "Reasoning: The poster sits upright on the counter and the right gripper is extended toward its right edge, the final reach for the wall attachment.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 12,
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The right gripper is extended forward over the white appliance on the counter, the poster still on the table.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The right gripper is extended forward over the white poster on the counter, fingers open at its edge.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 14,
+      "gt": "move to",
+      "pred": "hang",
+      "raw": "Reasoning: The poster sits upright on the counter and the right gripper is lowered toward its lower edge, the final placement contact.\nAnswer: hang",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The poster sits upright on the counter with the right gripper just under its right edge, the second contact in the sequence.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 16,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright on the counter and the right gripper is retracting from its resting spot.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 17,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the counter with the right gripper just under its base, the second contact in the pair.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 18,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the counter with the right gripper just under its bottom edge, the second contact in the sequence.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 19,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright on the counter and both arms have pulled back and are empty, consistent with finishing the hanging.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 20,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The right gripper is extended toward the white wall bracket next to the poster, with the poster now resting on the counter.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 21,
+      "gt": "hang",
+      "pred": "move to",
+      "raw": "Reasoning: The poster stands upright on the counter with both arms withdrawn and empty, the only visual cue being the arms' placement at the sides.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The right gripper is down at the poster's right edge, closing on the wall bracket.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 23,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the counter with the right gripper at its base, the second time the right hand is involved in the task.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 24,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the counter with both arms withdrawn and empty, the completed hanging.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 25,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the glass counter with the right gripper at its base, the second time the right hand is involved in this task.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 26,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright on the counter and the right gripper is closing in on its lower edge.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 27,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright on the wall with the right gripper still attached to its edge, though the left arm is withdrawn.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 28,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright on the shelf and the right gripper is retracting away from it.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 29,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The poster is now upright on the right gripper and the left arm is retracting away from the counter edge.\nAnswer: hang",
+      "correct": true
+    },
+    {
+      "sec": 30,
+      "gt": "hang",
+      "pred": "hang",
+      "raw": "Reasoning: The poster stands upright on the wall with the right arm braced at its base, the wall-side gripper closed on the wall fixture.\nAnswer: hang",
+      "correct": true
+    }
+  ]
+}

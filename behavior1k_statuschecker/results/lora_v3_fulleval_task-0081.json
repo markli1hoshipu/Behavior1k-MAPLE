@@ -1,0 +1,3372 @@
+{
+  "task_chunk": "task-0081",
+  "task_name": "packing_meal_for_delivery",
+  "accuracy": 0.6071428571428571,
+  "macro_recall": 0.6071428571428571,
+  "correct": 255,
+  "total": 420,
+  "n_classes": 7,
+  "unseen_gt_label_frames": 0,
+  "predictions": [
+    {
+      "sec": 0,
+      "episode": "episode_00810270",
+      "gt": "move to paper bag",
+      "pred": "move to storage box",
+      "raw": "move to storage box",
+      "correct": false
+    },
+    {
+      "sec": 19,
+      "episode": "episode_00810270",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 125,
+      "episode": "episode_00810270",
+      "gt": "move to paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": false
+    },
+    {
+      "sec": 230,
+      "episode": "episode_00810270",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 15,
+      "episode": "episode_00810280",
+      "gt": "move to paper bag",
+      "pred": "move to wrapped hamburger",
+      "raw": "move to wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 176,
+      "episode": "episode_00810280",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 3,
+      "episode": "episode_00810300",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 102,
+      "episode": "episode_00810300",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 174,
+      "episode": "episode_00810300",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00810310",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 108,
+      "episode": "episode_00810310",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 191,
+      "episode": "episode_00810310",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 7,
+      "episode": "episode_00810320",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 119,
+      "episode": "episode_00810320",
+      "gt": "move to paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": false
+    },
+    {
+      "sec": 217,
+      "episode": "episode_00810320",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00810330",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 108,
+      "episode": "episode_00810330",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 210,
+      "episode": "episode_00810330",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00810340",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 108,
+      "episode": "episode_00810340",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 213,
+      "episode": "episode_00810340",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00810350",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 146,
+      "episode": "episode_00810350",
+      "gt": "move to paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": false
+    },
+    {
+      "sec": 5,
+      "episode": "episode_00810360",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00810360",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 124,
+      "episode": "episode_00810360",
+      "gt": "move to paper bag",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": false
+    },
+    {
+      "sec": 196,
+      "episode": "episode_00810360",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 84,
+      "episode": "episode_00810380",
+      "gt": "move to paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": false
+    },
+    {
+      "sec": 104,
+      "episode": "episode_00810380",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 187,
+      "episode": "episode_00810380",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 7,
+      "episode": "episode_00810390",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 116,
+      "episode": "episode_00810390",
+      "gt": "move to paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": false
+    },
+    {
+      "sec": 199,
+      "episode": "episode_00810390",
+      "gt": "move to paper bag",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 218,
+      "episode": "episode_00810390",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 2,
+      "episode": "episode_00810400",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00810400",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 266,
+      "episode": "episode_00810400",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 104,
+      "episode": "episode_00810410",
+      "gt": "move to paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": false
+    },
+    {
+      "sec": 191,
+      "episode": "episode_00810410",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 210,
+      "episode": "episode_00810410",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 16,
+      "episode": "episode_00810420",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 229,
+      "episode": "episode_00810420",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 248,
+      "episode": "episode_00810420",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 11,
+      "episode": "episode_00810440",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 193,
+      "episode": "episode_00810440",
+      "gt": "move to paper bag",
+      "pred": "move to wrapped hamburger",
+      "raw": "move to wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 212,
+      "episode": "episode_00810440",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 11,
+      "episode": "episode_00810450",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 106,
+      "episode": "episode_00810450",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 189,
+      "episode": "episode_00810450",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 208,
+      "episode": "episode_00810450",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 84,
+      "episode": "episode_00810460",
+      "gt": "move to paper bag",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": false
+    },
+    {
+      "sec": 155,
+      "episode": "episode_00810460",
+      "gt": "move to paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": false
+    },
+    {
+      "sec": 175,
+      "episode": "episode_00810460",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 15,
+      "episode": "episode_00810470",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 197,
+      "episode": "episode_00810470",
+      "gt": "move to paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": false
+    },
+    {
+      "sec": 216,
+      "episode": "episode_00810470",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00810480",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00810490",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00810490",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 136,
+      "episode": "episode_00810490",
+      "gt": "move to paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": true
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00810270",
+      "gt": "pick up from paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": false
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00810270",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": true
+    },
+    {
+      "sec": 148,
+      "episode": "episode_00810270",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": true
+    },
+    {
+      "sec": 241,
+      "episode": "episode_00810270",
+      "gt": "pick up from paper bag",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00810280",
+      "gt": "pick up from paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00810280",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": true
+    },
+    {
+      "sec": 99,
+      "episode": "episode_00810280",
+      "gt": "pick up from paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": false
+    },
+    {
+      "sec": 111,
+      "episode": "episode_00810280",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 19,
+      "episode": "episode_00810300",
+      "gt": "pick up from paper bag",
+      "pred": "move to wrapped hamburger",
+      "raw": "move to wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00810300",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": true
+    },
+    {
+      "sec": 189,
+      "episode": "episode_00810300",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": true
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00810310",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": true
+    },
+    {
+      "sec": 125,
+      "episode": "episode_00810310",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": true
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00810320",
+      "gt": "pick up from paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": false
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00810320",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": true
+    },
+    {
+      "sec": 131,
+      "episode": "episode_00810320",
+      "gt": "pick up from paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": false
+    },
+    {
+      "sec": 233,
+      "episode": "episode_00810320",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": true
+    },
+    {
+      "sec": 19,
+      "episode": "episode_00810330",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00810330",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": true
+    },
+    {
+      "sec": 124,
+      "episode": "episode_00810330",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": true
+    },
+    {
+      "sec": 227,
+      "episode": "episode_00810330",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": true
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00810340",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 227,
+      "episode": "episode_00810340",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": true
+    },
+    {
+      "sec": 98,
+      "episode": "episode_00810350",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 166,
+      "episode": "episode_00810350",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": true
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00810360",
+      "gt": "pick up from paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": false
+    },
+    {
+      "sec": 126,
+      "episode": "episode_00810360",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": true
+    },
+    {
+      "sec": 208,
+      "episode": "episode_00810360",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": true
+    },
+    {
+      "sec": 7,
+      "episode": "episode_00810380",
+      "gt": "pick up from paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": false
+    },
+    {
+      "sec": 110,
+      "episode": "episode_00810380",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": true
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00810390",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": true
+    },
+    {
+      "sec": 137,
+      "episode": "episode_00810390",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": true
+    },
+    {
+      "sec": 238,
+      "episode": "episode_00810390",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": true
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00810400",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": true
+    },
+    {
+      "sec": 270,
+      "episode": "episode_00810400",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": true
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00810410",
+      "gt": "pick up from paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": false
+    },
+    {
+      "sec": 123,
+      "episode": "episode_00810410",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": true
+    },
+    {
+      "sec": 219,
+      "episode": "episode_00810410",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": true
+    },
+    {
+      "sec": 27,
+      "episode": "episode_00810420",
+      "gt": "pick up from paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00810420",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": true
+    },
+    {
+      "sec": 133,
+      "episode": "episode_00810420",
+      "gt": "pick up from paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": false
+    },
+    {
+      "sec": 257,
+      "episode": "episode_00810420",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": true
+    },
+    {
+      "sec": 269,
+      "episode": "episode_00810420",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00810440",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": true
+    },
+    {
+      "sec": 120,
+      "episode": "episode_00810440",
+      "gt": "pick up from paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "episode": "episode_00810450",
+      "gt": "pick up from paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00810450",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": true
+    },
+    {
+      "sec": 127,
+      "episode": "episode_00810450",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": true
+    },
+    {
+      "sec": 221,
+      "episode": "episode_00810450",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": true
+    },
+    {
+      "sec": 100,
+      "episode": "episode_00810460",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00810470",
+      "gt": "pick up from paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00810470",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": true
+    },
+    {
+      "sec": 121,
+      "episode": "episode_00810470",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": true
+    },
+    {
+      "sec": 11,
+      "episode": "episode_00810480",
+      "gt": "pick up from paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00810480",
+      "gt": "pick up from paper bag",
+      "pred": "move to wrapped hamburger",
+      "raw": "move to wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 158,
+      "episode": "episode_00810480",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "episode": "episode_00810490",
+      "gt": "pick up from paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00810490",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00810490",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 143,
+      "episode": "episode_00810490",
+      "gt": "pick up from paper bag",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": true
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00810270",
+      "gt": "move to wrapped hamburger",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": false
+    },
+    {
+      "sec": 63,
+      "episode": "episode_00810270",
+      "gt": "move to wrapped hamburger",
+      "pred": "move to wrapped hamburger",
+      "raw": "move to wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 157,
+      "episode": "episode_00810270",
+      "gt": "move to wrapped hamburger",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": false
+    },
+    {
+      "sec": 250,
+      "episode": "episode_00810270",
+      "gt": "move to wrapped hamburger",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 260,
+      "episode": "episode_00810270",
+      "gt": "move to wrapped hamburger",
+      "pred": "move to wrapped hamburger",
+      "raw": "move to wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 119,
+      "episode": "episode_00810280",
+      "gt": "move to wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "episode": "episode_00810300",
+      "gt": "move to wrapped hamburger",
+      "pred": "move to storage box",
+      "raw": "move to storage box",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00810300",
+      "gt": "move to wrapped hamburger",
+      "pred": "move to wrapped hamburger",
+      "raw": "move to wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 201,
+      "episode": "episode_00810300",
+      "gt": "move to wrapped hamburger",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00810320",
+      "gt": "move to wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 140,
+      "episode": "episode_00810320",
+      "gt": "move to wrapped hamburger",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": false
+    },
+    {
+      "sec": 239,
+      "episode": "episode_00810320",
+      "gt": "move to wrapped hamburger",
+      "pred": "move to wrapped hamburger",
+      "raw": "move to wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 249,
+      "episode": "episode_00810320",
+      "gt": "move to wrapped hamburger",
+      "pred": "move to wrapped hamburger",
+      "raw": "move to wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 242,
+      "episode": "episode_00810330",
+      "gt": "move to wrapped hamburger",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 253,
+      "episode": "episode_00810330",
+      "gt": "move to wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 129,
+      "episode": "episode_00810340",
+      "gt": "move to wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 241,
+      "episode": "episode_00810340",
+      "gt": "move to wrapped hamburger",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": false
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00810350",
+      "gt": "move to wrapped hamburger",
+      "pred": "move to wrapped hamburger",
+      "raw": "move to wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00810350",
+      "gt": "move to wrapped hamburger",
+      "pred": "move to wrapped hamburger",
+      "raw": "move to wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00810360",
+      "gt": "move to wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 16,
+      "episode": "episode_00810380",
+      "gt": "move to wrapped hamburger",
+      "pred": "move to wrapped hamburger",
+      "raw": "move to wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 113,
+      "episode": "episode_00810380",
+      "gt": "move to wrapped hamburger",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": false
+    },
+    {
+      "sec": 216,
+      "episode": "episode_00810380",
+      "gt": "move to wrapped hamburger",
+      "pred": "move to wrapped hamburger",
+      "raw": "move to wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00810390",
+      "gt": "move to wrapped hamburger",
+      "pred": "move to storage box",
+      "raw": "move to storage box",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00810390",
+      "gt": "move to wrapped hamburger",
+      "pred": "move to storage box",
+      "raw": "move to storage box",
+      "correct": false
+    },
+    {
+      "sec": 61,
+      "episode": "episode_00810390",
+      "gt": "move to wrapped hamburger",
+      "pred": "move to wrapped hamburger",
+      "raw": "move to wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 245,
+      "episode": "episode_00810390",
+      "gt": "move to wrapped hamburger",
+      "pred": "move to storage box",
+      "raw": "move to storage box",
+      "correct": false
+    },
+    {
+      "sec": 255,
+      "episode": "episode_00810390",
+      "gt": "move to wrapped hamburger",
+      "pred": "move to wrapped hamburger",
+      "raw": "move to wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00810400",
+      "gt": "move to wrapped hamburger",
+      "pred": "move to wrapped hamburger",
+      "raw": "move to wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00810400",
+      "gt": "move to wrapped hamburger",
+      "pred": "move to wrapped hamburger",
+      "raw": "move to wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 153,
+      "episode": "episode_00810400",
+      "gt": "move to wrapped hamburger",
+      "pred": "move to wrapped hamburger",
+      "raw": "move to wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 163,
+      "episode": "episode_00810400",
+      "gt": "move to wrapped hamburger",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": false
+    },
+    {
+      "sec": 174,
+      "episode": "episode_00810400",
+      "gt": "move to wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 284,
+      "episode": "episode_00810400",
+      "gt": "move to wrapped hamburger",
+      "pred": "move to wrapped hamburger",
+      "raw": "move to wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 294,
+      "episode": "episode_00810400",
+      "gt": "move to wrapped hamburger",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": false
+    },
+    {
+      "sec": 305,
+      "episode": "episode_00810400",
+      "gt": "move to wrapped hamburger",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00810410",
+      "gt": "move to wrapped hamburger",
+      "pred": "move to storage box",
+      "raw": "move to storage box",
+      "correct": false
+    },
+    {
+      "sec": 131,
+      "episode": "episode_00810410",
+      "gt": "move to wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 229,
+      "episode": "episode_00810410",
+      "gt": "move to wrapped hamburger",
+      "pred": "move to storage box",
+      "raw": "move to storage box",
+      "correct": false
+    },
+    {
+      "sec": 240,
+      "episode": "episode_00810410",
+      "gt": "move to wrapped hamburger",
+      "pred": "move to storage box",
+      "raw": "move to storage box",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "episode": "episode_00810420",
+      "gt": "move to wrapped hamburger",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 145,
+      "episode": "episode_00810420",
+      "gt": "move to wrapped hamburger",
+      "pred": "move to storage box",
+      "raw": "move to storage box",
+      "correct": false
+    },
+    {
+      "sec": 155,
+      "episode": "episode_00810420",
+      "gt": "move to wrapped hamburger",
+      "pred": "move to wrapped hamburger",
+      "raw": "move to wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 166,
+      "episode": "episode_00810420",
+      "gt": "move to wrapped hamburger",
+      "pred": "move to wrapped hamburger",
+      "raw": "move to wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00810440",
+      "gt": "move to wrapped hamburger",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 127,
+      "episode": "episode_00810440",
+      "gt": "move to wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 232,
+      "episode": "episode_00810440",
+      "gt": "move to wrapped hamburger",
+      "pred": "move to storage box",
+      "raw": "move to storage box",
+      "correct": false
+    },
+    {
+      "sec": 243,
+      "episode": "episode_00810440",
+      "gt": "move to wrapped hamburger",
+      "pred": "move to storage box",
+      "raw": "move to storage box",
+      "correct": false
+    },
+    {
+      "sec": 254,
+      "episode": "episode_00810440",
+      "gt": "move to wrapped hamburger",
+      "pred": "move to wrapped hamburger",
+      "raw": "move to wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00810450",
+      "gt": "move to wrapped hamburger",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 233,
+      "episode": "episode_00810450",
+      "gt": "move to wrapped hamburger",
+      "pred": "move to wrapped hamburger",
+      "raw": "move to wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 244,
+      "episode": "episode_00810450",
+      "gt": "move to wrapped hamburger",
+      "pred": "move to storage box",
+      "raw": "move to storage box",
+      "correct": false
+    },
+    {
+      "sec": 255,
+      "episode": "episode_00810450",
+      "gt": "move to wrapped hamburger",
+      "pred": "move to wrapped hamburger",
+      "raw": "move to wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 27,
+      "episode": "episode_00810460",
+      "gt": "move to wrapped hamburger",
+      "pred": "move to wrapped hamburger",
+      "raw": "move to wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 189,
+      "episode": "episode_00810460",
+      "gt": "move to wrapped hamburger",
+      "pred": "move to wrapped hamburger",
+      "raw": "move to wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00810470",
+      "gt": "move to wrapped hamburger",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00810470",
+      "gt": "move to wrapped hamburger",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": false
+    },
+    {
+      "sec": 131,
+      "episode": "episode_00810470",
+      "gt": "move to wrapped hamburger",
+      "pred": "move to storage box",
+      "raw": "move to storage box",
+      "correct": false
+    },
+    {
+      "sec": 237,
+      "episode": "episode_00810470",
+      "gt": "move to wrapped hamburger",
+      "pred": "move to wrapped hamburger",
+      "raw": "move to wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00810480",
+      "gt": "move to wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00810270",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": false
+    },
+    {
+      "sec": 171,
+      "episode": "episode_00810270",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 267,
+      "episode": "episode_00810270",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 282,
+      "episode": "episode_00810270",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00810280",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 124,
+      "episode": "episode_00810280",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 210,
+      "episode": "episode_00810280",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00810300",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 124,
+      "episode": "episode_00810300",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 215,
+      "episode": "episode_00810300",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 133,
+      "episode": "episode_00810310",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "move to wrapped hamburger",
+      "raw": "move to wrapped hamburger\nuser\nThe robot's subskill is always",
+      "correct": false
+    },
+    {
+      "sec": 210,
+      "episode": "episode_00810310",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 59,
+      "episode": "episode_00810320",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 151,
+      "episode": "episode_00810320",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 165,
+      "episode": "episode_00810320",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 266,
+      "episode": "episode_00810320",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00810330",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 135,
+      "episode": "episode_00810330",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 149,
+      "episode": "episode_00810330",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 263,
+      "episode": "episode_00810330",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 277,
+      "episode": "episode_00810330",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 130,
+      "episode": "episode_00810340",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 254,
+      "episode": "episode_00810340",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 105,
+      "episode": "episode_00810350",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "move to wrapped hamburger",
+      "raw": "move to wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 177,
+      "episode": "episode_00810350",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "move to storage box",
+      "raw": "move to storage box",
+      "correct": false
+    },
+    {
+      "sec": 60,
+      "episode": "episode_00810360",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 137,
+      "episode": "episode_00810360",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 228,
+      "episode": "episode_00810360",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 242,
+      "episode": "episode_00810360",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00810380",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 219,
+      "episode": "episode_00810380",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "move to wrapped hamburger",
+      "raw": "move to wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 233,
+      "episode": "episode_00810380",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00810390",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 158,
+      "episode": "episode_00810390",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 277,
+      "episode": "episode_00810390",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 72,
+      "episode": "episode_00810400",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 185,
+      "episode": "episode_00810400",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 313,
+      "episode": "episode_00810400",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00810410",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00810410",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00810420",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 175,
+      "episode": "episode_00810420",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00810440",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 135,
+      "episode": "episode_00810440",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 150,
+      "episode": "episode_00810440",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 267,
+      "episode": "episode_00810440",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 131,
+      "episode": "episode_00810450",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 265,
+      "episode": "episode_00810450",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00810460",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 113,
+      "episode": "episode_00810460",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 209,
+      "episode": "episode_00810460",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 59,
+      "episode": "episode_00810470",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 143,
+      "episode": "episode_00810470",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 242,
+      "episode": "episode_00810470",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "move to storage box",
+      "raw": "move to storage box",
+      "correct": false
+    },
+    {
+      "sec": 257,
+      "episode": "episode_00810470",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 103,
+      "episode": "episode_00810480",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 174,
+      "episode": "episode_00810480",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 69,
+      "episode": "episode_00810490",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 149,
+      "episode": "episode_00810490",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": false
+    },
+    {
+      "sec": 163,
+      "episode": "episode_00810490",
+      "gt": "pick up from wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00810270",
+      "gt": "place in wrapped hamburger",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 95,
+      "episode": "episode_00810270",
+      "gt": "place in wrapped hamburger",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 192,
+      "episode": "episode_00810270",
+      "gt": "place in wrapped hamburger",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 291,
+      "episode": "episode_00810270",
+      "gt": "place in wrapped hamburger",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": false
+    },
+    {
+      "sec": 60,
+      "episode": "episode_00810280",
+      "gt": "place in wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 142,
+      "episode": "episode_00810280",
+      "gt": "place in wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 229,
+      "episode": "episode_00810280",
+      "gt": "place in wrapped hamburger",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 130,
+      "episode": "episode_00810300",
+      "gt": "place in wrapped hamburger",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 143,
+      "episode": "episode_00810300",
+      "gt": "place in wrapped hamburger",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00810310",
+      "gt": "place in wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 145,
+      "episode": "episode_00810310",
+      "gt": "place in wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 226,
+      "episode": "episode_00810310",
+      "gt": "place in wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00810320",
+      "gt": "place in wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 92,
+      "episode": "episode_00810320",
+      "gt": "place in wrapped hamburger",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 177,
+      "episode": "episode_00810320",
+      "gt": "place in wrapped hamburger",
+      "pred": "move to wrapped hamburger",
+      "raw": "move to wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 277,
+      "episode": "episode_00810320",
+      "gt": "place in wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 290,
+      "episode": "episode_00810320",
+      "gt": "place in wrapped hamburger",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00810330",
+      "gt": "place in wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 160,
+      "episode": "episode_00810330",
+      "gt": "place in wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 284,
+      "episode": "episode_00810330",
+      "gt": "place in wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00810340",
+      "gt": "place in wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 134,
+      "episode": "episode_00810340",
+      "gt": "place in wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 147,
+      "episode": "episode_00810340",
+      "gt": "place in wrapped hamburger",
+      "pred": "move to storage box",
+      "raw": "move to storage box",
+      "correct": false
+    },
+    {
+      "sec": 268,
+      "episode": "episode_00810340",
+      "gt": "place in wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 122,
+      "episode": "episode_00810350",
+      "gt": "place in wrapped hamburger",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 76,
+      "episode": "episode_00810360",
+      "gt": "place in wrapped hamburger",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": false
+    },
+    {
+      "sec": 90,
+      "episode": "episode_00810360",
+      "gt": "place in wrapped hamburger",
+      "pred": "move to storage box",
+      "raw": "move to storage box",
+      "correct": false
+    },
+    {
+      "sec": 248,
+      "episode": "episode_00810360",
+      "gt": "place in wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 262,
+      "episode": "episode_00810360",
+      "gt": "place in wrapped hamburger",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00810380",
+      "gt": "place in wrapped hamburger",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 139,
+      "episode": "episode_00810380",
+      "gt": "place in wrapped hamburger",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 248,
+      "episode": "episode_00810380",
+      "gt": "place in wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 93,
+      "episode": "episode_00810390",
+      "gt": "place in wrapped hamburger",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 170,
+      "episode": "episode_00810390",
+      "gt": "place in wrapped hamburger",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 294,
+      "episode": "episode_00810390",
+      "gt": "place in wrapped hamburger",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 93,
+      "episode": "episode_00810400",
+      "gt": "place in wrapped hamburger",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 203,
+      "episode": "episode_00810400",
+      "gt": "place in wrapped hamburger",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 337,
+      "episode": "episode_00810400",
+      "gt": "place in wrapped hamburger",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 69,
+      "episode": "episode_00810410",
+      "gt": "place in wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 156,
+      "episode": "episode_00810410",
+      "gt": "place in wrapped hamburger",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 73,
+      "episode": "episode_00810420",
+      "gt": "place in wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 181,
+      "episode": "episode_00810420",
+      "gt": "place in wrapped hamburger",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 69,
+      "episode": "episode_00810440",
+      "gt": "place in wrapped hamburger",
+      "pred": "move to wrapped hamburger",
+      "raw": "move to wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 158,
+      "episode": "episode_00810440",
+      "gt": "place in wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 277,
+      "episode": "episode_00810440",
+      "gt": "place in wrapped hamburger",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00810450",
+      "gt": "place in wrapped hamburger",
+      "pred": "move to storage box",
+      "raw": "move to storage box",
+      "correct": false
+    },
+    {
+      "sec": 146,
+      "episode": "episode_00810450",
+      "gt": "place in wrapped hamburger",
+      "pred": "move to wrapped hamburger",
+      "raw": "move to wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 276,
+      "episode": "episode_00810450",
+      "gt": "place in wrapped hamburger",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00810460",
+      "gt": "place in wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 120,
+      "episode": "episode_00810460",
+      "gt": "place in wrapped hamburger",
+      "pred": "move to wrapped hamburger",
+      "raw": "move to wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 225,
+      "episode": "episode_00810460",
+      "gt": "place in wrapped hamburger",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 77,
+      "episode": "episode_00810470",
+      "gt": "place in wrapped hamburger",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 163,
+      "episode": "episode_00810470",
+      "gt": "place in wrapped hamburger",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 269,
+      "episode": "episode_00810470",
+      "gt": "place in wrapped hamburger",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 113,
+      "episode": "episode_00810480",
+      "gt": "place in wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 126,
+      "episode": "episode_00810480",
+      "gt": "place in wrapped hamburger",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 190,
+      "episode": "episode_00810480",
+      "gt": "place in wrapped hamburger",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 90,
+      "episode": "episode_00810490",
+      "gt": "place in wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 169,
+      "episode": "episode_00810490",
+      "gt": "place in wrapped hamburger",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": true
+    },
+    {
+      "sec": 249,
+      "episode": "episode_00810490",
+      "gt": "place in wrapped hamburger",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 100,
+      "episode": "episode_00810270",
+      "gt": "place in paper bag",
+      "pred": "move to storage box",
+      "raw": "move to storage box",
+      "correct": false
+    },
+    {
+      "sec": 115,
+      "episode": "episode_00810270",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 209,
+      "episode": "episode_00810270",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 225,
+      "episode": "episode_00810270",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 317,
+      "episode": "episode_00810270",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00810280",
+      "gt": "place in paper bag",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 261,
+      "episode": "episode_00810280",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 84,
+      "episode": "episode_00810300",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 153,
+      "episode": "episode_00810300",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 242,
+      "episode": "episode_00810300",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00810310",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 177,
+      "episode": "episode_00810310",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 277,
+      "episode": "episode_00810310",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 109,
+      "episode": "episode_00810320",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 198,
+      "episode": "episode_00810320",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 319,
+      "episode": "episode_00810320",
+      "gt": "place in paper bag",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 77,
+      "episode": "episode_00810330",
+      "gt": "place in paper bag",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 187,
+      "episode": "episode_00810330",
+      "gt": "place in paper bag",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 306,
+      "episode": "episode_00810330",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 75,
+      "episode": "episode_00810340",
+      "gt": "place in paper bag",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 91,
+      "episode": "episode_00810340",
+      "gt": "place in paper bag",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 190,
+      "episode": "episode_00810340",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 297,
+      "episode": "episode_00810340",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 86,
+      "episode": "episode_00810350",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 216,
+      "episode": "episode_00810350",
+      "gt": "place in paper bag",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 104,
+      "episode": "episode_00810360",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 176,
+      "episode": "episode_00810360",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 70,
+      "episode": "episode_00810380",
+      "gt": "place in paper bag",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 162,
+      "episode": "episode_00810380",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 285,
+      "episode": "episode_00810380",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 112,
+      "episode": "episode_00810390",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 308,
+      "episode": "episode_00810390",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 324,
+      "episode": "episode_00810390",
+      "gt": "place in paper bag",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 243,
+      "episode": "episode_00810400",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 259,
+      "episode": "episode_00810400",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 374,
+      "episode": "episode_00810400",
+      "gt": "place in paper bag",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 91,
+      "episode": "episode_00810410",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 173,
+      "episode": "episode_00810410",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 278,
+      "episode": "episode_00810410",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 294,
+      "episode": "episode_00810410",
+      "gt": "place in paper bag",
+      "pred": "move to storage box",
+      "raw": "move to storage box",
+      "correct": false
+    },
+    {
+      "sec": 118,
+      "episode": "episode_00810420",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 221,
+      "episode": "episode_00810420",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 326,
+      "episode": "episode_00810420",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 98,
+      "episode": "episode_00810440",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 187,
+      "episode": "episode_00810440",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 302,
+      "episode": "episode_00810440",
+      "gt": "place in paper bag",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": false
+    },
+    {
+      "sec": 95,
+      "episode": "episode_00810450",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 180,
+      "episode": "episode_00810450",
+      "gt": "place in paper bag",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 72,
+      "episode": "episode_00810460",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00810460",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 246,
+      "episode": "episode_00810460",
+      "gt": "place in paper bag",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 99,
+      "episode": "episode_00810470",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 194,
+      "episode": "episode_00810470",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 67,
+      "episode": "episode_00810480",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 133,
+      "episode": "episode_00810480",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 211,
+      "episode": "episode_00810480",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 227,
+      "episode": "episode_00810480",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 186,
+      "episode": "episode_00810490",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 202,
+      "episode": "episode_00810490",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 289,
+      "episode": "episode_00810490",
+      "gt": "place in paper bag",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": true
+    },
+    {
+      "sec": 69,
+      "episode": "episode_00810280",
+      "gt": "move to storage box",
+      "pred": "move to storage box",
+      "raw": "move to storage box\nassistant\n\nmove to storage box",
+      "correct": true
+    },
+    {
+      "sec": 231,
+      "episode": "episode_00810280",
+      "gt": "move to storage box",
+      "pred": "move to wrapped hamburger",
+      "raw": "move to wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 244,
+      "episode": "episode_00810280",
+      "gt": "move to storage box",
+      "pred": "move to storage box",
+      "raw": "move to storage box",
+      "correct": true
+    },
+    {
+      "sec": 257,
+      "episode": "episode_00810280",
+      "gt": "move to storage box",
+      "pred": "move to storage box",
+      "raw": "move to storage box",
+      "correct": true
+    },
+    {
+      "sec": 144,
+      "episode": "episode_00810300",
+      "gt": "move to storage box",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": false
+    },
+    {
+      "sec": 235,
+      "episode": "episode_00810300",
+      "gt": "move to storage box",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 72,
+      "episode": "episode_00810310",
+      "gt": "move to storage box",
+      "pred": "move to wrapped hamburger",
+      "raw": "move to wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 162,
+      "episode": "episode_00810310",
+      "gt": "move to storage box",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": false
+    },
+    {
+      "sec": 236,
+      "episode": "episode_00810310",
+      "gt": "move to storage box",
+      "pred": "move to storage box",
+      "raw": "move to storage box",
+      "correct": true
+    },
+    {
+      "sec": 249,
+      "episode": "episode_00810310",
+      "gt": "move to storage box",
+      "pred": "move to storage box",
+      "raw": "move to storage box",
+      "correct": true
+    },
+    {
+      "sec": 263,
+      "episode": "episode_00810310",
+      "gt": "move to storage box",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": false
+    },
+    {
+      "sec": 305,
+      "episode": "episode_00810320",
+      "gt": "move to storage box",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 174,
+      "episode": "episode_00810330",
+      "gt": "move to storage box",
+      "pred": "move to storage box",
+      "raw": "move to storage box\nassistant\n\n<think>\n\n</think>\n\nmove to storage",
+      "correct": true
+    },
+    {
+      "sec": 295,
+      "episode": "episode_00810330",
+      "gt": "move to storage box",
+      "pred": "move to storage box",
+      "raw": "move to storage box",
+      "correct": true
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00810340",
+      "gt": "move to storage box",
+      "pred": "move to storage box",
+      "raw": "move to storage box",
+      "correct": true
+    },
+    {
+      "sec": 68,
+      "episode": "episode_00810340",
+      "gt": "move to storage box",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 155,
+      "episode": "episode_00810340",
+      "gt": "move to storage box",
+      "pred": "move to wrapped hamburger",
+      "raw": "move to wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 168,
+      "episode": "episode_00810340",
+      "gt": "move to storage box",
+      "pred": "pick up from paper bag",
+      "raw": "pick up from paper bag",
+      "correct": false
+    },
+    {
+      "sec": 271,
+      "episode": "episode_00810340",
+      "gt": "move to storage box",
+      "pred": "move to storage box",
+      "raw": "move to storage box",
+      "correct": true
+    },
+    {
+      "sec": 284,
+      "episode": "episode_00810340",
+      "gt": "move to storage box",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 74,
+      "episode": "episode_00810350",
+      "gt": "move to storage box",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": false
+    },
+    {
+      "sec": 198,
+      "episode": "episode_00810350",
+      "gt": "move to storage box",
+      "pred": "move to storage box",
+      "raw": "move to storage box\nassistant\n\n<think>\n\n</think>\n\nmove to storage",
+      "correct": true
+    },
+    {
+      "sec": 93,
+      "episode": "episode_00810360",
+      "gt": "move to storage box",
+      "pred": "move to storage box",
+      "raw": "move to storage box",
+      "correct": true
+    },
+    {
+      "sec": 169,
+      "episode": "episode_00810360",
+      "gt": "move to storage box",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": false
+    },
+    {
+      "sec": 277,
+      "episode": "episode_00810360",
+      "gt": "move to storage box",
+      "pred": "move to storage box",
+      "raw": "move to storage box",
+      "correct": true
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00810380",
+      "gt": "move to storage box",
+      "pred": "move to wrapped hamburger",
+      "raw": "move to wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00810380",
+      "gt": "move to storage box",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": false
+    },
+    {
+      "sec": 152,
+      "episode": "episode_00810380",
+      "gt": "move to storage box",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": false
+    },
+    {
+      "sec": 258,
+      "episode": "episode_00810380",
+      "gt": "move to storage box",
+      "pred": "move to storage box",
+      "raw": "move to storage box",
+      "correct": true
+    },
+    {
+      "sec": 271,
+      "episode": "episode_00810380",
+      "gt": "move to storage box",
+      "pred": "move to storage box",
+      "raw": "move to storage box",
+      "correct": true
+    },
+    {
+      "sec": 177,
+      "episode": "episode_00810390",
+      "gt": "move to storage box",
+      "pred": "move to storage box",
+      "raw": "move to storage box",
+      "correct": true
+    },
+    {
+      "sec": 306,
+      "episode": "episode_00810390",
+      "gt": "move to storage box",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": false
+    },
+    {
+      "sec": 107,
+      "episode": "episode_00810400",
+      "gt": "move to storage box",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 120,
+      "episode": "episode_00810400",
+      "gt": "move to storage box",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": false
+    },
+    {
+      "sec": 213,
+      "episode": "episode_00810400",
+      "gt": "move to storage box",
+      "pred": "move to storage box",
+      "raw": "move to storage box",
+      "correct": true
+    },
+    {
+      "sec": 226,
+      "episode": "episode_00810400",
+      "gt": "move to storage box",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 239,
+      "episode": "episode_00810400",
+      "gt": "move to storage box",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": false
+    },
+    {
+      "sec": 350,
+      "episode": "episode_00810400",
+      "gt": "move to storage box",
+      "pred": "move to storage box",
+      "raw": "move to storage box",
+      "correct": true
+    },
+    {
+      "sec": 75,
+      "episode": "episode_00810410",
+      "gt": "move to storage box",
+      "pred": "move to paper bag",
+      "raw": "move to paper bag",
+      "correct": false
+    },
+    {
+      "sec": 167,
+      "episode": "episode_00810410",
+      "gt": "move to storage box",
+      "pred": "move to storage box",
+      "raw": "move to storage box\nassistant\n\n<think>\n\n</think>\n\nmove to storage",
+      "correct": true
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00810420",
+      "gt": "move to storage box",
+      "pred": "move to storage box",
+      "raw": "move to storage box",
+      "correct": true
+    },
+    {
+      "sec": 98,
+      "episode": "episode_00810420",
+      "gt": "move to storage box",
+      "pred": "move to storage box",
+      "raw": "move to storage box",
+      "correct": true
+    },
+    {
+      "sec": 191,
+      "episode": "episode_00810420",
+      "gt": "move to storage box",
+      "pred": "move to storage box",
+      "raw": "move to storage box",
+      "correct": true
+    },
+    {
+      "sec": 204,
+      "episode": "episode_00810420",
+      "gt": "move to storage box",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": false
+    },
+    {
+      "sec": 299,
+      "episode": "episode_00810420",
+      "gt": "move to storage box",
+      "pred": "move to storage box",
+      "raw": "move to storage box",
+      "correct": true
+    },
+    {
+      "sec": 312,
+      "episode": "episode_00810420",
+      "gt": "move to storage box",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 170,
+      "episode": "episode_00810440",
+      "gt": "move to storage box",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": false
+    },
+    {
+      "sec": 290,
+      "episode": "episode_00810440",
+      "gt": "move to storage box",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 165,
+      "episode": "episode_00810450",
+      "gt": "move to storage box",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": false
+    },
+    {
+      "sec": 299,
+      "episode": "episode_00810450",
+      "gt": "move to storage box",
+      "pred": "move to storage box",
+      "raw": "move to storage box",
+      "correct": true
+    },
+    {
+      "sec": 64,
+      "episode": "episode_00810460",
+      "gt": "move to storage box",
+      "pred": "pick up from wrapped hamburger",
+      "raw": "pick up from wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 134,
+      "episode": "episode_00810460",
+      "gt": "move to storage box",
+      "pred": "move to wrapped hamburger",
+      "raw": "move to wrapped hamburger",
+      "correct": false
+    },
+    {
+      "sec": 86,
+      "episode": "episode_00810470",
+      "gt": "move to storage box",
+      "pred": "move to storage box",
+      "raw": "move to storage box\nassistant\n\n<think>\n\n</think>\n\nmove to storage",
+      "correct": true
+    },
+    {
+      "sec": 170,
+      "episode": "episode_00810470",
+      "gt": "move to storage box",
+      "pred": "move to storage box",
+      "raw": "move to storage box\nassistant\n\nmove to storage box",
+      "correct": true
+    },
+    {
+      "sec": 183,
+      "episode": "episode_00810470",
+      "gt": "move to storage box",
+      "pred": "place in paper bag",
+      "raw": "place in paper bag",
+      "correct": false
+    },
+    {
+      "sec": 282,
+      "episode": "episode_00810470",
+      "gt": "move to storage box",
+      "pred": "move to storage box",
+      "raw": "move to storage box",
+      "correct": true
+    },
+    {
+      "sec": 295,
+      "episode": "episode_00810470",
+      "gt": "move to storage box",
+      "pred": "move to storage box",
+      "raw": "move to storage box\nassistant\n\n<think>\n\n</think>\n\nplace in paper",
+      "correct": true
+    },
+    {
+      "sec": 196,
+      "episode": "episode_00810480",
+      "gt": "move to storage box",
+      "pred": "move to storage box",
+      "raw": "move to storage box",
+      "correct": true
+    },
+    {
+      "sec": 209,
+      "episode": "episode_00810480",
+      "gt": "move to storage box",
+      "pred": "move to storage box",
+      "raw": "move to storage box",
+      "correct": true
+    },
+    {
+      "sec": 263,
+      "episode": "episode_00810490",
+      "gt": "move to storage box",
+      "pred": "place in wrapped hamburger",
+      "raw": "place in wrapped hamburger",
+      "correct": false
+    }
+  ]
+}

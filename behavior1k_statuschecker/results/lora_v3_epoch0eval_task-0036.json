@@ -1,0 +1,4708 @@
+{
+  "task_chunk": "task-0036",
+  "task_name": "clean_a_patio",
+  "accuracy": 0.34582623509369675,
+  "macro_recall": 0.3383333333333334,
+  "correct": 203,
+  "total": 587,
+  "n_classes": 10,
+  "unseen_gt_label_frames": 47,
+  "predictions": [
+    {
+      "sec": 1,
+      "episode": "episode_00360260",
+      "gt": "move to garden chair",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": false
+    },
+    {
+      "sec": 10,
+      "episode": "episode_00360260",
+      "gt": "move to garden chair",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": false
+    },
+    {
+      "sec": 106,
+      "episode": "episode_00360260",
+      "gt": "move to garden chair",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": false
+    },
+    {
+      "sec": 335,
+      "episode": "episode_00360260",
+      "gt": "move to garden chair",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 6,
+      "episode": "episode_00360270",
+      "gt": "move to garden chair",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": false
+    },
+    {
+      "sec": 73,
+      "episode": "episode_00360270",
+      "gt": "move to garden chair",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 110,
+      "episode": "episode_00360270",
+      "gt": "move to garden chair",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 63,
+      "episode": "episode_00360280",
+      "gt": "move to garden chair",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": false
+    },
+    {
+      "sec": 110,
+      "episode": "episode_00360280",
+      "gt": "move to garden chair",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": false
+    },
+    {
+      "sec": 150,
+      "episode": "episode_00360290",
+      "gt": "move to garden chair",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 160,
+      "episode": "episode_00360290",
+      "gt": "move to garden chair",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 225,
+      "episode": "episode_00360290",
+      "gt": "move to garden chair",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 263,
+      "episode": "episode_00360290",
+      "gt": "move to garden chair",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 283,
+      "episode": "episode_00360290",
+      "gt": "move to garden chair",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 5,
+      "episode": "episode_00360300",
+      "gt": "move to garden chair",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "episode": "episode_00360300",
+      "gt": "move to garden chair",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": false
+    },
+    {
+      "sec": 128,
+      "episode": "episode_00360320",
+      "gt": "move to garden chair",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00360320",
+      "gt": "move to garden chair",
+      "pred": "move to garden chair",
+      "raw": "move to garden chair",
+      "correct": true
+    },
+    {
+      "sec": 150,
+      "episode": "episode_00360320",
+      "gt": "move to garden chair",
+      "pred": "move to garden chair",
+      "raw": "move to garden chair",
+      "correct": true
+    },
+    {
+      "sec": 251,
+      "episode": "episode_00360320",
+      "gt": "move to garden chair",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": false
+    },
+    {
+      "sec": 270,
+      "episode": "episode_00360320",
+      "gt": "move to garden chair",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 286,
+      "episode": "episode_00360330",
+      "gt": "move to garden chair",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 374,
+      "episode": "episode_00360330",
+      "gt": "move to garden chair",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 383,
+      "episode": "episode_00360330",
+      "gt": "move to garden chair",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 393,
+      "episode": "episode_00360330",
+      "gt": "move to garden chair",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 403,
+      "episode": "episode_00360330",
+      "gt": "move to garden chair",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 412,
+      "episode": "episode_00360330",
+      "gt": "move to garden chair",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 155,
+      "episode": "episode_00360350",
+      "gt": "move to garden chair",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": false
+    },
+    {
+      "sec": 190,
+      "episode": "episode_00360350",
+      "gt": "move to garden chair",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 212,
+      "episode": "episode_00360350",
+      "gt": "move to garden chair",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 294,
+      "episode": "episode_00360360",
+      "gt": "move to garden chair",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 303,
+      "episode": "episode_00360360",
+      "gt": "move to garden chair",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 331,
+      "episode": "episode_00360360",
+      "gt": "move to garden chair",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": false
+    },
+    {
+      "sec": 340,
+      "episode": "episode_00360360",
+      "gt": "move to garden chair",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": false
+    },
+    {
+      "sec": 221,
+      "episode": "episode_00360370",
+      "gt": "move to garden chair",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 210,
+      "episode": "episode_00360390",
+      "gt": "move to garden chair",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 219,
+      "episode": "episode_00360390",
+      "gt": "move to garden chair",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 248,
+      "episode": "episode_00360390",
+      "gt": "move to garden chair",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 2,
+      "episode": "episode_00360400",
+      "gt": "move to garden chair",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": false
+    },
+    {
+      "sec": 12,
+      "episode": "episode_00360400",
+      "gt": "move to garden chair",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00360400",
+      "gt": "move to garden chair",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": false
+    },
+    {
+      "sec": 219,
+      "episode": "episode_00360430",
+      "gt": "move to garden chair",
+      "pred": "sweep surface broom",
+      "raw": "sweep surface broom",
+      "correct": false
+    },
+    {
+      "sec": 260,
+      "episode": "episode_00360430",
+      "gt": "move to garden chair",
+      "pred": "pick up from garden chair",
+      "raw": "pick up from garden chair",
+      "correct": false
+    },
+    {
+      "sec": 193,
+      "episode": "episode_00360440",
+      "gt": "move to garden chair",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 229,
+      "episode": "episode_00360440",
+      "gt": "move to garden chair",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 166,
+      "episode": "episode_00360470",
+      "gt": "move to garden chair",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 229,
+      "episode": "episode_00360470",
+      "gt": "move to garden chair",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 239,
+      "episode": "episode_00360470",
+      "gt": "move to garden chair",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 248,
+      "episode": "episode_00360470",
+      "gt": "move to garden chair",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00360480",
+      "gt": "move to garden chair",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 2,
+      "episode": "episode_00360490",
+      "gt": "move to garden chair",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": false
+    },
+    {
+      "sec": 11,
+      "episode": "episode_00360490",
+      "gt": "move to garden chair",
+      "pred": "place on garden chair",
+      "raw": "place on garden chair",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00360490",
+      "gt": "move to garden chair",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": false
+    },
+    {
+      "sec": 179,
+      "episode": "episode_00360490",
+      "gt": "move to garden chair",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 227,
+      "episode": "episode_00360520",
+      "gt": "move to garden chair",
+      "pred": "sweep surface broom",
+      "raw": "sweep surface broom",
+      "correct": false
+    },
+    {
+      "sec": 237,
+      "episode": "episode_00360520",
+      "gt": "move to garden chair",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 149,
+      "episode": "episode_00360540",
+      "gt": "move to garden chair",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 161,
+      "episode": "episode_00360540",
+      "gt": "move to garden chair",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": false
+    },
+    {
+      "sec": 219,
+      "episode": "episode_00360540",
+      "gt": "move to garden chair",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 304,
+      "episode": "episode_00360540",
+      "gt": "move to garden chair",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00360260",
+      "gt": "push to garden chair",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00360260",
+      "gt": "push to garden chair",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": true
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00360260",
+      "gt": "push to garden chair",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": true
+    },
+    {
+      "sec": 111,
+      "episode": "episode_00360260",
+      "gt": "push to garden chair",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": true
+    },
+    {
+      "sec": 131,
+      "episode": "episode_00360260",
+      "gt": "push to garden chair",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": true
+    },
+    {
+      "sec": 10,
+      "episode": "episode_00360270",
+      "gt": "push to garden chair",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": true
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00360270",
+      "gt": "push to garden chair",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": false
+    },
+    {
+      "sec": 88,
+      "episode": "episode_00360270",
+      "gt": "push to garden chair",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": true
+    },
+    {
+      "sec": 101,
+      "episode": "episode_00360270",
+      "gt": "push to garden chair",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": true
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00360280",
+      "gt": "push to garden chair",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": true
+    },
+    {
+      "sec": 78,
+      "episode": "episode_00360280",
+      "gt": "push to garden chair",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": true
+    },
+    {
+      "sec": 97,
+      "episode": "episode_00360280",
+      "gt": "push to garden chair",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": true
+    },
+    {
+      "sec": 117,
+      "episode": "episode_00360280",
+      "gt": "push to garden chair",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": true
+    },
+    {
+      "sec": 173,
+      "episode": "episode_00360290",
+      "gt": "push to garden chair",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": false
+    },
+    {
+      "sec": 279,
+      "episode": "episode_00360290",
+      "gt": "push to garden chair",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": true
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00360300",
+      "gt": "push to garden chair",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00360300",
+      "gt": "push to garden chair",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": false
+    },
+    {
+      "sec": 181,
+      "episode": "episode_00360300",
+      "gt": "push to garden chair",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": true
+    },
+    {
+      "sec": 160,
+      "episode": "episode_00360320",
+      "gt": "push to garden chair",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 230,
+      "episode": "episode_00360320",
+      "gt": "push to garden chair",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": true
+    },
+    {
+      "sec": 243,
+      "episode": "episode_00360320",
+      "gt": "push to garden chair",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": true
+    },
+    {
+      "sec": 261,
+      "episode": "episode_00360320",
+      "gt": "push to garden chair",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": true
+    },
+    {
+      "sec": 283,
+      "episode": "episode_00360320",
+      "gt": "push to garden chair",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": true
+    },
+    {
+      "sec": 301,
+      "episode": "episode_00360330",
+      "gt": "push to garden chair",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": true
+    },
+    {
+      "sec": 345,
+      "episode": "episode_00360330",
+      "gt": "push to garden chair",
+      "pred": "pick up from garden chair",
+      "raw": "pick up from garden chair",
+      "correct": false
+    },
+    {
+      "sec": 421,
+      "episode": "episode_00360330",
+      "gt": "push to garden chair",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 174,
+      "episode": "episode_00360350",
+      "gt": "push to garden chair",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 187,
+      "episode": "episode_00360350",
+      "gt": "push to garden chair",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 206,
+      "episode": "episode_00360350",
+      "gt": "push to garden chair",
+      "pred": "move to garden chair",
+      "raw": "move to garden chair",
+      "correct": false
+    },
+    {
+      "sec": 225,
+      "episode": "episode_00360350",
+      "gt": "push to garden chair",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 330,
+      "episode": "episode_00360360",
+      "gt": "push to garden chair",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": true
+    },
+    {
+      "sec": 352,
+      "episode": "episode_00360360",
+      "gt": "push to garden chair",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": true
+    },
+    {
+      "sec": 370,
+      "episode": "episode_00360360",
+      "gt": "push to garden chair",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": false
+    },
+    {
+      "sec": 233,
+      "episode": "episode_00360370",
+      "gt": "push to garden chair",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 231,
+      "episode": "episode_00360390",
+      "gt": "push to garden chair",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 252,
+      "episode": "episode_00360390",
+      "gt": "push to garden chair",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00360400",
+      "gt": "push to garden chair",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": true
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00360400",
+      "gt": "push to garden chair",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": true
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00360400",
+      "gt": "push to garden chair",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": true
+    },
+    {
+      "sec": 68,
+      "episode": "episode_00360400",
+      "gt": "push to garden chair",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": true
+    },
+    {
+      "sec": 228,
+      "episode": "episode_00360430",
+      "gt": "push to garden chair",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": true
+    },
+    {
+      "sec": 246,
+      "episode": "episode_00360430",
+      "gt": "push to garden chair",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 264,
+      "episode": "episode_00360430",
+      "gt": "push to garden chair",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": true
+    },
+    {
+      "sec": 214,
+      "episode": "episode_00360440",
+      "gt": "push to garden chair",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 230,
+      "episode": "episode_00360440",
+      "gt": "push to garden chair",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 246,
+      "episode": "episode_00360440",
+      "gt": "push to garden chair",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 260,
+      "episode": "episode_00360470",
+      "gt": "push to garden chair",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": true
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00360480",
+      "gt": "push to garden chair",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 69,
+      "episode": "episode_00360480",
+      "gt": "push to garden chair",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": true
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00360480",
+      "gt": "push to garden chair",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": true
+    },
+    {
+      "sec": 209,
+      "episode": "episode_00360480",
+      "gt": "push to garden chair",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 222,
+      "episode": "episode_00360480",
+      "gt": "push to garden chair",
+      "pred": "move to garden chair",
+      "raw": "move to garden chair",
+      "correct": false
+    },
+    {
+      "sec": 235,
+      "episode": "episode_00360480",
+      "gt": "push to garden chair",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 18,
+      "episode": "episode_00360490",
+      "gt": "push to garden chair",
+      "pred": "place on garden chair",
+      "raw": "place on garden chair",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00360490",
+      "gt": "push to garden chair",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": true
+    },
+    {
+      "sec": 218,
+      "episode": "episode_00360510",
+      "gt": "push to garden chair",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 257,
+      "episode": "episode_00360520",
+      "gt": "push to garden chair",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 272,
+      "episode": "episode_00360520",
+      "gt": "push to garden chair",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": true
+    },
+    {
+      "sec": 287,
+      "episode": "episode_00360520",
+      "gt": "push to garden chair",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 232,
+      "episode": "episode_00360540",
+      "gt": "push to garden chair",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": true
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00360260",
+      "gt": "move to broom",
+      "pred": "pick up from garden chair",
+      "raw": "pick up from garden chair",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00360260",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 60,
+      "episode": "episode_00360260",
+      "gt": "move to broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00360270",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00360270",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00360280",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 10,
+      "episode": "episode_00360280",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 2,
+      "episode": "episode_00360290",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00360290",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00360300",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00360300",
+      "gt": "move to broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00360320",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 10,
+      "episode": "episode_00360320",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 16,
+      "episode": "episode_00360320",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 3,
+      "episode": "episode_00360330",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00360330",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 15,
+      "episode": "episode_00360330",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 5,
+      "episode": "episode_00360350",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 11,
+      "episode": "episode_00360350",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00360350",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 2,
+      "episode": "episode_00360360",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00360360",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 14,
+      "episode": "episode_00360360",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 20,
+      "episode": "episode_00360360",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 0,
+      "episode": "episode_00360370",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 6,
+      "episode": "episode_00360370",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 12,
+      "episode": "episode_00360370",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 18,
+      "episode": "episode_00360370",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00360370",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00360370",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00360370",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00360390",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 10,
+      "episode": "episode_00360390",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00360400",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00360400",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 91,
+      "episode": "episode_00360400",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00360430",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 10,
+      "episode": "episode_00360430",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 16,
+      "episode": "episode_00360430",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 22,
+      "episode": "episode_00360430",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 28,
+      "episode": "episode_00360430",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 34,
+      "episode": "episode_00360430",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 2,
+      "episode": "episode_00360440",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00360440",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 6,
+      "episode": "episode_00360470",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 12,
+      "episode": "episode_00360470",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 5,
+      "episode": "episode_00360480",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 11,
+      "episode": "episode_00360480",
+      "gt": "move to broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 2,
+      "episode": "episode_00360510",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00360510",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 5,
+      "episode": "episode_00360520",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 11,
+      "episode": "episode_00360520",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00360520",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00360520",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 0,
+      "episode": "episode_00360540",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 6,
+      "episode": "episode_00360540",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 12,
+      "episode": "episode_00360540",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 18,
+      "episode": "episode_00360540",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00360540",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00360540",
+      "gt": "move to broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": true
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00360260",
+      "gt": "pick up from broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": true
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00360260",
+      "gt": "pick up from broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": true
+    },
+    {
+      "sec": 81,
+      "episode": "episode_00360260",
+      "gt": "pick up from broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": true
+    },
+    {
+      "sec": 90,
+      "episode": "episode_00360260",
+      "gt": "pick up from broom",
+      "pred": "move to garden chair",
+      "raw": "move to garden chair",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00360270",
+      "gt": "pick up from broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00360270",
+      "gt": "pick up from broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": true
+    },
+    {
+      "sec": 59,
+      "episode": "episode_00360270",
+      "gt": "pick up from broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00360280",
+      "gt": "pick up from broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "episode": "episode_00360280",
+      "gt": "pick up from broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00360280",
+      "gt": "pick up from broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": true
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00360280",
+      "gt": "pick up from broom",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00360280",
+      "gt": "pick up from broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00360290",
+      "gt": "pick up from broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00360290",
+      "gt": "pick up from broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": true
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00360290",
+      "gt": "pick up from broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00360300",
+      "gt": "pick up from broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": true
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00360300",
+      "gt": "pick up from broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "episode": "episode_00360320",
+      "gt": "pick up from broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": true
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00360330",
+      "gt": "pick up from broom",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "episode": "episode_00360330",
+      "gt": "pick up from broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": true
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00360330",
+      "gt": "pick up from broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": true
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00360330",
+      "gt": "pick up from broom",
+      "pred": "move to garden chair",
+      "raw": "move to garden chair",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "episode": "episode_00360350",
+      "gt": "pick up from broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00360350",
+      "gt": "pick up from broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": true
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00360350",
+      "gt": "pick up from broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": true
+    },
+    {
+      "sec": 28,
+      "episode": "episode_00360360",
+      "gt": "pick up from broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00360360",
+      "gt": "pick up from broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00360360",
+      "gt": "pick up from broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00360370",
+      "gt": "pick up from broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": false
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00360370",
+      "gt": "pick up from broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": true
+    },
+    {
+      "sec": 59,
+      "episode": "episode_00360370",
+      "gt": "pick up from broom",
+      "pred": "move to garden chair",
+      "raw": "move to garden chair",
+      "correct": false
+    },
+    {
+      "sec": 20,
+      "episode": "episode_00360390",
+      "gt": "pick up from broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": true
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00360390",
+      "gt": "pick up from broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": true
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00360390",
+      "gt": "pick up from broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 99,
+      "episode": "episode_00360400",
+      "gt": "pick up from broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": true
+    },
+    {
+      "sec": 109,
+      "episode": "episode_00360400",
+      "gt": "pick up from broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": true
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00360430",
+      "gt": "pick up from broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00360430",
+      "gt": "pick up from broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": true
+    },
+    {
+      "sec": 60,
+      "episode": "episode_00360430",
+      "gt": "pick up from broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": true
+    },
+    {
+      "sec": 10,
+      "episode": "episode_00360440",
+      "gt": "pick up from broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": false
+    },
+    {
+      "sec": 20,
+      "episode": "episode_00360440",
+      "gt": "pick up from broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00360440",
+      "gt": "pick up from broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": true
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00360440",
+      "gt": "pick up from broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00360470",
+      "gt": "pick up from broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": true
+    },
+    {
+      "sec": 26,
+      "episode": "episode_00360470",
+      "gt": "pick up from broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": true
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00360470",
+      "gt": "pick up from broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": false
+    },
+    {
+      "sec": 18,
+      "episode": "episode_00360480",
+      "gt": "pick up from broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": true
+    },
+    {
+      "sec": 27,
+      "episode": "episode_00360480",
+      "gt": "pick up from broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00360480",
+      "gt": "pick up from broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": true
+    },
+    {
+      "sec": 64,
+      "episode": "episode_00360490",
+      "gt": "pick up from broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": true
+    },
+    {
+      "sec": 73,
+      "episode": "episode_00360490",
+      "gt": "pick up from broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": true
+    },
+    {
+      "sec": 10,
+      "episode": "episode_00360510",
+      "gt": "pick up from broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": false
+    },
+    {
+      "sec": 19,
+      "episode": "episode_00360510",
+      "gt": "pick up from broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00360510",
+      "gt": "pick up from broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00360520",
+      "gt": "pick up from broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00360520",
+      "gt": "pick up from broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00360520",
+      "gt": "pick up from broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00360540",
+      "gt": "pick up from broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00360540",
+      "gt": "pick up from broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": true
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00360540",
+      "gt": "pick up from broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": false
+    },
+    {
+      "sec": 136,
+      "episode": "episode_00360260",
+      "gt": "move to mud",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": false
+    },
+    {
+      "sec": 228,
+      "episode": "episode_00360260",
+      "gt": "move to mud",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": true
+    },
+    {
+      "sec": 323,
+      "episode": "episode_00360260",
+      "gt": "move to mud",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": true
+    },
+    {
+      "sec": 436,
+      "episode": "episode_00360260",
+      "gt": "move to mud",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": true
+    },
+    {
+      "sec": 202,
+      "episode": "episode_00360270",
+      "gt": "move to mud",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": true
+    },
+    {
+      "sec": 281,
+      "episode": "episode_00360270",
+      "gt": "move to mud",
+      "pred": "sweep surface broom",
+      "raw": "sweep surface broom",
+      "correct": false
+    },
+    {
+      "sec": 124,
+      "episode": "episode_00360280",
+      "gt": "move to mud",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": false
+    },
+    {
+      "sec": 209,
+      "episode": "episode_00360280",
+      "gt": "move to mud",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 287,
+      "episode": "episode_00360280",
+      "gt": "move to mud",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 60,
+      "episode": "episode_00360290",
+      "gt": "move to mud",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 134,
+      "episode": "episode_00360290",
+      "gt": "move to mud",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": true
+    },
+    {
+      "sec": 327,
+      "episode": "episode_00360290",
+      "gt": "move to mud",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 436,
+      "episode": "episode_00360290",
+      "gt": "move to mud",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 106,
+      "episode": "episode_00360300",
+      "gt": "move to mud",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 238,
+      "episode": "episode_00360300",
+      "gt": "move to mud",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00360320",
+      "gt": "move to mud",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 180,
+      "episode": "episode_00360320",
+      "gt": "move to mud",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 332,
+      "episode": "episode_00360320",
+      "gt": "move to mud",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 414,
+      "episode": "episode_00360320",
+      "gt": "move to mud",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 130,
+      "episode": "episode_00360330",
+      "gt": "move to mud",
+      "pred": "hold broom",
+      "raw": "hold broom",
+      "correct": false
+    },
+    {
+      "sec": 217,
+      "episode": "episode_00360330",
+      "gt": "move to mud",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 360,
+      "episode": "episode_00360330",
+      "gt": "move to mud",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00360350",
+      "gt": "move to mud",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 312,
+      "episode": "episode_00360350",
+      "gt": "move to mud",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 103,
+      "episode": "episode_00360360",
+      "gt": "move to mud",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": true
+    },
+    {
+      "sec": 179,
+      "episode": "episode_00360360",
+      "gt": "move to mud",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 263,
+      "episode": "episode_00360360",
+      "gt": "move to mud",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": true
+    },
+    {
+      "sec": 91,
+      "episode": "episode_00360370",
+      "gt": "move to mud",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 175,
+      "episode": "episode_00360370",
+      "gt": "move to mud",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 287,
+      "episode": "episode_00360370",
+      "gt": "move to mud",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": true
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00360390",
+      "gt": "move to mud",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 176,
+      "episode": "episode_00360390",
+      "gt": "move to mud",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 327,
+      "episode": "episode_00360390",
+      "gt": "move to mud",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": true
+    },
+    {
+      "sec": 153,
+      "episode": "episode_00360400",
+      "gt": "move to mud",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": true
+    },
+    {
+      "sec": 233,
+      "episode": "episode_00360400",
+      "gt": "move to mud",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 315,
+      "episode": "episode_00360400",
+      "gt": "move to mud",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": true
+    },
+    {
+      "sec": 138,
+      "episode": "episode_00360430",
+      "gt": "move to mud",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 283,
+      "episode": "episode_00360430",
+      "gt": "move to mud",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 355,
+      "episode": "episode_00360430",
+      "gt": "move to mud",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": true
+    },
+    {
+      "sec": 130,
+      "episode": "episode_00360440",
+      "gt": "move to mud",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 292,
+      "episode": "episode_00360440",
+      "gt": "move to mud",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 369,
+      "episode": "episode_00360440",
+      "gt": "move to mud",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": false
+    },
+    {
+      "sec": 74,
+      "episode": "episode_00360470",
+      "gt": "move to mud",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": true
+    },
+    {
+      "sec": 149,
+      "episode": "episode_00360470",
+      "gt": "move to mud",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 297,
+      "episode": "episode_00360470",
+      "gt": "move to mud",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": true
+    },
+    {
+      "sec": 371,
+      "episode": "episode_00360470",
+      "gt": "move to mud",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": true
+    },
+    {
+      "sec": 134,
+      "episode": "episode_00360480",
+      "gt": "move to mud",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 277,
+      "episode": "episode_00360480",
+      "gt": "move to mud",
+      "pred": "sweep surface broom",
+      "raw": "sweep surface broom",
+      "correct": false
+    },
+    {
+      "sec": 355,
+      "episode": "episode_00360480",
+      "gt": "move to mud",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 158,
+      "episode": "episode_00360490",
+      "gt": "move to mud",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": true
+    },
+    {
+      "sec": 260,
+      "episode": "episode_00360490",
+      "gt": "move to mud",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": true
+    },
+    {
+      "sec": 342,
+      "episode": "episode_00360490",
+      "gt": "move to mud",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 136,
+      "episode": "episode_00360510",
+      "gt": "move to mud",
+      "pred": "sweep surface broom",
+      "raw": "sweep surface broom",
+      "correct": false
+    },
+    {
+      "sec": 239,
+      "episode": "episode_00360510",
+      "gt": "move to mud",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 328,
+      "episode": "episode_00360510",
+      "gt": "move to mud",
+      "pred": "sweep surface broom",
+      "raw": "sweep surface broom",
+      "correct": false
+    },
+    {
+      "sec": 102,
+      "episode": "episode_00360520",
+      "gt": "move to mud",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": true
+    },
+    {
+      "sec": 175,
+      "episode": "episode_00360520",
+      "gt": "move to mud",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 332,
+      "episode": "episode_00360520",
+      "gt": "move to mud",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 91,
+      "episode": "episode_00360540",
+      "gt": "move to mud",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": true
+    },
+    {
+      "sec": 193,
+      "episode": "episode_00360540",
+      "gt": "move to mud",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00360260",
+      "gt": "hold broom",
+      "pred": "pick up from garden chair",
+      "raw": "pick up from garden chair",
+      "correct": false
+    },
+    {
+      "sec": 147,
+      "episode": "episode_00360260",
+      "gt": "hold broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 357,
+      "episode": "episode_00360260",
+      "gt": "hold broom",
+      "pred": "pick up from garden chair",
+      "raw": "pick up from garden chair",
+      "correct": false
+    },
+    {
+      "sec": 364,
+      "episode": "episode_00360260",
+      "gt": "hold broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 127,
+      "episode": "episode_00360270",
+      "gt": "hold broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 133,
+      "episode": "episode_00360270",
+      "gt": "hold broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 130,
+      "episode": "episode_00360280",
+      "gt": "hold broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00360290",
+      "gt": "hold broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 185,
+      "episode": "episode_00360290",
+      "gt": "hold broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 248,
+      "episode": "episode_00360290",
+      "gt": "hold broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 300,
+      "episode": "episode_00360290",
+      "gt": "hold broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 344,
+      "episode": "episode_00360290",
+      "gt": "hold broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 351,
+      "episode": "episode_00360290",
+      "gt": "hold broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": false
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00360300",
+      "gt": "hold broom",
+      "pred": "move to garden chair",
+      "raw": "move to garden chair",
+      "correct": false
+    },
+    {
+      "sec": 91,
+      "episode": "episode_00360300",
+      "gt": "hold broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 196,
+      "episode": "episode_00360300",
+      "gt": "hold broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "episode": "episode_00360320",
+      "gt": "hold broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 176,
+      "episode": "episode_00360320",
+      "gt": "hold broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 312,
+      "episode": "episode_00360320",
+      "gt": "hold broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00360330",
+      "gt": "hold broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 314,
+      "episode": "episode_00360330",
+      "gt": "hold broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 321,
+      "episode": "episode_00360330",
+      "gt": "hold broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 366,
+      "episode": "episode_00360330",
+      "gt": "hold broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 428,
+      "episode": "episode_00360330",
+      "gt": "hold broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00360350",
+      "gt": "hold broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 230,
+      "episode": "episode_00360350",
+      "gt": "hold broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00360360",
+      "gt": "hold broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 382,
+      "episode": "episode_00360360",
+      "gt": "hold broom",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": false
+    },
+    {
+      "sec": 388,
+      "episode": "episode_00360360",
+      "gt": "hold broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 394,
+      "episode": "episode_00360360",
+      "gt": "hold broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 64,
+      "episode": "episode_00360370",
+      "gt": "hold broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 240,
+      "episode": "episode_00360370",
+      "gt": "hold broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00360390",
+      "gt": "hold broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 273,
+      "episode": "episode_00360390",
+      "gt": "hold broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 117,
+      "episode": "episode_00360400",
+      "gt": "hold broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 123,
+      "episode": "episode_00360400",
+      "gt": "hold broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 72,
+      "episode": "episode_00360430",
+      "gt": "hold broom",
+      "pred": "sweep surface broom",
+      "raw": "sweep surface broom",
+      "correct": false
+    },
+    {
+      "sec": 276,
+      "episode": "episode_00360430",
+      "gt": "hold broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00360440",
+      "gt": "hold broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "episode": "episode_00360440",
+      "gt": "hold broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 253,
+      "episode": "episode_00360440",
+      "gt": "hold broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 259,
+      "episode": "episode_00360440",
+      "gt": "hold broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 266,
+      "episode": "episode_00360440",
+      "gt": "hold broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00360470",
+      "gt": "hold broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 266,
+      "episode": "episode_00360470",
+      "gt": "hold broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 88,
+      "episode": "episode_00360480",
+      "gt": "hold broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 94,
+      "episode": "episode_00360480",
+      "gt": "hold broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 250,
+      "episode": "episode_00360480",
+      "gt": "hold broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": false
+    },
+    {
+      "sec": 257,
+      "episode": "episode_00360480",
+      "gt": "hold broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 83,
+      "episode": "episode_00360490",
+      "gt": "hold broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 193,
+      "episode": "episode_00360490",
+      "gt": "hold broom",
+      "pred": "move to garden chair",
+      "raw": "move to garden chair",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00360510",
+      "gt": "hold broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 274,
+      "episode": "episode_00360510",
+      "gt": "hold broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 280,
+      "episode": "episode_00360510",
+      "gt": "hold broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00360520",
+      "gt": "hold broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 303,
+      "episode": "episode_00360520",
+      "gt": "hold broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 309,
+      "episode": "episode_00360520",
+      "gt": "hold broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00360540",
+      "gt": "hold broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 240,
+      "episode": "episode_00360540",
+      "gt": "hold broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 246,
+      "episode": "episode_00360540",
+      "gt": "hold broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 159,
+      "episode": "episode_00360260",
+      "gt": "sweep surface broom",
+      "pred": "sweep surface broom",
+      "raw": "sweep surface broom",
+      "correct": true
+    },
+    {
+      "sec": 231,
+      "episode": "episode_00360260",
+      "gt": "sweep surface broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 277,
+      "episode": "episode_00360260",
+      "gt": "sweep surface broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 385,
+      "episode": "episode_00360260",
+      "gt": "sweep surface broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 452,
+      "episode": "episode_00360260",
+      "gt": "sweep surface broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 193,
+      "episode": "episode_00360270",
+      "gt": "sweep surface broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 284,
+      "episode": "episode_00360270",
+      "gt": "sweep surface broom",
+      "pred": "sweep surface broom",
+      "raw": "sweep surface broom",
+      "correct": true
+    },
+    {
+      "sec": 344,
+      "episode": "episode_00360270",
+      "gt": "sweep surface broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 176,
+      "episode": "episode_00360280",
+      "gt": "sweep surface broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 272,
+      "episode": "episode_00360280",
+      "gt": "sweep surface broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00360290",
+      "gt": "sweep surface broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 260,
+      "episode": "episode_00360290",
+      "gt": "sweep surface broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 398,
+      "episode": "episode_00360290",
+      "gt": "sweep surface broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 427,
+      "episode": "episode_00360290",
+      "gt": "sweep surface broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 469,
+      "episode": "episode_00360290",
+      "gt": "sweep surface broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 99,
+      "episode": "episode_00360300",
+      "gt": "sweep surface broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 204,
+      "episode": "episode_00360300",
+      "gt": "sweep surface broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 268,
+      "episode": "episode_00360300",
+      "gt": "sweep surface broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 69,
+      "episode": "episode_00360320",
+      "gt": "sweep surface broom",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": false
+    },
+    {
+      "sec": 325,
+      "episode": "episode_00360320",
+      "gt": "sweep surface broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 400,
+      "episode": "episode_00360320",
+      "gt": "sweep surface broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 155,
+      "episode": "episode_00360330",
+      "gt": "sweep surface broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 243,
+      "episode": "episode_00360330",
+      "gt": "sweep surface broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 432,
+      "episode": "episode_00360330",
+      "gt": "sweep surface broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 136,
+      "episode": "episode_00360350",
+      "gt": "sweep surface broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 286,
+      "episode": "episode_00360350",
+      "gt": "sweep surface broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 127,
+      "episode": "episode_00360360",
+      "gt": "sweep surface broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 202,
+      "episode": "episode_00360360",
+      "gt": "sweep surface broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 423,
+      "episode": "episode_00360360",
+      "gt": "sweep surface broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 121,
+      "episode": "episode_00360370",
+      "gt": "sweep surface broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 196,
+      "episode": "episode_00360370",
+      "gt": "sweep surface broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 298,
+      "episode": "episode_00360370",
+      "gt": "sweep surface broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 97,
+      "episode": "episode_00360390",
+      "gt": "sweep surface broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 168,
+      "episode": "episode_00360390",
+      "gt": "sweep surface broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 310,
+      "episode": "episode_00360390",
+      "gt": "sweep surface broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 171,
+      "episode": "episode_00360400",
+      "gt": "sweep surface broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 266,
+      "episode": "episode_00360400",
+      "gt": "sweep surface broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 345,
+      "episode": "episode_00360400",
+      "gt": "sweep surface broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 112,
+      "episode": "episode_00360430",
+      "gt": "sweep surface broom",
+      "pred": "sweep surface broom",
+      "raw": "sweep surface broom",
+      "correct": true
+    },
+    {
+      "sec": 212,
+      "episode": "episode_00360430",
+      "gt": "sweep surface broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 361,
+      "episode": "episode_00360430",
+      "gt": "sweep surface broom",
+      "pred": "hold broom",
+      "raw": "hold broom",
+      "correct": false
+    },
+    {
+      "sec": 127,
+      "episode": "episode_00360440",
+      "gt": "sweep surface broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 302,
+      "episode": "episode_00360440",
+      "gt": "sweep surface broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 401,
+      "episode": "episode_00360440",
+      "gt": "sweep surface broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00360470",
+      "gt": "sweep surface broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 227,
+      "episode": "episode_00360470",
+      "gt": "sweep surface broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 403,
+      "episode": "episode_00360470",
+      "gt": "sweep surface broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 191,
+      "episode": "episode_00360480",
+      "gt": "sweep surface broom",
+      "pred": "hold broom",
+      "raw": "hold broom",
+      "correct": false
+    },
+    {
+      "sec": 362,
+      "episode": "episode_00360480",
+      "gt": "sweep surface broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 218,
+      "episode": "episode_00360490",
+      "gt": "sweep surface broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 303,
+      "episode": "episode_00360490",
+      "gt": "sweep surface broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 67,
+      "episode": "episode_00360510",
+      "gt": "sweep surface broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 98,
+      "episode": "episode_00360510",
+      "gt": "sweep surface broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 147,
+      "episode": "episode_00360510",
+      "gt": "sweep surface broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 210,
+      "episode": "episode_00360510",
+      "gt": "sweep surface broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 324,
+      "episode": "episode_00360510",
+      "gt": "sweep surface broom",
+      "pred": "hold broom",
+      "raw": "hold broom",
+      "correct": false
+    },
+    {
+      "sec": 154,
+      "episode": "episode_00360520",
+      "gt": "sweep surface broom",
+      "pred": "sweep surface broom",
+      "raw": "sweep surface broom",
+      "correct": true
+    },
+    {
+      "sec": 387,
+      "episode": "episode_00360520",
+      "gt": "sweep surface broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 146,
+      "episode": "episode_00360540",
+      "gt": "sweep surface broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 250,
+      "episode": "episode_00360540",
+      "gt": "sweep surface broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 339,
+      "episode": "episode_00360260",
+      "gt": "release broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": true
+    },
+    {
+      "sec": 341,
+      "episode": "episode_00360260",
+      "gt": "release broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": true
+    },
+    {
+      "sec": 344,
+      "episode": "episode_00360260",
+      "gt": "release broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 457,
+      "episode": "episode_00360260",
+      "gt": "release broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": true
+    },
+    {
+      "sec": 380,
+      "episode": "episode_00360270",
+      "gt": "release broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": true
+    },
+    {
+      "sec": 363,
+      "episode": "episode_00360280",
+      "gt": "release broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": true
+    },
+    {
+      "sec": 147,
+      "episode": "episode_00360290",
+      "gt": "release broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 232,
+      "episode": "episode_00360290",
+      "gt": "release broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": true
+    },
+    {
+      "sec": 270,
+      "episode": "episode_00360290",
+      "gt": "release broom",
+      "pred": "move to garden chair",
+      "raw": "move to garden chair",
+      "correct": false
+    },
+    {
+      "sec": 272,
+      "episode": "episode_00360290",
+      "gt": "release broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": true
+    },
+    {
+      "sec": 339,
+      "episode": "episode_00360290",
+      "gt": "release broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": true
+    },
+    {
+      "sec": 510,
+      "episode": "episode_00360290",
+      "gt": "release broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 512,
+      "episode": "episode_00360290",
+      "gt": "release broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": false
+    },
+    {
+      "sec": 161,
+      "episode": "episode_00360300",
+      "gt": "release broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": true
+    },
+    {
+      "sec": 163,
+      "episode": "episode_00360300",
+      "gt": "release broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 329,
+      "episode": "episode_00360300",
+      "gt": "release broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": true
+    },
+    {
+      "sec": 331,
+      "episode": "episode_00360300",
+      "gt": "release broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": false
+    },
+    {
+      "sec": 133,
+      "episode": "episode_00360320",
+      "gt": "release broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 219,
+      "episode": "episode_00360320",
+      "gt": "release broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": true
+    },
+    {
+      "sec": 222,
+      "episode": "episode_00360320",
+      "gt": "release broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": false
+    },
+    {
+      "sec": 292,
+      "episode": "episode_00360330",
+      "gt": "release broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": true
+    },
+    {
+      "sec": 294,
+      "episode": "episode_00360330",
+      "gt": "release broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": true
+    },
+    {
+      "sec": 415,
+      "episode": "episode_00360330",
+      "gt": "release broom",
+      "pred": "place on garden chair",
+      "raw": "place on garden chair",
+      "correct": false
+    },
+    {
+      "sec": 434,
+      "episode": "episode_00360330",
+      "gt": "release broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": true
+    },
+    {
+      "sec": 352,
+      "episode": "episode_00360350",
+      "gt": "release broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 354,
+      "episode": "episode_00360350",
+      "gt": "release broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 306,
+      "episode": "episode_00360360",
+      "gt": "release broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 308,
+      "episode": "episode_00360360",
+      "gt": "release broom",
+      "pred": "move to garden chair",
+      "raw": "move to garden chair",
+      "correct": false
+    },
+    {
+      "sec": 435,
+      "episode": "episode_00360360",
+      "gt": "release broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": true
+    },
+    {
+      "sec": 437,
+      "episode": "episode_00360360",
+      "gt": "release broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": true
+    },
+    {
+      "sec": 336,
+      "episode": "episode_00360370",
+      "gt": "release broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 376,
+      "episode": "episode_00360390",
+      "gt": "release broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": false
+    },
+    {
+      "sec": 349,
+      "episode": "episode_00360400",
+      "gt": "release broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": true
+    },
+    {
+      "sec": 223,
+      "episode": "episode_00360430",
+      "gt": "release broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 373,
+      "episode": "episode_00360430",
+      "gt": "release broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 195,
+      "episode": "episode_00360440",
+      "gt": "release broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": true
+    },
+    {
+      "sec": 197,
+      "episode": "episode_00360440",
+      "gt": "release broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 200,
+      "episode": "episode_00360440",
+      "gt": "release broom",
+      "pred": "pick up from garden chair",
+      "raw": "pick up from garden chair",
+      "correct": false
+    },
+    {
+      "sec": 430,
+      "episode": "episode_00360440",
+      "gt": "release broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": true
+    },
+    {
+      "sec": 173,
+      "episode": "episode_00360470",
+      "gt": "release broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": true
+    },
+    {
+      "sec": 253,
+      "episode": "episode_00360470",
+      "gt": "release broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": true
+    },
+    {
+      "sec": 405,
+      "episode": "episode_00360470",
+      "gt": "release broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": true
+    },
+    {
+      "sec": 192,
+      "episode": "episode_00360480",
+      "gt": "release broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": true
+    },
+    {
+      "sec": 194,
+      "episode": "episode_00360480",
+      "gt": "release broom",
+      "pred": "hold broom",
+      "raw": "hold broom",
+      "correct": false
+    },
+    {
+      "sec": 367,
+      "episode": "episode_00360480",
+      "gt": "release broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": true
+    },
+    {
+      "sec": 369,
+      "episode": "episode_00360480",
+      "gt": "release broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": true
+    },
+    {
+      "sec": 181,
+      "episode": "episode_00360490",
+      "gt": "release broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 183,
+      "episode": "episode_00360490",
+      "gt": "release broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 186,
+      "episode": "episode_00360490",
+      "gt": "release broom",
+      "pred": "move to garden chair",
+      "raw": "move to garden chair",
+      "correct": false
+    },
+    {
+      "sec": 361,
+      "episode": "episode_00360490",
+      "gt": "release broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 212,
+      "episode": "episode_00360510",
+      "gt": "release broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": true
+    },
+    {
+      "sec": 273,
+      "episode": "episode_00360510",
+      "gt": "release broom",
+      "pred": "move to garden chair",
+      "raw": "move to garden chair",
+      "correct": false
+    },
+    {
+      "sec": 369,
+      "episode": "episode_00360510",
+      "gt": "release broom",
+      "pred": "sweep surface broom",
+      "raw": "sweep surface broom",
+      "correct": false
+    },
+    {
+      "sec": 241,
+      "episode": "episode_00360520",
+      "gt": "release broom",
+      "pred": "sweep surface broom",
+      "raw": "sweep surface broom",
+      "correct": false
+    },
+    {
+      "sec": 243,
+      "episode": "episode_00360520",
+      "gt": "release broom",
+      "pred": "move to garden chair",
+      "raw": "move to garden chair",
+      "correct": false
+    },
+    {
+      "sec": 393,
+      "episode": "episode_00360520",
+      "gt": "release broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": false
+    },
+    {
+      "sec": 159,
+      "episode": "episode_00360540",
+      "gt": "release broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 224,
+      "episode": "episode_00360540",
+      "gt": "release broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": true
+    },
+    {
+      "sec": 226,
+      "episode": "episode_00360540",
+      "gt": "release broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": true
+    },
+    {
+      "sec": 312,
+      "episode": "episode_00360540",
+      "gt": "release broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": true
+    },
+    {
+      "sec": 459,
+      "episode": "episode_00360260",
+      "gt": "place on broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 463,
+      "episode": "episode_00360260",
+      "gt": "place on broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": true
+    },
+    {
+      "sec": 468,
+      "episode": "episode_00360260",
+      "gt": "place on broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": true
+    },
+    {
+      "sec": 473,
+      "episode": "episode_00360260",
+      "gt": "place on broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": true
+    },
+    {
+      "sec": 383,
+      "episode": "episode_00360270",
+      "gt": "place on broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 388,
+      "episode": "episode_00360270",
+      "gt": "place on broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": true
+    },
+    {
+      "sec": 393,
+      "episode": "episode_00360270",
+      "gt": "place on broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": true
+    },
+    {
+      "sec": 398,
+      "episode": "episode_00360270",
+      "gt": "place on broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": true
+    },
+    {
+      "sec": 367,
+      "episode": "episode_00360280",
+      "gt": "place on broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": true
+    },
+    {
+      "sec": 371,
+      "episode": "episode_00360280",
+      "gt": "place on broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": true
+    },
+    {
+      "sec": 376,
+      "episode": "episode_00360280",
+      "gt": "place on broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": true
+    },
+    {
+      "sec": 515,
+      "episode": "episode_00360290",
+      "gt": "place on broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": true
+    },
+    {
+      "sec": 520,
+      "episode": "episode_00360290",
+      "gt": "place on broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 525,
+      "episode": "episode_00360290",
+      "gt": "place on broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": true
+    },
+    {
+      "sec": 530,
+      "episode": "episode_00360290",
+      "gt": "place on broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": true
+    },
+    {
+      "sec": 535,
+      "episode": "episode_00360290",
+      "gt": "place on broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": true
+    },
+    {
+      "sec": 540,
+      "episode": "episode_00360290",
+      "gt": "place on broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": true
+    },
+    {
+      "sec": 336,
+      "episode": "episode_00360300",
+      "gt": "place on broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": true
+    },
+    {
+      "sec": 340,
+      "episode": "episode_00360300",
+      "gt": "place on broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": true
+    },
+    {
+      "sec": 345,
+      "episode": "episode_00360300",
+      "gt": "place on broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": true
+    },
+    {
+      "sec": 350,
+      "episode": "episode_00360300",
+      "gt": "place on broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": true
+    },
+    {
+      "sec": 442,
+      "episode": "episode_00360320",
+      "gt": "place on broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 447,
+      "episode": "episode_00360320",
+      "gt": "place on broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 438,
+      "episode": "episode_00360330",
+      "gt": "place on broom",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": false
+    },
+    {
+      "sec": 443,
+      "episode": "episode_00360330",
+      "gt": "place on broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 448,
+      "episode": "episode_00360330",
+      "gt": "place on broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": true
+    },
+    {
+      "sec": 358,
+      "episode": "episode_00360350",
+      "gt": "place on broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": true
+    },
+    {
+      "sec": 363,
+      "episode": "episode_00360350",
+      "gt": "place on broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 439,
+      "episode": "episode_00360360",
+      "gt": "place on broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 444,
+      "episode": "episode_00360360",
+      "gt": "place on broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 449,
+      "episode": "episode_00360360",
+      "gt": "place on broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 454,
+      "episode": "episode_00360360",
+      "gt": "place on broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": false
+    },
+    {
+      "sec": 340,
+      "episode": "episode_00360370",
+      "gt": "place on broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 345,
+      "episode": "episode_00360370",
+      "gt": "place on broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": true
+    },
+    {
+      "sec": 377,
+      "episode": "episode_00360390",
+      "gt": "place on broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": true
+    },
+    {
+      "sec": 381,
+      "episode": "episode_00360390",
+      "gt": "place on broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": true
+    },
+    {
+      "sec": 386,
+      "episode": "episode_00360390",
+      "gt": "place on broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": true
+    },
+    {
+      "sec": 351,
+      "episode": "episode_00360400",
+      "gt": "place on broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": true
+    },
+    {
+      "sec": 356,
+      "episode": "episode_00360400",
+      "gt": "place on broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": true
+    },
+    {
+      "sec": 361,
+      "episode": "episode_00360400",
+      "gt": "place on broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": false
+    },
+    {
+      "sec": 379,
+      "episode": "episode_00360430",
+      "gt": "place on broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": true
+    },
+    {
+      "sec": 384,
+      "episode": "episode_00360430",
+      "gt": "place on broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": true
+    },
+    {
+      "sec": 433,
+      "episode": "episode_00360440",
+      "gt": "place on broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 408,
+      "episode": "episode_00360470",
+      "gt": "place on broom",
+      "pred": "move to garden chair",
+      "raw": "move to garden chair",
+      "correct": false
+    },
+    {
+      "sec": 413,
+      "episode": "episode_00360470",
+      "gt": "place on broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 418,
+      "episode": "episode_00360470",
+      "gt": "place on broom",
+      "pred": "move to broom",
+      "raw": "move to broom",
+      "correct": false
+    },
+    {
+      "sec": 375,
+      "episode": "episode_00360480",
+      "gt": "place on broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": true
+    },
+    {
+      "sec": 380,
+      "episode": "episode_00360480",
+      "gt": "place on broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": true
+    },
+    {
+      "sec": 385,
+      "episode": "episode_00360480",
+      "gt": "place on broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": true
+    },
+    {
+      "sec": 366,
+      "episode": "episode_00360490",
+      "gt": "place on broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 371,
+      "episode": "episode_00360490",
+      "gt": "place on broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 376,
+      "episode": "episode_00360490",
+      "gt": "place on broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": true
+    },
+    {
+      "sec": 374,
+      "episode": "episode_00360510",
+      "gt": "place on broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 379,
+      "episode": "episode_00360510",
+      "gt": "place on broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 397,
+      "episode": "episode_00360520",
+      "gt": "place on broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": true
+    },
+    {
+      "sec": 402,
+      "episode": "episode_00360520",
+      "gt": "place on broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 407,
+      "episode": "episode_00360520",
+      "gt": "place on broom",
+      "pred": "place on broom",
+      "raw": "place on broom",
+      "correct": true
+    },
+    {
+      "sec": 362,
+      "episode": "episode_00360540",
+      "gt": "place on broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 367,
+      "episode": "episode_00360540",
+      "gt": "place on broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 372,
+      "episode": "episode_00360540",
+      "gt": "place on broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00360290",
+      "gt": "hand over broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00360290",
+      "gt": "hand over broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00360290",
+      "gt": "hand over broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00360290",
+      "gt": "hand over broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00360290",
+      "gt": "hand over broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00360290",
+      "gt": "hand over broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00360290",
+      "gt": "hand over broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00360290",
+      "gt": "hand over broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00360290",
+      "gt": "hand over broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00360320",
+      "gt": "hand over broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00360320",
+      "gt": "hand over broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00360320",
+      "gt": "hand over broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00360320",
+      "gt": "hand over broom",
+      "pred": "hold broom",
+      "raw": "hold broom",
+      "correct": false
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00360320",
+      "gt": "hand over broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00360320",
+      "gt": "hand over broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00360320",
+      "gt": "hand over broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00360320",
+      "gt": "hand over broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00360320",
+      "gt": "hand over broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00360320",
+      "gt": "hand over broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00360320",
+      "gt": "hand over broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00360330",
+      "gt": "hand over broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00360330",
+      "gt": "hand over broom",
+      "pred": "move to garden chair",
+      "raw": "move to garden chair",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "episode": "episode_00360330",
+      "gt": "hand over broom",
+      "pred": "move to garden chair",
+      "raw": "move to garden chair",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00360330",
+      "gt": "hand over broom",
+      "pred": "move to garden chair",
+      "raw": "move to garden chair",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00360330",
+      "gt": "hand over broom",
+      "pred": "push to garden chair",
+      "raw": "push to garden chair",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00360330",
+      "gt": "hand over broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00360330",
+      "gt": "hand over broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00360330",
+      "gt": "hand over broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "episode": "episode_00360330",
+      "gt": "hand over broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 59,
+      "episode": "episode_00360330",
+      "gt": "hand over broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 60,
+      "episode": "episode_00360330",
+      "gt": "hand over broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 61,
+      "episode": "episode_00360330",
+      "gt": "hand over broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00360330",
+      "gt": "hand over broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 63,
+      "episode": "episode_00360330",
+      "gt": "hand over broom",
+      "pred": "sweep surface broom",
+      "raw": "sweep surface broom",
+      "correct": false
+    },
+    {
+      "sec": 64,
+      "episode": "episode_00360330",
+      "gt": "hand over broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00360330",
+      "gt": "hand over broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00360330",
+      "gt": "hand over broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 67,
+      "episode": "episode_00360330",
+      "gt": "hand over broom",
+      "pred": "pick up from broom",
+      "raw": "pick up from broom",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00360510",
+      "gt": "hand over broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00360510",
+      "gt": "hand over broom",
+      "pred": "move to mud",
+      "raw": "move to mud",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00360510",
+      "gt": "hand over broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00360510",
+      "gt": "hand over broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00360510",
+      "gt": "hand over broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00360510",
+      "gt": "hand over broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00360510",
+      "gt": "hand over broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00360510",
+      "gt": "hand over broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00360510",
+      "gt": "hand over broom",
+      "pred": "release broom",
+      "raw": "release broom",
+      "correct": false
+    }
+  ]
+}

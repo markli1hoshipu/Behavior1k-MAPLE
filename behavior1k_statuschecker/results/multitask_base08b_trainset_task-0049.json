@@ -1,0 +1,423 @@
+{
+  "task_chunk": "task-0049",
+  "tag": "trainset",
+  "accuracy": 0.13559322033898305,
+  "macro_recall": 0.22169913419913415,
+  "correct": 8,
+  "total": 59,
+  "predictions": [
+    {
+      "sec": 8,
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's grippers are positioned over a flat counter, with the right gripper holding a plate and the left gripper holding a bowl, indicating the robot is about to place food onto the counter.\nAnswer: 7. place on",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's gripper is positioned over a flat counter with a white plate, and the gripper is not touching the plate or the plate is not being squeezed, indicating the action is not placing the plate.\nAnswer: 7. place on",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "gt": "move to",
+      "pred": "chop",
+      "raw": "Reasoning: The robot's gripper is positioned over a wooden cutting board, with a small piece of red vegetable visible on the board, indicating it is in the process of chopping.\nAnswer: 1. chop",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's gripper is positioned over a bowl on the counter, with the arm extended towards it, suggesting it is about to pick it up.\nAnswer: 5. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 43,
+      "gt": "place on next to",
+      "pred": "place in",
+      "raw": "Reasoning: The robot's gripper is positioned over a white bowl on the counter, indicating it is about to place the bowl into the oven.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's right arm is positioned over a flat counter, with a white plate and bowl resting on it, and the gripper is just above the plate, not touching it or interacting with it.\nAnswer: 7. place on",
+      "correct": false
+    },
+    {
+      "sec": 60,
+      "gt": "move to",
+      "pred": null,
+      "raw": "Reasoning: The robot's right arm is positioned over a flat counter with a plate and a small bowl, and the gripper is just above the plate, indicating it is about to place the bowl on the plate.\nAnswer: 9",
+      "correct": false
+    },
+    {
+      "sec": 69,
+      "gt": "pick up from",
+      "pred": "chop",
+      "raw": "Reasoning: The robot's gripper is positioned over a wooden cutting board with chopped vegetables on it, and the subskill \"chop\" is the only one that matches the visual evidence of a knife in a gripper against a board with chopped vegetables.\nAnswer: 1. chop",
+      "correct": false
+    },
+    {
+      "sec": 78,
+      "gt": "push to",
+      "pred": "chop",
+      "raw": "Reasoning: The robot is positioned over a wooden cutting board with a knife in its gripper, actively chopping vegetables on the board.\nAnswer: 1. chop",
+      "correct": false
+    },
+    {
+      "sec": 86,
+      "gt": "push to",
+      "pred": "chop",
+      "raw": "Reasoning: The robot is holding a wooden cutting board with chopped vegetables on it, which directly supports the action of chopping vegetables.\nAnswer: 1. chop",
+      "correct": false
+    },
+    {
+      "sec": 95,
+      "gt": "pick up from",
+      "pred": "chop",
+      "raw": "Reasoning: The robot is holding a wooden cutting board in its right hand, which is positioned over a stainless steel sink. The board contains small pieces of chopped vegetables, indicating the action of chopping vegetables.\nAnswer: 1. chop",
+      "correct": false
+    },
+    {
+      "sec": 104,
+      "gt": "move to",
+      "pred": "chop",
+      "raw": "Reasoning: The robot's right arm is positioned over the wooden cutting board, with a knife held in its gripper, and small chopped pieces of vegetable are visible on the board, indicating the action of chopping.\nAnswer: 1. chop",
+      "correct": false
+    },
+    {
+      "sec": 112,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's gripper is positioned over a wooden cutting board with a white bowl and a knife, suggesting it is about to place the bowl or has just placed it, but the bowl is not currently being manipulated.\nAnswer: 7. place on",
+      "correct": true
+    },
+    {
+      "sec": 121,
+      "gt": "pick up from",
+      "pred": "chop",
+      "raw": "Reasoning: The robot's gripper is positioned over the wooden cutting board, with a knife visible, and a small piece of pink vegetable is sitting on the board, indicating the action of chopping vegetables.\nAnswer: 1. chop",
+      "correct": false
+    },
+    {
+      "sec": 130,
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The image shows a wooden cutting board with a knife and chopped vegetables, and a white bowl on it. The robot's gripper is positioned over the counter, not interacting with the food.\nAnswer: 1. chop",
+      "correct": true
+    },
+    {
+      "sec": 138,
+      "gt": "place on next to",
+      "pred": null,
+      "raw": "Reasoning: The robot's gripper is positioned over a wooden cutting board with chopped vegetables on it, and the subskill \"chop\" is the only one that matches the visual evidence of a cutting board with chopped vegetables.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 147,
+      "gt": "pick up from",
+      "pred": "chop",
+      "raw": "Reasoning: The robot's gripper is positioned over the wooden cutting board, which contains small chopped pieces of vegetable, indicating the action of chopping.\nAnswer: 1. chop",
+      "correct": false
+    },
+    {
+      "sec": 156,
+      "gt": "pour",
+      "pred": "chop",
+      "raw": "Reasoning: The robot's right arm is positioned over a wooden cutting board with a knife resting on it, and small chopped pieces of vegetable are visible on the board, indicating the action of chopping vegetables.\nAnswer: 1. chop",
+      "correct": false
+    },
+    {
+      "sec": 164,
+      "gt": "move to",
+      "pred": "push to",
+      "raw": "Reasoning: The robot's right arm is positioned over the open oven, with a gripper holding the edge of the oven door, which is consistent with the action of opening the door.\nAnswer: 10. push to",
+      "correct": false
+    },
+    {
+      "sec": 173,
+      "gt": "open door",
+      "pred": "pull tray",
+      "raw": "Reasoning: The robot's gripper is positioned over the open oven door, holding the edge of the oven tray, which is consistent with the action of pulling the tray out.\nAnswer: 10. pull tray",
+      "correct": false
+    },
+    {
+      "sec": 182,
+      "gt": "open door",
+      "pred": "open door",
+      "raw": "Reasoning: The robot's gripper is positioned over the open refrigerator door, with its fingers touching the door edge, indicating it is in the process of opening the door.\nAnswer: 1. open door",
+      "correct": true
+    },
+    {
+      "sec": 190,
+      "gt": "pick up from",
+      "pred": "open door",
+      "raw": "Reasoning: The robot's gripper is positioned over the open refrigerator door, with its arm extended towards the interior, suggesting it is about to open the door or is in the process of opening it.\nAnswer: 1. open door",
+      "correct": false
+    },
+    {
+      "sec": 199,
+      "gt": "close door",
+      "pred": "pull tray",
+      "raw": "Reasoning: The robot's gripper is positioned over the open oven door, holding the wire rack, which is a key component of the \"pull tray\" subskill.\nAnswer: 10. pull tray",
+      "correct": false
+    },
+    {
+      "sec": 208,
+      "gt": "move to",
+      "pred": "push to",
+      "raw": "Reasoning: The robot's gripper is positioned over the open oven, holding the wire rack, which is consistent with the action of placing the rack into the oven.\nAnswer: 10. push to",
+      "correct": false
+    },
+    {
+      "sec": 216,
+      "gt": "pour",
+      "pred": null,
+      "raw": "Reasoning: The robot's gripper is positioned over the white tub, which contains a white bowl with a knife inside, indicating it is about to pick up the bowl.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 225,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: The robot's right arm is positioned over the counter, with a gripper hovering just above a plate that contains a small piece of dough, indicating it is about to place it into the oven.\nAnswer: 1. place in",
+      "correct": false
+    },
+    {
+      "sec": 233,
+      "gt": "open door",
+      "pred": "push to",
+      "raw": "Reasoning: The robot's gripper is positioned over the open oven door, holding the edge of the oven door itself, not the tray or rack.\nAnswer: 10. push to",
+      "correct": false
+    },
+    {
+      "sec": 242,
+      "gt": "open door",
+      "pred": "push to",
+      "raw": "Reasoning: The robot is in a kitchen setting with a stove and oven visible. The oven door is open, and the gripper is positioned over the open oven door, indicating the action of placing food inside.\nAnswer: 10. push to",
+      "correct": false
+    },
+    {
+      "sec": 251,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a utensil (likely a knife) over a white bowl on a shelf, indicating it is about to place the food into the oven.\nAnswer: 6",
+      "correct": false
+    },
+    {
+      "sec": 260,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a white bowl in its gripper, positioned directly over the open refrigerator door, which is the only object it is interacting with in this frame.\nAnswer: 1.",
+      "correct": false
+    },
+    {
+      "sec": 268,
+      "gt": "pick up from",
+      "pred": "push to",
+      "raw": "Reasoning: The robot's gripper is positioned over the open oven door, with the wire rack visible inside, indicating it is about to place the tray or food into the oven.\nAnswer: 10. push to",
+      "correct": false
+    },
+    {
+      "sec": 277,
+      "gt": "close door",
+      "pred": null,
+      "raw": "Reasoning: The robot's gripper is positioned over a white bowl containing white dough balls, which are clearly visible on the counter surface. This indicates the robot is about to place the dough into the oven, corresponding to the \"place in\" subskill.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 286,
+      "gt": "close door",
+      "pred": null,
+      "raw": "Reasoning: The gripper is holding a white bowl containing chopped vegetables, which is resting on a wooden cutting board. This matches the visual evidence for \"chop\".\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 294,
+      "gt": "close door",
+      "pred": "chop",
+      "raw": "Reasoning: The robot's gripper is positioned over a white tub containing chopped white vegetables, indicating the action of chopping vegetables.\nAnswer: 1. chop",
+      "correct": false
+    },
+    {
+      "sec": 303,
+      "gt": "move to",
+      "pred": "chop",
+      "raw": "Reasoning: The robot's gripper is positioned over a white tub on the counter, and the contents of the tub are clearly visible as chopped white vegetables, indicating the action of chopping.\nAnswer: 1. chop",
+      "correct": false
+    },
+    {
+      "sec": 312,
+      "gt": "move to",
+      "pred": "chop",
+      "raw": "Reasoning: The robot's gripper is holding a white plate with a knife blade visible, positioned directly above a wooden cutting board where small chopped pieces of vegetable are resting. This visual evidence directly supports the action of chopping vegetables.\nAnswer: 1. chop",
+      "correct": false
+    },
+    {
+      "sec": 320,
+      "gt": "move to",
+      "pred": null,
+      "raw": "Reasoning: The robot's gripper is positioned over a white bowl on the counter, with a small piece of food visible inside, indicating it is about to place it into the oven.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 329,
+      "gt": "pick up from",
+      "pred": "chop",
+      "raw": "Reasoning: The robot's gripper is positioned over the wooden cutting board, with a knife visible and small chopped vegetable pieces resting on the board, indicating the action of chopping vegetables.\nAnswer: 1. chop",
+      "correct": false
+    },
+    {
+      "sec": 338,
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The robot's gripper is positioned over the wooden cutting board, with a knife visible and small chopped vegetable pieces resting on the board, indicating the action of chopping vegetables.\nAnswer: 1. chop",
+      "correct": true
+    },
+    {
+      "sec": 346,
+      "gt": "place on",
+      "pred": "chop",
+      "raw": "Reasoning: The robot's gripper is positioned over the wooden cutting board, with a knife visible and small chopped vegetable pieces resting on the board, indicating the action of chopping vegetables.\nAnswer: 1. chop",
+      "correct": false
+    },
+    {
+      "sec": 355,
+      "gt": "pick up from",
+      "pred": "chop",
+      "raw": "Reasoning: The robot's gripper is positioned over the wooden cutting board, with small chopped pieces of vegetable clearly visible on the board, indicating the action of chopping vegetables.\nAnswer: 1. chop",
+      "correct": false
+    },
+    {
+      "sec": 364,
+      "gt": "place on",
+      "pred": "chop",
+      "raw": "Reasoning: The robot's gripper is positioned over the wooden cutting board, with a knife visible, and small chopped pieces of vegetable are resting on the board, indicating the action of chopping vegetables.\nAnswer: 1. chop",
+      "correct": false
+    },
+    {
+      "sec": 372,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's left arm is holding a white plate with food on it, and the right arm is positioned over the counter, suggesting the robot is about to place the food onto the counter.\nAnswer: 7. place on",
+      "correct": false
+    },
+    {
+      "sec": 381,
+      "gt": "pour",
+      "pred": "pour",
+      "raw": "Reasoning: The robot is holding a bowl over a plate, and the bowl is tilted, indicating it is in the process of pouring contents onto the plate.\nAnswer: 9. pour",
+      "correct": true
+    },
+    {
+      "sec": 390,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's right arm is positioned over a white bowl on the counter, with its gripper hovering just above it, indicating it is about to place the bowl.\nAnswer: place on",
+      "correct": true
+    },
+    {
+      "sec": 398,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot's right arm is positioned over a plate with a pizza dough and toppings, and the gripper is just above the plate, indicating it is about to place the food onto the counter.\nAnswer: 9",
+      "correct": false
+    },
+    {
+      "sec": 407,
+      "gt": "place on",
+      "pred": "chop",
+      "raw": "Reasoning: The robot's gripper is positioned over the wooden cutting board, with a small piece of vegetable visible, indicating it is in the process of chopping.\nAnswer: 1. chop",
+      "correct": false
+    },
+    {
+      "sec": 416,
+      "gt": "open door",
+      "pred": "push to",
+      "raw": "Reasoning: The robot's gripper is positioned over the open oven door, with its hand touching the door edge, indicating it is about to open the door.\nAnswer: 10. push to",
+      "correct": false
+    },
+    {
+      "sec": 424,
+      "gt": "open door",
+      "pred": null,
+      "raw": "Reasoning: The robot's gripper is positioned over the open oven door, with its hand visible just above the door's edge, indicating it is about to place the food item inside.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 433,
+      "gt": "pull tray",
+      "pred": "push to",
+      "raw": "Reasoning: The robot's gripper is positioned over the open oven door, with its hand visible just above the wire rack, indicating it is about to place the baking tray or rack into the oven.\nAnswer: 10. push to",
+      "correct": false
+    },
+    {
+      "sec": 441,
+      "gt": "pull tray",
+      "pred": null,
+      "raw": "Reasoning: The robot's gripper is positioned over the open oven door, with its hand near the handle, suggesting it is about to place an item into the oven.\nAnswer: 6",
+      "correct": false
+    },
+    {
+      "sec": 450,
+      "gt": "pull tray",
+      "pred": "push to",
+      "raw": "Reasoning: The robot's gripper is positioned over the open oven door, with its arm extended towards the wire rack, suggesting it is about to place the tray or rack into the oven.\nAnswer: 10. push to",
+      "correct": false
+    },
+    {
+      "sec": 459,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot's right arm is positioned over a flat counter with a plate and bowl, and the gripper is just above the plate, indicating it is about to place the food there.\nAnswer: 9",
+      "correct": false
+    },
+    {
+      "sec": 467,
+      "gt": "pick up from",
+      "pred": "push to",
+      "raw": "Reasoning: The robot's arms are positioned over the open oven, with the grippers holding the oven door handle, indicating the robot is in the process of opening the door.\nAnswer: 10. push to",
+      "correct": false
+    },
+    {
+      "sec": 476,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The robot's arms are positioned over the open oven, with the dough on the tray being lowered into the oven space, which corresponds to the action of placing the food in.\nAnswer: 6. place in",
+      "correct": true
+    },
+    {
+      "sec": 485,
+      "gt": "place in",
+      "pred": "push to",
+      "raw": "Reasoning: The robot's arms are positioned over the open oven, with the wire rack visible inside, and the grippers are holding the edge of the oven tray, consistent with placing the tray into the oven.\nAnswer: 10. push to",
+      "correct": false
+    },
+    {
+      "sec": 493,
+      "gt": "close door",
+      "pred": "open door",
+      "raw": "Reasoning: The oven door is open, and the gripper is positioned right at the handle, indicating the robot is in the process of opening the door.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 502,
+      "gt": "close door",
+      "pred": "chop",
+      "raw": "Reasoning: The robot's gripper is positioned over the wooden cutting board, with a small piece of vegetable visible, indicating it is about to chop.\nAnswer: 1. chop",
+      "correct": false
+    },
+    {
+      "sec": 511,
+      "gt": "open door",
+      "pred": null,
+      "raw": "Reasoning: The robot's right arm is positioned over the open oven door, with its gripper touching the door edge, indicating it is about to place the item inside.\nAnswer: 1",
+      "correct": false
+    }
+  ]
+}

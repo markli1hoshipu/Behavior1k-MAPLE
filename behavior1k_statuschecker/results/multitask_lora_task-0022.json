@@ -1,0 +1,430 @@
+{
+  "task_chunk": "task-0022",
+  "task_name": "putting shoes on rack",
+  "accuracy": 0.7166666666666667,
+  "macro_recall": 0.7729285262492094,
+  "correct": 43,
+  "total": 60,
+  "predictions": [
+    {
+      "sec": 0,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The dining table and chairs are now clearly resolved in the center of the frame while the staircase on the right continues to swing past.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 3,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The staircase and dining table are now centered and the right edge shows the brown shoe on the floor, but no grippers are visible.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 7,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has turned toward the glass doors and the white shelf on the right, with the two brown shoes still on the floor ahead.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 11,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The brown shoe is now visible on the floor ahead and the grippers are empty and open, indicating the grasp is complete.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 15,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The brown shoe is now sitting on the right gripper's fingers, the second object being grasped.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 19,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the brown shoe on the floorboards, fingers open at its sides.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 23,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the brown shoe on the floorboards, fingers open around it.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 27,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the brown shoe on the floor, fingers open around it.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 31,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the brown shoe on the floor with fingers open around it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The brown shoe sits on the floor between the two grippers, which are still empty and open.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the brown shoe on the floorboards, left gripper still empty.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the brown shoe on the floorboards, left gripper still empty.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is lowered to the floor beside the tan shoe, and the left gripper is also down at the ground.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 50,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is extended upward holding the tan shoe while the right leg is raised in the frame.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 54,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the right shoe on the floor with the white shelf edge entering the frame at the bottom.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 58,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has turned to face the hallway with the two brown shoes held in the grippers, no shelf or floor interaction visible.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 62,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: Both shoes held, the white shelf now fills the right of frame and the left gripper is retracting.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 66,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: Both brown shoes held in the grippers, view now centered on the wooden floor and the white shelf on the right.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 70,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: Both shoes held, the white shelf now fills the right of frame and the left gripper is empty.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 74,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The tan shoe is now sitting inside the lower shelf and the gripper is withdrawing from it.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 78,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The brown shoe is now sitting on the shelf edge, gripper still holding it.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 82,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The brown shoe is now sitting on the shelf inside the white rack, and the gripper is retracting from it.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 86,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The brown shoe sits inside the shelf and the right gripper is withdrawing from it.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 90,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The right gripper is down at the shelf opening holding the tan shoe, with the left arm idle.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 94,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The brown shoes sit on the shelf and both grippers are empty and withdrawn.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 97,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: The left gripper is open and empty, the right still empty, and the brown shoes sit inside the shelf \u2014 the placement is complete.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 101,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The hallway stretches ahead with the mirror and bench on the left and the two empty grippers at the bottom corners, no target visible yet.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 105,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has turned toward the hallway with the blue chair and framed pictures on the right, and the grippers are empty and open.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 109,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The hallway stretches ahead with the two sneakers visible at the far end and both grippers empty and open.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 113,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The two sneakers are now clearly resolved on the floor ahead, grippers still empty and open.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 117,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The two sneakers are now closer and centered, with the grippers still empty and open at the sides.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 121,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The sneaker is now on the floor beside the gray rack, and both grippers are empty and open.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 125,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The second sneaker is now on the left gripper's fingers at the bottom of the frame, the second object being taken.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 129,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The sneaker is now on the floor beside the other one, and both grippers are empty and open.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 133,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The left sneaker is now sitting on the gripper's fingers at the bottom of the frame, the second grasp.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 137,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The sneaker is now on the left gripper's fingers, the second grasp in this pair.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 141,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The sneaker sits on the left gripper's fingers and the right gripper is empty and open.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 144,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The sneaker is now held aloft in the left gripper while the right gripper stays open at the wall, and the view has swung toward the door \u2014 transport, not manipulation.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 148,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The sneaker is now sitting on the left gripper's fingers, the second grasp of the pair.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 152,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The sneaker is now sitting on the left gripper's fingers, the second grasp of the pair.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 156,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The second sneaker is now on the floor beside the first, grippers still holding it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 160,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The left sneaker is now sitting on the gripper's fingers, the second grasp of the pair.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 164,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The second sneaker is now on the floor beside the first, grippers empty and open.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 168,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the floor beside the second sneaker, both grippers empty and the second shoe held.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 172,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: Both sneakers held, no shelf or floor interaction visible \u2014 still the transport phase.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 176,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: Both sneakers held, view has swung to the hallway with the white shelf on the right \u2014 the base is still at the origin.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 180,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: Both sneakers held, view has swung to the hallway with the white shelf on the right \u2014 the base is still moving.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 184,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: Both sneakers held, view has swung to the hallway with the white shelf on the right \u2014 the base is still moving.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 188,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: Both sneakers held, view has swung to the hallway with the mirror and shelf on the right \u2014 the base is still at the origin.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 191,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: Both sneakers held, view has swung to the hallway with the white shelf now visible ahead \u2014 the base is closing in on the target.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 195,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: Both sneakers held, the white shelf now clearly visible ahead and to the right.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 199,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: Both sneakers held, the white shelf now shows with a pair of brown shoes inside \u2014 the second shoe has been deposited.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 203,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: Both sneakers held, the white shelf now shows with the second shoe on it.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 207,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: Both sneakers held, the shelf now holds two shoes and the grippers are empty and open.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 211,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The sneaker is now sitting on the shelf and the gripper is empty and withdrawn.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 215,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The sneaker is now sitting on the shelf with the gripper still attached to it.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 219,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The sneaker is now sitting on the shelf next to the brown shoes and the gripper is withdrawn from it.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 223,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The second sneaker is now on the shelf and the right gripper is empty and open.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 227,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The right gripper is down at the shelf edge right next to the white sneaker, fingers open for deposit.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 231,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The sneaker is now sitting on the shelf and both empty grippers are lowered to the sides.\nAnswer: place in",
+      "correct": true
+    }
+  ]
+}

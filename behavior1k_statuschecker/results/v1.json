@@ -1,0 +1,423 @@
+{
+  "version": "v1",
+  "system_prompt": "You are a robot skill annotator. Given a single video frame from a robot completing a manipulation task, classify which subskill the robot is currently performing.",
+  "user_prompt": "Task: \"Turn on the radio receiver that's on the table in the living room.\"\nChoose exactly one label from this list: [move to, pick up from, press, place on]\nRespond with only the label, nothing else.",
+  "accuracy": 0.2542372881355932,
+  "correct": 15,
+  "total": 59,
+  "predictions": [
+    {
+      "sec": 0,
+      "gt": "move to",
+      "pred": "press",
+      "raw": "press",
+      "correct": false
+    },
+    {
+      "sec": 1,
+      "gt": "move to",
+      "pred": "press",
+      "raw": "press",
+      "correct": false
+    },
+    {
+      "sec": 2,
+      "gt": "move to",
+      "pred": "press",
+      "raw": "press",
+      "correct": false
+    },
+    {
+      "sec": 3,
+      "gt": "move to",
+      "pred": "press",
+      "raw": "press",
+      "correct": false
+    },
+    {
+      "sec": 4,
+      "gt": "move to",
+      "pred": "press",
+      "raw": "press",
+      "correct": false
+    },
+    {
+      "sec": 5,
+      "gt": "move to",
+      "pred": "press",
+      "raw": "press",
+      "correct": false
+    },
+    {
+      "sec": 6,
+      "gt": "move to",
+      "pred": "press",
+      "raw": "press",
+      "correct": false
+    },
+    {
+      "sec": 7,
+      "gt": "move to",
+      "pred": "press",
+      "raw": "press",
+      "correct": false
+    },
+    {
+      "sec": 8,
+      "gt": "move to",
+      "pred": "press",
+      "raw": "press",
+      "correct": false
+    },
+    {
+      "sec": 9,
+      "gt": "pick up from",
+      "pred": "press",
+      "raw": "press",
+      "correct": false
+    },
+    {
+      "sec": 10,
+      "gt": "pick up from",
+      "pred": "press",
+      "raw": "press",
+      "correct": false
+    },
+    {
+      "sec": 11,
+      "gt": "pick up from",
+      "pred": "press",
+      "raw": "press",
+      "correct": false
+    },
+    {
+      "sec": 12,
+      "gt": "pick up from",
+      "pred": "press",
+      "raw": "press",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "gt": "pick up from",
+      "pred": "press",
+      "raw": "press",
+      "correct": false
+    },
+    {
+      "sec": 14,
+      "gt": "pick up from",
+      "pred": "press",
+      "raw": "press",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "gt": "pick up from",
+      "pred": "press",
+      "raw": "press",
+      "correct": false
+    },
+    {
+      "sec": 16,
+      "gt": "pick up from",
+      "pred": "press",
+      "raw": "press",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "gt": "pick up from",
+      "pred": "press",
+      "raw": "press",
+      "correct": false
+    },
+    {
+      "sec": 18,
+      "gt": "pick up from",
+      "pred": "press",
+      "raw": "press",
+      "correct": false
+    },
+    {
+      "sec": 19,
+      "gt": "pick up from",
+      "pred": "press",
+      "raw": "press",
+      "correct": false
+    },
+    {
+      "sec": 20,
+      "gt": "pick up from",
+      "pred": "press",
+      "raw": "press",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "gt": "pick up from",
+      "pred": "press",
+      "raw": "press",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "gt": "pick up from",
+      "pred": "press",
+      "raw": "press",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "gt": "pick up from",
+      "pred": "press",
+      "raw": "press",
+      "correct": false
+    },
+    {
+      "sec": 24,
+      "gt": "pick up from",
+      "pred": "press",
+      "raw": "press",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "gt": "pick up from",
+      "pred": "press",
+      "raw": "press",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "gt": "pick up from",
+      "pred": "press",
+      "raw": "press",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "gt": "pick up from",
+      "pred": "press",
+      "raw": "press",
+      "correct": false
+    },
+    {
+      "sec": 28,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 30,
+      "gt": "pick up from",
+      "pred": "press",
+      "raw": "press",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "gt": "pick up from",
+      "pred": "press",
+      "raw": "press",
+      "correct": false
+    },
+    {
+      "sec": 33,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "gt": "pick up from",
+      "pred": "press",
+      "raw": "press",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "gt": "press",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "gt": "press",
+      "pred": "press",
+      "raw": "press",
+      "correct": true
+    },
+    {
+      "sec": 41,
+      "gt": "press",
+      "pred": "press",
+      "raw": "press",
+      "correct": true
+    },
+    {
+      "sec": 42,
+      "gt": "press",
+      "pred": "press",
+      "raw": "press",
+      "correct": true
+    },
+    {
+      "sec": 43,
+      "gt": "press",
+      "pred": "press",
+      "raw": "press",
+      "correct": true
+    },
+    {
+      "sec": 44,
+      "gt": "press",
+      "pred": "press",
+      "raw": "press",
+      "correct": true
+    },
+    {
+      "sec": 45,
+      "gt": "press",
+      "pred": "press",
+      "raw": "press",
+      "correct": true
+    },
+    {
+      "sec": 46,
+      "gt": "press",
+      "pred": "press",
+      "raw": "press",
+      "correct": true
+    },
+    {
+      "sec": 47,
+      "gt": "press",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": true
+    },
+    {
+      "sec": 49,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": true
+    },
+    {
+      "sec": 50,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": true
+    },
+    {
+      "sec": 51,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": true
+    },
+    {
+      "sec": 52,
+      "gt": "place on",
+      "pred": "press",
+      "raw": "press",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": true
+    },
+    {
+      "sec": 54,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": true
+    },
+    {
+      "sec": 55,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": true
+    },
+    {
+      "sec": 56,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "place on",
+      "correct": true
+    },
+    {
+      "sec": 57,
+      "gt": "place on",
+      "pred": "press",
+      "raw": "press",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "gt": "place on",
+      "pred": "press",
+      "raw": "press",
+      "correct": false
+    }
+  ]
+}

@@ -1,0 +1,423 @@
+{
+  "task_chunk": "task-0000",
+  "tag": "trainset",
+  "accuracy": 0.2033898305084746,
+  "macro_recall": 0.16262626262626262,
+  "correct": 12,
+  "total": 59,
+  "predictions": [
+    {
+      "sec": 0,
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "Reasoning: The red radio is clearly visible on the table, and a gripper is positioned right up against its top face, indicating it is being held and about to be placed.\nAnswer: 4. place on",
+      "correct": false
+    },
+    {
+      "sec": 1,
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "Reasoning: The red radio is clearly visible on the table, and a gripper is positioned right next to it, indicating the robot is in the process of placing the radio on the table.\nAnswer: 4. place on",
+      "correct": false
+    },
+    {
+      "sec": 2,
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "Reasoning: The red radio is clearly visible on the table, and a gripper is positioned right up against its top face, indicating it is being held and about to be placed.\nAnswer: 4. place on",
+      "correct": false
+    },
+    {
+      "sec": 3,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The red radio is clearly visible on the table, and a gripper is positioned right next to it, indicating the robot is about to pick it up.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 4,
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "Reasoning: The red radio is clearly visible on the table, and a gripper is positioned right next to it, indicating the robot is about to place it on the surface.\nAnswer: 4. place on",
+      "correct": false
+    },
+    {
+      "sec": 5,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The red radio is clearly visible on the table, and the robot's grippers are not visible in the frame, so the robot is not in the process of picking it up or placing it.\nAnswer: 1. move to",
+      "correct": true
+    },
+    {
+      "sec": 6,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The red radio is clearly visible on the table, and a gripper is positioned right next to it, indicating the robot is about to pick it up.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 7,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The red radio is clearly visible on the table, and a gripper is positioned right next to it, indicating the robot is about to pick it up.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 8,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is not visible in the frame, so we must infer its action from the radio's state. The radio is a thin red slab, not a wide top face with a dial, and there is no gripper visible to hold it. This visual evidence strongly supports the \"pick up from\" subskill, as the radio is",
+      "correct": false
+    },
+    {
+      "sec": 9,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The red radio is clearly visible on the table, and a gripper is positioned right next to it, indicating the robot is about to pick it up.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 10,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The red radio is clearly visible on the table, and a gripper is positioned right up against its top face, indicating it is being held and about to be placed.\nAnswer: 4. place on",
+      "correct": false
+    },
+    {
+      "sec": 11,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The red radio is clearly visible on the table, and a gripper is positioned right next to it, indicating the robot is in the process of placing the radio on the table.\nAnswer: 4. place on",
+      "correct": false
+    },
+    {
+      "sec": 12,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The red radio is clearly visible on the table, and the robot's arms are not visible in the frame, so the robot cannot be performing any action on the radio.\nAnswer: 1. move to",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The red radio is clearly visible on the table, and a gripper is positioned right up against its top face, indicating it is being held and about to be placed.\nAnswer: 4. place on",
+      "correct": false
+    },
+    {
+      "sec": 14,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The red radio is clearly visible on the table, and a gripper is positioned right up against its top face, indicating it is being held and about to be placed.\nAnswer: 4. place on",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot is not visible in the frame, and the radio is a thin red slab, not a wide red top face with a dial, so it cannot be pick up or press. The radio is not held by a gripper, so it cannot be placed.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 16,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The red radio is clearly visible on the table, and a gripper is positioned right next to it, indicating the robot is about to pick it up.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 17,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The robot arms are not visible, and the radio is a thin red slab, not a wide top face with a dial, so it's not in the \"press\" or \"pick up from\" state.\nAnswer: 1. move to",
+      "correct": false
+    },
+    {
+      "sec": 18,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The red radio is clearly visible on the table, and a gripper is positioned right next to it, indicating the robot is in the process of placing the radio on the table.\nAnswer: 4. place on",
+      "correct": false
+    },
+    {
+      "sec": 19,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The robot arms are not visible, and the radio is a thin red slab, not a wide top face with a dial, so it's not in the \"press\" or \"pick up from\" state.\nAnswer: 1. move to",
+      "correct": false
+    },
+    {
+      "sec": 20,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot is not visible in the frame, and the radio is a thin red slab, not a wide top face with a dial, so it cannot be pick up or press. The radio is not held by a gripper, so it cannot be placed.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The red radio is clearly visible on the table, and a gripper is positioned right up against its top face, indicating it is being held and about to be placed.\nAnswer: 4. place on",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The red radio is clearly visible on the table, and a gripper is positioned right next to it, indicating the robot is in the process of placing the radio on the table.\nAnswer: 4. place on",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The red radio is clearly visible on the table, and a gripper is positioned right next to it, indicating the robot is in the process of placing it on the surface.\nAnswer: 4. place on",
+      "correct": false
+    },
+    {
+      "sec": 24,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The red radio is clearly visible on the table, and a gripper is positioned right next to it, indicating the robot is in the process of placing the radio on the table.\nAnswer: 4. place on",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The red radio is clearly visible on the table, and a gripper is positioned right next to it, indicating the robot is about to pick it up.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 26,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The red radio is clearly visible on the table, and a gripper is positioned right next to it, indicating the robot is about to pick it up.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 27,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot arms are not visible in the frame, and the radio is a thin red slab, not a wide red top face with a dial, so it cannot be classified as \"press\" or \"pick up from\". The radio is not held by a gripper, so it cannot be classified as \"place on\".\nAnswer:",
+      "correct": true
+    },
+    {
+      "sec": 28,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot arms are not visible in the frame, and the radio is a thin red slab, not a wide red top face with a dial, so it cannot be classified as \"press\" or \"pick up from\". The radio is positioned on the table, and the robot's grippers are not visible, so it cannot be classified",
+      "correct": true
+    },
+    {
+      "sec": 29,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot arms are not visible in the frame, and the red radio is a thin, upright slab, not a wide top face with a dial, so it cannot be classified as \"press\" or \"pick up from\". The radio is positioned on the table, and the grippers are empty, making \"place on\" the most",
+      "correct": true
+    },
+    {
+      "sec": 30,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot arms are not visible in the frame, and the radio is a thin red slab, not a wide red top face with a dial, so it cannot be classified as \"press\" or \"pick up from\". The radio is held by a gripper, but the arm is not visible, making it ambiguous whether it's being",
+      "correct": true
+    },
+    {
+      "sec": 31,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's right arm is visible, and its gripper is positioned directly on top of the red radio, which is tilted slightly, indicating an action of placing or adjusting the radio.\nAnswer: 4. place on",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's right arm is visible, holding the red radio, and the radio is positioned on the table surface, indicating the action of placing it there.\nAnswer: 4. place on",
+      "correct": false
+    },
+    {
+      "sec": 33,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's right arm is visible, and the red radio is held in its gripper, positioned on the table surface. The radio is tilted slightly, and the gripper is clearly gripping it, which indicates the action of placing it down.\nAnswer: 4. place on",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's right arm is visible, holding the red radio, and the radio is positioned on the table surface, indicating it is being placed.\nAnswer: 4. place on",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's arm is visible, and the red radio is held in the gripper, positioned on the table surface.\nAnswer: 4. place on",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's right arm is visible, holding the red radio, and the radio is positioned on the table surface, indicating a placement action.\nAnswer: 4. place on",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's arm is visible, and the red radio is held in a gripper, positioned on the table surface. The radio is tilted slightly, and the gripper is clearly gripping it, which indicates the action of placing the radio on the table.\nAnswer: 4. place on",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The robot arms are not visible in the frame, and the red radio is held by a gripper, making it appear as a thin red slab near the table surface.\nAnswer: 4. place on",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "gt": "press",
+      "pred": null,
+      "raw": "Reasoning: The robot's gripper is holding the red radio, and the radio is lifted and tilted near the table surface, which is consistent with the \"place on\" subskill.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "gt": "press",
+      "pred": "move to",
+      "raw": "Reasoning: The robot arms are not visible in the frame, and the red radio is a thin, upright slab, not a wide top face with a dial, so it cannot be classified as \"press\" or \"pick up from\".\nAnswer: 1. move to",
+      "correct": false
+    },
+    {
+      "sec": 41,
+      "gt": "press",
+      "pred": "move to",
+      "raw": "Reasoning: The robot arms are not visible in the frame, and the red radio is a thin, upright slab, not a wide face with a dial, so it cannot be picked up or placed.\nAnswer: 1. move to",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "gt": "press",
+      "pred": "move to",
+      "raw": "Reasoning: The robot arms are not visible in the frame, and the red radio is a thin, upright slab, not a wide top face with a dial, so it cannot be classified as \"press\" or \"pick up from\".\nAnswer: 1. move to",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "gt": "press",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's arms are not visible in the frame, and the radio is a thin red slab, not a wide face with a dial, so it cannot be classified as \"press\" or \"pick up from\". The radio is held by a gripper, but the arm is not visible, making it ambiguous whether it's being lifted",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "gt": "press",
+      "pred": "move to",
+      "raw": "Reasoning: The robot arms are not visible in the frame, and the red radio is a thin, upright slab, not a wide face with a dial, so it cannot be picked up or placed.\nAnswer: 1. move to",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "gt": "press",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's arms are visible, and the red radio is held in a gripper, positioned on the table surface.\nAnswer: 4. place on",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "gt": "press",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's gripper is holding the radio, and the radio is tilted slightly, making it appear as a narrow red slab lifted or tilted near the table surface.\nAnswer: 4. place on",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "gt": "press",
+      "pred": null,
+      "raw": "Reasoning: The robot's right arm is visible, and its gripper is positioned directly on top of the red radio, which is a narrow slab, indicating the action is pressing.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The robot arms are not visible in the frame, and the red radio is a thin, upright slab, not a wide face with a dial, so it cannot be classified as \"press\" or \"pick up from\". The radio is positioned near the table surface, which is consistent with \"place on\".\nAnswer: 4.",
+      "correct": false
+    },
+    {
+      "sec": 49,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot arms are not visible in the frame, and the red radio is a thin, upright slab, not a wide face with a dial, so it cannot be classified as \"press\" or \"pick up from\". The radio is positioned on the table surface, and the gripper is not clearly visible, making it ambiguous whether it",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's arm is visible, and the red radio is held in a gripper, positioned on the table surface. The radio is a narrow slab, not a wide top face, and the gripper is clearly engaged with it, indicating a placement action.\nAnswer: 4. place on",
+      "correct": true
+    },
+    {
+      "sec": 51,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's right arm is visible and holding the red radio, which is positioned on the table surface. The radio is tilted slightly, and the gripper is clearly gripping the top face of the radio, indicating an action of placing it down.\nAnswer: 4. place on",
+      "correct": true
+    },
+    {
+      "sec": 52,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot arms are not visible in the frame, and the red radio is a thin, upright slab, not a wide top face with a dial, so it cannot be classified as \"press\" or \"pick up from\". The radio is positioned near the table surface, but the specific action of placing it down is not visually confirmed.",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot arms are not visible in the frame, and the red radio is a thin, upright slab, not a wide top face with a dial, so it cannot be classified as \"press\" or \"pick up from\". The radio is positioned near the table surface, and the gripper is not clearly visible, making it ambiguous whether",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's right arm is visible, and its gripper is holding the red radio, which is tilted and lifted near the table surface, indicating a placement action.\nAnswer: 4. place on",
+      "correct": true
+    },
+    {
+      "sec": 55,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot arms are not visible in the frame, and the red radio is a thin, upright slab, not a wide top face with a dial, so it cannot be classified as \"press\" or \"pick up from\". The radio is positioned on the table surface, and the grippers are empty, which rules out \"place on",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "gt": "place on",
+      "pred": "move to",
+      "raw": "Reasoning: The robot arms are not visible in the frame, and the red radio is a thin, upright slab, not a wide face with a dial, so it cannot be picked up or placed.\nAnswer: 1. move to",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "gt": "place on",
+      "pred": "move to",
+      "raw": "Reasoning: The robot arms are not visible in the frame, and the red radio is a thin, upright slab, not a wide top face with a dial, so it cannot be picked up or placed.\nAnswer: 1. move to",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "gt": "place on",
+      "pred": "move to",
+      "raw": "Reasoning: The robot arms are not visible in the frame, and the red radio is a thin, upright slab, not a wide face with a dial, so it cannot be picked up or placed.\nAnswer: 1. move to",
+      "correct": false
+    }
+  ]
+}

@@ -1,0 +1,2607 @@
+{
+  "task_chunk": "task-0042",
+  "tag": "heldout",
+  "accuracy": 0.0862533692722372,
+  "macro_recall": 0.07916733155543898,
+  "correct": 32,
+  "total": 371,
+  "predictions": [
+    {
+      "sec": 1,
+      "gt": "move to",
+      "pred": null,
+      "raw": "Reasoning: The image shows a kitchen scene with a sink, countertop, and a wooden board. The white bowl is visible on the left, and the wooden board is on the countertop. The robot's arms are not visible in the frame, so it cannot be performing any of the actions listed in the subskill options.\nAnswer:",
+      "correct": false
+    },
+    {
+      "sec": 4,
+      "gt": "move to",
+      "pred": null,
+      "raw": "Reasoning: The image shows a kitchen counter with a sink, a wooden cutting board, and a white bowl. The camera is positioned to show the entire workspace, including the sink and the board, but no hands are visible holding the knife or the board. This indicates the robot is not actively performing any of the specified subskills.\nAnswer:",
+      "correct": false
+    },
+    {
+      "sec": 8,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The image shows a kitchen sink with a knife and a whole onion resting on the counter, but no cutting board is visible. The subskill \"chop\" requires a cutting board and a knife to hold the onion, which are absent. The subskill \"pick up from\" is incorrect because the gripper is not visible. The",
+      "correct": false
+    },
+    {
+      "sec": 86,
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot's subskill is \"place on next to\" because the gripper is holding the wooden cutting board itself, tilted in the air near the white bowl and empty counter, before the board is set down.",
+      "correct": false
+    },
+    {
+      "sec": 116,
+      "gt": "move to",
+      "pred": "chop",
+      "raw": "Reasoning: The robot is holding a knife over a wooden board, which contains a large onion piece and loose white bits, indicating it is about to cut the onion.\nAnswer: 1. chop",
+      "correct": false
+    },
+    {
+      "sec": 3,
+      "gt": "move to",
+      "pred": null,
+      "raw": "Reasoning: The image shows a kitchen scene with a sink, countertop, and a wooden board. The camera is positioned on a table, and the arms are empty. The only visible object on the board is a white bowl, not an onion. Therefore, the robot is not performing any of the specified subskills.\nAnswer: 2",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "Reasoning: The image shows a wooden cutting board with a large white onion on it, and a white bowl nearby. The robot's arms are not visible, but the presence of the board and the onion clearly indicates the robot is in the process of placing the onion onto the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's right arm is holding a wooden cutting board, and the white bowl is positioned on the counter next to it, indicating the robot is about to place the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 49,
+      "gt": "move to",
+      "pred": null,
+      "raw": "Reasoning: The robot's subskill is chop because the gripper is holding the onion over the wooden board, and the board still holds a large onion piece plus a few loose white bits, indicating it is about to cut the onion.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's right arm is holding a knife over a white bowl, with a wooden board visible in the background. The board is empty, and the bowl is empty, indicating the robot is about to place the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 111,
+      "gt": "move to",
+      "pred": "chop",
+      "raw": "Reasoning: The robot's subskill is chop because the knife is held with its blade touching or standing in a whole onion resting on the wooden board, and the board still holds a large onion piece plus a few loose white bits.",
+      "correct": false
+    },
+    {
+      "sec": 2,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: The image shows a kitchen counter with a sink, a wooden cutting board, and a white bowl. The robot's hands are not visible in the frame, so the subskill cannot be determined from visual evidence alone.\nAnswer: 4. place in",
+      "correct": false
+    },
+    {
+      "sec": 5,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The image shows a kitchen counter with a sink, a wooden cutting board, and a white bowl. The subskill \"chop\" is incorrect because there is no knife in hand or on the board. The subskill \"move to\" is incorrect because the robot is not in a room; it is on a countertop. The",
+      "correct": true
+    },
+    {
+      "sec": 41,
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The gripper is holding the wooden cutting board, which is tilted in the air near the white bowl, and the board is empty, with no onion or knife visible.\nAnswer: 6. place on next to",
+      "correct": false
+    },
+    {
+      "sec": 70,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The image shows a kitchen sink with a knife resting on the counter, and a wooden board with a white onion on it. The robot's hands are not visible in the frame, so we cannot determine if it is picking up, placing, or chopping the onion.\nAnswer: 2. move to",
+      "correct": true
+    },
+    {
+      "sec": 95,
+      "gt": "move to",
+      "pred": "chop",
+      "raw": "Reasoning: The robot's arm is positioned over the sink, holding a knife, and the wooden board is visible with a large onion piece and loose white bits on it, indicating the action of cutting the onion.\nAnswer: 1. chop",
+      "correct": false
+    },
+    {
+      "sec": 98,
+      "gt": "move to",
+      "pred": "chop",
+      "raw": "Reasoning: The robot's arm is holding a knife over a wooden cutting board, which contains a whole onion and a few loose white bits, indicating the action of chopping the onion.\nAnswer: 1. chop",
+      "correct": false
+    },
+    {
+      "sec": 121,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with a gripper visible near the sink basin, indicating it is about to pick up the onion. The onion is not yet on the board, nor is it in the bowl.\nAnswer: 3. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 156,
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's arm is holding a wooden cutting board with a large white onion piece and loose white bits on it, positioned over the sink area. The gripper is actively grasping the board, indicating the action of placing the onion onto the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 159,
+      "gt": "move to",
+      "pred": "chop",
+      "raw": "Reasoning: The robot's arm is holding a wooden cutting board with a knife, and the board contains a large onion piece and a few loose white bits, indicating the action of chopping an onion.\nAnswer: 1. chop",
+      "correct": false
+    },
+    {
+      "sec": 163,
+      "gt": "move to",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a wooden cutting board with a large onion piece and a few loose white bits on it, and the gripper is positioned to pick up the onion from the board.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 5,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The image shows a dining table with chairs, a kitchen area, and a staircase. There is no visual evidence of a robot, a knife, an onion, or any object being handled or cut. Therefore, the subskill cannot be identified.\nAnswer: 2. move to",
+      "correct": true
+    },
+    {
+      "sec": 9,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The image shows a kitchen scene with a wooden board and a bowl, but no knife is visible in the frame. The subskill \"chop\" requires a knife to be in the hand, which is absent. The subskill \"move to\" is incorrect as the camera is focused on the task area, not the distant room.",
+      "correct": true
+    },
+    {
+      "sec": 12,
+      "gt": "move to",
+      "pred": null,
+      "raw": "Reasoning: The image shows a kitchen scene with a sink, countertop, and a wooden board. The camera is positioned to show the entire room, not just the immediate workspace. The robot's arms are not visible, and there is no gripper interacting with the sink or the board. This indicates the robot is not currently performing any of the",
+      "correct": false
+    },
+    {
+      "sec": 16,
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The image shows a kitchen counter with a sink, a wooden board, and a bowl. The robot's hands are not visible, and there is no knife or onion in the frame. Therefore, the subskill cannot be chop, move to, pick up from, place in, place on, place on next to, pour, or",
+      "correct": false
+    },
+    {
+      "sec": 19,
+      "gt": "move to",
+      "pred": null,
+      "raw": "Reasoning: The image shows a kitchen scene with a sink, countertop, and a wooden board. The white bowl is visible on the counter, and the board is positioned near it. The robot's hands are not visible in the frame, so the action of placing the onion on the board cannot be confirmed.\nAnswer: 2. move",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: The image shows a kitchen counter with a sink, a wooden cutting board, and a white bowl. The robot's hands are not visible in the frame, so the subskill cannot be determined from visual evidence alone.\nAnswer: 4. place in",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The image shows a kitchen counter with a sink, a wooden board, and a white bowl. There is no visible onion, no knife, and no gripper interacting with the sink or board. The scene is static and depicts a kitchen environment, not the action of chopping or placing food.\nAnswer: 2. move to",
+      "correct": true
+    },
+    {
+      "sec": 29,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The image shows a kitchen sink with a pink onion resting on it, a wooden cutting board nearby, and a white bowl. The robot's subskill is \"pick up from\" because the gripper is not visible, the onion is not being cut, and the board is not being moved.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 60,
+      "gt": "move to",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a wooden cutting board with a large onion piece on it, and a knife is resting on the counter next to the board, indicating the robot is in the process of placing the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 83,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: The image shows a wooden cutting board with a large white onion on it, and a white bowl to the left. The robot's hands are not visible in the frame, so the subskill cannot be determined from visual evidence alone.\nAnswer: 4. place in",
+      "correct": false
+    },
+    {
+      "sec": 97,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with a gripper visible near the sink basin, suggesting it is either picking up or placing an item there. The wooden board is empty and not in use, and the white bowl is not visible in the frame.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 179,
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "Reasoning: The gripper is holding the wooden cutting board over the sink, with the white bowl and board visible in the background, indicating the robot is about to place the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 3,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The image shows a kitchen sink with a white bowl and a wooden cutting board. The camera is positioned to show the sink and the board, but no knife is visible in the frame, and there is no indication of the robot's hands interacting with the sink or the board.\nAnswer: 3. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 6,
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The image shows a kitchen counter with a sink, a white bowl, and a wooden board. There is no knife visible in the frame, and no onion is present in the bowl or on the board. Therefore, the subskill cannot be chop, move to, pick up from, place in, place on, place on next to",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "gt": "move to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The image shows a kitchen sink with a wooden board and a bowl. The robot's hands are not visible, and there is no knife or onion in the frame. Therefore, the subskill cannot be chop, move to, pick up from, place in, place on, place on next to, pour, or push to.",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's subskill is \"place on\" because a gripper is holding the wooden cutting board over the sink area, poised to place the onion on the board.",
+      "correct": false
+    },
+    {
+      "sec": 73,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: The image shows a wooden cutting board with a large onion piece and loose white bits on it, and a white bowl to the left. The robot's arm is not visible in the frame, so the subskill cannot be determined from visual evidence alone.\nAnswer: 4. place in",
+      "correct": false
+    },
+    {
+      "sec": 89,
+      "gt": "move to",
+      "pred": null,
+      "raw": "Reasoning: The image shows a kitchen sink with a wooden board and a white bowl. The white bowl is positioned to the left of the sink, and the board is placed on the counter. The robot's hands are not visible in the frame, so it cannot be performing any of the actions listed in the subskill options.\nAnswer:",
+      "correct": false
+    },
+    {
+      "sec": 108,
+      "gt": "move to",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a knife over a wooden board with an onion on it, but the board is not being moved or placed; it is simply resting on the board with the onion intact, indicating the action is not chop, move to, pick up from, or place on.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 124,
+      "gt": "move to",
+      "pred": "chop",
+      "raw": "Reasoning: The image shows a countertop with a white bowl, a wooden cutting board, and a knife resting on the board. The knife is not in the onion, nor is there a gripper interacting with the sink or board. The scene depicts a static state of the task, not the action of chopping or placing the onion.\nAnswer",
+      "correct": false
+    },
+    {
+      "sec": 127,
+      "gt": "move to",
+      "pred": null,
+      "raw": "Reasoning: The image shows a countertop with a knife, a wooden cutting board, and a white bowl. The knife is not in the bowl, nor is it in the board. The board is not being held or moved, and the bowl is not being held. The board is not being placed on the counter. The board is not being",
+      "correct": false
+    },
+    {
+      "sec": 172,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The image shows a kitchen counter with a sink, a wooden cutting board with a white bowl on it, and a stainless steel stove. The robot's hands are not visible in the frame, so the subskill cannot be determined from visual evidence alone.\nAnswer: 2. move to",
+      "correct": true
+    },
+    {
+      "sec": 175,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: The image shows a kitchen counter with a sink, a wooden board with an onion, and a white bowl. The robot's hands are not visible in the frame, so the subskill cannot be determined from visual evidence alone.\nAnswer: 4. place in",
+      "correct": false
+    },
+    {
+      "sec": 179,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The image shows a countertop with a sink, a wooden cutting board, and a white bowl. There is no knife visible in the frame, and no object is being held or moved by a gripper. The scene depicts a static state of the kitchen counter with no active subskill.\nAnswer: 2. move to",
+      "correct": true
+    },
+    {
+      "sec": 182,
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "Reasoning: The gripper is holding the wooden cutting board, which contains a whole onion and a few loose white bits, and the board is positioned over the sink area, ready to be placed into the bowl.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The image shows a wooden cutting board with a large onion piece on it, and a white bowl nearby. The robot's hands are not visible, but the presence of the board and the onion clearly indicates the action of placing the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot's subskill is chop because the gripper is holding the onion over the wooden board, and the board still holds a large onion piece plus a few loose white bits, indicating the action is about to be completed.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 28,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot's arm is positioned over the wooden cutting board, with a white bowl nearby, suggesting it is about to place the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot's arm is positioned over the wooden cutting board, with a gripper holding the onion directly above it, indicating it is about to place the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot's arm is holding a wooden board with a large onion piece on it, and the board is positioned over the sink area, suggesting the action of placing the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot's arm is holding a wooden cutting board with a large onion piece on it, and the board is positioned over a white bowl, suggesting the action of placing the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 78,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot's gripper is holding the wooden cutting board, which contains a large white onion and a few loose white bits, indicating the robot is about to place the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 85,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot's subskill is \"pick up from\" because the gripper is positioned over the sink basin, and the countertop and board are visible but no cutting or carrying action is taking place.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 96,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot's subskill is \"pick up from\" because the gripper is holding the wooden cutting board, which is positioned over the sink area, and the white bowl is visible nearby, indicating the robot is about to pick up the onion from the sink.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 103,
+      "gt": "pick up from",
+      "pred": "chop",
+      "raw": "Reasoning: The robot is holding a knife over a wooden board, which contains a large onion piece and a few loose white bits, indicating the action of chopping the onion.\nAnswer: 1. chop",
+      "correct": false
+    },
+    {
+      "sec": 111,
+      "gt": "pick up from",
+      "pred": "chop",
+      "raw": "Reasoning: The robot is holding a knife over a wooden board, which contains a large onion piece and a few loose white bits, indicating it is about to cut the onion.\nAnswer: 1. chop",
+      "correct": false
+    },
+    {
+      "sec": 153,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot's subskill is chop because the gripper is holding the onion over the wooden board, and the board still holds a large onion piece plus a few loose white bits, indicating the action is about to be completed.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 8,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The image shows a kitchen scene with a sink, countertop, and a wooden board. The camera is positioned to view the sink and countertop, but the arms are empty and not interacting with any objects. The view is from a distance, not from the hands of the robot.\nAnswer: 2. move to",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's subskill is \"pick up from\" because the gripper is positioned over the sink basin, and the white bowl and wooden board are visible on the counter, but no cutting or carrying action is taking place.",
+      "correct": true
+    },
+    {
+      "sec": 22,
+      "gt": "pick up from",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot's subskill is \"place on next to\" because the gripper is holding the wooden cutting board itself, tilted in the air near the white bowl and empty counter, before the board is set down.",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot's subskill is chop because the gripper is holding the onion, and the board is still holding a large onion piece plus a few loose white bits, indicating the action is about to be completed.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 61,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a knife over a wooden board with an onion on it, and the board is tilted slightly, suggesting it is about to place the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 69,
+      "gt": "pick up from",
+      "pred": "chop",
+      "raw": "Reasoning: The robot is holding a knife over a wooden board, and the board contains a large onion piece and a few loose white bits, indicating the action of chopping the onion.\nAnswer: 1. chop",
+      "correct": false
+    },
+    {
+      "sec": 115,
+      "gt": "pick up from",
+      "pred": "chop",
+      "raw": "Reasoning: The robot's subskill is chop because the gripper is holding the wooden cutting board, and the board is resting on the countertop with a large onion piece and loose white bits visible, indicating the action of cutting or preparing the onion.",
+      "correct": false
+    },
+    {
+      "sec": 8,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The image shows a kitchen counter with a sink, a wooden cutting board, and a white bowl. A black robotic arm is visible in the foreground, positioned over the sink area, suggesting it is about to pick up or place an item. The presence of the sink and the arm's proximity to the sink basin indicates the action is related",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with the white bowl and wooden board visible on the counter. The gripper is not holding the board or onion, and there is no knife in hand, ruling out chop, pick up from, and pour. The arm is not near the bowl, ruling out place in. The board",
+      "correct": true
+    },
+    {
+      "sec": 23,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's arm is positioned over the wooden cutting board, holding the onion directly above it, indicating the action of placing it on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with the white bowl and wooden board visible in the background, but the gripper is not holding the onion or the board. The board is empty, and the onion is not in the bowl.\nAnswer: 3. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 49,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with a gripper holding a white onion. The board is empty, and the bowl is not visible in the frame.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 75,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot's arm is holding a white bowl, and the wooden cutting board is visible on the counter, but no knife is in hand, and the board is not being moved or placed.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 82,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with a gripper holding the wooden cutting board. The board is tilted slightly, and the white bowl is visible in the background, indicating the robot is about to place the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 90,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with a gripper holding the wooden cutting board, which is tilted slightly. The board is empty, and the white bowl is visible in the background, indicating the robot is about to place the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 124,
+      "gt": "pick up from",
+      "pred": "chop",
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with a gripper holding the wooden cutting board. The board contains a large white onion and several loose white cubes, indicating the task of chopping the onion.\nAnswer: 1. chop",
+      "correct": false
+    },
+    {
+      "sec": 132,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with a gripper holding the wooden cutting board. The board contains a large white onion and several loose white cubes, indicating the robot is about to place the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The gripper is holding the wooden cutting board over the sink, with the white bowl and countertop visible in the background, indicating the robot is about to place the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's arm is holding a wooden cutting board with a large onion piece on it, and the board is positioned over the sink area, suggesting the action of placing the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a wooden cutting board with a large onion piece and loose white bits on it, and the board is tilted slightly, suggesting it is about to place the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 88,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with a gripper holding a white onion. The board is empty, and the knife is not in the onion. The gripper is holding the onion directly over the board, indicating the action of placing it there.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 95,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with a gripper holding the wooden cutting board. The board contains a large onion piece and a few loose white bits, which are consistent with the state of the onion before it is placed into the bowl.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 140,
+      "gt": "pick up from",
+      "pred": "chop",
+      "raw": "Reasoning: The robot is holding a black spray bottle over a wooden board, which contains a large white onion and a few loose white bits, indicating it is about to cut the onion.\nAnswer: 1. chop",
+      "correct": false
+    },
+    {
+      "sec": 148,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The image shows a knife with a red handle resting on a wooden board, which is holding a large white onion piece. The board is not empty, and the knife is not in the bowl, so it is not pick up from, place in, or place on. The board is not being carried, and the knife is not in",
+      "correct": true
+    },
+    {
+      "sec": 183,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot's gripper is holding the wooden cutting board, which contains a large white onion and several loose white cubes, indicating the robot is about to place the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 12,
+      "gt": "pick up from",
+      "pred": "place on next to",
+      "raw": "Reasoning: The image shows a countertop with a sink, a white bowl, and a wooden board. There is no knife visible in the frame, and no onion is present on the board or in the sink. Therefore, the subskill cannot be chop, move to, pick up from, place in, place on, place on next to",
+      "correct": false
+    },
+    {
+      "sec": 19,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with a gripper holding the white bowl and the wooden board visible in the foreground, indicating the robot is about to place the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot's arm is holding a white bowl, and the wooden cutting board is resting on the countertop with a large onion piece and loose white bits visible, indicating the task of placing the onion into the bowl.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with a gripper holding the wooden cutting board. The board is tilted slightly, and the white bowl is visible nearby, suggesting the robot is about to place the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 61,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a wooden board with a large onion piece on it, and the board is tilted slightly, suggesting it is in the process of placing the onion onto the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 68,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot's right arm is holding a wooden cutting board over the sink, with a large onion piece resting on it, and a knife is visible in the gripper, indicating the action of placing the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 95,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The robot's arm is holding a white bowl, and the wooden cutting board is resting on the white bowl, with the onion visible on the board. The gripper is not holding the onion, and the board is not being moved or placed.\nAnswer: 4. place in",
+      "correct": false
+    },
+    {
+      "sec": 103,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with a gripper holding the wooden cutting board. The board is tilted slightly, and the white bowl is visible in the background, indicating the robot is about to place the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 133,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The image shows a countertop with a knife, a wooden cutting board, and a white bowl. The knife is not in the bowl, nor is it in the board. The board is not being held or moved. The bowl is empty. Therefore, the robot is not in the bowl, nor is it in the board.",
+      "correct": false
+    },
+    {
+      "sec": 141,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The gripper is holding the onion over the wooden board, and the board still has a large onion piece plus loose white bits, indicating the action is about to be placed on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 148,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a knife over a wooden board with an onion on it, but the board is not in contact with the bowl, and the onion is not being cut.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 156,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The image shows a wooden cutting board with a large onion piece and loose white bits on it, and a white bowl nearby. The gripper is not visible, but the action of placing the onion on the board is implied by the position of the onion and the bowl.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 163,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The image shows a wooden cutting board with a large onion piece on it, and a white bowl nearby. The gripper is not visible in the frame, so the action is not pick up from or place on. The board is not being moved or pushed, so it's not move to or push to. The board is not being",
+      "correct": true
+    },
+    {
+      "sec": 206,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot's gripper is holding the wooden cutting board, which contains a large onion and several loose white bits, indicating the robot is about to place the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 213,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot's arm is positioned over the wooden cutting board, which contains a large white onion and several loose white cubes, indicating it is about to place the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "gt": "place on next to",
+      "pred": null,
+      "raw": "Reasoning: The robot's gripper is holding the wooden cutting board, which contains a large onion piece and a few loose white bits, indicating it is about to place the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "gt": "place on next to",
+      "pred": null,
+      "raw": "Reasoning: The robot's arm is holding a wooden cutting board over the sink, with a knife resting on the board, and a white bowl is visible to the left, suggesting the robot is about to place the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 59,
+      "gt": "place on next to",
+      "pred": null,
+      "raw": "Reasoning: The robot's gripper is holding the wooden cutting board, which contains a large onion piece and a few loose white bits, indicating it is about to place the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 61,
+      "gt": "place on next to",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with a gripper holding the wooden cutting board. The board is tilted slightly, and the white bowl is visible to the left, indicating the robot is about to place the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 63,
+      "gt": "place on next to",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with a gripper holding the wooden cutting board. The board is tilted slightly, and the white bowl is visible to the left, indicating the robot is about to place the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 64,
+      "gt": "place on next to",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with a gripper holding the wooden cutting board. The board is tilted slightly, and the white bowl is visible to the left, indicating the robot is about to place the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 66,
+      "gt": "place on next to",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's arm is positioned over the wooden board, holding the onion directly above it, indicating the action of placing it there.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 68,
+      "gt": "place on next to",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's arm is positioned over the wooden board, holding the onion directly above it, indicating the action of placing it there.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 69,
+      "gt": "place on next to",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with a gripper holding the wooden cutting board. The board is tilted slightly, and the white bowl is visible to the left, indicating the robot is about to place the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 71,
+      "gt": "place on next to",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with a gripper holding the wooden cutting board. The board is tilted slightly, and the white bowl is visible to the left, indicating the robot is about to place the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 73,
+      "gt": "place on next to",
+      "pred": null,
+      "raw": "Reasoning: The robot's gripper is holding the wooden cutting board, which contains a large white onion and a few loose white bits, indicating the robot is about to place the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "gt": "place on next to",
+      "pred": null,
+      "raw": "Reasoning: The robot's gripper is holding the wooden cutting board, which contains a large onion piece and a few loose white bits, indicating it is about to place the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "gt": "place on next to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with a gripper hovering over the basin, indicating it is about to pick up the onion. The onion is not yet on the board, nor is it in the bowl.\nAnswer: 3. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 28,
+      "gt": "place on next to",
+      "pred": "place in",
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with a gripper hovering over the white bowl, indicating it is about to place the onion there.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 30,
+      "gt": "place on next to",
+      "pred": "chop",
+      "raw": "Reasoning: The image shows a wooden cutting board with a large white onion piece on it, and a white bowl nearby. The arms are empty, and the scene is a static view of the workspace, not a dynamic action sequence.\nAnswer: 1. chop",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot's subskill is \"place on next to\" because the gripper is holding the wooden cutting board itself, tilted in the air near the white bowl, before the board is set down.",
+      "correct": true
+    },
+    {
+      "sec": 45,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot's subskill is \"place on next to\" because the gripper is holding the wooden cutting board itself, tilted in the air near the white bowl and empty counter, before the board is set down.",
+      "correct": true
+    },
+    {
+      "sec": 47,
+      "gt": "place on next to",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's gripper is holding the wooden cutting board, which contains a large onion piece and a few loose white bits, indicating the robot is about to place the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "gt": "place on next to",
+      "pred": "pour",
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with a gripper holding the wooden cutting board. The board is tilted slightly, and the white bowl is visible nearby, but the robot is not actively cutting, placing, or pouring anything. The gripper is holding the board, not the onion, and the board is not in the",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "gt": "place on next to",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with a gripper holding the wooden cutting board. The board is tilted slightly, and the white bowl is visible to the left, indicating the robot is about to place the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "gt": "place on next to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with the white bowl and wooden board visible in the background, but the gripper is not holding the onion or the board. The arm is not near the sink basin, and there is no knife visible.\nAnswer: 3. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The image shows a countertop with a sink, a wooden board, and a white bowl. There is no knife visible in the frame, and no onion is present in the image. Therefore, the subskill cannot be chop, move to, pick up from, place in, place on, place on next to, pour, or",
+      "correct": true
+    },
+    {
+      "sec": 37,
+      "gt": "place on next to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The image shows a countertop with a sink, a wooden board, and a white bowl. The subskill \"chop\" is incorrect because there is no knife in hand or on the board. The subskill \"move to\" is incorrect because the robot is not in a room view. The subskill \"pick up from\"",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "gt": "place on next to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The image shows a kitchen counter with a sink, a wooden cutting board, and a white bowl. A knife is resting on the counter to the right of the sink. There is no gripper visible, and no onion is present in the image. Therefore, the subskill cannot be chop, move to, pick up from, place",
+      "correct": false
+    },
+    {
+      "sec": 64,
+      "gt": "place on next to",
+      "pred": null,
+      "raw": "Reasoning: The robot's arm is holding a wooden cutting board with a whole onion on it, and the board is positioned over the sink area, suggesting the action of placing the onion onto the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 66,
+      "gt": "place on next to",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's arm is holding the wooden cutting board over the sink, with the white bowl and knife visible in the background, indicating the robot is about to place the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 67,
+      "gt": "place on next to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with a gripper hovering over the sink basin, indicating it is about to pick up the onion. The onion is not yet on the board, nor is it in the bowl.\nAnswer: 3. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 69,
+      "gt": "place on next to",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with a gripper holding the wooden cutting board. The board is tilted slightly, and a knife is resting on it, indicating the robot is about to place the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 71,
+      "gt": "place on next to",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with a gripper holding the wooden cutting board. The board is tilted slightly, and a knife is resting on it, indicating the robot is about to place the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 72,
+      "gt": "place on next to",
+      "pred": null,
+      "raw": "Reasoning: The robot's arm is holding the wooden cutting board, which contains a large white onion and a few loose white bits, indicating the robot is about to place the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 74,
+      "gt": "place on next to",
+      "pred": null,
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with a knife held near the board, but no onion is visible in the frame.\nAnswer: 8. push to",
+      "correct": false
+    },
+    {
+      "sec": 76,
+      "gt": "place on next to",
+      "pred": null,
+      "raw": "Reasoning: The robot's gripper is holding the wooden cutting board, which contains a large onion piece and a few loose white bits, indicating it is about to place the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 78,
+      "gt": "place on next to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is not holding the knife or the board, nor is it in the process of cutting or placing anything. The only visible action is the gripper hovering over the sink area, which is consistent with pick up from.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 79,
+      "gt": "place on next to",
+      "pred": "chop",
+      "raw": "Reasoning: The image shows a wooden cutting board with a large onion piece and loose white bits on it, a knife resting on the board, and a white bowl to the left. The robot is not holding the onion or the knife, so it is not in the process of chopping, picking up, or placing the onion. The presence of the",
+      "correct": false
+    },
+    {
+      "sec": 81,
+      "gt": "place on next to",
+      "pred": "chop",
+      "raw": "Reasoning: The image shows a wooden cutting board with a large onion piece and loose white bits on it, a knife resting on the board, and a white bowl to the left. The robot is not holding the onion or the knife, so it is not in the process of chopping, picking up, or placing the onion. The presence of the",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "gt": "place on next to",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with a gripper holding the white bowl and the wooden board, but no knife is visible in the hand, indicating the action is not chop or pour. The board is not being moved or pushed, and the bowl is not being placed yet.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 30,
+      "gt": "place on next to",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's arm is positioned over the wooden board, holding the onion directly above it, indicating the action of placing it there.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "gt": "place on next to",
+      "pred": null,
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with a gripper hovering over the white bowl, indicating it is about to place the onion there.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "gt": "place on next to",
+      "pred": "chop",
+      "raw": "Reasoning: The robot's arm is holding a knife over a white bowl, with a wooden board visible in the background. The board contains a large onion piece and a few loose white bits, indicating the task of chopping the onion.\nAnswer: 1. chop",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "gt": "place on next to",
+      "pred": "place on",
+      "raw": "Reasoning: The gripper is holding the white bowl, and the wooden board is visible on the countertop with a knife resting on it, but no onion is present.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "gt": "place on next to",
+      "pred": "place in",
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with a gripper hovering over the white bowl, indicating it is about to place the onion there.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "gt": "place on next to",
+      "pred": "move to",
+      "raw": "Reasoning: The image shows a kitchen counter with a sink, a white bowl, and a wooden board. A knife is visible on the board, but it is not in the bowl. The subskill \"chop\" is incorrect because the knife is not in the bowl. The subskill \"move to\" is incorrect because the robot is not",
+      "correct": false
+    },
+    {
+      "sec": 41,
+      "gt": "place on next to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The image shows a kitchen counter with a sink and a white bowl. There is a knife resting on the counter, not in the bowl. The board is empty. The subskill is pick up from.",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "gt": "place on next to",
+      "pred": "move to",
+      "raw": "Reasoning: The image shows a kitchen counter with a sink, a wooden board, and a white bowl. There is no visible onion, no knife, and no gripper interacting with the sink or board. The scene is static and lacks the necessary elements to determine the subskill.\nAnswer: 2. move to",
+      "correct": false
+    },
+    {
+      "sec": 75,
+      "gt": "place on next to",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's arm is positioned over the wooden cutting board, holding the onion directly above it, indicating the action of placing it there.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 77,
+      "gt": "place on next to",
+      "pred": "place on",
+      "raw": "Reasoning: The gripper is holding the wooden cutting board over the sink, with the onion resting on it, indicating the action of placing the onion onto the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 79,
+      "gt": "place on next to",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with a gripper holding the wooden cutting board. The board is tilted slightly, and the white bowl is visible to the left, indicating the robot is about to place the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 80,
+      "gt": "place on next to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The image shows a wooden cutting board with a large onion piece and loose white bits on it, and a white bowl nearby. The gripper is not visible, indicating the action is not chop, move to, pick up from, or place on. The board is not being held or moved, and the bowl is not being placed.",
+      "correct": false
+    },
+    {
+      "sec": 82,
+      "gt": "place on next to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The image shows a kitchen counter with a sink, a wooden cutting board, and a white bowl. A knife is visible on the board, and a white onion is resting on the board. The gripper is not visible in the frame, so the action is not pick up from or place on. The knife is not in the bowl",
+      "correct": false
+    },
+    {
+      "sec": 84,
+      "gt": "place on next to",
+      "pred": "place on next to",
+      "raw": "Reasoning: The image shows a kitchen counter with a sink, a wooden cutting board, and a white bowl. There is no knife visible in the frame, and no onion is present in the scene. Therefore, the subskill cannot be chop, move to, pick up from, place in, place on, place on next to, pour,",
+      "correct": true
+    },
+    {
+      "sec": 119,
+      "gt": "place on",
+      "pred": "chop",
+      "raw": "Reasoning: The robot is holding a knife over a wooden cutting board, which contains a large onion and a few loose white bits, indicating it is in the process of cutting the onion.\nAnswer: 1. chop",
+      "correct": false
+    },
+    {
+      "sec": 120,
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a knife over a wooden board with an onion on it, but the board is not being moved or placed; it is simply resting on the board with the onion intact, indicating the action is not chop or place on.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 121,
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a knife over a wooden board with an onion on it, but the board is not being moved or placed; it is simply resting on the board with the onion intact, indicating the action is not chop, move to, pick up from, or place on.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 122,
+      "gt": "place on",
+      "pred": "chop",
+      "raw": "Reasoning: The robot is holding a knife over a wooden board with a large onion piece and loose white bits, indicating it is about to cut the onion.\nAnswer: 1. chop",
+      "correct": false
+    },
+    {
+      "sec": 123,
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The robot's right arm is holding a knife over the wooden cutting board, which contains a large onion piece and a few loose white bits, indicating the action of placing the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 124,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding a knife over a wooden board with an onion, but the board is empty and the onion is not yet placed on it.\nAnswer: 5. place on",
+      "correct": true
+    },
+    {
+      "sec": 126,
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a knife over a wooden board with an onion on it, but the board is not in contact with the bowl, and the knife is not in the onion.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 127,
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The robot's right arm is holding a knife over the wooden cutting board, poised to cut the onion, which is resting on the board. The left arm is empty and positioned near the bowl. This action is consistent with the \"chop\" subskill.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 128,
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a knife over a wooden board with an onion on it, and the board is positioned over the sink area, suggesting the action of placing the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 129,
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The robot's subskill is chop because the knife is held with its blade touching or standing in a whole onion resting on the wooden board, and the board still holds a large onion piece plus a few loose white bits.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 130,
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a knife over a wooden board with a pink onion piece on it, and the board is positioned over the sink area, suggesting the action of placing the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 77,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's right arm is holding a knife over the wooden cutting board, poised to place the onion, while the board itself is empty and the bowl is visible nearby.\nAnswer: 5. place on",
+      "correct": true
+    },
+    {
+      "sec": 78,
+      "gt": "place on",
+      "pred": "chop",
+      "raw": "Reasoning: The robot's right arm is holding a knife over the wooden cutting board, poised to cut the onion, which is resting on the board. The subskill is chop.",
+      "correct": false
+    },
+    {
+      "sec": 79,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's right arm is holding the wooden cutting board, and the left arm is reaching toward the sink area, suggesting the robot is in the process of picking up the onion from the sink.\nAnswer: 3. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 80,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's right arm is holding a wooden cutting board with a large onion piece and loose white bits on it, positioned over the sink area. The left arm is empty. This visual evidence directly supports the action of placing the onion on the board.\nAnswer: 5. place on",
+      "correct": true
+    },
+    {
+      "sec": 81,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's right arm is holding the wooden cutting board, and the white bowl is visible in the background, but the left arm is empty and not interacting with the sink or board. The board is not in the bowl, and there is no knife in hand.\nAnswer: 5. place on",
+      "correct": true
+    },
+    {
+      "sec": 82,
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The robot's right arm is holding a knife over the wooden cutting board, which contains a large onion and a few loose white bits, indicating the action of placing the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 83,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's subskill is \"pick up from\" because the gripper is holding the wooden cutting board, which contains a large onion piece, and the board is positioned over the sink area, ready to be moved to the bowl.",
+      "correct": false
+    },
+    {
+      "sec": 85,
+      "gt": "place on",
+      "pred": "chop",
+      "raw": "Reasoning: The robot's right arm is holding a knife over a wooden cutting board, which contains a whole onion and a few loose white bits, indicating the action of chopping the onion.\nAnswer: 1. chop",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with a gripper holding the wooden cutting board. The board is tilted slightly, and a large white onion is resting on it, with loose white bits visible. The arm is not holding the onion or the knife, and the board is not being moved or placed. This visual evidence directly",
+      "correct": false
+    },
+    {
+      "sec": 59,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's arm is positioned over the wooden cutting board, holding a white bowl, and the board is tilted slightly, suggesting it is about to place the onion on the board.\nAnswer: 5. place on",
+      "correct": true
+    },
+    {
+      "sec": 60,
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The robot's arm is holding a white bowl, and the wooden cutting board is positioned directly in front of it, with a large onion piece resting on it. The gripper is not visible, and the board is not being moved or placed.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 61,
+      "gt": "place on",
+      "pred": "place in",
+      "raw": "Reasoning: The robot's arm is holding a white bowl and a wooden cutting board, with a large onion piece resting on the board. The gripper is positioned over the bowl, suggesting the action of placing the onion into the bowl.\nAnswer: 4. place in",
+      "correct": false
+    },
+    {
+      "sec": 62,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's arm is positioned over the wooden cutting board, holding a white bowl, and the board is tilted slightly, suggesting it is about to place the onion on it.\nAnswer: 5. place on",
+      "correct": true
+    },
+    {
+      "sec": 63,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's arm is holding a white bowl, and the wooden cutting board is positioned directly above it, with a large onion piece resting on the board. The gripper is not visible, indicating the action is about to be completed.\nAnswer: 5. place on",
+      "correct": true
+    },
+    {
+      "sec": 64,
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The robot's gripper is holding the wooden cutting board, which contains a whole onion and a few loose white bits, indicating the robot is about to place the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 65,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with the white bowl and wooden board visible in the background, but no gripper is holding the onion or any cutting action is taking place.\nAnswer: 3. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 66,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with a gripper visible near the sink basin, suggesting it is about to pick up the onion. The onion is not yet on the board, nor is it in the bowl.\nAnswer: 3. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 67,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is not holding a knife, nor is it in the process of cutting or placing the onion. The only visible action is the robot's hand reaching down into the sink basin, which is consistent with the \"pick up from\" subskill.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 68,
+      "gt": "place on",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is not holding a knife, nor is it in the process of cutting or placing the onion. The only visible action is the robot's arms being empty and not interacting with the sink or the board.\nAnswer: 2. move to",
+      "correct": false
+    },
+    {
+      "sec": 98,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The image shows a wooden cutting board with a large onion piece and loose white bits on it, and a white bowl nearby. The gripper is not visible, indicating the action is not chop, move to, pick up from, or place on. The board is not being held or moved, and the bowl is not being placed.",
+      "correct": false
+    },
+    {
+      "sec": 99,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with a gripper hovering over the wooden cutting board, which contains a large onion piece and a few loose white bits. The board is not being held or moved, and the knife is not in the hand, indicating the action is not chop, move to, pick up from, or",
+      "correct": false
+    },
+    {
+      "sec": 100,
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with a gripper holding the wooden cutting board. The board contains a large onion piece and a few loose white bits, which are consistent with the state of the onion before it is placed into the bowl.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 101,
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with a gripper holding the wooden cutting board. The board contains a large onion piece and a few loose white bits, which are consistent with the state of the onion before it is placed into the bowl.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 102,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The image shows a wooden cutting board with a large onion piece and loose white bits on it, and a white bowl nearby. The robot's arm is positioned over the sink, but no knife is visible in the frame, ruling out chop or pour. The gripper is not clearly visible, ruling out pick up from. The board is",
+      "correct": false
+    },
+    {
+      "sec": 103,
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The image shows a wooden cutting board with a knife resting on it, and a white bowl nearby. The knife is not in the bowl, nor is there any onion visible. The subskill is chop.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 104,
+      "gt": "place on",
+      "pred": "chop",
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with a gripper holding the wooden cutting board. The board contains a large onion piece and a few loose white bits, consistent with the state of the onion before it is placed on the board.\nAnswer: 1. chop",
+      "correct": false
+    },
+    {
+      "sec": 105,
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The image shows a wooden cutting board with a knife resting on it, and a white bowl nearby. The knife is not in the bowl, nor is it in the sink. The board is not being held or moved, and the bowl is not being held. The board is not being placed on the counter. The board is not being",
+      "correct": false
+    },
+    {
+      "sec": 106,
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with a gripper hovering over the wooden cutting board, which contains a large onion piece and a few loose white bits. The board is not being held or moved, and the onion is not yet placed into the bowl.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 107,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's subskill is \"pick up from\" because the gripper is holding the wooden cutting board, which contains a whole onion and a few loose white bits, and the board is positioned over the sink area, ready to be picked up.",
+      "correct": false
+    },
+    {
+      "sec": 108,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's gripper is positioned over the sink, holding the wooden cutting board with a knife, and the onion is resting on the board, indicating the action of placing the onion on the board.\nAnswer: 5. place on",
+      "correct": true
+    },
+    {
+      "sec": 109,
+      "gt": "place on",
+      "pred": "chop",
+      "raw": "Reasoning: The image shows a wooden cutting board with a whole onion on it, a knife resting on the board, and a white bowl nearby. The robot is not holding the onion or the knife, so it is not in the process of chopping, picking up, or placing the onion. The presence of the knife and board confirms the robot is",
+      "correct": false
+    },
+    {
+      "sec": 111,
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The robot's subskill is \"pick up from\" because the gripper is holding the wooden cutting board, which contains a whole onion and a few loose white bits, and the board is positioned over the sink area, ready to be placed into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 109,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's subskill is \"pick up from\" because the gripper is holding the wooden cutting board, which contains a large onion piece and a few loose white bits, and the board is positioned over the sink area, ready to be placed into the bowl.",
+      "correct": false
+    },
+    {
+      "sec": 110,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's subskill is \"pick up from\" because the gripper is positioned over the sink basin, and the wooden cutting board is visible on the counter with a large onion piece and loose white bits resting on it, indicating the robot is about to pick up the onion from the sink.",
+      "correct": false
+    },
+    {
+      "sec": 111,
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The robot's subskill is chop because the gripper is holding the wooden cutting board, and the board is resting on the countertop with a large onion piece and loose white bits visible, indicating the action of cutting the onion.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 112,
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The robot's gripper is holding the wooden cutting board, which contains a large onion piece and a few loose white bits, indicating the robot is about to place the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 113,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's subskill is \"pick up from\" because the gripper is holding the wooden cutting board, which contains a large onion piece and a few loose white bits, and the board is positioned over the sink area, ready to be placed into the bowl.",
+      "correct": false
+    },
+    {
+      "sec": 114,
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The robot's gripper is holding the wooden cutting board, which contains a large onion piece and a few loose white bits, indicating the action of placing the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 115,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's subskill is \"pick up from\" because the gripper is positioned over the sink basin, and the wooden cutting board is visible on the counter with a large onion piece and loose white bits, but no knife is in hand or touching the board.",
+      "correct": false
+    },
+    {
+      "sec": 116,
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The robot's gripper is holding the wooden cutting board, which contains a whole onion and a few loose white bits, indicating the action of placing the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 117,
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a knife over a wooden board with an onion on it, but the board is not being moved or placed; it is simply positioned over the board, indicating the action is about to be executed.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 118,
+      "gt": "place on",
+      "pred": "place in",
+      "raw": "Reasoning: The image shows a wooden cutting board with a pink onion on it, a white bowl nearby, and a sink area. The robot's hands are not visible, so the subskill cannot be determined from this frame.\nAnswer: 4. place in",
+      "correct": false
+    },
+    {
+      "sec": 119,
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The image shows a wooden cutting board with a pink onion on it, a white bowl nearby, and a sink. The robot is not holding a knife, nor is it in the process of cutting or placing the onion. The visual evidence points to the robot having picked up the onion from the sink and is now about to place it on",
+      "correct": false
+    },
+    {
+      "sec": 131,
+      "gt": "chop",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's right arm is holding a knife over a wooden board with a pink onion on it, and the board is positioned over the sink area, indicating the action of placing the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 132,
+      "gt": "chop",
+      "pred": null,
+      "raw": "Reasoning: The robot's right arm is holding a knife over a wooden cutting board, which contains a whole onion and a small white piece, indicating the action of placing the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 134,
+      "gt": "chop",
+      "pred": null,
+      "raw": "Reasoning: The robot's subskill is \"place on\" because a gripper is holding the wooden cutting board over the sink, poised to release the onion piece onto the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 136,
+      "gt": "chop",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot's subskill is \"place on next to\" because the gripper is holding the wooden cutting board itself, tilted in the air near the white bowl and empty counter, before the board is set down.\nAnswer: 6. place on next to",
+      "correct": false
+    },
+    {
+      "sec": 137,
+      "gt": "chop",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's subskill is \"place on\" because the gripper is holding the onion directly over the wooden cutting board, poised to release it, with the board and onion clearly visible and ready for placement.",
+      "correct": false
+    },
+    {
+      "sec": 139,
+      "gt": "chop",
+      "pred": null,
+      "raw": "Reasoning: The robot's subskill is \"place on\" because a gripper is holding the onion over the wooden board, about to release it there, with the board otherwise bare.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 141,
+      "gt": "chop",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a knife over a wooden board with an onion on it, but the board is not being moved or placed; instead, the gripper is positioned to pick up the onion from the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 142,
+      "gt": "chop",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's subskill is \"place on\" because the gripper is holding the onion directly over the wooden cutting board, poised to release it, with the board and bowl visible in the scene.",
+      "correct": false
+    },
+    {
+      "sec": 144,
+      "gt": "chop",
+      "pred": null,
+      "raw": "Reasoning: The robot's arms are empty, and the only visible object on the counter is a wooden board with a large onion piece and loose white bits, which is consistent with the state of a chopping board after the onion has been removed from the sink.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 146,
+      "gt": "chop",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a knife over a wooden board with a large onion piece and loose white bits, indicating it is about to place the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 86,
+      "gt": "chop",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding a knife over a wooden board with an onion on it, but the board is not being moved or placed; instead, the gripper is positioned to pick up the onion from the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 88,
+      "gt": "chop",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a knife over a wooden cutting board with a pink onion on it, and the white bowl is nearby, indicating the action of placing the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 90,
+      "gt": "chop",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding a knife over a wooden board with an onion on it, and the board is positioned over the sink area, suggesting the action of placing the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 92,
+      "gt": "chop",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding a knife over a wooden cutting board with a whole onion on it, and the board is positioned over the sink area, indicating the action of placing the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 93,
+      "gt": "chop",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding a knife over a wooden board with an onion on it, and the board is positioned over the white bowl, indicating the action of placing the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 95,
+      "gt": "chop",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding a knife over a wooden board with an onion on it, and the board is positioned over the sink area, suggesting the action of placing the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 97,
+      "gt": "chop",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding a knife over a wooden cutting board with an onion on it, and the board is positioned over the sink area, suggesting the action of placing the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 98,
+      "gt": "chop",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding a knife over a wooden cutting board with a whole onion and loose white bits, but the board is not being moved or placed; instead, the gripper is positioned over the board, indicating the next action is to place the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 100,
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The robot is holding a knife over a wooden cutting board with a whole onion and loose white bits on it, but the gripper is not actively grasping the onion or the board, and the bowl is not in the immediate vicinity.\nAnswer: 1. chop",
+      "correct": true
+    },
+    {
+      "sec": 102,
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The robot is holding a knife over a wooden cutting board with a large white onion and loose white bits on it, indicating the action of chopping.\nAnswer: 1. chop",
+      "correct": true
+    },
+    {
+      "sec": 103,
+      "gt": "chop",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's subskill is \"pick up from\" because the gripper is holding the wooden cutting board, which contains the onion, and the board is positioned over the sink area, ready to be picked up.",
+      "correct": false
+    },
+    {
+      "sec": 100,
+      "gt": "chop",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding a knife over a wooden board with an onion on it, but the board is empty and the onion is not yet placed into the bowl.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 102,
+      "gt": "chop",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's arm is positioned over the wooden cutting board, holding a knife that is positioned over the onion, indicating it is about to place the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 103,
+      "gt": "chop",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding a knife over a wooden cutting board with an onion on it, but the board is not being placed on the counter yet.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 105,
+      "gt": "chop",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's arm is positioned over the wooden cutting board, holding a knife that is positioned over an onion, indicating it is about to place the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 107,
+      "gt": "chop",
+      "pred": null,
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with the white bowl and wooden board visible in the background. The gripper is not holding the onion or the board, and the knife is not in the hand. The arm is not near the bowl or the board, and the board is not being moved. The arm is not near",
+      "correct": false
+    },
+    {
+      "sec": 108,
+      "gt": "chop",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a knife over a wooden cutting board with an onion on it, but the knife is not in the onion, and the board is not being moved or placed.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 110,
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The robot is holding a knife over a wooden board with an onion on it, but the gripper is not actively placing the onion onto the board or the board is not being held by the gripper.\nAnswer: 1. chop",
+      "correct": true
+    },
+    {
+      "sec": 112,
+      "gt": "chop",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a knife over a wooden cutting board with a whole onion and loose white bits, indicating the action of chopping.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 113,
+      "gt": "chop",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with a gripper holding the wooden cutting board. The board is tilted slightly, and the white bowl is visible to the left, indicating the robot is about to place the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 152,
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The robot's arm is holding a knife over a wooden cutting board, which contains a whole onion and a few loose white bits, indicating the action of chopping the onion.\nAnswer: 1. chop",
+      "correct": true
+    },
+    {
+      "sec": 154,
+      "gt": "chop",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding a knife over a wooden board with an onion on it, but the board is not being moved or placed; it is simply resting on the counter.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 156,
+      "gt": "chop",
+      "pred": "place on",
+      "raw": "Reasoning: The gripper is holding the knife over the wooden board, which contains a whole onion and a small white piece, indicating the robot is about to place the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 157,
+      "gt": "chop",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot's subskill is \"place on next to\" because the gripper is holding the wooden cutting board itself, tilted in the air near the white bowl, before the board is set down.",
+      "correct": false
+    },
+    {
+      "sec": 159,
+      "gt": "chop",
+      "pred": null,
+      "raw": "Reasoning: The robot's gripper is holding the knife over the wooden cutting board, which contains a whole onion and a pink piece, indicating the action of placing the onion onto the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 161,
+      "gt": "chop",
+      "pred": null,
+      "raw": "Reasoning: The robot's gripper is holding the knife over the wooden cutting board, which contains a whole onion and a few loose white bits, indicating the action of placing the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 162,
+      "gt": "chop",
+      "pred": null,
+      "raw": "Reasoning: The robot's gripper is holding the knife over the wooden cutting board, which contains a whole onion and a few loose white bits, indicating the action of placing the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 164,
+      "gt": "chop",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding a knife over a wooden cutting board with an onion on it, but the board is not being moved or placed; it is simply positioned over the board, indicating the action is about to be executed.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 166,
+      "gt": "chop",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a knife over a wooden board with a whole onion and loose white bits, but the board is not being placed on the bowl or the bowl is not being placed on the board.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 167,
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The robot is holding a knife over a wooden board with a large onion piece and loose white bits, indicating it is in the process of cutting the onion.\nAnswer: 1. chop",
+      "correct": true
+    },
+    {
+      "sec": 169,
+      "gt": "chop",
+      "pred": null,
+      "raw": "Reasoning: The robot's gripper is holding the knife over the wooden cutting board, which contains a large onion piece and several loose white cubes, indicating the action of placing the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 171,
+      "gt": "chop",
+      "pred": null,
+      "raw": "Reasoning: The robot's gripper is positioned over the sink, holding the white bowl, and the wooden board is visible on the counter with a large onion piece and loose white bits on it. The gripper is not holding the board or the onion, and the board is not being moved or placed.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 183,
+      "gt": "chop",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding a knife over a wooden board with an onion on it, but the board is empty and the onion is not yet placed into the bowl.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 185,
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The robot's arm is holding a knife over a wooden cutting board, which contains a large white onion and a few loose white bits, indicating the action of chopping the onion.\nAnswer: 1. chop",
+      "correct": true
+    },
+    {
+      "sec": 187,
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The robot's arm is holding a knife over a wooden cutting board, which contains a whole onion and a few loose white bits, indicating the action of chopping the onion.\nAnswer: 1. chop",
+      "correct": true
+    },
+    {
+      "sec": 188,
+      "gt": "chop",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with a gripper hovering over the sink basin, indicating it is about to pick up the onion from there.\nAnswer: 3. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 190,
+      "gt": "chop",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's gripper is holding the wooden cutting board, which contains a whole onion and a few loose white bits, indicating the robot is about to place the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 192,
+      "gt": "chop",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's arm is positioned over the wooden cutting board, holding a knife that is not in contact with the onion, and the onion is resting on the board. This indicates the robot is about to place the onion onto the board, not pick it up, chop it, or pour it.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 193,
+      "gt": "chop",
+      "pred": "chop",
+      "raw": "Reasoning: The robot is holding a knife over a wooden cutting board with a whole onion on it, and the board still holds a large onion piece plus a few loose white bits, indicating the action of chopping.\nAnswer: 1. chop",
+      "correct": true
+    },
+    {
+      "sec": 195,
+      "gt": "chop",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's arm is positioned over the wooden cutting board, holding the onion directly above it, indicating the action of placing it there.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 197,
+      "gt": "chop",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's subskill is \"pick up from\" because the gripper is positioned over the sink basin, and the wooden cutting board is visible on the counter with a large onion piece and loose white bits, but no knife is in hand or touching the board.",
+      "correct": false
+    },
+    {
+      "sec": 147,
+      "gt": "place in",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot's subskill is \"place on next to\" because the gripper is holding the wooden cutting board itself, tilted in the air near the white bowl and empty counter, before the board is set down.",
+      "correct": false
+    },
+    {
+      "sec": 149,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's subskill is \"pick up from\" because the gripper is holding the wooden cutting board, which contains the onion, and the board is positioned over the sink area, ready to be placed into the bowl.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 179,
+      "gt": "place in",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding a wooden cutting board over a sink, with a white bowl nearby. The board is positioned over the sink, and the bowl is empty, indicating the robot is about to place the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 181,
+      "gt": "place in",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding a wooden cutting board with a large onion piece and a few loose white bits on it, and the gripper is positioned over the sink area, suggesting it is about to place the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 183,
+      "gt": "place in",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's right arm is holding the wooden cutting board over the sink, with the white bowl and empty counter visible in the background, indicating the robot is about to place the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 185,
+      "gt": "place in",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's right arm is holding the wooden cutting board, and the white bowl is positioned to the left of the board, indicating the robot is about to place the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 188,
+      "gt": "place in",
+      "pred": null,
+      "raw": "Reasoning: The robot's arms are empty, and the only visible object is a wooden cutting board with a large white onion piece on it, indicating the robot is not actively performing any task.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 190,
+      "gt": "place in",
+      "pred": null,
+      "raw": "Reasoning: The robot's right arm is holding the wooden cutting board, and the white bowl is visible on the counter, but the onion is not in the bowl or on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 192,
+      "gt": "place in",
+      "pred": null,
+      "raw": "Reasoning: The robot's gripper is holding the wooden cutting board, which contains a large white onion piece, and the board is positioned over the sink area, indicating it is about to place the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 194,
+      "gt": "place in",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's right arm is holding the wooden cutting board, and the white bowl is visible in the background, indicating the robot is about to place the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 196,
+      "gt": "place in",
+      "pred": "chop",
+      "raw": "Reasoning: The robot is holding a knife over a wooden cutting board, which contains a large onion and a few loose white bits, indicating the action of chopping the onion.\nAnswer: 1. chop",
+      "correct": false
+    },
+    {
+      "sec": 198,
+      "gt": "place in",
+      "pred": null,
+      "raw": "Reasoning: The robot's subskill is chop because the gripper is holding the onion over the wooden board, and the board still holds a large onion piece plus a few loose white bits, indicating the action is about to be performed.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 104,
+      "gt": "place in",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding a knife over a wooden cutting board with a large onion piece and a few loose white cubes, indicating it is about to place the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 106,
+      "gt": "place in",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding a knife over a wooden board with a large onion piece and several loose white cubes, indicating it is about to place the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 108,
+      "gt": "place in",
+      "pred": "chop",
+      "raw": "Reasoning: The image shows a wooden cutting board with several small white cubes (likely chopped onions) on it, and a knife with an orange handle resting in the metal sink basin. The robot's hands are not visible, but the presence of the knife and the board with the chopped onion clearly indicates the robot is in the process of chopping the onion",
+      "correct": false
+    },
+    {
+      "sec": 110,
+      "gt": "place in",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot's subskill is \"place on next to\" because the gripper is holding the wooden cutting board itself, tilted in the air near the white bowl and empty counter, before the board is set down.",
+      "correct": false
+    },
+    {
+      "sec": 150,
+      "gt": "place in",
+      "pred": "chop",
+      "raw": "Reasoning: The robot's right arm is holding a wooden cutting board with a large onion piece and loose white bits on it, positioned over the sink area. The gripper is not holding the onion, and there is no knife in hand, ruling out chop, pour, and push to. The board is not being carried or placed on the counter",
+      "correct": false
+    },
+    {
+      "sec": 152,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's subskill is \"pick up from\" because the gripper is holding the wooden cutting board over the sink, and the white bowl is empty, indicating the task of picking up the onion from the sink has not yet begun.",
+      "correct": false
+    },
+    {
+      "sec": 154,
+      "gt": "place in",
+      "pred": "chop",
+      "raw": "Reasoning: The image shows a white bowl with chopped white cubes (likely onion) on a wooden board, and a sink area with a faucet and a wooden cutting board with a red-handled knife inside. The robot's gripper is not visible, but the presence of the bowl, board, and knife indicates the task is already partially completed or",
+      "correct": false
+    },
+    {
+      "sec": 156,
+      "gt": "place in",
+      "pred": "chop",
+      "raw": "Reasoning: The robot's subskill is chop because the knife is held with its blade touching or standing in a whole onion resting on the wooden board, and the board still holds a large onion piece plus a few loose white bits.",
+      "correct": false
+    },
+    {
+      "sec": 158,
+      "gt": "place in",
+      "pred": null,
+      "raw": "Reasoning: The robot's gripper is holding the wooden cutting board, which contains a large onion piece, and the board is tilted slightly forward, suggesting it is about to place the onion onto the bowl.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 160,
+      "gt": "place in",
+      "pred": null,
+      "raw": "Reasoning: The robot's right arm is holding a white bowl, and the left arm is holding a wooden cutting board. The board is tilted and positioned over the sink area, with a large onion piece visible on it. The gripper is not holding the onion, and the board is not being moved or placed on the counter.\nAnswer:",
+      "correct": false
+    },
+    {
+      "sec": 162,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The image shows a kitchen sink with a wooden cutting board and a white bowl. The white bowl is empty, and the board is empty. There is no knife in hand, and no onion is visible. The subskill is pick up from.",
+      "correct": false
+    },
+    {
+      "sec": 116,
+      "gt": "place in",
+      "pred": null,
+      "raw": "Reasoning: The robot's arm is positioned over the sink, and the wooden board is visible with a large onion piece and loose white bits on it, indicating the robot is about to place the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 118,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with a gripper hovering near the sink basin, indicating it is about to pick up the onion. The onion is not yet on the board, nor is it in the bowl.\nAnswer: 3. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 165,
+      "gt": "place in",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's right arm is visible, holding a wooden cutting board with a large white onion piece on it, and the bowl is empty. The gripper is positioned over the board, ready to place the onion.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 168,
+      "gt": "place in",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's arm is positioned over the wooden cutting board, holding the onion directly above it, indicating the action of placing it there.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 170,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's subskill is \"pick up from\" because the gripper is holding the wooden cutting board, which contains a large onion piece and a few loose white bits, and the board is positioned over the sink area, ready to be placed into the bowl.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 172,
+      "gt": "place in",
+      "pred": null,
+      "raw": "Reasoning: The robot's arm is positioned over the wooden cutting board, holding the onion directly above it, indicating the action of placing it there.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 174,
+      "gt": "place in",
+      "pred": null,
+      "raw": "Reasoning: The robot's right arm is holding a white bowl, and the wooden cutting board is resting on the countertop next to it, with the onion already in the bowl.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 176,
+      "gt": "place in",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with a gripper holding the white bowl and the wooden board visible in the foreground, indicating the robot is about to place the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 178,
+      "gt": "place in",
+      "pred": "move to",
+      "raw": "Reasoning: The image shows a kitchen sink with a wooden board and a white bowl. The white bowl is empty, and the board is empty. There is no onion, no knife, and no gripper visible in the frame.\nAnswer: 2. move to",
+      "correct": false
+    },
+    {
+      "sec": 180,
+      "gt": "place in",
+      "pred": "move to",
+      "raw": "Reasoning: The image shows a kitchen counter with a sink, a wooden board, and a white bowl. There is no visible knife, no onion, and no gripper interacting with the sink or board. The scene is static and lacks the necessary elements to determine the subskill.\nAnswer: 2. move to",
+      "correct": false
+    },
+    {
+      "sec": 172,
+      "gt": "place in",
+      "pred": "chop",
+      "raw": "Reasoning: The robot is holding a knife over a wooden cutting board with a large white onion piece and a few loose white bits on it, indicating the action of chopping.\nAnswer: 1. chop",
+      "correct": false
+    },
+    {
+      "sec": 174,
+      "gt": "place in",
+      "pred": null,
+      "raw": "Reasoning: The robot's gripper is positioned over the sink, holding the knife and the white bowl, with the wooden board and loose onion pieces visible on it. The gripper is not holding the board or the onion, and the bowl is not in the sink. This indicates the robot is about to place the onion into the bowl.",
+      "correct": false
+    },
+    {
+      "sec": 176,
+      "gt": "place in",
+      "pred": null,
+      "raw": "Reasoning: The robot's gripper is holding the wooden cutting board, which contains a whole onion and a few loose white bits, indicating the action of placing the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 200,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's arm is visible at the bottom right, holding a white bowl. The wooden cutting board is in the sink basin, and the white bowl is to the left. The robot is not holding the onion, nor is it placing it on the board or pouring it.\nAnswer: 3. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 202,
+      "gt": "place in",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's gripper is holding the wooden cutting board, which is tilted in the air near the white bowl, indicating it is about to place the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 204,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The image shows a wooden cutting board with a large white onion piece and loose white bits on it, and a white bowl nearby. The camera is positioned looking down at the countertop, and the view is not focused on the sink or the robot's hands, ruling out pick up from, place in, or pour. The robot's",
+      "correct": false
+    },
+    {
+      "sec": 199,
+      "gt": "place in",
+      "pred": null,
+      "raw": "Reasoning: The robot's gripper is holding the knife over the wooden cutting board, which contains a large onion piece and several loose white bits, indicating the action of placing the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 201,
+      "gt": "place in",
+      "pred": null,
+      "raw": "Reasoning: The robot's subskill is \"pick up from\" because the gripper is holding the wooden cutting board, which contains the onion, and the board is positioned over the sink area, ready to be moved to the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 203,
+      "gt": "place in",
+      "pred": null,
+      "raw": "Reasoning: The robot's gripper is holding the wooden cutting board, which contains a large onion piece and several loose white bits, indicating it is in the process of placing the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 251,
+      "gt": "place in",
+      "pred": null,
+      "raw": "Reasoning: The image shows a wooden cutting board with a large white onion piece and loose white bits on it, and a white bowl with small white cubes (likely chopped onions) already inside. The robot's subskill is \"chop\" because the visual evidence directly supports the action of cutting the onion on the board.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 253,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The image shows a wooden cutting board with a large white onion piece and loose white bits on it, and a white bowl to the left. The robot's arms are not visible, so the action is not chop, move to, pick up from, or place on. The gripper is not visible, so the action is not place",
+      "correct": false
+    },
+    {
+      "sec": 255,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The image shows a wooden cutting board with a large white onion piece and loose white bits on it, and a white bowl to the left. The robot's hands are not visible, so the action is not chop, move to, pick up from, or place on. The board is not being held or moved, and the bowl is",
+      "correct": false
+    },
+    {
+      "sec": 257,
+      "gt": "place in",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's gripper is holding the wooden cutting board over the sink, with the white bowl and board visible in the background, indicating the robot is about to place the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 159,
+      "gt": "pour",
+      "pred": null,
+      "raw": "Reasoning: The robot's subskill is \"place on\" because a gripper is holding the wooden cutting board over the sink, and the white bowl is positioned on the counter, ready to receive the onion.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 161,
+      "gt": "pour",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's subskill is \"place on\" because the gripper is holding the wooden cutting board over the sink, poised to release the onion, which is the only action consistent with the visual evidence.",
+      "correct": false
+    },
+    {
+      "sec": 163,
+      "gt": "pour",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding a knife over a wooden board with a large onion piece and loose white bits, but the board is not being moved or placed; instead, the gripper is positioned to place the onion onto the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 165,
+      "gt": "pour",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot's subskill is \"place on next to\" because the gripper is holding the wooden cutting board itself, tilted in the air near the white bowl, before the board is set down.",
+      "correct": false
+    },
+    {
+      "sec": 167,
+      "gt": "pour",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's subskill is \"place on\" because the gripper is holding the wooden cutting board over the sink, and the white bowl is visible in the background, indicating the robot is about to place the onion on the board.",
+      "correct": false
+    },
+    {
+      "sec": 169,
+      "gt": "pour",
+      "pred": "place on",
+      "raw": "Reasoning: The image shows a wooden cutting board with a large onion and loose white bits on it, and the robot's arms are empty, indicating the task of placing the onion onto the board is not in progress.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 171,
+      "gt": "pour",
+      "pred": "place on next to",
+      "raw": "Reasoning: The robot's subskill is \"place on next to\" because the gripper is holding the wooden cutting board itself, tilted in the air near the white bowl and empty counter, before the board is set down.",
+      "correct": false
+    },
+    {
+      "sec": 173,
+      "gt": "pour",
+      "pred": "chop",
+      "raw": "Reasoning: The image shows a wooden cutting board with several small white cubes (onion pieces) scattered on it, and a white bowl is positioned nearby. The arms are empty and not holding the board or onion, indicating the task has not yet begun.\nAnswer: 1. chop",
+      "correct": false
+    },
+    {
+      "sec": 175,
+      "gt": "pour",
+      "pred": null,
+      "raw": "Reasoning: The robot's subskill is chop because the gripper is holding the onion over the wooden board, and the board still holds a large onion piece plus a few loose white bits, indicating it is about to cut.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 177,
+      "gt": "pour",
+      "pred": "chop",
+      "raw": "Reasoning: The image shows a wooden cutting board with a large white onion on it, and a white bowl with small white cubes (onions) inside. The robot's arms are empty, and the gripper is not visible, indicating the task is not in progress.\nAnswer: 1. chop",
+      "correct": false
+    },
+    {
+      "sec": 124,
+      "gt": "pour",
+      "pred": "place on",
+      "raw": "Reasoning: The image shows a wooden board with several small white cubes (likely onions) on it, and a white bowl below it. The camera angle is from a fixed head-mounted camera, and the robot's arms are not visible in the frame. The subskill \"place on\" is the most likely because the board is positioned over the bowl",
+      "correct": false
+    },
+    {
+      "sec": 126,
+      "gt": "pour",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding a wooden cutting board with a large onion piece and several loose white cubes (likely onion pieces) on it, and the gripper is positioned to place the board onto the white bowl.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 128,
+      "gt": "pour",
+      "pred": "place on",
+      "raw": "Reasoning: The image shows a wooden cutting board with a large white onion on it, and a white bowl underneath it. The gripper is not visible, but the action of placing the onion onto the board is implied by the position of the board and the onion.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 130,
+      "gt": "pour",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding a wooden cutting board with a large onion piece and a few loose white bits on it, and the board is positioned over the sink area, suggesting it is about to place the onion into the bowl.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 132,
+      "gt": "pour",
+      "pred": "place on",
+      "raw": "Reasoning: The image shows a wooden cutting board with several white cubes (likely onions) on it, and a white bowl underneath. The robot's arm is positioned over the board, suggesting it is about to place the item into the bowl.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 134,
+      "gt": "pour",
+      "pred": "pick up from",
+      "raw": "Reasoning: The image shows a wooden cutting board with a white bowl on it, and a small white cube (likely an onion) resting on the board. The gripper is not visible, and the knife is not in hand, ruling out chop, pick up from, and pour. The board is not being moved or placed on the counter,",
+      "correct": false
+    },
+    {
+      "sec": 136,
+      "gt": "pour",
+      "pred": null,
+      "raw": "Reasoning: The image shows a wooden cutting board with a large onion piece and a few loose white bits on it, held by a gripper. The knife is not in the hand, and the board is not being moved or placed. The view is focused on the board and the onion, not the sink or bowl.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 138,
+      "gt": "pour",
+      "pred": "place on",
+      "raw": "Reasoning: The image shows a wooden cutting board with a large white onion on it, and a white bowl with small white cubes (likely chopped onions) inside. The robot's arm is positioned over the board, suggesting it is about to place the onion there.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 140,
+      "gt": "pour",
+      "pred": "place on",
+      "raw": "Reasoning: The image shows a wooden cutting board with a large onion piece and loose white bits on it, and a white bowl with small white cubes (likely chopped onions) inside. The robot's arm is positioned over the board, suggesting it is about to place the onion there.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 142,
+      "gt": "pour",
+      "pred": "chop",
+      "raw": "Reasoning: The image shows a wooden cutting board with a large white onion piece on it, and a white bowl containing small white cubes (likely chopped onions) sitting on the counter. The robot's arms are not visible, indicating the task is not in progress.\nAnswer: 1. chop",
+      "correct": false
+    },
+    {
+      "sec": 144,
+      "gt": "pour",
+      "pred": null,
+      "raw": "Reasoning: The image shows a wooden board with a large onion piece and loose white bits on it, and a white bowl with small white cubes (likely onions) inside. The gripper is not visible, but the board is clearly holding the onion and the bowl is positioned nearby, suggesting the robot is about to place the onion on the board.",
+      "correct": false
+    },
+    {
+      "sec": 145,
+      "gt": "pour",
+      "pred": "chop",
+      "raw": "Reasoning: The image shows a wooden cutting board with a large onion piece and loose white bits on it, and a white bowl with small white cubes (likely onions) sitting on the counter. The gripper is not visible, indicating the task is not in progress.\nAnswer: 1. chop",
+      "correct": false
+    },
+    {
+      "sec": 133,
+      "gt": "pour",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a wooden cutting board with a large onion piece and a few loose white cubes on it, which matches the visual evidence for \"chop\".\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 135,
+      "gt": "pour",
+      "pred": null,
+      "raw": "Reasoning: The robot's arm is holding a wooden cutting board with a large white onion piece and a few loose white bits on it, positioned over the sink area. The gripper is actively grasping the board, indicating the action of taking the onion out of the sink.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 137,
+      "gt": "pour",
+      "pred": null,
+      "raw": "Reasoning: The robot's arm is holding a wooden cutting board with a large white onion piece and a few loose white bits on it, positioned over the sink area.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 139,
+      "gt": "pour",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a wooden cutting board with a large onion piece and several loose white cubes on it, positioned over the sink area. The gripper is holding the board, not the onion, and the board is not being tipped or moved toward the bowl.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 141,
+      "gt": "pour",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding a wooden board with a large onion piece and a few loose white cubes on it, and the gripper is positioned to release the onion onto the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 143,
+      "gt": "pour",
+      "pred": null,
+      "raw": "Reasoning: The robot's arm is holding a wooden cutting board with a large white onion and loose white bits on it, positioned over the sink area. The gripper is not holding the board, and the board is not being moved or placed on the counter. The action is clearly about to be performed on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 145,
+      "gt": "pour",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a wooden cutting board with a large white onion and a few loose white bits on it, positioned over the sink area. The subskill \"chop\" is the most appropriate as the robot is actively engaged in handling the onion on the board, which is the first step in the task.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 147,
+      "gt": "pour",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a wooden board with a large white onion and a few loose white bits, and the board is tilted over a white bowl, indicating the action of placing the onion into the bowl.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 149,
+      "gt": "pour",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding a wooden cutting board with a large white onion on it, and the board is tilted over a white bowl, indicating the action of placing the onion into the bowl.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 151,
+      "gt": "pour",
+      "pred": null,
+      "raw": "Reasoning: The robot's arm is holding a wooden cutting board over a white bowl, with a large onion piece resting on the board and loose white bits visible, indicating the action of placing the onion into the bowl.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 188,
+      "gt": "pour",
+      "pred": null,
+      "raw": "Reasoning: The robot's gripper is holding the wooden cutting board, which contains a large onion and several loose white cubes, indicating the action of placing the onion onto the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 190,
+      "gt": "pour",
+      "pred": null,
+      "raw": "Reasoning: The robot's gripper is holding the wooden cutting board, which contains a large onion and several loose white cubes, indicating the action of placing the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 192,
+      "gt": "pour",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding a wooden board with a white onion on it, and the board is positioned over the sink area, suggesting the action of placing the onion onto the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 194,
+      "gt": "pour",
+      "pred": null,
+      "raw": "Reasoning: The robot's gripper is holding the wooden cutting board, which contains a large onion piece and a few loose white bits, indicating the robot is about to place the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 221,
+      "gt": "pour",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding a knife over a wooden board with a large onion piece and loose white bits, but no knife is in hand, and the board is not being moved or placed.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 223,
+      "gt": "pour",
+      "pred": null,
+      "raw": "Reasoning: The image shows a wooden cutting board with several small white cubes (likely onions) on it, and a white bowl is visible nearby. The robot's arm is not holding the board or the onion, and there is no knife in the hand. This indicates the robot is not performing any cutting or carrying action.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 225,
+      "gt": "pour",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a wooden cutting board with a large white onion piece and a few loose white bits on it, and the board is positioned over the sink area, suggesting it is about to place the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 227,
+      "gt": "pour",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a wooden cutting board with a large onion piece and several loose white cubes (likely chopped onions) on it, indicating it is in the process of placing the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 229,
+      "gt": "pour",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a wooden cutting board with a large onion piece and loose white bits on it, and the board is tilted slightly, suggesting it is in the process of placing the onion onto the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 231,
+      "gt": "pour",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding a wooden board with a large onion piece and several loose white cubes (likely onion pieces) on it, with the bowl visible below. This indicates the robot is in the process of placing the onion on the board, not picking it up, chopping it, or pouring it.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 233,
+      "gt": "pour",
+      "pred": "place on",
+      "raw": "Reasoning: The image shows a wooden cutting board with several small white cubes (likely onions) resting on it, and a white bowl below it. The robot's arm is positioned over the board, suggesting it is about to place the item there.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 235,
+      "gt": "pour",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding a wooden cutting board with a large onion piece and several loose white cubes (likely onion pieces) on it, and the board is positioned over the sink area, suggesting it is about to place the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 237,
+      "gt": "pour",
+      "pred": "place on",
+      "raw": "Reasoning: The image shows a wooden cutting board with several small white cubes (likely onions) resting on it, and a white bowl below it. The robot's arm is positioned over the bowl, suggesting it is about to place the item there.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 239,
+      "gt": "pour",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a wooden cutting board with a large onion piece and a few loose white cubes on it, and the board is tilted slightly, suggesting it is in the process of placing the onion onto the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 241,
+      "gt": "pour",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a wooden board with a large onion piece and a few loose white cubes, which is the exact visual evidence for the subskill \"chop\" as it is actively engaged in the task.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 243,
+      "gt": "pour",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a wooden cutting board with a large onion piece and a few loose white bits on it, and the board is tilted over a white bowl, indicating the action of placing the onion into the bowl.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 245,
+      "gt": "pour",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding a wooden cutting board with a large onion piece and loose white bits on it, and the gripper is positioned over the sink area, suggesting it is about to place the onion onto the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 247,
+      "gt": "pour",
+      "pred": null,
+      "raw": "Reasoning: The image shows a wooden cutting board with a large onion piece on it, and a white bowl with small white cubes (likely onions) inside. The robot's arm is positioned near the sink, suggesting it is about to pick up the onion from the sink.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 112,
+      "gt": "turn to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's arm is positioned over the sink, with a gripper hovering over the sink basin, indicating it is about to pick up the onion. The onion is not yet on the board, nor is it in the bowl.\nAnswer: 3. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 113,
+      "gt": "turn to",
+      "pred": "chop",
+      "raw": "Reasoning: The robot is holding a knife over a wooden cutting board, which contains a large white onion and a few loose white bits, indicating the action of chopping the onion.\nAnswer: 1. chop",
+      "correct": false
+    },
+    {
+      "sec": 114,
+      "gt": "turn to",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's gripper is positioned over the wooden cutting board, holding the onion directly above it, indicating an imminent action to place the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 115,
+      "gt": "turn to",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's gripper is positioned over the wooden cutting board, holding the onion directly above it, indicating an imminent action to place the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 116,
+      "gt": "turn to",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's gripper is holding the wooden cutting board, which contains a large white onion and a few loose white bits, indicating the robot is about to place the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 117,
+      "gt": "turn to",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's gripper is positioned over the wooden cutting board, holding the onion directly above it, indicating an imminent action to place the onion on the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 118,
+      "gt": "turn to",
+      "pred": null,
+      "raw": "Reasoning: The robot's gripper is holding the wooden cutting board, which contains a large white onion and a few loose white bits, indicating the robot is about to place the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 119,
+      "gt": "turn to",
+      "pred": null,
+      "raw": "Reasoning: The robot's gripper is holding the wooden cutting board, which contains a large white onion and a few loose white bits, indicating the robot is about to place the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 120,
+      "gt": "turn to",
+      "pred": "place on",
+      "raw": "Reasoning: The gripper is holding the onion over the wooden board, which is positioned over the sink area, indicating the action of placing the onion onto the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 121,
+      "gt": "turn to",
+      "pred": null,
+      "raw": "Reasoning: The robot's gripper is positioned over the wooden cutting board, holding the onion in place, with the board still containing the onion and loose white bits, indicating it is about to place the onion onto the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 122,
+      "gt": "turn to",
+      "pred": "place on",
+      "raw": "Reasoning: The gripper is holding the onion over the wooden board, which is positioned over the sink area, indicating the action of placing the onion onto the board.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 123,
+      "gt": "turn to",
+      "pred": null,
+      "raw": "Reasoning: The gripper is holding the onion over the wooden board, ready to place it there, with the board still holding the onion and loose white bits.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 124,
+      "gt": "turn to",
+      "pred": "place on",
+      "raw": "Reasoning: The gripper is holding the onion over the wooden board, and the board is empty, indicating the action is about to be placed on.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 125,
+      "gt": "turn to",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a knife over a wooden cutting board with a pink onion on it, but the board is empty and the knife is not in the onion, indicating it is about to place the onion on the board.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 126,
+      "gt": "turn to",
+      "pred": "place on",
+      "raw": "Reasoning: The gripper is holding the onion over the wooden board, and the board is empty, indicating the action is about to be placed on.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 127,
+      "gt": "turn to",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a white bowl and a wooden cutting board, with a knife resting on the board. The onion is not in the bowl, nor is it being cut or placed on the board. The gripper is not holding the bowl or board, and the bowl is not in the sink. The robot is not in the kitchen",
+      "correct": false
+    },
+    {
+      "sec": 128,
+      "gt": "turn to",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a white bowl and a wooden cutting board, with a knife visible near the board. The board contains a whole onion and a few loose white bits, which is consistent with the \"chop\" subskill.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 129,
+      "gt": "turn to",
+      "pred": null,
+      "raw": "Reasoning: The gripper is holding the white bowl, and the wooden cutting board is resting on the countertop with a whole onion on it. The robot is not holding the knife, nor is it placing the onion onto the board.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 130,
+      "gt": "turn to",
+      "pred": "place on",
+      "raw": "Reasoning: The gripper is holding the onion over the wooden board, and the board is empty, indicating the action is about to be placed on.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 131,
+      "gt": "turn to",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a knife over a wooden board with a pink onion on it, but the board is empty and the onion is not yet placed into the bowl.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 132,
+      "gt": "turn to",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's arm is positioned over the wooden cutting board, holding a knife that is not in contact with the onion, and the board is empty, indicating the action is about to be performed.\nAnswer: 5. place on",
+      "correct": false
+    },
+    {
+      "sec": 133,
+      "gt": "turn to",
+      "pred": null,
+      "raw": "Reasoning: The robot's gripper is holding the wooden cutting board, which contains a large onion piece and a few loose white bits, indicating it is about to place the onion on the board.\nAnswer: 5",
+      "correct": false
+    }
+  ]
+}

@@ -8,7 +8,7 @@ position to within 1 cm. Likewise for any other object pose blocks we want
 to label.
 
 Output is a small JSON dump under
-  `behavior1k_mp/ik/r1pro_constants.json`
+  `behavior1k_motionplanner/ik/r1pro_constants.json`
 that downstream code reads to slice `observation.task_info` correctly.
 
 Run-once:
@@ -30,7 +30,7 @@ DEFAULT_SCENE_INSTANCE_DIR = Path(
     "/shared_work/BEHAVIOR-1K/datasets/2025-challenge-task-instances/scenes/"
     "house_double_floor_lower/json/house_double_floor_lower_task_turning_on_radio_instances"
 )
-DEFAULT_OUT = Path(__file__).resolve().parents[1] / "behavior1k_mp/ik/r1pro_constants.json"
+DEFAULT_OUT = Path(__file__).resolve().parents[1] / "behavior1k_motionplanner/ik/r1pro_constants.json"
 
 
 def find_radio_world_pose_from_scene_json(scene_json_path: Path):

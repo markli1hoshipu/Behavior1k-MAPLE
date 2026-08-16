@@ -1,0 +1,423 @@
+{
+  "task_chunk": "task-0020",
+  "task_name": "sorting vegetables",
+  "accuracy": 0.7288135593220338,
+  "macro_recall": 0.525,
+  "correct": 43,
+  "total": 59,
+  "predictions": [
+    {
+      "sec": 6,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the kitchen counter with two vegetable baskets and a red bowl on the far left, no arms in frame.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 13,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The gripper is on the leek in the basket, arms lowered into it.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 20,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down inside the basket on the radishes and leek, fingers spread over them.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 27,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down in the green and radish basket on the white countertop, fingers spread over the produce.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 34,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The gripper is down in the corn/bread basket on the white countertop, arms wrapped around it.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 41,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The gripper is down in the radish basket on the white countertop, arms crossed over it.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 48,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: The left arm is down at the red bowl with the leek inside, the gripper at the bowl's edge.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The gripper is at the rim of the red bowl on the counter, with a leek in the basket below.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 61,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The gripper is down in the basket among the radishes, fingers spread over them.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 68,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The gripper is at the edge of the red bowl on the counter, with leek and radishes already in the basket below.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 75,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The gripper is on the basket rim with the radishes and leeks inside, arm angled down into it.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 82,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The gripper is closed on a radish in the basket, arms lowered into it.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 89,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The gripper is down in the basket on a radish, the last radish left.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 96,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The gripper is down in the basket among the radishes, fingers spread across them.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 103,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The gripper is down in the basket among the radishes, fingers spread over them.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 109,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The gripper is down in the basket among radishes, fingers spread over them.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 116,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The gripper is down in the basket among the radishes, arm angled into the weave.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 123,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: The gripper is on the green pepper in the red bowl, with the basket now tipped back in.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 130,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The left gripper is down at the red bowl on the counter, fingers spread over its rim.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 137,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The basket is now tilted up off the counter with its contents visible, gripper still attached to the rim.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 144,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The gripper is down in the basket on a radish, the last radish left.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 151,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The gripper is at the basket's edge with two radishes inside, the last contact on this pair.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 157,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The gripper is lowered into the basket among the radishes, with the red bowl on the left and the second basket on the right.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 164,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The gripper is down at the basket on the white countertop, fingers around the radish inside.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 171,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The gripper is down at the basket's rim on the now-empty, dark basket, with the red bowl out of frame at the far counter.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 178,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The grippers are down at the basket on the counter, fingers spread over its edges.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 185,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The view has swung to the kitchen counter with the basket held low and tilted, and the left gripper is visible at the bottom edge.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 192,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The gripper is down at the basket's rim with the yellow pepper exposed, the second item in the pile.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 199,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The gripper is down at the basket's rim on the white countertop, basket now resting on the surface.\nAnswer: place on",
+      "correct": true
+    },
+    {
+      "sec": 206,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The gripper is on the basket's rim, separating it from the counter.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 212,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down in the corn basket, fingers spread over the yellow corn.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 219,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the basket's edge, fingers between the corn and peppers.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 226,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the basket's edge, fingers between the corn cob and the green pepper.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 233,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down in the corn basket, fingers spread over the ears of corn.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 240,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The gripper is down in the corn cob, fingers wrapped around it.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 247,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: Both gripper arms are down in the corn and corn cob basket, fingers spread over the produce.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 254,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The gripper is on the corn cob in the basket, arm angled down into it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 260,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The gripper is down at the red bowl on the left counter with corn cob visible inside it.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 267,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: Both grippers are down in the corn and pepper basket, fingers spread over the produce.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 274,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The gripper is down in the corn and bean basket, fingers spread over the yellow corn cob.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 281,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The sink and countertop are now centered and closer with no arms or grippers in frame, so only the changing viewpoint distinguishes this.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 288,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: The left gripper is down at the sink counter beside the red bowl, holding nothing.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 295,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The gripper is down at the glass basket on the counter, fingers spread over its sides.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 302,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The gripper is down in the corn cob in the basket, other arm bracing at the basket edge.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 309,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The gripper is closed on the corn cob in the basket, arms lowered.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 315,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The gripper is down at the red bowl on the left counter with a corn cob right at its edge.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 322,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The gripper is down at the red bowl's rim with corn in it, the final placement of the harvested vegetable.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 329,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The gripper is inside the basket on the green pepper, arm angled down into it.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 336,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The left gripper is closed on a corn cob at the red bowl's edge, the final placement of the first corn.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 343,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The gripper is down at the red bowl on the left counter, fingers spread over its rim.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 350,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the corner with the red bowl of corn and the basket of green peppers on the floor below, no gripper visible.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 357,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the sink counter with the red bowl on the left and the basket tipped over on the right, no gripper visible.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 363,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The gripper is closed on the green pepper inside the basket, arms braced over it.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 370,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The gripper is on the basket with the green pepper still inside, fingers reaching in.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 377,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The gripper is on the basket rim with the corn now visible through it, the second grasp of the pair.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 384,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The basket is now tilted up off the counter with the green pepper visible inside, gripper still on it.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 391,
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "Reasoning: The gripper is at the faucet spout with the basket now tipped over on the counter beside it.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 398,
+      "gt": "place on",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has turned to face the red bowl on the corner counter with the yellow radishes inside, no gripper visible.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 405,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the edge of the second basket on the white countertop, fingers open for a grasp.\nAnswer: pick up from",
+      "correct": false
+    }
+  ]
+}

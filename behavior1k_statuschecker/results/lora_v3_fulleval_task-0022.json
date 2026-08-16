@@ -1,0 +1,3468 @@
+{
+  "task_chunk": "task-0022",
+  "task_name": "putting_shoes_on_rack",
+  "accuracy": 0.6527777777777778,
+  "macro_recall": 0.5875,
+  "correct": 282,
+  "total": 432,
+  "n_classes": 8,
+  "unseen_gt_label_frames": 12,
+  "predictions": [
+    {
+      "sec": 3,
+      "episode": "episode_00220250",
+      "gt": "move to gym shoe",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": false
+    },
+    {
+      "sec": 120,
+      "episode": "episode_00220250",
+      "gt": "move to gym shoe",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": false
+    },
+    {
+      "sec": 131,
+      "episode": "episode_00220250",
+      "gt": "move to gym shoe",
+      "pred": "move to gym shoe",
+      "raw": "move to gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 2,
+      "episode": "episode_00220260",
+      "gt": "move to gym shoe",
+      "pred": "move to sandal",
+      "raw": "move to sandal\nassistant\n\n<think>\n\n</think>\n\nmove to gym",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "episode": "episode_00220260",
+      "gt": "move to gym shoe",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00220260",
+      "gt": "move to gym shoe",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00220280",
+      "gt": "move to gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00220280",
+      "gt": "move to gym shoe",
+      "pred": "move to gym shoe",
+      "raw": "move to gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00220290",
+      "gt": "move to gym shoe",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": false
+    },
+    {
+      "sec": 154,
+      "episode": "episode_00220290",
+      "gt": "move to gym shoe",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": false
+    },
+    {
+      "sec": 165,
+      "episode": "episode_00220290",
+      "gt": "move to gym shoe",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree\nassistant\n<think>\n\n</think>\n\nmove to hall",
+      "correct": false
+    },
+    {
+      "sec": 175,
+      "episode": "episode_00220290",
+      "gt": "move to gym shoe",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": false
+    },
+    {
+      "sec": 7,
+      "episode": "episode_00220300",
+      "gt": "move to gym shoe",
+      "pred": "move to sandal",
+      "raw": "move to sandal\nassistant\n\n<think>\n\n</think>\n\nmove to sand",
+      "correct": false
+    },
+    {
+      "sec": 18,
+      "episode": "episode_00220300",
+      "gt": "move to gym shoe",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": false
+    },
+    {
+      "sec": 152,
+      "episode": "episode_00220300",
+      "gt": "move to gym shoe",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": false
+    },
+    {
+      "sec": 163,
+      "episode": "episode_00220300",
+      "gt": "move to gym shoe",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": false
+    },
+    {
+      "sec": 174,
+      "episode": "episode_00220300",
+      "gt": "move to gym shoe",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": false
+    },
+    {
+      "sec": 184,
+      "episode": "episode_00220300",
+      "gt": "move to gym shoe",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": false
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00220320",
+      "gt": "move to gym shoe",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": false
+    },
+    {
+      "sec": 110,
+      "episode": "episode_00220320",
+      "gt": "move to gym shoe",
+      "pred": "move to sandal",
+      "raw": "move to sandal\nuser\nThe robot's subskill right now",
+      "correct": false
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00220330",
+      "gt": "move to gym shoe",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00220330",
+      "gt": "move to gym shoe",
+      "pred": "move to gym shoe",
+      "raw": "move to gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00220340",
+      "gt": "move to gym shoe",
+      "pred": "move to gym shoe",
+      "raw": "move to gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 177,
+      "episode": "episode_00220340",
+      "gt": "move to gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 187,
+      "episode": "episode_00220340",
+      "gt": "move to gym shoe",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": false
+    },
+    {
+      "sec": 171,
+      "episode": "episode_00220350",
+      "gt": "move to gym shoe",
+      "pred": "move to gym shoe",
+      "raw": "move to gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00220360",
+      "gt": "move to gym shoe",
+      "pred": "move to gym shoe",
+      "raw": "move to gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 19,
+      "episode": "episode_00220360",
+      "gt": "move to gym shoe",
+      "pred": "move to gym shoe",
+      "raw": "move to gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 116,
+      "episode": "episode_00220360",
+      "gt": "move to gym shoe",
+      "pred": "move to gym shoe",
+      "raw": "move to gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 127,
+      "episode": "episode_00220360",
+      "gt": "move to gym shoe",
+      "pred": "move to gym shoe",
+      "raw": "move to gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 3,
+      "episode": "episode_00220370",
+      "gt": "move to gym shoe",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00220370",
+      "gt": "move to gym shoe",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": false
+    },
+    {
+      "sec": 136,
+      "episode": "episode_00220370",
+      "gt": "move to gym shoe",
+      "pred": "move to gym shoe",
+      "raw": "move to gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 147,
+      "episode": "episode_00220370",
+      "gt": "move to gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 10,
+      "episode": "episode_00220380",
+      "gt": "move to gym shoe",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00220380",
+      "gt": "move to gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00220380",
+      "gt": "move to gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00220400",
+      "gt": "move to gym shoe",
+      "pred": "move to sandal",
+      "raw": "move to sandal\nuser\nThe robot's subskill right now",
+      "correct": false
+    },
+    {
+      "sec": 167,
+      "episode": "episode_00220400",
+      "gt": "move to gym shoe",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree\nassistant\n<think>\n\n</think>\n\nmove to hall",
+      "correct": false
+    },
+    {
+      "sec": 178,
+      "episode": "episode_00220400",
+      "gt": "move to gym shoe",
+      "pred": "move to gym shoe",
+      "raw": "move to gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 12,
+      "episode": "episode_00220410",
+      "gt": "move to gym shoe",
+      "pred": "move to gym shoe",
+      "raw": "move to gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 22,
+      "episode": "episode_00220410",
+      "gt": "move to gym shoe",
+      "pred": "move to gym shoe",
+      "raw": "move to gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00220410",
+      "gt": "move to gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00220420",
+      "gt": "move to gym shoe",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": false
+    },
+    {
+      "sec": 115,
+      "episode": "episode_00220420",
+      "gt": "move to gym shoe",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": false
+    },
+    {
+      "sec": 126,
+      "episode": "episode_00220420",
+      "gt": "move to gym shoe",
+      "pred": "move to gym shoe",
+      "raw": "move to gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 137,
+      "episode": "episode_00220420",
+      "gt": "move to gym shoe",
+      "pred": "move to gym shoe",
+      "raw": "move to gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 199,
+      "episode": "episode_00220440",
+      "gt": "move to gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 131,
+      "episode": "episode_00220460",
+      "gt": "move to gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 142,
+      "episode": "episode_00220460",
+      "gt": "move to gym shoe",
+      "pred": "move to gym shoe",
+      "raw": "move to gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 170,
+      "episode": "episode_00220460",
+      "gt": "move to gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 94,
+      "episode": "episode_00220470",
+      "gt": "move to gym shoe",
+      "pred": "move to gym shoe",
+      "raw": "move to gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 105,
+      "episode": "episode_00220470",
+      "gt": "move to gym shoe",
+      "pred": "move to gym shoe",
+      "raw": "move to gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 347,
+      "episode": "episode_00220480",
+      "gt": "move to gym shoe",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": false
+    },
+    {
+      "sec": 312,
+      "episode": "episode_00220490",
+      "gt": "move to gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 323,
+      "episode": "episode_00220490",
+      "gt": "move to gym shoe",
+      "pred": "move to gym shoe",
+      "raw": "move to gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 334,
+      "episode": "episode_00220490",
+      "gt": "move to gym shoe",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": false
+    },
+    {
+      "sec": 344,
+      "episode": "episode_00220490",
+      "gt": "move to gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 355,
+      "episode": "episode_00220490",
+      "gt": "move to gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 438,
+      "episode": "episode_00220490",
+      "gt": "move to gym shoe",
+      "pred": "move to gym shoe",
+      "raw": "move to gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 5,
+      "episode": "episode_00220250",
+      "gt": "pick up from gym shoe",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": false
+    },
+    {
+      "sec": 19,
+      "episode": "episode_00220250",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 143,
+      "episode": "episode_00220250",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00220260",
+      "gt": "pick up from gym shoe",
+      "pred": "move to sandal",
+      "raw": "move to sandal\nassistant\n\nmove to sandal",
+      "correct": false
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00220260",
+      "gt": "pick up from gym shoe",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": false
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00220260",
+      "gt": "pick up from gym shoe",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": false
+    },
+    {
+      "sec": 19,
+      "episode": "episode_00220280",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 33,
+      "episode": "episode_00220280",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00220280",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 52,
+      "episode": "episode_00220290",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": false
+    },
+    {
+      "sec": 67,
+      "episode": "episode_00220290",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": false
+    },
+    {
+      "sec": 191,
+      "episode": "episode_00220290",
+      "gt": "pick up from gym shoe",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00220300",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 198,
+      "episode": "episode_00220300",
+      "gt": "pick up from gym shoe",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "episode": "episode_00220320",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 115,
+      "episode": "episode_00220320",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 130,
+      "episode": "episode_00220320",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 20,
+      "episode": "episode_00220330",
+      "gt": "pick up from gym shoe",
+      "pred": "move to gym shoe",
+      "raw": "move to gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00220330",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00220330",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00220340",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00220340",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 197,
+      "episode": "episode_00220340",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 7,
+      "episode": "episode_00220350",
+      "gt": "pick up from gym shoe",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "episode": "episode_00220350",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00220350",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": false
+    },
+    {
+      "sec": 189,
+      "episode": "episode_00220350",
+      "gt": "pick up from gym shoe",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree\nassistant\n\n<think>\n\n</think>\n\nmove to hall",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "episode": "episode_00220360",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 142,
+      "episode": "episode_00220360",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 19,
+      "episode": "episode_00220370",
+      "gt": "pick up from gym shoe",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "episode": "episode_00220370",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 156,
+      "episode": "episode_00220370",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 170,
+      "episode": "episode_00220370",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00220380",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00220380",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 74,
+      "episode": "episode_00220380",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00220400",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 184,
+      "episode": "episode_00220400",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00220410",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00220410",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 20,
+      "episode": "episode_00220420",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00220420",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00220420",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 204,
+      "episode": "episode_00220440",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 218,
+      "episode": "episode_00220440",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 233,
+      "episode": "episode_00220440",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 247,
+      "episode": "episode_00220440",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 269,
+      "episode": "episode_00220440",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 160,
+      "episode": "episode_00220460",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 178,
+      "episode": "episode_00220460",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00220470",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": false
+    },
+    {
+      "sec": 117,
+      "episode": "episode_00220470",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00220480",
+      "gt": "pick up from gym shoe",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree\nuser\nThe robot's subskill right now",
+      "correct": false
+    },
+    {
+      "sec": 97,
+      "episode": "episode_00220480",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": false
+    },
+    {
+      "sec": 366,
+      "episode": "episode_00220480",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 381,
+      "episode": "episode_00220480",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 369,
+      "episode": "episode_00220490",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 384,
+      "episode": "episode_00220490",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 398,
+      "episode": "episode_00220490",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 413,
+      "episode": "episode_00220490",
+      "gt": "pick up from gym shoe",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00220250",
+      "gt": "move to sandal",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": true
+    },
+    {
+      "sec": 105,
+      "episode": "episode_00220260",
+      "gt": "move to sandal",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 118,
+      "episode": "episode_00220260",
+      "gt": "move to sandal",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": true
+    },
+    {
+      "sec": 130,
+      "episode": "episode_00220260",
+      "gt": "move to sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": false
+    },
+    {
+      "sec": 161,
+      "episode": "episode_00220260",
+      "gt": "move to sandal",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": true
+    },
+    {
+      "sec": 126,
+      "episode": "episode_00220280",
+      "gt": "move to sandal",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": true
+    },
+    {
+      "sec": 139,
+      "episode": "episode_00220280",
+      "gt": "move to sandal",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": true
+    },
+    {
+      "sec": 170,
+      "episode": "episode_00220280",
+      "gt": "move to sandal",
+      "pred": "move to gym shoe",
+      "raw": "move to gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00220290",
+      "gt": "move to sandal",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": true
+    },
+    {
+      "sec": 99,
+      "episode": "episode_00220290",
+      "gt": "move to sandal",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 111,
+      "episode": "episode_00220290",
+      "gt": "move to sandal",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": true
+    },
+    {
+      "sec": 124,
+      "episode": "episode_00220290",
+      "gt": "move to sandal",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": true
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00220300",
+      "gt": "move to sandal",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": true
+    },
+    {
+      "sec": 58,
+      "episode": "episode_00220300",
+      "gt": "move to sandal",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": true
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00220320",
+      "gt": "move to sandal",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00220320",
+      "gt": "move to sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": false
+    },
+    {
+      "sec": 154,
+      "episode": "episode_00220320",
+      "gt": "move to sandal",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 111,
+      "episode": "episode_00220330",
+      "gt": "move to sandal",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 124,
+      "episode": "episode_00220330",
+      "gt": "move to sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": false
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00220340",
+      "gt": "move to sandal",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": true
+    },
+    {
+      "sec": 142,
+      "episode": "episode_00220340",
+      "gt": "move to sandal",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 154,
+      "episode": "episode_00220340",
+      "gt": "move to sandal",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": true
+    },
+    {
+      "sec": 117,
+      "episode": "episode_00220350",
+      "gt": "move to sandal",
+      "pred": "move to gym shoe",
+      "raw": "move to gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 130,
+      "episode": "episode_00220350",
+      "gt": "move to sandal",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": true
+    },
+    {
+      "sec": 142,
+      "episode": "episode_00220350",
+      "gt": "move to sandal",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": true
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00220360",
+      "gt": "move to sandal",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": true
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00220360",
+      "gt": "move to sandal",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": true
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00220370",
+      "gt": "move to sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": false
+    },
+    {
+      "sec": 179,
+      "episode": "episode_00220370",
+      "gt": "move to sandal",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 192,
+      "episode": "episode_00220370",
+      "gt": "move to sandal",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 125,
+      "episode": "episode_00220380",
+      "gt": "move to sandal",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 155,
+      "episode": "episode_00220380",
+      "gt": "move to sandal",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": true
+    },
+    {
+      "sec": 168,
+      "episode": "episode_00220380",
+      "gt": "move to sandal",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": false
+    },
+    {
+      "sec": 180,
+      "episode": "episode_00220380",
+      "gt": "move to sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": false
+    },
+    {
+      "sec": 110,
+      "episode": "episode_00220400",
+      "gt": "move to sandal",
+      "pred": "move to gym shoe",
+      "raw": "move to gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 122,
+      "episode": "episode_00220400",
+      "gt": "move to sandal",
+      "pred": "move to gym shoe",
+      "raw": "move to gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 135,
+      "episode": "episode_00220400",
+      "gt": "move to sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": false
+    },
+    {
+      "sec": 105,
+      "episode": "episode_00220410",
+      "gt": "move to sandal",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": true
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00220420",
+      "gt": "move to sandal",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 159,
+      "episode": "episode_00220420",
+      "gt": "move to sandal",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": false
+    },
+    {
+      "sec": 171,
+      "episode": "episode_00220420",
+      "gt": "move to sandal",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": true
+    },
+    {
+      "sec": 6,
+      "episode": "episode_00220440",
+      "gt": "move to sandal",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": true
+    },
+    {
+      "sec": 18,
+      "episode": "episode_00220440",
+      "gt": "move to sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": false
+    },
+    {
+      "sec": 5,
+      "episode": "episode_00220460",
+      "gt": "move to sandal",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": true
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00220460",
+      "gt": "move to sandal",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": true
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00220460",
+      "gt": "move to sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": false
+    },
+    {
+      "sec": 64,
+      "episode": "episode_00220460",
+      "gt": "move to sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": false
+    },
+    {
+      "sec": 1,
+      "episode": "episode_00220470",
+      "gt": "move to sandal",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": true
+    },
+    {
+      "sec": 128,
+      "episode": "episode_00220470",
+      "gt": "move to sandal",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": true
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00220480",
+      "gt": "move to sandal",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": true
+    },
+    {
+      "sec": 239,
+      "episode": "episode_00220480",
+      "gt": "move to sandal",
+      "pred": "move to sandal",
+      "raw": "move to sandal\nassistant\n\nmove to sandal",
+      "correct": true
+    },
+    {
+      "sec": 251,
+      "episode": "episode_00220480",
+      "gt": "move to sandal",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": true
+    },
+    {
+      "sec": 3,
+      "episode": "episode_00220490",
+      "gt": "move to sandal",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": true
+    },
+    {
+      "sec": 16,
+      "episode": "episode_00220490",
+      "gt": "move to sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": false
+    },
+    {
+      "sec": 28,
+      "episode": "episode_00220490",
+      "gt": "move to sandal",
+      "pred": "move to gym shoe",
+      "raw": "move to gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00220490",
+      "gt": "move to sandal",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": true
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00220490",
+      "gt": "move to sandal",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": true
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00220490",
+      "gt": "move to sandal",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": true
+    },
+    {
+      "sec": 147,
+      "episode": "episode_00220490",
+      "gt": "move to sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": false
+    },
+    {
+      "sec": 160,
+      "episode": "episode_00220490",
+      "gt": "move to sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00220250",
+      "gt": "pick up from sandal",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00220250",
+      "gt": "pick up from sandal",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 165,
+      "episode": "episode_00220250",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 150,
+      "episode": "episode_00220260",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 176,
+      "episode": "episode_00220260",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 161,
+      "episode": "episode_00220280",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 192,
+      "episode": "episode_00220280",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00220290",
+      "gt": "pick up from sandal",
+      "pred": "move to gym shoe",
+      "raw": "move to gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 130,
+      "episode": "episode_00220290",
+      "gt": "pick up from sandal",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": false
+    },
+    {
+      "sec": 146,
+      "episode": "episode_00220290",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 78,
+      "episode": "episode_00220300",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 216,
+      "episode": "episode_00220300",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 232,
+      "episode": "episode_00220300",
+      "gt": "pick up from sandal",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 165,
+      "episode": "episode_00220320",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 127,
+      "episode": "episode_00220330",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 150,
+      "episode": "episode_00220330",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00220340",
+      "gt": "pick up from sandal",
+      "pred": "move to gym shoe",
+      "raw": "move to gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 33,
+      "episode": "episode_00220340",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00220340",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 171,
+      "episode": "episode_00220340",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00220350",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 163,
+      "episode": "episode_00220350",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00220360",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 167,
+      "episode": "episode_00220360",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00220370",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00220370",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 214,
+      "episode": "episode_00220370",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00220380",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 190,
+      "episode": "episode_00220380",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00220400",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 139,
+      "episode": "episode_00220400",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 155,
+      "episode": "episode_00220400",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 119,
+      "episode": "episode_00220410",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 139,
+      "episode": "episode_00220410",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 68,
+      "episode": "episode_00220420",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 190,
+      "episode": "episode_00220420",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 28,
+      "episode": "episode_00220440",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00220440",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 60,
+      "episode": "episode_00220440",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 83,
+      "episode": "episode_00220440",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 99,
+      "episode": "episode_00220440",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 34,
+      "episode": "episode_00220460",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 77,
+      "episode": "episode_00220460",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 14,
+      "episode": "episode_00220470",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00220470",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 137,
+      "episode": "episode_00220470",
+      "gt": "pick up from sandal",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00220480",
+      "gt": "pick up from sandal",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00220480",
+      "gt": "pick up from sandal",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 269,
+      "episode": "episode_00220480",
+      "gt": "pick up from sandal",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": false
+    },
+    {
+      "sec": 285,
+      "episode": "episode_00220480",
+      "gt": "pick up from sandal",
+      "pred": "move to sandal",
+      "raw": "move to sandal",
+      "correct": false
+    },
+    {
+      "sec": 301,
+      "episode": "episode_00220480",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 317,
+      "episode": "episode_00220480",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 89,
+      "episode": "episode_00220490",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 105,
+      "episode": "episode_00220490",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 120,
+      "episode": "episode_00220490",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 136,
+      "episode": "episode_00220490",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 180,
+      "episode": "episode_00220490",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 196,
+      "episode": "episode_00220490",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 212,
+      "episode": "episode_00220490",
+      "gt": "pick up from sandal",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": true
+    },
+    {
+      "sec": 464,
+      "episode": "episode_00220490",
+      "gt": "pick up from sandal",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "episode": "episode_00220250",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 70,
+      "episode": "episode_00220250",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 171,
+      "episode": "episode_00220250",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00220260",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 185,
+      "episode": "episode_00220260",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 198,
+      "episode": "episode_00220260",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 205,
+      "episode": "episode_00220280",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 70,
+      "episode": "episode_00220290",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 195,
+      "episode": "episode_00220290",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00220300",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 98,
+      "episode": "episode_00220300",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 110,
+      "episode": "episode_00220300",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 242,
+      "episode": "episode_00220300",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 254,
+      "episode": "episode_00220300",
+      "gt": "move to hall tree",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 184,
+      "episode": "episode_00220320",
+      "gt": "move to hall tree",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 197,
+      "episode": "episode_00220320",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 209,
+      "episode": "episode_00220320",
+      "gt": "move to hall tree",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 169,
+      "episode": "episode_00220330",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 181,
+      "episode": "episode_00220330",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 194,
+      "episode": "episode_00220330",
+      "gt": "move to hall tree",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": false
+    },
+    {
+      "sec": 102,
+      "episode": "episode_00220340",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 217,
+      "episode": "episode_00220340",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 230,
+      "episode": "episode_00220340",
+      "gt": "move to hall tree",
+      "pred": "move to sandal",
+      "raw": "move to sandal\nassistant\n<think>\n\n</think>\n\nmove to sand",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "episode": "episode_00220350",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00220350",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 193,
+      "episode": "episode_00220350",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 205,
+      "episode": "episode_00220350",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00220360",
+      "gt": "move to hall tree",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 193,
+      "episode": "episode_00220360",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 206,
+      "episode": "episode_00220360",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 77,
+      "episode": "episode_00220370",
+      "gt": "move to hall tree",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 228,
+      "episode": "episode_00220370",
+      "gt": "move to hall tree",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": false
+    },
+    {
+      "sec": 241,
+      "episode": "episode_00220370",
+      "gt": "move to hall tree",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": false
+    },
+    {
+      "sec": 83,
+      "episode": "episode_00220380",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 207,
+      "episode": "episode_00220380",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 220,
+      "episode": "episode_00220380",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00220400",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 70,
+      "episode": "episode_00220400",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 204,
+      "episode": "episode_00220400",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 60,
+      "episode": "episode_00220410",
+      "gt": "move to hall tree",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 147,
+      "episode": "episode_00220410",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 159,
+      "episode": "episode_00220410",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 198,
+      "episode": "episode_00220420",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 108,
+      "episode": "episode_00220440",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 121,
+      "episode": "episode_00220440",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 275,
+      "episode": "episode_00220440",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 90,
+      "episode": "episode_00220460",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 190,
+      "episode": "episode_00220460",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 202,
+      "episode": "episode_00220460",
+      "gt": "move to hall tree",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 150,
+      "episode": "episode_00220470",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 163,
+      "episode": "episode_00220470",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 175,
+      "episode": "episode_00220470",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 106,
+      "episode": "episode_00220480",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 118,
+      "episode": "episode_00220480",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 387,
+      "episode": "episode_00220480",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 400,
+      "episode": "episode_00220480",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 412,
+      "episode": "episode_00220480",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 221,
+      "episode": "episode_00220490",
+      "gt": "move to hall tree",
+      "pred": "pick up from sandal",
+      "raw": "pick up from sandal",
+      "correct": false
+    },
+    {
+      "sec": 484,
+      "episode": "episode_00220490",
+      "gt": "move to hall tree",
+      "pred": "pick up from gym shoe",
+      "raw": "pick up from gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 497,
+      "episode": "episode_00220490",
+      "gt": "move to hall tree",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": true
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00220250",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 92,
+      "episode": "episode_00220250",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 200,
+      "episode": "episode_00220250",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00220260",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 98,
+      "episode": "episode_00220260",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 90,
+      "episode": "episode_00220280",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 103,
+      "episode": "episode_00220280",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 116,
+      "episode": "episode_00220280",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 219,
+      "episode": "episode_00220290",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 117,
+      "episode": "episode_00220300",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 256,
+      "episode": "episode_00220300",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 269,
+      "episode": "episode_00220300",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 84,
+      "episode": "episode_00220320",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 217,
+      "episode": "episode_00220320",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 230,
+      "episode": "episode_00220320",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 84,
+      "episode": "episode_00220330",
+      "gt": "place in gym shoe",
+      "pred": "move to hall tree",
+      "raw": "move to hall tree",
+      "correct": false
+    },
+    {
+      "sec": 97,
+      "episode": "episode_00220330",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 129,
+      "episode": "episode_00220340",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 239,
+      "episode": "episode_00220340",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 252,
+      "episode": "episode_00220340",
+      "gt": "place in gym shoe",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": false
+    },
+    {
+      "sec": 104,
+      "episode": "episode_00220350",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 234,
+      "episode": "episode_00220350",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 247,
+      "episode": "episode_00220350",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 218,
+      "episode": "episode_00220360",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 231,
+      "episode": "episode_00220360",
+      "gt": "place in gym shoe",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": false
+    },
+    {
+      "sec": 89,
+      "episode": "episode_00220370",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 274,
+      "episode": "episode_00220370",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 287,
+      "episode": "episode_00220370",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 101,
+      "episode": "episode_00220380",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 115,
+      "episode": "episode_00220380",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00220400",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 220,
+      "episode": "episode_00220400",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 78,
+      "episode": "episode_00220410",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 91,
+      "episode": "episode_00220410",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 87,
+      "episode": "episode_00220420",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 215,
+      "episode": "episode_00220420",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 293,
+      "episode": "episode_00220440",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 306,
+      "episode": "episode_00220440",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 319,
+      "episode": "episode_00220440",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 332,
+      "episode": "episode_00220440",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 207,
+      "episode": "episode_00220460",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 219,
+      "episode": "episode_00220460",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 232,
+      "episode": "episode_00220460",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 245,
+      "episode": "episode_00220460",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00220470",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 186,
+      "episode": "episode_00220470",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 168,
+      "episode": "episode_00220480",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 181,
+      "episode": "episode_00220480",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 194,
+      "episode": "episode_00220480",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 207,
+      "episode": "episode_00220480",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 220,
+      "episode": "episode_00220480",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 233,
+      "episode": "episode_00220480",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 487,
+      "episode": "episode_00220480",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 500,
+      "episode": "episode_00220480",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 513,
+      "episode": "episode_00220480",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 526,
+      "episode": "episode_00220480",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 516,
+      "episode": "episode_00220490",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 529,
+      "episode": "episode_00220490",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 546,
+      "episode": "episode_00220490",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 559,
+      "episode": "episode_00220490",
+      "gt": "place in gym shoe",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": true
+    },
+    {
+      "sec": 99,
+      "episode": "episode_00220250",
+      "gt": "place in sandal",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 111,
+      "episode": "episode_00220250",
+      "gt": "place in sandal",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 191,
+      "episode": "episode_00220250",
+      "gt": "place in sandal",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 211,
+      "episode": "episode_00220260",
+      "gt": "place in sandal",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 223,
+      "episode": "episode_00220260",
+      "gt": "place in sandal",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": true
+    },
+    {
+      "sec": 221,
+      "episode": "episode_00220280",
+      "gt": "place in sandal",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": true
+    },
+    {
+      "sec": 234,
+      "episode": "episode_00220280",
+      "gt": "place in sandal",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": true
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00220290",
+      "gt": "place in sandal",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": true
+    },
+    {
+      "sec": 132,
+      "episode": "episode_00220300",
+      "gt": "place in sandal",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 144,
+      "episode": "episode_00220300",
+      "gt": "place in sandal",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": true
+    },
+    {
+      "sec": 282,
+      "episode": "episode_00220300",
+      "gt": "place in sandal",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": true
+    },
+    {
+      "sec": 92,
+      "episode": "episode_00220320",
+      "gt": "place in sandal",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": true
+    },
+    {
+      "sec": 239,
+      "episode": "episode_00220320",
+      "gt": "place in sandal",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": true
+    },
+    {
+      "sec": 251,
+      "episode": "episode_00220320",
+      "gt": "place in sandal",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": true
+    },
+    {
+      "sec": 201,
+      "episode": "episode_00220330",
+      "gt": "place in sandal",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": true
+    },
+    {
+      "sec": 213,
+      "episode": "episode_00220330",
+      "gt": "place in sandal",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": true
+    },
+    {
+      "sec": 226,
+      "episode": "episode_00220330",
+      "gt": "place in sandal",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 116,
+      "episode": "episode_00220340",
+      "gt": "place in sandal",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 256,
+      "episode": "episode_00220340",
+      "gt": "place in sandal",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": true
+    },
+    {
+      "sec": 269,
+      "episode": "episode_00220340",
+      "gt": "place in sandal",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 90,
+      "episode": "episode_00220350",
+      "gt": "place in sandal",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 223,
+      "episode": "episode_00220350",
+      "gt": "place in sandal",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": true
+    },
+    {
+      "sec": 92,
+      "episode": "episode_00220360",
+      "gt": "place in sandal",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 243,
+      "episode": "episode_00220360",
+      "gt": "place in sandal",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": true
+    },
+    {
+      "sec": 107,
+      "episode": "episode_00220370",
+      "gt": "place in sandal",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 119,
+      "episode": "episode_00220370",
+      "gt": "place in sandal",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": true
+    },
+    {
+      "sec": 253,
+      "episode": "episode_00220370",
+      "gt": "place in sandal",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": true
+    },
+    {
+      "sec": 266,
+      "episode": "episode_00220370",
+      "gt": "place in sandal",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 236,
+      "episode": "episode_00220380",
+      "gt": "place in sandal",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": true
+    },
+    {
+      "sec": 249,
+      "episode": "episode_00220380",
+      "gt": "place in sandal",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 261,
+      "episode": "episode_00220380",
+      "gt": "place in sandal",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": true
+    },
+    {
+      "sec": 94,
+      "episode": "episode_00220400",
+      "gt": "place in sandal",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": true
+    },
+    {
+      "sec": 227,
+      "episode": "episode_00220400",
+      "gt": "place in sandal",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": true
+    },
+    {
+      "sec": 239,
+      "episode": "episode_00220400",
+      "gt": "place in sandal",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": true
+    },
+    {
+      "sec": 175,
+      "episode": "episode_00220410",
+      "gt": "place in sandal",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 187,
+      "episode": "episode_00220410",
+      "gt": "place in sandal",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": true
+    },
+    {
+      "sec": 98,
+      "episode": "episode_00220420",
+      "gt": "place in sandal",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": true
+    },
+    {
+      "sec": 223,
+      "episode": "episode_00220420",
+      "gt": "place in sandal",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": true
+    },
+    {
+      "sec": 135,
+      "episode": "episode_00220440",
+      "gt": "place in sandal",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 147,
+      "episode": "episode_00220440",
+      "gt": "place in sandal",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": true
+    },
+    {
+      "sec": 160,
+      "episode": "episode_00220440",
+      "gt": "place in sandal",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": true
+    },
+    {
+      "sec": 172,
+      "episode": "episode_00220440",
+      "gt": "place in sandal",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": true
+    },
+    {
+      "sec": 185,
+      "episode": "episode_00220440",
+      "gt": "place in sandal",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 102,
+      "episode": "episode_00220460",
+      "gt": "place in sandal",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": true
+    },
+    {
+      "sec": 114,
+      "episode": "episode_00220460",
+      "gt": "place in sandal",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": true
+    },
+    {
+      "sec": 127,
+      "episode": "episode_00220460",
+      "gt": "place in sandal",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": true
+    },
+    {
+      "sec": 76,
+      "episode": "episode_00220470",
+      "gt": "place in sandal",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": true
+    },
+    {
+      "sec": 126,
+      "episode": "episode_00220480",
+      "gt": "place in sandal",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 138,
+      "episode": "episode_00220480",
+      "gt": "place in sandal",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 150,
+      "episode": "episode_00220480",
+      "gt": "place in sandal",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 163,
+      "episode": "episode_00220480",
+      "gt": "place in sandal",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 431,
+      "episode": "episode_00220480",
+      "gt": "place in sandal",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": true
+    },
+    {
+      "sec": 443,
+      "episode": "episode_00220480",
+      "gt": "place in sandal",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": true
+    },
+    {
+      "sec": 456,
+      "episode": "episode_00220480",
+      "gt": "place in sandal",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 468,
+      "episode": "episode_00220480",
+      "gt": "place in sandal",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 235,
+      "episode": "episode_00220490",
+      "gt": "place in sandal",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": true
+    },
+    {
+      "sec": 247,
+      "episode": "episode_00220490",
+      "gt": "place in sandal",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 259,
+      "episode": "episode_00220490",
+      "gt": "place in sandal",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": true
+    },
+    {
+      "sec": 282,
+      "episode": "episode_00220490",
+      "gt": "place in sandal",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": true
+    },
+    {
+      "sec": 294,
+      "episode": "episode_00220490",
+      "gt": "place in sandal",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 205,
+      "episode": "episode_00220290",
+      "gt": "place in hall tree",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 206,
+      "episode": "episode_00220290",
+      "gt": "place in hall tree",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": false
+    },
+    {
+      "sec": 207,
+      "episode": "episode_00220290",
+      "gt": "place in hall tree",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": false
+    },
+    {
+      "sec": 208,
+      "episode": "episode_00220290",
+      "gt": "place in hall tree",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": false
+    },
+    {
+      "sec": 209,
+      "episode": "episode_00220290",
+      "gt": "place in hall tree",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": false
+    },
+    {
+      "sec": 210,
+      "episode": "episode_00220290",
+      "gt": "place in hall tree",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": false
+    },
+    {
+      "sec": 211,
+      "episode": "episode_00220290",
+      "gt": "place in hall tree",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": false
+    },
+    {
+      "sec": 212,
+      "episode": "episode_00220290",
+      "gt": "place in hall tree",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 213,
+      "episode": "episode_00220290",
+      "gt": "place in hall tree",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 214,
+      "episode": "episode_00220290",
+      "gt": "place in hall tree",
+      "pred": "place in sandal",
+      "raw": "place in sandal",
+      "correct": false
+    },
+    {
+      "sec": 215,
+      "episode": "episode_00220290",
+      "gt": "place in hall tree",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": false
+    },
+    {
+      "sec": 216,
+      "episode": "episode_00220290",
+      "gt": "place in hall tree",
+      "pred": "place in gym shoe",
+      "raw": "place in gym shoe",
+      "correct": false
+    }
+  ]
+}

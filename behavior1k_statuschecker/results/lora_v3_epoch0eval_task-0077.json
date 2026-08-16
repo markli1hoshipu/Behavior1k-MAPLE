@@ -1,0 +1,2804 @@
+{
+  "task_chunk": "task-0077",
+  "task_name": "installing_a_modem",
+  "accuracy": 0.6446991404011462,
+  "macro_recall": 0.6349773242630385,
+  "correct": 225,
+  "total": 349,
+  "n_classes": 6,
+  "unseen_gt_label_frames": 0,
+  "predictions": [
+    {
+      "sec": 0,
+      "episode": "episode_00770380",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00770380",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00770380",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 14,
+      "episode": "episode_00770380",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 19,
+      "episode": "episode_00770380",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 0,
+      "episode": "episode_00770390",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00770390",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 3,
+      "episode": "episode_00770400",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00770400",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 2,
+      "episode": "episode_00770410",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 3,
+      "episode": "episode_00770420",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 7,
+      "episode": "episode_00770420",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 12,
+      "episode": "episode_00770420",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00770420",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 22,
+      "episode": "episode_00770420",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 27,
+      "episode": "episode_00770420",
+      "gt": "move to modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": false
+    },
+    {
+      "sec": 2,
+      "episode": "episode_00770440",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 7,
+      "episode": "episode_00770440",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 12,
+      "episode": "episode_00770440",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00770460",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 0,
+      "episode": "episode_00770470",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00770470",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00770470",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 14,
+      "episode": "episode_00770470",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 19,
+      "episode": "episode_00770470",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00770480",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00770480",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00770480",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 1,
+      "episode": "episode_00770490",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 6,
+      "episode": "episode_00770490",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 1,
+      "episode": "episode_00770500",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 5,
+      "episode": "episode_00770500",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 10,
+      "episode": "episode_00770500",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 3,
+      "episode": "episode_00770520",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00770520",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00770520",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 0,
+      "episode": "episode_00770540",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 5,
+      "episode": "episode_00770540",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 1,
+      "episode": "episode_00770560",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 6,
+      "episode": "episode_00770560",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 11,
+      "episode": "episode_00770560",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 15,
+      "episode": "episode_00770560",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 20,
+      "episode": "episode_00770560",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00770560",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 1,
+      "episode": "episode_00770570",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 6,
+      "episode": "episode_00770570",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 10,
+      "episode": "episode_00770570",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 1,
+      "episode": "episode_00770580",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 6,
+      "episode": "episode_00770580",
+      "gt": "move to modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": false
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00770600",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00770610",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00770610",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00770610",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 18,
+      "episode": "episode_00770610",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00770610",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 28,
+      "episode": "episode_00770610",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 3,
+      "episode": "episode_00770640",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00770640",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 0,
+      "episode": "episode_00770670",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 5,
+      "episode": "episode_00770670",
+      "gt": "move to modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": true
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00770380",
+      "gt": "pick up from modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00770380",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00770380",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00770380",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 12,
+      "episode": "episode_00770390",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 19,
+      "episode": "episode_00770390",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 27,
+      "episode": "episode_00770390",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00770400",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00770400",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 6,
+      "episode": "episode_00770410",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00770410",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00770420",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00770420",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00770420",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00770420",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 61,
+      "episode": "episode_00770420",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 69,
+      "episode": "episode_00770420",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 76,
+      "episode": "episode_00770420",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 84,
+      "episode": "episode_00770420",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 15,
+      "episode": "episode_00770440",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00770440",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00770440",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00770440",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00770460",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 20,
+      "episode": "episode_00770460",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 28,
+      "episode": "episode_00770460",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 26,
+      "episode": "episode_00770470",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 34,
+      "episode": "episode_00770470",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00770470",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00770470",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00770480",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00770480",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00770490",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 20,
+      "episode": "episode_00770490",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00770500",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 20,
+      "episode": "episode_00770500",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 28,
+      "episode": "episode_00770500",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 20,
+      "episode": "episode_00770520",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 28,
+      "episode": "episode_00770520",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00770520",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 12,
+      "episode": "episode_00770540",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 20,
+      "episode": "episode_00770540",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 27,
+      "episode": "episode_00770540",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00770560",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00770560",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 14,
+      "episode": "episode_00770570",
+      "gt": "pick up from modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "episode": "episode_00770570",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00770570",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00770580",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 16,
+      "episode": "episode_00770580",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00770600",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 15,
+      "episode": "episode_00770600",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00770600",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00770610",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 14,
+      "episode": "episode_00770640",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 22,
+      "episode": "episode_00770640",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00770640",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00770640",
+      "gt": "pick up from modem",
+      "pred": "hand over modem",
+      "raw": "hand over modem",
+      "correct": false
+    },
+    {
+      "sec": 14,
+      "episode": "episode_00770670",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 22,
+      "episode": "episode_00770670",
+      "gt": "pick up from modem",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": true
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00770380",
+      "gt": "move to cabinet",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00770380",
+      "gt": "move to cabinet",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "episode": "episode_00770380",
+      "gt": "move to cabinet",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00770390",
+      "gt": "move to cabinet",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00770390",
+      "gt": "move to cabinet",
+      "pred": "move to cabinet",
+      "raw": "move to cabinet",
+      "correct": true
+    },
+    {
+      "sec": 33,
+      "episode": "episode_00770400",
+      "gt": "move to cabinet",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00770400",
+      "gt": "move to cabinet",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00770400",
+      "gt": "move to cabinet",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00770400",
+      "gt": "move to cabinet",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00770410",
+      "gt": "move to cabinet",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "episode": "episode_00770410",
+      "gt": "move to cabinet",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00770410",
+      "gt": "move to cabinet",
+      "pred": "move to cabinet",
+      "raw": "move to cabinet",
+      "correct": true
+    },
+    {
+      "sec": 90,
+      "episode": "episode_00770420",
+      "gt": "move to cabinet",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": false
+    },
+    {
+      "sec": 95,
+      "episode": "episode_00770420",
+      "gt": "move to cabinet",
+      "pred": "move to cabinet",
+      "raw": "move to cabinet",
+      "correct": true
+    },
+    {
+      "sec": 100,
+      "episode": "episode_00770420",
+      "gt": "move to cabinet",
+      "pred": "move to cabinet",
+      "raw": "move to cabinet",
+      "correct": true
+    },
+    {
+      "sec": 106,
+      "episode": "episode_00770420",
+      "gt": "move to cabinet",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00770440",
+      "gt": "move to cabinet",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": false
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00770440",
+      "gt": "move to cabinet",
+      "pred": "move to cabinet",
+      "raw": "move to cabinet",
+      "correct": true
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00770440",
+      "gt": "move to cabinet",
+      "pred": "move to cabinet",
+      "raw": "move to cabinet",
+      "correct": true
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00770460",
+      "gt": "move to cabinet",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00770460",
+      "gt": "move to cabinet",
+      "pred": "move to cabinet",
+      "raw": "move to cabinet",
+      "correct": true
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00770470",
+      "gt": "move to cabinet",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00770470",
+      "gt": "move to cabinet",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": false
+    },
+    {
+      "sec": 61,
+      "episode": "episode_00770470",
+      "gt": "move to cabinet",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": false
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00770470",
+      "gt": "move to cabinet",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": false
+    },
+    {
+      "sec": 72,
+      "episode": "episode_00770470",
+      "gt": "move to cabinet",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00770480",
+      "gt": "move to cabinet",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00770480",
+      "gt": "move to cabinet",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00770480",
+      "gt": "move to cabinet",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00770490",
+      "gt": "move to cabinet",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00770490",
+      "gt": "move to cabinet",
+      "pred": "move to cabinet",
+      "raw": "move to cabinet",
+      "correct": true
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00770490",
+      "gt": "move to cabinet",
+      "pred": "move to cabinet",
+      "raw": "move to cabinet",
+      "correct": true
+    },
+    {
+      "sec": 33,
+      "episode": "episode_00770500",
+      "gt": "move to cabinet",
+      "pred": "move to cabinet",
+      "raw": "move to cabinet",
+      "correct": true
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00770500",
+      "gt": "move to cabinet",
+      "pred": "move to cabinet",
+      "raw": "move to cabinet",
+      "correct": true
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00770500",
+      "gt": "move to cabinet",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00770520",
+      "gt": "move to cabinet",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00770520",
+      "gt": "move to cabinet",
+      "pred": "move to cabinet",
+      "raw": "move to cabinet",
+      "correct": true
+    },
+    {
+      "sec": 33,
+      "episode": "episode_00770540",
+      "gt": "move to cabinet",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00770540",
+      "gt": "move to cabinet",
+      "pred": "move to cabinet",
+      "raw": "move to cabinet",
+      "correct": true
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00770540",
+      "gt": "move to cabinet",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "episode": "episode_00770560",
+      "gt": "move to cabinet",
+      "pred": "move to cabinet",
+      "raw": "move to cabinet",
+      "correct": true
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00770560",
+      "gt": "move to cabinet",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": false
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00770560",
+      "gt": "move to cabinet",
+      "pred": "move to cabinet",
+      "raw": "move to cabinet",
+      "correct": true
+    },
+    {
+      "sec": 67,
+      "episode": "episode_00770560",
+      "gt": "move to cabinet",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00770570",
+      "gt": "move to cabinet",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00770570",
+      "gt": "move to cabinet",
+      "pred": "move to cabinet",
+      "raw": "move to cabinet",
+      "correct": true
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00770570",
+      "gt": "move to cabinet",
+      "pred": "move to cabinet",
+      "raw": "move to cabinet",
+      "correct": true
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00770580",
+      "gt": "move to cabinet",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00770580",
+      "gt": "move to cabinet",
+      "pred": "move to cabinet",
+      "raw": "move to cabinet",
+      "correct": true
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00770600",
+      "gt": "move to cabinet",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": false
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00770600",
+      "gt": "move to cabinet",
+      "pred": "move to cabinet",
+      "raw": "move to cabinet",
+      "correct": true
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00770610",
+      "gt": "move to cabinet",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00770610",
+      "gt": "move to cabinet",
+      "pred": "move to cabinet",
+      "raw": "move to cabinet",
+      "correct": true
+    },
+    {
+      "sec": 52,
+      "episode": "episode_00770610",
+      "gt": "move to cabinet",
+      "pred": "move to cabinet",
+      "raw": "move to cabinet",
+      "correct": true
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00770610",
+      "gt": "move to cabinet",
+      "pred": "move to cabinet",
+      "raw": "move to cabinet",
+      "correct": true
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00770640",
+      "gt": "move to cabinet",
+      "pred": "move to cabinet",
+      "raw": "move to cabinet",
+      "correct": true
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00770640",
+      "gt": "move to cabinet",
+      "pred": "move to cabinet",
+      "raw": "move to cabinet",
+      "correct": true
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00770640",
+      "gt": "move to cabinet",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00770670",
+      "gt": "move to cabinet",
+      "pred": "pick up from modem",
+      "raw": "pick up from modem",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00770670",
+      "gt": "move to cabinet",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": false
+    },
+    {
+      "sec": 60,
+      "episode": "episode_00770380",
+      "gt": "place on modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": false
+    },
+    {
+      "sec": 64,
+      "episode": "episode_00770380",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 68,
+      "episode": "episode_00770380",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 72,
+      "episode": "episode_00770380",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00770390",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00770390",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00770390",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00770400",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00770400",
+      "gt": "place on modem",
+      "pred": "hand over modem",
+      "raw": "hand over modem",
+      "correct": false
+    },
+    {
+      "sec": 61,
+      "episode": "episode_00770400",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00770400",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 69,
+      "episode": "episode_00770400",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00770410",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00770410",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 126,
+      "episode": "episode_00770420",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 130,
+      "episode": "episode_00770420",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 134,
+      "episode": "episode_00770420",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 138,
+      "episode": "episode_00770420",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00770440",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 61,
+      "episode": "episode_00770440",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00770440",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 69,
+      "episode": "episode_00770440",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00770460",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00770460",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 78,
+      "episode": "episode_00770470",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00770470",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 86,
+      "episode": "episode_00770470",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 90,
+      "episode": "episode_00770470",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 94,
+      "episode": "episode_00770470",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00770480",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00770480",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 52,
+      "episode": "episode_00770490",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00770490",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00770500",
+      "gt": "place on modem",
+      "pred": "hand over modem",
+      "raw": "hand over modem",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00770500",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00770520",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 60,
+      "episode": "episode_00770520",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 64,
+      "episode": "episode_00770520",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 68,
+      "episode": "episode_00770520",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00770540",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 86,
+      "episode": "episode_00770560",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 90,
+      "episode": "episode_00770560",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 95,
+      "episode": "episode_00770560",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 99,
+      "episode": "episode_00770560",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 103,
+      "episode": "episode_00770560",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 107,
+      "episode": "episode_00770560",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00770570",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00770570",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 59,
+      "episode": "episode_00770570",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00770580",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00770580",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00770580",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00770580",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00770600",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 60,
+      "episode": "episode_00770610",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 64,
+      "episode": "episode_00770610",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00770640",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00770670",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00770670",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 52,
+      "episode": "episode_00770670",
+      "gt": "place on modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": true
+    },
+    {
+      "sec": 76,
+      "episode": "episode_00770380",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00770380",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 84,
+      "episode": "episode_00770380",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00770390",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "episode": "episode_00770390",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 70,
+      "episode": "episode_00770400",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 74,
+      "episode": "episode_00770400",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 78,
+      "episode": "episode_00770400",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00770400",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 86,
+      "episode": "episode_00770400",
+      "gt": "turn on switch modem",
+      "pred": "turn on switch modem",
+      "raw": "turn on switch modem",
+      "correct": true
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00770410",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "episode": "episode_00770410",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 144,
+      "episode": "episode_00770420",
+      "gt": "turn on switch modem",
+      "pred": "turn on switch modem",
+      "raw": "turn on switch modem",
+      "correct": true
+    },
+    {
+      "sec": 148,
+      "episode": "episode_00770420",
+      "gt": "turn on switch modem",
+      "pred": "turn on switch modem",
+      "raw": "turn on switch modem",
+      "correct": true
+    },
+    {
+      "sec": 152,
+      "episode": "episode_00770420",
+      "gt": "turn on switch modem",
+      "pred": "turn on switch modem",
+      "raw": "turn on switch modem",
+      "correct": true
+    },
+    {
+      "sec": 75,
+      "episode": "episode_00770440",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00770440",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 83,
+      "episode": "episode_00770440",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 87,
+      "episode": "episode_00770440",
+      "gt": "turn on switch modem",
+      "pred": "turn on switch modem",
+      "raw": "turn on switch modem",
+      "correct": true
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00770460",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00770460",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 96,
+      "episode": "episode_00770470",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 100,
+      "episode": "episode_00770470",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 104,
+      "episode": "episode_00770470",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 108,
+      "episode": "episode_00770470",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 112,
+      "episode": "episode_00770470",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00770480",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 61,
+      "episode": "episode_00770480",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00770480",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 69,
+      "episode": "episode_00770480",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00770490",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00770490",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "episode": "episode_00770500",
+      "gt": "turn on switch modem",
+      "pred": "turn on switch modem",
+      "raw": "turn on switch modem",
+      "correct": true
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00770500",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00770500",
+      "gt": "turn on switch modem",
+      "pred": "turn on switch modem",
+      "raw": "turn on switch modem",
+      "correct": true
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00770520",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 75,
+      "episode": "episode_00770520",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00770520",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00770540",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "episode": "episode_00770540",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 112,
+      "episode": "episode_00770560",
+      "gt": "turn on switch modem",
+      "pred": "turn on switch modem",
+      "raw": "turn on switch modem",
+      "correct": true
+    },
+    {
+      "sec": 116,
+      "episode": "episode_00770560",
+      "gt": "turn on switch modem",
+      "pred": "turn on switch modem",
+      "raw": "turn on switch modem",
+      "correct": true
+    },
+    {
+      "sec": 120,
+      "episode": "episode_00770560",
+      "gt": "turn on switch modem",
+      "pred": "turn on switch modem",
+      "raw": "turn on switch modem",
+      "correct": true
+    },
+    {
+      "sec": 124,
+      "episode": "episode_00770560",
+      "gt": "turn on switch modem",
+      "pred": "turn on switch modem",
+      "raw": "turn on switch modem",
+      "correct": true
+    },
+    {
+      "sec": 63,
+      "episode": "episode_00770570",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 67,
+      "episode": "episode_00770570",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00770570",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 75,
+      "episode": "episode_00770570",
+      "gt": "turn on switch modem",
+      "pred": "turn on switch modem",
+      "raw": "turn on switch modem",
+      "correct": true
+    },
+    {
+      "sec": 58,
+      "episode": "episode_00770580",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00770580",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00770580",
+      "gt": "turn on switch modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00770600",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00770600",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 68,
+      "episode": "episode_00770610",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 72,
+      "episode": "episode_00770610",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 76,
+      "episode": "episode_00770610",
+      "gt": "turn on switch modem",
+      "pred": "turn on switch modem",
+      "raw": "turn on switch modem",
+      "correct": true
+    },
+    {
+      "sec": 63,
+      "episode": "episode_00770640",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 67,
+      "episode": "episode_00770640",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "episode": "episode_00770670",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00770670",
+      "gt": "turn on switch modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 109,
+      "episode": "episode_00770420",
+      "gt": "hand over modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 110,
+      "episode": "episode_00770420",
+      "gt": "hand over modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 111,
+      "episode": "episode_00770420",
+      "gt": "hand over modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 112,
+      "episode": "episode_00770420",
+      "gt": "hand over modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 113,
+      "episode": "episode_00770420",
+      "gt": "hand over modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 114,
+      "episode": "episode_00770420",
+      "gt": "hand over modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 115,
+      "episode": "episode_00770420",
+      "gt": "hand over modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 116,
+      "episode": "episode_00770420",
+      "gt": "hand over modem",
+      "pred": "hand over modem",
+      "raw": "hand over modem",
+      "correct": true
+    },
+    {
+      "sec": 117,
+      "episode": "episode_00770420",
+      "gt": "hand over modem",
+      "pred": "hand over modem",
+      "raw": "hand over modem",
+      "correct": true
+    },
+    {
+      "sec": 118,
+      "episode": "episode_00770420",
+      "gt": "hand over modem",
+      "pred": "hand over modem",
+      "raw": "hand over modem",
+      "correct": true
+    },
+    {
+      "sec": 119,
+      "episode": "episode_00770420",
+      "gt": "hand over modem",
+      "pred": "hand over modem",
+      "raw": "hand over modem",
+      "correct": true
+    },
+    {
+      "sec": 120,
+      "episode": "episode_00770420",
+      "gt": "hand over modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 121,
+      "episode": "episode_00770420",
+      "gt": "hand over modem",
+      "pred": "hand over modem",
+      "raw": "hand over modem",
+      "correct": true
+    },
+    {
+      "sec": 122,
+      "episode": "episode_00770420",
+      "gt": "hand over modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00770490",
+      "gt": "hand over modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00770490",
+      "gt": "hand over modem",
+      "pred": "hand over modem",
+      "raw": "hand over modem",
+      "correct": true
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00770490",
+      "gt": "hand over modem",
+      "pred": "hand over modem",
+      "raw": "hand over modem",
+      "correct": true
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00770490",
+      "gt": "hand over modem",
+      "pred": "hand over modem",
+      "raw": "hand over modem",
+      "correct": true
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00770490",
+      "gt": "hand over modem",
+      "pred": "hand over modem",
+      "raw": "hand over modem",
+      "correct": true
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00770490",
+      "gt": "hand over modem",
+      "pred": "hand over modem",
+      "raw": "hand over modem",
+      "correct": true
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00770500",
+      "gt": "hand over modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00770500",
+      "gt": "hand over modem",
+      "pred": "hand over modem",
+      "raw": "hand over modem",
+      "correct": true
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00770500",
+      "gt": "hand over modem",
+      "pred": "hand over modem",
+      "raw": "hand over modem",
+      "correct": true
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00770500",
+      "gt": "hand over modem",
+      "pred": "hand over modem",
+      "raw": "hand over modem",
+      "correct": true
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00770500",
+      "gt": "hand over modem",
+      "pred": "hand over modem",
+      "raw": "hand over modem",
+      "correct": true
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00770500",
+      "gt": "hand over modem",
+      "pred": "hand over modem",
+      "raw": "hand over modem",
+      "correct": true
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00770560",
+      "gt": "hand over modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 72,
+      "episode": "episode_00770560",
+      "gt": "hand over modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 73,
+      "episode": "episode_00770560",
+      "gt": "hand over modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 74,
+      "episode": "episode_00770560",
+      "gt": "hand over modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 75,
+      "episode": "episode_00770560",
+      "gt": "hand over modem",
+      "pred": "hand over modem",
+      "raw": "hand over modem",
+      "correct": true
+    },
+    {
+      "sec": 76,
+      "episode": "episode_00770560",
+      "gt": "hand over modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 77,
+      "episode": "episode_00770560",
+      "gt": "hand over modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 78,
+      "episode": "episode_00770560",
+      "gt": "hand over modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00770560",
+      "gt": "hand over modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00770560",
+      "gt": "hand over modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 81,
+      "episode": "episode_00770560",
+      "gt": "hand over modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00770560",
+      "gt": "hand over modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 83,
+      "episode": "episode_00770560",
+      "gt": "hand over modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 84,
+      "episode": "episode_00770560",
+      "gt": "hand over modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00770560",
+      "gt": "hand over modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "episode": "episode_00770580",
+      "gt": "hand over modem",
+      "pred": "move to modem",
+      "raw": "move to modem",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00770580",
+      "gt": "hand over modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00770580",
+      "gt": "hand over modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00770580",
+      "gt": "hand over modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00770580",
+      "gt": "hand over modem",
+      "pred": "turn on switch modem",
+      "raw": "turn on switch modem",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00770580",
+      "gt": "hand over modem",
+      "pred": "place on modem",
+      "raw": "place on modem",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00770580",
+      "gt": "hand over modem",
+      "pred": "turn on switch modem",
+      "raw": "turn on switch modem",
+      "correct": false
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00770580",
+      "gt": "hand over modem",
+      "pred": "turn on switch modem",
+      "raw": "turn on switch modem",
+      "correct": false
+    }
+  ]
+}

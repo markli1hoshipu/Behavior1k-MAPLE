@@ -1,0 +1,3852 @@
+{
+  "task_chunk": "task-0031",
+  "task_name": "clean_boxing_gloves",
+  "accuracy": 0.17083333333333334,
+  "macro_recall": 0.17083333333333334,
+  "correct": 82,
+  "total": 480,
+  "n_classes": 8,
+  "unseen_gt_label_frames": 0,
+  "predictions": [
+    {
+      "sec": 0,
+      "episode": "episode_00310230",
+      "gt": "move to washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 127,
+      "episode": "episode_00310230",
+      "gt": "move to washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 6,
+      "episode": "episode_00310240",
+      "gt": "move to washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00310240",
+      "gt": "move to washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 254,
+      "episode": "episode_00310240",
+      "gt": "move to washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 2,
+      "episode": "episode_00310250",
+      "gt": "move to washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 233,
+      "episode": "episode_00310250",
+      "gt": "move to washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 249,
+      "episode": "episode_00310250",
+      "gt": "move to washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00310270",
+      "gt": "move to washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 201,
+      "episode": "episode_00310270",
+      "gt": "move to washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 218,
+      "episode": "episode_00310270",
+      "gt": "move to washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 5,
+      "episode": "episode_00310290",
+      "gt": "move to washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00310290",
+      "gt": "move to washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 229,
+      "episode": "episode_00310290",
+      "gt": "move to washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 5,
+      "episode": "episode_00310300",
+      "gt": "move to washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 176,
+      "episode": "episode_00310300",
+      "gt": "move to washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 193,
+      "episode": "episode_00310300",
+      "gt": "move to washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00310310",
+      "gt": "move to washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 234,
+      "episode": "episode_00310310",
+      "gt": "move to washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 250,
+      "episode": "episode_00310310",
+      "gt": "move to washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 12,
+      "episode": "episode_00310320",
+      "gt": "move to washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 249,
+      "episode": "episode_00310320",
+      "gt": "move to washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 265,
+      "episode": "episode_00310320",
+      "gt": "move to washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 7,
+      "episode": "episode_00310330",
+      "gt": "move to washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00310330",
+      "gt": "move to washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 162,
+      "episode": "episode_00310330",
+      "gt": "move to washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 179,
+      "episode": "episode_00310330",
+      "gt": "move to washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00310350",
+      "gt": "move to washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 252,
+      "episode": "episode_00310350",
+      "gt": "move to washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 0,
+      "episode": "episode_00310380",
+      "gt": "move to washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 238,
+      "episode": "episode_00310380",
+      "gt": "move to washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 255,
+      "episode": "episode_00310380",
+      "gt": "move to washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 6,
+      "episode": "episode_00310390",
+      "gt": "move to washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 174,
+      "episode": "episode_00310390",
+      "gt": "move to washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 190,
+      "episode": "episode_00310390",
+      "gt": "move to washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 3,
+      "episode": "episode_00310400",
+      "gt": "move to washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 230,
+      "episode": "episode_00310400",
+      "gt": "move to washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 246,
+      "episode": "episode_00310400",
+      "gt": "move to washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 7,
+      "episode": "episode_00310460",
+      "gt": "move to washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 180,
+      "episode": "episode_00310460",
+      "gt": "move to washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 197,
+      "episode": "episode_00310460",
+      "gt": "move to washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 213,
+      "episode": "episode_00310460",
+      "gt": "move to washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 229,
+      "episode": "episode_00310460",
+      "gt": "move to washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00310470",
+      "gt": "move to washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 139,
+      "episode": "episode_00310470",
+      "gt": "move to washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 155,
+      "episode": "episode_00310470",
+      "gt": "move to washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00310480",
+      "gt": "move to washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 173,
+      "episode": "episode_00310480",
+      "gt": "move to washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 190,
+      "episode": "episode_00310480",
+      "gt": "move to washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 206,
+      "episode": "episode_00310480",
+      "gt": "move to washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 222,
+      "episode": "episode_00310480",
+      "gt": "move to washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 210,
+      "episode": "episode_00310490",
+      "gt": "move to washer",
+      "pred": "move to washer",
+      "raw": "3. move to washer",
+      "correct": true
+    },
+    {
+      "sec": 226,
+      "episode": "episode_00310490",
+      "gt": "move to washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 3,
+      "episode": "episode_00310510",
+      "gt": "move to washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 126,
+      "episode": "episode_00310510",
+      "gt": "move to washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 142,
+      "episode": "episode_00310510",
+      "gt": "move to washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 11,
+      "episode": "episode_00310530",
+      "gt": "move to washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00310530",
+      "gt": "move to washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00310560",
+      "gt": "move to washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 143,
+      "episode": "episode_00310560",
+      "gt": "move to washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00310230",
+      "gt": "open door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "episode": "episode_00310230",
+      "gt": "open door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00310230",
+      "gt": "open door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00310240",
+      "gt": "open door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 64,
+      "episode": "episode_00310240",
+      "gt": "open door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 84,
+      "episode": "episode_00310240",
+      "gt": "open door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00310250",
+      "gt": "open door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 33,
+      "episode": "episode_00310250",
+      "gt": "open door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00310250",
+      "gt": "open door washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 73,
+      "episode": "episode_00310250",
+      "gt": "open door washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00310270",
+      "gt": "open door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00310270",
+      "gt": "open door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 77,
+      "episode": "episode_00310270",
+      "gt": "open door washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00310290",
+      "gt": "open door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00310290",
+      "gt": "open door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 76,
+      "episode": "episode_00310290",
+      "gt": "open door washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00310300",
+      "gt": "open door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00310300",
+      "gt": "open door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00310300",
+      "gt": "open door washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00310310",
+      "gt": "open door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00310310",
+      "gt": "open door washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00310310",
+      "gt": "open door washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 28,
+      "episode": "episode_00310320",
+      "gt": "open door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00310320",
+      "gt": "open door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 68,
+      "episode": "episode_00310320",
+      "gt": "open door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "episode": "episode_00310330",
+      "gt": "open door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00310330",
+      "gt": "open door washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 67,
+      "episode": "episode_00310330",
+      "gt": "open door washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00310350",
+      "gt": "open door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00310350",
+      "gt": "open door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 69,
+      "episode": "episode_00310350",
+      "gt": "open door washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00310380",
+      "gt": "open door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00310380",
+      "gt": "open door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 63,
+      "episode": "episode_00310380",
+      "gt": "open door washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00310390",
+      "gt": "open door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 60,
+      "episode": "episode_00310390",
+      "gt": "open door washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00310390",
+      "gt": "open door washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00310400",
+      "gt": "open door washer",
+      "pred": "move to washer",
+      "raw": "3. move to washer",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00310400",
+      "gt": "open door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00310400",
+      "gt": "open door washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00310460",
+      "gt": "open door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "episode": "episode_00310460",
+      "gt": "open door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 72,
+      "episode": "episode_00310460",
+      "gt": "open door washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00310470",
+      "gt": "open door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00310470",
+      "gt": "open door washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00310470",
+      "gt": "open door washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00310480",
+      "gt": "open door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00310480",
+      "gt": "open door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00310480",
+      "gt": "open door washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00310490",
+      "gt": "open door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00310490",
+      "gt": "open door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 69,
+      "episode": "episode_00310490",
+      "gt": "open door washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00310510",
+      "gt": "open door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00310510",
+      "gt": "open door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00310510",
+      "gt": "open door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "episode": "episode_00310530",
+      "gt": "open door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00310530",
+      "gt": "open door washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 7,
+      "episode": "episode_00310560",
+      "gt": "open door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "episode": "episode_00310560",
+      "gt": "open door washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00310560",
+      "gt": "open door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00310230",
+      "gt": "move to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00310230",
+      "gt": "move to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 101,
+      "episode": "episode_00310240",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 108,
+      "episode": "episode_00310240",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 115,
+      "episode": "episode_00310240",
+      "gt": "move to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 122,
+      "episode": "episode_00310240",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 81,
+      "episode": "episode_00310250",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 88,
+      "episode": "episode_00310250",
+      "gt": "move to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 95,
+      "episode": "episode_00310250",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 102,
+      "episode": "episode_00310250",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 88,
+      "episode": "episode_00310270",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 95,
+      "episode": "episode_00310270",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 103,
+      "episode": "episode_00310270",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 83,
+      "episode": "episode_00310290",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 74,
+      "episode": "episode_00310300",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 81,
+      "episode": "episode_00310300",
+      "gt": "move to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 88,
+      "episode": "episode_00310300",
+      "gt": "move to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 95,
+      "episode": "episode_00310300",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 93,
+      "episode": "episode_00310310",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 100,
+      "episode": "episode_00310310",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 90,
+      "episode": "episode_00310320",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 97,
+      "episode": "episode_00310320",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 104,
+      "episode": "episode_00310320",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 111,
+      "episode": "episode_00310320",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 81,
+      "episode": "episode_00310330",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 88,
+      "episode": "episode_00310330",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 95,
+      "episode": "episode_00310330",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 102,
+      "episode": "episode_00310330",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 76,
+      "episode": "episode_00310350",
+      "gt": "move to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 83,
+      "episode": "episode_00310350",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 91,
+      "episode": "episode_00310350",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 98,
+      "episode": "episode_00310350",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 68,
+      "episode": "episode_00310380",
+      "gt": "move to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 75,
+      "episode": "episode_00310380",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00310380",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 89,
+      "episode": "episode_00310380",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00310390",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 92,
+      "episode": "episode_00310390",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 99,
+      "episode": "episode_00310390",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 106,
+      "episode": "episode_00310390",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 113,
+      "episode": "episode_00310390",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00310400",
+      "gt": "move to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 93,
+      "episode": "episode_00310400",
+      "gt": "move to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 100,
+      "episode": "episode_00310400",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00310460",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 92,
+      "episode": "episode_00310460",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 99,
+      "episode": "episode_00310460",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 77,
+      "episode": "episode_00310470",
+      "gt": "move to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00310470",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 92,
+      "episode": "episode_00310470",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 89,
+      "episode": "episode_00310480",
+      "gt": "move to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00310490",
+      "gt": "move to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 89,
+      "episode": "episode_00310490",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 96,
+      "episode": "episode_00310490",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 69,
+      "episode": "episode_00310510",
+      "gt": "move to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 76,
+      "episode": "episode_00310510",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00310530",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 78,
+      "episode": "episode_00310530",
+      "gt": "move to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 69,
+      "episode": "episode_00310560",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 76,
+      "episode": "episode_00310560",
+      "gt": "move to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 60,
+      "episode": "episode_00310230",
+      "gt": "turn to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 72,
+      "episode": "episode_00310230",
+      "gt": "turn to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00310230",
+      "gt": "turn to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 125,
+      "episode": "episode_00310240",
+      "gt": "turn to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 138,
+      "episode": "episode_00310240",
+      "gt": "turn to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 150,
+      "episode": "episode_00310240",
+      "gt": "turn to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 163,
+      "episode": "episode_00310240",
+      "gt": "turn to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 175,
+      "episode": "episode_00310240",
+      "gt": "turn to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 188,
+      "episode": "episode_00310240",
+      "gt": "turn to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 117,
+      "episode": "episode_00310250",
+      "gt": "turn to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 129,
+      "episode": "episode_00310250",
+      "gt": "turn to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 142,
+      "episode": "episode_00310250",
+      "gt": "turn to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 154,
+      "episode": "episode_00310250",
+      "gt": "turn to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 167,
+      "episode": "episode_00310250",
+      "gt": "turn to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 108,
+      "episode": "episode_00310270",
+      "gt": "turn to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 121,
+      "episode": "episode_00310270",
+      "gt": "turn to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 134,
+      "episode": "episode_00310270",
+      "gt": "turn to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 146,
+      "episode": "episode_00310270",
+      "gt": "turn to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 147,
+      "episode": "episode_00310290",
+      "gt": "turn to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 159,
+      "episode": "episode_00310290",
+      "gt": "turn to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 172,
+      "episode": "episode_00310290",
+      "gt": "turn to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 184,
+      "episode": "episode_00310290",
+      "gt": "turn to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 197,
+      "episode": "episode_00310290",
+      "gt": "turn to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 124,
+      "episode": "episode_00310300",
+      "gt": "turn to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 136,
+      "episode": "episode_00310300",
+      "gt": "turn to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 146,
+      "episode": "episode_00310310",
+      "gt": "turn to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 158,
+      "episode": "episode_00310310",
+      "gt": "turn to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 171,
+      "episode": "episode_00310310",
+      "gt": "turn to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 183,
+      "episode": "episode_00310310",
+      "gt": "turn to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 196,
+      "episode": "episode_00310310",
+      "gt": "turn to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 136,
+      "episode": "episode_00310320",
+      "gt": "turn to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 148,
+      "episode": "episode_00310320",
+      "gt": "turn to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 161,
+      "episode": "episode_00310320",
+      "gt": "turn to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 173,
+      "episode": "episode_00310320",
+      "gt": "turn to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 186,
+      "episode": "episode_00310320",
+      "gt": "turn to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 198,
+      "episode": "episode_00310320",
+      "gt": "turn to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 211,
+      "episode": "episode_00310320",
+      "gt": "turn to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 118,
+      "episode": "episode_00310350",
+      "gt": "turn to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 131,
+      "episode": "episode_00310350",
+      "gt": "turn to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 144,
+      "episode": "episode_00310350",
+      "gt": "turn to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 156,
+      "episode": "episode_00310350",
+      "gt": "turn to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 169,
+      "episode": "episode_00310350",
+      "gt": "turn to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 181,
+      "episode": "episode_00310350",
+      "gt": "turn to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 194,
+      "episode": "episode_00310350",
+      "gt": "turn to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 104,
+      "episode": "episode_00310380",
+      "gt": "turn to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 117,
+      "episode": "episode_00310380",
+      "gt": "turn to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 130,
+      "episode": "episode_00310380",
+      "gt": "turn to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 142,
+      "episode": "episode_00310380",
+      "gt": "turn to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 155,
+      "episode": "episode_00310380",
+      "gt": "turn to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 167,
+      "episode": "episode_00310380",
+      "gt": "turn to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 180,
+      "episode": "episode_00310380",
+      "gt": "turn to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 115,
+      "episode": "episode_00310390",
+      "gt": "turn to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 128,
+      "episode": "episode_00310390",
+      "gt": "turn to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00310390",
+      "gt": "turn to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 114,
+      "episode": "episode_00310400",
+      "gt": "turn to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 127,
+      "episode": "episode_00310400",
+      "gt": "turn to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 139,
+      "episode": "episode_00310400",
+      "gt": "turn to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 152,
+      "episode": "episode_00310400",
+      "gt": "turn to boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 164,
+      "episode": "episode_00310400",
+      "gt": "turn to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 177,
+      "episode": "episode_00310400",
+      "gt": "turn to boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 88,
+      "episode": "episode_00310230",
+      "gt": "pick up from boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 113,
+      "episode": "episode_00310230",
+      "gt": "pick up from boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 199,
+      "episode": "episode_00310240",
+      "gt": "pick up from boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 215,
+      "episode": "episode_00310240",
+      "gt": "pick up from boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 231,
+      "episode": "episode_00310240",
+      "gt": "pick up from boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 186,
+      "episode": "episode_00310250",
+      "gt": "pick up from boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 202,
+      "episode": "episode_00310250",
+      "gt": "pick up from boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 218,
+      "episode": "episode_00310250",
+      "gt": "pick up from boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 165,
+      "episode": "episode_00310270",
+      "gt": "pick up from boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 182,
+      "episode": "episode_00310270",
+      "gt": "pick up from boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 198,
+      "episode": "episode_00310270",
+      "gt": "pick up from boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 103,
+      "episode": "episode_00310290",
+      "gt": "pick up from boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 119,
+      "episode": "episode_00310290",
+      "gt": "pick up from boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 136,
+      "episode": "episode_00310290",
+      "gt": "pick up from boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 211,
+      "episode": "episode_00310290",
+      "gt": "pick up from boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 110,
+      "episode": "episode_00310300",
+      "gt": "pick up from boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 159,
+      "episode": "episode_00310300",
+      "gt": "pick up from boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 115,
+      "episode": "episode_00310310",
+      "gt": "pick up from boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 132,
+      "episode": "episode_00310310",
+      "gt": "pick up from boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 212,
+      "episode": "episode_00310310",
+      "gt": "pick up from boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 121,
+      "episode": "episode_00310320",
+      "gt": "pick up from boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 220,
+      "episode": "episode_00310320",
+      "gt": "pick up from boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 237,
+      "episode": "episode_00310320",
+      "gt": "pick up from boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 117,
+      "episode": "episode_00310330",
+      "gt": "pick up from boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 133,
+      "episode": "episode_00310330",
+      "gt": "pick up from boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 149,
+      "episode": "episode_00310330",
+      "gt": "pick up from boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 214,
+      "episode": "episode_00310350",
+      "gt": "pick up from boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 230,
+      "episode": "episode_00310350",
+      "gt": "pick up from boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 198,
+      "episode": "episode_00310380",
+      "gt": "pick up from boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 214,
+      "episode": "episode_00310380",
+      "gt": "pick up from boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 231,
+      "episode": "episode_00310380",
+      "gt": "pick up from boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 157,
+      "episode": "episode_00310390",
+      "gt": "pick up from boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 190,
+      "episode": "episode_00310400",
+      "gt": "pick up from boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 206,
+      "episode": "episode_00310400",
+      "gt": "pick up from boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 222,
+      "episode": "episode_00310400",
+      "gt": "pick up from boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 117,
+      "episode": "episode_00310460",
+      "gt": "pick up from boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 133,
+      "episode": "episode_00310460",
+      "gt": "pick up from boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 149,
+      "episode": "episode_00310460",
+      "gt": "pick up from boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 165,
+      "episode": "episode_00310460",
+      "gt": "pick up from boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 100,
+      "episode": "episode_00310470",
+      "gt": "pick up from boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 116,
+      "episode": "episode_00310470",
+      "gt": "pick up from boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 96,
+      "episode": "episode_00310480",
+      "gt": "pick up from boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 112,
+      "episode": "episode_00310480",
+      "gt": "pick up from boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 129,
+      "episode": "episode_00310480",
+      "gt": "pick up from boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 145,
+      "episode": "episode_00310480",
+      "gt": "pick up from boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 161,
+      "episode": "episode_00310480",
+      "gt": "pick up from boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 104,
+      "episode": "episode_00310490",
+      "gt": "pick up from boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 120,
+      "episode": "episode_00310490",
+      "gt": "pick up from boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 137,
+      "episode": "episode_00310490",
+      "gt": "pick up from boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 153,
+      "episode": "episode_00310490",
+      "gt": "pick up from boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 169,
+      "episode": "episode_00310490",
+      "gt": "pick up from boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 185,
+      "episode": "episode_00310490",
+      "gt": "pick up from boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 202,
+      "episode": "episode_00310490",
+      "gt": "pick up from boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 89,
+      "episode": "episode_00310510",
+      "gt": "pick up from boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 105,
+      "episode": "episode_00310510",
+      "gt": "pick up from boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 89,
+      "episode": "episode_00310530",
+      "gt": "pick up from boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 106,
+      "episode": "episode_00310530",
+      "gt": "pick up from boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 122,
+      "episode": "episode_00310530",
+      "gt": "pick up from boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": true
+    },
+    {
+      "sec": 96,
+      "episode": "episode_00310560",
+      "gt": "pick up from boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 112,
+      "episode": "episode_00310560",
+      "gt": "pick up from boxing gloves",
+      "pred": "move to washer",
+      "raw": "3. move to washer",
+      "correct": false
+    },
+    {
+      "sec": 137,
+      "episode": "episode_00310230",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 164,
+      "episode": "episode_00310230",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 281,
+      "episode": "episode_00310240",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 308,
+      "episode": "episode_00310240",
+      "gt": "place in boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 336,
+      "episode": "episode_00310240",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 268,
+      "episode": "episode_00310250",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 295,
+      "episode": "episode_00310250",
+      "gt": "place in boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 323,
+      "episode": "episode_00310250",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 351,
+      "episode": "episode_00310250",
+      "gt": "place in boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 249,
+      "episode": "episode_00310270",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 277,
+      "episode": "episode_00310270",
+      "gt": "place in boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 305,
+      "episode": "episode_00310270",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 249,
+      "episode": "episode_00310290",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 277,
+      "episode": "episode_00310290",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 305,
+      "episode": "episode_00310290",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 332,
+      "episode": "episode_00310290",
+      "gt": "place in boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 214,
+      "episode": "episode_00310300",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 242,
+      "episode": "episode_00310300",
+      "gt": "place in boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 269,
+      "episode": "episode_00310300",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 297,
+      "episode": "episode_00310300",
+      "gt": "place in boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 279,
+      "episode": "episode_00310310",
+      "gt": "place in boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 306,
+      "episode": "episode_00310310",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 334,
+      "episode": "episode_00310310",
+      "gt": "place in boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 287,
+      "episode": "episode_00310320",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 315,
+      "episode": "episode_00310320",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 343,
+      "episode": "episode_00310320",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 370,
+      "episode": "episode_00310320",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 205,
+      "episode": "episode_00310330",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 233,
+      "episode": "episode_00310330",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 260,
+      "episode": "episode_00310330",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 288,
+      "episode": "episode_00310330",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 284,
+      "episode": "episode_00310350",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 311,
+      "episode": "episode_00310350",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 339,
+      "episode": "episode_00310350",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 265,
+      "episode": "episode_00310380",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 292,
+      "episode": "episode_00310380",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 320,
+      "episode": "episode_00310380",
+      "gt": "place in boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 348,
+      "episode": "episode_00310380",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 224,
+      "episode": "episode_00310390",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 252,
+      "episode": "episode_00310390",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 280,
+      "episode": "episode_00310390",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 265,
+      "episode": "episode_00310400",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 293,
+      "episode": "episode_00310400",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 320,
+      "episode": "episode_00310400",
+      "gt": "place in boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 234,
+      "episode": "episode_00310460",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 262,
+      "episode": "episode_00310460",
+      "gt": "place in boxing gloves",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 289,
+      "episode": "episode_00310460",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 162,
+      "episode": "episode_00310470",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 190,
+      "episode": "episode_00310470",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 228,
+      "episode": "episode_00310480",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 256,
+      "episode": "episode_00310480",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 284,
+      "episode": "episode_00310480",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 252,
+      "episode": "episode_00310490",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 280,
+      "episode": "episode_00310490",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 308,
+      "episode": "episode_00310490",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 172,
+      "episode": "episode_00310510",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 156,
+      "episode": "episode_00310530",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 184,
+      "episode": "episode_00310530",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 162,
+      "episode": "episode_00310560",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 190,
+      "episode": "episode_00310560",
+      "gt": "place in boxing gloves",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 180,
+      "episode": "episode_00310230",
+      "gt": "close door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 192,
+      "episode": "episode_00310230",
+      "gt": "close door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 205,
+      "episode": "episode_00310230",
+      "gt": "close door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 371,
+      "episode": "episode_00310240",
+      "gt": "close door washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 384,
+      "episode": "episode_00310240",
+      "gt": "close door washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 396,
+      "episode": "episode_00310240",
+      "gt": "close door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 366,
+      "episode": "episode_00310250",
+      "gt": "close door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 379,
+      "episode": "episode_00310250",
+      "gt": "close door washer",
+      "pred": "open door washer",
+      "raw": "4. open door washer",
+      "correct": false
+    },
+    {
+      "sec": 392,
+      "episode": "episode_00310250",
+      "gt": "close door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 329,
+      "episode": "episode_00310270",
+      "gt": "close door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 342,
+      "episode": "episode_00310270",
+      "gt": "close door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 355,
+      "episode": "episode_00310270",
+      "gt": "close door washer",
+      "pred": "open door washer",
+      "raw": "4. open door washer",
+      "correct": false
+    },
+    {
+      "sec": 368,
+      "episode": "episode_00310270",
+      "gt": "close door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 347,
+      "episode": "episode_00310290",
+      "gt": "close door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 360,
+      "episode": "episode_00310290",
+      "gt": "close door washer",
+      "pred": "open door washer",
+      "raw": "4. open door washer",
+      "correct": false
+    },
+    {
+      "sec": 373,
+      "episode": "episode_00310290",
+      "gt": "close door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 301,
+      "episode": "episode_00310300",
+      "gt": "close door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 314,
+      "episode": "episode_00310300",
+      "gt": "close door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 326,
+      "episode": "episode_00310300",
+      "gt": "close door washer",
+      "pred": "open door washer",
+      "raw": "4. open door washer",
+      "correct": false
+    },
+    {
+      "sec": 339,
+      "episode": "episode_00310300",
+      "gt": "close door washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 354,
+      "episode": "episode_00310310",
+      "gt": "close door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 367,
+      "episode": "episode_00310310",
+      "gt": "close door washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 379,
+      "episode": "episode_00310310",
+      "gt": "close door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 378,
+      "episode": "episode_00310320",
+      "gt": "close door washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 391,
+      "episode": "episode_00310320",
+      "gt": "close door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 404,
+      "episode": "episode_00310320",
+      "gt": "close door washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 416,
+      "episode": "episode_00310320",
+      "gt": "close door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 305,
+      "episode": "episode_00310330",
+      "gt": "close door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 318,
+      "episode": "episode_00310330",
+      "gt": "close door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 331,
+      "episode": "episode_00310330",
+      "gt": "close door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 370,
+      "episode": "episode_00310350",
+      "gt": "close door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 382,
+      "episode": "episode_00310350",
+      "gt": "close door washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 395,
+      "episode": "episode_00310350",
+      "gt": "close door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 355,
+      "episode": "episode_00310380",
+      "gt": "close door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 368,
+      "episode": "episode_00310380",
+      "gt": "close door washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 298,
+      "episode": "episode_00310390",
+      "gt": "close door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 311,
+      "episode": "episode_00310390",
+      "gt": "close door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 324,
+      "episode": "episode_00310390",
+      "gt": "close door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 351,
+      "episode": "episode_00310400",
+      "gt": "close door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 363,
+      "episode": "episode_00310400",
+      "gt": "close door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 376,
+      "episode": "episode_00310400",
+      "gt": "close door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 318,
+      "episode": "episode_00310460",
+      "gt": "close door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 331,
+      "episode": "episode_00310460",
+      "gt": "close door washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 343,
+      "episode": "episode_00310460",
+      "gt": "close door washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 356,
+      "episode": "episode_00310460",
+      "gt": "close door washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 215,
+      "episode": "episode_00310470",
+      "gt": "close door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 228,
+      "episode": "episode_00310470",
+      "gt": "close door washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 302,
+      "episode": "episode_00310480",
+      "gt": "close door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 314,
+      "episode": "episode_00310480",
+      "gt": "close door washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 327,
+      "episode": "episode_00310480",
+      "gt": "close door washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 340,
+      "episode": "episode_00310480",
+      "gt": "close door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 323,
+      "episode": "episode_00310490",
+      "gt": "close door washer",
+      "pred": "open door washer",
+      "raw": "4. open door washer",
+      "correct": false
+    },
+    {
+      "sec": 335,
+      "episode": "episode_00310490",
+      "gt": "close door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 348,
+      "episode": "episode_00310490",
+      "gt": "close door washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 206,
+      "episode": "episode_00310510",
+      "gt": "close door washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 219,
+      "episode": "episode_00310510",
+      "gt": "close door washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 216,
+      "episode": "episode_00310530",
+      "gt": "close door washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 229,
+      "episode": "episode_00310530",
+      "gt": "close door washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 221,
+      "episode": "episode_00310560",
+      "gt": "close door washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 234,
+      "episode": "episode_00310560",
+      "gt": "close door washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 206,
+      "episode": "episode_00310230",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 401,
+      "episode": "episode_00310240",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 409,
+      "episode": "episode_00310240",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 417,
+      "episode": "episode_00310240",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 425,
+      "episode": "episode_00310240",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 433,
+      "episode": "episode_00310240",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 404,
+      "episode": "episode_00310250",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 412,
+      "episode": "episode_00310250",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 420,
+      "episode": "episode_00310250",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 428,
+      "episode": "episode_00310250",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 376,
+      "episode": "episode_00310270",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 384,
+      "episode": "episode_00310270",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 392,
+      "episode": "episode_00310270",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 400,
+      "episode": "episode_00310270",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 408,
+      "episode": "episode_00310270",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 392,
+      "episode": "episode_00310290",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 400,
+      "episode": "episode_00310290",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 408,
+      "episode": "episode_00310290",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 416,
+      "episode": "episode_00310290",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 353,
+      "episode": "episode_00310300",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 362,
+      "episode": "episode_00310300",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 395,
+      "episode": "episode_00310310",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 403,
+      "episode": "episode_00310310",
+      "gt": "turn on switch washer",
+      "pred": "move to washer",
+      "raw": "3. move to washer",
+      "correct": false
+    },
+    {
+      "sec": 411,
+      "episode": "episode_00310310",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 419,
+      "episode": "episode_00310310",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 426,
+      "episode": "episode_00310320",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 434,
+      "episode": "episode_00310320",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 442,
+      "episode": "episode_00310320",
+      "gt": "turn on switch washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 450,
+      "episode": "episode_00310320",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 458,
+      "episode": "episode_00310320",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 341,
+      "episode": "episode_00310330",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 349,
+      "episode": "episode_00310330",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 357,
+      "episode": "episode_00310330",
+      "gt": "turn on switch washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 365,
+      "episode": "episode_00310330",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 373,
+      "episode": "episode_00310330",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 413,
+      "episode": "episode_00310350",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 383,
+      "episode": "episode_00310380",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 391,
+      "episode": "episode_00310380",
+      "gt": "turn on switch washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 399,
+      "episode": "episode_00310380",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 407,
+      "episode": "episode_00310380",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 333,
+      "episode": "episode_00310390",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 341,
+      "episode": "episode_00310390",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 349,
+      "episode": "episode_00310390",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 357,
+      "episode": "episode_00310390",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 365,
+      "episode": "episode_00310390",
+      "gt": "turn on switch washer",
+      "pred": "move to washer",
+      "raw": "3. move to washer",
+      "correct": false
+    },
+    {
+      "sec": 388,
+      "episode": "episode_00310400",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 396,
+      "episode": "episode_00310400",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 369,
+      "episode": "episode_00310460",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 377,
+      "episode": "episode_00310460",
+      "gt": "turn on switch washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 385,
+      "episode": "episode_00310460",
+      "gt": "turn on switch washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 393,
+      "episode": "episode_00310460",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 244,
+      "episode": "episode_00310470",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 343,
+      "episode": "episode_00310480",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 351,
+      "episode": "episode_00310480",
+      "gt": "turn on switch washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 356,
+      "episode": "episode_00310490",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 364,
+      "episode": "episode_00310490",
+      "gt": "turn on switch washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 226,
+      "episode": "episode_00310510",
+      "gt": "turn on switch washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 234,
+      "episode": "episode_00310510",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 244,
+      "episode": "episode_00310530",
+      "gt": "turn on switch washer",
+      "pred": "pick up from boxing gloves",
+      "raw": "5. pick up from boxing gloves",
+      "correct": false
+    },
+    {
+      "sec": 250,
+      "episode": "episode_00310560",
+      "gt": "turn on switch washer",
+      "pred": "move to boxing gloves",
+      "raw": "move to boxing gloves",
+      "correct": false
+    }
+  ]
+}

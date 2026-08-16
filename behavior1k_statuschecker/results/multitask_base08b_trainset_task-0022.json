@@ -1,0 +1,430 @@
+{
+  "task_chunk": "task-0022",
+  "tag": "trainset",
+  "accuracy": 0.5333333333333333,
+  "macro_recall": 0.5851781572844191,
+  "correct": 32,
+  "total": 60,
+  "predictions": [
+    {
+      "sec": 0,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is in a hallway with no shoe rack visible, and the grippers are empty, indicating the robot is not currently picking up shoes from the floor.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 3,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is in a hallway with a shoe on the floor, and the white shoe rack/shelving unit is not visible in the frame.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 7,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding shoes in its grippers, and the white shoe rack/shelving unit is visible in the background, indicating the approach-with-cargo phase.\nAnswer: 1. move to",
+      "correct": false
+    },
+    {
+      "sec": 11,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is in a hallway with a shoe on the floor, and the white shoe rack/shelving unit is not visible in the frame, so the robot is not picking up from the rack.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 15,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is in a hallway with shoes on the floor, and the white shoe rack/shelving unit is visible to the right, indicating the approach-with-cargo phase.\nAnswer: 1. move to",
+      "correct": false
+    },
+    {
+      "sec": 19,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is positioned on a wooden floor with a shoe rack visible in the background, but no shoes are present in the frame.\nAnswer: 3. place in",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned on a wooden floor with a shoe lying on it, and the white shoe rack/shelving unit is not visible in the frame, ruling out the approach-with-cargo phase.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 27,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is in a hallway with shoes on the floor, and the white shoe rack/shelving unit is not visible in the frame.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 31,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is in a hallway with shoes on the floor, and the white shoe rack/shelving unit is not visible in the frame.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is in a hallway with a white shoe rack visible in the background, and the grippers are empty, indicating the robot is not currently picking up or placing shoes.\nAnswer: 3. place in",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is in a hallway with a white shoe rack visible on the left, and the shoes are resting on the floor, not on the rack.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is in a hallway with a white shoe rack visible on the right side of the frame, and the robot's feet are positioned on the floor, indicating the approach-with-cargo phase where the robot is about to place shoes on the rack.\nAnswer: 3. place in",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is positioned on the floor with its feet visible, and the white shoe rack/shelving unit is clearly visible to the right, indicating the robot is in the approach-with-cargo phase to place shoes on the rack.\nAnswer: 1. move to",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is on the floor, and the white shoe rack/shelving unit is visible in the background, indicating the approach-with-cargo phase.\nAnswer: 1. move to",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is standing on a wooden floor, and the white shoe rack/shelving unit is visible in the background, indicating the approach-with-cargo phase.\nAnswer: 1. move to",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot's feet are positioned on the floor, and the white shoe rack is visible in the background, indicating the robot is in the approach-with-cargo phase and has not yet picked up the shoes.\nAnswer: 1. move to",
+      "correct": true
+    },
+    {
+      "sec": 62,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is positioned on the floor with its feet extended, and the white shoe rack is visible to the right, indicating the robot is in the approach-with-cargo phase and has not yet picked up the shoes.\nAnswer: 1. move to",
+      "correct": true
+    },
+    {
+      "sec": 66,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned on a wooden floor with no shoe rack visible, and both grippers are holding shoes, which matches the \"pick up from\" subskill.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 70,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is positioned on the floor with its feet dangling over the white shoe rack, indicating it has just placed the shoes there.\nAnswer: 3. place in",
+      "correct": false
+    },
+    {
+      "sec": 74,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is holding a shoe in its gripper, and the shoe is resting on the white shelf of the rack, which is the definitive visual evidence for the \"place in\" subskill.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 78,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The robot's grippers are empty, and the white shoe rack is clearly visible in the background, indicating the robot is in the process of placing shoes into the rack.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 82,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The robot's grippers are empty, and the white shoe rack is clearly visible in the background, indicating the robot is in the process of placing shoes into the rack.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 86,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is positioned directly in front of a white shoe rack, with the shoes resting on its shelves, and the grippers are empty, indicating the action of placing the shoes into the rack.\nAnswer: 3. place in",
+      "correct": true
+    },
+    {
+      "sec": 90,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is positioned over a white shoe rack, and its right gripper is holding a brown shoe, which is resting on the shelf of the rack.\nAnswer: 3. place in",
+      "correct": true
+    },
+    {
+      "sec": 94,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is positioned on the floor with its grippers empty, and a white shoe rack is visible in the background, indicating the robot is about to place shoes into the rack.\nAnswer: 3. place in",
+      "correct": true
+    },
+    {
+      "sec": 97,
+      "gt": "move to",
+      "pred": null,
+      "raw": "Reasoning: The robot's subskill is \"place in\" because the white shoe rack is clearly visible in the background, and the robot's grippers are empty, indicating the action is about to be performed on the rack.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 101,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is in a hallway with a white shoe rack visible in the background, but the shoes are not on the rack. The grippers are empty, indicating the robot is not currently picking up shoes.\nAnswer: 3. place in",
+      "correct": false
+    },
+    {
+      "sec": 105,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is in a hallway with a white shoe rack visible in the background, and the grippers are empty, indicating the robot is not currently picking up shoes from the floor or placing them on the rack.\nAnswer: 3. place in",
+      "correct": false
+    },
+    {
+      "sec": 109,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is in a hallway with a white shoe rack visible on the left, and the grippers are empty, indicating the robot is not currently picking up shoes or placing them on the rack.\nAnswer: 3. place in",
+      "correct": false
+    },
+    {
+      "sec": 113,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is in a hallway with shoes on the floor, but the white shoe rack is not visible in the frame, so the robot is not approaching with cargo or picking up from the floor.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 117,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is in a hallway with shoes on the floor and a white rack visible in the background, but the grippers are empty and not holding any shoes, indicating the robot is not currently picking them up.\nAnswer: 3. place in",
+      "correct": false
+    },
+    {
+      "sec": 121,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is in a hallway with shoes on the floor, but the white shoe rack is not visible in the frame, so the robot is not in the approach-with-cargo phase.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 125,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned on the floor with two shoes visible, and the white shoe rack/shelving unit is not visible in the frame, ruling out the approach-with-cargo phase.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 129,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is positioned on the floor with two shoes visible, and the white shoe rack/shelving unit is not visible in the frame, ruling out the approach-with-cargo phase.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 133,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding a white shoe in its grippers, and the white shoe rack/shelving unit is visible in the background, indicating the approach-with-cargo phase.\nAnswer: 1. move to",
+      "correct": false
+    },
+    {
+      "sec": 137,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a white shoe in its right gripper, and the left gripper is empty. The white shoe rack/shelving unit is not visible in the frame, so the robot is not in the approach-with-cargo phase.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 141,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding shoes in its grippers, and the white shoe rack/shelving unit is visible in the background, indicating the approach-with-cargo phase.\nAnswer: 1. move to",
+      "correct": true
+    },
+    {
+      "sec": 144,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a white shoe in its right gripper, and the left gripper is empty. The white shoe rack/shelving unit is not visible in the frame, so the robot is not in the approach-with-cargo phase.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 148,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a white shoe in its right gripper, and the left gripper is empty. The white shoe rack/shelving unit is not visible in the frame.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 152,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding a shoe in its grippers, and the white shoe rack/shelving unit is visible in the background, indicating the approach-with-cargo phase.\nAnswer: 1. move to",
+      "correct": true
+    },
+    {
+      "sec": 156,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding a shoe in its right gripper, and the left gripper is empty, indicating the action is not pick up or place in. The white shoe rack is visible in the background, but the robot is not currently interacting with it.\nAnswer: 1. move to",
+      "correct": true
+    },
+    {
+      "sec": 160,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding two shoes in its grippers, and the white shoe rack/shelving unit is visible in the background, indicating the approach-with-cargo phase.\nAnswer: 1. move to",
+      "correct": true
+    },
+    {
+      "sec": 164,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding a shoe in its right hand, and the white shoe rack/shelving unit is visible in the background, indicating the approach-with-cargo phase.\nAnswer: 1. move to",
+      "correct": false
+    },
+    {
+      "sec": 168,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding both shoes in its grippers, and the white shoe rack/shelving unit is not visible in the frame, ruling out the approach-with-cargo phase.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 172,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is in a hallway with no shoe rack visible, and the white shoes are resting on the bare wooden floor, not on the rack.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 176,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding two shoes in its grippers, and the white shoe rack/shelving unit is visible in the background, indicating the approach-with-cargo phase.\nAnswer: 1. move to",
+      "correct": false
+    },
+    {
+      "sec": 180,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding two shoes in its grippers, and the white shoe rack/shelving unit is visible in the background, indicating the approach-with-cargo phase.\nAnswer: 1. move to",
+      "correct": true
+    },
+    {
+      "sec": 184,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding two shoes in its grippers, and the white shoe rack/shelving unit is visible in the background, indicating the approach-with-cargo phase.\nAnswer: 1. move to",
+      "correct": true
+    },
+    {
+      "sec": 188,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding two shoes in its grippers, and the white shoe rack/shelving unit is visible in the background, indicating the approach-with-cargo phase.\nAnswer: 1. move to",
+      "correct": true
+    },
+    {
+      "sec": 191,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding two shoes in its grippers, and the white shoe rack/shelving unit is visible in the background, indicating the approach-with-cargo phase.\nAnswer: 1. move to",
+      "correct": true
+    },
+    {
+      "sec": 195,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding two shoes in its grippers, and the white shoe rack/shelving unit is visible in the background, indicating the approach-with-cargo phase.\nAnswer: 1. move to",
+      "correct": true
+    },
+    {
+      "sec": 199,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding two shoes in its grippers, and the white shoe rack/shelving unit is visible to the right, indicating the approach-with-cargo phase.\nAnswer: 1. move to",
+      "correct": true
+    },
+    {
+      "sec": 203,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding two shoes in its grippers, and the white shoe rack/shelving unit is visible in the background, indicating the approach-with-cargo phase.\nAnswer: 1. move to",
+      "correct": true
+    },
+    {
+      "sec": 207,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding two shoes in its grippers, and the white shoe rack is clearly visible in the background, indicating the approach-with-cargo phase.\nAnswer: 1. move to",
+      "correct": true
+    },
+    {
+      "sec": 211,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is holding a shoe in its grippers, and the white shoe rack is clearly visible in the background, indicating the robot is in the process of placing the shoe onto the rack.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 215,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is holding a shoe in its grippers, and the white shoe rack is visible in the background, indicating the robot is in the process of placing the shoe onto the rack.\nAnswer: 3. place in",
+      "correct": true
+    },
+    {
+      "sec": 219,
+      "gt": "place in",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is positioned on the floor with no shoes visible, and the white shoe rack is clearly visible in the background, indicating the robot is in the approach-with-cargo phase.\nAnswer: 1. move to",
+      "correct": false
+    },
+    {
+      "sec": 223,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is positioned over a white shoe rack with shoes resting on its shelves, and its grippers are empty, indicating the task of placing shoes into the rack is complete.\nAnswer: 3. place in",
+      "correct": true
+    },
+    {
+      "sec": 227,
+      "gt": "place in",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding a white sneaker in its right hand, and the white shoe rack is clearly visible in the background, indicating the approach-with-cargo phase.\nAnswer: 1. move to",
+      "correct": false
+    },
+    {
+      "sec": 231,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is positioned on the floor with its grippers empty, and the white shoe rack is clearly visible in the background, indicating the robot is about to place shoes into the rack.\nAnswer: place in",
+      "correct": true
+    }
+  ]
+}

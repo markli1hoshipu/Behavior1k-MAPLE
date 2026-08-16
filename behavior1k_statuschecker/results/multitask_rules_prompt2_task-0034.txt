@@ -1,0 +1,35 @@
+You previously derived rules (below) for classifying a robot's subskill from a
+single camera frame, for the household task: "Hang the poster on the wall nail."
+
+=== YOUR PREVIOUS RULES ===
+1. hang - The robot is right up close to the kitchen counter with the dark cabinets looming large overhead, the framed poster picture is big and clear in the view, and almost no floor is showing. Note the first second or two of hanging can still look like a distant approach view, and those frames are not separable from "move to".
+
+2. move to - The whole room is visible from far off: the full run of kitchen counters, the tall window, and a wide stretch of empty floor, with the arms hanging loose and empty and nothing near them.
+
+3. pick up from - The robot is standing out in the open room with both arms reaching forward and empty, and a small pale object sitting on the floor a short way ahead of the hands. Honestly, this looks nearly identical to "move to" in a single still image, since the real difference is whether the robot is walking or reaching, which one frame cannot show; when the view is just the far kitchen and open floor with no small object near the hands, choose "move to".
+
+Those rules were dropped into a real prompt and run against Qwen3.5-2B (an actual small
+vision-language model). Overall: 77.4% accuracy / 57.6%
+macro recall. Here is a sample of what it actually got WRONG (out of 7 total errors):
+
+- sec 8: ground truth = pick up from, model predicted = move to  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0034/frames/sec_0008.jpg)
+- sec 9: ground truth = pick up from, model predicted = move to  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0034/frames/sec_0009.jpg)
+- sec 10: ground truth = pick up from, model predicted = move to  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0034/frames/sec_0010.jpg)
+- sec 11: ground truth = pick up from, model predicted = move to  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0034/frames/sec_0011.jpg)
+- sec 12: ground truth = move to, model predicted = hang  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0034/frames/sec_0012.jpg)
+- sec 13: ground truth = move to, model predicted = hang  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0034/frames/sec_0013.jpg)
+- sec 14: ground truth = move to, model predicted = hang  (/shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0034/frames/sec_0014.jpg)
+
+Read the error frames (use your Read tool) and revise your rules to fix what's fixable.
+If a specific confusion is genuinely not recoverable from a single static frame (e.g. it
+depends on motion direction, or on a state that changed off-screen), say so explicitly in
+your rule rather than inventing wording that won't hold up - a rule that admits the limit
+is more useful than one that guesses.
+
+Output ONLY the final revised rules in this exact format (one line per label, numbered to
+match the label list from before), nothing else - no preamble, no analysis, no confidence
+notes. Keep total output under 200 words:
+
+1. <label> - <rule>
+2. <label> - <rule>
+...

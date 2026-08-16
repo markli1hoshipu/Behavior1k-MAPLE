@@ -10,7 +10,7 @@ Both modes share the same policy stack (orchestrator, task-specific Action libra
 ## Layout
 
 ```
-behavior1k_mp/
+behavior1k_motionplanner/
 ├── core/                      # task-agnostic infrastructure
 │   ├── action.py              #   Action, Executor
 │   ├── orchestrator.py        #   phase state machine
@@ -37,13 +37,15 @@ scripts/                       # dev-time tools (fit_phase_detector, build_pick_
 slurm/                         # sbatch + shared_env.sh
 third_party/                   # r1pro.urdf, zexternal_utils.py (Mark's IK)
 openpi -> /shared_work/openpi  # symlink, gitignored
+behavior1k_statuschecker/      # separate project: VLM (LoRA-tuned Qwen3.5-0.8B) per-frame
+                                #   subskill annotator - see its own README
 ```
 
 ## Quick start
 
 ```bash
-# 1) Install (editable) so other code can `import behavior1k_mp`
-pip install -e /shared_work/behavior1k-mp
+# 1) Install (editable) so other code can `import behavior1k_motionplanner`
+pip install -e .
 
 # 2) (Optional) refit the phase detector for turning_on_radio
 python scripts/fit_phase_detector.py
@@ -61,7 +63,7 @@ maple eval    --task turning_on_radio --ckpt /path/to/ckpt
 
 ## Adding a new task
 
-See [docs/task_authoring.md](docs/task_authoring.md). Short version: drop a new folder into `behavior1k_mp/tasks/<name>/` that exports `TASK_NAME`, `TARGET_OBJECT_SCOPE_NAME`, `CHECKPOINT_DIR`, `SLOT_TO_SKILL_IDX`, `SKILL_TEMPLATES`, and `build_actions(env, robot, target_obj, vla)`.
+See [docs/task_authoring.md](docs/task_authoring.md). Short version: drop a new folder into `behavior1k_motionplanner/tasks/<name>/` that exports `TASK_NAME`, `TARGET_OBJECT_SCOPE_NAME`, `CHECKPOINT_DIR`, `SLOT_TO_SKILL_IDX`, `SKILL_TEMPLATES`, and `build_actions(env, robot, target_obj, vla)`.
 
 ## Docs
 

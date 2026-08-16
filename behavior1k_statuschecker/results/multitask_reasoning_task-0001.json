@@ -1,0 +1,332 @@
+{
+  "task_chunk": "task-0001",
+  "task_name": "picking up trash",
+  "accuracy": 0.6304347826086957,
+  "macro_recall": 0.5760416666666667,
+  "correct": 29,
+  "total": 46,
+  "predictions": [
+    {
+      "sec": 0,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The trash bin is on the floor and empty, with no soda can visible near the grippers.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 4,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding the trash bin and a soda can is visible on the floor, indicating the initial stage of the task.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 8,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The trash bin is on the floor and empty, with no soda can visible near the grippers.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 25,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The robot's grippers are empty and positioned near the floor, but no soda can is visible in the immediate vicinity of the grippers, making it impossible to confirm if the bin is being moved or if a can is being picked up.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a brown trash bin in its left gripper, and a soda can is visible on the floor near the right gripper, indicating the robot is approaching to pick it up.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 33,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a brown trash bin in its left gripper, and a soda can is visible on the floor near the right gripper, indicating the robot is approaching or has just picked up the can.\nAnswer: 2",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a brown trash bin in its left gripper, and a soda can is visible on the floor near the grippers, indicating the robot is approaching or has just picked up the can to place it in the bin.\nAnswer: 2",
+      "correct": false
+    },
+    {
+      "sec": 41,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a brown trash bin and a soda can is visible on the floor near the grippers, indicating the pick up phase.\nAnswer: 2",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding the trash bin and a soda can is visible on the floor near the grippers, indicating the action of picking up the can.\nAnswer: 2",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a brown trash bin in its left gripper, and a soda can is visible on the floor near the right gripper, indicating the robot is approaching or has just picked up the can to place it in the bin.\nAnswer: 2",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding a brown/white trash bin in its left hand, and a soda can is visible on the floor near the right gripper, indicating the robot is approaching or about to pick up the can.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 58,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding a brown/white trash bin in its left hand, and a soda can is on the floor near the right gripper, indicating the robot is approaching or has just picked up the bin to move toward the can.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 62,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding a brown/white trash bin in its hands, and a soda can is visible on the floor near the grippers, indicating the robot is approaching or has just picked up the can to place it in the bin.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 75,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a brown bin in its left gripper while the right gripper is positioned near the floor, suggesting it is about to pick up a soda can.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 79,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a brown trash bin in its left hand while its right hand reaches toward a soda can on the floor, indicating the action of picking up the can.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 83,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a brown trash bin in one gripper while the other gripper is positioned near a soda can on the floor, indicating the action of picking up the can.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 87,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a brown/white trash bin in its left arm, and a soda can is visible on the floor near the grippers, indicating the robot is approaching or has just picked up the can to place it in the bin.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 91,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a soda can in its right gripper, which is positioned very close to the floor, indicating the action of picking up the can.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 100,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is holding a soda can directly above the open mouth of the trash bin, indicating it is in the process of placing the can inside.\nAnswer: 3",
+      "correct": true
+    },
+    {
+      "sec": 112,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding a brown bin and appears to be moving forward, as the bin is not yet at the trash can.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 116,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot's grippers are empty and positioned near the floor, but no soda can is visible in the immediate vicinity of the grippers, making it indistinguishable from the \"move to\" state.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 120,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding a brown/white trash bin in its hands, and a soda can is visible on the floor near the bin, but the can is not in the grippers.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 125,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding a brown/white trash bin in its hands, and a soda can is visible on the floor near the bin, indicating the robot is approaching the trash can.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 129,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding a brown/white trash bin in its hands, and a soda can is visible on the floor near the bin, indicating the robot is approaching the trash can.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 133,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding a brown/white trash bin in its left hand, and a soda can is visible on the floor near the grippers, indicating the robot is approaching or has just picked up the can to place it in the bin.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 137,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a brown/white trash bin in its left hand, and a soda can is visible on the floor near the grippers, indicating the robot is approaching or has just picked up the can to place it in the bin.\nAnswer: 2",
+      "correct": false
+    },
+    {
+      "sec": 154,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a brown/white trash bin in its left arm, and a soda can is visible on the floor near the grippers, indicating the \"pick up from\" stage.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 158,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding a brown/white trash bin in its left arm, and a soda can is visible on the floor nearby, indicating the robot is approaching the can to pick it up.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 162,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding a brown/white trash bin in its left gripper, and a soda can is visible on the floor nearby, indicating it is approaching the can to pick it up.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 166,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a brown/white trash bin in one gripper and a soda can in the other, with the can positioned near the floor, indicating the action of picking it up.\nAnswer: 2",
+      "correct": false
+    },
+    {
+      "sec": 170,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is holding a soda can directly inside the open mouth of the trash bin, indicating the action of placing the can into the bin.\nAnswer: 3",
+      "correct": true
+    },
+    {
+      "sec": 183,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot's grippers are empty and positioned near the floor, but no soda can is visible within reach, indicating the robot is approaching the target.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 187,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding the trash bin and a soda can is on the floor, indicating the robot is moving toward the can to pick it up.\nAnswer: 1",
+      "correct": true
+    },
+    {
+      "sec": 191,
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is holding the trash bin and a soda can is visible inside it, indicating the action of placing the can into the bin.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 200,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's grippers are positioned over a soda can on the floor, with one gripper appearing to grasp or be near the can while the bin is held nearby.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 204,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding the trash bin in one hand while the other hand is positioned near the floor, suggesting it is about to pick up a soda can.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 208,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a soda can in its gripper while also holding the trash bin, indicating it is in the process of picking up the can.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 212,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's gripper is positioned directly over a soda can on the floor, indicating the action of picking it up.\nAnswer: 2",
+      "correct": true
+    },
+    {
+      "sec": 216,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The robot arm is positioned directly over the trash can, with a soda can visible inside the bin, indicating the action of placing the can into the container.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 220,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding a brown trash bin in its left gripper, and a soda can is visible on the floor near the right gripper, indicating the robot is approaching to pick it up.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 225,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is holding a brown trash bin with both grippers, and a soda can is visible inside the bin, indicating the action of placing the can into the bin.\nAnswer: 3",
+      "correct": true
+    },
+    {
+      "sec": 229,
+      "gt": "place on",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is holding a trash bin with a soda can inside it, positioned directly over the open mouth of the bin, indicating the action of placing the can inside.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 233,
+      "gt": "place on",
+      "pred": "move to",
+      "raw": "Reasoning: The robot's grippers are empty and positioned near the floor, with no soda can visible in the immediate vicinity, suggesting the robot is approaching the can to pick it up.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 237,
+      "gt": "place on",
+      "pred": "move to",
+      "raw": "Reasoning: The robot's grippers are empty and positioned near the floor, with no soda can visible in the immediate vicinity, suggesting the robot is approaching the target.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 241,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's grippers are open and empty, and the trash bin is resting on the floor, indicating the task of placing cans inside is complete.\nAnswer: 4",
+      "correct": true
+    },
+    {
+      "sec": 245,
+      "gt": "place on",
+      "pred": "move to",
+      "raw": "Reasoning: The robot's grippers are empty and positioned near the floor, with no soda can visible in the immediate vicinity, suggesting the robot is approaching the trash can.\nAnswer: 1",
+      "correct": false
+    }
+  ]
+}

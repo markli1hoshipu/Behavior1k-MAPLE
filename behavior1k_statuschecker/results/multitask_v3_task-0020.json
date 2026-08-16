@@ -1,0 +1,423 @@
+{
+  "task_chunk": "task-0020",
+  "task_name": "sorting vegetables",
+  "accuracy": 0.6271186440677966,
+  "macro_recall": 0.2986111111111111,
+  "correct": 37,
+  "total": 59,
+  "predictions": [
+    {
+      "sec": 6,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": true
+    },
+    {
+      "sec": 20,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": true
+    },
+    {
+      "sec": 27,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": true
+    },
+    {
+      "sec": 34,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": true
+    },
+    {
+      "sec": 41,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": true
+    },
+    {
+      "sec": 48,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 61,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": true
+    },
+    {
+      "sec": 68,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": true
+    },
+    {
+      "sec": 75,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": true
+    },
+    {
+      "sec": 82,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": true
+    },
+    {
+      "sec": 89,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 96,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": true
+    },
+    {
+      "sec": 103,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": true
+    },
+    {
+      "sec": 109,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": true
+    },
+    {
+      "sec": 116,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": true
+    },
+    {
+      "sec": 123,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 130,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 137,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": true
+    },
+    {
+      "sec": 144,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": true
+    },
+    {
+      "sec": 151,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 157,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": true
+    },
+    {
+      "sec": 164,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": true
+    },
+    {
+      "sec": 171,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": true
+    },
+    {
+      "sec": 178,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": true
+    },
+    {
+      "sec": 185,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 192,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 199,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 206,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 212,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": true
+    },
+    {
+      "sec": 219,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": true
+    },
+    {
+      "sec": 226,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": true
+    },
+    {
+      "sec": 233,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 240,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": true
+    },
+    {
+      "sec": 247,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": true
+    },
+    {
+      "sec": 254,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 260,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 267,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": true
+    },
+    {
+      "sec": 274,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": true
+    },
+    {
+      "sec": 281,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "1",
+      "correct": true
+    },
+    {
+      "sec": 288,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "1",
+      "correct": true
+    },
+    {
+      "sec": 295,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": true
+    },
+    {
+      "sec": 302,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": true
+    },
+    {
+      "sec": 309,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": true
+    },
+    {
+      "sec": 315,
+      "gt": "place in",
+      "pred": "move to",
+      "raw": "1",
+      "correct": false
+    },
+    {
+      "sec": 322,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 329,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": true
+    },
+    {
+      "sec": 336,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": true
+    },
+    {
+      "sec": 343,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 350,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 357,
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "4",
+      "correct": false
+    },
+    {
+      "sec": 363,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": true
+    },
+    {
+      "sec": 370,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": true
+    },
+    {
+      "sec": 377,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": true
+    },
+    {
+      "sec": 384,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": true
+    },
+    {
+      "sec": 391,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 398,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": false
+    },
+    {
+      "sec": 405,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "2",
+      "correct": false
+    }
+  ]
+}

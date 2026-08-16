@@ -1,0 +1,5268 @@
+{
+  "task_chunk": "task-0045",
+  "task_name": "cook_hot_dogs",
+  "accuracy": 0.7321156773211568,
+  "macro_recall": 0.6680555555555555,
+  "correct": 481,
+  "total": 657,
+  "n_classes": 12,
+  "unseen_gt_label_frames": 57,
+  "predictions": [
+    {
+      "sec": 0,
+      "episode": "episode_00450210",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00450210",
+      "gt": "move to fridge",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": false
+    },
+    {
+      "sec": 16,
+      "episode": "episode_00450210",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00450210",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00450210",
+      "gt": "move to fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 7,
+      "episode": "episode_00450220",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 15,
+      "episode": "episode_00450220",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 0,
+      "episode": "episode_00450230",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00450230",
+      "gt": "move to fridge",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": false
+    },
+    {
+      "sec": 16,
+      "episode": "episode_00450230",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00450230",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 1,
+      "episode": "episode_00450240",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00450240",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00450240",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 0,
+      "episode": "episode_00450250",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00450250",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 16,
+      "episode": "episode_00450250",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00450260",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 16,
+      "episode": "episode_00450260",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00450260",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 1,
+      "episode": "episode_00450270",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00450270",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00450270",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00450270",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 5,
+      "episode": "episode_00450280",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00450280",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00450280",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 0,
+      "episode": "episode_00450290",
+      "gt": "move to fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": false
+    },
+    {
+      "sec": 2,
+      "episode": "episode_00450300",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 10,
+      "episode": "episode_00450300",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 18,
+      "episode": "episode_00450300",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 5,
+      "episode": "episode_00450310",
+      "gt": "move to fridge",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00450310",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00450310",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 0,
+      "episode": "episode_00450320",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00450320",
+      "gt": "move to fridge",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": false
+    },
+    {
+      "sec": 16,
+      "episode": "episode_00450320",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00450320",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00450320",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 5,
+      "episode": "episode_00450330",
+      "gt": "move to fridge",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": false
+    },
+    {
+      "sec": 0,
+      "episode": "episode_00450340",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00450340",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 16,
+      "episode": "episode_00450340",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 1,
+      "episode": "episode_00450350",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00450350",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00450360",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 12,
+      "episode": "episode_00450360",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 20,
+      "episode": "episode_00450360",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 5,
+      "episode": "episode_00450370",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00450370",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 0,
+      "episode": "episode_00450380",
+      "gt": "move to fridge",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": false
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00450380",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 16,
+      "episode": "episode_00450380",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00450380",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 0,
+      "episode": "episode_00450390",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00450390",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 16,
+      "episode": "episode_00450390",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00450390",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 3,
+      "episode": "episode_00450400",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 11,
+      "episode": "episode_00450400",
+      "gt": "move to fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": true
+    },
+    {
+      "sec": 33,
+      "episode": "episode_00450210",
+      "gt": "open door fridge",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00450210",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00450210",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 60,
+      "episode": "episode_00450210",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 27,
+      "episode": "episode_00450220",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00450220",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00450220",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 187,
+      "episode": "episode_00450220",
+      "gt": "open door fridge",
+      "pred": "open door microwave",
+      "raw": "open door microwave",
+      "correct": false
+    },
+    {
+      "sec": 196,
+      "episode": "episode_00450220",
+      "gt": "open door fridge",
+      "pred": "open door microwave",
+      "raw": "open door microwave",
+      "correct": false
+    },
+    {
+      "sec": 205,
+      "episode": "episode_00450220",
+      "gt": "open door fridge",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00450230",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00450230",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00450230",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00450240",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00450240",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00450240",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00450240",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 26,
+      "episode": "episode_00450250",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00450250",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00450250",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00450260",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00450260",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00450260",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00450260",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00450270",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00450270",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00450270",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00450290",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 22,
+      "episode": "episode_00450290",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00450290",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 26,
+      "episode": "episode_00450300",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00450300",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00450300",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00450300",
+      "gt": "open door fridge",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00450310",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00450310",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00450310",
+      "gt": "open door fridge",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00450330",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00450330",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00450340",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 33,
+      "episode": "episode_00450340",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00450340",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 14,
+      "episode": "episode_00450350",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00450350",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00450350",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00450360",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 33,
+      "episode": "episode_00450360",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00450360",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 28,
+      "episode": "episode_00450370",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00450370",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00450370",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00450380",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00450380",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00450380",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00450390",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00450390",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00450390",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 58,
+      "episode": "episode_00450390",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 26,
+      "episode": "episode_00450400",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00450400",
+      "gt": "open door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": true
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00450210",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 89,
+      "episode": "episode_00450210",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 114,
+      "episode": "episode_00450210",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00450220",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 78,
+      "episode": "episode_00450220",
+      "gt": "pick up from hotdog",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 103,
+      "episode": "episode_00450220",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 232,
+      "episode": "episode_00450220",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 75,
+      "episode": "episode_00450230",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 99,
+      "episode": "episode_00450230",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 233,
+      "episode": "episode_00450230",
+      "gt": "pick up from hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": false
+    },
+    {
+      "sec": 72,
+      "episode": "episode_00450240",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 96,
+      "episode": "episode_00450240",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 238,
+      "episode": "episode_00450240",
+      "gt": "pick up from hotdog",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00450250",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 81,
+      "episode": "episode_00450250",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 106,
+      "episode": "episode_00450250",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 73,
+      "episode": "episode_00450260",
+      "gt": "pick up from hotdog",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 98,
+      "episode": "episode_00450260",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 122,
+      "episode": "episode_00450260",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 147,
+      "episode": "episode_00450260",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 300,
+      "episode": "episode_00450260",
+      "gt": "pick up from hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": false
+    },
+    {
+      "sec": 73,
+      "episode": "episode_00450270",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 98,
+      "episode": "episode_00450270",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 246,
+      "episode": "episode_00450270",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00450280",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 104,
+      "episode": "episode_00450280",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 253,
+      "episode": "episode_00450280",
+      "gt": "pick up from hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00450290",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 75,
+      "episode": "episode_00450290",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 210,
+      "episode": "episode_00450290",
+      "gt": "pick up from hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": false
+    },
+    {
+      "sec": 78,
+      "episode": "episode_00450300",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 102,
+      "episode": "episode_00450300",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00450310",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 86,
+      "episode": "episode_00450310",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 111,
+      "episode": "episode_00450310",
+      "gt": "pick up from hotdog",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": false
+    },
+    {
+      "sec": 63,
+      "episode": "episode_00450320",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 87,
+      "episode": "episode_00450320",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 112,
+      "episode": "episode_00450320",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 239,
+      "episode": "episode_00450320",
+      "gt": "pick up from hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00450330",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00450330",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 211,
+      "episode": "episode_00450330",
+      "gt": "pick up from hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": false
+    },
+    {
+      "sec": 69,
+      "episode": "episode_00450340",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 205,
+      "episode": "episode_00450340",
+      "gt": "pick up from hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00450350",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 81,
+      "episode": "episode_00450350",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 206,
+      "episode": "episode_00450350",
+      "gt": "pick up from hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "episode": "episode_00450360",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00450360",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 219,
+      "episode": "episode_00450360",
+      "gt": "pick up from hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": false
+    },
+    {
+      "sec": 73,
+      "episode": "episode_00450370",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 97,
+      "episode": "episode_00450370",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 226,
+      "episode": "episode_00450370",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00450380",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 105,
+      "episode": "episode_00450380",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 245,
+      "episode": "episode_00450380",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00450390",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 107,
+      "episode": "episode_00450390",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00450400",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00450400",
+      "gt": "pick up from hotdog",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": true
+    },
+    {
+      "sec": 122,
+      "episode": "episode_00450210",
+      "gt": "close door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 134,
+      "episode": "episode_00450210",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 146,
+      "episode": "episode_00450210",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 158,
+      "episode": "episode_00450210",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 133,
+      "episode": "episode_00450220",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 145,
+      "episode": "episode_00450220",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 122,
+      "episode": "episode_00450230",
+      "gt": "close door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 135,
+      "episode": "episode_00450230",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 147,
+      "episode": "episode_00450230",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 118,
+      "episode": "episode_00450240",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 131,
+      "episode": "episode_00450240",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 143,
+      "episode": "episode_00450240",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 112,
+      "episode": "episode_00450250",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 125,
+      "episode": "episode_00450250",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 137,
+      "episode": "episode_00450250",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 149,
+      "episode": "episode_00450250",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 161,
+      "episode": "episode_00450260",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 173,
+      "episode": "episode_00450260",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 185,
+      "episode": "episode_00450260",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 118,
+      "episode": "episode_00450270",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 130,
+      "episode": "episode_00450270",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 142,
+      "episode": "episode_00450270",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 154,
+      "episode": "episode_00450270",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 130,
+      "episode": "episode_00450280",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 142,
+      "episode": "episode_00450280",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 154,
+      "episode": "episode_00450280",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 89,
+      "episode": "episode_00450290",
+      "gt": "close door fridge",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": false
+    },
+    {
+      "sec": 101,
+      "episode": "episode_00450290",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 113,
+      "episode": "episode_00450290",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 126,
+      "episode": "episode_00450290",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 116,
+      "episode": "episode_00450300",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 128,
+      "episode": "episode_00450300",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 117,
+      "episode": "episode_00450310",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 129,
+      "episode": "episode_00450310",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00450310",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 140,
+      "episode": "episode_00450320",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 152,
+      "episode": "episode_00450320",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 164,
+      "episode": "episode_00450320",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 106,
+      "episode": "episode_00450330",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 118,
+      "episode": "episode_00450330",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 130,
+      "episode": "episode_00450330",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 93,
+      "episode": "episode_00450340",
+      "gt": "close door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 106,
+      "episode": "episode_00450340",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 118,
+      "episode": "episode_00450340",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 111,
+      "episode": "episode_00450350",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 124,
+      "episode": "episode_00450350",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 102,
+      "episode": "episode_00450360",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 114,
+      "episode": "episode_00450360",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 127,
+      "episode": "episode_00450360",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 116,
+      "episode": "episode_00450370",
+      "gt": "close door fridge",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": false
+    },
+    {
+      "sec": 128,
+      "episode": "episode_00450370",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00450370",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 122,
+      "episode": "episode_00450380",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 134,
+      "episode": "episode_00450380",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 147,
+      "episode": "episode_00450380",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 113,
+      "episode": "episode_00450390",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 125,
+      "episode": "episode_00450390",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00450400",
+      "gt": "close door fridge",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 94,
+      "episode": "episode_00450400",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 106,
+      "episode": "episode_00450400",
+      "gt": "close door fridge",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": true
+    },
+    {
+      "sec": 159,
+      "episode": "episode_00450210",
+      "gt": "move to microwave",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": false
+    },
+    {
+      "sec": 165,
+      "episode": "episode_00450210",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 172,
+      "episode": "episode_00450210",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 156,
+      "episode": "episode_00450220",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 163,
+      "episode": "episode_00450220",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 169,
+      "episode": "episode_00450220",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 160,
+      "episode": "episode_00450230",
+      "gt": "move to microwave",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": false
+    },
+    {
+      "sec": 167,
+      "episode": "episode_00450230",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 174,
+      "episode": "episode_00450230",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 155,
+      "episode": "episode_00450240",
+      "gt": "move to microwave",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": false
+    },
+    {
+      "sec": 162,
+      "episode": "episode_00450240",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 169,
+      "episode": "episode_00450240",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 161,
+      "episode": "episode_00450250",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 167,
+      "episode": "episode_00450250",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 174,
+      "episode": "episode_00450250",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 198,
+      "episode": "episode_00450260",
+      "gt": "move to microwave",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": false
+    },
+    {
+      "sec": 205,
+      "episode": "episode_00450260",
+      "gt": "move to microwave",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": false
+    },
+    {
+      "sec": 211,
+      "episode": "episode_00450260",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 218,
+      "episode": "episode_00450260",
+      "gt": "move to microwave",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": false
+    },
+    {
+      "sec": 159,
+      "episode": "episode_00450270",
+      "gt": "move to microwave",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": false
+    },
+    {
+      "sec": 166,
+      "episode": "episode_00450270",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 172,
+      "episode": "episode_00450270",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 168,
+      "episode": "episode_00450280",
+      "gt": "move to microwave",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": false
+    },
+    {
+      "sec": 175,
+      "episode": "episode_00450280",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 182,
+      "episode": "episode_00450280",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 188,
+      "episode": "episode_00450280",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 134,
+      "episode": "episode_00450290",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00450290",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00450300",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 147,
+      "episode": "episode_00450300",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 154,
+      "episode": "episode_00450300",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 150,
+      "episode": "episode_00450310",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 157,
+      "episode": "episode_00450310",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 163,
+      "episode": "episode_00450310",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 175,
+      "episode": "episode_00450320",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 182,
+      "episode": "episode_00450320",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 139,
+      "episode": "episode_00450330",
+      "gt": "move to microwave",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": false
+    },
+    {
+      "sec": 145,
+      "episode": "episode_00450330",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 152,
+      "episode": "episode_00450330",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 124,
+      "episode": "episode_00450340",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 131,
+      "episode": "episode_00450340",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 137,
+      "episode": "episode_00450340",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 134,
+      "episode": "episode_00450350",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00450350",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 139,
+      "episode": "episode_00450360",
+      "gt": "move to microwave",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": false
+    },
+    {
+      "sec": 145,
+      "episode": "episode_00450360",
+      "gt": "move to microwave",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": false
+    },
+    {
+      "sec": 152,
+      "episode": "episode_00450360",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 159,
+      "episode": "episode_00450360",
+      "gt": "move to microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": false
+    },
+    {
+      "sec": 157,
+      "episode": "episode_00450370",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 163,
+      "episode": "episode_00450370",
+      "gt": "move to microwave",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": false
+    },
+    {
+      "sec": 170,
+      "episode": "episode_00450370",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 158,
+      "episode": "episode_00450380",
+      "gt": "move to microwave",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": false
+    },
+    {
+      "sec": 165,
+      "episode": "episode_00450380",
+      "gt": "move to microwave",
+      "pred": "move to fridge",
+      "raw": "move to fridge",
+      "correct": false
+    },
+    {
+      "sec": 171,
+      "episode": "episode_00450380",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 137,
+      "episode": "episode_00450390",
+      "gt": "move to microwave",
+      "pred": "close door fridge",
+      "raw": "close door fridge",
+      "correct": false
+    },
+    {
+      "sec": 144,
+      "episode": "episode_00450390",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 151,
+      "episode": "episode_00450390",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 157,
+      "episode": "episode_00450390",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 123,
+      "episode": "episode_00450400",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 130,
+      "episode": "episode_00450400",
+      "gt": "move to microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": true
+    },
+    {
+      "sec": 179,
+      "episode": "episode_00450210",
+      "gt": "place on hotdog",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": false
+    },
+    {
+      "sec": 182,
+      "episode": "episode_00450210",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 185,
+      "episode": "episode_00450210",
+      "gt": "place on hotdog",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 175,
+      "episode": "episode_00450220",
+      "gt": "place on hotdog",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": false
+    },
+    {
+      "sec": 178,
+      "episode": "episode_00450220",
+      "gt": "place on hotdog",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 181,
+      "episode": "episode_00450220",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 179,
+      "episode": "episode_00450230",
+      "gt": "place on hotdog",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": false
+    },
+    {
+      "sec": 182,
+      "episode": "episode_00450230",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 185,
+      "episode": "episode_00450230",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 188,
+      "episode": "episode_00450230",
+      "gt": "place on hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": false
+    },
+    {
+      "sec": 174,
+      "episode": "episode_00450240",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 177,
+      "episode": "episode_00450240",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 177,
+      "episode": "episode_00450250",
+      "gt": "place on hotdog",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": false
+    },
+    {
+      "sec": 180,
+      "episode": "episode_00450250",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 183,
+      "episode": "episode_00450250",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 186,
+      "episode": "episode_00450250",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 224,
+      "episode": "episode_00450260",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 227,
+      "episode": "episode_00450260",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 230,
+      "episode": "episode_00450260",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 233,
+      "episode": "episode_00450260",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 236,
+      "episode": "episode_00450260",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 179,
+      "episode": "episode_00450270",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 182,
+      "episode": "episode_00450270",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 185,
+      "episode": "episode_00450270",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 189,
+      "episode": "episode_00450280",
+      "gt": "place on hotdog",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": false
+    },
+    {
+      "sec": 192,
+      "episode": "episode_00450280",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 195,
+      "episode": "episode_00450280",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 148,
+      "episode": "episode_00450290",
+      "gt": "place on hotdog",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": false
+    },
+    {
+      "sec": 151,
+      "episode": "episode_00450290",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 154,
+      "episode": "episode_00450290",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 157,
+      "episode": "episode_00450300",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 160,
+      "episode": "episode_00450300",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 163,
+      "episode": "episode_00450300",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 164,
+      "episode": "episode_00450310",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 167,
+      "episode": "episode_00450310",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 170,
+      "episode": "episode_00450310",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 190,
+      "episode": "episode_00450320",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 193,
+      "episode": "episode_00450320",
+      "gt": "place on hotdog",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 196,
+      "episode": "episode_00450320",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 160,
+      "episode": "episode_00450330",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 163,
+      "episode": "episode_00450330",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00450340",
+      "gt": "place on hotdog",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": false
+    },
+    {
+      "sec": 144,
+      "episode": "episode_00450340",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 147,
+      "episode": "episode_00450340",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 149,
+      "episode": "episode_00450350",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 152,
+      "episode": "episode_00450350",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 161,
+      "episode": "episode_00450360",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 164,
+      "episode": "episode_00450360",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 167,
+      "episode": "episode_00450360",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 173,
+      "episode": "episode_00450370",
+      "gt": "place on hotdog",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": false
+    },
+    {
+      "sec": 176,
+      "episode": "episode_00450370",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 179,
+      "episode": "episode_00450370",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 179,
+      "episode": "episode_00450380",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 182,
+      "episode": "episode_00450380",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 185,
+      "episode": "episode_00450380",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 160,
+      "episode": "episode_00450390",
+      "gt": "place on hotdog",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": false
+    },
+    {
+      "sec": 163,
+      "episode": "episode_00450390",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 166,
+      "episode": "episode_00450390",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 169,
+      "episode": "episode_00450390",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 139,
+      "episode": "episode_00450400",
+      "gt": "place on hotdog",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": true
+    },
+    {
+      "sec": 188,
+      "episode": "episode_00450210",
+      "gt": "open door microwave",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": false
+    },
+    {
+      "sec": 197,
+      "episode": "episode_00450210",
+      "gt": "open door microwave",
+      "pred": "open door microwave",
+      "raw": "open door microwave",
+      "correct": true
+    },
+    {
+      "sec": 206,
+      "episode": "episode_00450210",
+      "gt": "open door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 215,
+      "episode": "episode_00450210",
+      "gt": "open door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 196,
+      "episode": "episode_00450230",
+      "gt": "open door microwave",
+      "pred": "open door microwave",
+      "raw": "open door microwave",
+      "correct": true
+    },
+    {
+      "sec": 205,
+      "episode": "episode_00450230",
+      "gt": "open door microwave",
+      "pred": "open door microwave",
+      "raw": "open door microwave",
+      "correct": true
+    },
+    {
+      "sec": 182,
+      "episode": "episode_00450240",
+      "gt": "open door microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": false
+    },
+    {
+      "sec": 191,
+      "episode": "episode_00450240",
+      "gt": "open door microwave",
+      "pred": "open door microwave",
+      "raw": "open door microwave",
+      "correct": true
+    },
+    {
+      "sec": 201,
+      "episode": "episode_00450240",
+      "gt": "open door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 210,
+      "episode": "episode_00450240",
+      "gt": "open door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 190,
+      "episode": "episode_00450250",
+      "gt": "open door microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": false
+    },
+    {
+      "sec": 199,
+      "episode": "episode_00450250",
+      "gt": "open door microwave",
+      "pred": "open door microwave",
+      "raw": "open door microwave",
+      "correct": true
+    },
+    {
+      "sec": 208,
+      "episode": "episode_00450250",
+      "gt": "open door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 237,
+      "episode": "episode_00450260",
+      "gt": "open door microwave",
+      "pred": "pick up from hotdog",
+      "raw": "pick up from hotdog",
+      "correct": false
+    },
+    {
+      "sec": 246,
+      "episode": "episode_00450260",
+      "gt": "open door microwave",
+      "pred": "open door microwave",
+      "raw": "open door microwave",
+      "correct": true
+    },
+    {
+      "sec": 256,
+      "episode": "episode_00450260",
+      "gt": "open door microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": false
+    },
+    {
+      "sec": 189,
+      "episode": "episode_00450270",
+      "gt": "open door microwave",
+      "pred": null,
+      "raw": "move to hotdog",
+      "correct": false
+    },
+    {
+      "sec": 198,
+      "episode": "episode_00450270",
+      "gt": "open door microwave",
+      "pred": "open door microwave",
+      "raw": "open door microwave",
+      "correct": true
+    },
+    {
+      "sec": 207,
+      "episode": "episode_00450270",
+      "gt": "open door microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": false
+    },
+    {
+      "sec": 216,
+      "episode": "episode_00450270",
+      "gt": "open door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 202,
+      "episode": "episode_00450280",
+      "gt": "open door microwave",
+      "pred": "open door microwave",
+      "raw": "open door microwave",
+      "correct": true
+    },
+    {
+      "sec": 211,
+      "episode": "episode_00450280",
+      "gt": "open door microwave",
+      "pred": "open door microwave",
+      "raw": "open door microwave",
+      "correct": true
+    },
+    {
+      "sec": 220,
+      "episode": "episode_00450280",
+      "gt": "open door microwave",
+      "pred": "open door microwave",
+      "raw": "open door microwave",
+      "correct": true
+    },
+    {
+      "sec": 163,
+      "episode": "episode_00450290",
+      "gt": "open door microwave",
+      "pred": "open door microwave",
+      "raw": "open door microwave",
+      "correct": true
+    },
+    {
+      "sec": 172,
+      "episode": "episode_00450290",
+      "gt": "open door microwave",
+      "pred": "open door microwave",
+      "raw": "open door microwave",
+      "correct": true
+    },
+    {
+      "sec": 181,
+      "episode": "episode_00450290",
+      "gt": "open door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 174,
+      "episode": "episode_00450300",
+      "gt": "open door microwave",
+      "pred": "open door microwave",
+      "raw": "open door microwave",
+      "correct": true
+    },
+    {
+      "sec": 183,
+      "episode": "episode_00450300",
+      "gt": "open door microwave",
+      "pred": "open door microwave",
+      "raw": "open door microwave",
+      "correct": true
+    },
+    {
+      "sec": 192,
+      "episode": "episode_00450300",
+      "gt": "open door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 201,
+      "episode": "episode_00450300",
+      "gt": "open door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 180,
+      "episode": "episode_00450310",
+      "gt": "open door microwave",
+      "pred": "open door microwave",
+      "raw": "open door microwave",
+      "correct": true
+    },
+    {
+      "sec": 189,
+      "episode": "episode_00450310",
+      "gt": "open door microwave",
+      "pred": "open door microwave",
+      "raw": "open door microwave",
+      "correct": true
+    },
+    {
+      "sec": 198,
+      "episode": "episode_00450310",
+      "gt": "open door microwave",
+      "pred": "open door microwave",
+      "raw": "open door microwave",
+      "correct": true
+    },
+    {
+      "sec": 207,
+      "episode": "episode_00450310",
+      "gt": "open door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 205,
+      "episode": "episode_00450320",
+      "gt": "open door microwave",
+      "pred": "open door microwave",
+      "raw": "open door microwave",
+      "correct": true
+    },
+    {
+      "sec": 214,
+      "episode": "episode_00450320",
+      "gt": "open door microwave",
+      "pred": "open door microwave",
+      "raw": "open door microwave",
+      "correct": true
+    },
+    {
+      "sec": 168,
+      "episode": "episode_00450330",
+      "gt": "open door microwave",
+      "pred": "open door microwave",
+      "raw": "open door microwave",
+      "correct": true
+    },
+    {
+      "sec": 177,
+      "episode": "episode_00450330",
+      "gt": "open door microwave",
+      "pred": "open door microwave",
+      "raw": "open door microwave",
+      "correct": true
+    },
+    {
+      "sec": 187,
+      "episode": "episode_00450330",
+      "gt": "open door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 157,
+      "episode": "episode_00450340",
+      "gt": "open door microwave",
+      "pred": "open door microwave",
+      "raw": "open door microwave",
+      "correct": true
+    },
+    {
+      "sec": 166,
+      "episode": "episode_00450340",
+      "gt": "open door microwave",
+      "pred": "move to microwave",
+      "raw": "move to microwave",
+      "correct": false
+    },
+    {
+      "sec": 175,
+      "episode": "episode_00450340",
+      "gt": "open door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 156,
+      "episode": "episode_00450350",
+      "gt": "open door microwave",
+      "pred": "place on hotdog",
+      "raw": "place on hotdog",
+      "correct": false
+    },
+    {
+      "sec": 165,
+      "episode": "episode_00450350",
+      "gt": "open door microwave",
+      "pred": "open door microwave",
+      "raw": "open door microwave",
+      "correct": true
+    },
+    {
+      "sec": 174,
+      "episode": "episode_00450350",
+      "gt": "open door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 184,
+      "episode": "episode_00450350",
+      "gt": "open door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 175,
+      "episode": "episode_00450360",
+      "gt": "open door microwave",
+      "pred": "open door microwave",
+      "raw": "open door microwave",
+      "correct": true
+    },
+    {
+      "sec": 184,
+      "episode": "episode_00450360",
+      "gt": "open door microwave",
+      "pred": "open door microwave",
+      "raw": "open door microwave",
+      "correct": true
+    },
+    {
+      "sec": 193,
+      "episode": "episode_00450360",
+      "gt": "open door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 191,
+      "episode": "episode_00450370",
+      "gt": "open door microwave",
+      "pred": "open door microwave",
+      "raw": "open door microwave",
+      "correct": true
+    },
+    {
+      "sec": 200,
+      "episode": "episode_00450370",
+      "gt": "open door microwave",
+      "pred": "open door microwave",
+      "raw": "open door microwave",
+      "correct": true
+    },
+    {
+      "sec": 191,
+      "episode": "episode_00450380",
+      "gt": "open door microwave",
+      "pred": "open door microwave",
+      "raw": "open door microwave",
+      "correct": true
+    },
+    {
+      "sec": 200,
+      "episode": "episode_00450380",
+      "gt": "open door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 210,
+      "episode": "episode_00450380",
+      "gt": "open door microwave",
+      "pred": "open door microwave",
+      "raw": "open door microwave",
+      "correct": true
+    },
+    {
+      "sec": 172,
+      "episode": "episode_00450390",
+      "gt": "open door microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": false
+    },
+    {
+      "sec": 181,
+      "episode": "episode_00450390",
+      "gt": "open door microwave",
+      "pred": "open door microwave",
+      "raw": "open door microwave",
+      "correct": true
+    },
+    {
+      "sec": 190,
+      "episode": "episode_00450390",
+      "gt": "open door microwave",
+      "pred": "open door microwave",
+      "raw": "open door microwave",
+      "correct": true
+    },
+    {
+      "sec": 199,
+      "episode": "episode_00450390",
+      "gt": "open door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 149,
+      "episode": "episode_00450400",
+      "gt": "open door microwave",
+      "pred": "open door microwave",
+      "raw": "open door microwave",
+      "correct": true
+    },
+    {
+      "sec": 158,
+      "episode": "episode_00450400",
+      "gt": "open door microwave",
+      "pred": "open door microwave",
+      "raw": "open door microwave",
+      "correct": true
+    },
+    {
+      "sec": 217,
+      "episode": "episode_00450210",
+      "gt": "place in hotdog",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 226,
+      "episode": "episode_00450210",
+      "gt": "place in hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": true
+    },
+    {
+      "sec": 253,
+      "episode": "episode_00450210",
+      "gt": "place in hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": true
+    },
+    {
+      "sec": 263,
+      "episode": "episode_00450210",
+      "gt": "place in hotdog",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 219,
+      "episode": "episode_00450220",
+      "gt": "place in hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": true
+    },
+    {
+      "sec": 246,
+      "episode": "episode_00450220",
+      "gt": "place in hotdog",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 213,
+      "episode": "episode_00450230",
+      "gt": "place in hotdog",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 223,
+      "episode": "episode_00450230",
+      "gt": "place in hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": true
+    },
+    {
+      "sec": 247,
+      "episode": "episode_00450230",
+      "gt": "place in hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": true
+    },
+    {
+      "sec": 256,
+      "episode": "episode_00450230",
+      "gt": "place in hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": true
+    },
+    {
+      "sec": 224,
+      "episode": "episode_00450240",
+      "gt": "place in hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": true
+    },
+    {
+      "sec": 234,
+      "episode": "episode_00450240",
+      "gt": "place in hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": true
+    },
+    {
+      "sec": 262,
+      "episode": "episode_00450240",
+      "gt": "place in hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": true
+    },
+    {
+      "sec": 217,
+      "episode": "episode_00450250",
+      "gt": "place in hotdog",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 227,
+      "episode": "episode_00450250",
+      "gt": "place in hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": true
+    },
+    {
+      "sec": 254,
+      "episode": "episode_00450250",
+      "gt": "place in hotdog",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 264,
+      "episode": "episode_00450250",
+      "gt": "place in hotdog",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 272,
+      "episode": "episode_00450260",
+      "gt": "place in hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": true
+    },
+    {
+      "sec": 282,
+      "episode": "episode_00450260",
+      "gt": "place in hotdog",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 312,
+      "episode": "episode_00450260",
+      "gt": "place in hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": true
+    },
+    {
+      "sec": 322,
+      "episode": "episode_00450260",
+      "gt": "place in hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": true
+    },
+    {
+      "sec": 227,
+      "episode": "episode_00450270",
+      "gt": "place in hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": true
+    },
+    {
+      "sec": 237,
+      "episode": "episode_00450270",
+      "gt": "place in hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": true
+    },
+    {
+      "sec": 263,
+      "episode": "episode_00450270",
+      "gt": "place in hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": true
+    },
+    {
+      "sec": 229,
+      "episode": "episode_00450280",
+      "gt": "place in hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": true
+    },
+    {
+      "sec": 238,
+      "episode": "episode_00450280",
+      "gt": "place in hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": true
+    },
+    {
+      "sec": 266,
+      "episode": "episode_00450280",
+      "gt": "place in hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": true
+    },
+    {
+      "sec": 276,
+      "episode": "episode_00450280",
+      "gt": "place in hotdog",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 191,
+      "episode": "episode_00450290",
+      "gt": "place in hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": true
+    },
+    {
+      "sec": 214,
+      "episode": "episode_00450290",
+      "gt": "place in hotdog",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 224,
+      "episode": "episode_00450290",
+      "gt": "place in hotdog",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 215,
+      "episode": "episode_00450300",
+      "gt": "place in hotdog",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 240,
+      "episode": "episode_00450300",
+      "gt": "place in hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": true
+    },
+    {
+      "sec": 214,
+      "episode": "episode_00450310",
+      "gt": "place in hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": true
+    },
+    {
+      "sec": 239,
+      "episode": "episode_00450310",
+      "gt": "place in hotdog",
+      "pred": "open door microwave",
+      "raw": "open door microwave",
+      "correct": false
+    },
+    {
+      "sec": 249,
+      "episode": "episode_00450310",
+      "gt": "place in hotdog",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 230,
+      "episode": "episode_00450320",
+      "gt": "place in hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": true
+    },
+    {
+      "sec": 253,
+      "episode": "episode_00450320",
+      "gt": "place in hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": true
+    },
+    {
+      "sec": 194,
+      "episode": "episode_00450330",
+      "gt": "place in hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": true
+    },
+    {
+      "sec": 204,
+      "episode": "episode_00450330",
+      "gt": "place in hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": true
+    },
+    {
+      "sec": 226,
+      "episode": "episode_00450330",
+      "gt": "place in hotdog",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": false
+    },
+    {
+      "sec": 189,
+      "episode": "episode_00450340",
+      "gt": "place in hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": true
+    },
+    {
+      "sec": 199,
+      "episode": "episode_00450340",
+      "gt": "place in hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": true
+    },
+    {
+      "sec": 223,
+      "episode": "episode_00450340",
+      "gt": "place in hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": true
+    },
+    {
+      "sec": 196,
+      "episode": "episode_00450350",
+      "gt": "place in hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": true
+    },
+    {
+      "sec": 219,
+      "episode": "episode_00450350",
+      "gt": "place in hotdog",
+      "pred": "open door microwave",
+      "raw": "open door microwave",
+      "correct": false
+    },
+    {
+      "sec": 229,
+      "episode": "episode_00450350",
+      "gt": "place in hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": true
+    },
+    {
+      "sec": 204,
+      "episode": "episode_00450360",
+      "gt": "place in hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": true
+    },
+    {
+      "sec": 227,
+      "episode": "episode_00450360",
+      "gt": "place in hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": true
+    },
+    {
+      "sec": 210,
+      "episode": "episode_00450370",
+      "gt": "place in hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": true
+    },
+    {
+      "sec": 232,
+      "episode": "episode_00450370",
+      "gt": "place in hotdog",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": false
+    },
+    {
+      "sec": 217,
+      "episode": "episode_00450380",
+      "gt": "place in hotdog",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 227,
+      "episode": "episode_00450380",
+      "gt": "place in hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": true
+    },
+    {
+      "sec": 248,
+      "episode": "episode_00450380",
+      "gt": "place in hotdog",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 258,
+      "episode": "episode_00450380",
+      "gt": "place in hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": true
+    },
+    {
+      "sec": 209,
+      "episode": "episode_00450390",
+      "gt": "place in hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": true
+    },
+    {
+      "sec": 241,
+      "episode": "episode_00450390",
+      "gt": "place in hotdog",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 250,
+      "episode": "episode_00450390",
+      "gt": "place in hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": true
+    },
+    {
+      "sec": 172,
+      "episode": "episode_00450400",
+      "gt": "place in hotdog",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 182,
+      "episode": "episode_00450400",
+      "gt": "place in hotdog",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": true
+    },
+    {
+      "sec": 264,
+      "episode": "episode_00450210",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 266,
+      "episode": "episode_00450210",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 269,
+      "episode": "episode_00450210",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 257,
+      "episode": "episode_00450220",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 260,
+      "episode": "episode_00450220",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 262,
+      "episode": "episode_00450220",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 258,
+      "episode": "episode_00450230",
+      "gt": "close door microwave",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": false
+    },
+    {
+      "sec": 260,
+      "episode": "episode_00450230",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 263,
+      "episode": "episode_00450230",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 271,
+      "episode": "episode_00450240",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 274,
+      "episode": "episode_00450240",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 277,
+      "episode": "episode_00450240",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 279,
+      "episode": "episode_00450240",
+      "gt": "close door microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": false
+    },
+    {
+      "sec": 266,
+      "episode": "episode_00450250",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 268,
+      "episode": "episode_00450250",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 271,
+      "episode": "episode_00450250",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 273,
+      "episode": "episode_00450250",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 327,
+      "episode": "episode_00450260",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 329,
+      "episode": "episode_00450260",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 332,
+      "episode": "episode_00450260",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 335,
+      "episode": "episode_00450260",
+      "gt": "close door microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": false
+    },
+    {
+      "sec": 269,
+      "episode": "episode_00450270",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 272,
+      "episode": "episode_00450270",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 277,
+      "episode": "episode_00450280",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 280,
+      "episode": "episode_00450280",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 282,
+      "episode": "episode_00450280",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 285,
+      "episode": "episode_00450280",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 226,
+      "episode": "episode_00450290",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 229,
+      "episode": "episode_00450290",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 243,
+      "episode": "episode_00450300",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 246,
+      "episode": "episode_00450300",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 249,
+      "episode": "episode_00450300",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 251,
+      "episode": "episode_00450310",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 254,
+      "episode": "episode_00450310",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 259,
+      "episode": "episode_00450320",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 262,
+      "episode": "episode_00450320",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 264,
+      "episode": "episode_00450320",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 230,
+      "episode": "episode_00450330",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 232,
+      "episode": "episode_00450330",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 235,
+      "episode": "episode_00450330",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 227,
+      "episode": "episode_00450340",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 229,
+      "episode": "episode_00450340",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 230,
+      "episode": "episode_00450350",
+      "gt": "close door microwave",
+      "pred": "place in hotdog",
+      "raw": "place in hotdog",
+      "correct": false
+    },
+    {
+      "sec": 232,
+      "episode": "episode_00450350",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 235,
+      "episode": "episode_00450350",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 233,
+      "episode": "episode_00450360",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 236,
+      "episode": "episode_00450360",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 238,
+      "episode": "episode_00450360",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 244,
+      "episode": "episode_00450370",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 246,
+      "episode": "episode_00450370",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 249,
+      "episode": "episode_00450370",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 262,
+      "episode": "episode_00450380",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 264,
+      "episode": "episode_00450380",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 267,
+      "episode": "episode_00450380",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 256,
+      "episode": "episode_00450390",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 259,
+      "episode": "episode_00450390",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 261,
+      "episode": "episode_00450390",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 208,
+      "episode": "episode_00450400",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 210,
+      "episode": "episode_00450400",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 213,
+      "episode": "episode_00450400",
+      "gt": "close door microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": true
+    },
+    {
+      "sec": 272,
+      "episode": "episode_00450210",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 274,
+      "episode": "episode_00450210",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 276,
+      "episode": "episode_00450210",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 266,
+      "episode": "episode_00450220",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 268,
+      "episode": "episode_00450220",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 271,
+      "episode": "episode_00450220",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 265,
+      "episode": "episode_00450230",
+      "gt": "turn on switch microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 268,
+      "episode": "episode_00450230",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 270,
+      "episode": "episode_00450230",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 273,
+      "episode": "episode_00450230",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 282,
+      "episode": "episode_00450240",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 285,
+      "episode": "episode_00450240",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 287,
+      "episode": "episode_00450240",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 275,
+      "episode": "episode_00450250",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 277,
+      "episode": "episode_00450250",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 337,
+      "episode": "episode_00450260",
+      "gt": "turn on switch microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 339,
+      "episode": "episode_00450260",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 341,
+      "episode": "episode_00450260",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 344,
+      "episode": "episode_00450260",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 274,
+      "episode": "episode_00450270",
+      "gt": "turn on switch microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 277,
+      "episode": "episode_00450270",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 279,
+      "episode": "episode_00450270",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 287,
+      "episode": "episode_00450280",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 289,
+      "episode": "episode_00450280",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 292,
+      "episode": "episode_00450280",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 232,
+      "episode": "episode_00450290",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 235,
+      "episode": "episode_00450290",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 237,
+      "episode": "episode_00450290",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 250,
+      "episode": "episode_00450300",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 252,
+      "episode": "episode_00450300",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 256,
+      "episode": "episode_00450310",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 258,
+      "episode": "episode_00450310",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 260,
+      "episode": "episode_00450310",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 268,
+      "episode": "episode_00450320",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 270,
+      "episode": "episode_00450320",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 237,
+      "episode": "episode_00450330",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 239,
+      "episode": "episode_00450330",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 242,
+      "episode": "episode_00450330",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 234,
+      "episode": "episode_00450340",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 237,
+      "episode": "episode_00450340",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 239,
+      "episode": "episode_00450340",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 238,
+      "episode": "episode_00450350",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 240,
+      "episode": "episode_00450350",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 243,
+      "episode": "episode_00450350",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 245,
+      "episode": "episode_00450350",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 239,
+      "episode": "episode_00450360",
+      "gt": "turn on switch microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 241,
+      "episode": "episode_00450360",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 243,
+      "episode": "episode_00450360",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 246,
+      "episode": "episode_00450360",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 251,
+      "episode": "episode_00450370",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 254,
+      "episode": "episode_00450370",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 256,
+      "episode": "episode_00450370",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 269,
+      "episode": "episode_00450380",
+      "gt": "turn on switch microwave",
+      "pred": "close door microwave",
+      "raw": "close door microwave",
+      "correct": false
+    },
+    {
+      "sec": 271,
+      "episode": "episode_00450380",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 274,
+      "episode": "episode_00450380",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 276,
+      "episode": "episode_00450380",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 264,
+      "episode": "episode_00450390",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 266,
+      "episode": "episode_00450390",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 217,
+      "episode": "episode_00450400",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 219,
+      "episode": "episode_00450400",
+      "gt": "turn on switch microwave",
+      "pred": "turn on switch microwave",
+      "raw": "turn on switch microwave",
+      "correct": true
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00450280",
+      "gt": "open door hotdog",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00450280",
+      "gt": "open door hotdog",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00450280",
+      "gt": "open door hotdog",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00450280",
+      "gt": "open door hotdog",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 33,
+      "episode": "episode_00450280",
+      "gt": "open door hotdog",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "episode": "episode_00450280",
+      "gt": "open door hotdog",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00450280",
+      "gt": "open door hotdog",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00450280",
+      "gt": "open door hotdog",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00450280",
+      "gt": "open door hotdog",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00450280",
+      "gt": "open door hotdog",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00450280",
+      "gt": "open door hotdog",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00450280",
+      "gt": "open door hotdog",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00450280",
+      "gt": "open door hotdog",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00450280",
+      "gt": "open door hotdog",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00450280",
+      "gt": "open door hotdog",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00450280",
+      "gt": "open door hotdog",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00450280",
+      "gt": "open door hotdog",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00450280",
+      "gt": "open door hotdog",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00450280",
+      "gt": "open door hotdog",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00450280",
+      "gt": "open door hotdog",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00450280",
+      "gt": "open door hotdog",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00450280",
+      "gt": "open door hotdog",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00450280",
+      "gt": "open door hotdog",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "episode": "episode_00450280",
+      "gt": "open door hotdog",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00450280",
+      "gt": "open door hotdog",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00450280",
+      "gt": "open door hotdog",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00450280",
+      "gt": "open door hotdog",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00450280",
+      "gt": "open door hotdog",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00450280",
+      "gt": "open door hotdog",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "episode": "episode_00450280",
+      "gt": "open door hotdog",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 59,
+      "episode": "episode_00450280",
+      "gt": "open door hotdog",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 60,
+      "episode": "episode_00450280",
+      "gt": "open door hotdog",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 61,
+      "episode": "episode_00450280",
+      "gt": "open door hotdog",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00450320",
+      "gt": "open door floors",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00450320",
+      "gt": "open door floors",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00450320",
+      "gt": "open door floors",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00450320",
+      "gt": "open door floors",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00450320",
+      "gt": "open door floors",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00450320",
+      "gt": "open door floors",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00450320",
+      "gt": "open door floors",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00450320",
+      "gt": "open door floors",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00450320",
+      "gt": "open door floors",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00450320",
+      "gt": "open door floors",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00450320",
+      "gt": "open door floors",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00450320",
+      "gt": "open door floors",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00450320",
+      "gt": "open door floors",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00450320",
+      "gt": "open door floors",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00450320",
+      "gt": "open door floors",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00450320",
+      "gt": "open door floors",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00450320",
+      "gt": "open door floors",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "episode": "episode_00450320",
+      "gt": "open door floors",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00450320",
+      "gt": "open door floors",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00450320",
+      "gt": "open door floors",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00450320",
+      "gt": "open door floors",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00450320",
+      "gt": "open door floors",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00450320",
+      "gt": "open door floors",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "episode": "episode_00450320",
+      "gt": "open door floors",
+      "pred": "open door fridge",
+      "raw": "open door fridge",
+      "correct": false
+    }
+  ]
+}

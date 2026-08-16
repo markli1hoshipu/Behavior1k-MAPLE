@@ -1,0 +1,2932 @@
+{
+  "task_chunk": "task-0068",
+  "task_name": "cleaning_up_branches_and_twigs",
+  "accuracy": 0.6575342465753424,
+  "macro_recall": 0.5714285714285714,
+  "correct": 240,
+  "total": 365,
+  "n_classes": 7,
+  "unseen_gt_label_frames": 5,
+  "predictions": [
+    {
+      "sec": 0,
+      "episode": "episode_00680290",
+      "gt": "move to recycling bin",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": false
+    },
+    {
+      "sec": 178,
+      "episode": "episode_00680290",
+      "gt": "move to recycling bin",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": false
+    },
+    {
+      "sec": 331,
+      "episode": "episode_00680290",
+      "gt": "move to recycling bin",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00680300",
+      "gt": "move to recycling bin",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": false
+    },
+    {
+      "sec": 188,
+      "episode": "episode_00680300",
+      "gt": "move to recycling bin",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 301,
+      "episode": "episode_00680300",
+      "gt": "move to recycling bin",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00680310",
+      "gt": "move to recycling bin",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": false
+    },
+    {
+      "sec": 208,
+      "episode": "episode_00680310",
+      "gt": "move to recycling bin",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": false
+    },
+    {
+      "sec": 384,
+      "episode": "episode_00680310",
+      "gt": "move to recycling bin",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00680330",
+      "gt": "move to recycling bin",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 7,
+      "episode": "episode_00680340",
+      "gt": "move to recycling bin",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": false
+    },
+    {
+      "sec": 152,
+      "episode": "episode_00680340",
+      "gt": "move to recycling bin",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 303,
+      "episode": "episode_00680340",
+      "gt": "move to recycling bin",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 5,
+      "episode": "episode_00680350",
+      "gt": "move to recycling bin",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00680350",
+      "gt": "move to recycling bin",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": false
+    },
+    {
+      "sec": 293,
+      "episode": "episode_00680350",
+      "gt": "move to recycling bin",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": false
+    },
+    {
+      "sec": 394,
+      "episode": "episode_00680350",
+      "gt": "move to recycling bin",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "episode": "episode_00680360",
+      "gt": "move to recycling bin",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 252,
+      "episode": "episode_00680360",
+      "gt": "move to recycling bin",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 403,
+      "episode": "episode_00680360",
+      "gt": "move to recycling bin",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": false
+    },
+    {
+      "sec": 20,
+      "episode": "episode_00680370",
+      "gt": "move to recycling bin",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 183,
+      "episode": "episode_00680370",
+      "gt": "move to recycling bin",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": false
+    },
+    {
+      "sec": 345,
+      "episode": "episode_00680370",
+      "gt": "move to recycling bin",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 108,
+      "episode": "episode_00680380",
+      "gt": "move to recycling bin",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": false
+    },
+    {
+      "sec": 275,
+      "episode": "episode_00680380",
+      "gt": "move to recycling bin",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 379,
+      "episode": "episode_00680380",
+      "gt": "move to recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 190,
+      "episode": "episode_00680400",
+      "gt": "move to recycling bin",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": false
+    },
+    {
+      "sec": 354,
+      "episode": "episode_00680400",
+      "gt": "move to recycling bin",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00680420",
+      "gt": "move to recycling bin",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00680420",
+      "gt": "move to recycling bin",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 278,
+      "episode": "episode_00680420",
+      "gt": "move to recycling bin",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 437,
+      "episode": "episode_00680420",
+      "gt": "move to recycling bin",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 474,
+      "episode": "episode_00680420",
+      "gt": "move to recycling bin",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00680430",
+      "gt": "move to recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 355,
+      "episode": "episode_00680430",
+      "gt": "move to recycling bin",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": false
+    },
+    {
+      "sec": 392,
+      "episode": "episode_00680430",
+      "gt": "move to recycling bin",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00680450",
+      "gt": "move to recycling bin",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 236,
+      "episode": "episode_00680450",
+      "gt": "move to recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 391,
+      "episode": "episode_00680450",
+      "gt": "move to recycling bin",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 352,
+      "episode": "episode_00680480",
+      "gt": "move to recycling bin",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 90,
+      "episode": "episode_00680490",
+      "gt": "move to recycling bin",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": false
+    },
+    {
+      "sec": 293,
+      "episode": "episode_00680490",
+      "gt": "move to recycling bin",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": false
+    },
+    {
+      "sec": 330,
+      "episode": "episode_00680490",
+      "gt": "move to recycling bin",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00680500",
+      "gt": "move to recycling bin",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 237,
+      "episode": "episode_00680500",
+      "gt": "move to recycling bin",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": false
+    },
+    {
+      "sec": 428,
+      "episode": "episode_00680500",
+      "gt": "move to recycling bin",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00680510",
+      "gt": "move to recycling bin",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": false
+    },
+    {
+      "sec": 174,
+      "episode": "episode_00680510",
+      "gt": "move to recycling bin",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 268,
+      "episode": "episode_00680510",
+      "gt": "move to recycling bin",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": false
+    },
+    {
+      "sec": 305,
+      "episode": "episode_00680510",
+      "gt": "move to recycling bin",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 401,
+      "episode": "episode_00680510",
+      "gt": "move to recycling bin",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00680530",
+      "gt": "move to recycling bin",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00680530",
+      "gt": "move to recycling bin",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 208,
+      "episode": "episode_00680530",
+      "gt": "move to recycling bin",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 385,
+      "episode": "episode_00680530",
+      "gt": "move to recycling bin",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 2,
+      "episode": "episode_00680540",
+      "gt": "move to recycling bin",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": false
+    },
+    {
+      "sec": 177,
+      "episode": "episode_00680540",
+      "gt": "move to recycling bin",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 348,
+      "episode": "episode_00680540",
+      "gt": "move to recycling bin",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00680580",
+      "gt": "move to recycling bin",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 313,
+      "episode": "episode_00680580",
+      "gt": "move to recycling bin",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00680290",
+      "gt": "open lid recycling bin",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "episode": "episode_00680290",
+      "gt": "open lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 59,
+      "episode": "episode_00680290",
+      "gt": "open lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 78,
+      "episode": "episode_00680290",
+      "gt": "open lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00680300",
+      "gt": "open lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00680300",
+      "gt": "open lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00680310",
+      "gt": "open lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00680310",
+      "gt": "open lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 77,
+      "episode": "episode_00680310",
+      "gt": "open lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "episode": "episode_00680330",
+      "gt": "open lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00680330",
+      "gt": "open lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 73,
+      "episode": "episode_00680330",
+      "gt": "open lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 92,
+      "episode": "episode_00680330",
+      "gt": "open lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 112,
+      "episode": "episode_00680330",
+      "gt": "open lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 33,
+      "episode": "episode_00680340",
+      "gt": "open lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 61,
+      "episode": "episode_00680340",
+      "gt": "open lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 81,
+      "episode": "episode_00680340",
+      "gt": "open lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00680350",
+      "gt": "open lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00680350",
+      "gt": "open lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 101,
+      "episode": "episode_00680350",
+      "gt": "open lid recycling bin",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": false
+    },
+    {
+      "sec": 86,
+      "episode": "episode_00680360",
+      "gt": "open lid recycling bin",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": false
+    },
+    {
+      "sec": 105,
+      "episode": "episode_00680360",
+      "gt": "open lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 125,
+      "episode": "episode_00680360",
+      "gt": "open lid recycling bin",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00680370",
+      "gt": "open lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 67,
+      "episode": "episode_00680370",
+      "gt": "open lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00680380",
+      "gt": "open lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00680380",
+      "gt": "open lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00680400",
+      "gt": "open lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00680400",
+      "gt": "open lid recycling bin",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": false
+    },
+    {
+      "sec": 74,
+      "episode": "episode_00680400",
+      "gt": "open lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 94,
+      "episode": "episode_00680400",
+      "gt": "open lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 60,
+      "episode": "episode_00680420",
+      "gt": "open lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00680420",
+      "gt": "open lid recycling bin",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": false
+    },
+    {
+      "sec": 10,
+      "episode": "episode_00680430",
+      "gt": "open lid recycling bin",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00680430",
+      "gt": "open lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 61,
+      "episode": "episode_00680430",
+      "gt": "open lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 81,
+      "episode": "episode_00680430",
+      "gt": "open lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00680450",
+      "gt": "open lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 77,
+      "episode": "episode_00680450",
+      "gt": "open lid recycling bin",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 97,
+      "episode": "episode_00680450",
+      "gt": "open lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 116,
+      "episode": "episode_00680450",
+      "gt": "open lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00680480",
+      "gt": "open lid recycling bin",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00680480",
+      "gt": "open lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 74,
+      "episode": "episode_00680480",
+      "gt": "open lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 93,
+      "episode": "episode_00680480",
+      "gt": "open lid recycling bin",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00680490",
+      "gt": "open lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00680500",
+      "gt": "open lid recycling bin",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": false
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00680500",
+      "gt": "open lid recycling bin",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00680500",
+      "gt": "open lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 101,
+      "episode": "episode_00680500",
+      "gt": "open lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00680510",
+      "gt": "open lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 61,
+      "episode": "episode_00680510",
+      "gt": "open lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 81,
+      "episode": "episode_00680510",
+      "gt": "open lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 87,
+      "episode": "episode_00680530",
+      "gt": "open lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00680540",
+      "gt": "open lid recycling bin",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 59,
+      "episode": "episode_00680540",
+      "gt": "open lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 78,
+      "episode": "episode_00680540",
+      "gt": "open lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 18,
+      "episode": "episode_00680580",
+      "gt": "open lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00680580",
+      "gt": "open lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 69,
+      "episode": "episode_00680580",
+      "gt": "open lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 81,
+      "episode": "episode_00680290",
+      "gt": "move to branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": false
+    },
+    {
+      "sec": 126,
+      "episode": "episode_00680290",
+      "gt": "move to branch",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 229,
+      "episode": "episode_00680290",
+      "gt": "move to branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": false
+    },
+    {
+      "sec": 91,
+      "episode": "episode_00680300",
+      "gt": "move to branch",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00680300",
+      "gt": "move to branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": false
+    },
+    {
+      "sec": 254,
+      "episode": "episode_00680300",
+      "gt": "move to branch",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 350,
+      "episode": "episode_00680300",
+      "gt": "move to branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": true
+    },
+    {
+      "sec": 118,
+      "episode": "episode_00680310",
+      "gt": "move to branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": true
+    },
+    {
+      "sec": 236,
+      "episode": "episode_00680310",
+      "gt": "move to branch",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 274,
+      "episode": "episode_00680310",
+      "gt": "move to branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": true
+    },
+    {
+      "sec": 333,
+      "episode": "episode_00680310",
+      "gt": "move to branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": false
+    },
+    {
+      "sec": 164,
+      "episode": "episode_00680330",
+      "gt": "move to branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": false
+    },
+    {
+      "sec": 241,
+      "episode": "episode_00680330",
+      "gt": "move to branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": true
+    },
+    {
+      "sec": 293,
+      "episode": "episode_00680330",
+      "gt": "move to branch",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 87,
+      "episode": "episode_00680340",
+      "gt": "move to branch",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 205,
+      "episode": "episode_00680340",
+      "gt": "move to branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": true
+    },
+    {
+      "sec": 348,
+      "episode": "episode_00680340",
+      "gt": "move to branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": true
+    },
+    {
+      "sec": 165,
+      "episode": "episode_00680350",
+      "gt": "move to branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": false
+    },
+    {
+      "sec": 338,
+      "episode": "episode_00680350",
+      "gt": "move to branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": true
+    },
+    {
+      "sec": 162,
+      "episode": "episode_00680360",
+      "gt": "move to branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": false
+    },
+    {
+      "sec": 212,
+      "episode": "episode_00680360",
+      "gt": "move to branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": false
+    },
+    {
+      "sec": 322,
+      "episode": "episode_00680360",
+      "gt": "move to branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": true
+    },
+    {
+      "sec": 124,
+      "episode": "episode_00680370",
+      "gt": "move to branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": true
+    },
+    {
+      "sec": 219,
+      "episode": "episode_00680370",
+      "gt": "move to branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": true
+    },
+    {
+      "sec": 285,
+      "episode": "episode_00680370",
+      "gt": "move to branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": true
+    },
+    {
+      "sec": 142,
+      "episode": "episode_00680380",
+      "gt": "move to branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": true
+    },
+    {
+      "sec": 206,
+      "episode": "episode_00680380",
+      "gt": "move to branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": true
+    },
+    {
+      "sec": 120,
+      "episode": "episode_00680400",
+      "gt": "move to branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": true
+    },
+    {
+      "sec": 243,
+      "episode": "episode_00680400",
+      "gt": "move to branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": true
+    },
+    {
+      "sec": 309,
+      "episode": "episode_00680400",
+      "gt": "move to branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": true
+    },
+    {
+      "sec": 171,
+      "episode": "episode_00680420",
+      "gt": "move to branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": true
+    },
+    {
+      "sec": 231,
+      "episode": "episode_00680420",
+      "gt": "move to branch",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 369,
+      "episode": "episode_00680420",
+      "gt": "move to branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": true
+    },
+    {
+      "sec": 113,
+      "episode": "episode_00680430",
+      "gt": "move to branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": true
+    },
+    {
+      "sec": 247,
+      "episode": "episode_00680430",
+      "gt": "move to branch",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 285,
+      "episode": "episode_00680430",
+      "gt": "move to branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": true
+    },
+    {
+      "sec": 135,
+      "episode": "episode_00680450",
+      "gt": "move to branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": true
+    },
+    {
+      "sec": 256,
+      "episode": "episode_00680450",
+      "gt": "move to branch",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 320,
+      "episode": "episode_00680450",
+      "gt": "move to branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": false
+    },
+    {
+      "sec": 144,
+      "episode": "episode_00680480",
+      "gt": "move to branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": true
+    },
+    {
+      "sec": 232,
+      "episode": "episode_00680480",
+      "gt": "move to branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": true
+    },
+    {
+      "sec": 299,
+      "episode": "episode_00680480",
+      "gt": "move to branch",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 118,
+      "episode": "episode_00680490",
+      "gt": "move to branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": true
+    },
+    {
+      "sec": 207,
+      "episode": "episode_00680490",
+      "gt": "move to branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": true
+    },
+    {
+      "sec": 246,
+      "episode": "episode_00680490",
+      "gt": "move to branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": true
+    },
+    {
+      "sec": 166,
+      "episode": "episode_00680500",
+      "gt": "move to branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": true
+    },
+    {
+      "sec": 294,
+      "episode": "episode_00680500",
+      "gt": "move to branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": true
+    },
+    {
+      "sec": 391,
+      "episode": "episode_00680500",
+      "gt": "move to branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": true
+    },
+    {
+      "sec": 135,
+      "episode": "episode_00680510",
+      "gt": "move to branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": true
+    },
+    {
+      "sec": 245,
+      "episode": "episode_00680510",
+      "gt": "move to branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": true
+    },
+    {
+      "sec": 351,
+      "episode": "episode_00680510",
+      "gt": "move to branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": true
+    },
+    {
+      "sec": 119,
+      "episode": "episode_00680530",
+      "gt": "move to branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": true
+    },
+    {
+      "sec": 250,
+      "episode": "episode_00680530",
+      "gt": "move to branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": true
+    },
+    {
+      "sec": 288,
+      "episode": "episode_00680530",
+      "gt": "move to branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": true
+    },
+    {
+      "sec": 103,
+      "episode": "episode_00680540",
+      "gt": "move to branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": true
+    },
+    {
+      "sec": 211,
+      "episode": "episode_00680540",
+      "gt": "move to branch",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 250,
+      "episode": "episode_00680540",
+      "gt": "move to branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": true
+    },
+    {
+      "sec": 96,
+      "episode": "episode_00680580",
+      "gt": "move to branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": true
+    },
+    {
+      "sec": 143,
+      "episode": "episode_00680580",
+      "gt": "move to branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": false
+    },
+    {
+      "sec": 235,
+      "episode": "episode_00680580",
+      "gt": "move to branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": true
+    },
+    {
+      "sec": 113,
+      "episode": "episode_00680290",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 238,
+      "episode": "episode_00680290",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 293,
+      "episode": "episode_00680290",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 146,
+      "episode": "episode_00680300",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 270,
+      "episode": "episode_00680300",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 388,
+      "episode": "episode_00680300",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 181,
+      "episode": "episode_00680310",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 305,
+      "episode": "episode_00680310",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 356,
+      "episode": "episode_00680310",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 202,
+      "episode": "episode_00680330",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 342,
+      "episode": "episode_00680330",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 135,
+      "episode": "episode_00680340",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 237,
+      "episode": "episode_00680340",
+      "gt": "pick up from branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": false
+    },
+    {
+      "sec": 278,
+      "episode": "episode_00680340",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 377,
+      "episode": "episode_00680340",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 138,
+      "episode": "episode_00680350",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 176,
+      "episode": "episode_00680350",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 286,
+      "episode": "episode_00680350",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 373,
+      "episode": "episode_00680350",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 237,
+      "episode": "episode_00680360",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 339,
+      "episode": "episode_00680360",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 86,
+      "episode": "episode_00680370",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 155,
+      "episode": "episode_00680370",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 271,
+      "episode": "episode_00680370",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 307,
+      "episode": "episode_00680370",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 151,
+      "episode": "episode_00680380",
+      "gt": "pick up from branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": false
+    },
+    {
+      "sec": 217,
+      "episode": "episode_00680380",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 335,
+      "episode": "episode_00680380",
+      "gt": "pick up from branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": false
+    },
+    {
+      "sec": 364,
+      "episode": "episode_00680380",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 174,
+      "episode": "episode_00680400",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 289,
+      "episode": "episode_00680400",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 340,
+      "episode": "episode_00680400",
+      "gt": "pick up from branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": false
+    },
+    {
+      "sec": 202,
+      "episode": "episode_00680420",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 246,
+      "episode": "episode_00680420",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 412,
+      "episode": "episode_00680420",
+      "gt": "pick up from branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": false
+    },
+    {
+      "sec": 131,
+      "episode": "episode_00680430",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 187,
+      "episode": "episode_00680430",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 334,
+      "episode": "episode_00680430",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 164,
+      "episode": "episode_00680450",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 211,
+      "episode": "episode_00680450",
+      "gt": "pick up from branch",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 306,
+      "episode": "episode_00680450",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 349,
+      "episode": "episode_00680450",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 136,
+      "episode": "episode_00680480",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 249,
+      "episode": "episode_00680480",
+      "gt": "pick up from branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": false
+    },
+    {
+      "sec": 314,
+      "episode": "episode_00680480",
+      "gt": "pick up from branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": false
+    },
+    {
+      "sec": 72,
+      "episode": "episode_00680490",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 155,
+      "episode": "episode_00680490",
+      "gt": "pick up from branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": false
+    },
+    {
+      "sec": 282,
+      "episode": "episode_00680490",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 197,
+      "episode": "episode_00680500",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 325,
+      "episode": "episode_00680500",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 404,
+      "episode": "episode_00680500",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 117,
+      "episode": "episode_00680510",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 379,
+      "episode": "episode_00680510",
+      "gt": "pick up from branch",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 180,
+      "episode": "episode_00680530",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 310,
+      "episode": "episode_00680530",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 362,
+      "episode": "episode_00680530",
+      "gt": "pick up from branch",
+      "pred": "move to recycling bin",
+      "raw": "move to recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 163,
+      "episode": "episode_00680540",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 299,
+      "episode": "episode_00680540",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 127,
+      "episode": "episode_00680580",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 260,
+      "episode": "episode_00680580",
+      "gt": "pick up from branch",
+      "pred": "pick up from branch",
+      "raw": "pick up from branch",
+      "correct": true
+    },
+    {
+      "sec": 192,
+      "episode": "episode_00680290",
+      "gt": "place in branch",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 206,
+      "episode": "episode_00680290",
+      "gt": "place in branch",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 364,
+      "episode": "episode_00680290",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 198,
+      "episode": "episode_00680300",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 212,
+      "episode": "episode_00680300",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 316,
+      "episode": "episode_00680300",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 427,
+      "episode": "episode_00680300",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 227,
+      "episode": "episode_00680310",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 412,
+      "episode": "episode_00680310",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 426,
+      "episode": "episode_00680310",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 221,
+      "episode": "episode_00680330",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 370,
+      "episode": "episode_00680330",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 385,
+      "episode": "episode_00680330",
+      "gt": "place in branch",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 182,
+      "episode": "episode_00680340",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 311,
+      "episode": "episode_00680340",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 424,
+      "episode": "episode_00680340",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 219,
+      "episode": "episode_00680350",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 233,
+      "episode": "episode_00680350",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 247,
+      "episode": "episode_00680350",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 404,
+      "episode": "episode_00680350",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 275,
+      "episode": "episode_00680360",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 289,
+      "episode": "episode_00680360",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 430,
+      "episode": "episode_00680360",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 113,
+      "episode": "episode_00680370",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 201,
+      "episode": "episode_00680370",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 374,
+      "episode": "episode_00680370",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 116,
+      "episode": "episode_00680380",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 308,
+      "episode": "episode_00680380",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 392,
+      "episode": "episode_00680380",
+      "gt": "place in branch",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 226,
+      "episode": "episode_00680400",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 389,
+      "episode": "episode_00680400",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 403,
+      "episode": "episode_00680400",
+      "gt": "place in branch",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 152,
+      "episode": "episode_00680420",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 318,
+      "episode": "episode_00680420",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 332,
+      "episode": "episode_00680420",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 227,
+      "episode": "episode_00680430",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 242,
+      "episode": "episode_00680430",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 414,
+      "episode": "episode_00680430",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 246,
+      "episode": "episode_00680450",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 411,
+      "episode": "episode_00680450",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 210,
+      "episode": "episode_00680480",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 365,
+      "episode": "episode_00680480",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 379,
+      "episode": "episode_00680480",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 178,
+      "episode": "episode_00680490",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 347,
+      "episode": "episode_00680490",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 361,
+      "episode": "episode_00680490",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 273,
+      "episode": "episode_00680500",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 358,
+      "episode": "episode_00680500",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 452,
+      "episode": "episode_00680500",
+      "gt": "place in branch",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": false
+    },
+    {
+      "sec": 214,
+      "episode": "episode_00680510",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 326,
+      "episode": "episode_00680510",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 227,
+      "episode": "episode_00680530",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 241,
+      "episode": "episode_00680530",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 431,
+      "episode": "episode_00680530",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 445,
+      "episode": "episode_00680530",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 200,
+      "episode": "episode_00680540",
+      "gt": "place in branch",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 379,
+      "episode": "episode_00680540",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 393,
+      "episode": "episode_00680540",
+      "gt": "place in branch",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 214,
+      "episode": "episode_00680580",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 362,
+      "episode": "episode_00680580",
+      "gt": "place in branch",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": true
+    },
+    {
+      "sec": 376,
+      "episode": "episode_00680290",
+      "gt": "close lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 379,
+      "episode": "episode_00680290",
+      "gt": "close lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 382,
+      "episode": "episode_00680290",
+      "gt": "close lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 385,
+      "episode": "episode_00680290",
+      "gt": "close lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 434,
+      "episode": "episode_00680300",
+      "gt": "close lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 437,
+      "episode": "episode_00680300",
+      "gt": "close lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 432,
+      "episode": "episode_00680310",
+      "gt": "close lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 435,
+      "episode": "episode_00680310",
+      "gt": "close lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 389,
+      "episode": "episode_00680330",
+      "gt": "close lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 392,
+      "episode": "episode_00680330",
+      "gt": "close lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 395,
+      "episode": "episode_00680330",
+      "gt": "close lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 437,
+      "episode": "episode_00680340",
+      "gt": "close lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 441,
+      "episode": "episode_00680340",
+      "gt": "close lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 411,
+      "episode": "episode_00680350",
+      "gt": "close lid recycling bin",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": false
+    },
+    {
+      "sec": 414,
+      "episode": "episode_00680350",
+      "gt": "close lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 440,
+      "episode": "episode_00680360",
+      "gt": "close lid recycling bin",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": false
+    },
+    {
+      "sec": 443,
+      "episode": "episode_00680360",
+      "gt": "close lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 446,
+      "episode": "episode_00680360",
+      "gt": "close lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 449,
+      "episode": "episode_00680360",
+      "gt": "close lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 390,
+      "episode": "episode_00680370",
+      "gt": "close lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 393,
+      "episode": "episode_00680370",
+      "gt": "close lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 396,
+      "episode": "episode_00680370",
+      "gt": "close lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 394,
+      "episode": "episode_00680380",
+      "gt": "close lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 398,
+      "episode": "episode_00680380",
+      "gt": "close lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 406,
+      "episode": "episode_00680400",
+      "gt": "close lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 409,
+      "episode": "episode_00680400",
+      "gt": "close lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 412,
+      "episode": "episode_00680400",
+      "gt": "close lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 501,
+      "episode": "episode_00680420",
+      "gt": "close lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 504,
+      "episode": "episode_00680420",
+      "gt": "close lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 507,
+      "episode": "episode_00680420",
+      "gt": "close lid recycling bin",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": false
+    },
+    {
+      "sec": 424,
+      "episode": "episode_00680430",
+      "gt": "close lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 427,
+      "episode": "episode_00680430",
+      "gt": "close lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 430,
+      "episode": "episode_00680430",
+      "gt": "close lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 433,
+      "episode": "episode_00680430",
+      "gt": "close lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 417,
+      "episode": "episode_00680450",
+      "gt": "close lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 420,
+      "episode": "episode_00680450",
+      "gt": "close lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 423,
+      "episode": "episode_00680450",
+      "gt": "close lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 385,
+      "episode": "episode_00680480",
+      "gt": "close lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 389,
+      "episode": "episode_00680480",
+      "gt": "close lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 392,
+      "episode": "episode_00680480",
+      "gt": "close lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 395,
+      "episode": "episode_00680480",
+      "gt": "close lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 363,
+      "episode": "episode_00680490",
+      "gt": "close lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 367,
+      "episode": "episode_00680490",
+      "gt": "close lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 370,
+      "episode": "episode_00680490",
+      "gt": "close lid recycling bin",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": false
+    },
+    {
+      "sec": 373,
+      "episode": "episode_00680490",
+      "gt": "close lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 466,
+      "episode": "episode_00680500",
+      "gt": "close lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 469,
+      "episode": "episode_00680500",
+      "gt": "close lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 472,
+      "episode": "episode_00680500",
+      "gt": "close lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 475,
+      "episode": "episode_00680500",
+      "gt": "close lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 479,
+      "episode": "episode_00680500",
+      "gt": "close lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 442,
+      "episode": "episode_00680510",
+      "gt": "close lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 445,
+      "episode": "episode_00680510",
+      "gt": "close lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 448,
+      "episode": "episode_00680510",
+      "gt": "close lid recycling bin",
+      "pred": "move to branch",
+      "raw": "move to branch",
+      "correct": false
+    },
+    {
+      "sec": 450,
+      "episode": "episode_00680530",
+      "gt": "close lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 453,
+      "episode": "episode_00680530",
+      "gt": "close lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 395,
+      "episode": "episode_00680540",
+      "gt": "close lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 398,
+      "episode": "episode_00680540",
+      "gt": "close lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 402,
+      "episode": "episode_00680540",
+      "gt": "close lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 378,
+      "episode": "episode_00680580",
+      "gt": "close lid recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": true
+    },
+    {
+      "sec": 381,
+      "episode": "episode_00680580",
+      "gt": "close lid recycling bin",
+      "pred": "open lid recycling bin",
+      "raw": "open lid recycling bin",
+      "correct": false
+    },
+    {
+      "sec": 249,
+      "episode": "episode_00680450",
+      "gt": "place in recycling bin",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": false
+    },
+    {
+      "sec": 250,
+      "episode": "episode_00680450",
+      "gt": "place in recycling bin",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": false
+    },
+    {
+      "sec": 251,
+      "episode": "episode_00680450",
+      "gt": "place in recycling bin",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": false
+    },
+    {
+      "sec": 252,
+      "episode": "episode_00680450",
+      "gt": "place in recycling bin",
+      "pred": "place in branch",
+      "raw": "place in branch",
+      "correct": false
+    },
+    {
+      "sec": 253,
+      "episode": "episode_00680450",
+      "gt": "place in recycling bin",
+      "pred": "close lid recycling bin",
+      "raw": "close lid recycling bin",
+      "correct": false
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+You are generating training data for fine-tuning a small vision-language model
+to classify a robot's subskill from a single camera frame, for the household task:
+"Take the onion out of the sink, dice it on the chopping board, and put it in the bowl."
+
+Possible labels for this task: ['chop', 'move to', 'pick up from', 'place in', 'place on', 'place on next to', 'pour', 'push to']
+
+Below is every frame from one episode, each tagged with its ALREADY-KNOWN CORRECT label
+(from ground-truth motion-capture annotation - you are NOT being asked to guess or verify
+it, it is certain). Your job is to read each frame (use your Read tool) and write a
+SHORT, honest, visually-grounded justification for why that label fits THIS SPECIFIC
+frame - point to what is actually visible (arm position, what's being touched, what's in
+view), not generic task knowledge. If the frame genuinely doesn't show anything that
+distinguishes this label from a neighboring one (e.g. it's an approach frame with no
+robot parts visible), say so honestly in the reasoning rather than inventing a
+visual detail that isn't there - the fine-tuned model needs to learn realistic reasoning,
+not confident hallucination.
+
+- sec 3 [KNOWN CORRECT LABEL: move to]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0003.jpg
+- sec 7 [KNOWN CORRECT LABEL: move to]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0007.jpg
+- sec 10 [KNOWN CORRECT LABEL: move to]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0010.jpg
+- sec 14 [KNOWN CORRECT LABEL: move to]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0014.jpg
+- sec 18 [KNOWN CORRECT LABEL: move to]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0018.jpg
+- sec 21 [KNOWN CORRECT LABEL: move to]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0021.jpg
+- sec 25 [KNOWN CORRECT LABEL: move to]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0025.jpg
+- sec 29 [KNOWN CORRECT LABEL: move to]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0029.jpg
+- sec 32 [KNOWN CORRECT LABEL: move to]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0032.jpg
+- sec 36 [KNOWN CORRECT LABEL: move to]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0036.jpg
+- sec 39 [KNOWN CORRECT LABEL: pick up from]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0039.jpg
+- sec 43 [KNOWN CORRECT LABEL: pick up from]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0043.jpg
+- sec 47 [KNOWN CORRECT LABEL: pick up from]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0047.jpg
+- sec 50 [KNOWN CORRECT LABEL: move to]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0050.jpg
+- sec 54 [KNOWN CORRECT LABEL: pick up from]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0054.jpg
+- sec 58 [KNOWN CORRECT LABEL: pick up from]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0058.jpg
+- sec 61 [KNOWN CORRECT LABEL: pick up from]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0061.jpg
+- sec 65 [KNOWN CORRECT LABEL: place on next to]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0065.jpg
+- sec 69 [KNOWN CORRECT LABEL: place on next to]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0069.jpg
+- sec 72 [KNOWN CORRECT LABEL: place on next to]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0072.jpg
+- sec 76 [KNOWN CORRECT LABEL: place on next to]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0076.jpg
+- sec 79 [KNOWN CORRECT LABEL: move to]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0079.jpg
+- sec 83 [KNOWN CORRECT LABEL: pick up from]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0083.jpg
+- sec 87 [KNOWN CORRECT LABEL: pick up from]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0087.jpg
+- sec 90 [KNOWN CORRECT LABEL: pick up from]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0090.jpg
+- sec 94 [KNOWN CORRECT LABEL: move to]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0094.jpg
+- sec 98 [KNOWN CORRECT LABEL: pick up from]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0098.jpg
+- sec 101 [KNOWN CORRECT LABEL: pick up from]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0101.jpg
+- sec 105 [KNOWN CORRECT LABEL: place on]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0105.jpg
+- sec 109 [KNOWN CORRECT LABEL: place on]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0109.jpg
+- sec 112 [KNOWN CORRECT LABEL: push to]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0112.jpg
+- sec 116 [KNOWN CORRECT LABEL: push to]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0116.jpg
+- sec 119 [KNOWN CORRECT LABEL: push to]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0119.jpg
+- sec 123 [KNOWN CORRECT LABEL: push to]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0123.jpg
+- sec 127 [KNOWN CORRECT LABEL: push to]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0127.jpg
+- sec 130 [KNOWN CORRECT LABEL: chop]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0130.jpg
+- sec 134 [KNOWN CORRECT LABEL: push to]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0134.jpg
+- sec 138 [KNOWN CORRECT LABEL: push to]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0138.jpg
+- sec 141 [KNOWN CORRECT LABEL: chop]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0141.jpg
+- sec 145 [KNOWN CORRECT LABEL: chop]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0145.jpg
+- sec 148 [KNOWN CORRECT LABEL: chop]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0148.jpg
+- sec 152 [KNOWN CORRECT LABEL: chop]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0152.jpg
+- sec 156 [KNOWN CORRECT LABEL: place in]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0156.jpg
+- sec 159 [KNOWN CORRECT LABEL: place in]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0159.jpg
+- sec 163 [KNOWN CORRECT LABEL: pick up from]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0163.jpg
+- sec 167 [KNOWN CORRECT LABEL: pick up from]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0167.jpg
+- sec 170 [KNOWN CORRECT LABEL: pick up from]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0170.jpg
+- sec 174 [KNOWN CORRECT LABEL: pick up from]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0174.jpg
+- sec 178 [KNOWN CORRECT LABEL: pour]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0178.jpg
+- sec 181 [KNOWN CORRECT LABEL: pour]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0181.jpg
+- sec 185 [KNOWN CORRECT LABEL: pour]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0185.jpg
+- sec 188 [KNOWN CORRECT LABEL: pour]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0188.jpg
+- sec 192 [KNOWN CORRECT LABEL: pour]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0192.jpg
+- sec 196 [KNOWN CORRECT LABEL: pour]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0196.jpg
+- sec 199 [KNOWN CORRECT LABEL: place in]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0199.jpg
+- sec 203 [KNOWN CORRECT LABEL: place in]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0203.jpg
+- sec 207 [KNOWN CORRECT LABEL: place in]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0207.jpg
+- sec 210 [KNOWN CORRECT LABEL: place in]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0210.jpg
+- sec 214 [KNOWN CORRECT LABEL: place in]: /shared_work/markhsp/behavior1k-statuschecker/multitask_data/task-0042/frames/sec_0214.jpg
+
+Output EXACTLY one block per frame, in this format, nothing else (no preamble, no
+summary):
+
+sec_<NNNN>: Reasoning: <one short sentence, grounded in what's visible> | Answer: <label>
+sec_<NNNN>: Reasoning: <one short sentence, grounded in what's visible> | Answer: <label>
+...
+
+(one line per frame, in the same order as listed above, using the exact 4-digit
+zero-padded sec_NNNN identifier and the exact label text given)

@@ -1,0 +1,6252 @@
+{
+  "task_chunk": "task-0002",
+  "task_name": "putting_away_Halloween_decorations",
+  "accuracy": 0.07692307692307693,
+  "macro_recall": 0.07692307692307693,
+  "correct": 60,
+  "total": 780,
+  "n_classes": 13,
+  "unseen_gt_label_frames": 0,
+  "predictions": [
+    {
+      "sec": 0,
+      "episode": "episode_00020210",
+      "gt": "move to pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 96,
+      "episode": "episode_00020210",
+      "gt": "move to pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 131,
+      "episode": "episode_00020210",
+      "gt": "move to pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 297,
+      "episode": "episode_00020220",
+      "gt": "move to pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 343,
+      "episode": "episode_00020220",
+      "gt": "move to pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 409,
+      "episode": "episode_00020220",
+      "gt": "move to pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 423,
+      "episode": "episode_00020220",
+      "gt": "move to pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 102,
+      "episode": "episode_00020230",
+      "gt": "move to pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 131,
+      "episode": "episode_00020230",
+      "gt": "move to pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 181,
+      "episode": "episode_00020240",
+      "gt": "move to pillar candle",
+      "pred": "place in pillar candle",
+      "raw": "11. place in pillar candle",
+      "correct": false
+    },
+    {
+      "sec": 238,
+      "episode": "episode_00020240",
+      "gt": "move to pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 270,
+      "episode": "episode_00020240",
+      "gt": "move to pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 285,
+      "episode": "episode_00020240",
+      "gt": "move to pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 10,
+      "episode": "episode_00020250",
+      "gt": "move to pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 113,
+      "episode": "episode_00020250",
+      "gt": "move to pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 139,
+      "episode": "episode_00020250",
+      "gt": "move to pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 188,
+      "episode": "episode_00020260",
+      "gt": "move to pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 265,
+      "episode": "episode_00020260",
+      "gt": "move to pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 295,
+      "episode": "episode_00020260",
+      "gt": "move to pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 309,
+      "episode": "episode_00020260",
+      "gt": "move to pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 94,
+      "episode": "episode_00020270",
+      "gt": "move to pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 192,
+      "episode": "episode_00020270",
+      "gt": "move to pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 207,
+      "episode": "episode_00020270",
+      "gt": "move to pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 83,
+      "episode": "episode_00020280",
+      "gt": "move to pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 155,
+      "episode": "episode_00020280",
+      "gt": "move to pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 281,
+      "episode": "episode_00020290",
+      "gt": "move to pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 259,
+      "episode": "episode_00020300",
+      "gt": "move to pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 296,
+      "episode": "episode_00020300",
+      "gt": "move to pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 311,
+      "episode": "episode_00020300",
+      "gt": "move to pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 364,
+      "episode": "episode_00020300",
+      "gt": "move to pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 247,
+      "episode": "episode_00020310",
+      "gt": "move to pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 282,
+      "episode": "episode_00020310",
+      "gt": "move to pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 296,
+      "episode": "episode_00020310",
+      "gt": "move to pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 287,
+      "episode": "episode_00020320",
+      "gt": "move to pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 367,
+      "episode": "episode_00020320",
+      "gt": "move to pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 382,
+      "episode": "episode_00020320",
+      "gt": "move to pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00020330",
+      "gt": "move to pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 122,
+      "episode": "episode_00020330",
+      "gt": "move to pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 252,
+      "episode": "episode_00020350",
+      "gt": "move to pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 317,
+      "episode": "episode_00020350",
+      "gt": "move to pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 206,
+      "episode": "episode_00020360",
+      "gt": "move to pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 233,
+      "episode": "episode_00020360",
+      "gt": "move to pillar candle",
+      "pred": "place in pillar candle",
+      "raw": "11. place in pillar candle",
+      "correct": false
+    },
+    {
+      "sec": 247,
+      "episode": "episode_00020360",
+      "gt": "move to pillar candle",
+      "pred": "place in pillar candle",
+      "raw": "11. place in pillar candle",
+      "correct": false
+    },
+    {
+      "sec": 318,
+      "episode": "episode_00020360",
+      "gt": "move to pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 377,
+      "episode": "episode_00020390",
+      "gt": "move to pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 481,
+      "episode": "episode_00020390",
+      "gt": "move to pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 496,
+      "episode": "episode_00020390",
+      "gt": "move to pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 510,
+      "episode": "episode_00020390",
+      "gt": "move to pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 329,
+      "episode": "episode_00020400",
+      "gt": "move to pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 344,
+      "episode": "episode_00020400",
+      "gt": "move to pillar candle",
+      "pred": "place in pillar candle",
+      "raw": "11. place in pillar candle",
+      "correct": false
+    },
+    {
+      "sec": 358,
+      "episode": "episode_00020400",
+      "gt": "move to pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 450,
+      "episode": "episode_00020400",
+      "gt": "move to pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00020410",
+      "gt": "move to pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 95,
+      "episode": "episode_00020410",
+      "gt": "move to pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 110,
+      "episode": "episode_00020410",
+      "gt": "move to pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 214,
+      "episode": "episode_00020410",
+      "gt": "move to pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 237,
+      "episode": "episode_00020430",
+      "gt": "move to pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 252,
+      "episode": "episode_00020430",
+      "gt": "move to pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00020440",
+      "gt": "move to pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 122,
+      "episode": "episode_00020440",
+      "gt": "move to pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 14,
+      "episode": "episode_00020210",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 33,
+      "episode": "episode_00020210",
+      "gt": "pick up from pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 124,
+      "episode": "episode_00020210",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 315,
+      "episode": "episode_00020220",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 335,
+      "episode": "episode_00020220",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 362,
+      "episode": "episode_00020220",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 438,
+      "episode": "episode_00020220",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pillar candle",
+      "raw": "11. place in pillar candle",
+      "correct": false
+    },
+    {
+      "sec": 6,
+      "episode": "episode_00020230",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00020230",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 120,
+      "episode": "episode_00020230",
+      "gt": "pick up from pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 190,
+      "episode": "episode_00020240",
+      "gt": "pick up from pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 263,
+      "episode": "episode_00020240",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 305,
+      "episode": "episode_00020240",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00020250",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 128,
+      "episode": "episode_00020250",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 196,
+      "episode": "episode_00020260",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 277,
+      "episode": "episode_00020260",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 320,
+      "episode": "episode_00020260",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 113,
+      "episode": "episode_00020270",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pillar candle",
+      "raw": "11. place in pillar candle",
+      "correct": false
+    },
+    {
+      "sec": 132,
+      "episode": "episode_00020270",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 218,
+      "episode": "episode_00020270",
+      "gt": "pick up from pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 237,
+      "episode": "episode_00020270",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 72,
+      "episode": "episode_00020280",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 98,
+      "episode": "episode_00020280",
+      "gt": "pick up from pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 177,
+      "episode": "episode_00020280",
+      "gt": "pick up from pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 272,
+      "episode": "episode_00020290",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 301,
+      "episode": "episode_00020290",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 269,
+      "episode": "episode_00020300",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 289,
+      "episode": "episode_00020300",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 371,
+      "episode": "episode_00020300",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 184,
+      "episode": "episode_00020310",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 273,
+      "episode": "episode_00020310",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 310,
+      "episode": "episode_00020310",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 306,
+      "episode": "episode_00020320",
+      "gt": "pick up from pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 395,
+      "episode": "episode_00020320",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00020330",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00020330",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 139,
+      "episode": "episode_00020330",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 159,
+      "episode": "episode_00020330",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 246,
+      "episode": "episode_00020350",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 268,
+      "episode": "episode_00020350",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 338,
+      "episode": "episode_00020350",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 224,
+      "episode": "episode_00020360",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 324,
+      "episode": "episode_00020360",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 386,
+      "episode": "episode_00020390",
+      "gt": "pick up from pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 408,
+      "episode": "episode_00020390",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 521,
+      "episode": "episode_00020390",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 376,
+      "episode": "episode_00020400",
+      "gt": "pick up from pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 467,
+      "episode": "episode_00020400",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 76,
+      "episode": "episode_00020410",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 116,
+      "episode": "episode_00020410",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 136,
+      "episode": "episode_00020410",
+      "gt": "pick up from pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 224,
+      "episode": "episode_00020410",
+      "gt": "pick up from pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 128,
+      "episode": "episode_00020430",
+      "gt": "pick up from pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 148,
+      "episode": "episode_00020430",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 168,
+      "episode": "episode_00020430",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 188,
+      "episode": "episode_00020430",
+      "gt": "pick up from pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 276,
+      "episode": "episode_00020430",
+      "gt": "pick up from pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 67,
+      "episode": "episode_00020440",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 87,
+      "episode": "episode_00020440",
+      "gt": "pick up from pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00020210",
+      "gt": "move to bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 169,
+      "episode": "episode_00020210",
+      "gt": "move to bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 325,
+      "episode": "episode_00020210",
+      "gt": "move to bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 100,
+      "episode": "episode_00020220",
+      "gt": "move to bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 376,
+      "episode": "episode_00020220",
+      "gt": "move to bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00020230",
+      "gt": "move to bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 280,
+      "episode": "episode_00020230",
+      "gt": "move to bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 91,
+      "episode": "episode_00020240",
+      "gt": "move to bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 202,
+      "episode": "episode_00020240",
+      "gt": "move to bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00020250",
+      "gt": "move to bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 188,
+      "episode": "episode_00020250",
+      "gt": "move to bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 287,
+      "episode": "episode_00020250",
+      "gt": "move to bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00020260",
+      "gt": "move to bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 124,
+      "episode": "episode_00020260",
+      "gt": "move to bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 346,
+      "episode": "episode_00020260",
+      "gt": "move to bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 19,
+      "episode": "episode_00020270",
+      "gt": "move to bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 158,
+      "episode": "episode_00020270",
+      "gt": "move to bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 310,
+      "episode": "episode_00020270",
+      "gt": "move to bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 10,
+      "episode": "episode_00020280",
+      "gt": "move to bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 106,
+      "episode": "episode_00020280",
+      "gt": "move to bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 189,
+      "episode": "episode_00020280",
+      "gt": "move to bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 280,
+      "episode": "episode_00020280",
+      "gt": "move to bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 395,
+      "episode": "episode_00020280",
+      "gt": "move to bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 155,
+      "episode": "episode_00020290",
+      "gt": "move to bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 224,
+      "episode": "episode_00020290",
+      "gt": "move to bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 374,
+      "episode": "episode_00020290",
+      "gt": "move to bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 185,
+      "episode": "episode_00020300",
+      "gt": "move to bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 332,
+      "episode": "episode_00020300",
+      "gt": "move to bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 5,
+      "episode": "episode_00020310",
+      "gt": "move to bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 109,
+      "episode": "episode_00020310",
+      "gt": "move to bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 320,
+      "episode": "episode_00020310",
+      "gt": "move to bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 144,
+      "episode": "episode_00020320",
+      "gt": "move to bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 233,
+      "episode": "episode_00020320",
+      "gt": "move to bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 343,
+      "episode": "episode_00020320",
+      "gt": "move to bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 1,
+      "episode": "episode_00020330",
+      "gt": "move to bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 171,
+      "episode": "episode_00020330",
+      "gt": "move to bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 310,
+      "episode": "episode_00020330",
+      "gt": "move to bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 126,
+      "episode": "episode_00020350",
+      "gt": "move to bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 196,
+      "episode": "episode_00020350",
+      "gt": "move to bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 351,
+      "episode": "episode_00020350",
+      "gt": "move to bottom cabinet",
+      "pred": "place in pillar candle",
+      "raw": "11. place in pillar candle",
+      "correct": false
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00020360",
+      "gt": "move to bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 169,
+      "episode": "episode_00020360",
+      "gt": "move to bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 276,
+      "episode": "episode_00020360",
+      "gt": "move to bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 67,
+      "episode": "episode_00020390",
+      "gt": "move to bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 229,
+      "episode": "episode_00020390",
+      "gt": "move to bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 317,
+      "episode": "episode_00020390",
+      "gt": "move to bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 538,
+      "episode": "episode_00020390",
+      "gt": "move to bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 60,
+      "episode": "episode_00020400",
+      "gt": "move to bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 202,
+      "episode": "episode_00020400",
+      "gt": "move to bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 391,
+      "episode": "episode_00020400",
+      "gt": "move to bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 493,
+      "episode": "episode_00020400",
+      "gt": "move to bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 242,
+      "episode": "episode_00020410",
+      "gt": "move to bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 454,
+      "episode": "episode_00020410",
+      "gt": "move to bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 478,
+      "episode": "episode_00020410",
+      "gt": "move to bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 69,
+      "episode": "episode_00020430",
+      "gt": "move to bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 295,
+      "episode": "episode_00020430",
+      "gt": "move to bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 369,
+      "episode": "episode_00020430",
+      "gt": "move to bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 507,
+      "episode": "episode_00020430",
+      "gt": "move to bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 14,
+      "episode": "episode_00020440",
+      "gt": "move to bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 207,
+      "episode": "episode_00020440",
+      "gt": "move to bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00020210",
+      "gt": "open drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 63,
+      "episode": "episode_00020210",
+      "gt": "open drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 239,
+      "episode": "episode_00020210",
+      "gt": "open drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 107,
+      "episode": "episode_00020220",
+      "gt": "open drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 127,
+      "episode": "episode_00020220",
+      "gt": "open drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 272,
+      "episode": "episode_00020220",
+      "gt": "open drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 292,
+      "episode": "episode_00020220",
+      "gt": "open drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 63,
+      "episode": "episode_00020230",
+      "gt": "open drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 216,
+      "episode": "episode_00020230",
+      "gt": "open drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00020240",
+      "gt": "open drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 153,
+      "episode": "episode_00020240",
+      "gt": "open drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 173,
+      "episode": "episode_00020240",
+      "gt": "open drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 72,
+      "episode": "episode_00020250",
+      "gt": "open drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 304,
+      "episode": "episode_00020250",
+      "gt": "open drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 26,
+      "episode": "episode_00020260",
+      "gt": "open drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 222,
+      "episode": "episode_00020260",
+      "gt": "open drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00020270",
+      "gt": "open drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "episode": "episode_00020270",
+      "gt": "open drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 319,
+      "episode": "episode_00020270",
+      "gt": "open drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 339,
+      "episode": "episode_00020270",
+      "gt": "open drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00020280",
+      "gt": "open drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 304,
+      "episode": "episode_00020280",
+      "gt": "open drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 324,
+      "episode": "episode_00020280",
+      "gt": "open drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00020290",
+      "gt": "open drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 244,
+      "episode": "episode_00020290",
+      "gt": "open drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 81,
+      "episode": "episode_00020300",
+      "gt": "open drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 235,
+      "episode": "episode_00020300",
+      "gt": "open drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 255,
+      "episode": "episode_00020300",
+      "gt": "open drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00020310",
+      "gt": "open drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 208,
+      "episode": "episode_00020310",
+      "gt": "open drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00020320",
+      "gt": "open drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 101,
+      "episode": "episode_00020320",
+      "gt": "open drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 260,
+      "episode": "episode_00020320",
+      "gt": "open drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 18,
+      "episode": "episode_00020330",
+      "gt": "open drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00020330",
+      "gt": "open drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 231,
+      "episode": "episode_00020330",
+      "gt": "open drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 20,
+      "episode": "episode_00020350",
+      "gt": "open drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00020350",
+      "gt": "open drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 227,
+      "episode": "episode_00020350",
+      "gt": "open drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00020360",
+      "gt": "open drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 182,
+      "episode": "episode_00020360",
+      "gt": "open drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 75,
+      "episode": "episode_00020390",
+      "gt": "open drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 95,
+      "episode": "episode_00020390",
+      "gt": "open drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 115,
+      "episode": "episode_00020390",
+      "gt": "open drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 328,
+      "episode": "episode_00020390",
+      "gt": "open drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 348,
+      "episode": "episode_00020390",
+      "gt": "open drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 76,
+      "episode": "episode_00020400",
+      "gt": "open drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 96,
+      "episode": "episode_00020400",
+      "gt": "open drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 294,
+      "episode": "episode_00020400",
+      "gt": "open drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 314,
+      "episode": "episode_00020400",
+      "gt": "open drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00020410",
+      "gt": "open drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00020410",
+      "gt": "open drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 339,
+      "episode": "episode_00020410",
+      "gt": "open drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 359,
+      "episode": "episode_00020410",
+      "gt": "open drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 83,
+      "episode": "episode_00020430",
+      "gt": "open drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 103,
+      "episode": "episode_00020430",
+      "gt": "open drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 392,
+      "episode": "episode_00020430",
+      "gt": "open drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 412,
+      "episode": "episode_00020430",
+      "gt": "open drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00020440",
+      "gt": "open drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 228,
+      "episode": "episode_00020440",
+      "gt": "open drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 70,
+      "episode": "episode_00020210",
+      "gt": "place in pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 87,
+      "episode": "episode_00020210",
+      "gt": "place in pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 184,
+      "episode": "episode_00020210",
+      "gt": "place in pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 201,
+      "episode": "episode_00020210",
+      "gt": "place in pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 392,
+      "episode": "episode_00020220",
+      "gt": "place in pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 479,
+      "episode": "episode_00020220",
+      "gt": "place in pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 497,
+      "episode": "episode_00020220",
+      "gt": "place in pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00020230",
+      "gt": "place in pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 97,
+      "episode": "episode_00020230",
+      "gt": "place in pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 181,
+      "episode": "episode_00020230",
+      "gt": "place in pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 213,
+      "episode": "episode_00020240",
+      "gt": "place in pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 334,
+      "episode": "episode_00020240",
+      "gt": "place in pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 351,
+      "episode": "episode_00020240",
+      "gt": "place in pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00020250",
+      "gt": "place in pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 102,
+      "episode": "episode_00020250",
+      "gt": "place in pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 205,
+      "episode": "episode_00020250",
+      "gt": "place in pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 239,
+      "episode": "episode_00020260",
+      "gt": "place in pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 257,
+      "episode": "episode_00020260",
+      "gt": "place in pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 369,
+      "episode": "episode_00020260",
+      "gt": "place in pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 387,
+      "episode": "episode_00020260",
+      "gt": "place in pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 178,
+      "episode": "episode_00020270",
+      "gt": "place in pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 271,
+      "episode": "episode_00020270",
+      "gt": "place in pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 289,
+      "episode": "episode_00020270",
+      "gt": "place in pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00020280",
+      "gt": "place in pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 223,
+      "episode": "episode_00020280",
+      "gt": "place in pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 315,
+      "episode": "episode_00020290",
+      "gt": "place in pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 333,
+      "episode": "episode_00020290",
+      "gt": "place in pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 387,
+      "episode": "episode_00020290",
+      "gt": "place in pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 343,
+      "episode": "episode_00020300",
+      "gt": "place in pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 407,
+      "episode": "episode_00020300",
+      "gt": "place in pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 231,
+      "episode": "episode_00020310",
+      "gt": "place in pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 331,
+      "episode": "episode_00020310",
+      "gt": "place in pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 348,
+      "episode": "episode_00020310",
+      "gt": "place in pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 354,
+      "episode": "episode_00020320",
+      "gt": "place in pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 438,
+      "episode": "episode_00020320",
+      "gt": "place in pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 112,
+      "episode": "episode_00020330",
+      "gt": "place in pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 180,
+      "episode": "episode_00020330",
+      "gt": "place in pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 289,
+      "episode": "episode_00020350",
+      "gt": "place in pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 368,
+      "episode": "episode_00020350",
+      "gt": "place in pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 280,
+      "episode": "episode_00020360",
+      "gt": "place in pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 298,
+      "episode": "episode_00020360",
+      "gt": "place in pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 362,
+      "episode": "episode_00020360",
+      "gt": "place in pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 437,
+      "episode": "episode_00020390",
+      "gt": "place in pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 454,
+      "episode": "episode_00020390",
+      "gt": "place in pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 472,
+      "episode": "episode_00020390",
+      "gt": "place in pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 572,
+      "episode": "episode_00020390",
+      "gt": "place in pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 407,
+      "episode": "episode_00020400",
+      "gt": "place in pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 424,
+      "episode": "episode_00020400",
+      "gt": "place in pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 496,
+      "episode": "episode_00020400",
+      "gt": "place in pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 513,
+      "episode": "episode_00020400",
+      "gt": "place in pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 161,
+      "episode": "episode_00020410",
+      "gt": "place in pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 179,
+      "episode": "episode_00020410",
+      "gt": "place in pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 196,
+      "episode": "episode_00020410",
+      "gt": "place in pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 264,
+      "episode": "episode_00020410",
+      "gt": "place in pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 281,
+      "episode": "episode_00020410",
+      "gt": "place in pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 223,
+      "episode": "episode_00020430",
+      "gt": "place in pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 308,
+      "episode": "episode_00020430",
+      "gt": "place in pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 326,
+      "episode": "episode_00020430",
+      "gt": "place in pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 106,
+      "episode": "episode_00020440",
+      "gt": "place in pillar candle",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 172,
+      "episode": "episode_00020440",
+      "gt": "place in pillar candle",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 205,
+      "episode": "episode_00020210",
+      "gt": "close drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 215,
+      "episode": "episode_00020210",
+      "gt": "close drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 366,
+      "episode": "episode_00020210",
+      "gt": "close drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 253,
+      "episode": "episode_00020220",
+      "gt": "close drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 515,
+      "episode": "episode_00020220",
+      "gt": "close drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 526,
+      "episode": "episode_00020220",
+      "gt": "close drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 197,
+      "episode": "episode_00020230",
+      "gt": "close drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 321,
+      "episode": "episode_00020230",
+      "gt": "close drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 331,
+      "episode": "episode_00020230",
+      "gt": "close drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 138,
+      "episode": "episode_00020240",
+      "gt": "close drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 366,
+      "episode": "episode_00020240",
+      "gt": "close drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 238,
+      "episode": "episode_00020250",
+      "gt": "close drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 249,
+      "episode": "episode_00020250",
+      "gt": "close drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 388,
+      "episode": "episode_00020250",
+      "gt": "close drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 179,
+      "episode": "episode_00020260",
+      "gt": "close drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 391,
+      "episode": "episode_00020260",
+      "gt": "close drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 401,
+      "episode": "episode_00020260",
+      "gt": "close drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 297,
+      "episode": "episode_00020270",
+      "gt": "close drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 307,
+      "episode": "episode_00020270",
+      "gt": "close drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 242,
+      "episode": "episode_00020280",
+      "gt": "close drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 201,
+      "episode": "episode_00020290",
+      "gt": "close drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 211,
+      "episode": "episode_00020290",
+      "gt": "close drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 404,
+      "episode": "episode_00020290",
+      "gt": "close drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 414,
+      "episode": "episode_00020290",
+      "gt": "close drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 419,
+      "episode": "episode_00020300",
+      "gt": "close drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 158,
+      "episode": "episode_00020310",
+      "gt": "close drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 358,
+      "episode": "episode_00020310",
+      "gt": "close drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 206,
+      "episode": "episode_00020320",
+      "gt": "close drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 216,
+      "episode": "episode_00020320",
+      "gt": "close drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 227,
+      "episode": "episode_00020320",
+      "gt": "close drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 456,
+      "episode": "episode_00020320",
+      "gt": "close drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 201,
+      "episode": "episode_00020330",
+      "gt": "close drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 343,
+      "episode": "episode_00020330",
+      "gt": "close drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 183,
+      "episode": "episode_00020350",
+      "gt": "close drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 392,
+      "episode": "episode_00020350",
+      "gt": "close drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 164,
+      "episode": "episode_00020360",
+      "gt": "close drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 386,
+      "episode": "episode_00020360",
+      "gt": "close drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 279,
+      "episode": "episode_00020390",
+      "gt": "close drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 289,
+      "episode": "episode_00020390",
+      "gt": "close drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 300,
+      "episode": "episode_00020390",
+      "gt": "close drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 590,
+      "episode": "episode_00020390",
+      "gt": "close drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 600,
+      "episode": "episode_00020390",
+      "gt": "close drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 242,
+      "episode": "episode_00020400",
+      "gt": "close drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 252,
+      "episode": "episode_00020400",
+      "gt": "close drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 263,
+      "episode": "episode_00020400",
+      "gt": "close drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 529,
+      "episode": "episode_00020400",
+      "gt": "close drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 539,
+      "episode": "episode_00020400",
+      "gt": "close drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 282,
+      "episode": "episode_00020410",
+      "gt": "close drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 292,
+      "episode": "episode_00020410",
+      "gt": "close drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 303,
+      "episode": "episode_00020410",
+      "gt": "close drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 314,
+      "episode": "episode_00020410",
+      "gt": "close drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 522,
+      "episode": "episode_00020410",
+      "gt": "close drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 533,
+      "episode": "episode_00020410",
+      "gt": "close drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 343,
+      "episode": "episode_00020430",
+      "gt": "close drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 546,
+      "episode": "episode_00020430",
+      "gt": "close drawer bottom cabinet",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 557,
+      "episode": "episode_00020430",
+      "gt": "close drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 567,
+      "episode": "episode_00020430",
+      "gt": "close drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 192,
+      "episode": "episode_00020440",
+      "gt": "close drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 202,
+      "episode": "episode_00020440",
+      "gt": "close drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 362,
+      "episode": "episode_00020440",
+      "gt": "close drawer bottom cabinet",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 256,
+      "episode": "episode_00020210",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 264,
+      "episode": "episode_00020210",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 290,
+      "episode": "episode_00020210",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 142,
+      "episode": "episode_00020220",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 151,
+      "episode": "episode_00020220",
+      "gt": "move to pumpkin",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 188,
+      "episode": "episode_00020220",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 231,
+      "episode": "episode_00020230",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 253,
+      "episode": "episode_00020230",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 262,
+      "episode": "episode_00020230",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "episode": "episode_00020240",
+      "gt": "move to pumpkin",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00020240",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00020240",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 259,
+      "episode": "episode_00020250",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 337,
+      "episode": "episode_00020250",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00020260",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00020260",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 355,
+      "episode": "episode_00020270",
+      "gt": "move to pumpkin",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 390,
+      "episode": "episode_00020270",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 333,
+      "episode": "episode_00020280",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 341,
+      "episode": "episode_00020280",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 369,
+      "episode": "episode_00020280",
+      "gt": "move to pumpkin",
+      "pred": "pick up from pumpkin",
+      "raw": "10. pick up from pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 96,
+      "episode": "episode_00020290",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 128,
+      "episode": "episode_00020290",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 101,
+      "episode": "episode_00020300",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 110,
+      "episode": "episode_00020300",
+      "gt": "move to pumpkin",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 131,
+      "episode": "episode_00020300",
+      "gt": "move to pumpkin",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 139,
+      "episode": "episode_00020300",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 147,
+      "episode": "episode_00020300",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00020310",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 81,
+      "episode": "episode_00020310",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 89,
+      "episode": "episode_00020310",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 111,
+      "episode": "episode_00020320",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 265,
+      "episode": "episode_00020330",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 273,
+      "episode": "episode_00020330",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00020350",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "episode": "episode_00020350",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 61,
+      "episode": "episode_00020350",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 86,
+      "episode": "episode_00020350",
+      "gt": "move to pumpkin",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 94,
+      "episode": "episode_00020350",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 102,
+      "episode": "episode_00020350",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00020360",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 70,
+      "episode": "episode_00020360",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 78,
+      "episode": "episode_00020360",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 86,
+      "episode": "episode_00020360",
+      "gt": "move to pumpkin",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 128,
+      "episode": "episode_00020390",
+      "gt": "move to pumpkin",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 136,
+      "episode": "episode_00020390",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 144,
+      "episode": "episode_00020390",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 176,
+      "episode": "episode_00020390",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 111,
+      "episode": "episode_00020400",
+      "gt": "move to pumpkin",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 144,
+      "episode": "episode_00020400",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 152,
+      "episode": "episode_00020400",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 160,
+      "episode": "episode_00020400",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 371,
+      "episode": "episode_00020410",
+      "gt": "move to pumpkin",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 379,
+      "episode": "episode_00020410",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 416,
+      "episode": "episode_00020410",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 424,
+      "episode": "episode_00020410",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 422,
+      "episode": "episode_00020430",
+      "gt": "move to pumpkin",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 447,
+      "episode": "episode_00020430",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 455,
+      "episode": "episode_00020430",
+      "gt": "move to pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 251,
+      "episode": "episode_00020440",
+      "gt": "move to pumpkin",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 269,
+      "episode": "episode_00020210",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 282,
+      "episode": "episode_00020210",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 303,
+      "episode": "episode_00020210",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 159,
+      "episode": "episode_00020220",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 172,
+      "episode": "episode_00020220",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 193,
+      "episode": "episode_00020220",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 207,
+      "episode": "episode_00020220",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 244,
+      "episode": "episode_00020230",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 272,
+      "episode": "episode_00020230",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00020240",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 73,
+      "episode": "episode_00020240",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 263,
+      "episode": "episode_00020250",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 277,
+      "episode": "episode_00020250",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 346,
+      "episode": "episode_00020250",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 64,
+      "episode": "episode_00020260",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 78,
+      "episode": "episode_00020260",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 94,
+      "episode": "episode_00020260",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 364,
+      "episode": "episode_00020270",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 378,
+      "episode": "episode_00020270",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 398,
+      "episode": "episode_00020270",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 412,
+      "episode": "episode_00020270",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 353,
+      "episode": "episode_00020280",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 381,
+      "episode": "episode_00020280",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 100,
+      "episode": "episode_00020290",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 113,
+      "episode": "episode_00020290",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 138,
+      "episode": "episode_00020290",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 117,
+      "episode": "episode_00020300",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 152,
+      "episode": "episode_00020300",
+      "gt": "pick up from pumpkin",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 165,
+      "episode": "episode_00020300",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 179,
+      "episode": "episode_00020300",
+      "gt": "pick up from pumpkin",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 72,
+      "episode": "episode_00020310",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 98,
+      "episode": "episode_00020310",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 122,
+      "episode": "episode_00020320",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 137,
+      "episode": "episode_00020320",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 253,
+      "episode": "episode_00020330",
+      "gt": "pick up from pumpkin",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 282,
+      "episode": "episode_00020330",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 295,
+      "episode": "episode_00020330",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00020350",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 115,
+      "episode": "episode_00020350",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00020360",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 104,
+      "episode": "episode_00020360",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 151,
+      "episode": "episode_00020390",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 164,
+      "episode": "episode_00020390",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 192,
+      "episode": "episode_00020390",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 205,
+      "episode": "episode_00020390",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 120,
+      "episode": "episode_00020400",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 134,
+      "episode": "episode_00020400",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 174,
+      "episode": "episode_00020400",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 187,
+      "episode": "episode_00020400",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 394,
+      "episode": "episode_00020410",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 407,
+      "episode": "episode_00020410",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 436,
+      "episode": "episode_00020410",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 450,
+      "episode": "episode_00020410",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 434,
+      "episode": "episode_00020430",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 466,
+      "episode": "episode_00020430",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 480,
+      "episode": "episode_00020430",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 493,
+      "episode": "episode_00020430",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 272,
+      "episode": "episode_00020440",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 286,
+      "episode": "episode_00020440",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 299,
+      "episode": "episode_00020440",
+      "gt": "pick up from pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 334,
+      "episode": "episode_00020210",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 344,
+      "episode": "episode_00020210",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 354,
+      "episode": "episode_00020210",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 233,
+      "episode": "episode_00020220",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 243,
+      "episode": "episode_00020220",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 295,
+      "episode": "episode_00020230",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 305,
+      "episode": "episode_00020230",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 315,
+      "episode": "episode_00020230",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 108,
+      "episode": "episode_00020240",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 118,
+      "episode": "episode_00020240",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 128,
+      "episode": "episode_00020240",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 313,
+      "episode": "episode_00020250",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 323,
+      "episode": "episode_00020250",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 369,
+      "episode": "episode_00020250",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 379,
+      "episode": "episode_00020250",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 135,
+      "episode": "episode_00020260",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 145,
+      "episode": "episode_00020260",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 155,
+      "episode": "episode_00020260",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 165,
+      "episode": "episode_00020260",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 424,
+      "episode": "episode_00020270",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 434,
+      "episode": "episode_00020270",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 413,
+      "episode": "episode_00020280",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 423,
+      "episode": "episode_00020280",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 177,
+      "episode": "episode_00020290",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 187,
+      "episode": "episode_00020290",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 197,
+      "episode": "episode_00020290",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 203,
+      "episode": "episode_00020300",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 213,
+      "episode": "episode_00020300",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 124,
+      "episode": "episode_00020310",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 134,
+      "episode": "episode_00020310",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 144,
+      "episode": "episode_00020310",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 154,
+      "episode": "episode_00020310",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 172,
+      "episode": "episode_00020320",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 182,
+      "episode": "episode_00020320",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 192,
+      "episode": "episode_00020320",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 202,
+      "episode": "episode_00020320",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 324,
+      "episode": "episode_00020330",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 334,
+      "episode": "episode_00020330",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 144,
+      "episode": "episode_00020350",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 154,
+      "episode": "episode_00020350",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 164,
+      "episode": "episode_00020350",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 174,
+      "episode": "episode_00020350",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 135,
+      "episode": "episode_00020360",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 145,
+      "episode": "episode_00020360",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 155,
+      "episode": "episode_00020360",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 247,
+      "episode": "episode_00020390",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 257,
+      "episode": "episode_00020390",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 267,
+      "episode": "episode_00020390",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 211,
+      "episode": "episode_00020400",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 221,
+      "episode": "episode_00020400",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 231,
+      "episode": "episode_00020400",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 482,
+      "episode": "episode_00020410",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 492,
+      "episode": "episode_00020410",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 502,
+      "episode": "episode_00020410",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 512,
+      "episode": "episode_00020410",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 526,
+      "episode": "episode_00020430",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 536,
+      "episode": "episode_00020430",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 326,
+      "episode": "episode_00020440",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 336,
+      "episode": "episode_00020440",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 346,
+      "episode": "episode_00020440",
+      "gt": "place in pumpkin",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": true
+    },
+    {
+      "sec": 372,
+      "episode": "episode_00020210",
+      "gt": "move to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 377,
+      "episode": "episode_00020210",
+      "gt": "move to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 382,
+      "episode": "episode_00020210",
+      "gt": "move to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 388,
+      "episode": "episode_00020210",
+      "gt": "move to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 393,
+      "episode": "episode_00020210",
+      "gt": "move to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 0,
+      "episode": "episode_00020220",
+      "gt": "move to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 5,
+      "episode": "episode_00020220",
+      "gt": "move to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 11,
+      "episode": "episode_00020220",
+      "gt": "move to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 16,
+      "episode": "episode_00020220",
+      "gt": "move to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 341,
+      "episode": "episode_00020230",
+      "gt": "move to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 346,
+      "episode": "episode_00020230",
+      "gt": "move to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 351,
+      "episode": "episode_00020230",
+      "gt": "move to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 357,
+      "episode": "episode_00020230",
+      "gt": "move to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 362,
+      "episode": "episode_00020230",
+      "gt": "move to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 377,
+      "episode": "episode_00020240",
+      "gt": "move to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 382,
+      "episode": "episode_00020240",
+      "gt": "move to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 388,
+      "episode": "episode_00020240",
+      "gt": "move to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 393,
+      "episode": "episode_00020240",
+      "gt": "move to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 393,
+      "episode": "episode_00020250",
+      "gt": "move to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 398,
+      "episode": "episode_00020250",
+      "gt": "move to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 409,
+      "episode": "episode_00020260",
+      "gt": "move to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 414,
+      "episode": "episode_00020260",
+      "gt": "move to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 419,
+      "episode": "episode_00020260",
+      "gt": "move to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 425,
+      "episode": "episode_00020260",
+      "gt": "move to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 447,
+      "episode": "episode_00020270",
+      "gt": "move to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 453,
+      "episode": "episode_00020270",
+      "gt": "move to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 458,
+      "episode": "episode_00020270",
+      "gt": "move to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 464,
+      "episode": "episode_00020270",
+      "gt": "move to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 249,
+      "episode": "episode_00020280",
+      "gt": "move to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 255,
+      "episode": "episode_00020280",
+      "gt": "move to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 260,
+      "episode": "episode_00020280",
+      "gt": "move to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 1,
+      "episode": "episode_00020290",
+      "gt": "move to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 7,
+      "episode": "episode_00020290",
+      "gt": "move to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 2,
+      "episode": "episode_00020300",
+      "gt": "move to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00020300",
+      "gt": "move to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 368,
+      "episode": "episode_00020310",
+      "gt": "move to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 374,
+      "episode": "episode_00020310",
+      "gt": "move to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 379,
+      "episode": "episode_00020310",
+      "gt": "move to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 1,
+      "episode": "episode_00020320",
+      "gt": "move to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 6,
+      "episode": "episode_00020320",
+      "gt": "move to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 12,
+      "episode": "episode_00020320",
+      "gt": "move to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00020320",
+      "gt": "move to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 349,
+      "episode": "episode_00020330",
+      "gt": "move to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 355,
+      "episode": "episode_00020330",
+      "gt": "move to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 360,
+      "episode": "episode_00020330",
+      "gt": "move to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 399,
+      "episode": "episode_00020350",
+      "gt": "move to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 404,
+      "episode": "episode_00020350",
+      "gt": "move to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 393,
+      "episode": "episode_00020360",
+      "gt": "move to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 398,
+      "episode": "episode_00020360",
+      "gt": "move to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 404,
+      "episode": "episode_00020360",
+      "gt": "move to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 409,
+      "episode": "episode_00020360",
+      "gt": "move to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 1,
+      "episode": "episode_00020390",
+      "gt": "move to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 0,
+      "episode": "episode_00020400",
+      "gt": "move to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 5,
+      "episode": "episode_00020400",
+      "gt": "move to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 538,
+      "episode": "episode_00020410",
+      "gt": "move to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 543,
+      "episode": "episode_00020410",
+      "gt": "move to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 549,
+      "episode": "episode_00020410",
+      "gt": "move to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 0,
+      "episode": "episode_00020430",
+      "gt": "move to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 375,
+      "episode": "episode_00020440",
+      "gt": "move to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 380,
+      "episode": "episode_00020440",
+      "gt": "move to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 399,
+      "episode": "episode_00020210",
+      "gt": "pick up from cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 405,
+      "episode": "episode_00020210",
+      "gt": "pick up from cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 412,
+      "episode": "episode_00020210",
+      "gt": "pick up from cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00020220",
+      "gt": "pick up from cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 28,
+      "episode": "episode_00020220",
+      "gt": "pick up from cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00020220",
+      "gt": "pick up from cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00020220",
+      "gt": "pick up from cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 364,
+      "episode": "episode_00020230",
+      "gt": "pick up from cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 371,
+      "episode": "episode_00020230",
+      "gt": "pick up from cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 377,
+      "episode": "episode_00020230",
+      "gt": "pick up from cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 401,
+      "episode": "episode_00020240",
+      "gt": "pick up from cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 407,
+      "episode": "episode_00020240",
+      "gt": "pick up from cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 402,
+      "episode": "episode_00020250",
+      "gt": "pick up from cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 409,
+      "episode": "episode_00020250",
+      "gt": "pick up from cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 432,
+      "episode": "episode_00020260",
+      "gt": "pick up from cauldron",
+      "pred": "place in pillar candle",
+      "raw": "11. place in pillar candle",
+      "correct": false
+    },
+    {
+      "sec": 439,
+      "episode": "episode_00020260",
+      "gt": "pick up from cauldron",
+      "pred": "place in pillar candle",
+      "raw": "11. place in pillar candle",
+      "correct": false
+    },
+    {
+      "sec": 446,
+      "episode": "episode_00020260",
+      "gt": "pick up from cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 467,
+      "episode": "episode_00020270",
+      "gt": "pick up from cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 474,
+      "episode": "episode_00020270",
+      "gt": "pick up from cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 481,
+      "episode": "episode_00020270",
+      "gt": "pick up from cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 487,
+      "episode": "episode_00020270",
+      "gt": "pick up from cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 266,
+      "episode": "episode_00020280",
+      "gt": "pick up from cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 10,
+      "episode": "episode_00020290",
+      "gt": "pick up from cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00020290",
+      "gt": "pick up from cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00020290",
+      "gt": "pick up from cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00020290",
+      "gt": "pick up from cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00020290",
+      "gt": "pick up from cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 18,
+      "episode": "episode_00020300",
+      "gt": "pick up from cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00020300",
+      "gt": "pick up from cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00020300",
+      "gt": "pick up from cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 388,
+      "episode": "episode_00020310",
+      "gt": "pick up from cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 394,
+      "episode": "episode_00020310",
+      "gt": "pick up from cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "episode": "episode_00020320",
+      "gt": "pick up from cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 28,
+      "episode": "episode_00020320",
+      "gt": "pick up from cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00020320",
+      "gt": "pick up from cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 367,
+      "episode": "episode_00020330",
+      "gt": "pick up from cauldron",
+      "pred": "place in pillar candle",
+      "raw": "11. place in pillar candle",
+      "correct": false
+    },
+    {
+      "sec": 373,
+      "episode": "episode_00020330",
+      "gt": "pick up from cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 409,
+      "episode": "episode_00020350",
+      "gt": "pick up from cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 416,
+      "episode": "episode_00020350",
+      "gt": "pick up from cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 422,
+      "episode": "episode_00020350",
+      "gt": "pick up from cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 413,
+      "episode": "episode_00020360",
+      "gt": "pick up from cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 419,
+      "episode": "episode_00020360",
+      "gt": "pick up from cauldron",
+      "pred": "place in pillar candle",
+      "raw": "11. place in pillar candle",
+      "correct": false
+    },
+    {
+      "sec": 426,
+      "episode": "episode_00020360",
+      "gt": "pick up from cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00020390",
+      "gt": "pick up from cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 15,
+      "episode": "episode_00020390",
+      "gt": "pick up from cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "episode": "episode_00020390",
+      "gt": "pick up from cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00020390",
+      "gt": "pick up from cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00020400",
+      "gt": "pick up from cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 16,
+      "episode": "episode_00020400",
+      "gt": "pick up from cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00020400",
+      "gt": "pick up from cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 558,
+      "episode": "episode_00020410",
+      "gt": "pick up from cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 565,
+      "episode": "episode_00020410",
+      "gt": "pick up from cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 571,
+      "episode": "episode_00020410",
+      "gt": "pick up from cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 10,
+      "episode": "episode_00020430",
+      "gt": "pick up from cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00020430",
+      "gt": "pick up from cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00020430",
+      "gt": "pick up from cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 386,
+      "episode": "episode_00020440",
+      "gt": "pick up from cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 393,
+      "episode": "episode_00020440",
+      "gt": "pick up from cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 399,
+      "episode": "episode_00020440",
+      "gt": "pick up from cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 406,
+      "episode": "episode_00020440",
+      "gt": "pick up from cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 415,
+      "episode": "episode_00020210",
+      "gt": "move to coffee table",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 417,
+      "episode": "episode_00020210",
+      "gt": "move to coffee table",
+      "pred": "place in pillar candle",
+      "raw": "11. place in pillar candle",
+      "correct": false
+    },
+    {
+      "sec": 419,
+      "episode": "episode_00020210",
+      "gt": "move to coffee table",
+      "pred": "place in pillar candle",
+      "raw": "11. place in pillar candle",
+      "correct": false
+    },
+    {
+      "sec": 422,
+      "episode": "episode_00020210",
+      "gt": "move to coffee table",
+      "pred": "pick up from pumpkin",
+      "raw": "10. pick up from pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 424,
+      "episode": "episode_00020210",
+      "gt": "move to coffee table",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00020220",
+      "gt": "move to coffee table",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "episode": "episode_00020220",
+      "gt": "move to coffee table",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00020220",
+      "gt": "move to coffee table",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00020220",
+      "gt": "move to coffee table",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 59,
+      "episode": "episode_00020220",
+      "gt": "move to coffee table",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00020220",
+      "gt": "move to coffee table",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 64,
+      "episode": "episode_00020220",
+      "gt": "move to coffee table",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 67,
+      "episode": "episode_00020220",
+      "gt": "move to coffee table",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 69,
+      "episode": "episode_00020220",
+      "gt": "move to coffee table",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 380,
+      "episode": "episode_00020230",
+      "gt": "move to coffee table",
+      "pred": "place in pillar candle",
+      "raw": "11. place in pillar candle",
+      "correct": false
+    },
+    {
+      "sec": 383,
+      "episode": "episode_00020230",
+      "gt": "move to coffee table",
+      "pred": "place in pillar candle",
+      "raw": "11. place in pillar candle",
+      "correct": false
+    },
+    {
+      "sec": 385,
+      "episode": "episode_00020230",
+      "gt": "move to coffee table",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 388,
+      "episode": "episode_00020230",
+      "gt": "move to coffee table",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 414,
+      "episode": "episode_00020240",
+      "gt": "move to coffee table",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 416,
+      "episode": "episode_00020240",
+      "gt": "move to coffee table",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 413,
+      "episode": "episode_00020250",
+      "gt": "move to coffee table",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 415,
+      "episode": "episode_00020250",
+      "gt": "move to coffee table",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00020290",
+      "gt": "move to coffee table",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00020290",
+      "gt": "move to coffee table",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00020290",
+      "gt": "move to coffee table",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00020290",
+      "gt": "move to coffee table",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00020290",
+      "gt": "move to coffee table",
+      "pred": "place in pillar candle",
+      "raw": "11. place in pillar candle",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00020290",
+      "gt": "move to coffee table",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00020290",
+      "gt": "move to coffee table",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00020300",
+      "gt": "move to coffee table",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00020300",
+      "gt": "move to coffee table",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00020300",
+      "gt": "move to coffee table",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00020300",
+      "gt": "move to coffee table",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 399,
+      "episode": "episode_00020310",
+      "gt": "move to coffee table",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00020320",
+      "gt": "move to coffee table",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00020320",
+      "gt": "move to coffee table",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00020320",
+      "gt": "move to coffee table",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00020320",
+      "gt": "move to coffee table",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00020320",
+      "gt": "move to coffee table",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00020320",
+      "gt": "move to coffee table",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "episode": "episode_00020320",
+      "gt": "move to coffee table",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00020320",
+      "gt": "move to coffee table",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 377,
+      "episode": "episode_00020330",
+      "gt": "move to coffee table",
+      "pred": "place in pillar candle",
+      "raw": "11. place in pillar candle",
+      "correct": false
+    },
+    {
+      "sec": 379,
+      "episode": "episode_00020330",
+      "gt": "move to coffee table",
+      "pred": "place in pillar candle",
+      "raw": "11. place in pillar candle",
+      "correct": false
+    },
+    {
+      "sec": 430,
+      "episode": "episode_00020350",
+      "gt": "move to coffee table",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 432,
+      "episode": "episode_00020350",
+      "gt": "move to coffee table",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 435,
+      "episode": "episode_00020350",
+      "gt": "move to coffee table",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 437,
+      "episode": "episode_00020350",
+      "gt": "move to coffee table",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 431,
+      "episode": "episode_00020360",
+      "gt": "move to coffee table",
+      "pred": "pick up from pumpkin",
+      "raw": "10. pick up from pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 433,
+      "episode": "episode_00020360",
+      "gt": "move to coffee table",
+      "pred": "place in pillar candle",
+      "raw": "11. place in pillar candle",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00020390",
+      "gt": "move to coffee table",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00020390",
+      "gt": "move to coffee table",
+      "pred": "place in pillar candle",
+      "raw": "11. place in pillar candle",
+      "correct": false
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00020390",
+      "gt": "move to coffee table",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 27,
+      "episode": "episode_00020400",
+      "gt": "move to coffee table",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00020400",
+      "gt": "move to coffee table",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00020400",
+      "gt": "move to coffee table",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "episode": "episode_00020400",
+      "gt": "move to coffee table",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 573,
+      "episode": "episode_00020410",
+      "gt": "move to coffee table",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 576,
+      "episode": "episode_00020410",
+      "gt": "move to coffee table",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 578,
+      "episode": "episode_00020410",
+      "gt": "move to coffee table",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 425,
+      "episode": "episode_00020210",
+      "gt": "place on next to cauldron",
+      "pred": "place in pillar candle",
+      "raw": "11. place in pillar candle",
+      "correct": false
+    },
+    {
+      "sec": 429,
+      "episode": "episode_00020210",
+      "gt": "place on next to cauldron",
+      "pred": "place in pillar candle",
+      "raw": "11. place in pillar candle",
+      "correct": false
+    },
+    {
+      "sec": 434,
+      "episode": "episode_00020210",
+      "gt": "place on next to cauldron",
+      "pred": "place in pillar candle",
+      "raw": "11. place in pillar candle",
+      "correct": false
+    },
+    {
+      "sec": 439,
+      "episode": "episode_00020210",
+      "gt": "place on next to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 443,
+      "episode": "episode_00020210",
+      "gt": "place on next to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 74,
+      "episode": "episode_00020220",
+      "gt": "place on next to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00020220",
+      "gt": "place on next to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 83,
+      "episode": "episode_00020220",
+      "gt": "place on next to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 393,
+      "episode": "episode_00020230",
+      "gt": "place on next to cauldron",
+      "pred": "place in pillar candle",
+      "raw": "11. place in pillar candle",
+      "correct": false
+    },
+    {
+      "sec": 398,
+      "episode": "episode_00020230",
+      "gt": "place on next to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 402,
+      "episode": "episode_00020230",
+      "gt": "place on next to cauldron",
+      "pred": "place in pillar candle",
+      "raw": "11. place in pillar candle",
+      "correct": false
+    },
+    {
+      "sec": 407,
+      "episode": "episode_00020230",
+      "gt": "place on next to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 421,
+      "episode": "episode_00020240",
+      "gt": "place on next to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 425,
+      "episode": "episode_00020240",
+      "gt": "place on next to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 430,
+      "episode": "episode_00020240",
+      "gt": "place on next to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 435,
+      "episode": "episode_00020240",
+      "gt": "place on next to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 439,
+      "episode": "episode_00020240",
+      "gt": "place on next to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 418,
+      "episode": "episode_00020250",
+      "gt": "place on next to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 423,
+      "episode": "episode_00020250",
+      "gt": "place on next to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 427,
+      "episode": "episode_00020250",
+      "gt": "place on next to cauldron",
+      "pred": "place in pillar candle",
+      "raw": "11. place in pillar candle",
+      "correct": false
+    },
+    {
+      "sec": 453,
+      "episode": "episode_00020260",
+      "gt": "place on next to cauldron",
+      "pred": "place in pillar candle",
+      "raw": "11. place in pillar candle",
+      "correct": false
+    },
+    {
+      "sec": 458,
+      "episode": "episode_00020260",
+      "gt": "place on next to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 462,
+      "episode": "episode_00020260",
+      "gt": "place on next to cauldron",
+      "pred": "place in pillar candle",
+      "raw": "11. place in pillar candle",
+      "correct": false
+    },
+    {
+      "sec": 467,
+      "episode": "episode_00020260",
+      "gt": "place on next to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 494,
+      "episode": "episode_00020270",
+      "gt": "place on next to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 498,
+      "episode": "episode_00020270",
+      "gt": "place on next to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 272,
+      "episode": "episode_00020280",
+      "gt": "place on next to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 277,
+      "episode": "episode_00020280",
+      "gt": "place on next to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00020300",
+      "gt": "place on next to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00020300",
+      "gt": "place on next to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00020300",
+      "gt": "place on next to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "episode": "episode_00020300",
+      "gt": "place on next to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 403,
+      "episode": "episode_00020310",
+      "gt": "place on next to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 408,
+      "episode": "episode_00020310",
+      "gt": "place on next to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 412,
+      "episode": "episode_00020310",
+      "gt": "place on next to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 61,
+      "episode": "episode_00020320",
+      "gt": "place on next to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 381,
+      "episode": "episode_00020330",
+      "gt": "place on next to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 385,
+      "episode": "episode_00020330",
+      "gt": "place on next to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 441,
+      "episode": "episode_00020350",
+      "gt": "place on next to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 438,
+      "episode": "episode_00020360",
+      "gt": "place on next to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 442,
+      "episode": "episode_00020360",
+      "gt": "place on next to cauldron",
+      "pred": "place in pillar candle",
+      "raw": "11. place in pillar candle",
+      "correct": false
+    },
+    {
+      "sec": 447,
+      "episode": "episode_00020360",
+      "gt": "place on next to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00020390",
+      "gt": "place on next to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00020390",
+      "gt": "place on next to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00020390",
+      "gt": "place on next to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00020400",
+      "gt": "place on next to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00020400",
+      "gt": "place on next to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00020400",
+      "gt": "place on next to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00020400",
+      "gt": "place on next to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00020400",
+      "gt": "place on next to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 585,
+      "episode": "episode_00020410",
+      "gt": "place on next to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 590,
+      "episode": "episode_00020410",
+      "gt": "place on next to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 594,
+      "episode": "episode_00020410",
+      "gt": "place on next to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 33,
+      "episode": "episode_00020430",
+      "gt": "place on next to cauldron",
+      "pred": "place in pillar candle",
+      "raw": "11. place in pillar candle",
+      "correct": false
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00020430",
+      "gt": "place on next to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00020430",
+      "gt": "place on next to cauldron",
+      "pred": "place in pumpkin",
+      "raw": "12. place in pumpkin",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00020430",
+      "gt": "place on next to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 415,
+      "episode": "episode_00020440",
+      "gt": "place on next to cauldron",
+      "pred": "place in pillar candle",
+      "raw": "11. place in pillar candle",
+      "correct": false
+    },
+    {
+      "sec": 419,
+      "episode": "episode_00020440",
+      "gt": "place on next to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    },
+    {
+      "sec": 424,
+      "episode": "episode_00020440",
+      "gt": "place on next to cauldron",
+      "pred": null,
+      "raw": "12",
+      "correct": false
+    }
+  ]
+}

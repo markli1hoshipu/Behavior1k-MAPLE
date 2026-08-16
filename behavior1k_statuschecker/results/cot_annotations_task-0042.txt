@@ -1,0 +1,59 @@
+sec_0003: Reasoning: Both empty grippers hang idle in the living room with the kitchen far off in the background — pure locomotion, nothing being contacted. | Answer: move to
+sec_0007: Reasoning: The viewpoint has translated forward past the dining table with arms still empty and open, no object within reach. | Answer: move to
+sec_0010: Reasoning: The kitchen counter is now visible ahead but still meters away, and the empty grippers are held passively at the sides. | Answer: move to
+sec_0014: Reasoning: Same empty-handed pose with the kitchen slightly larger in frame — the only change between frames is camera translation. | Answer: move to
+sec_0018: Reasoning: The sink and counters have grown in view while the two grippers remain open and untouching anything. | Answer: move to
+sec_0021: Reasoning: The base has rotated toward the kitchen doorway; arms are still empty and no manipulation target is in reach. | Answer: move to
+sec_0025: Reasoning: Approach continues onto the kitchen floor with the counter still at a distance and both hands empty. | Answer: move to
+sec_0029: Reasoning: Sink, stove, and countertop are now clearly framed but the grippers are still below counter height holding nothing. | Answer: move to
+sec_0032: Reasoning: Very close to the counter edge now, but the hands are still hovering over the floor/cabinet fronts rather than grasping anything. | Answer: move to
+sec_0036: Reasoning: The robot is at the sink with the chopping board visible, right gripper just arriving beside it — still transit, no grasp closed yet. | Answer: move to
+sec_0039: Reasoning: The right gripper has descended onto the chopping board on the counter with fingers around it, a grasp-and-lift onto the board. | Answer: pick up from
+sec_0043: Reasoning: The board is now tipped up against the right gripper's fingers, consistent with lifting it off the counter surface. | Answer: pick up from
+sec_0047: Reasoning: The wooden board is clearly held at an angle in the right gripper, off the counter — the lift has succeeded. | Answer: pick up from
+sec_0050: Reasoning: Board is already in the right hand and the view is panning left along the counter toward the bowl/sink area — repositioning, not grasping. | Answer: move to
+sec_0054: Reasoning: The left gripper is closing around the white bowl at the far left of the counter while the right still holds the board. | Answer: pick up from
+sec_0058: Reasoning: The white bowl is now tilted up in the left gripper's fingers, clear of the counter. | Answer: pick up from
+sec_0061: Reasoning: Both objects are held — bowl in left, board in right — the tail of the same grasping motion. | Answer: pick up from
+sec_0065: Reasoning: The bowl has been set flat on the counter and the right gripper is lowering the board down onto the surface beside it. | Answer: place on next to
+sec_0069: Reasoning: Board is angled down toward the counter right next to the already-released bowl, a placement adjacent to it. | Answer: place on next to
+sec_0072: Reasoning: The board has come to rest on the counter immediately beside the bowl, with the gripper still touching it. | Answer: place on next to
+sec_0076: Reasoning: Board and bowl now sit side by side on the counter and the right gripper is just releasing/withdrawing from the board. | Answer: place on next to
+sec_0079: Reasoning: Both hands are empty and sweeping right toward the sink where the pink onion sits — a reach, no contact yet. | Answer: move to
+sec_0083: Reasoning: The left gripper has gone down into the sink basin right beside the pink onion, closing on it. | Answer: pick up from
+sec_0087: Reasoning: The gripper is inside the sink with fingers wrapped around the pink onion at the basin floor. | Answer: pick up from
+sec_0090: Reasoning: Same in-basin grasp, the onion partly occluded by the closed fingers as it is lifted out of the sink. | Answer: pick up from
+sec_0094: Reasoning: The onion is already in the left gripper and both arms are swinging back left over the board — transporting, not grasping. | Answer: move to
+sec_0098: Reasoning: The left gripper is over the board holding the pink onion, and the right gripper is closing on the red knife handle by the sink. | Answer: pick up from
+sec_0101: Reasoning: The right gripper is around the knife handle lifting it off the counter while the onion stays in the left hand. | Answer: pick up from
+sec_0105: Reasoning: The left gripper is lowering the onion onto the wooden chopping board surface. | Answer: place on
+sec_0109: Reasoning: The onion has been released onto the board and the left gripper is pulling back from it; knife is up in the right hand. | Answer: place on
+sec_0112: Reasoning: The knife is held vertically above the counter and the onion sits alone on the board — the blade is being aligned over the target, not yet cutting. | Answer: push to
+sec_0116: Reasoning: The blade tip is touching down on the onion but no separation is visible; this frame is honestly hard to tell from a chop stroke. | Answer: push to
+sec_0119: Reasoning: The knife has withdrawn to the right of the board with the onion still whole and intact — repositioning between strokes. | Answer: push to
+sec_0123: Reasoning: Blade angled down over the still-whole onion with nothing cut off yet; visually near-identical to a chop frame. | Answer: push to
+sec_0127: Reasoning: The knife is raised above the intact onion again, an inter-stroke alignment rather than a completed cut. | Answer: push to
+sec_0130: Reasoning: The onion now shows a separated white slice next to it on the board, so the blade has actually cut through. | Answer: chop
+sec_0134: Reasoning: Knife pulled back with the onion piece unchanged from the previous frame — a setup move, though it looks much like the chop frames. | Answer: push to
+sec_0138: Reasoning: The blade hovers over the onion with no new pieces produced; only the arm pose distinguishes it, which is weak evidence. | Answer: push to
+sec_0141: Reasoning: A second onion piece has appeared separated on the board under the knife, evidence of a completed cut. | Answer: chop
+sec_0145: Reasoning: The blade is driven down into the onion and two distinct pieces are now on the board. | Answer: chop
+sec_0148: Reasoning: The knife is in the onion and a cluster of small white diced cubes has appeared on the board. | Answer: chop
+sec_0152: Reasoning: The board now carries two piles of diced cubes with the blade still down among them. | Answer: chop
+sec_0156: Reasoning: The knife is being carried away right toward the sink while the diced onion stays on the board — a release of the tool. | Answer: place in
+sec_0159: Reasoning: The right gripper is lowering the knife down into the sink basin and the left is retracting from the board. | Answer: place in
+sec_0163: Reasoning: The right gripper has moved to the far edge of the board with the dice piles on it; the near-hand is empty and the actual grasp is off frame right. | Answer: pick up from
+sec_0167: Reasoning: The board with the dice is now tilted slightly and held at its right edge by the partly visible right gripper. | Answer: pick up from
+sec_0170: Reasoning: The board is clearly off level, gripped at the right side, being lifted from the counter. | Answer: pick up from
+sec_0174: Reasoning: The board is raised with the dice sliding toward its lower edge, the lift is complete. | Answer: pick up from
+sec_0178: Reasoning: The board is tilted so the dice slide toward the bowl edge — the classic transfer tilt. | Answer: pour
+sec_0181: Reasoning: The board is angled down over the white bowl and some cubes have already left the board into it. | Answer: pour
+sec_0185: Reasoning: Board still inclined above the bowl with cubes bunched at its low edge, mid-transfer. | Answer: pour
+sec_0188: Reasoning: The bowl now holds visible white cubes while the board is still tipped over it. | Answer: pour
+sec_0192: Reasoning: Fewer cubes remain on the board and more sit in the bowl below, the transfer continuing. | Answer: pour
+sec_0196: Reasoning: The board is nearly empty and the bowl is full of dice — the end of the tipping motion. | Answer: pour
+sec_0199: Reasoning: The bowl of dice sits released on the counter and the right gripper is bringing the emptied board down over the sink. | Answer: place in
+sec_0203: Reasoning: The board is being lowered into the sink basin by the right gripper, next to the knife already there. | Answer: place in
+sec_0207: Reasoning: The board is settling into the sink with the gripper still against it. | Answer: place in
+sec_0210: Reasoning: The board now lies flat inside the sink basin and the gripper is relaxing its hold. | Answer: place in
+sec_0214: Reasoning: The board rests fully in the sink and the arm is withdrawing — the placement is finished; only the end state distinguishes this from the retract. | Answer: place in

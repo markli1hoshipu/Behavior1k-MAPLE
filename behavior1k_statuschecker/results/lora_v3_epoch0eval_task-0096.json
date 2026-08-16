@@ -1,0 +1,4332 @@
+{
+  "task_chunk": "task-0096",
+  "task_name": "cook_broccolini",
+  "accuracy": 0.7555555555555555,
+  "macro_recall": 0.7555555555555556,
+  "correct": 408,
+  "total": 540,
+  "n_classes": 9,
+  "unseen_gt_label_frames": 0,
+  "predictions": [
+    {
+      "sec": 0,
+      "episode": "episode_00960300",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00960300",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 18,
+      "episode": "episode_00960300",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 28,
+      "episode": "episode_00960300",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 5,
+      "episode": "episode_00960310",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 14,
+      "episode": "episode_00960310",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00960310",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 33,
+      "episode": "episode_00960310",
+      "gt": "move to plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": false
+    },
+    {
+      "sec": 6,
+      "episode": "episode_00960320",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 16,
+      "episode": "episode_00960320",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00960320",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 5,
+      "episode": "episode_00960330",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 3,
+      "episode": "episode_00960380",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 12,
+      "episode": "episode_00960380",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00960380",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00960380",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00960390",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00960390",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00960390",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 0,
+      "episode": "episode_00960400",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 10,
+      "episode": "episode_00960400",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 19,
+      "episode": "episode_00960400",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 3,
+      "episode": "episode_00960410",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00960410",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 22,
+      "episode": "episode_00960410",
+      "gt": "move to plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": false
+    },
+    {
+      "sec": 7,
+      "episode": "episode_00960420",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00960420",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 26,
+      "episode": "episode_00960420",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00960430",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 18,
+      "episode": "episode_00960430",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 27,
+      "episode": "episode_00960430",
+      "gt": "move to plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": false
+    },
+    {
+      "sec": 5,
+      "episode": "episode_00960450",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 15,
+      "episode": "episode_00960450",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00960450",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 33,
+      "episode": "episode_00960450",
+      "gt": "move to plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": false
+    },
+    {
+      "sec": 7,
+      "episode": "episode_00960460",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 16,
+      "episode": "episode_00960460",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00960460",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00960490",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00960490",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 0,
+      "episode": "episode_00960500",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00960500",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 18,
+      "episode": "episode_00960500",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00960510",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00960510",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 22,
+      "episode": "episode_00960510",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00960510",
+      "gt": "move to plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": false
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00960530",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00960530",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 5,
+      "episode": "episode_00960550",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 14,
+      "episode": "episode_00960550",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00960550",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00960560",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 13,
+      "episode": "episode_00960560",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 22,
+      "episode": "episode_00960560",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 1,
+      "episode": "episode_00960570",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 10,
+      "episode": "episode_00960570",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 19,
+      "episode": "episode_00960570",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 8,
+      "episode": "episode_00960580",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00960580",
+      "gt": "move to plate",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": true
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00960300",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00960300",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00960300",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00960310",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00960320",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00960320",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00960320",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00960320",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00960320",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 12,
+      "episode": "episode_00960330",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 18,
+      "episode": "episode_00960330",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00960330",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00960380",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00960380",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00960390",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00960390",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00960390",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00960400",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00960400",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00960400",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 27,
+      "episode": "episode_00960410",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00960410",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00960420",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00960420",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00960420",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00960430",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00960430",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00960430",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00960450",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00960450",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00960460",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00960460",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00960460",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00960460",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00960460",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00960490",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00960490",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00960490",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00960490",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00960500",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00960500",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00960500",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00960500",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00960500",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00960510",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00960510",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00960510",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 26,
+      "episode": "episode_00960530",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00960550",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 34,
+      "episode": "episode_00960550",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 40,
+      "episode": "episode_00960550",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 31,
+      "episode": "episode_00960560",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00960560",
+      "gt": "pick up from plate",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": false
+    },
+    {
+      "sec": 22,
+      "episode": "episode_00960570",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 28,
+      "episode": "episode_00960570",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 33,
+      "episode": "episode_00960570",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00960570",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00960570",
+      "gt": "pick up from plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": true
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00960580",
+      "gt": "pick up from plate",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "episode": "episode_00960580",
+      "gt": "pick up from plate",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00960300",
+      "gt": "move to frying pan",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "episode": "episode_00960300",
+      "gt": "move to frying pan",
+      "pred": "move to frying pan",
+      "raw": "move to frying pan",
+      "correct": true
+    },
+    {
+      "sec": 70,
+      "episode": "episode_00960300",
+      "gt": "move to frying pan",
+      "pred": "move to frying pan",
+      "raw": "move to frying pan",
+      "correct": true
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00960300",
+      "gt": "move to frying pan",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00960310",
+      "gt": "move to frying pan",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": false
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00960320",
+      "gt": "move to frying pan",
+      "pred": "move to frying pan",
+      "raw": "move to frying pan",
+      "correct": true
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00960330",
+      "gt": "move to frying pan",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": false
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00960330",
+      "gt": "move to frying pan",
+      "pred": "move to frying pan",
+      "raw": "move to frying pan",
+      "correct": true
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00960330",
+      "gt": "move to frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": false
+    },
+    {
+      "sec": 77,
+      "episode": "episode_00960330",
+      "gt": "move to frying pan",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00960380",
+      "gt": "move to frying pan",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": false
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00960380",
+      "gt": "move to frying pan",
+      "pred": "move to frying pan",
+      "raw": "move to frying pan",
+      "correct": true
+    },
+    {
+      "sec": 78,
+      "episode": "episode_00960380",
+      "gt": "move to frying pan",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00960390",
+      "gt": "move to frying pan",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00960400",
+      "gt": "move to frying pan",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": false
+    },
+    {
+      "sec": 59,
+      "episode": "episode_00960400",
+      "gt": "move to frying pan",
+      "pred": "move to frying pan",
+      "raw": "move to frying pan",
+      "correct": true
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00960400",
+      "gt": "move to frying pan",
+      "pred": "move to frying pan",
+      "raw": "move to frying pan",
+      "correct": true
+    },
+    {
+      "sec": 94,
+      "episode": "episode_00960400",
+      "gt": "move to frying pan",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": false
+    },
+    {
+      "sec": 106,
+      "episode": "episode_00960400",
+      "gt": "move to frying pan",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": false
+    },
+    {
+      "sec": 118,
+      "episode": "episode_00960400",
+      "gt": "move to frying pan",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00960410",
+      "gt": "move to frying pan",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00960410",
+      "gt": "move to frying pan",
+      "pred": "move to frying pan",
+      "raw": "move to frying pan",
+      "correct": true
+    },
+    {
+      "sec": 67,
+      "episode": "episode_00960410",
+      "gt": "move to frying pan",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": false
+    },
+    {
+      "sec": 47,
+      "episode": "episode_00960420",
+      "gt": "move to frying pan",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "episode": "episode_00960420",
+      "gt": "move to frying pan",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": false
+    },
+    {
+      "sec": 70,
+      "episode": "episode_00960420",
+      "gt": "move to frying pan",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": false
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00960430",
+      "gt": "move to frying pan",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": false
+    },
+    {
+      "sec": 60,
+      "episode": "episode_00960430",
+      "gt": "move to frying pan",
+      "pred": "move to frying pan",
+      "raw": "move to frying pan",
+      "correct": true
+    },
+    {
+      "sec": 90,
+      "episode": "episode_00960430",
+      "gt": "move to frying pan",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": false
+    },
+    {
+      "sec": 102,
+      "episode": "episode_00960430",
+      "gt": "move to frying pan",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00960450",
+      "gt": "move to frying pan",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": false
+    },
+    {
+      "sec": 59,
+      "episode": "episode_00960450",
+      "gt": "move to frying pan",
+      "pred": "move to frying pan",
+      "raw": "move to frying pan",
+      "correct": true
+    },
+    {
+      "sec": 61,
+      "episode": "episode_00960460",
+      "gt": "move to frying pan",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": false
+    },
+    {
+      "sec": 73,
+      "episode": "episode_00960460",
+      "gt": "move to frying pan",
+      "pred": "move to frying pan",
+      "raw": "move to frying pan",
+      "correct": true
+    },
+    {
+      "sec": 84,
+      "episode": "episode_00960460",
+      "gt": "move to frying pan",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": false
+    },
+    {
+      "sec": 96,
+      "episode": "episode_00960460",
+      "gt": "move to frying pan",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": false
+    },
+    {
+      "sec": 45,
+      "episode": "episode_00960490",
+      "gt": "move to frying pan",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00960490",
+      "gt": "move to frying pan",
+      "pred": "move to frying pan",
+      "raw": "move to frying pan",
+      "correct": true
+    },
+    {
+      "sec": 68,
+      "episode": "episode_00960490",
+      "gt": "move to frying pan",
+      "pred": "move to frying pan",
+      "raw": "move to frying pan",
+      "correct": true
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00960500",
+      "gt": "move to frying pan",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "episode": "episode_00960510",
+      "gt": "move to frying pan",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": false
+    },
+    {
+      "sec": 63,
+      "episode": "episode_00960510",
+      "gt": "move to frying pan",
+      "pred": "move to frying pan",
+      "raw": "move to frying pan",
+      "correct": true
+    },
+    {
+      "sec": 34,
+      "episode": "episode_00960530",
+      "gt": "move to frying pan",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00960530",
+      "gt": "move to frying pan",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": false
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00960550",
+      "gt": "move to frying pan",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": false
+    },
+    {
+      "sec": 63,
+      "episode": "episode_00960550",
+      "gt": "move to frying pan",
+      "pred": "move to frying pan",
+      "raw": "move to frying pan",
+      "correct": true
+    },
+    {
+      "sec": 75,
+      "episode": "episode_00960550",
+      "gt": "move to frying pan",
+      "pred": "move to frying pan",
+      "raw": "move to frying pan",
+      "correct": true
+    },
+    {
+      "sec": 86,
+      "episode": "episode_00960550",
+      "gt": "move to frying pan",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": false
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00960560",
+      "gt": "move to frying pan",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00960560",
+      "gt": "move to frying pan",
+      "pred": "move to frying pan",
+      "raw": "move to frying pan",
+      "correct": true
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00960560",
+      "gt": "move to frying pan",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": false
+    },
+    {
+      "sec": 88,
+      "episode": "episode_00960560",
+      "gt": "move to frying pan",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": false
+    },
+    {
+      "sec": 100,
+      "episode": "episode_00960560",
+      "gt": "move to frying pan",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": false
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00960570",
+      "gt": "move to frying pan",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": false
+    },
+    {
+      "sec": 59,
+      "episode": "episode_00960570",
+      "gt": "move to frying pan",
+      "pred": "move to frying pan",
+      "raw": "move to frying pan",
+      "correct": true
+    },
+    {
+      "sec": 89,
+      "episode": "episode_00960570",
+      "gt": "move to frying pan",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": false
+    },
+    {
+      "sec": 101,
+      "episode": "episode_00960570",
+      "gt": "move to frying pan",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": false
+    },
+    {
+      "sec": 41,
+      "episode": "episode_00960580",
+      "gt": "move to frying pan",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": false
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00960580",
+      "gt": "move to frying pan",
+      "pred": "move to frying pan",
+      "raw": "move to frying pan",
+      "correct": true
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00960580",
+      "gt": "move to frying pan",
+      "pred": "move to frying pan",
+      "raw": "move to frying pan",
+      "correct": true
+    },
+    {
+      "sec": 83,
+      "episode": "episode_00960300",
+      "gt": "pour broccolini",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": false
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00960300",
+      "gt": "pour broccolini",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": false
+    },
+    {
+      "sec": 87,
+      "episode": "episode_00960300",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 90,
+      "episode": "episode_00960300",
+      "gt": "pour broccolini",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": false
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00960310",
+      "gt": "pour broccolini",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": false
+    },
+    {
+      "sec": 60,
+      "episode": "episode_00960310",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00960310",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00960310",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 78,
+      "episode": "episode_00960320",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 81,
+      "episode": "episode_00960320",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 83,
+      "episode": "episode_00960320",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00960330",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00960330",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 84,
+      "episode": "episode_00960380",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 86,
+      "episode": "episode_00960380",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 89,
+      "episode": "episode_00960380",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 91,
+      "episode": "episode_00960380",
+      "gt": "pour broccolini",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": false
+    },
+    {
+      "sec": 94,
+      "episode": "episode_00960380",
+      "gt": "pour broccolini",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "episode": "episode_00960390",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00960390",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00960390",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00960400",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00960400",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00960400",
+      "gt": "pour broccolini",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": false
+    },
+    {
+      "sec": 70,
+      "episode": "episode_00960410",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00960420",
+      "gt": "pour broccolini",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": false
+    },
+    {
+      "sec": 73,
+      "episode": "episode_00960420",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00960430",
+      "gt": "pour broccolini",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": false
+    },
+    {
+      "sec": 67,
+      "episode": "episode_00960430",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 70,
+      "episode": "episode_00960430",
+      "gt": "pour broccolini",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": false
+    },
+    {
+      "sec": 72,
+      "episode": "episode_00960430",
+      "gt": "pour broccolini",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": false
+    },
+    {
+      "sec": 70,
+      "episode": "episode_00960450",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 100,
+      "episode": "episode_00960460",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 102,
+      "episode": "episode_00960460",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 105,
+      "episode": "episode_00960460",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 107,
+      "episode": "episode_00960460",
+      "gt": "pour broccolini",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": false
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00960490",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 73,
+      "episode": "episode_00960490",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 76,
+      "episode": "episode_00960490",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 78,
+      "episode": "episode_00960490",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 81,
+      "episode": "episode_00960490",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 83,
+      "episode": "episode_00960490",
+      "gt": "pour broccolini",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": false
+    },
+    {
+      "sec": 69,
+      "episode": "episode_00960500",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00960500",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 74,
+      "episode": "episode_00960500",
+      "gt": "pour broccolini",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": false
+    },
+    {
+      "sec": 74,
+      "episode": "episode_00960510",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00960530",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 51,
+      "episode": "episode_00960530",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 89,
+      "episode": "episode_00960550",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 91,
+      "episode": "episode_00960550",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 94,
+      "episode": "episode_00960550",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 68,
+      "episode": "episode_00960560",
+      "gt": "pour broccolini",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": false
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00960560",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 73,
+      "episode": "episode_00960560",
+      "gt": "pour broccolini",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": false
+    },
+    {
+      "sec": 64,
+      "episode": "episode_00960570",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00960570",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 69,
+      "episode": "episode_00960570",
+      "gt": "pour broccolini",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": false
+    },
+    {
+      "sec": 77,
+      "episode": "episode_00960580",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00960580",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00960580",
+      "gt": "pour broccolini",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": true
+    },
+    {
+      "sec": 91,
+      "episode": "episode_00960300",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 93,
+      "episode": "episode_00960300",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 96,
+      "episode": "episode_00960300",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 68,
+      "episode": "episode_00960310",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00960320",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 88,
+      "episode": "episode_00960320",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 90,
+      "episode": "episode_00960320",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00960330",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00960330",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 60,
+      "episode": "episode_00960330",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 63,
+      "episode": "episode_00960330",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 97,
+      "episode": "episode_00960380",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 100,
+      "episode": "episode_00960380",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 103,
+      "episode": "episode_00960380",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 106,
+      "episode": "episode_00960380",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 109,
+      "episode": "episode_00960380",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 112,
+      "episode": "episode_00960380",
+      "gt": "place on plate",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": false
+    },
+    {
+      "sec": 59,
+      "episode": "episode_00960390",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00960390",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00960390",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 89,
+      "episode": "episode_00960400",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 75,
+      "episode": "episode_00960410",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 77,
+      "episode": "episode_00960410",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00960410",
+      "gt": "place on plate",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": false
+    },
+    {
+      "sec": 77,
+      "episode": "episode_00960420",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00960420",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 74,
+      "episode": "episode_00960430",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 77,
+      "episode": "episode_00960430",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00960430",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00960430",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 73,
+      "episode": "episode_00960450",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 76,
+      "episode": "episode_00960450",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 110,
+      "episode": "episode_00960460",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 112,
+      "episode": "episode_00960460",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 115,
+      "episode": "episode_00960460",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00960490",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 88,
+      "episode": "episode_00960490",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 91,
+      "episode": "episode_00960490",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 75,
+      "episode": "episode_00960500",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 77,
+      "episode": "episode_00960500",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00960500",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 83,
+      "episode": "episode_00960500",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 86,
+      "episode": "episode_00960500",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 89,
+      "episode": "episode_00960500",
+      "gt": "place on plate",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": false
+    },
+    {
+      "sec": 77,
+      "episode": "episode_00960510",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00960510",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00960530",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 57,
+      "episode": "episode_00960530",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 97,
+      "episode": "episode_00960550",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 100,
+      "episode": "episode_00960550",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 102,
+      "episode": "episode_00960550",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 105,
+      "episode": "episode_00960550",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 108,
+      "episode": "episode_00960550",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 75,
+      "episode": "episode_00960560",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 78,
+      "episode": "episode_00960560",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00960570",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 74,
+      "episode": "episode_00960570",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 77,
+      "episode": "episode_00960570",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00960580",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 88,
+      "episode": "episode_00960580",
+      "gt": "place on plate",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": true
+    },
+    {
+      "sec": 98,
+      "episode": "episode_00960300",
+      "gt": "pick up from frying pan",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": false
+    },
+    {
+      "sec": 102,
+      "episode": "episode_00960300",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 107,
+      "episode": "episode_00960300",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 111,
+      "episode": "episode_00960300",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 116,
+      "episode": "episode_00960300",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 120,
+      "episode": "episode_00960300",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 70,
+      "episode": "episode_00960310",
+      "gt": "pick up from frying pan",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": false
+    },
+    {
+      "sec": 74,
+      "episode": "episode_00960310",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 92,
+      "episode": "episode_00960320",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 96,
+      "episode": "episode_00960320",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 101,
+      "episode": "episode_00960320",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 105,
+      "episode": "episode_00960320",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 110,
+      "episode": "episode_00960320",
+      "gt": "pick up from frying pan",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": false
+    },
+    {
+      "sec": 88,
+      "episode": "episode_00960330",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 93,
+      "episode": "episode_00960330",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 97,
+      "episode": "episode_00960330",
+      "gt": "pick up from frying pan",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": false
+    },
+    {
+      "sec": 122,
+      "episode": "episode_00960380",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 126,
+      "episode": "episode_00960380",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 131,
+      "episode": "episode_00960380",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 135,
+      "episode": "episode_00960380",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 70,
+      "episode": "episode_00960390",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 74,
+      "episode": "episode_00960390",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00960390",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 83,
+      "episode": "episode_00960390",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 123,
+      "episode": "episode_00960400",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 127,
+      "episode": "episode_00960400",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": false
+    },
+    {
+      "sec": 132,
+      "episode": "episode_00960400",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 136,
+      "episode": "episode_00960400",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 93,
+      "episode": "episode_00960410",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 92,
+      "episode": "episode_00960420",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 97,
+      "episode": "episode_00960420",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": false
+    },
+    {
+      "sec": 118,
+      "episode": "episode_00960430",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 122,
+      "episode": "episode_00960430",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00960450",
+      "gt": "pick up from frying pan",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": false
+    },
+    {
+      "sec": 84,
+      "episode": "episode_00960450",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 132,
+      "episode": "episode_00960460",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 136,
+      "episode": "episode_00960460",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00960460",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 145,
+      "episode": "episode_00960460",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 150,
+      "episode": "episode_00960460",
+      "gt": "pick up from frying pan",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": false
+    },
+    {
+      "sec": 154,
+      "episode": "episode_00960460",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 97,
+      "episode": "episode_00960490",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 101,
+      "episode": "episode_00960490",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 106,
+      "episode": "episode_00960490",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 92,
+      "episode": "episode_00960500",
+      "gt": "pick up from frying pan",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": false
+    },
+    {
+      "sec": 97,
+      "episode": "episode_00960500",
+      "gt": "pick up from frying pan",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": false
+    },
+    {
+      "sec": 101,
+      "episode": "episode_00960500",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 81,
+      "episode": "episode_00960510",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00960510",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00960530",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 122,
+      "episode": "episode_00960550",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 127,
+      "episode": "episode_00960550",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from plate",
+      "raw": "pick up from plate",
+      "correct": false
+    },
+    {
+      "sec": 113,
+      "episode": "episode_00960560",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 113,
+      "episode": "episode_00960570",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 117,
+      "episode": "episode_00960570",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 122,
+      "episode": "episode_00960570",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 126,
+      "episode": "episode_00960570",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 94,
+      "episode": "episode_00960580",
+      "gt": "pick up from frying pan",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": false
+    },
+    {
+      "sec": 98,
+      "episode": "episode_00960580",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 103,
+      "episode": "episode_00960580",
+      "gt": "pick up from frying pan",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": true
+    },
+    {
+      "sec": 125,
+      "episode": "episode_00960300",
+      "gt": "move to stove",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": false
+    },
+    {
+      "sec": 132,
+      "episode": "episode_00960300",
+      "gt": "move to stove",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": true
+    },
+    {
+      "sec": 140,
+      "episode": "episode_00960300",
+      "gt": "move to stove",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": true
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00960310",
+      "gt": "move to stove",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": false
+    },
+    {
+      "sec": 87,
+      "episode": "episode_00960310",
+      "gt": "move to stove",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": true
+    },
+    {
+      "sec": 95,
+      "episode": "episode_00960310",
+      "gt": "move to stove",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": true
+    },
+    {
+      "sec": 113,
+      "episode": "episode_00960320",
+      "gt": "move to stove",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": false
+    },
+    {
+      "sec": 120,
+      "episode": "episode_00960320",
+      "gt": "move to stove",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": true
+    },
+    {
+      "sec": 128,
+      "episode": "episode_00960320",
+      "gt": "move to stove",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": false
+    },
+    {
+      "sec": 103,
+      "episode": "episode_00960330",
+      "gt": "move to stove",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": false
+    },
+    {
+      "sec": 111,
+      "episode": "episode_00960330",
+      "gt": "move to stove",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": true
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00960380",
+      "gt": "move to stove",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": true
+    },
+    {
+      "sec": 149,
+      "episode": "episode_00960380",
+      "gt": "move to stove",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": false
+    },
+    {
+      "sec": 157,
+      "episode": "episode_00960380",
+      "gt": "move to stove",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": true
+    },
+    {
+      "sec": 164,
+      "episode": "episode_00960380",
+      "gt": "move to stove",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": true
+    },
+    {
+      "sec": 87,
+      "episode": "episode_00960390",
+      "gt": "move to stove",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": false
+    },
+    {
+      "sec": 95,
+      "episode": "episode_00960390",
+      "gt": "move to stove",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": true
+    },
+    {
+      "sec": 103,
+      "episode": "episode_00960390",
+      "gt": "move to stove",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": true
+    },
+    {
+      "sec": 111,
+      "episode": "episode_00960390",
+      "gt": "move to stove",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": false
+    },
+    {
+      "sec": 143,
+      "episode": "episode_00960400",
+      "gt": "move to stove",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": true
+    },
+    {
+      "sec": 151,
+      "episode": "episode_00960400",
+      "gt": "move to stove",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": true
+    },
+    {
+      "sec": 158,
+      "episode": "episode_00960400",
+      "gt": "move to stove",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": true
+    },
+    {
+      "sec": 102,
+      "episode": "episode_00960410",
+      "gt": "move to stove",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": true
+    },
+    {
+      "sec": 110,
+      "episode": "episode_00960410",
+      "gt": "move to stove",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": true
+    },
+    {
+      "sec": 101,
+      "episode": "episode_00960420",
+      "gt": "move to stove",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": true
+    },
+    {
+      "sec": 109,
+      "episode": "episode_00960420",
+      "gt": "move to stove",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": true
+    },
+    {
+      "sec": 117,
+      "episode": "episode_00960420",
+      "gt": "move to stove",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": true
+    },
+    {
+      "sec": 129,
+      "episode": "episode_00960430",
+      "gt": "move to stove",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": false
+    },
+    {
+      "sec": 137,
+      "episode": "episode_00960430",
+      "gt": "move to stove",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": true
+    },
+    {
+      "sec": 88,
+      "episode": "episode_00960450",
+      "gt": "move to stove",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": true
+    },
+    {
+      "sec": 96,
+      "episode": "episode_00960450",
+      "gt": "move to stove",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": true
+    },
+    {
+      "sec": 104,
+      "episode": "episode_00960450",
+      "gt": "move to stove",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": true
+    },
+    {
+      "sec": 112,
+      "episode": "episode_00960450",
+      "gt": "move to stove",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": true
+    },
+    {
+      "sec": 120,
+      "episode": "episode_00960450",
+      "gt": "move to stove",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": true
+    },
+    {
+      "sec": 158,
+      "episode": "episode_00960460",
+      "gt": "move to stove",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": false
+    },
+    {
+      "sec": 166,
+      "episode": "episode_00960460",
+      "gt": "move to stove",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": false
+    },
+    {
+      "sec": 115,
+      "episode": "episode_00960490",
+      "gt": "move to stove",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": true
+    },
+    {
+      "sec": 123,
+      "episode": "episode_00960490",
+      "gt": "move to stove",
+      "pred": "pour broccolini",
+      "raw": "pour broccolini",
+      "correct": false
+    },
+    {
+      "sec": 131,
+      "episode": "episode_00960490",
+      "gt": "move to stove",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": true
+    },
+    {
+      "sec": 110,
+      "episode": "episode_00960500",
+      "gt": "move to stove",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": true
+    },
+    {
+      "sec": 118,
+      "episode": "episode_00960500",
+      "gt": "move to stove",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": true
+    },
+    {
+      "sec": 125,
+      "episode": "episode_00960500",
+      "gt": "move to stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": false
+    },
+    {
+      "sec": 133,
+      "episode": "episode_00960500",
+      "gt": "move to stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": false
+    },
+    {
+      "sec": 91,
+      "episode": "episode_00960510",
+      "gt": "move to stove",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": false
+    },
+    {
+      "sec": 99,
+      "episode": "episode_00960510",
+      "gt": "move to stove",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": true
+    },
+    {
+      "sec": 107,
+      "episode": "episode_00960510",
+      "gt": "move to stove",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": false
+    },
+    {
+      "sec": 70,
+      "episode": "episode_00960530",
+      "gt": "move to stove",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": true
+    },
+    {
+      "sec": 77,
+      "episode": "episode_00960530",
+      "gt": "move to stove",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": true
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00960530",
+      "gt": "move to stove",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": true
+    },
+    {
+      "sec": 136,
+      "episode": "episode_00960550",
+      "gt": "move to stove",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": false
+    },
+    {
+      "sec": 144,
+      "episode": "episode_00960550",
+      "gt": "move to stove",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": true
+    },
+    {
+      "sec": 152,
+      "episode": "episode_00960550",
+      "gt": "move to stove",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": true
+    },
+    {
+      "sec": 160,
+      "episode": "episode_00960550",
+      "gt": "move to stove",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": false
+    },
+    {
+      "sec": 123,
+      "episode": "episode_00960560",
+      "gt": "move to stove",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": true
+    },
+    {
+      "sec": 130,
+      "episode": "episode_00960560",
+      "gt": "move to stove",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": true
+    },
+    {
+      "sec": 130,
+      "episode": "episode_00960570",
+      "gt": "move to stove",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": false
+    },
+    {
+      "sec": 138,
+      "episode": "episode_00960570",
+      "gt": "move to stove",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": true
+    },
+    {
+      "sec": 111,
+      "episode": "episode_00960580",
+      "gt": "move to stove",
+      "pred": "pick up from frying pan",
+      "raw": "pick up from frying pan",
+      "correct": false
+    },
+    {
+      "sec": 119,
+      "episode": "episode_00960580",
+      "gt": "move to stove",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": true
+    },
+    {
+      "sec": 127,
+      "episode": "episode_00960580",
+      "gt": "move to stove",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": true
+    },
+    {
+      "sec": 148,
+      "episode": "episode_00960300",
+      "gt": "place on frying pan",
+      "pred": "move to stove",
+      "raw": "move to stove",
+      "correct": false
+    },
+    {
+      "sec": 151,
+      "episode": "episode_00960300",
+      "gt": "place on frying pan",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": true
+    },
+    {
+      "sec": 154,
+      "episode": "episode_00960300",
+      "gt": "place on frying pan",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": false
+    },
+    {
+      "sec": 102,
+      "episode": "episode_00960310",
+      "gt": "place on frying pan",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": false
+    },
+    {
+      "sec": 105,
+      "episode": "episode_00960310",
+      "gt": "place on frying pan",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": true
+    },
+    {
+      "sec": 134,
+      "episode": "episode_00960320",
+      "gt": "place on frying pan",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": false
+    },
+    {
+      "sec": 137,
+      "episode": "episode_00960320",
+      "gt": "place on frying pan",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": true
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00960320",
+      "gt": "place on frying pan",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": true
+    },
+    {
+      "sec": 114,
+      "episode": "episode_00960330",
+      "gt": "place on frying pan",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": false
+    },
+    {
+      "sec": 118,
+      "episode": "episode_00960330",
+      "gt": "place on frying pan",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": true
+    },
+    {
+      "sec": 172,
+      "episode": "episode_00960380",
+      "gt": "place on frying pan",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": true
+    },
+    {
+      "sec": 176,
+      "episode": "episode_00960380",
+      "gt": "place on frying pan",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": false
+    },
+    {
+      "sec": 179,
+      "episode": "episode_00960380",
+      "gt": "place on frying pan",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": false
+    },
+    {
+      "sec": 183,
+      "episode": "episode_00960380",
+      "gt": "place on frying pan",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": false
+    },
+    {
+      "sec": 186,
+      "episode": "episode_00960380",
+      "gt": "place on frying pan",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": false
+    },
+    {
+      "sec": 116,
+      "episode": "episode_00960390",
+      "gt": "place on frying pan",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": true
+    },
+    {
+      "sec": 119,
+      "episode": "episode_00960390",
+      "gt": "place on frying pan",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": true
+    },
+    {
+      "sec": 161,
+      "episode": "episode_00960400",
+      "gt": "place on frying pan",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": true
+    },
+    {
+      "sec": 164,
+      "episode": "episode_00960400",
+      "gt": "place on frying pan",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": false
+    },
+    {
+      "sec": 168,
+      "episode": "episode_00960400",
+      "gt": "place on frying pan",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": true
+    },
+    {
+      "sec": 116,
+      "episode": "episode_00960410",
+      "gt": "place on frying pan",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": true
+    },
+    {
+      "sec": 120,
+      "episode": "episode_00960410",
+      "gt": "place on frying pan",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": true
+    },
+    {
+      "sec": 122,
+      "episode": "episode_00960420",
+      "gt": "place on frying pan",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": true
+    },
+    {
+      "sec": 126,
+      "episode": "episode_00960420",
+      "gt": "place on frying pan",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": true
+    },
+    {
+      "sec": 129,
+      "episode": "episode_00960420",
+      "gt": "place on frying pan",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": true
+    },
+    {
+      "sec": 145,
+      "episode": "episode_00960430",
+      "gt": "place on frying pan",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": true
+    },
+    {
+      "sec": 148,
+      "episode": "episode_00960430",
+      "gt": "place on frying pan",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": true
+    },
+    {
+      "sec": 152,
+      "episode": "episode_00960430",
+      "gt": "place on frying pan",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": false
+    },
+    {
+      "sec": 155,
+      "episode": "episode_00960430",
+      "gt": "place on frying pan",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": true
+    },
+    {
+      "sec": 125,
+      "episode": "episode_00960450",
+      "gt": "place on frying pan",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": true
+    },
+    {
+      "sec": 128,
+      "episode": "episode_00960450",
+      "gt": "place on frying pan",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": false
+    },
+    {
+      "sec": 167,
+      "episode": "episode_00960460",
+      "gt": "place on frying pan",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": true
+    },
+    {
+      "sec": 171,
+      "episode": "episode_00960460",
+      "gt": "place on frying pan",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": true
+    },
+    {
+      "sec": 174,
+      "episode": "episode_00960460",
+      "gt": "place on frying pan",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": true
+    },
+    {
+      "sec": 178,
+      "episode": "episode_00960460",
+      "gt": "place on frying pan",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": true
+    },
+    {
+      "sec": 181,
+      "episode": "episode_00960460",
+      "gt": "place on frying pan",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": true
+    },
+    {
+      "sec": 136,
+      "episode": "episode_00960490",
+      "gt": "place on frying pan",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": true
+    },
+    {
+      "sec": 139,
+      "episode": "episode_00960490",
+      "gt": "place on frying pan",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": true
+    },
+    {
+      "sec": 143,
+      "episode": "episode_00960490",
+      "gt": "place on frying pan",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": true
+    },
+    {
+      "sec": 146,
+      "episode": "episode_00960490",
+      "gt": "place on frying pan",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": true
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00960500",
+      "gt": "place on frying pan",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": false
+    },
+    {
+      "sec": 144,
+      "episode": "episode_00960500",
+      "gt": "place on frying pan",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": true
+    },
+    {
+      "sec": 148,
+      "episode": "episode_00960500",
+      "gt": "place on frying pan",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": false
+    },
+    {
+      "sec": 151,
+      "episode": "episode_00960500",
+      "gt": "place on frying pan",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": false
+    },
+    {
+      "sec": 114,
+      "episode": "episode_00960510",
+      "gt": "place on frying pan",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": false
+    },
+    {
+      "sec": 89,
+      "episode": "episode_00960530",
+      "gt": "place on frying pan",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": false
+    },
+    {
+      "sec": 165,
+      "episode": "episode_00960550",
+      "gt": "place on frying pan",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": true
+    },
+    {
+      "sec": 168,
+      "episode": "episode_00960550",
+      "gt": "place on frying pan",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": true
+    },
+    {
+      "sec": 172,
+      "episode": "episode_00960550",
+      "gt": "place on frying pan",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": true
+    },
+    {
+      "sec": 175,
+      "episode": "episode_00960550",
+      "gt": "place on frying pan",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": true
+    },
+    {
+      "sec": 136,
+      "episode": "episode_00960560",
+      "gt": "place on frying pan",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": true
+    },
+    {
+      "sec": 143,
+      "episode": "episode_00960570",
+      "gt": "place on frying pan",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": true
+    },
+    {
+      "sec": 147,
+      "episode": "episode_00960570",
+      "gt": "place on frying pan",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": true
+    },
+    {
+      "sec": 150,
+      "episode": "episode_00960570",
+      "gt": "place on frying pan",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": true
+    },
+    {
+      "sec": 154,
+      "episode": "episode_00960570",
+      "gt": "place on frying pan",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": true
+    },
+    {
+      "sec": 157,
+      "episode": "episode_00960570",
+      "gt": "place on frying pan",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": false
+    },
+    {
+      "sec": 161,
+      "episode": "episode_00960570",
+      "gt": "place on frying pan",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": false
+    },
+    {
+      "sec": 164,
+      "episode": "episode_00960570",
+      "gt": "place on frying pan",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": false
+    },
+    {
+      "sec": 138,
+      "episode": "episode_00960580",
+      "gt": "place on frying pan",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": true
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00960580",
+      "gt": "place on frying pan",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": true
+    },
+    {
+      "sec": 158,
+      "episode": "episode_00960300",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 163,
+      "episode": "episode_00960300",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 169,
+      "episode": "episode_00960300",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 110,
+      "episode": "episode_00960310",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 116,
+      "episode": "episode_00960310",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 144,
+      "episode": "episode_00960320",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 149,
+      "episode": "episode_00960320",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 155,
+      "episode": "episode_00960320",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 121,
+      "episode": "episode_00960330",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 126,
+      "episode": "episode_00960330",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 132,
+      "episode": "episode_00960330",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 137,
+      "episode": "episode_00960330",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 192,
+      "episode": "episode_00960380",
+      "gt": "turn on switch stove",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": false
+    },
+    {
+      "sec": 198,
+      "episode": "episode_00960380",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 203,
+      "episode": "episode_00960380",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 209,
+      "episode": "episode_00960380",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 215,
+      "episode": "episode_00960380",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 126,
+      "episode": "episode_00960390",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 132,
+      "episode": "episode_00960390",
+      "gt": "turn on switch stove",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": false
+    },
+    {
+      "sec": 138,
+      "episode": "episode_00960390",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 171,
+      "episode": "episode_00960400",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 177,
+      "episode": "episode_00960400",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 182,
+      "episode": "episode_00960400",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 127,
+      "episode": "episode_00960410",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 133,
+      "episode": "episode_00960410",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 138,
+      "episode": "episode_00960410",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 133,
+      "episode": "episode_00960420",
+      "gt": "turn on switch stove",
+      "pred": "place on plate",
+      "raw": "place on plate",
+      "correct": false
+    },
+    {
+      "sec": 139,
+      "episode": "episode_00960420",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 144,
+      "episode": "episode_00960420",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 161,
+      "episode": "episode_00960430",
+      "gt": "turn on switch stove",
+      "pred": "move to frying pan",
+      "raw": "move to frying pan",
+      "correct": false
+    },
+    {
+      "sec": 167,
+      "episode": "episode_00960430",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 131,
+      "episode": "episode_00960450",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 137,
+      "episode": "episode_00960450",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 142,
+      "episode": "episode_00960450",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 186,
+      "episode": "episode_00960460",
+      "gt": "turn on switch stove",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": false
+    },
+    {
+      "sec": 192,
+      "episode": "episode_00960460",
+      "gt": "turn on switch stove",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": false
+    },
+    {
+      "sec": 197,
+      "episode": "episode_00960460",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 203,
+      "episode": "episode_00960460",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 209,
+      "episode": "episode_00960460",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 214,
+      "episode": "episode_00960460",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 148,
+      "episode": "episode_00960490",
+      "gt": "turn on switch stove",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": false
+    },
+    {
+      "sec": 153,
+      "episode": "episode_00960490",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 159,
+      "episode": "episode_00960490",
+      "gt": "turn on switch stove",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": false
+    },
+    {
+      "sec": 165,
+      "episode": "episode_00960490",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 154,
+      "episode": "episode_00960500",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 160,
+      "episode": "episode_00960500",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 166,
+      "episode": "episode_00960500",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 117,
+      "episode": "episode_00960510",
+      "gt": "turn on switch stove",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": false
+    },
+    {
+      "sec": 123,
+      "episode": "episode_00960510",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 92,
+      "episode": "episode_00960530",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 97,
+      "episode": "episode_00960530",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 180,
+      "episode": "episode_00960550",
+      "gt": "turn on switch stove",
+      "pred": "place on frying pan",
+      "raw": "place on frying pan",
+      "correct": false
+    },
+    {
+      "sec": 185,
+      "episode": "episode_00960550",
+      "gt": "turn on switch stove",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": false
+    },
+    {
+      "sec": 191,
+      "episode": "episode_00960550",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 143,
+      "episode": "episode_00960560",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 148,
+      "episode": "episode_00960560",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 167,
+      "episode": "episode_00960570",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 148,
+      "episode": "episode_00960580",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    },
+    {
+      "sec": 153,
+      "episode": "episode_00960580",
+      "gt": "turn on switch stove",
+      "pred": "move to plate",
+      "raw": "move to plate",
+      "correct": false
+    },
+    {
+      "sec": 159,
+      "episode": "episode_00960580",
+      "gt": "turn on switch stove",
+      "pred": "turn on switch stove",
+      "raw": "turn on switch stove",
+      "correct": true
+    }
+  ]
+}

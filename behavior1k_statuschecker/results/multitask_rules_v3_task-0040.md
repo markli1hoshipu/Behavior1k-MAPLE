@@ -1,0 +1,6 @@
+1. close door - Door swung open with the tall crumpled tan bag standing inside, or door already shut, and the gripper is low: at or below the bottom edge of the door panel, or pressed flat on the door face, entering from the bottom-left, never reaching into the cavity.
+2. move to - A wide view showing a large expanse of floor and several counters, with either no arm or gripper anywhere in frame, or the gripper carrying the bag in mid-air away from any surface while the microwave sits small and distant. A bag resting on a counter here is scenery, not a grasp.
+3. open door - The microwave interior is empty except a flat pale oval turntable plate lying flat; door shut or swinging, with the arm entering from the right at the door edge — or no arm at all in a close view centred on the shut microwave.
+4. pick up from - The sink-and-stove counter corner with no microwave anywhere in the frame, gripper at or closed on the upright tan bag whose open mouth shows white kernels.
+5. place in - Door open with the bag already inside on the plate, and the gripper at mouth height reaching into or hovering at the opening from the right, level with the bag rather than on the glass.
+6. turn on switch - Microwave fully shut with a dark window, gripper up at the small round knobs on the right-hand control panel, above and right of the door face.

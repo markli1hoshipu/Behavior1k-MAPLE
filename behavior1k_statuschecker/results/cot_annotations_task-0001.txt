@@ -1,0 +1,46 @@
+sec_0000: Reasoning: No robot parts in frame at all — just the room with the trash can sitting distant on the floor, consistent with a pure approach/navigation view. | Answer: move to
+sec_0004: Reasoning: Still no arms or grippers visible; the trash can is closer and more centered than the previous frame, indicating the viewpoint is translating toward it. | Answer: move to
+sec_0008: Reasoning: Camera is now right over the trash can with its opening visible, but no robot arm has entered the frame yet, so only the closing distance distinguishes this. | Answer: move to
+sec_0025: Reasoning: Both grippers have swung into the bottom of the frame and the left one is right at the rim of the trash can, contacting it rather than travelling. | Answer: pick up from
+sec_0029: Reasoning: The left gripper is clamped on the trash can's rim and the can is tilted off vertical, showing it is being lifted off the floor. | Answer: pick up from
+sec_0033: Reasoning: The trash can is now held tilted in the left gripper clear of the floor and the view has begun panning away, so the grasp is complete and transport has started. | Answer: move to
+sec_0037: Reasoning: Trash can stays fixed in the left gripper while the background swings to show the kitchen counter — the scene is moving, not the hand. | Answer: move to
+sec_0041: Reasoning: Carried trash can holds the same position in the lower frame while an entirely new room (fridge, dining chairs) rolls into view. | Answer: move to
+sec_0045: Reasoning: The held can is unchanged in the gripper as the staircase and dining table sweep past, pure base navigation. | Answer: move to
+sec_0050: Reasoning: Still carrying the tilted can with both arms static; an orange soda can is visible far ahead on the floor, i.e. the target is still at a distance. | Answer: move to
+sec_0054: Reasoning: The orange can on the floor is noticeably nearer than in the previous frame and the grippers have not reached toward it yet. | Answer: move to
+sec_0058: Reasoning: Orange can is closer still near the sofa but well outside the grippers' reach, and both arms remain in a neutral carry pose. | Answer: move to
+sec_0062: Reasoning: View has swung to the hallway with the arms cropped at the bottom holding the can; nothing is being contacted. | Answer: move to
+sec_0075: Reasoning: Only the carried trash can and the two idle grippers are visible with no target object near them — honestly ambiguous from this frame alone, the reach onto the floor object is not yet shown. | Answer: pick up from
+sec_0079: Reasoning: The right gripper has dropped low and an orange can is just appearing at its fingertips in the bottom-right corner. | Answer: pick up from
+sec_0083: Reasoning: The right gripper's fingers are closed around the orange can at floor level, off to the right of the held trash can. | Answer: pick up from
+sec_0087: Reasoning: Right gripper still pinches the orange can and has raised it slightly above the floorboards. | Answer: pick up from
+sec_0091: Reasoning: The orange can is clearly clamped in the right gripper and lifted clear of the floor, arm retracting upward. | Answer: pick up from
+sec_0100: Reasoning: Both arms have converged over the trash can mouth with the orange can right at the rim, mid-release into the container. | Answer: place in
+sec_0112: Reasoning: Arms are cropped at the bottom holding the trash can and the hallway is sweeping past — no object interaction visible. | Answer: move to
+sec_0116: Reasoning: The living room with sofa and coffee table rolls into view while the carried can stays pinned at the bottom edge. | Answer: move to
+sec_0120: Reasoning: Two small cans are visible far off on the floor by the fireplace, well beyond the grippers, which stay down at the frame edge. | Answer: move to
+sec_0125: Reasoning: The blue and orange cans on the floor are noticeably larger/closer than the last frame, with no reaching motion yet. | Answer: move to
+sec_0129: Reasoning: Continued approach — the fireplace and the orange can dominate more of the frame and only the top of the carried trash can is visible. | Answer: move to
+sec_0133: Reasoning: The orange can is now near the bottom of the frame but still on the floor untouched, arms not extended. | Answer: move to
+sec_0137: Reasoning: Camera is right on top of the fireplace hearth with the orange can at the very bottom edge; no gripper has closed on it yet. | Answer: move to
+sec_0154: Reasoning: The left gripper holds the trash can angled open and an orange can is already inside its mouth, with the right arm low at the floor by another can. | Answer: pick up from
+sec_0158: Reasoning: Left arm holds the tilted trash can while the right gripper is down at floor level near the remaining blue can, mid-grasp reach. | Answer: pick up from
+sec_0162: Reasoning: Same low right-arm posture at the floor beside the blue can, with the trash can tipped toward it to receive the pick. | Answer: pick up from
+sec_0166: Reasoning: The right gripper is raised holding an orange can directly above the tilted trash can's opening. | Answer: place in
+sec_0170: Reasoning: Both grippers are together over the trash can rim with the orange can right at the mouth, being deposited inside. | Answer: place in
+sec_0183: Reasoning: The trash can with cans inside sits in the left gripper at the bottom edge while the room pans; a blue can still lies untouched on the floor ahead. | Answer: move to
+sec_0187: Reasoning: The blue floor can is nearer and centered, and the arms remain in a static carrying pose with no reach. | Answer: move to
+sec_0191: Reasoning: View has swung to the patio door with only the carried trash can at the bottom edge — an approach frame with no object contact visible. | Answer: move to
+sec_0200: Reasoning: The right gripper is lowered at the floor with the blue can right at its fingers, next to the held trash can. | Answer: pick up from
+sec_0204: Reasoning: The right gripper is closed on the blue can just off the floorboards while the left holds the tipped trash can. | Answer: pick up from
+sec_0208: Reasoning: Blue can is held in the right gripper and lifted, with the trash can pushed to the left edge of the frame. | Answer: pick up from
+sec_0212: Reasoning: Right arm is raised with the blue can still pinched, retracting away from the floor. | Answer: pick up from
+sec_0216: Reasoning: The blue can remains gripped in the right hand mid-air and the floor beneath is now clear of trash. | Answer: pick up from
+sec_0220: Reasoning: Both arms are back over the trash can, which now shows an orange can inside — the transfer of the grasped item is underway, though the exact release instant isn't visible. | Answer: pick up from
+sec_0225: Reasoning: Both grippers are closed in over the trash can mouth and orange plus blue cans are now visible inside it. | Answer: place in
+sec_0229: Reasoning: The trash can is upright on the floor with both cans inside and the open grippers are pulling back from its rim. | Answer: place on
+sec_0233: Reasoning: The container sits flat on the floorboards, both cans settled inside, with both grippers withdrawn and open. | Answer: place on
+sec_0237: Reasoning: The trash can is fully released and standing on the floor, hands retreating further with fingers spread. | Answer: place on
+sec_0241: Reasoning: The trash can rests on the floor between the two open, empty grippers that continue to draw back. | Answer: place on
+sec_0245: Reasoning: The loaded trash can sits settled on the floor and both grippers are empty and lifted away — the set-down is complete. | Answer: place on

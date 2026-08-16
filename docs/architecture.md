@@ -30,15 +30,15 @@ Both modes instantiate the same `HybridPolicy` with the same task module, orches
                               │
                               ▼
 ┌───────────────────────────────────────────────────────────────────┐
-│  HybridPolicy  (behavior1k_mp/core/hybrid_policy.py)              │
-│    • loads task module (behavior1k_mp/tasks/<name>/)              │
+│  HybridPolicy  (behavior1k_motionplanner/core/hybrid_policy.py)              │
+│    • loads task module (behavior1k_motionplanner/tasks/<name>/)              │
 │    • task.build_actions(env, robot, target_obj, vla) → [Action]   │
 │    • wires up Orchestrator + PCAPhaseDetector                     │
 └───────────────────────────────────────────────────────────────────┘
                               │
                               ▼
 ┌───────────────────────────────────────────────────────────────────┐
-│  Orchestrator  (behavior1k_mp/core/orchestrator.py)               │
+│  Orchestrator  (behavior1k_motionplanner/core/orchestrator.py)               │
 │    • advances the current Action.forward(obs)                     │
 │    • bridges phase-to-phase transitions (utils/action_bridge.py)  │
 │    • exits phase when Action.is_done(obs, phase_det) returns True │
@@ -56,7 +56,7 @@ Both modes instantiate the same `HybridPolicy` with the same task module, orches
 
 ## Where things live
 
-- **Core policy stack** — `behavior1k_mp/core/`
+- **Core policy stack** — `behavior1k_motionplanner/core/`
     - `orchestrator.py` : phase state machine, per-step ENTER/EXIT logging
     - `hybrid_policy.py` : OmniGibson `LocalPolicy` wrapper, task-agnostic
     - `phase_detector/` : PCA + KMeans + timestamp ranking (task-agnostic)
@@ -64,13 +64,13 @@ Both modes instantiate the same `HybridPolicy` with the same task module, orches
     - `pick_library/` : nearest-neighbor retrieval infrastructure
     - `utils/` : obs slicer, action-bridge interpolation, pose helpers
 
-- **Per-task modules** — `behavior1k_mp/tasks/<task_name>/`
+- **Per-task modules** — `behavior1k_motionplanner/tasks/<task_name>/`
     - `__init__.py` : registers task attributes and `build_actions(...)`
     - `actions/` : concrete `Action` subclasses (one per phase)
     - `checkpoints/` : trained PCA + KMeans + retrieval libraries for this task
     - `config.yaml` : Hydra config override (optional)
 
-- **Drivers** — `behavior1k_mp/{collect,evaluation}/`
+- **Drivers** — `behavior1k_motionplanner/{collect,evaluation}/`
     - Argparse CLIs called via the top-level `maple` entrypoint
     - `evaluation/logs/` : per-rollout summary JSONs
 

@@ -1,0 +1,402 @@
+{
+  "task_chunk": "task-0040",
+  "task_name": "make microwave popcorn",
+  "accuracy": 0.75,
+  "macro_recall": 0.7608465608465608,
+  "correct": 42,
+  "total": 56,
+  "predictions": [
+    {
+      "sec": 0,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The living room with the blue sofa and coffee table is now centered and larger, with no robot arm or object in reach.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 2,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has turned to face the living room with the blue sofa and staircase, no robot arm or object in reach.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 4,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The dining table and chairs are now centered and the staircase has grown in the background, showing the base translating across the room.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 6,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The dining table and chairs are now centered and closer, with the kitchen counter and microwave visible in the background \u2014 the viewpoint has shifted.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 8,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The dining table and chairs have entered the frame at right, but no robot parts are visible \u2014 just the room turning closer.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 10,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The kitchen counter and fridge are now clearly resolved, but the robot is still far away and no manipulation is visible.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 12,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The kitchen counter and microwave are now clearly resolved on the right, but no arm is visible in the frame.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 14,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The microwave sits on the counter with its door closed and the arm out of frame \u2014 the robot is at the appliance but not interacting with it.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 16,
+      "gt": "move to",
+      "pred": "turn on switch",
+      "raw": "Reasoning: The microwave sits on the right counter with its door closed and the arm out of frame \u2014 the robot is just starting the cycle.\nAnswer: turn on switch",
+      "correct": false
+    },
+    {
+      "sec": 18,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The microwave sits on the counter with the door closed and the arm out of frame \u2014 the robot is at the appliance but not touching it.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 21,
+      "gt": "move to",
+      "pred": "open door",
+      "raw": "Reasoning: The microwave sits open on the counter with its door swung outward, the arm still out of frame.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The microwave sits closed on the counter with the arm still out of frame, so the last contact is the approach.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 25,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The microwave sits upright on the counter with the door closed and the arm withdrawn, no manipulation contact visible.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 27,
+      "gt": "open door",
+      "pred": "turn on switch",
+      "raw": "Reasoning: The microwave door is now open and the gripper is at the knob on the right side of the door.\nAnswer: turn on switch",
+      "correct": false
+    },
+    {
+      "sec": 29,
+      "gt": "open door",
+      "pred": "open door",
+      "raw": "Reasoning: The microwave door is now open and the arm is pulling back from the opening.\nAnswer: open door",
+      "correct": true
+    },
+    {
+      "sec": 31,
+      "gt": "open door",
+      "pred": "open door",
+      "raw": "Reasoning: The door is now visibly open and the arm is pulling back from it.\nAnswer: open door",
+      "correct": true
+    },
+    {
+      "sec": 33,
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "Reasoning: The door is now nearly flush with the cavity and the arm is retracting away from it.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 35,
+      "gt": "open door",
+      "pred": "open door",
+      "raw": "Reasoning: The door is now clearly open with the interior cavity exposed and the arm still attached to the handle.\nAnswer: open door",
+      "correct": true
+    },
+    {
+      "sec": 37,
+      "gt": "open door",
+      "pred": "open door",
+      "raw": "Reasoning: The door is now open wide with the tray exposed and the gripper still attached to the handle.\nAnswer: open door",
+      "correct": true
+    },
+    {
+      "sec": 39,
+      "gt": "open door",
+      "pred": "open door",
+      "raw": "Reasoning: The door is now nearly vertical with the glass panel swung open, the bag visible inside.\nAnswer: open door",
+      "correct": true
+    },
+    {
+      "sec": 42,
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "Reasoning: The door is now nearly flat against the microwave front with the arm still attached to its right side.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "gt": "open door",
+      "pred": "close door",
+      "raw": "Reasoning: The door is now nearly flat against the microwave front with the arm still attached to its edge.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 46,
+      "gt": "open door",
+      "pred": "open door",
+      "raw": "Reasoning: The door is now clearly open with the tray exposed and the gripper still attached to the handle.\nAnswer: open door",
+      "correct": true
+    },
+    {
+      "sec": 50,
+      "gt": "move to",
+      "pred": "open door",
+      "raw": "Reasoning: The view has shifted to the stove and microwave corner with the door now open and the bag resting on the microwave shelf \u2014 the door is being pulled away.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The view has shifted to the stove and oven with the gripper still on the counter, no interaction with the microwave.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 54,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has turned to the stove and oven with the popcorn bag still on the counter ahead, but no arm is visible.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 56,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has turned to face the stove and the popcorn bag on the counter, with no arm or gripper in frame.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 58,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has turned to face the counter corner with the popcorn bag on the sink and the stove, no arm or gripper in frame.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 60,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The gripper is at the edge of the popcorn bag on the counter, closing on it.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 63,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The bag is now sitting on the counter with the gripper still attached to its side.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 65,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The bag is now sitting on the counter beside the sink, gripper still attached to it.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 67,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The bag is now upright on the counter with the gripper still attached to its side.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 69,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The bag is now sitting on the counter surface, held in the gripper's fingers.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 71,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The bag is now sitting on the counter beside the stove, the transfer complete.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 75,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The bag sits on the floor beside the counter and the right arm is withdrawn, showing the base is now stationary.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 77,
+      "gt": "move to",
+      "pred": "open door",
+      "raw": "Reasoning: The bag is held in the right gripper and the microwave door is now open, exposing the cavity.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 79,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The bag is held in the right gripper and the microwave is now visible ahead with its door closed, so the arm is in transit.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 81,
+      "gt": "move to",
+      "pred": "open door",
+      "raw": "Reasoning: The bag is held in the right gripper and the microwave door is now open, exposing the cavity.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 86,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The bag is now sitting inside the microwave on the tray, the last item in.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 88,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The bag is now sitting inside the microwave on the tray, gripper still attached to it.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 90,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The bag is now sitting inside the cavity with the gripper still attached to its sides.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 92,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The bag is now sitting inside the cavity with the gripper still attached to its rim.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 94,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The bag is now sitting on the microwave shelf and the gripper is withdrawing from the opening.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 96,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The bag is now sitting on the microwave shelf and the gripper is retracting from the opening.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 98,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The bag is now sitting on the tray inside the microwave and the arm is retracting from the opening.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 100,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The bag is now sitting inside the cavity and the gripper is withdrawing from the opening.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 102,
+      "gt": "place in",
+      "pred": "close door",
+      "raw": "Reasoning: The door is now open wide with the bag inside, and the gripper is withdrawn from the handle.\nAnswer: close door",
+      "correct": false
+    },
+    {
+      "sec": 105,
+      "gt": "close door",
+      "pred": "open door",
+      "raw": "Reasoning: The door is now open and the bag sits on the shelf inside, with the gripper still attached to the handle.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 107,
+      "gt": "close door",
+      "pred": "close door",
+      "raw": "Reasoning: The door is now open wide with the bag inside, and the gripper is pulling back from the handle.\nAnswer: close door",
+      "correct": true
+    },
+    {
+      "sec": 109,
+      "gt": "close door",
+      "pred": "open door",
+      "raw": "Reasoning: The door is now clearly open with the interior tray exposed, and the gripper is still attached to the handle.\nAnswer: open door",
+      "correct": false
+    },
+    {
+      "sec": 111,
+      "gt": "close door",
+      "pred": "close door",
+      "raw": "Reasoning: The door is now nearly flush with the cavity, the latch visible on the right.\nAnswer: close door",
+      "correct": true
+    },
+    {
+      "sec": 113,
+      "gt": "close door",
+      "pred": "close door",
+      "raw": "Reasoning: The dark glass door is now flush and flush with the microwave body, with the gripper still attached to the handle.\nAnswer: close door",
+      "correct": true
+    },
+    {
+      "sec": 117,
+      "gt": "turn on switch",
+      "pred": "turn on switch",
+      "raw": "Reasoning: The microwave is now open and the gripper is at the control knobs on its right side.\nAnswer: turn on switch",
+      "correct": true
+    },
+    {
+      "sec": 119,
+      "gt": "turn on switch",
+      "pred": "turn on switch",
+      "raw": "Reasoning: The arm is at the right side of the closed microwave with the knob still down \u2014 the final control adjustment.\nAnswer: turn on switch",
+      "correct": true
+    },
+    {
+      "sec": 121,
+      "gt": "turn on switch",
+      "pred": "turn on switch",
+      "raw": "Reasoning: The gripper is at the right knob of the closed microwave, positioned to act on the controls.\nAnswer: turn on switch",
+      "correct": true
+    },
+    {
+      "sec": 123,
+      "gt": "turn on switch",
+      "pred": "turn on switch",
+      "raw": "Reasoning: The dark glass door is now flush and flush with the microwave body, with the gripper still on the knobs.\nAnswer: turn on switch",
+      "correct": true
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+1. hang - The robot is right up close to the kitchen counter with the dark cabinets looming large overhead, the framed poster picture is big and clear in the view, and almost no floor is showing. Note the first second or two of hanging can still look like a distant approach view, and those frames are not separable from "move to".
+
+2. move to - The whole room is visible from far off: the full run of kitchen counters, the tall window, and a wide stretch of empty floor, with the arms hanging loose and empty and nothing near them.
+
+3. pick up from - The robot is standing out in the open room with both arms reaching forward and empty, and a small pale object sitting on the floor a short way ahead of the hands. Honestly, this looks nearly identical to "move to" in a single still image, since the real difference is whether the robot is walking or reaching, which one frame cannot show; when the view is just the far kitchen and open floor with no small object near the hands, choose "move to".

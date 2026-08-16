@@ -1,0 +1,1435 @@
+{
+  "task_chunk": "task-0001",
+  "task_name": "picking up trash",
+  "n_held_out_episodes": 5,
+  "accuracy": 0.3651685393258427,
+  "macro_recall": 0.3512373125504792,
+  "correct": 65,
+  "total": 178,
+  "predictions": [
+    {
+      "sec": 4,
+      "episode": "episode_00010020",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the living room with the sofa, coffee table and two orange cans on the floor, but no robot arms or trash can are visible.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 10,
+      "episode": "episode_00010020",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the living room with the blue sofa and the trash can on the floor, no manipulation visible.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 28,
+      "episode": "episode_00010020",
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is at the blue trash can on the floor and the left is still on the trash can itself.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "episode": "episode_00010020",
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "Reasoning: The trash can is now upright on the floor with both orange cans already placed inside, and both arms are withdrawn from the source.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 55,
+      "episode": "episode_00010020",
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "Reasoning: The trash can is now upright on the floor with both cans inside, and the arms are pulling back from it.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00010020",
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the floor beside the orange can, fingers open and ready to grasp.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 1,
+      "episode": "episode_00010590",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The floor is now clear of the two orange cans and the blue can is visible on the right, with the robot's arms barely entering the bottom edge.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 6,
+      "episode": "episode_00010590",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the living room with the sofa and TV on the left and the trash can on the floor below \u2014 no manipulation target visible.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 11,
+      "episode": "episode_00010590",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The staircase and hallway are now centered with the trash can at the bottom edge, and no manipulation is visible.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 29,
+      "episode": "episode_00010590",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The trash can is now clearly visible in the bottom of the frame and the right gripper is pulling back from it.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 34,
+      "episode": "episode_00010590",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the living room with the sofa and table, and the right gripper is still down in the trash can but no object is being contacted.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 39,
+      "episode": "episode_00010590",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The trash can is now clearly visible in the bottom of the frame and the orange can on the floor is closer than the blue one, indicating the base is advancing.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 75,
+      "episode": "episode_00010590",
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the floor beside the blue can, left gripper still empty and idle.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00010590",
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the floor beside the blue can, fingers open and ready to grasp.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 129,
+      "episode": "episode_00010590",
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the rim of the trash can, fingers open on the blue can inside.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00011350",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The blue can is now clearly visible on the floor ahead, but the grippers remain out of frame at the bottom.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 14,
+      "episode": "episode_00011350",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The blue and orange cans are now clearly resolved on the floor, but the arms are still out of frame at the bottom, so only the separation of the cans distinguishes this from a pure reach.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 19,
+      "episode": "episode_00011350",
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The orange can is now clearly visible on the floor ahead and the grippers are still down at the bottom edge, still in contact with it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 25,
+      "episode": "episode_00011350",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The trash can sits on the floor with both arms still at the bottom edge, no object contact visible.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00011350",
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "Reasoning: The trash can sits on the floor with both arms withdrawn and empty, the last stage of the carry.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 61,
+      "episode": "episode_00011350",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The trash can is held in the right gripper and the orange can is now on the floor beside it.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00011350",
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The left gripper is down at the floor beside the orange can, the second grasp in this pair.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 91,
+      "episode": "episode_00011350",
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the floor beside the blue can, left gripper still holding the trash can.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 96,
+      "episode": "episode_00011350",
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The left gripper is down at the floor holding the blue can, the right arm still carrying the trash can.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 122,
+      "episode": "episode_00011350",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The orange can is now clearly visible on the floor ahead, and the left gripper is pulling back from it.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 127,
+      "episode": "episode_00011350",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The orange can is now clearly visible on the floor ahead, but neither gripper is extended toward it.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 133,
+      "episode": "episode_00011350",
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "Reasoning: The trash can is now upright on the floor beside the orange can, both items visible at the bottom of the frame.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 4,
+      "episode": "episode_00012070",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the living room with the blue sofa and glass coffee table, and the two remaining cans are now far off on the floor.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 9,
+      "episode": "episode_00012070",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The blue and orange cans are now visible on the floor ahead, but no arms are in frame to act on them.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 14,
+      "episode": "episode_00012070",
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is extended forward toward the floor where the trash can sits, though the can itself is not yet in reach.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 37,
+      "episode": "episode_00012070",
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: The trash can is now upright on the floor with the blue and orange cans already sitting inside it, and both arms are withdrawn.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00012070",
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "Reasoning: The trash can is now upright on the floor and the right gripper is withdrawing from it.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 78,
+      "episode": "episode_00012070",
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the floor with the orange can right beside it, fingers open for grasp.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 102,
+      "episode": "episode_00012070",
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "Reasoning: The orange can is now sitting on the floor beside the trash can, both objects clearly resolved.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 107,
+      "episode": "episode_00012070",
+      "gt": "move to",
+      "pred": "place in",
+      "raw": "Reasoning: The right gripper is at the rim of the trash can with the orange can inside, being deposited.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 28,
+      "episode": "episode_00012600",
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "Reasoning: The trash can sits on the floor in the right gripper and the arms are pulling back from it.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 33,
+      "episode": "episode_00012600",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The blue can on the floor is now clearly resolved, and the right gripper is pulling back from it.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00012600",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The blue and orange cans are now visible on the floor ahead, but neither gripper is extended toward them.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00012600",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The blue can is now clearly visible on the floor ahead and the right gripper is pulling back from it.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 48,
+      "episode": "episode_00012600",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the living room with the trash can held low in the bottom of the frame and two orange cans on the floor ahead.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00012600",
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The trash can is now upright on the right and the two orange cans are visible further out on the floor, arms still low and open.\nAnswer: move to",
+      "correct": true
+    },
+    {
+      "sec": 84,
+      "episode": "episode_00012600",
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the floor beside the second orange can, fingers open for grasp.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 89,
+      "episode": "episode_00012600",
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the floor beside the second orange can, left gripper still empty.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 14,
+      "episode": "episode_00010020",
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The blue sofa and the large 'N' on the far wall have come into view, but no manipulation is visible.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 21,
+      "episode": "episode_00010020",
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The trash can is now sitting on the floor in the bottom-left corner and the grippers are withdrawn from it.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 32,
+      "episode": "episode_00010020",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The glass can sits on the floor between the two orange cans, and the right gripper is lowered toward it.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 38,
+      "episode": "episode_00010020",
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has turned to face the glass coffee table with two orange cans on the floor ahead, and the arms are still down at the sides.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 62,
+      "episode": "episode_00010020",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The orange can is now visible on the floor to the right of the trash can, and the right gripper is lowered toward it.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 79,
+      "episode": "episode_00010020",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the floor beside the orange can, left gripper still in the trash can.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 18,
+      "episode": "episode_00010590",
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The staircase and hallway are now centered with the brown can at the bottom edge, no manipulation contact visible.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00010590",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The trash can is now clearly visible in the lower right with the gripper still attached to it, though the can itself is not yet in view.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 52,
+      "episode": "episode_00010590",
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The blue can is now visible ahead on the floor and the right gripper is pulling back from it.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 59,
+      "episode": "episode_00010590",
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The blue can is now clearly visible on the floor ahead, and the right gripper is pulling back from it.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 65,
+      "episode": "episode_00010590",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the floor beside the blue can, left gripper still empty.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 87,
+      "episode": "episode_00010590",
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The right gripper is on the rim of the trash can with the orange can inside, being deposited.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 93,
+      "episode": "episode_00010590",
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The right gripper is on the rim of the trash can with the orange can inside, being deposited.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 100,
+      "episode": "episode_00010590",
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The right gripper is at the rim of the trash can with the orange can inside, just releasing it.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 106,
+      "episode": "episode_00010590",
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The orange can is now sitting inside the trash can and the right gripper is pulling back from its original spot.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 112,
+      "episode": "episode_00010590",
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The orange can is now sitting inside the trash can and the right gripper is pulling back from its mouth.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 135,
+      "episode": "episode_00010590",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the floor beside the orange can, left gripper still holding the trash can.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 141,
+      "episode": "episode_00010590",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the floor beside the orange can, left gripper still holding the trash can.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 148,
+      "episode": "episode_00010590",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the floor beside the trash can, fingers open and ready to grasp.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 154,
+      "episode": "episode_00010590",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the rim of the trash can, fingers open at the mouth.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 36,
+      "episode": "episode_00011350",
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The right gripper is down at the trash can's rim with fingers spread, ready to deposit.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 43,
+      "episode": "episode_00011350",
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The right gripper is down at the rim of the trash can with fingers spread over the opening.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 49,
+      "episode": "episode_00011350",
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The camera has swung to the TV and hallway with the trash can still in the right gripper at the bottom edge.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "episode": "episode_00011350",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The camera has turned toward the fireplace and TV with the trash can held low in the right gripper, though the can itself is not yet visible.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 72,
+      "episode": "episode_00011350",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The left gripper is down at the floor with an orange can right beside it, the second object in the trash pile.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 101,
+      "episode": "episode_00011350",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The orange can is now visible on the floor ahead and the left gripper is lowered toward it.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 107,
+      "episode": "episode_00011350",
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The blue can is now sitting on the floor between the two empty grippers.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 139,
+      "episode": "episode_00011350",
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The orange can is now sitting on the floor and the right gripper is pulling back from the trash can.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 146,
+      "episode": "episode_00011350",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The orange can is now sitting on the floor directly in front of the left gripper, which is retracting away.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00012070",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the floor beside the trash can, fingers open and ready to grasp.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 24,
+      "episode": "episode_00012070",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the floor beside the trash can, fingers open and ready to grasp.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 30,
+      "episode": "episode_00012070",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the floor beside the trash can, left gripper still holding it.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 46,
+      "episode": "episode_00012070",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the floor beside the orange can, left gripper still carrying the trash can.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 53,
+      "episode": "episode_00012070",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the floor beside the orange can, fingers open for grasp.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 59,
+      "episode": "episode_00012070",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the floor beside the orange can, fingers open for grasp.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00012070",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the floor beside the orange can, fingers open for grasp.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 84,
+      "episode": "episode_00012070",
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The orange can is now visible on the floor and the left gripper is retracting away from it.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 91,
+      "episode": "episode_00012070",
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The orange can is now visible on the floor to the right of the trash can, and the right gripper is pulling back from it.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 117,
+      "episode": "episode_00012070",
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The orange can is now sitting inside the trash can and the right gripper is retracting away from its original spot.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 10,
+      "episode": "episode_00012600",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the floor beside the trash can, fingers open and ready to grasp.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 17,
+      "episode": "episode_00012600",
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The view has swung to the kitchen counter with the fridge and microwave in view and the trash can still held in the right gripper.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 23,
+      "episode": "episode_00012600",
+      "gt": "pick up from",
+      "pred": "place on",
+      "raw": "Reasoning: The trash can sits on the floor with both arms withdrawn and empty, the last stage of the carry.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 54,
+      "episode": "episode_00012600",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The blue can is now on the floor right at the gripper's reach, with the orange trash can further back.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 60,
+      "episode": "episode_00012600",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The blue can is now in the left gripper's fingers and the right gripper is still on the trash can rim.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00012600",
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The blue can is now in the left gripper and the right gripper is on the trash can rim.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 97,
+      "episode": "episode_00012600",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The left gripper is down at the floor right beside the orange can, fingers open for grasp.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 103,
+      "episode": "episode_00012600",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The left gripper is down at the floor holding the orange can, right before it releases.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 122,
+      "episode": "episode_00012600",
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the floor with the orange can right at its fingers, the moment of grasp.\nAnswer: pick up from",
+      "correct": true
+    },
+    {
+      "sec": 128,
+      "episode": "episode_00012600",
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The right gripper is down in the trash can with the orange and blue cans inside, the second transfer.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 42,
+      "episode": "episode_00010020",
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The blue gripper is down at the floor beside the second can, left gripper still in the trash can.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "episode": "episode_00010020",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The blue can is now inside the trash can and the right gripper is pulling back from the opening.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 64,
+      "episode": "episode_00010020",
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the floor holding the orange can, left gripper still in the trash can.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 66,
+      "episode": "episode_00010020",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The orange can is now sitting inside the trash can and both arms are pulling back from it.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 81,
+      "episode": "episode_00010020",
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the floor beside the trash can, fingers open and ready to grasp.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 83,
+      "episode": "episode_00010020",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The orange can is now sitting inside the trash can's mouth, both objects aligned.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 68,
+      "episode": "episode_00010590",
+      "gt": "place in",
+      "pred": "move to",
+      "raw": "Reasoning: The orange can is now sitting on the floor to the left of the held can, and both arms are withdrawn from the source.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 70,
+      "episode": "episode_00010590",
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The orange can is now held in the left gripper's fingers, separated from the trash can.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 72,
+      "episode": "episode_00010590",
+      "gt": "place in",
+      "pred": "place on",
+      "raw": "Reasoning: The orange can is now sitting inside the trash can and the right gripper is pulling back from its resting spot.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 116,
+      "episode": "episode_00010590",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The right gripper is at the rim of the trash can with the orange can visible inside, being deposited.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 118,
+      "episode": "episode_00010590",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The blue can is held in the left gripper while the right gripper is down in the trash can with the orange can already inside.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 120,
+      "episode": "episode_00010590",
+      "gt": "place in",
+      "pred": "move to",
+      "raw": "Reasoning: The blue can is held in the left gripper and the right gripper is pulling back from the trash can.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 122,
+      "episode": "episode_00010590",
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the rim of the trash can with the blue and orange cans inside, fingers spread to take them.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 156,
+      "episode": "episode_00010590",
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the rim of the trash can, fingers open on the blue can inside.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 159,
+      "episode": "episode_00010590",
+      "gt": "place in",
+      "pred": "place on",
+      "raw": "Reasoning: The orange can is now held in the left gripper and the trash can is already sitting on the floor beside it.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 161,
+      "episode": "episode_00010590",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The orange can is now sitting inside the trash can's mouth, both objects aligned.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 163,
+      "episode": "episode_00010590",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The orange can is now sitting inside the trash can mouth and both grippers are withdrawing from it.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 165,
+      "episode": "episode_00010590",
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the rim of the trash can, fingers open on the orange can inside.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 80,
+      "episode": "episode_00011350",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The orange can is now sitting inside the trash can's mouth, both objects aligned.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 82,
+      "episode": "episode_00011350",
+      "gt": "place in",
+      "pred": "move to",
+      "raw": "Reasoning: The orange can is now visible on the floor ahead and the right gripper is pulling back from the trash can.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 84,
+      "episode": "episode_00011350",
+      "gt": "place in",
+      "pred": "move to",
+      "raw": "Reasoning: The orange can is now visible on the floor ahead, and the right gripper is still on the trash can rim.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 86,
+      "episode": "episode_00011350",
+      "gt": "place in",
+      "pred": "move to",
+      "raw": "Reasoning: The blue can is now visible on the floor and the right gripper is pulling back from it.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 113,
+      "episode": "episode_00011350",
+      "gt": "place in",
+      "pred": "place on",
+      "raw": "Reasoning: The trash can sits on the floor with both arms withdrawn and empty, the last stage of the carry.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 116,
+      "episode": "episode_00011350",
+      "gt": "place in",
+      "pred": "place on",
+      "raw": "Reasoning: The trash can sits on the floor with both cans inside, and the right gripper is withdrawn from the opening.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 118,
+      "episode": "episode_00011350",
+      "gt": "place in",
+      "pred": "move to",
+      "raw": "Reasoning: The orange can is now visible on the floor ahead, but neither gripper is extended toward it.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 120,
+      "episode": "episode_00011350",
+      "gt": "place in",
+      "pred": "move to",
+      "raw": "Reasoning: The orange can is now visible on the floor ahead, but neither gripper is extended toward it.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 151,
+      "episode": "episode_00011350",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The orange can is now sitting inside the trash can and both arms are withdrawn from it.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 153,
+      "episode": "episode_00011350",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The orange can is now sitting inside the trash can and both arms are withdrawn from its rim.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 155,
+      "episode": "episode_00011350",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The orange can is now sitting inside the trash can and both arms are withdrawn from it.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 157,
+      "episode": "episode_00011350",
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the rim of the trash can, fingers around the orange can.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 159,
+      "episode": "episode_00011350",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The right gripper is down in the trash can with the orange can inside, the second can deposited.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 162,
+      "episode": "episode_00011350",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The orange can is now sitting inside the trash can and the right gripper is withdrawn from its hold.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 71,
+      "episode": "episode_00012070",
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the floor beside the orange can, fingers open for grasp.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 73,
+      "episode": "episode_00012070",
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the floor beside the orange can, fingers open for grasp.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 97,
+      "episode": "episode_00012070",
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the floor beside the orange can, left hand still holding the trash can.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 99,
+      "episode": "episode_00012070",
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the floor beside the orange can, fingers open for grasp.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 120,
+      "episode": "episode_00012070",
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down inside the trash can, fingers around the orange can.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 122,
+      "episode": "episode_00012070",
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the rim of the trash can, fingers spread to take the orange can out.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 124,
+      "episode": "episode_00012070",
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the rim of the trash can, fingers open on the orange can inside.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 70,
+      "episode": "episode_00012600",
+      "gt": "place in",
+      "pred": "place on",
+      "raw": "Reasoning: The trash can is now upright on the floor with both cans inside and the grippers are withdrawn from it.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 73,
+      "episode": "episode_00012600",
+      "gt": "place in",
+      "pred": "move to",
+      "raw": "Reasoning: The trash can sits on the right and the two orange cans are now closer and centered on the floor, with the grippers still empty and open.\nAnswer: move to",
+      "correct": false
+    },
+    {
+      "sec": 109,
+      "episode": "episode_00012600",
+      "gt": "place in",
+      "pred": "place on",
+      "raw": "Reasoning: The orange can is now sitting inside the trash can and both grippers are pulling back from it.\nAnswer: place on",
+      "correct": false
+    },
+    {
+      "sec": 111,
+      "episode": "episode_00012600",
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the floor beside the trash can, fingers open and ready to take the orange can.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 113,
+      "episode": "episode_00012600",
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the floor holding the orange can, left gripper still open.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 115,
+      "episode": "episode_00012600",
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the floor holding the orange can, left gripper still open.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 136,
+      "episode": "episode_00012600",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The orange can is now sitting inside the trash can and both arms are withdrawn from it.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 138,
+      "episode": "episode_00012600",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The orange can is now sitting inside the trash can and both arms are pulling back from it.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 140,
+      "episode": "episode_00012600",
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The right gripper is down inside the trash can with the orange can visible inside.\nAnswer: place in",
+      "correct": true
+    },
+    {
+      "sec": 84,
+      "episode": "episode_00010020",
+      "gt": "place on",
+      "pred": "place in",
+      "raw": "Reasoning: The orange can is now sitting inside the trash can's mouth, the second can placed.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 85,
+      "episode": "episode_00010020",
+      "gt": "place on",
+      "pred": "place in",
+      "raw": "Reasoning: The orange can is now sitting inside the trash can's mouth, the second can released.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 86,
+      "episode": "episode_00010020",
+      "gt": "place on",
+      "pred": "place in",
+      "raw": "Reasoning: The orange can is now sitting inside the trash can and the right gripper is retracting from its hold.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 87,
+      "episode": "episode_00010020",
+      "gt": "place on",
+      "pred": "place in",
+      "raw": "Reasoning: The orange can is now inside the trash can and the right gripper is pulling back from its hold.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 166,
+      "episode": "episode_00010590",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the floor beside the trash can, fingers open and ready to grasp.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 167,
+      "episode": "episode_00010590",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the rim of the trash can, fingers open on the orange can inside.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 168,
+      "episode": "episode_00010590",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the rim of the trash can, fingers open on the orange can inside.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 169,
+      "episode": "episode_00010590",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the rim of the trash can, fingers open on the orange can.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 171,
+      "episode": "episode_00010590",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the floor beside the trash can, fingers open and ready to grasp.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 172,
+      "episode": "episode_00010590",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the rim of the trash can, fingers open on the blue can inside.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 173,
+      "episode": "episode_00010590",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the rim of the trash can, fingers open on the orange can inside.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 174,
+      "episode": "episode_00010590",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the floor beside the trash can, fingers open and ready to grasp.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 175,
+      "episode": "episode_00010590",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the rim of the trash can, fingers open on the bottle neck.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 176,
+      "episode": "episode_00010590",
+      "gt": "place on",
+      "pred": "place in",
+      "raw": "Reasoning: The right gripper is down inside the trash can mouth, the second can being deposited.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 177,
+      "episode": "episode_00010590",
+      "gt": "place on",
+      "pred": "place in",
+      "raw": "Reasoning: The right gripper is down inside the trash can's mouth, the second can inserted.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 178,
+      "episode": "episode_00010590",
+      "gt": "place on",
+      "pred": "place in",
+      "raw": "Reasoning: The right gripper is inside the trash can with the orange can now sitting on its own in the brown container.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 179,
+      "episode": "episode_00010590",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the rim of the trash can, fingers spread to take the orange can out.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 180,
+      "episode": "episode_00010590",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the floor beside the trash can, fingers open and ready to grasp.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 181,
+      "episode": "episode_00010590",
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The trash can sits on the floor with both cans inside, and the right gripper is withdrawn from the opening.\nAnswer: place on",
+      "correct": true
+    },
+    {
+      "sec": 163,
+      "episode": "episode_00011350",
+      "gt": "place on",
+      "pred": "place in",
+      "raw": "Reasoning: The right gripper is down in the trash can with the orange can inside, the second can deposited.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 164,
+      "episode": "episode_00011350",
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The orange can is now sitting inside the trash can and the right gripper is withdrawing from its resting spot.\nAnswer: place on",
+      "correct": true
+    },
+    {
+      "sec": 165,
+      "episode": "episode_00011350",
+      "gt": "place on",
+      "pred": "place in",
+      "raw": "Reasoning: The orange can is now sitting inside the trash can and the right gripper is pulling back from its mouth.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 166,
+      "episode": "episode_00011350",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is at the rim of the trash can with the orange can inside, closing on it.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 167,
+      "episode": "episode_00011350",
+      "gt": "place on",
+      "pred": "place in",
+      "raw": "Reasoning: The right gripper is down inside the trash can with the orange can visible inside, the second can placed.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 168,
+      "episode": "episode_00011350",
+      "gt": "place on",
+      "pred": "place in",
+      "raw": "Reasoning: The right gripper is inside the trash can with the orange can visible through its opening.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 169,
+      "episode": "episode_00011350",
+      "gt": "place on",
+      "pred": "place in",
+      "raw": "Reasoning: The right gripper is down inside the trash can's mouth, the orange can now sitting inside.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 170,
+      "episode": "episode_00011350",
+      "gt": "place on",
+      "pred": "place in",
+      "raw": "Reasoning: The orange can is now sitting inside the trash can and the right gripper is withdrawn from its hold.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 171,
+      "episode": "episode_00011350",
+      "gt": "place on",
+      "pred": "place in",
+      "raw": "Reasoning: The right gripper is down inside the trash can with the orange and gray cans already visible inside.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 172,
+      "episode": "episode_00011350",
+      "gt": "place on",
+      "pred": "place in",
+      "raw": "Reasoning: The right gripper is down inside the trash can with the orange and silver cans already sitting in it.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 143,
+      "episode": "episode_00012600",
+      "gt": "place on",
+      "pred": "place in",
+      "raw": "Reasoning: The right gripper is down in the trash can with the orange cans inside, the second can transferred.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 144,
+      "episode": "episode_00012600",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down inside the trash can's mouth holding an orange can, left gripper idle.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 145,
+      "episode": "episode_00012600",
+      "gt": "place on",
+      "pred": "place in",
+      "raw": "Reasoning: The right gripper is down inside the trash can with the orange cans already settled inside.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 146,
+      "episode": "episode_00012600",
+      "gt": "place on",
+      "pred": "place in",
+      "raw": "Reasoning: The right gripper is down inside the trash can's rim, fingers spread over the orange cans.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 147,
+      "episode": "episode_00012600",
+      "gt": "place on",
+      "pred": "place in",
+      "raw": "Reasoning: The right gripper is down inside the trash can with the orange can visible inside.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 148,
+      "episode": "episode_00012600",
+      "gt": "place on",
+      "pred": "place in",
+      "raw": "Reasoning: The right gripper is down inside the trash can with the orange can visible inside, being deposited.\nAnswer: place in",
+      "correct": false
+    },
+    {
+      "sec": 149,
+      "episode": "episode_00012600",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the rim of the trash can, fingers spread to take the orange can out.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 150,
+      "episode": "episode_00012600",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the rim of the trash can, fingers open on the orange can.\nAnswer: pick up from",
+      "correct": false
+    },
+    {
+      "sec": 151,
+      "episode": "episode_00012600",
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The right gripper is down at the rim of the trash can with fingers spread over the orange and gray cans.\nAnswer: pick up from",
+      "correct": false
+    }
+  ]
+}

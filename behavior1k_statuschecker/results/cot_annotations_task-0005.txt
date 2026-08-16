@@ -1,0 +1,60 @@
+sec_0000: Reasoning: Wide view of an empty tiled room with a door, towel rack and cabinet edge — no robot arms and no mousetraps in reach, just navigation through the space. | Answer: move to
+sec_0006: Reasoning: Camera has swung to face a wooden dresser with four mousetraps on top, still far away with no arms in frame — an approach view only. | Answer: move to
+sec_0013: Reasoning: The dresser with its four mousetraps is now centered and closer, but nothing of the robot is visible, so only the shrinking distance distinguishes this frame. | Answer: move to
+sec_0020: Reasoning: The dresser fills the lower frame at near-reaching distance and the traps are clearly resolved, yet no arms have entered view — still the tail of an approach. | Answer: move to
+sec_0026: Reasoning: Both white arms have entered frame reaching over the dresser, with the left gripper raised above the surface where four traps still sit. | Answer: pick up from
+sec_0033: Reasoning: The arms are extended across the dresser top and the trap count has dropped to four with one shifted left, consistent with grasping activity at the surface. | Answer: pick up from
+sec_0040: Reasoning: The right gripper is down at the dresser's right edge closing on a trap while the left arm hovers over the remaining ones. | Answer: pick up from
+sec_0046: Reasoning: The right gripper is clamped onto a trap at the surface edge and only three traps remain on the dresser top. | Answer: pick up from
+sec_0053: Reasoning: Three traps remain and the right gripper is again pressed down at the dresser's right edge, closing on another one. | Answer: pick up from
+sec_0060: Reasoning: Only two traps are left on the dresser and both grippers are poised just above the surface — objects are being removed from the dresser, not added. | Answer: pick up from
+sec_0066: Reasoning: Grippers hover over the dresser top with three traps clustered near the center, the arms still working at the source surface. | Answer: pick up from
+sec_0073: Reasoning: Both arms rest over the dresser with the trap count down to three and the left gripper right beside them, mid-collection. | Answer: pick up from
+sec_0080: Reasoning: Two traps remain on the dresser and the left gripper is lowered flat against the surface between them. | Answer: pick up from
+sec_0086: Reasoning: Arms have lifted clear of the dresser and are pulling back with the surface receding — the grasping is done and the base is starting to turn away. | Answer: move to
+sec_0093: Reasoning: The camera has swung around to a wide room view with the dresser far off and only one arm clipping the corner of frame — a locomotion frame. | Answer: move to
+sec_0100: Reasoning: A completely different room (door, white sink unit, mirror, cabinet) is in view with no arms extended, so this is transit toward the sink. | Answer: move to
+sec_0106: Reasoning: The bathroom sink and bathtub are in view at distance with no robot parts in frame — nothing here distinguishes this from any other approach frame except the target coming closer. | Answer: move to
+sec_0113: Reasoning: The sink vanity is now centered and closer with the robot visible only as a reflection in the mirror, still too far to reach. | Answer: move to
+sec_0120: Reasoning: The sink is squarely framed at moderate distance and the mirror shows the robot still standing back, with only faint gripper tips at the bottom edge. | Answer: place on next to
+sec_0126: Reasoning: The robot has closed to the vanity and the tops of both grippers appear at the bottom of frame holding light-colored objects — positioning at the drop-off target. | Answer: place on next to
+sec_0133: Reasoning: The sink counter fills the frame at arm's length and both grippers with their carried items are visible at the bottom edge, aimed at the sink area. | Answer: place on next to
+sec_0140: Reasoning: The robot is right up against the sink basin with both grippers held low in front of it — a release pose at the sink, not a grasp on the dresser. | Answer: place on next to
+sec_0147: Reasoning: The camera is directly over the sink counter with both grippers below the basin lip, still holding, lined up for deposit near the sink. | Answer: place on next to
+sec_0153: Reasoning: Both grippers are visible low in frame against the vanity front while the sink surface dominates the view — placement positioning at the sink. | Answer: place on next to
+sec_0160: Reasoning: Same close stance at the basin with the grippers below the counter edge; no object is being lifted off any surface here. | Answer: place on next to
+sec_0167: Reasoning: The robot holds its pose flush with the sink, grippers low and empty-looking against the vanity — a settling frame right around the release. | Answer: place on next to
+sec_0173: Reasoning: The sink fills the frame and the grippers sit just under the counter lip; the only cue for the label is the sink-side stance, not a visible object transfer. | Answer: place on next to
+sec_0180: Reasoning: Still pressed against the vanity with both arms low; nothing new is visible, so this frame is distinguishable mainly by being at the sink drop-off location. | Answer: place on next to
+sec_0187: Reasoning: The view has tipped further into the basin with the grippers barely visible at the bottom, consistent with reaching down to set something near the sink. | Answer: place on next to
+sec_0193: Reasoning: Near-identical close view of the sink with grippers at frame bottom — an honestly ambiguous hold frame, labeled by its position at the placement target. | Answer: place on next to
+sec_0200: Reasoning: The counter surface is empty of traps and the grippers hang low against the vanity, consistent with just after releasing at the sink. | Answer: place on next to
+sec_0207: Reasoning: The robot is very close to the basin with only gripper edges in frame; no lifting motion is visible, only the sink-side placement stance. | Answer: place on next to
+sec_0213: Reasoning: The camera has begun to tilt down past the counter with the arms low and the sink top bare — the tail end of the deposit. | Answer: place on next to
+sec_0220: Reasoning: View is dropping below the counter edge with dark gripper shapes at the bottom, the robot still parked at the sink after setting down. | Answer: place on next to
+sec_0227: Reasoning: Grippers are visible under the vanity front and the counter above is clear of any trap, consistent with the object already released near the sink. | Answer: place on next to
+sec_0233: Reasoning: Essentially the same low-tilt frame at the vanity; nothing in the image separates it from the neighboring placement frames except the sustained sink-side pose. | Answer: place on next to
+sec_0240: Reasoning: The camera has tilted down to the floor showing two small traps now resting on the tile below the sink, and the arms are pulling back from them. | Answer: move to
+sec_0247: Reasoning: The robot has backed off — the whole vanity and the two deposited traps on the floor are visible with the arms lowered, no manipulation underway. | Answer: move to
+sec_0253: Reasoning: Wide view of the bathroom with the placed traps small on the floor and both arms hanging at the sides — the base is repositioning. | Answer: move to
+sec_0260: Reasoning: The sink and traps are receding further with no arms extended toward anything — a pure navigation frame away from the sink. | Answer: move to
+sec_0267: Reasoning: The camera has panned to the bathtub and sloped ceiling with no robot parts in view, just the room sweeping past during travel. | Answer: move to
+sec_0274: Reasoning: Skylights, toilet and shower enclosure fill the frame with no arms visible — the robot is crossing the room and nothing indicates contact. | Answer: move to
+sec_0280: Reasoning: Back in the first room facing the wooden dresser and towel rack from a distance, with no arms in frame — approach only. | Answer: move to
+sec_0287: Reasoning: The dresser is centered at near-reaching distance with two mousetraps still on top, but no robot parts have entered view yet. | Answer: move to
+sec_0294: Reasoning: A gripper has come up over the dresser front toward the two remaining traps on top — the arms are engaging the source surface. | Answer: pick up from
+sec_0300: Reasoning: Both arms are extended across the dresser top with the grippers open just short of the two traps. | Answer: pick up from
+sec_0307: Reasoning: The right gripper is down on the dresser surface next to a trap while one trap remains further left — closing on a target. | Answer: pick up from
+sec_0314: Reasoning: The right gripper has a trap right at its fingers at the dresser's edge and only one trap is left flat on the top. | Answer: pick up from
+sec_0320: Reasoning: The left gripper is pressed against the dresser top beside the last trap, arms still working over the source furniture. | Answer: pick up from
+sec_0327: Reasoning: Both grippers are down at the dresser surface with a small trap held near the right hand and the top nearly cleared. | Answer: pick up from
+sec_0334: Reasoning: The dresser top is now bare with a trap visible in the right gripper — the grasp off this surface has just completed. | Answer: pick up from
+sec_0340: Reasoning: The robot has backed away from the emptied dresser, arms lowered to the sides and the floor filling the lower frame — locomotion. | Answer: move to
+sec_0347: Reasoning: The camera has swung to the toilet and shower area with the arms held low and carrying, moving toward the toilet rather than acting on it. | Answer: move to
+sec_0354: Reasoning: The robot is squared up on the toilet at moderate distance with both grippers lowered toward the floor beside it, beginning the deposit. | Answer: place on next to
+sec_0360: Reasoning: The toilet is centered and closer with the grippers held low near the tile — a positioning frame for dropping the traps by the toilet. | Answer: place on next to
+sec_0367: Reasoning: The robot stands right in front of the open toilet with both arms extended down toward the floor beside it. | Answer: place on next to
+sec_0374: Reasoning: Grippers are visible low on the tile directly in front of the toilet base, consistent with setting objects down there. | Answer: place on next to
+sec_0380: Reasoning: The toilet bowl fills the frame with both grippers spread low on the floor to either side, at the release point. | Answer: place on next to
+sec_0387: Reasoning: The camera is right over the toilet bowl with only the arm shoulders at frame bottom; the label rests on the toilet-side stance, not on a visible object. | Answer: place on next to
+sec_0394: Reasoning: Nearly identical close-up of the toilet bowl at episode end with arms out of reach of any surface — the final settling after placement near the toilet. | Answer: place on next to

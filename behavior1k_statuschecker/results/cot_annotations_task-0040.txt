@@ -1,0 +1,56 @@
+sec_0000: Reasoning: Wide living-room view with stairs and sofa, no robot arm or appliance in frame, so this is pure locomotion through the house. | Answer: move to
+sec_0002: Reasoning: Same living/dining area from a slightly shifted, rotated viewpoint with no arm or target object visible — only the camera pose has changed. | Answer: move to
+sec_0004: Reasoning: The dining table and pendant lamp swing across frame as the viewpoint turns, with no manipulator or interaction target in reach. | Answer: move to
+sec_0006: Reasoning: Camera now faces the dining table with the kitchen and its microwave visible far in the background — still approaching, nothing being touched. | Answer: move to
+sec_0008: Reasoning: The kitchen counter run comes into view at a distance past the dining chairs; no arm is extended and no object is contacted. | Answer: move to
+sec_0010: Reasoning: Full kitchen is now framed ahead with the microwave on the far counter, but the robot is still well back across the floor. | Answer: move to
+sec_0012: Reasoning: The counter, oven and microwave are closer and centered, yet no gripper appears in frame — approach only. | Answer: move to
+sec_0014: Reasoning: Continued advance toward the L-shaped counter; the microwave is now clearly visible by the fridge with no manipulation happening. | Answer: move to
+sec_0016: Reasoning: Viewpoint has closed in on the stove/microwave section of the counter, still with an empty foreground and no arm. | Answer: move to
+sec_0018: Reasoning: Camera is nearly at the counter facing the microwave and fridge, but nothing is grasped or touched — this is the tail of the approach. | Answer: move to
+sec_0021: Reasoning: The microwave fills more of the frame beside the fridge as the base keeps closing distance; no gripper is present. | Answer: move to
+sec_0023: Reasoning: Close-in view of the closed microwave and its door handle, with the arm still out of frame — positioning, not yet acting. | Answer: move to
+sec_0025: Reasoning: The closed microwave is centered at arm's-length range, but no manipulator is visible, so nothing distinguishes this from the final approach step. | Answer: move to
+sec_0027: Reasoning: Microwave door still shut and the arm is only barely entering at the lower right — this is the moment of reaching for the handle, hard to tell from the preceding approach on this frame alone. | Answer: open door
+sec_0029: Reasoning: The gripper is now clamped on the white handle at the right edge of the microwave door, with the door still flush. | Answer: open door
+sec_0031: Reasoning: Gripper holds the door handle and the door face has begun to swing, the dark glass now angled away from flush. | Answer: open door
+sec_0033: Reasoning: The door is visibly rotated open on its hinge while the gripper stays attached to the handle. | Answer: open door
+sec_0035: Reasoning: Door swung further out and the interior with its tray is now exposed, gripper still gripping the handle. | Answer: open door
+sec_0037: Reasoning: The glass door stands clearly angled from the cavity, arm still extended to the handle pulling it outward. | Answer: open door
+sec_0039: Reasoning: The door has opened wide enough that the empty cavity and tray are fully lit, with the gripper still on the handle. | Answer: open door
+sec_0042: Reasoning: Door is now nearly perpendicular to the microwave front, arm still connected at the handle continuing the swing. | Answer: open door
+sec_0044: Reasoning: The door is pulled well past 90°, the cavity fully open, and the gripper remains at the handle. | Answer: open door
+sec_0046: Reasoning: Door hangs fully open against the cabinet with the interior tray exposed and the arm still at the handle finishing the pull. | Answer: open door
+sec_0050: Reasoning: The arm has left the frame and the camera is panning away along the counter with the microwave door left open — the robot is repositioning. | Answer: move to
+sec_0052: Reasoning: Viewpoint has swung to the sink corner with only the countertop and stove in frame; no arm, no contact. | Answer: move to
+sec_0054: Reasoning: The tan popcorn bag is now visible in the corner of the counter but is still distant and untouched, with no gripper in frame. | Answer: move to
+sec_0056: Reasoning: Camera closes in on the popcorn bag on the countertop; the arm has not yet entered the frame. | Answer: move to
+sec_0058: Reasoning: The gripper enters at the right and is extended toward the popcorn bag, though it has not closed on it yet. | Answer: pick up from
+sec_0060: Reasoning: The black fingers are right at the mouth of the tan bag on the counter, closing in on it. | Answer: pick up from
+sec_0063: Reasoning: Gripper is down at the top of the bag making contact while the bag still rests on the countertop. | Answer: pick up from
+sec_0065: Reasoning: The gripper is clamped on the bag's rim with the popcorn contents visible, bag still on the counter surface. | Answer: pick up from
+sec_0067: Reasoning: Bag is held by the gripper and has shifted slightly upward from where it sat on the counter. | Answer: pick up from
+sec_0069: Reasoning: The bag is clearly lifted clear of the countertop, hanging from the gripper with a gap and shadow below it. | Answer: pick up from
+sec_0071: Reasoning: The camera has pulled back and the bag hangs in the gripper above the counter, grasp completed. | Answer: pick up from
+sec_0075: Reasoning: The robot is carrying the grasped bag while the whole kitchen and open microwave come back into view at a distance — transport, not manipulation of a target. | Answer: move to
+sec_0077: Reasoning: Bag stays clamped in the gripper as the viewpoint advances toward the open microwave across the room. | Answer: move to
+sec_0079: Reasoning: The open microwave is now close ahead and the held bag is beside it, but the bag is still outside the cavity. | Answer: move to
+sec_0081: Reasoning: Bag held in gripper is level with the counter next to the open microwave, still short of the opening — end of the carry. | Answer: move to
+sec_0086: Reasoning: The gripper has moved the bag into the microwave's open mouth, the bag now sitting over the interior tray. | Answer: place in
+sec_0088: Reasoning: The bag is inside the cavity resting on the tray with the gripper still attached above it. | Answer: place in
+sec_0090: Reasoning: Bag is seated on the microwave tray and the gripper is still holding it at the top inside the opening. | Answer: place in
+sec_0092: Reasoning: The bag stands inside the microwave with the gripper easing back at the opening after setting it down. | Answer: place in
+sec_0094: Reasoning: Bag remains inside the cavity, the arm now further out of the opening than in previous frames. | Answer: place in
+sec_0096: Reasoning: The bag is settled inside on the tray, with only the dark gripper visible at the right edge of the opening retracting. | Answer: place in
+sec_0098: Reasoning: Bag sits deep in the cavity and the arm is withdrawing across the front of the microwave. | Answer: place in
+sec_0100: Reasoning: The bag is fully placed inside and the arm is pulling back across the open door area. | Answer: place in
+sec_0102: Reasoning: The bag rests in the microwave and the retreating arm no longer overlaps the cavity — release is complete though it's close to a plain retract frame. | Answer: place in
+sec_0105: Reasoning: The arm has come back low and left toward the open door panel with the bag already inside — a reach-for-the-door frame that is only weakly distinguishable from an approach. | Answer: close door
+sec_0107: Reasoning: The gripper is at the outer edge of the swung-open glass door, positioned to push it shut. | Answer: close door
+sec_0109: Reasoning: The door has swung noticeably back toward the cavity while the gripper stays against its outer face. | Answer: close door
+sec_0111: Reasoning: The dark glass door is now almost flush across the microwave front with the arm still pushing it from below-front. | Answer: close door
+sec_0113: Reasoning: Door is fully seated shut, the interior hidden behind dark glass, arm still resting at the door front. | Answer: close door
+sec_0117: Reasoning: With the door closed, the gripper is extended to the right side of the microwave at the control knobs rather than the door. | Answer: turn on switch
+sec_0119: Reasoning: The gripper is right on the knob panel beside the closed door, contacting the controls. | Answer: turn on switch
+sec_0121: Reasoning: Arm is pressed against the microwave's control knobs, the closed door untouched — actuating the controls. | Answer: turn on switch
+sec_0123: Reasoning: Gripper is still at the knobs on the closed microwave's right panel, finishing the control actuation. | Answer: turn on switch

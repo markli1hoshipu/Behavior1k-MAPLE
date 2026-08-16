@@ -1,0 +1,5 @@
+1. hang - The camera is right at the counter/wall: dark cabinets and the framed poster fill much of the frame, the poster is large and close to the grippers, and little or no floor is visible. If a wide stretch of pale wood floor still fills the lower half and the counter is across the room, it is NOT hang, no matter how prominent the cabinets look.
+
+2. move to - Wide view of the room with lots of empty floor, and either (a) both arms hang empty with no small object anywhere, or (b) the small pale object is already held at/touching the left gripper as the robot advances on the kitchen. Frames right at the grasp moment differ from "pick up from" only by whether the object rests on bare floor or sits in the gripper — a few pixels apart and not reliably separable.
+
+3. pick up from - A small pale object is lying on the floor a short distance ahead of and below the outstretched empty hands, with a visible gap of floor between hand and object; the kitchen is still far off. The presence of that object on the floor outweighs the otherwise "distant approach" look — do not call this move to just because the room is far and the arms are empty.

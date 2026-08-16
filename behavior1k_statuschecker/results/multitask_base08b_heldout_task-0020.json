@@ -1,0 +1,1382 @@
+{
+  "task_chunk": "task-0020",
+  "tag": "heldout",
+  "accuracy": 0.2602040816326531,
+  "macro_recall": 0.26404755138770486,
+  "correct": 51,
+  "total": 196,
+  "predictions": [
+    {
+      "sec": 5,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is in a kitchen setting with a stovetop and red backsplash. There is no hand visible, no basket, and no vegetables in the frame.\nAnswer: 1. move to",
+      "correct": true
+    },
+    {
+      "sec": 18,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The basket in the foreground contains vegetables, and the hand is positioned right at the rim of the basket, indicating the action of picking up the vegetables from the basket.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 56,
+      "gt": "move to",
+      "pred": null,
+      "raw": "Reasoning: The robot is in a kitchen setting with a red bowl on the counter. The subskill is \"place in\" because the red bowl is clearly visible and the robot's hands are positioned right at its rim, indicating an action of placing a vegetable into it.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 142,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables inside, and the basket is close to the camera, indicating the action of picking up from the basket.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 168,
+      "gt": "move to",
+      "pred": null,
+      "raw": "Reasoning: The robot is in a kitchen setting with a microwave and cabinets visible. The camera is positioned over a wooden counter, and there is a basket of vegetables on the counter. The robot's hands are not visible in the frame, so it cannot be performing any action like picking up, placing, or moving.\nAnswer: 1.",
+      "correct": false
+    },
+    {
+      "sec": 180,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is in a kitchen area with a long wooden counter and several white stools. There is no hand visible in the frame, and no vegetables are present in the scene.\nAnswer: 1. move to",
+      "correct": true
+    },
+    {
+      "sec": 193,
+      "gt": "move to",
+      "pred": null,
+      "raw": "Reasoning: The robot is in a living room setting with a large brown sofa and a white coffee table. There is no hand visible in the frame, and no vegetables are present in the scene. Therefore, the subskill cannot be determined.\nAnswer: 5",
+      "correct": false
+    },
+    {
+      "sec": 223,
+      "gt": "move to",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a basket containing vegetables, and the hand is right at the rim of the basket, indicating it is in the process of placing the vegetables into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 236,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the basket is close to the camera, filling a significant portion of the view, which indicates the action of picking up from.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 3,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is in a kitchen setting with a red bowl on the counter. The basket in the bottom right corner contains vegetables, and the hand is positioned right at the rim of the basket, indicating the robot is about to pick up the vegetables.\nAnswer: 1. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 67,
+      "gt": "move to",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the red bowl is visible in the background, indicating the action is to place the vegetables into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 145,
+      "gt": "move to",
+      "pred": null,
+      "raw": "Reasoning: The robot is in a kitchen setting with a countertop and red bowls. The red bowl on the right is close and clearly in view, and there is a hand right at its rim, indicating the robot is about to place the vegetables into it.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 179,
+      "gt": "move to",
+      "pred": null,
+      "raw": "Reasoning: The robot is in a living room with a large glass door and a fireplace. There is no hand visible, no basket, and no vegetables in the frame.\nAnswer: 1",
+      "correct": false
+    },
+    {
+      "sec": 192,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is in a kitchen setting with a counter and a basket of vegetables visible. The robot's hands are not holding the vegetables, and the basket is not filled, so the action is not pick up from.\nAnswer: 1. move to",
+      "correct": true
+    },
+    {
+      "sec": 205,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is in a kitchen setting with a microwave and countertop visible. There is no hand holding a basket or vegetables, and no red bowl is present in the frame.\nAnswer: 1. move to",
+      "correct": true
+    },
+    {
+      "sec": 218,
+      "gt": "move to",
+      "pred": null,
+      "raw": "Reasoning: The basket in the foreground contains vegetables, and the red bowl is positioned right next to it, indicating the robot is in the process of placing the vegetables into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 257,
+      "gt": "move to",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the red bowl is close and clearly in view with a hand right at its rim, usually with a vegetable at the hand or already sitting in the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 270,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The basket in the foreground contains vegetables, and the hands are visible holding it, indicating the robot is in the process of picking it up.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 313,
+      "gt": "move to",
+      "pred": null,
+      "raw": "Reasoning: The robot's subskill is \"place in\" because a hand is holding a basket with vegetables, and the basket is close to the camera, filling a significant portion of the view.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 7,
+      "gt": "move to",
+      "pred": null,
+      "raw": "Reasoning: The frame shows a red bowl on the counter with a hand touching its rim, indicating the robot is in the process of placing a vegetable into it.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 20,
+      "gt": "move to",
+      "pred": null,
+      "raw": "Reasoning: The robot is in a kitchen setting with a microwave and stove visible. There is no hand, basket, or bowl in the frame, so the subskill cannot be determined.\nAnswer: 5. Note",
+      "correct": false
+    },
+    {
+      "sec": 33,
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is in a dining area with a basket containing vegetables. The basket is close to the camera and appears to be empty, with no vegetables visible inside.\nAnswer: 4. place on",
+      "correct": false
+    },
+    {
+      "sec": 71,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the basket is close to the camera, filling a significant portion of the view, which indicates the robot is in the process of picking up the vegetables from the basket.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 84,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the basket is close to the camera, filling a significant portion of the view, which indicates the robot is in the process of picking up the vegetables from the basket.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 140,
+      "gt": "move to",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the hand is right at the rim of the basket, indicating it is in the process of placing the vegetables into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 153,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The basket in the foreground contains vegetables, and the red bowl is visible on the counter, indicating the task of sorting vegetables into the bowl is relevant.\nAnswer: 1. move to",
+      "correct": true
+    },
+    {
+      "sec": 166,
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is in a kitchen setting with a red bowl on a counter. The red bowl is clearly visible and appears to be empty, with no hand holding it or vegetables inside.\nAnswer: 4. place on",
+      "correct": false
+    },
+    {
+      "sec": 231,
+      "gt": "move to",
+      "pred": null,
+      "raw": "Reasoning: The robot is in a kitchen setting with a red bowl and a basket visible. The basket is empty, and the bowl is empty, so the robot is not picking up or placing vegetables. The robot is not holding the basket or bowl, so it is not placing them on the counter. The robot is not holding the basket or bowl",
+      "correct": false
+    },
+    {
+      "sec": 257,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is in a kitchen setting, and the only visible object is a basket containing vegetables, which is the only object that could be the target for the subskill.\nAnswer: 1. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 270,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is in a dining area with a long white table and chairs. There is a basket on the floor with vegetables inside, and a hand is visible near it, suggesting the robot is interacting with the basket.\nAnswer: 1. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 302,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket containing vegetables, and the hands are positioned right at the rim of the basket, indicating the action of picking up from the basket.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 315,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the basket is close to the camera, filling a significant portion of the view, which indicates the action of picking up from.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 328,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the basket is close to the camera, filling a significant portion of the view, which indicates the robot is in the process of picking up the vegetables.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 5,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is in a kitchen setting with a red bowl on the counter, and the task is to sort vegetables into it. The robot is not holding any vegetables or a basket, so it is not in the \"pick up from\" or \"place in\" state. The robot is not holding an empty basket, so it is not",
+      "correct": false
+    },
+    {
+      "sec": 18,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The basket on the counter contains vegetables, and the robot's hands are not visible in the frame, so the action is not \"pick up from\". The robot is not holding an empty basket, so it is not \"place on\". The robot is not placing a red bowl, so it is not \"place in\". The robot is",
+      "correct": false
+    },
+    {
+      "sec": 50,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket containing vegetables, which is the only object in the frame.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 105,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the basket is close to the camera, filling a significant portion of the view, which matches the description of \"pick up from\".\nAnswer: 1. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 170,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is not holding any object, and the hands are not visible in the frame, so \"pick up from\" is incorrect. The robot is not placing anything in or on a bowl, so \"place in\" and \"place on\" are incorrect. The robot is not holding an empty basket, so \"place on\" is",
+      "correct": false
+    },
+    {
+      "sec": 182,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The basket in the foreground contains pink and green vegetables, and a hand is visible right at the rim of the basket, indicating the robot is in the process of picking up the vegetables.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 211,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket containing vegetables, and the basket is close to the camera, filling a significant portion of the view, which indicates the action of picking up from.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 224,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the basket is close to the camera, filling a significant portion of the view, which indicates the action of picking up from.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 275,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables inside, and the basket is close to the camera, indicating the action of picking up from the basket.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 4,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is not holding any vegetables or a basket, so it cannot be in \"pick up from\" or \"place in\". The camera is looking across the room at a counter, bowl, or basket that is still some distance away, so it cannot be in \"move to\". The robot is not hovering over a counter surface,",
+      "correct": false
+    },
+    {
+      "sec": 17,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is in a kitchen setting with two baskets containing vegetables. The robot is not holding any object, so it cannot be in \"pick up from\" or \"place in\". The robot is not holding an empty basket, so it cannot be in \"place on\". The robot is not touching a full basket, so it cannot be",
+      "correct": false
+    },
+    {
+      "sec": 44,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the basket is close to the camera, filling a significant portion of the view, which indicates the action of picking up from.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 137,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's hand is holding a basket containing vegetables, and the basket is close to the camera, filling a significant portion of the view.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 170,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is in a kitchen setting with a red bowl on the counter and a basket with vegetables on the floor. The basket is not being picked up, nor is it being placed in a bowl. The robot is not holding the basket or any other object.\nAnswer: 1. move to",
+      "correct": true
+    },
+    {
+      "sec": 183,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is in a kitchen setting with a large black oven and a wooden countertop visible. There is no hand holding a basket or vegetables, and no bowl is present in the frame.\nAnswer: 1. move to",
+      "correct": true
+    },
+    {
+      "sec": 196,
+      "gt": "move to",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is in a dining area with a table and chairs, not near a kitchen counter or bowl. The basket in the foreground is empty, and there are no vegetables visible. Therefore, the subskill is not pick up from, place in, or place on.\nAnswer: 1. move to",
+      "correct": true
+    },
+    {
+      "sec": 208,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is in a kitchen setting with a counter and a basket of vegetables visible. The robot is not holding any object, so it cannot be in \"pick up from\" or \"place in\". The basket is not close enough to be \"place on\" or \"place in\" (it's too far away). The robot is",
+      "correct": false
+    },
+    {
+      "sec": 233,
+      "gt": "move to",
+      "pred": null,
+      "raw": "Reasoning: The robot's hands are visible in the bottom right corner, holding an empty basket with no vegetables inside, positioned over a counter surface.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 246,
+      "gt": "move to",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's hands are visible at the bottom of the frame, holding an empty basket with no vegetables inside, positioned over the counter surface.\nAnswer: 4. place on",
+      "correct": false
+    },
+    {
+      "sec": 279,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the basket is close to the camera, filling a significant portion of the view, which indicates the action of picking up from.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 292,
+      "gt": "move to",
+      "pred": "pick up from",
+      "raw": "Reasoning: The basket in the foreground contains vegetables, and the hands are visible holding it, indicating the action of picking up from the basket.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 33,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the hand is right at the rim of the basket, indicating it is in the process of picking up the vegetables.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 66,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the basket is close to the camera, filling a significant portion of the view, which indicates the robot is in the process of picking up the vegetables from the basket.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 95,
+      "gt": "pick up from",
+      "pred": "place in",
+      "raw": "Reasoning: The robot's subskill is \"place in\" because a hand is holding a basket containing vegetables, and the basket is positioned over a red bowl, indicating the action of putting the vegetables into the bowl.",
+      "correct": false
+    },
+    {
+      "sec": 127,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot's subskill is \"place in\" because a hand is holding a basket containing vegetables, and the basket is close to the camera, filling a significant portion of the view.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 215,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket containing vegetables, and the hands are right at the basket, indicating the action of picking up from.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 258,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables inside, and the basket is close to the camera, filling a significant portion of the view, which indicates the action of picking up from.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 280,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's hands are holding a basket containing vegetables, and the basket is close to the camera, filling a significant portion of the view.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 301,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the hand is touching the basket, indicating the action of picking up from.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 337,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a basket with vegetables inside, and the red bowl is close and clearly in view with a hand right at its rim, usually with a vegetable at the hand or already sitting in the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 20,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the basket is close to the camera, filling a significant portion of the view, which indicates it is in the process of picking up from the basket.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 37,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding an empty basket with no vegetables in it, close to the camera and hovering just over a counter surface.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 63,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the basket is close to the camera, filling a significant portion of the view, which indicates the action of picking up from.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 91,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the basket is close to the camera, filling a significant portion of the view, which indicates the action of picking up from.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 116,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the basket is close to the camera, filling a significant portion of the view, which indicates the action of picking up from.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 226,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot is in a kitchen setting with a large island counter. There is a basket on the counter with a vegetable inside, and the robot's hands are positioned over the counter, indicating it is about to place the vegetable into the basket.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 244,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket containing corn and green vegetables, which is the only object in the frame.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 305,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the basket is close to the camera, filling a significant portion of the view, which indicates the action of picking up from.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 331,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with two corn cobs, and the basket is close to the camera, filling a significant portion of the view, which matches the description of \"pick up from\".\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 44,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is not holding any vegetables or a hand at the rim of a bowl. The only visible object is a basket with vegetables, and the robot is looking across the room at it, not interacting with it.\nAnswer: 1. move to",
+      "correct": false
+    },
+    {
+      "sec": 61,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the hands are positioned right at the rim of the basket, indicating the action of picking up from the basket.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 103,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a basket with vegetables inside, and the basket is close to the camera, indicating the action is \"pick up from\".\nAnswer: 2",
+      "correct": false
+    },
+    {
+      "sec": 128,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot's subskill is \"place in\" because a hand is holding a basket containing vegetables, and the basket is positioned over a red bowl, indicating the action of putting the vegetables into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 186,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables inside, and the basket is close to the camera, filling a significant portion of the view, which matches the description of \"pick up from\".\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 205,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a basket containing green vegetables, and the basket is close to the camera, filling a significant portion of the view, which aligns with the \"pick up from\" subskill.\nAnswer: 2",
+      "correct": false
+    },
+    {
+      "sec": 286,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's hands are visible in the bottom left and bottom right corners, holding a basket containing vegetables, indicating the action of picking up from the basket.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 333,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's hands are holding a basket containing vegetables, and the basket is close to the camera, filling a significant portion of the view.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 358,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot's arm is holding a basket containing vegetables, and the basket is close to the camera, filling a significant portion of the view, which aligns with the \"pick up from\" subskill.\nAnswer: 2",
+      "correct": false
+    },
+    {
+      "sec": 383,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's subskill is \"pick up from\" because a hand is right at a basket that still holds vegetables, touching or closing around them, and that full basket fills a large part of the view.",
+      "correct": true
+    },
+    {
+      "sec": 27,
+      "gt": "pick up from",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is in a kitchen setting with a basket containing vegetables (corn, green peppers) in the foreground. The hands are not visible in the frame, so the action of picking up or placing is not possible.\nAnswer: 1. move to",
+      "correct": false
+    },
+    {
+      "sec": 58,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket containing vegetables, and the hands are positioned right at the rim of the basket, indicating the action of picking up from the basket.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 85,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot's subskill is \"place in\" because a hand is right at the rim of a red bowl, and a green vegetable is visible inside it.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 118,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot's subskill is \"place in\" because a hand is right at the rim of a red bowl, and a basket with vegetables is visible nearby, indicating the action of putting vegetables into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 191,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is in a kitchen setting with a basket containing pink vegetables in the foreground, and the subskill is to sort them into a bowl, so the robot is likely picking up the vegetables from the basket.\nAnswer: 1. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 234,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the basket is close to the camera, filling a significant portion of the view, which indicates the action of picking up from.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 260,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables inside, and the basket is close to the camera, indicating the action of picking up from the basket.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 289,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot's subskill is \"place in\" because a hand is holding a red bowl with vegetables inside it, and the bowl is close to the camera, indicating the action of placing the vegetables into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 34,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot's subskill is \"place in\" because a hand is holding a basket containing vegetables, and the basket is close to the camera, filling a significant portion of the view.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 62,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the basket is close to the camera, filling a significant portion of the view, which indicates the action of picking up from.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 92,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the hands are right at the rim of the basket, indicating it is in the process of picking up the vegetables.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 115,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a basket with corn on the cob, and the basket is close to the camera, indicating the action is \"pick up from\".\nAnswer: 2",
+      "correct": false
+    },
+    {
+      "sec": 147,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with corn and vegetables, and the basket is close to the camera, indicating the action is \"pick up from\".\nAnswer: 1. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 260,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the hands are right at the basket, touching or closing around them, indicating the action of picking up from.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 301,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the basket is close to the camera, filling a significant portion of the view, which indicates the action of picking up from.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 325,
+      "gt": "pick up from",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket containing vegetables, and the basket is close to the camera, filling a significant portion of the view, which indicates the action of picking up from.\nAnswer: 2. pick up from",
+      "correct": true
+    },
+    {
+      "sec": 360,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a basket containing vegetables, and the hand is right at the rim of the basket, indicating it is in the process of placing the vegetables into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 381,
+      "gt": "pick up from",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a basket with vegetables inside, and the subskill is \"pick up from\" as the robot is actively grasping the basket.\nAnswer: 2",
+      "correct": false
+    },
+    {
+      "sec": 74,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's right hand is holding a basket containing vegetables, and the basket is close to the camera, filling a significant portion of the view.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 87,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The robot's subskill is \"place in\" because a hand is holding a basket with vegetables inside, and the basket is positioned over a red bowl, which is the correct action for placing vegetables into a bowl.\nAnswer: \"place in\"",
+      "correct": true
+    },
+    {
+      "sec": 102,
+      "gt": "place in",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the basket is close to the camera, filling a significant portion of the view, which matches the description of \"pick up from\".\nAnswer: 2",
+      "correct": false
+    },
+    {
+      "sec": 120,
+      "gt": "place in",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a basket with a yellow vegetable inside, and the basket is positioned over a counter, indicating the action of placing the vegetable into a bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 136,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables inside, and the basket is close to the camera, indicating the action of picking up from the basket.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 251,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket containing vegetables, and the basket is close to the camera, filling a significant portion of the view, which indicates the action of picking up from.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 274,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables inside, and the basket is close to the camera, indicating the action is \"pick up from\".\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 291,
+      "gt": "place in",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the red bowl is close and clearly in view with a hand right at its rim, usually with a vegetable at the hand or already sitting in the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 308,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the basket is close to the camera, filling a significant portion of the view, which matches the description of \"pick up from\".\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 332,
+      "gt": "place in",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a basket with a pink vegetable inside, and the basket is positioned over a counter, indicating the action of placing the vegetable into a bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 346,
+      "gt": "place in",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding an empty basket over a counter, with no vegetables visible inside, and the hands are positioned to place the basket on the surface.\nAnswer: 4. place on",
+      "correct": false
+    },
+    {
+      "sec": 52,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's right hand is holding a basket containing vegetables, and the basket is close to the camera, filling a significant portion of the view.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 83,
+      "gt": "place in",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the hand is right at the rim of the basket, indicating it is in the process of placing the vegetables into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 94,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables inside, and the basket is close to the camera, filling a significant portion of the view, which indicates the action of picking up from.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 120,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the hand is right at the rim of the basket, indicating it is in the process of picking up the vegetables from the basket.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 137,
+      "gt": "place in",
+      "pred": null,
+      "raw": "Reasoning: The robot's subskill is \"pick up from\" because a hand is right at a basket that still holds vegetables, touching or closing around them, and that full basket fills a large part of the view.\nAnswer: 2",
+      "correct": false
+    },
+    {
+      "sec": 285,
+      "gt": "place in",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the hand is right at the rim of the basket, indicating it is in the process of placing the vegetables into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 299,
+      "gt": "place in",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the red bowl is close and clearly in view with a hand right at its rim, usually with a vegetable at the hand or already sitting in the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 317,
+      "gt": "place in",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's right hand is holding a basket containing corn cobs, which is the only object in the frame. The task is to sort vegetables into bowls, but no vegetables are visible in the basket.\nAnswer: 4. place on",
+      "correct": false
+    },
+    {
+      "sec": 339,
+      "gt": "place in",
+      "pred": null,
+      "raw": "Reasoning: The robot's right hand is holding a basket containing two corn cobs, which are clearly visible and are being placed into a red bowl on the counter.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 352,
+      "gt": "place in",
+      "pred": null,
+      "raw": "Reasoning: The robot's right hand is holding a basket containing a yellow vegetable, and the basket is positioned over a counter surface, indicating the action of placing the vegetable into a bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 365,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables inside, and the red bowl is visible in the background, indicating the task of sorting vegetables into the bowl.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 137,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the basket is close to the camera, indicating the action is \"pick up from\".\nAnswer: \"pick up from\"",
+      "correct": false
+    },
+    {
+      "sec": 192,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket containing vegetables, and the basket is close to the camera, filling a significant portion of the view, which indicates the action of picking up from.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 222,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables inside, and the basket is close to the camera, filling a significant portion of the view.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 349,
+      "gt": "place in",
+      "pred": null,
+      "raw": "Reasoning: The robot's right hand is holding a basket containing yellow vegetables, and the basket is positioned over a counter surface, indicating the action of placing the vegetables into a bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 363,
+      "gt": "place in",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is holding a basket with corn on the counter, and the red bowl is visible on the left, but the robot is not placing the basket into the bowl.\nAnswer: 1. move to",
+      "correct": false
+    },
+    {
+      "sec": 389,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with a yellow vegetable inside, and the basket is close to the camera, indicating the action of picking up from a basket.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 402,
+      "gt": "place in",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a basket with vegetables inside, and the hand is right at the rim of the basket, indicating it is in the process of placing the vegetables into the red bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 62,
+      "gt": "place in",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a basket containing vegetables, and the subskill is \"pick up from\" because the robot is actively grasping the basket to move it.\nAnswer: 2",
+      "correct": false
+    },
+    {
+      "sec": 68,
+      "gt": "place in",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the basket is close to the camera, indicating the action is \"pick up from\".\nAnswer: 2",
+      "correct": false
+    },
+    {
+      "sec": 95,
+      "gt": "place in",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the basket is close to the camera, filling a significant portion of the view, which matches the description of \"pick up from\".\nAnswer: 2",
+      "correct": false
+    },
+    {
+      "sec": 136,
+      "gt": "place in",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a basket with vegetables inside, and the basket is positioned over a red bowl on the counter, indicating the action of placing the vegetables into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 258,
+      "gt": "place in",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is holding a basket with vegetables inside, and the red bowl is visible on the counter, indicating the task of sorting vegetables into the bowl.\nAnswer: 3. place in",
+      "correct": true
+    },
+    {
+      "sec": 301,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the basket is close to the camera, filling a significant portion of the view, which indicates the action of picking up from.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 74,
+      "gt": "place in",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the hand is right at the rim of the basket, indicating it is in the process of placing the vegetables into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 97,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with corn on the counter, and the basket is not empty, so it is not \"pick up from\". The basket is not empty, so it is not \"place on\". The basket is not empty, so it is not \"place in\". The robot is holding a basket with corn on the counter",
+      "correct": false
+    },
+    {
+      "sec": 122,
+      "gt": "place in",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a basket with corn on the cob, and the basket is close to the camera, indicating the action is \"pick up from\".\nAnswer: 2",
+      "correct": false
+    },
+    {
+      "sec": 142,
+      "gt": "place in",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the red bowl is close and clearly in view with a hand right at its rim, usually with a vegetable at the hand or already sitting in the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 162,
+      "gt": "place in",
+      "pred": null,
+      "raw": "Reasoning: The robot's subskill is \"place in\" because a hand is holding a red bowl with a green vegetable inside, and the bowl is close to the camera, indicating the action of placing the vegetable into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 315,
+      "gt": "place in",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the red bowl is close and clearly in view with a hand right at its rim, usually with a vegetable at the hand or already sitting in the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 351,
+      "gt": "place in",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the red bowl is close and clearly in view with a hand right at its rim, usually with a vegetable at the hand or already sitting in the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 372,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the hand is right at the rim of the basket, indicating it is in the process of picking up the vegetables.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 386,
+      "gt": "place in",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket containing vegetables, and the basket is close to the camera, filling a significant portion of the view, which indicates the action of picking up from.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 400,
+      "gt": "place in",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a basket with vegetables inside, and the red bowl is visible on the left, but the robot is not placing the vegetables into the bowl or placing the basket on the counter.\nAnswer: 2",
+      "correct": false
+    },
+    {
+      "sec": 144,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables inside, and the basket is close to the camera, filling a significant portion of the view.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 148,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables inside, and the red bowl is visible on the left, indicating the task of sorting vegetables into the bowl.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 151,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding a basket with no vegetables, and the basket is close to the camera, hovering just over a counter surface.\nAnswer: 4. place on",
+      "correct": true
+    },
+    {
+      "sec": 154,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding a basket with no vegetables, and the hands are hovering over a white counter surface, indicating the action of placing the basket on the counter.\nAnswer: 4. place on",
+      "correct": true
+    },
+    {
+      "sec": 351,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding an empty basket over a counter, with no vegetables visible inside, and the hands are empty, indicating the action of placing the basket on the counter.\nAnswer: 4. place on",
+      "correct": true
+    },
+    {
+      "sec": 354,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding an empty basket over a counter, with no vegetables visible inside, and the hands are empty, indicating the action is about to be placed on the surface.\nAnswer: 4. place on",
+      "correct": true
+    },
+    {
+      "sec": 357,
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding an empty basket over a counter, with no vegetables visible inside, and the hands are positioned to pick it up.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 361,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the basket is close to the camera, indicating the action is \"pick up from\".\nAnswer: 1. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 364,
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The robot's subskill is \"place in\" because a red bowl is close and clearly in view with a hand right at its rim, and a vegetable is visible at the hand.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 367,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is in a kitchen setting with red bowls and baskets on a counter. The basket on the right is empty, and the hand is not visible in the frame, so the action is not \"pick up from\". The hand is not visible in the frame, so the action is not \"place in\". The hand is not visible",
+      "correct": false
+    },
+    {
+      "sec": 371,
+      "gt": "place on",
+      "pred": "move to",
+      "raw": "Reasoning: The red bowl is clearly visible on the left, and the basket with vegetables is on the right, indicating the task is to move the basket to the bowl.\nAnswer: 1. move to",
+      "correct": false
+    },
+    {
+      "sec": 155,
+      "gt": "place on",
+      "pred": "move to",
+      "raw": "Reasoning: The robot's hands are visible in the bottom left corner, holding a white remote control, not vegetables. The basket in the foreground is empty and not touching the camera. The hand is not at a red bowl. Therefore, the subskill is \"move to\".",
+      "correct": false
+    },
+    {
+      "sec": 158,
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The robot's hands are holding an empty basket with no vegetables, hovering just over a counter surface.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 161,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's hands are holding a basket with vegetables inside, and the basket is close to the camera, indicating the action of picking up from a basket.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 165,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables inside, and the basket is close to the camera, indicating the action of picking up from.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 168,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's hands are positioned over a basket containing vegetables, indicating the action of picking up from the basket.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 171,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's hands are visible in the bottom foreground, holding an empty basket with no vegetables inside, positioned over a counter surface.\nAnswer: 4. place on",
+      "correct": true
+    },
+    {
+      "sec": 366,
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a basket with vegetables inside, and the hand is right at the rim of the basket, indicating it is in the process of placing the vegetables into the red bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 369,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding a basket with no vegetables, and the basket is close to the camera, hovering just over a counter surface.\nAnswer: 4. place on",
+      "correct": true
+    },
+    {
+      "sec": 372,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding an empty basket over a counter, with no vegetables visible inside, indicating it is in the \"place on\" subskill.\nAnswer: \"place on\"",
+      "correct": true
+    },
+    {
+      "sec": 376,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding a basket with no vegetables inside, and the hands are positioned over a counter surface, indicating the action of placing the basket on the counter.\nAnswer: 4. place on",
+      "correct": true
+    },
+    {
+      "sec": 379,
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a basket with vegetables inside, and the hands are positioned to pick it up, which aligns with the \"pick up from\" subskill.\nAnswer: 2",
+      "correct": false
+    },
+    {
+      "sec": 382,
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding an empty basket with no vegetables, hovering just over a counter surface.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 240,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding a basket with no vegetables, and the basket is close to the camera, hovering just over a counter surface.\nAnswer: 4. place on",
+      "correct": true
+    },
+    {
+      "sec": 243,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding a basket with no vegetables, and the basket is close to the camera, hovering just over the counter surface.\nAnswer: 4. place on",
+      "correct": true
+    },
+    {
+      "sec": 246,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables inside, and the hands are positioned to pick it up, indicating the action of picking up from.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 250,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot's hands are positioned over a basket containing vegetables, with the hands touching or closing around the basket, indicating the action of picking up from the basket.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 409,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's hands are visible in the bottom left corner, holding a basket with no vegetables inside, and the basket is positioned over a counter surface.\nAnswer: 4. place on",
+      "correct": true
+    },
+    {
+      "sec": 412,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables inside, and the hand is right at the rim of the basket, indicating it is in the process of picking up the vegetables.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 416,
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding an empty basket over a white counter surface, with no vegetables visible inside.\nAnswer: 4",
+      "correct": false
+    },
+    {
+      "sec": 419,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the basket is close to the camera, filling a significant portion of the view.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 422,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is in a kitchen setting with red bowls containing vegetables. The robot is not holding any vegetables or a basket, so it cannot be in \"pick up from\" or \"place in\". The robot is not holding an empty basket, so it cannot be in \"place on\". The robot is not touching a full basket, so",
+      "correct": false
+    },
+    {
+      "sec": 145,
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a basket with vegetables inside, and the red bowl is visible in the background, indicating the action of placing the vegetables into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 149,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables inside, and the basket is close to the camera, filling a significant portion of the view.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 152,
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a basket with vegetables inside, and the hand is right at the rim of the basket, indicating it is in the process of placing the vegetables into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 155,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables inside, and the hand is right at the rim of the basket, indicating it is in the process of picking up the vegetables.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 159,
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The red bowl is clearly visible in the upper right, and the basket is in the center of the frame, indicating the robot is in the process of placing the basket into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 162,
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The red bowl is clearly visible with a hand right at its rim, and a basket is present on the counter, indicating the task of placing vegetables into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 165,
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The red bowl is clearly visible with a hand right at its rim, and there is a basket with vegetables sitting on the counter, indicating the task of sorting vegetables into the bowl is in progress.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 305,
+      "gt": "place on",
+      "pred": "move to",
+      "raw": "Reasoning: The robot is in a kitchen setting with a red bowl containing vegetables on the counter. The basket in the foreground is empty, and the hand is not visible, so the action is not pick up or place in.\nAnswer: 1. move to",
+      "correct": false
+    },
+    {
+      "sec": 308,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the basket is close to the camera, filling a significant portion of the view.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 311,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables inside, and the basket is close to the camera, filling a significant portion of the view.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 315,
+      "gt": "place on",
+      "pred": "place in",
+      "raw": "Reasoning: The robot is in a kitchen setting with a red bowl on the counter and a basket on the floor. The basket is empty, and the red bowl is clearly visible, indicating the task is to place the empty basket into the bowl.\nAnswer: 3. place in",
+      "correct": false
+    },
+    {
+      "sec": 218,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables inside, and the basket is close to the camera, filling a significant portion of the view.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 221,
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a basket with vegetables inside, and the hand is right at the rim of the basket, indicating it is in the process of placing the vegetables into the bowl.\nAnswer: 3",
+      "correct": false
+    },
+    {
+      "sec": 225,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables inside, and the hands are right at the rim of the basket, indicating the action of picking up from.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 228,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables, and the basket is close to the camera, filling a significant portion of the view, which indicates the action of picking up from.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 415,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The robot is holding a basket with no vegetables, and the basket is close to the camera, hovering just over a counter surface.\nAnswer: 4. place on",
+      "correct": true
+    },
+    {
+      "sec": 419,
+      "gt": "place on",
+      "pred": null,
+      "raw": "Reasoning: The robot is holding a basket with vegetables inside, and the hands are positioned to pick it up, which aligns with the \"pick up from\" subskill.\nAnswer: 2",
+      "correct": false
+    },
+    {
+      "sec": 422,
+      "gt": "place on",
+      "pred": "pick up from",
+      "raw": "Reasoning: The robot is holding a basket with vegetables inside, and the hands are right at the rim of the basket, indicating the action of picking up from the basket.\nAnswer: 2. pick up from",
+      "correct": false
+    },
+    {
+      "sec": 425,
+      "gt": "place on",
+      "pred": "place on",
+      "raw": "Reasoning: The robot's hands are holding an empty basket with no vegetables, hovering just over a counter surface.\nAnswer: 4. place on",
+      "correct": true
+    }
+  ]
+}
