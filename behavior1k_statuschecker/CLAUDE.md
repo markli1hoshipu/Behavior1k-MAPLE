@@ -181,11 +181,24 @@ to read without zooming. Content to cover:
   its prediction vs. ground truth, for at least one correct and one wrong
   example (the `demo/*.mp4` videos and the still-frame renders in
   `pipeline/build_demo_video_v3.py` are the source material for these)
-- **Demo videos must be embedded IN the deck** (`slide.shapes.add_movie()` -
-  see `build_results_ppt.py` for the pattern, including generating a poster
-  frame per video with `cv2`), not just linked or left as a separate file -
-  they're the clearest way to show what the model is actually doing
-  frame-by-frame, and a reviewer should never have to leave the PPT to see
-  one. This does make the file large (tens of MB per embedded video, expect
-  the whole deck to land in the 50-100MB range) - that's an accepted
-  tradeoff, not a reason to link instead.
+- **Do NOT embed video files in the PPT.** `python-pptx`'s `add_movie()`
+  embeds whatever container/codec the source file has - the demo videos are
+  written by `cv2.VideoWriter` with the `mp4v` fourcc, which produces
+  MPEG-4 Part 2 (FFmpeg reports it as `FMP4`), not H.264. PowerPoint on
+  Windows relies on Windows Media Foundation for embedded-video playback,
+  which reliably supports H.264 but does NOT reliably support MPEG-4 Part 2
+  on a stock install - so an embedded video can silently fail to play even
+  in genuine PowerPoint, not just LibreOffice. Re-encoding to H.264 in this
+  environment isn't a quick fix either: OpenCV's bundled FFmpeg here only
+  exposes a hardware H.264 encoder (`h264_v4l2m2m`) with no available device,
+  and there's no system `ffmpeg` binary or sudo to install one (`av`/PyAV
+  does carry a working software `libx264` encoder if this gets revisited).
+- **Instead: put one representative frame from each example video directly
+  in the deck** (a full slide image, same as the correct/wrong-prediction
+  example slides - `build_demo_video_v3.py`'s `render_slide()` is the source
+  for these), and **put the full video files in a sibling folder next to the
+  PPT**, named `<ppt-basename>_videos/`. E.g. if the deck is
+  `results/ppt/20260824_statuschecker_results.pptx`, the videos go in
+  `results/ppt/20260824_statuschecker_results_videos/`. Reference that folder
+  name on the frame's slide (e.g. in the subtitle or a caption) so a reader
+  knows where to find the playable version.

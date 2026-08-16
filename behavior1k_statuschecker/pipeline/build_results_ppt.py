@@ -1,10 +1,13 @@
 """Build a results deck: training configs, headline metrics (overall/skill/object
 macro recall, base vs. LoRA), per-task breakdowns, example input/output frames, and
-embedded demo videos. Named by date into results/ppt/.
+one representative frame per demo video (full videos ship in a sibling
+<ppt-basename>_videos/ folder - see CLAUDE.md for why they aren't embedded).
+Named by date into results/ppt/.
 """
 import csv
 import datetime
 import os
+import shutil
 from collections import defaultdict
 
 from pptx import Presentation
@@ -286,16 +289,29 @@ box.text_frame.paragraphs[0].font.size = Pt(14)
 box.text_frame.paragraphs[0].font.italic = True
 
 # ---------------------------------------------------------------- slides 10-11: demo videos
+# Not embedded (see CLAUDE.md: mp4v/FMP4-encoded demo videos aren't reliably
+# playable even from genuine PowerPoint) - one representative frame per video
+# goes in the deck, the actual mp4 files ship in a sibling <ppt-basename>_videos/
+# folder instead.
+PPT_BASENAME = f"{datetime.date.today().isoformat()}_statuschecker_results"
+VIDEOS_DIR = f"{PPT_DIR}/{PPT_BASENAME}_videos"
+os.makedirs(VIDEOS_DIR, exist_ok=True)
+
 for fname, title, subtitle in [
     ("lora_v3_10task4ep_task-0072_cook_a_frozen_pie", "Demo video: cook_a_frozen_pie", "77.1% macro recall, 4-epoch 10-task model"),
     ("lora_v3_10task4ep_task-0016_moving_boxes_to_storage", "Demo video: moving_boxes_to_storage", "76.7% macro recall, 4-epoch 10-task model"),
 ]:
     slide = new_slide()
     add_title(slide, title, subtitle)
-    slide.shapes.add_movie(
-        f"{ROOT}/demo/{fname}.mp4", Inches(2.3), Inches(1.1), width=Inches(8.7), height=Inches(6.0),
-        poster_frame_image=f"{ASSETS_DIR}/{fname}_poster.png",
-    )
+    slide.shapes.add_picture(f"{ASSETS_DIR}/{fname}_poster.png", Inches(2.3), Inches(1.1), height=Inches(5.6))
+    cap_box = slide.shapes.add_textbox(Inches(0.5), Inches(6.85), Inches(12.3), Inches(0.4))
+    cap = cap_box.text_frame.paragraphs[0]
+    cap.text = f"Representative frame only - full video: {PPT_BASENAME}_videos/{fname}.mp4"
+    cap.font.size = Pt(13)
+    cap.font.italic = True
+    cap.font.color.rgb = GRAY
+    cap.font.name = BODY_FONT
+    shutil.copy(f"{ROOT}/demo/{fname}.mp4", f"{VIDEOS_DIR}/{fname}.mp4")
 
 # ---------------------------------------------------------------- slide 12: next steps
 slide = new_slide()
@@ -309,6 +325,7 @@ add_bullets(slide, [
     "   precedes \"pick up from X\"); encoding that structure could clean up sequence-inconsistent predictions",
 ])
 
-out_path = f"{PPT_DIR}/{datetime.date.today().isoformat()}_statuschecker_results.pptx"
+out_path = f"{PPT_DIR}/{PPT_BASENAME}.pptx"
 prs.save(out_path)
 print(f"wrote {out_path}")
+print(f"wrote videos to {VIDEOS_DIR}/")
